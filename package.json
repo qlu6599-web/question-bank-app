@@ -1,0 +1,15 @@
+{
+  "name": "question-bank-app-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A mobile-first question practice Web/PWA MVP.",
+  "scripts": {
+    "start": "python -m http.server 5173 --bind 0.0.0.0"
+  },
+  "keywords": [
+    "pwa",
+    "question-bank",
+    "study-app"
+  ],
+  "license": "UNLICENSED"
+}

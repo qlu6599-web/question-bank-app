@@ -1,0 +1,13755 @@
+window.QuestionData = (() => {
+const questionBank = [
+  {
+    "subject": "操作系统",
+    "accent": "#2563eb",
+    "description": "进程、内存、调度、文件与设备管理",
+    "questions": [
+      {
+        "id": "os-1",
+        "type": "cloze",
+        "question": "允许多个用户以交互方式使用计算机的操作系统称为 ____。",
+        "options": [],
+        "answer": "分时操作系统",
+        "answerText": "分时操作系统",
+        "analysis": "本题填空答案为：分时操作系统。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-2",
+        "type": "cloze",
+        "question": "当一个进程处于等待输入一批数据的状态时，称为 . ____。",
+        "options": [],
+        "answer": "阻塞状态",
+        "answerText": "阻塞状态",
+        "analysis": "本题填空答案为：阻塞状态。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-3",
+        "type": "cloze",
+        "question": "用 V 操作唤醒一个等待进程时，被唤醒进程的状态变为 ____。",
+        "options": [],
+        "answer": "就绪状态",
+        "answerText": "就绪状态",
+        "analysis": "本题填空答案为：就绪状态。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-4",
+        "type": "cloze",
+        "question": "允许多个用户将多个作业提交给计算机集中处理的操作系统称为 ____。",
+        "options": [],
+        "answer": "批处理操作系统",
+        "answerText": "批处理操作系统",
+        "analysis": "本题填空答案为：批处理操作系统。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-5",
+        "type": "cloze",
+        "question": "当时间片到时，进程从执行状态转变为 ____。",
+        "options": [],
+        "answer": "就绪状态",
+        "answerText": "就绪状态",
+        "analysis": "本题填空答案为：就绪状态。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-6",
+        "type": "cloze",
+        "question": "如果进程对信号量 S 执行 V 操作，则信号量 ____.",
+        "options": [],
+        "answer": "S 的值将",
+        "answerText": "S 的值将",
+        "analysis": "本题填空答案为：S 的值将。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-7",
+        "type": "cloze",
+        "question": "计算机系统能及时处理过程控制数据并做出响应的操作系统称为 ____。",
+        "options": [],
+        "answer": "实时操作系统",
+        "answerText": "实时操作系统",
+        "analysis": "本题填空答案为：实时操作系统。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-8",
+        "type": "cloze",
+        "question": "用 P、V 操作管理临界区时，信号量的初值应定义为 ____。",
+        "options": [],
+        "answer": "1",
+        "answerText": "1",
+        "analysis": "本题填空答案为：1。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-9",
+        "type": "cloze",
+        "question": "把作业空间中使用的逻辑地址变换为内存中的物理地址的过程称为 ____。",
+        "options": [],
+        "answer": "地址重定位",
+        "answerText": "地址重定位",
+        "analysis": "本题填空答案为：地址重定位。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-10",
+        "type": "cloze",
+        "question": "地址寄存器 24 位，主存 1MB，外存 400MB，虚拟存储器的容量为 ____。",
+        "options": [],
+        "answer": "16MB（2²⁴ B）",
+        "answerText": "16MB（2²⁴ B）",
+        "analysis": "本题填空答案为：16MB（2²⁴ B）。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-11",
+        "type": "cloze",
+        "question": "通过软件功能扩充，把原来独占的设备改造成若干用户可共享的设备，这种设备称为 ____。",
+        "options": [],
+        "answer": "虚拟设备",
+        "answerText": "虚拟设备",
+        "analysis": "本题填空答案为：虚拟设备。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-12",
+        "type": "cloze",
+        "question": "作业 8:00 到达，运行 1 小时， 10:00 开始执行，其响应比是 ____。",
+        "options": [],
+        "answer": "3",
+        "answerText": "3",
+        "analysis": "本题填空答案为：3。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-13",
+        "type": "cloze",
+        "question": "在虚拟内存管理中，地址变换机构将逻辑地址变为物理地址，形成该逻辑地址的阶段是 ____。",
+        "options": [],
+        "answer": "编译",
+        "answerText": "编译",
+        "analysis": "本题填空答案为：编译。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-14",
+        "type": "cloze",
+        "question": "文件系统中，文件访问控制信息存储的合理位置是 ____。",
+        "options": [],
+        "answer": "文件控制块",
+        "answerText": "文件控制块",
+        "analysis": "本题填空答案为：文件控制块。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-15",
+        "type": "judge",
+        "question": "操作系统是配置在计算机硬件之上的第一层软件,控制硬件工作并管理系统资源｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-16",
+        "type": "judge",
+        "question": "从用户观点来看,操作系统仅需关注资源分配的高效性,无需考虑使用的便捷性｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-17",
+        "type": "judge",
+        "question": "裸机经操作系统加工后,形成的扩展机器(虚拟机)隐藏了底层硬件特性,降低了使用复杂度｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-18",
+        "type": "judge",
+        "question": "作为资源管理器的操作系统,仅需完成资源分配工作,无需负责资源回收｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-19",
+        "type": "judge",
+        "question": "特权指令可由普通用户程序直接执行,用于完成文件读写等常规操作｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-20",
+        "type": "judge",
+        "question": "CPU 的核心态下可执行全部机器指令,包括特权指令;用户态仅能执行非特权指令｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-21",
+        "type": "judge",
+        "question": "中断仅由 CPU 外部事件引起,如 I/O 中断;异常则由 CPU 内部事件或程序执行错误引起｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-22",
+        "type": "judge",
+        "question": "系统初启时,ROM-BIOS 首先执行加电自检程序(POST),完成硬件诊断检测｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-23",
+        "type": "judge",
+        "question": "操作系统的构建目标仅包括高效性和方便性,安全性与鲁棒性不属于核心目标｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-24",
+        "type": "judge",
+        "question": "系统软件针对特定应用领域功能,应用软件则为计算机应用提供基本共性服务｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-25",
+        "type": "judge",
+        "question": "操作系统是裸机之上的第一层软件,是整个计算机系统的控制管理中心｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-26",
+        "type": "judge",
+        "question": "系统调用与普通过程调用无本质区别,均可在用户态下完成所有操作｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-27",
+        "type": "judge",
+        "question": "存储管理的核心功能仅包括内存分配,地址映射､内存保护不属于其范畴｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-28",
+        "type": "judge",
+        "question": "地址映射是指将用户程序中的逻辑地址转换为内存的物理地址,需硬件支持｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-29",
+        "type": "judge",
+        "question": "内存保护机制可确保不同用户程序在各自内存空间活动,避免相互干扰｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-30",
+        "type": "judge",
+        "question": "虚拟存储技术通过物理扩充内存容量,解决内存 “求大于供” 的问题｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-31",
+        "type": "judge",
+        "question": "进程是分配和运行处理机的基本单位,作业调度和进程调度是处理机管理的核心环节｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-32",
+        "type": "judge",
+        "question": "操作系统的 “进程管理观点” 是从静态角度分析操作系统的内部活动｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-33",
+        "type": "judge",
+        "question": "程序计数器(PC)存放待执行的指令,指令寄存器(IR)存放要取出指令的内存地址｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-34",
+        "type": "judge",
+        "question": "条件码寄存器(标志寄存器)会根据运算结果设置二进制位,用于后续程序分支判断｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-35",
+        "type": "judge",
+        "question": "系统初启的 “初始化内核” 阶段仅需完成 CPU 本身的初始化,无需处理外部设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-36",
+        "type": "judge",
+        "question": "操作系统提供的通信服务中,同一计算机上的进程仅能通过消息传送交换信息｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-37",
+        "type": "judge",
+        "question": "系统程序是操作系统核心的组成部分,可直接绕过系统调用获取操作系统服务｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-38",
+        "type": "judge",
+        "question": "命令解释程序(如 UNIX 的 shell)是终端用户与操作系统之间的重要界面之一｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-39",
+        "type": "judge",
+        "question": "多道程序设计环境下,操作系统的资源分配策略仅需考虑公平性,无需关注高效性｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-40",
+        "type": "judge",
+        "question": "操作系统的出错检测功能仅针对硬件错误,不包括用户程序的逻辑错误｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-41",
+        "type": "judge",
+        "question": "内存扩充的核心是通过内存置换技术,将程序非当前使用部分调出内存,按需调入｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-42",
+        "type": "judge",
+        "question": "CPU 运行模式的转换仅能从用户态转为核心态,核心态无法转回用户态｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-43",
+        "type": "judge",
+        "question": "操作系统作为扩展机器,通过抽象处理将裸机的复杂硬件细节对用户隐藏｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-44",
+        "type": "judge",
+        "question": "作业调度的作用是从就绪进程中选出合适进程,使之在 CPU 上运行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-45",
+        "type": "judge",
+        "question": "程序是动态的,进程是静态的,这是程序与进程的核心区别之一｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-46",
+        "type": "judge",
+        "question": "进程是操作系统中最基本的并发执行单位,也是分配资源的基本单位｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-47",
+        "type": "judge",
+        "question": "进程控制块(PCB)是进程存在的唯一标志｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-48",
+        "type": "judge",
+        "question": "在现代操作系统中,资源分配单位由线程担当,调度运行单位由进程担当｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-49",
+        "type": "judge",
+        "question": "临界资源是指每次只能由一个进程使用的系统资源,多个进程需互斥使用｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-50",
+        "type": "judge",
+        "question": "死锁是若干进程竞争有限资源且推进顺序不当,构成无限循环等待的局面｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-51",
+        "type": "judge",
+        "question": "顺序程序执行具有顺序性､封闭性和可再现性三个主要特点｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-52",
+        "type": "judge",
+        "question": "顺序程序的封闭性是指只有程序本身的动作才能改变程序的运行环境｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-53",
+        "type": "judge",
+        "question": "多道程序设计技术可在内存中同时存放多道程序,并交替执行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-54",
+        "type": "judge",
+        "question": "单 CPU 系统中,程序的并行执行是指多个程序在微观上同时运行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-55",
+        "type": "judge",
+        "question": "程序并发执行的特征包括失去封闭性､程序与计算一一对应､执行过程相互制约｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-56",
+        "type": "judge",
+        "question": "进程的动态性体现在进程有一定的生命期,会动态产生和消亡｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-57",
+        "type": "judge",
+        "question": "一个程序只能对应一个进程,一个进程也只能执行一个程序｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-58",
+        "type": "judge",
+        "question": "进程的并发性是指多个进程的实体能存在于同一内存中,在一段时间内都得到运行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-59",
+        "type": "judge",
+        "question": "进程的异步性导致各进程向前推进的速度可预测,程序执行具有可再现性｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-60",
+        "type": "judge",
+        "question": "进程的结构性体现在其由程序段､数据段和进程控制块(PCB)等组成｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-61",
+        "type": "judge",
+        "question": "单 CPU 系统中,任何时刻处于运行状态的进程至多有一个｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-62",
+        "type": "judge",
+        "question": "就绪状态的进程已具备运行条件,只需等待 CPU 分配即可立即运行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-63",
+        "type": "judge",
+        "question": "阻塞状态的进程即使 CPU 空闲,也无法运行,因其尚不具备运行条件｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-64",
+        "type": "judge",
+        "question": "新建状态是指进程刚被创建,已放入就绪队列时的状态｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-65",
+        "type": "judge",
+        "question": "终止状态的进程仍可被调度执行,仅需等待系统释放资源后撤销｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-66",
+        "type": "judge",
+        "question": "挂起状态的进程会被系统回收内存资源,实体被复制到外存的进程交换区｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-67",
+        "type": "judge",
+        "question": "挂起状态的进程可直接被处理机调度,只需完成解挂操作即可运行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-68",
+        "type": "judge",
+        "question": "进程从就绪态转换为运行态的条件是被调度程序选中并分配到 CPU｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-69",
+        "type": "judge",
+        "question": "运行态的进程因时间片用完,会转换为阻塞态｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-70",
+        "type": "judge",
+        "question": "阻塞态的进程等待的事件发生后,会转换为就绪态｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-71",
+        "type": "judge",
+        "question": "进程映像仅由程序段和数据集合两部分组成｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-72",
+        "type": "judge",
+        "question": "进程控制块(PCB)中包含进程名､进程状态､调度优先权等信息｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-73",
+        "type": "judge",
+        "question": "系统创建新进程时会为其建立 PCB,进程终止后系统回收其 PCB｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-74",
+        "type": "judge",
+        "question": "PCB 的线性组织方式无需预先确定系统中同时存在的进程最大数目｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-75",
+        "type": "judge",
+        "question": "PCB 的链接方式中,就绪态进程会被组织在一个或多个队列中｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-76",
+        "type": "judge",
+        "question": "单 CPU 系统中,处于运行态的进程 PCB 可通过多个指针指向｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-77",
+        "type": "judge",
+        "question": "PCB 的索引方式是利用索引表记载不同状态进程的 PCB 地址｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-78",
+        "type": "judge",
+        "question": "进程图是描述进程间族系关系的树形结构,根结点为所有进程的祖先｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-79",
+        "type": "judge",
+        "question": "UNIX 系统中,0# 进程是开机后生成的第一个进程,可创建 1# 进程及其他核心进程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-80",
+        "type": "judge",
+        "question": "Linux 系统中,父进程通过 fork 系统调用创建子进程时,会复制自身地址空间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-81",
+        "type": "judge",
+        "question": "进程终止仅需回收该进程占用的资源,无需处理其子孙进程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-82",
+        "type": "judge",
+        "question": "进程阻塞原语执行时,会将进程状态从 “运行” 改为 “阻塞” 并插入对应阻塞队列｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-83",
+        "type": "judge",
+        "question": "顺序程序的可再现性是指程序的执行结果与程序运行的速度无关｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-84",
+        "type": "judge",
+        "question": "多道程序设计技术可提高系统资源利用率,但会降低作业吞吐量｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-85",
+        "type": "judge",
+        "question": "程序并发执行时,失去封闭性的原因是多个程序共享系统资源｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-86",
+        "type": "judge",
+        "question": "进程的调度性体现在进程是系统中申请资源和被调度的单位｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-87",
+        "type": "judge",
+        "question": "引入挂起状态的原因包括终端用户请求､父进程请求､负荷调节需要等｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-88",
+        "type": "judge",
+        "question": "不同阻塞原因的进程会被组织在同一阻塞队列中,便于统一管理｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-89",
+        "type": "judge",
+        "question": "进程唤醒原语的核心操作是将阻塞态进程的状态改为就绪态,并移入就绪队列｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-90",
+        "type": "judge",
+        "question": "进程的异步性是进程间相互制约导致的,程序本身无此特征｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-91",
+        "type": "judge",
+        "question": "临界资源的互斥使用是导致进程间同步与互斥关系的核心原因之一｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-92",
+        "type": "judge",
+        "question": "处理机调度的主要目的是分配处理机,调度和分派两个功能通常被统称为进程调度｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-93",
+        "type": "judge",
+        "question": "进程切换不会导致内存高速缓存失效,也不会耗费大量 CPU 时间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-94",
+        "type": "judge",
+        "question": "作业从进入系统到完成,必然经历高级调度､中级调度和低级调度三级调度｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-95",
+        "type": "judge",
+        "question": "高级调度的主要功能是从输入的一批作业中选出若干个作业,分配必要资源并建立相应进程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-96",
+        "type": "judge",
+        "question": "中级调度的引入主要目的是提高内存利用率和系统吞吐量,其本质是存储管理中的对换功能｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-97",
+        "type": "judge",
+        "question": "作业的后备状态是指作业已调入内存,等待进程调度执行的状态｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-98",
+        "type": "judge",
+        "question": "作业控制块(JCB)是作业在系统中存在的标志,作业退出系统时 JCB 会被撤销｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-99",
+        "type": "judge",
+        "question": "作业调度程序可直接完成内存和外设的分配与释放工作,无需调用存储管理和设备管理程序｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-100",
+        "type": "judge",
+        "question": "批处理系统中,选择资源需求不同的作业合理搭配,可使系统各资源得到均衡利用｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-101",
+        "type": "judge",
+        "question": "进程调度的功能包括保存当前进程现场､挑选就绪进程､恢复选中进程现场｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-102",
+        "type": "judge",
+        "question": "分时系统中,当前进程时间片用完后,时钟中断会触发进程调度程序执行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-103",
+        "type": "judge",
+        "question": "作业调度是微观调度,决定哪个作业实际获得 CPU 并运行;进程调度是宏观调度,仅为作业提供获得 CPU 的资格｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-104",
+        "type": "judge",
+        "question": "分时系统中通常不设置作业调度程序,而是直接将新进程装入内存供进程调度使用｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-105",
+        "type": "judge",
+        "question": "用户级线程的调度由核心完成,核心知道线程的存在并为其分配时间片｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-106",
+        "type": "judge",
+        "question": "核心级线程切换需要完整的上下文切换,速度比用户级线程切换慢｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-107",
+        "type": "judge",
+        "question": "用户级线程中,一个线程因等待 I/O 阻塞时会导致整个进程被挂起｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-108",
+        "type": "judge",
+        "question": "调度性能评价的 CPU 利用率指标中,实际系统的 CPU 利用率通常在 40%(轻负荷)~90%(重负荷)之间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-109",
+        "type": "judge",
+        "question": "作业周转时间是指作业从提交到完成的时间间隔,仅包含进程在 CPU 上执行和 I/O 操作的时间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-110",
+        "type": "judge",
+        "question": "平均带权周转时间可用于比较某种调度算法对不同作业流的调度性能｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-111",
+        "type": "judge",
+        "question": "先来先服务(FCFS)调度算法对短作业和 I/O 繁忙型作业均较为有利｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-112",
+        "type": "judge",
+        "question": "短作业优先(SJF)调度算法是抢占式策略,能保证紧迫性作业被及时处理｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-113",
+        "type": "judge",
+        "question": "最短剩余时间优先(SRTF)调度算法是 SJF 的变型,采用抢占式策略,需预先知道进程运行时间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-114",
+        "type": "judge",
+        "question": "时间片轮转法中,时间片过长会退化为先来先服务算法,导致用户响应时间加长｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-115",
+        "type": "judge",
+        "question": "时间片轮转法的时间片大小与系统响应时间成正比,与就绪队列进程数成反比｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-116",
+        "type": "judge",
+        "question": "非抢占式优先级法中,当前运行进程会因就绪队列出现更高优先级进程而被强行剥夺 CPU｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-117",
+        "type": "judge",
+        "question": "进程优先级仅能由系统内部通过进程类型､资源需求等可度量量定义｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-118",
+        "type": "judge",
+        "question": "中级调度仅在采用虚拟存储技术的系统或分时系统中存在,单 CPU 系统无需配置｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-119",
+        "type": "judge",
+        "question": "进程调度的运行频率远高于作业调度,作业调度执行间隔可达几分钟｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-120",
+        "type": "judge",
+        "question": "逻辑地址是用户程序经编译后目标模块以 0 为基地址编址的地址,物理地址是内存物理存储单元的绝对地址｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-121",
+        "type": "judge",
+        "question": "绝对装入方式下,装入模块中的地址与内存中的物理地址始终不同｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-122",
+        "type": "judge",
+        "question": "静态重定位是在程序执行期间,每次访问内存前完成逻辑地址到物理地址的转换｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-123",
+        "type": "judge",
+        "question": "动态重定位依赖硬件地址转换机构,通常借助基址寄存器和限长寄存器实现｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-124",
+        "type": "judge",
+        "question": "静态重定位的优点是程序装入后仍可在内存中移动,利于内存空间高效利用｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-125",
+        "type": "judge",
+        "question": "重定位的本质是将程序的逻辑地址转换为内存物理地址的过程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-126",
+        "type": "judge",
+        "question": "动态重定位中,操作对象的绝对地址等于重定位寄存器内容与相对地址之和｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-127",
+        "type": "judge",
+        "question": "可重定位装入方式下,装入模块内使用的地址均为绝对地址｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-128",
+        "type": "judge",
+        "question": "逻辑地址空间是由程序中逻辑地址组成的地址范围,内存空间是一维线性空间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-129",
+        "type": "judge",
+        "question": "静态重定位无需硬件支持,但不利于多个进程共享同一程序副本｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-130",
+        "type": "judge",
+        "question": "覆盖技术通过将程序划分为独立模块,让无同时运行需求的模块共享内存区域,以节省内存空间｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-131",
+        "type": "judge",
+        "question": "覆盖技术要求程序员明确划分程序模块并确定覆盖关系,增加了用户负担｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-132",
+        "type": "judge",
+        "question": "早期单用户系统的对换技术中,内存始终保留多个进程交替运行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-133",
+        "type": "judge",
+        "question": "多道程序环境下的对换技术,会将内存中暂时无法运行的进程换出到外存,腾出空间装入就绪进程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-134",
+        "type": "judge",
+        "question": "对换技术与覆盖技术相比,无需程序员指定程序段的覆盖结构,主要在作业 / 进程间进行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-135",
+        "type": "judge",
+        "question": "固定分区法中,内存分区的个数和每个分区的大小均固定不变｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-136",
+        "type": "judge",
+        "question": "固定分区法的差分方式是指所有分区大小完全相等,适用于存放不同规模程序｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-137",
+        "type": "judge",
+        "question": "固定分区法管理简单､操作系统开销小,但内存空间利用率通常较低｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-138",
+        "type": "judge",
+        "question": "动态分区法中,分区在进程装入内存时动态创建,大小恰好适配进程需求｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-139",
+        "type": "judge",
+        "question": "空闲分区表需记录每个空闲分区的分区号､大小､起始地址和状态等信息｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-140",
+        "type": "judge",
+        "question": "最先适应算法中,空闲分区按起始地址升序排列,分配时从表尾开始查找满足要求的分区｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-141",
+        "type": "judge",
+        "question": "最佳适应算法将空闲分区按大小升序排列,分配时优先选择最小的满足需求的空闲分区｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-142",
+        "type": "judge",
+        "question": "循环适应算法是最先适应算法的变种,下次查找从上次分配位置的下一个分区开始｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-143",
+        "type": "judge",
+        "question": "最坏适应算法将空闲分区按大小降序排列,分配时优先选择最大的空闲分区,可完全避免碎片产生｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-144",
+        "type": "judge",
+        "question": "CPU 内部寄存器速度与 CPU 一致,容量小､成本高,通常小于 1KB｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-145",
+        "type": "judge",
+        "question": "Cache 由硬件控制,存取速度低于内存,可减少 CPU 访问内存的次数｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-146",
+        "type": "judge",
+        "question": "内存(RAM)中的信息具有易失性,断电后信息全部丢失;ROM 中的信息非易失性,断电后不丢失｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-147",
+        "type": "judge",
+        "question": "磁盘(辅存)容量大､可永久保留数据,但 CPU 可直接存取磁盘上的数据｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-148",
+        "type": "judge",
+        "question": "存储器层次结构按速度从高到低依次为:CPU 寄存器､Cache､内存､磁盘｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-149",
+        "type": "judge",
+        "question": "用户程序从编辑到运行,需依次经历编译､连接､装入等过程,连接的目的是生成可执行文件｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-150",
+        "type": "judge",
+        "question": "动态运行时装入方式下,进程的内存映像在不同时间可处于内存不同位置,需硬件支持｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-151",
+        "type": "judge",
+        "question": "绝对装入方式是三种装入方式中性能最佳的,可最大化内存利用率｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-152",
+        "type": "judge",
+        "question": "程序装入内存是创建活动进程的第一步,所有装入方式均需进行重定位｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-153",
+        "type": "judge",
+        "question": "连接过程是将编译后的目标模块及所需库函数装配成完整装入模块的过程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-154",
+        "type": "judge",
+        "question": "固定分区法中,若进程申请的内存空间小于某空闲分区大小,该分区剩余空间可分配给其他进程｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-155",
+        "type": "judge",
+        "question": "动态分区释放内存时,需将释放的分区与相邻空闲分区合并,形成更大的连续空闲区｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-156",
+        "type": "judge",
+        "question": "分区管理的硬件保护机制中,通过检查访问地址是否在上下界地址范围内,防止地址越界｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-157",
+        "type": "judge",
+        "question": "最坏适应算法的核心思想是分配最大的空闲分区,避免产生小碎片,内存利用率一定最优｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-158",
+        "type": "judge",
+        "question": "循环适应算法可使内存空闲区分布更均匀,但无法为大进程预留高地址段的大空闲区｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-159",
+        "type": "judge",
+        "question": "文件是从存储设备抽象出来的被命名的相关信息的集合体,通常只能存放在磁盘上｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-160",
+        "type": "judge",
+        "question": "系统文件对用户不直接开放,仅能通过操作系统提供的系统调用为用户服务｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-161",
+        "type": "judge",
+        "question": "在 UNIX/Linux 系统中,特殊文件特指各种外部设备,分为字符特殊文件和块特殊文件｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-162",
+        "type": "judge",
+        "question": "ASCII 文件可直接显示和打印,也可用普通文本编辑器编辑加工｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-163",
+        "type": "judge",
+        "question": "所有操作系统都只允许由 1~8 个字母构成的字符串作为合法文件名｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-164",
+        "type": "judge",
+        "question": "文件系统的核心功能之一是实现文件的 “按名存取”｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-165",
+        "type": "judge",
+        "question": "从用户观点出发所见到的文件组织形式称为文件的物理组织｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-166",
+        "type": "judge",
+        "question": "无结构文件内部不再划分记录,是由一组相关信息组成的有序字符流,也称为流式文件｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-167",
+        "type": "judge",
+        "question": "有结构文件又称记录式文件,仅包含定长记录这一种类型｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-168",
+        "type": "judge",
+        "question": "对定长记录文件进行顺序存取时,读写指针的偏移量为记录长度的固定值｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-169",
+        "type": "judge",
+        "question": "随机存取(直接存取)是基于磁盘的文件存取模式,仅适用于变长记录文件｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-170",
+        "type": "judge",
+        "question": "相对块号是相对文件开头的索引,文件第一个相对块号为 1｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-171",
+        "type": "judge",
+        "question": "连续文件是把逻辑上连续的文件信息存放在连续编号的物理块中,顺序存取速度较快｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-172",
+        "type": "judge",
+        "question": "连续文件分配方式不会产生外部碎片｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-173",
+        "type": "judge",
+        "question": "链接文件克服了连续文件的缺点,可动态增长且无外部碎片,支持高效随机存取｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-174",
+        "type": "judge",
+        "question": "链接文件的每个物理块中需设立链接字,指示该文件的下一个物理块｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-175",
+        "type": "judge",
+        "question": "文件分配表(FAT)出现在每个磁盘分区开头的扇区中,可用于改进链接文件的管理｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-176",
+        "type": "judge",
+        "question": "索引文件为每个文件建立索引表,表项指出存放文件的各个物理块号,解决了链接文件随机存取效率低的问题｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-177",
+        "type": "judge",
+        "question": "多重索引结构(多级索引结构)可解决单一索引表过大的问题,UNIX/Linux 系统采用该结构｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-178",
+        "type": "judge",
+        "question": "UNIX/Linux 系统中,索引节点的前 12 项直接指针可支持最大 12KB 的小型文件存储｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-179",
+        "type": "judge",
+        "question": "文件控制块(FCB)包含文件名､文件类型､位置､大小等信息,是文件系统管理文件的核心数据结构｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-180",
+        "type": "judge",
+        "question": "在 UNIX/Linux 系统中,每个文件有唯一的 i 节点,且 i 节点仅有静态存储形式｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-181",
+        "type": "judge",
+        "question": "按用途分类,库文件允许用户使用且可由用户修改｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-182",
+        "type": "judge",
+        "question": "按数据形式分类,目标文件是源程序编译后未连接的目标代码,属于二进制文件｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-183",
+        "type": "judge",
+        "question": "永久文件仅需在磁盘上保存副本,无需在移动硬盘或磁带上备份｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-184",
+        "type": "judge",
+        "question": "目录文件由下属文件的目录项构成,可进行读､写等操作｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-185",
+        "type": "judge",
+        "question": "按照工作特性划分,外部设备可分为存储设备和输入输出设备两大类,时钟设备符合这两类设备的特性｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-186",
+        "type": "judge",
+        "question": "独占设备是指在一段时间内只允许一个进程独占使用的设备,行式打印机属于独占设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-187",
+        "type": "judge",
+        "question": "共享设备具有高速､大容量､可直接存取等特点,磁盘机属于共享设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-188",
+        "type": "judge",
+        "question": "按数据传输方式划分,键盘属于串行设备,打印机属于并行设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-189",
+        "type": "judge",
+        "question": "设备绝对号是操作系统为每类设备规定的编号,用于用户程序申请设备时使用｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-190",
+        "type": "judge",
+        "question": "主机 I/O 系统的四级结构包括主机､通道､控制器和外部设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-191",
+        "type": "judge",
+        "question": "字节多路通道以字节为传输单位,可服务于多台高速 I/O 设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-192",
+        "type": "judge",
+        "question": "选择通道在同一时间可服务于多台设备,传输速率高｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-193",
+        "type": "judge",
+        "question": "微型机 I/O 系统采用总线结构,CPU 与控制器通过总线实现通信｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-194",
+        "type": "judge",
+        "question": "程序查询方式下,CPU 需循环读取设备状态寄存器,会导致 CPU 资源浪费｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-195",
+        "type": "judge",
+        "question": "中断控制方式可实现 CPU 与 I/O 设备并行工作,适用于所有速率的外设｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-196",
+        "type": "judge",
+        "question": "DMA 方式下,数据在内存和设备之间直接传送,传送过程无需 CPU 干预｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-197",
+        "type": "judge",
+        "question": "DMA 控制器仅在一个数据块传送结束后,才向 CPU 发送中断请求｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-198",
+        "type": "judge",
+        "question": "DMA 控制器的整块模式(阵发模式)会在长时间内封锁 CPU 和其他设备,效率低于每次一字模式｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-199",
+        "type": "judge",
+        "question": "独立通道方式下,通道可独立执行通道程序,完全无需 CPU 干预｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-200",
+        "type": "judge",
+        "question": "缓冲技术的引入仅为了缓和 CPU 与 I/O 设备间速度不匹配的矛盾｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-201",
+        "type": "judge",
+        "question": "硬件寄存器实现的缓冲区速度高､成本低,且容量通常较大｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-202",
+        "type": "judge",
+        "question": "单缓冲方式下,CPU 与 I/O 设备之间可并行工作,缓冲区的信息输入和输出为串行｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-203",
+        "type": "judge",
+        "question": "双缓冲技术可实现读卡机和打印机完全并行工作,也称为缓冲对换技术｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-204",
+        "type": "judge",
+        "question": "多缓冲是双缓冲的特例,可解决阵发性 I/O 的速度不匹配问题｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-205",
+        "type": "judge",
+        "question": "设备管理的目标包括使用方便､设备独立性､效率高和管理统一｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-206",
+        "type": "judge",
+        "question": "设备独立性意味着用户程序应与实际使用的物理设备无关｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-207",
+        "type": "judge",
+        "question": "独占分配技术下,设备即使闲置也不能分给其他进程,设备利用率高｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-208",
+        "type": "judge",
+        "question": "共享分配技术适用于高速､大容量的直接存取存储设备,如磁盘机｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-209",
+        "type": "judge",
+        "question": "按传输速率划分,键盘､鼠标属于低速设备,激光打印机属于中速设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-210",
+        "type": "judge",
+        "question": "设备相对号是系统为每台设备规定的唯一号码,用于硬件识别设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-211",
+        "type": "judge",
+        "question": "成组多路通道结合了字节多路通道和选择通道的优点,可连接高速和中速设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      },
+      {
+        "id": "os-212",
+        "type": "judge",
+        "question": "SPOOLing 系统可将独占设备改造为虚拟设备,虚拟设备并非物理上的共享设备｡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "操作系统"
+      }
+    ]
+  },
+  {
+    "subject": "数据库",
+    "accent": "#14b8a6",
+    "description": "数据库系统、SQL、事务、规范化与设计",
+    "questions": [
+      {
+        "id": "db-1",
+        "type": "single",
+        "question": "____是对数据库中全部数据的逻辑结构和特征的描述。",
+        "options": [
+          "模式",
+          "外模式",
+          "内模式",
+          "视图"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-2",
+        "type": "single",
+        "question": "____是对数据库用户能够看见和使用的局部数据的逻辑结构和特征的描述",
+        "options": [
+          "模式",
+          "外模式",
+          "内模式",
+          "概念模式"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-3",
+        "type": "single",
+        "question": "数据库中的记录是按照B+树存储还是按hash方法存储，这一特征在数据库的____中定义。",
+        "options": [
+          "模式",
+          "外模式",
+          "内模式",
+          "子模式"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-4",
+        "type": "single",
+        "question": "概念模型的表示方法有很多种，其中最著名的是____。",
+        "options": [
+          "关系模型",
+          "E-R模型",
+          "层次模型",
+          "网状模型"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-5",
+        "type": "single",
+        "question": "数据库的概念模型____",
+        "options": [
+          "独立于计算机硬件，依赖于 DBMS",
+          "依赖于计算机硬件，独立于 DBMS",
+          "依赖于计算机硬件和 DBMS",
+          "独立于计算机硬件和 DBMS"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-6",
+        "type": "single",
+        "question": "下列关系代数操作中复杂度最高的是____。",
+        "options": [
+          "投影",
+          "连接",
+          "选择",
+          "交"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-7",
+        "type": "single",
+        "question": "若关系R和S的元组个数分别为m和n，则R∪S的元组个数为____。",
+        "options": [
+          "m+n",
+          "小于或等于m+n",
+          "大于m",
+          "大于n"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-8",
+        "type": "single",
+        "question": "已知关系R1和R2进行关系运算后得到S，则S是____",
+        "options": [
+          "一行记录",
+          "一个关系",
+          "一个确定值",
+          "一个数组"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-9",
+        "type": "single",
+        "question": "若关系R和S的元组个数分别为m和n，则R-S的元组个数是____。",
+        "options": [
+          "m-n",
+          "小于m",
+          "小于n",
+          "小于等于m"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-10",
+        "type": "single",
+        "question": "下列关系代数操作中最费时的是____。",
+        "options": [
+          "投影",
+          "笛卡尔积",
+          "选择",
+          "交"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-11",
+        "type": "single",
+        "question": "在信息系统的设计中，普遍采用的是基于____的系统设计方法。",
+        "options": [
+          "BCNF",
+          "3NF",
+          "2NF",
+          "4NF"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-12",
+        "type": "single",
+        "question": "在函数依赖范畴内，____是关系模式能够达到的最高规范化程度。",
+        "options": [
+          "3NF",
+          "4NF",
+          "BCNF",
+          "5NF"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-13",
+        "type": "single",
+        "question": "下列说法中错误的是____",
+        "options": [
+          "模式分解是关系规范化的基本方法",
+          "实际应用中，数据库设计一般应达到3NF",
+          "若一个关系模式符合2NF，则它必然也符合3NF",
+          "实际应用中常常为了提高查询效率而允许数据库中存在一定的数据冗余"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-14",
+        "type": "single",
+        "question": "关系数据库中由数据冗余导致的异常不包括____。",
+        "options": [
+          "插入异常",
+          "删除异常",
+          "修改异常",
+          "查询异常"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-15",
+        "type": "single",
+        "question": "设关系模式R(XYZ)，已知存在函数依赖X->Y和Y->Z，则可作为R的候选键的是____。",
+        "options": [
+          "X",
+          "Y",
+          "Z",
+          "已知条件无法判断候选键"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-16",
+        "type": "single",
+        "question": "____是数据库系统的核心，是位于用户和操作系统之间的一层数据管理软件。",
+        "options": [
+          "DBMS",
+          "DBS",
+          "DBA",
+          "DDL"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-17",
+        "type": "single",
+        "question": "数据库管理系统的英文缩写是____。",
+        "options": [
+          "DBMS",
+          "DBA",
+          "DBS",
+          "MIS"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-18",
+        "type": "single",
+        "question": "下列不是关系数据库产品的是____。",
+        "options": [
+          "SQL Server",
+          "Oracle",
+          "MySQL",
+          "IMS"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-19",
+        "type": "single",
+        "question": "DBS指的是____。",
+        "options": [
+          "数据库",
+          "数据库系统",
+          "数据库管理员",
+          "数据库管理系统"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-20",
+        "type": "single",
+        "question": "DBA指的是____。",
+        "options": [
+          "数据库",
+          "数据库系统",
+          "数据库管理员",
+          "数据库用户"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-21",
+        "type": "single",
+        "question": "下列____是MySQL数据库中的超级管理员用户。",
+        "options": [
+          "admin",
+          "sa",
+          "root",
+          "administrator"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-22",
+        "type": "single",
+        "question": "MySQL服务的默认端口号是____。",
+        "options": [
+          "3306",
+          "1433",
+          "8080",
+          "1521"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-23",
+        "type": "single",
+        "question": "关于索引，下列说法错误的是____。",
+        "options": [
+          "索引可以加快数据的检索速度",
+          "建立索引会牺牲一定的系统性能",
+          "在一张表上可以建立多个聚集索引",
+          "在一张表上可以建立多个非聚集索引"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-24",
+        "type": "single",
+        "question": "关于视图，下列说法错误的是____。",
+        "options": [
+          "视图是虚拟表",
+          "数据可以存放在视图中",
+          "在视图上做查询与在基本表上做查询方法是相同的",
+          "视图可以建立在多个基本表的基础之上"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-25",
+        "type": "single",
+        "question": "下面哪种情况下适合建立索引____。",
+        "options": [
+          "经常进行插入操作的表",
+          "行数较小的表",
+          "更新少而数据量大的表",
+          "表中存在大量重复值的列"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-26",
+        "type": "single",
+        "question": "关于视图，下列说法正确的是____",
+        "options": [
+          "建立视图语句的关键部分是查询语句",
+          "若导出某视图的数据库表被删除了，该视图不受任何影响",
+          "视图一旦建立，就不能被删除",
+          "当某一视图被删除后，导出该视图的数据库表将会受到影响"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-27",
+        "type": "single",
+        "question": "数据库应用程序开发中，需求分析阶段的主要目的是____。",
+        "options": [
+          "回答“做什么”的问题",
+          "回答“怎么做”的问题",
+          "建立逻辑数据模型",
+          "建立最佳物理存储结构"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-28",
+        "type": "single",
+        "question": "在结构化方法中，用数据流程图(DFD)作为描述工具的软件开发阶段是____",
+        "options": [
+          "可行性分析",
+          "需求分析",
+          "概念设计",
+          "物理设计"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-29",
+        "type": "single",
+        "question": "实体与实体的联系，反映在数据上是____之间的联系",
+        "options": [
+          "文件",
+          "集合",
+          "记录",
+          "结构"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-30",
+        "type": "single",
+        "question": "____是在业务流程分析的基础上，描述实际数据流动和处理过程的图形表示法。",
+        "options": [
+          "DFD",
+          "UML",
+          "ER",
+          "FLOWCHART"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-31",
+        "type": "single",
+        "question": "在数据库设计的需求分析阶段，____是数据库系统中各类数据详细描述的集合，提供了对各类数据描述的集中管理。",
+        "options": [
+          "DFD",
+          "数据字典",
+          "实体联系图",
+          "数据集"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-32",
+        "type": "single",
+        "question": "关于主键约束，下列说法正确的是____。",
+        "options": [
+          "主键值不为空，也不允许出现重复",
+          "主键值不为空，但允许出现重复",
+          "主键值允许空，但不允许出现重复",
+          "主键值允许空，也允许出现重复"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-33",
+        "type": "single",
+        "question": "关于参照完整性，下列说法中错误的是____。",
+        "options": [
+          "外键属性取值不能为空",
+          "关系中不允许引用不存在的实体",
+          "可以通过定义外键实现",
+          "外键属性取值允许为空"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-34",
+        "type": "single",
+        "question": "在关系数据库中，\"关系中不允许出现相同的元组\"的约束可以通过定义____实现的",
+        "options": [
+          "超键",
+          "主键",
+          "外键",
+          "check约束"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-35",
+        "type": "single",
+        "question": "在实际应用中，常常需要在表中定义非空约束。数据库中的空值表示什么____。",
+        "options": [
+          "0",
+          "默认值",
+          "不确定",
+          "空格"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-36",
+        "type": "single",
+        "question": "事务必须满足的四个原则是____，一致性，隔离性，持久性。",
+        "options": [
+          "原子性",
+          "完整性",
+          "安全性",
+          "正确性"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-37",
+        "type": "single",
+        "question": "事务并发执行时，每个事务不必关心其他事务，如同在单用户环境下执行一样，这个性质称为事务的____",
+        "options": [
+          "持久性",
+          "一致性",
+          "独立性",
+          "隔离性"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-38",
+        "type": "single",
+        "question": "一个事务中所有对DB的操作是一个不可分割的整体，这个性质称为____。",
+        "options": [
+          "完整性",
+          "一致性",
+          "隔离性",
+          "原子性"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-39",
+        "type": "single",
+        "question": "____是构成单一逻辑工作单元的操作集合，这些操作或者全部执行，或者全部不执行。",
+        "options": [
+          "事务",
+          "存储过程",
+          "数据库对象",
+          "触发器"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-40",
+        "type": "single",
+        "question": "SQL中，下列涉及空值的操作，不正确的是____。",
+        "options": [
+          "AGE=NULL",
+          "AGE IS NOT NULL",
+          "AGE IS NULL",
+          "NOT(AGE IS NULL)"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-41",
+        "type": "single",
+        "question": "在 SQL 语句中，与 X BETWEEN 20 AND 30 等价的表达式是____",
+        "options": [
+          "X>=20 AND X<30",
+          "X>20 AND X<30",
+          "X>20 AND X<=30",
+          "X>=20 AND X<=30"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-42",
+        "type": "single",
+        "question": "关于SQL，下列说法正确的是____。",
+        "options": [
+          "是过程化语言",
+          "是机器语言",
+          "是面向对象语言",
+          "是非过程化语言"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-43",
+        "type": "single",
+        "question": "在SELECT语句中，能够实现对查询结果排序的操作是____",
+        "options": [
+          "COUNT",
+          "ORDER BY",
+          "GROUP BY",
+          "INDEX"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-44",
+        "type": "single",
+        "question": "分组查询需要用到的操作是____",
+        "options": [
+          "COUNT",
+          "ORDER BY",
+          "GROUP BY",
+          "DISTINCT"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-45",
+        "type": "single",
+        "question": "SQL查询语句中，SELECT子句对应于关系代数中的____操作",
+        "options": [
+          "选择",
+          "投影",
+          "笛卡尔积",
+          "自然连接"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-46",
+        "type": "single",
+        "question": "SQL查询语句中，WHERE子句对应于关系代数中的____操作",
+        "options": [
+          "选择",
+          "投影",
+          "笛卡尔积",
+          "自然连接"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-47",
+        "type": "single",
+        "question": "SQL查询语句中，FROM子句对应于关系代数中的____操作",
+        "options": [
+          "选择",
+          "投影",
+          "笛卡尔积",
+          "自然连接"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-48",
+        "type": "single",
+        "question": "关系代数中的____操作是对一个关系进行水平分割",
+        "options": [
+          "选择",
+          "投影",
+          "笛卡尔积",
+          "自然连接"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-49",
+        "type": "single",
+        "question": "关系代数中的____操作是对一个关系进行垂直分割。",
+        "options": [
+          "选择",
+          "投影",
+          "笛卡尔积",
+          "自然连接"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-50",
+        "type": "single",
+        "question": "设关系R、S和W的属性个数分别为2、3和4，则这三个关系的笛卡尔积的属性个数为____",
+        "options": [
+          "9",
+          "4",
+          "24",
+          "2"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-51",
+        "type": "single",
+        "question": "设关系R、S和W的元组个数分别为2、3和4，则这三个关系的笛卡尔积的元组个数为____",
+        "options": [
+          "9",
+          "4",
+          "24",
+          "2"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-52",
+        "type": "single",
+        "question": "下列说法错误的是____",
+        "options": [
+          "MySQL支持多种Unicode字符集",
+          "MySQL不支持Unicode字符集",
+          "Unicode编码有利于支持跨语言跨平台转换",
+          "GBK字符集不兼容Unicode"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-53",
+        "type": "single",
+        "question": "已知课程表包括课程号，课程名和学分三个字段，课程号已被定义为主键，现要求限定课程名的取值不能重复，则应该在课程名字段上定义____约束。",
+        "options": [
+          "PRIMARY KEY",
+          "UNIQUE",
+          "CHECK",
+          "FOREIGN KEY"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-54",
+        "type": "single",
+        "question": "已知商品表包括商品编号，商品名和价格三个字段，商品编号已被定义为主键，现要求限定商品名的取值不能重复，则应该在商品名字段上定义____约束。",
+        "options": [
+          "PRIMARY KEY",
+          "UNIQUE",
+          "CHECK",
+          "FOREIGN KEY"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-55",
+        "type": "single",
+        "question": "将年龄字段限制在某个取值范围，应定义____约束。",
+        "options": [
+          "CHECK",
+          "UNIQUE",
+          "PRIMARY KEY",
+          "FOREIGN KEY"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-56",
+        "type": "single",
+        "question": "将性别字段设置为仅允许‘男’和‘女’两种取值，应定义____约束。",
+        "options": [
+          "CHECK",
+          "UNIQUE",
+          "PRIMARY KEY",
+          "FOREIGN KEY"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-57",
+        "type": "single",
+        "question": "下列关于ALTER TABLE语句描述错误的是____。",
+        "options": [
+          "ALTER TABLE语句可以添加字段",
+          "ALTER TABLE语句可以删除字段",
+          "ALTER TABLE语句不能修改字段名称",
+          "ALTER TABLE语句可以修改字段的数据类型"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-58",
+        "type": "single",
+        "question": "若要删除数据库中已经存在的表S，可以执行____。",
+        "options": [
+          "DELETE TABLE S",
+          "DELETE S",
+          "DROP TABLE S",
+          "DROP S"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-59",
+        "type": "single",
+        "question": "若要删除数据库中的视图v，可以执行____。",
+        "options": [
+          "DELETE VIEW v",
+          "DELETE v",
+          "DROP VIEW v",
+          "DROP v"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-60",
+        "type": "single",
+        "question": "若要删除数据库tb，可以执行____。",
+        "options": [
+          "DELETE DATABASE tb",
+          "DELETE tb",
+          "DROP DATABASE tb",
+          "DROP tb"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-61",
+        "type": "single",
+        "question": "66. 下列关于数据库索引的说法，错误的是____",
+        "options": [
+          "索引可以显著提高查询效率",
+          "索引会降低插入、更新、删除数据的性能",
+          "一个表只能创建一个索引",
+          "主键列默认会自动创建索引"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-62",
+        "type": "single",
+        "question": "67. 下列关于数据库视图的说法，正确的是____",
+        "options": [
+          "视图中实际存储了真实数据",
+          "视图可以简化复杂查询，隐藏部分字段",
+          "对视图的查询一定比直接查表更快",
+          "任何视图都可以随意执行 UPDATE 操作"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-63",
+        "type": "single",
+        "question": "68. 下列操作中，无法直接通过视图实现的是____",
+        "options": [
+          "查询数据",
+          "限制用户只能查看部分列",
+          "永久存储大量原始数据",
+          "基于多张表创建一个虚拟表"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-64",
+        "type": "single",
+        "question": "69. 下列关于存储过程的描述，错误的是____",
+        "options": [
+          "存储过程编译后可重复执行，提高效率",
+          "存储过程可以封装多条 SQL 语句",
+          "存储过程必须每次执行都重新编译",
+          "存储过程可以接收输入参数"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-65",
+        "type": "single",
+        "question": "70. 使用存储过程的主要优点不包括____",
+        "options": [
+          "减少网络传输",
+          "简化复杂业务逻辑调用",
+          "永久保存业务数据",
+          "提高代码复用性"
+        ],
+        "answer": "C",
+        "analysis": "原复习资料标注正确答案为 C。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-66",
+        "type": "single",
+        "question": "71. 下列关于触发器的描述，正确的是____",
+        "options": [
+          "触发器需要手动调用才能执行",
+          "触发器由增、删、改操作自动触发",
+          "触发器只能作用于查询语句",
+          "触发器会永久存储业务数据"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-67",
+        "type": "single",
+        "question": "72. 下列操作中，通常不能触发触发器的是____",
+        "options": [
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "SELECT"
+        ],
+        "answer": "D",
+        "analysis": "原复习资料标注正确答案为 D。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-68",
+        "type": "single",
+        "question": "73. 满足第一范式（1NF）的核心要求是____",
+        "options": [
+          "消除非主属性对主键的部分函数依赖",
+          "每个属性都是不可再分的原子值",
+          "消除非主属性对主键的传递函数依赖",
+          "消除多值依赖"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-69",
+        "type": "single",
+        "question": "74. 下列关于第三范式（3NF）的说法，正确的是____",
+        "options": [
+          "允许存在部分依赖",
+          "不允许非主属性之间存在传递依赖",
+          "必须先满足 BCNF 才能满足 3NF",
+          "字段可以包含多个值用逗号分隔"
+        ],
+        "answer": "B",
+        "analysis": "原复习资料标注正确答案为 B。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-70",
+        "type": "single",
+        "question": "75. 满足第二范式（2NF）的前提是已经满足第一范式，并且在此基础上必须满足____",
+        "options": [
+          "消除非主属性对主键的部分函数依赖",
+          "消除非主属性对主键的传递函数依赖",
+          "所有字段都是不可再分的原子值",
+          "消除多值依赖"
+        ],
+        "answer": "A",
+        "analysis": "原复习资料标注正确答案为 A。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-71",
+        "type": "judge",
+        "question": "数据库管理系统是为数据库的建立、使用和维护而配置的应用软件。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-72",
+        "type": "judge",
+        "question": "数据库管理系统是为数据库的建立、使用和维护而配置的系统软件。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-73",
+        "type": "judge",
+        "question": "内模式描述数据库用户能够看见和使用的局部数据的逻辑结构和特征。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-74",
+        "type": "judge",
+        "question": "外模式描述数据库用户能够看见和使用的局部数据的逻辑结构和特征。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-75",
+        "type": "judge",
+        "question": "数据库的概念模型独立于计算机硬件和 DBMS。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-76",
+        "type": "judge",
+        "question": "数据库的概念模型与DBMS相关。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-77",
+        "type": "judge",
+        "question": "ER图是在业务流程分析的基础上，描述实际数据流动和处理过程的图形表示法。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-78",
+        "type": "judge",
+        "question": "ER图用于构建数据库的概念模型。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-79",
+        "type": "judge",
+        "question": "在信息系统的设计中，普遍采用的是基于2NF的系统设计方法。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-80",
+        "type": "judge",
+        "question": "在信息系统的设计中，普遍采用的是基于3NF的系统设计方法。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-81",
+        "type": "judge",
+        "question": "第三范式（3NF）要求消除传递函数依赖。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-82",
+        "type": "judge",
+        "question": "第二范式 (2NF) 需要消除非主属性对主键的传递依赖。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-83",
+        "type": "judge",
+        "question": "为了节约存储空间，关系型数据库中不允许存在数据冗余。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-84",
+        "type": "judge",
+        "question": "关系型数据库中允许存在一定的数据冗余，适当冗余可以提升查询效率。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-85",
+        "type": "judge",
+        "question": "DBS指的是数据库管理系统。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-86",
+        "type": "judge",
+        "question": "DBMS指的时数据库管理系统。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-87",
+        "type": "judge",
+        "question": "数据库管理员的英文缩写是DBA。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-88",
+        "type": "judge",
+        "question": "数据库管理员的英文缩写是ADMIN。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-89",
+        "type": "judge",
+        "question": "MySQL服务的默认端口号是8080。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-90",
+        "type": "judge",
+        "question": "MySQL服务的默认端口号是3306。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-91",
+        "type": "judge",
+        "question": "经常进行增删改操作的表不适合建立索引。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-92",
+        "type": "judge",
+        "question": "经常进行增删改操作的表适合建立索引。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-93",
+        "type": "judge",
+        "question": "存储过程是存储在客户端的SQL程序。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-94",
+        "type": "judge",
+        "question": "存储过程是存储在数据库服务器端的 SQL 程序，可被重复调用执行。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-95",
+        "type": "judge",
+        "question": "触发器可通过其名字被用户直接调用。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-96",
+        "type": "judge",
+        "question": "触发器能够被插入、删除和修改操作触发执行。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-97",
+        "type": "judge",
+        "question": "数据库需求分析的目的是建立数据的概念模型。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-98",
+        "type": "judge",
+        "question": "视图是虚拟表，因此不会实际存储数据。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-99",
+        "type": "judge",
+        "question": "视图可以独立于基本表单独存在。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-100",
+        "type": "judge",
+        "question": "索引可以加快查询速度，也能提升增删改效率。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-101",
+        "type": "judge",
+        "question": "一张表只能创建一个唯一索引。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-102",
+        "type": "judge",
+        "question": "一张表可以创建多个唯一索引。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-103",
+        "type": "judge",
+        "question": "数据库三大完整性包括实体完整性、参照完整性、用户自定义完整性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-104",
+        "type": "judge",
+        "question": "主键值不为空，也不允许出现重复值。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-105",
+        "type": "judge",
+        "question": "外键可以实现参照完整性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-106",
+        "type": "judge",
+        "question": "将年龄字段限制在某个取值范围，应定义UNIQUE约束。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-107",
+        "type": "judge",
+        "question": "将年龄字段限制在某个取值范围，应定义CHECK约束。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-108",
+        "type": "judge",
+        "question": "UNIQUE约束用于在非主键列限定取值的唯一性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-109",
+        "type": "judge",
+        "question": "主键约束和唯一约束都不允许字段重复。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-110",
+        "type": "judge",
+        "question": "选择是对一个关系进行水平分割。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-111",
+        "type": "judge",
+        "question": "投影是对一个关系进行垂直分割。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-112",
+        "type": "judge",
+        "question": "自然连接会自动判断两个表中所有同名的列，然后在这些列上做等值连接，最后结果中只保留一列。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-113",
+        "type": "judge",
+        "question": "笛卡尔积是两张表无条件连接的结果。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-114",
+        "type": "judge",
+        "question": "数据库中的空值表示空字符。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-115",
+        "type": "judge",
+        "question": "数据库中的空值表示0。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-116",
+        "type": "judge",
+        "question": "CHAR用于存储可变长字符串。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-117",
+        "type": "judge",
+        "question": "CHAR用于存储固定长度字符串。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-118",
+        "type": "judge",
+        "question": "事务的四大特性简称为 ACID。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-119",
+        "type": "judge",
+        "question": "事务必须满足原子性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-120",
+        "type": "judge",
+        "question": "一个事务中所有对DB的操作是一个不可分割的整体，这个性质称为原子性",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-121",
+        "type": "judge",
+        "question": "当多个事务同时读取或修改相同的数据库资源时，可以采用封锁进行并发控制。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-122",
+        "type": "judge",
+        "question": "SQL语言是一种非过程性语言。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-123",
+        "type": "judge",
+        "question": "当SELECT语句返回的结果是一个集合时，可以借助游标对其中的单行记录进行处理。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-124",
+        "type": "judge",
+        "question": "SELECT子句对应于关系代数中的选择操作。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-125",
+        "type": "judge",
+        "question": "FROM子句对应于关系代数中的笛卡尔积操作。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-126",
+        "type": "judge",
+        "question": "WHERE子句对应于关系代数中的投影操作。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-127",
+        "type": "judge",
+        "question": "删除数据库中已存在的表t，应执行delete t。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-128",
+        "type": "judge",
+        "question": "删除数据库中已存在的视图t，应执行delete t。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-129",
+        "type": "judge",
+        "question": "DELETE 语句删除表数据，DROP 语句删除整张数据表。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-130",
+        "type": "judge",
+        "question": "SQL 语言分为数据定义、数据操纵、数据控制等部分。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-131",
+        "type": "judge",
+        "question": "SQL语言中的数据控制用于对表数据进行增删改查操作。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-132",
+        "type": "judge",
+        "question": "SQL语言中的数据操纵用于对表数据进行增删改查操作。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-133",
+        "type": "judge",
+        "question": "DISTINCT 关键字用于去除查询结果重复数据。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-134",
+        "type": "judge",
+        "question": "UNIQUE 关键字用于去除查询结果重复数据。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-135",
+        "type": "judge",
+        "question": "GROUP BY 用于对查询结果进行分组统计。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-136",
+        "type": "judge",
+        "question": "聚合函数 SUM、AVG 会自动忽略 NULL 值。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-137",
+        "type": "judge",
+        "question": "聚合函数COUNT会自动忽略NULL值。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-138",
+        "type": "judge",
+        "question": "DROP TABLE 仅删除表中数据，不删除表结构。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-139",
+        "type": "judge",
+        "question": "ORDER BY 默认排序为降序（DESC）。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-140",
+        "type": "judge",
+        "question": "ORDER BY 默认排序为升序（ASC）。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-141",
+        "type": "design",
+        "question": "一个运动会管理系统数据库中有如下信息：\n运动员（运动员编号，姓名，性别）\n比赛（比赛编号，名称，时间）\n裁判员（裁判员编号，姓名）\n其中约定：一个运动员可参加多场比赛，一场比赛可有多个运动员参加，运动员参加比赛产生成绩；一场比赛有一个裁判员，一个裁判员可主持多场比赛。\n请根据以上描述设计ER图。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "ER图中包括三个实体。\n比赛实体包括比赛编号、名称、时间三个属性，比赛编号为标识。\n运动员实体包括运动员编号、姓名、性别三个属性，运动员编号为标识。\n裁判员实体包括裁判员编号、姓名两个属性。裁判员编号为标识。\n实体之间的联系包括：\n裁判员和比赛实体之间存在1：N联系。\n比赛和运动员实体之间存在M：N联系，且该联系拥有一个成绩属性。",
+        "analysis": "ER图中包括三个实体。\n比赛实体包括比赛编号、名称、时间三个属性，比赛编号为标识。\n运动员实体包括运动员编号、姓名、性别三个属性，运动员编号为标识。\n裁判员实体包括裁判员编号、姓名两个属性。裁判员编号为标识。\n实体之间的联系包括：\n裁判员和比赛实体之间存在1：N联系。\n比赛和运动员实体之间存在M：N联系，且该联系拥有一个成绩属性。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-142",
+        "type": "design",
+        "question": "一个仓库管理数据库中有如下信息：\n仓库：仓库号，地址，电话\n零件：零件号，零件名称，规格，单价\n管理员：工号，姓名，性别\n其中约定：一种零件可存放在多个仓库中，一个仓库可存放多种零件，零件存放在仓库中有库存量。一个仓库有多名管理员，一个管理员仅可以管理一个仓库。\n请根据以上描述设计ER图。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "ER图中包括三个实体。\n（1）仓库实体包括仓库号、地址、电话三个属性，仓库号为标识。\n（2）零件实体包括零件号、零件名称、规格、单价四个属性，零件号为标识。\n（3）管理员实体包括工号、姓名、性别三个属性。工号为标识。\n实体之间的联系包括：\n（1）仓库和管理员实体之间存在1：N联系。\n（2）仓库和零件实体之间存在M：N联系，且该联系拥有一个库存量属性。",
+        "analysis": "ER图中包括三个实体。\n（1）仓库实体包括仓库号、地址、电话三个属性，仓库号为标识。\n（2）零件实体包括零件号、零件名称、规格、单价四个属性，零件号为标识。\n（3）管理员实体包括工号、姓名、性别三个属性。工号为标识。\n实体之间的联系包括：\n（1）仓库和管理员实体之间存在1：N联系。\n（2）仓库和零件实体之间存在M：N联系，且该联系拥有一个库存量属性。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-143",
+        "type": "design",
+        "question": "某商业集团的销售管理系统数据库中有如下信息：\n商店：商店编号，商店名，地址\n商品：商品编号，商品名，规格，单价\n职工：工号，姓名，性别，业绩\n其中约定：一个商店可销售多种商品，一种商品可在多个商店销售，每个商店对所销售的每一种商品按月进行销量统计；一个商店有多名职工，一个职工仅在一个商店任职，商店聘用职工有月薪。\n请根据以上描述设计ER图。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "ER图中包括三个实体。\n（1）商店实体包括商店编号、商店名、地址三个属性，商店编号为标识。\n（2）商品实体包括商品编号、商品名、规格、单价四个属性，商品编号为标识。\n（3）职工实体包括工号、姓名、性别、业绩四个属性。工号为标识。\n实体之间的联系包括：\n（1）商店和职工实体之间存在1：N的聘用联系，且该联系有一个月薪属性。\n（2）商品和商店实体之间存在M：N联系，且该联系拥有销售月度、月销量两个属性。",
+        "analysis": "ER图中包括三个实体。\n（1）商店实体包括商店编号、商店名、地址三个属性，商店编号为标识。\n（2）商品实体包括商品编号、商品名、规格、单价四个属性，商品编号为标识。\n（3）职工实体包括工号、姓名、性别、业绩四个属性。工号为标识。\n实体之间的联系包括：\n（1）商店和职工实体之间存在1：N的聘用联系，且该联系有一个月薪属性。\n（2）商品和商店实体之间存在M：N联系，且该联系拥有销售月度、月销量两个属性。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-144",
+        "type": "design",
+        "question": "一个图书馆管理系统中有如下信息：\n图书：书号，书名，数量，位置\n借书人：借书证号，姓名，单位\n出版社：出版社名，地址，电话，Email\n其中约定：任何人都可以借多种书，任何一种书可以被多个人借，借书和还书时要登记借阅时间；一个出版社可以出版多种书籍，同一本书仅由一个出版社出版，出版社名具有唯一性。\n请根据以上描述设计ER图。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "ER图中包括三个实体。\n图书实体包括书号、书名、数量、位置四个属性，书号为标识。\n借书人实体包括借书证号、姓名、单位三个属性，借书证号为标识。\n出版社实体包括出版社名、地址、电话、Email三个属性。出版社名为标识。\n实体之间的联系包括：\n出版社和图书实体之间存在1：N联系。\n图书和借书人实体之间存在M：N联系，且该联系拥有一个借阅时间属性。",
+        "analysis": "ER图中包括三个实体。\n图书实体包括书号、书名、数量、位置四个属性，书号为标识。\n借书人实体包括借书证号、姓名、单位三个属性，借书证号为标识。\n出版社实体包括出版社名、地址、电话、Email三个属性。出版社名为标识。\n实体之间的联系包括：\n出版社和图书实体之间存在1：N联系。\n图书和借书人实体之间存在M：N联系，且该联系拥有一个借阅时间属性。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-145",
+        "type": "design",
+        "question": "一个教学管理系统中有如下信息：\n学生：学号，姓名，性别，年龄\n课程：课程号，课程名，学分\n班级：班级名，班主任\n教师：工号，姓名\n其中约定：一个学生属于一个班级，一个班级包括多名学生；一个学生可选修多门课程，一门课程可由多个学生选修，学生选修的每门课程均有相应的成绩；一个教师可教授多门课程，一门课程仅由一个教师教授。\n请根据以上描述设计ER图。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "ER图中包括四个实体。\n（1） 学生实体包括学号、姓名、性别、年龄四个属性，学号为标识。\n（2） 课程实体包括课程号、课程名、学分三个属性，课程号为标识。\n（3） 班级实体包括班级号、班主任两个属性。班级号为标识。\n（4） 教师实体包括工号、姓名两个属性。工号为标识。\n实体之间的联系包括：\n（1） 班级和学生实体之间存在1：N联系。\n（2)   教师和课程实体之间存在1：N联系。\n（3） 学生和课程实体之间存在M：N联系，且该联系拥有一个成绩属性。",
+        "analysis": "ER图中包括四个实体。\n（1） 学生实体包括学号、姓名、性别、年龄四个属性，学号为标识。\n（2） 课程实体包括课程号、课程名、学分三个属性，课程号为标识。\n（3） 班级实体包括班级号、班主任两个属性。班级号为标识。\n（4） 教师实体包括工号、姓名两个属性。工号为标识。\n实体之间的联系包括：\n（1） 班级和学生实体之间存在1：N联系。\n（2)   教师和课程实体之间存在1：N联系。\n（3） 学生和课程实体之间存在M：N联系，且该联系拥有一个成绩属性。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-146",
+        "type": "design",
+        "question": "根据以下ER图设计数据库表，要求给出表名、字段名、主键和外键的设计。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "运动员（运动员编号，姓名，性别） 运动员编号为主键\n裁判（裁判员编号，姓名） 裁判员编号为主键\n比赛（比赛编号，名称，时间，裁判员编号） 比赛编号为主键，裁判员编号为外键（引用裁判表的主键）\n参加（比赛编号，运动员编号，成绩） 比赛编号和运动员编号为联合主键。比赛编号为外键（引用比赛表主键），运动员编号为外键（引用运动员表主键）",
+        "analysis": "运动员（运动员编号，姓名，性别） 运动员编号为主键\n裁判（裁判员编号，姓名） 裁判员编号为主键\n比赛（比赛编号，名称，时间，裁判员编号） 比赛编号为主键，裁判员编号为外键（引用裁判表的主键）\n参加（比赛编号，运动员编号，成绩） 比赛编号和运动员编号为联合主键。比赛编号为外键（引用比赛表主键），运动员编号为外键（引用运动员表主键）",
+        "source": "数据库"
+      },
+      {
+        "id": "db-147",
+        "type": "design",
+        "question": "根据以下ER图设计数据库表，要求给出表名、字段名、主键和外键的设计。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "仓库（仓库号，地址，电话）  仓库号为主键\n零件（零件号，零件名称，规格，单价）   零件号为主键\n管理员（工号，姓名，性别，仓库号） 工号为主键，仓库号为外键（引用仓库表主键）\n存放（仓库号，零件号，库存量）  仓库号和零件号为联合主键。仓库号为外键（引用仓库表主键），零件号为外键（引用零件表主键）",
+        "analysis": "仓库（仓库号，地址，电话）  仓库号为主键\n零件（零件号，零件名称，规格，单价）   零件号为主键\n管理员（工号，姓名，性别，仓库号） 工号为主键，仓库号为外键（引用仓库表主键）\n存放（仓库号，零件号，库存量）  仓库号和零件号为联合主键。仓库号为外键（引用仓库表主键），零件号为外键（引用零件表主键）",
+        "source": "数据库"
+      },
+      {
+        "id": "db-148",
+        "type": "design",
+        "question": "根据以下ER图设计数据库表，要求给出表名、字段名、主键和外键的设计。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "商店（商店编号，商店名，地址）  商店编号为主键\n商品（商品编号，商品名，规格，单价）   商品编号为主键\n职工（工号，姓名，性别，业绩，商店编号，月薪）  工号为主键，商店编号为外键（引用商店表主键）\n销售（商店编号，商品编号，销售月度，月销量）   商店编号、商品编号、销售月度为联合主键。商店编号为外键（引用商店表主键），商品编号为外键（引用商品表主键）",
+        "analysis": "商店（商店编号，商店名，地址）  商店编号为主键\n商品（商品编号，商品名，规格，单价）   商品编号为主键\n职工（工号，姓名，性别，业绩，商店编号，月薪）  工号为主键，商店编号为外键（引用商店表主键）\n销售（商店编号，商品编号，销售月度，月销量）   商店编号、商品编号、销售月度为联合主键。商店编号为外键（引用商店表主键），商品编号为外键（引用商品表主键）",
+        "source": "数据库"
+      },
+      {
+        "id": "db-149",
+        "type": "design",
+        "question": "根据以下ER图设计数据库表，要求给出表名、字段名、主键和外键的设计。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "出版社（出版社名，地址，电话，Email）  出版社名为主键\n借书人（借书证号，姓名，单位）   借书证号为主键\n图书（书号，书名，数量，位置，出版社号）  书号为主键，出版社号为外键（引用出版社表的主键）\n借书（借书证号，书号，借阅时间）  借书证号、书号、借阅时间为联合主键。借书证号为外键（引用借书人表的主键），书号为外键（引用图书表的主键）",
+        "analysis": "出版社（出版社名，地址，电话，Email）  出版社名为主键\n借书人（借书证号，姓名，单位）   借书证号为主键\n图书（书号，书名，数量，位置，出版社号）  书号为主键，出版社号为外键（引用出版社表的主键）\n借书（借书证号，书号，借阅时间）  借书证号、书号、借阅时间为联合主键。借书证号为外键（引用借书人表的主键），书号为外键（引用图书表的主键）",
+        "source": "数据库"
+      },
+      {
+        "id": "db-150",
+        "type": "design",
+        "question": "根据以下ER图设计数据库表，要求给出表名、字段名、主键和外键的设计。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "班级（班级名，班主任）  班级名为主键\n教师（工号，姓名）   工号为主键\n学生（学号，姓名，性别，年龄，班级名） 学号为主键，班级名为外键（引用班级表的主键）\n课程（课程号，课程名，学分，工号） 课程号为主键，工号为外键（引用教师表的主键）\n选课（学号，课程号，成绩）  学号和课程号为联合主键。学号为外键（引用学生表的主键），课程号为外键（引用课程表的主键）",
+        "analysis": "班级（班级名，班主任）  班级名为主键\n教师（工号，姓名）   工号为主键\n学生（学号，姓名，性别，年龄，班级名） 学号为主键，班级名为外键（引用班级表的主键）\n课程（课程号，课程名，学分，工号） 课程号为主键，工号为外键（引用教师表的主键）\n选课（学号，课程号，成绩）  学号和课程号为联合主键。学号为外键（引用学生表的主键），课程号为外键（引用课程表的主键）",
+        "source": "数据库"
+      },
+      {
+        "id": "db-151",
+        "type": "design",
+        "question": "设有关系模式R（工号，姓名，性别，部门号，部门名，部门负责人），若规定：一个职工属于一个部门，一个部门有多名职工，一个部门仅有一个负责人，每个负责人仅能负责一个部门，\n（1）R最高符合第几范式，说明理由；\n（2）若R不是3NF，将其分解为3NF，并指定其中的主键和外键。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）R最高符合2NF。由于R的主键是单一属性工号，因此必然是2NF。又由于工号->部门号，且部门号->部门名，因此工号->部门名是一个传递函数依赖，则R不符合3NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(工号，姓名，性别，部门号)，其中工号为主键，部门号为外键\nR2（部门号，部门名，部门负责人），其中部门号为主键",
+        "analysis": "（1）R最高符合2NF。由于R的主键是单一属性工号，因此必然是2NF。又由于工号->部门号，且部门号->部门名，因此工号->部门名是一个传递函数依赖，则R不符合3NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(工号，姓名，性别，部门号)，其中工号为主键，部门号为外键\nR2（部门号，部门名，部门负责人），其中部门号为主键",
+        "source": "数据库"
+      },
+      {
+        "id": "db-152",
+        "type": "design",
+        "question": "设有关系模式R（学号，姓名，性别，图书号，图书名，出版社，借阅时间），若规定，一个学生可以借阅多本图书，一本图书一次仅能借给一个学生，\n（1）R最高符合第几范式，说明理由；\n（2）若R不是3NF，将其分解为3NF，并指定其中的主键和外键。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）R最高符合1NF。由于R的主键是（学号，图书号，借阅时间）。由于（学号，图书号，借阅时间）->姓名，并且学号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2） R1（学号，姓名，性别），其中学号为主键\nR2（图书号，图书名，出版社），其中图书号为主键\nR3（学号，图书号，借阅时间），其中（学号，图书号，借阅时间）为联合主键，且存在两个外键：学号，图书号",
+        "analysis": "（1）R最高符合1NF。由于R的主键是（学号，图书号，借阅时间）。由于（学号，图书号，借阅时间）->姓名，并且学号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2） R1（学号，姓名，性别），其中学号为主键\nR2（图书号，图书名，出版社），其中图书号为主键\nR3（学号，图书号，借阅时间），其中（学号，图书号，借阅时间）为联合主键，且存在两个外键：学号，图书号",
+        "source": "数据库"
+      },
+      {
+        "id": "db-153",
+        "type": "design",
+        "question": "设有关系模式R（运动员编号，姓名，性别，项目号，项目名，比赛成绩），若规定：一个运动员可参加多个比赛项目，一个项目可由多名运动员参加，\n（1）R最高符合第几范式，说明理由；\n（2）若R不是3NF，将其分解为3NF，并指定其中的主键和外键。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）R最高符合1NF。由于R的主键是（运动员编号，项目号）。由于（运动员编号，项目号）->姓名，并且运动员编号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(运动员编号，姓名，性别)，其中运动员编号为主键\nR2（项目号，项目名），其中项目号为主键\nR3（运动员编号，项目号，比赛成绩），其中（运动员编号，项目号）为联合主键，且存在两个外键：运动员编号，项目号",
+        "analysis": "（1）R最高符合1NF。由于R的主键是（运动员编号，项目号）。由于（运动员编号，项目号）->姓名，并且运动员编号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(运动员编号，姓名，性别)，其中运动员编号为主键\nR2（项目号，项目名），其中项目号为主键\nR3（运动员编号，项目号，比赛成绩），其中（运动员编号，项目号）为联合主键，且存在两个外键：运动员编号，项目号",
+        "source": "数据库"
+      },
+      {
+        "id": "db-154",
+        "type": "design",
+        "question": "设有关系模式R（学号，姓名，性别，系号，系名，系主任），若规定：一个学生属于一个系，一个系有多个学生，一个系有一个系主任，一个人仅能担任一个系的系主任，\n（1）R最高符合第几范式，说明理由\n（2）若R不是3NF，将其分解为3NF，并指定其中的主键和外键。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）R最高符合2NF。由于R的主键是单一属性学号，因此必然是2NF。又由于学号->系号，且系号->系名，因此学号->系名是一个传递函数依赖，则R不符合3NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(学号，姓名，性别，系号)，其中学号为主键，系号为外键\nR2（系号，系名，系主任），其中系号为主键",
+        "analysis": "（1）R最高符合2NF。由于R的主键是单一属性学号，因此必然是2NF。又由于学号->系号，且系号->系名，因此学号->系名是一个传递函数依赖，则R不符合3NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(学号，姓名，性别，系号)，其中学号为主键，系号为外键\nR2（系号，系名，系主任），其中系号为主键",
+        "source": "数据库"
+      },
+      {
+        "id": "db-155",
+        "type": "design",
+        "question": "设有关系模式R（学号，姓名，性别，课程号，课程名，成绩），若规定：一个学生可以选选多门课程，一门课程可由多个学生选修，\n（1）R最高符合第几范式，说明理由；\n（2）若R不是3NF，将其分解为3NF，并指定其中的主键和外键。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）R最高符合1NF。由于R的主键是（学号，课程号）。由于（学号，课程号）->姓名，并且学号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2）R1（学号，姓名，性别），其中学号为主键\nR2（课程号，课程名），其中课程号为主键\nR3（学号，课程号，成绩），其中（学号，课程号）为联合主键，且存在两个外键：学号和课程号",
+        "analysis": "（1）R最高符合1NF。由于R的主键是（学号，课程号）。由于（学号，课程号）->姓名，并且学号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2）R1（学号，姓名，性别），其中学号为主键\nR2（课程号，课程名），其中课程号为主键\nR3（学号，课程号，成绩），其中（学号，课程号）为联合主键，且存在两个外键：学号和课程号",
+        "source": "数据库"
+      },
+      {
+        "id": "db-156",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n写出创建sales数据库的SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create database sales",
+        "analysis": "create database sales",
+        "source": "数据库"
+      },
+      {
+        "id": "db-157",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n写出创建eg表的SQL语句（数据类型由学生自定义）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "CREATE TABLE eg\n( eid VARCHAR(30)，\ngid VARCHAR(30) ,\nquantity VARCHAR(20),\nsaledate DATETIME,\nPRIMARY KEY (eid, gid,saledate),\nFOREIGN KEY (eid) REFERENCES employee(eid),\nFOREIGN KEY (gid) REFERENCES goods(gid) )",
+        "analysis": "CREATE TABLE eg\n( eid VARCHAR(30)，\ngid VARCHAR(30) ,\nquantity VARCHAR(20),\nsaledate DATETIME,\nPRIMARY KEY (eid, gid,saledate),\nFOREIGN KEY (eid) REFERENCES employee(eid),\nFOREIGN KEY (gid) REFERENCES goods(gid) )",
+        "source": "数据库"
+      },
+      {
+        "id": "db-158",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n向商品信息表中插入一条记录（商品编号为‘BX001’，商品名称为‘蓝牙耳机’，商品类别为‘数码配件’，价格为299.00），写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "insert into goods values (‘BX001’,’蓝牙耳机’，‘数码配件’，299.00)",
+        "analysis": "insert into goods values (‘BX001’,’蓝牙耳机’，‘数码配件’，299.00)",
+        "source": "数据库"
+      },
+      {
+        "id": "db-159",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n删除工号为‘1001’的员工的记录，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delete from employee where eid=‘1001’",
+        "analysis": "delete from employee where eid=‘1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-160",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n将工号为‘1001’的员工的电话修改为‘13856789012’，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "update employee\nset tel=’13856789012’\nwhere eid=’1001’",
+        "analysis": "update employee\nset tel=’13856789012’\nwhere eid=’1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-161",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n查询年龄在40到50岁之间（含40,50）的员工信息，按年龄由小到大排序；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select *\nfrom employee\nwhere age between 40 and 50\norder by age asc ;",
+        "analysis": "select *\nfrom employee\nwhere age between 40 and 50\norder by age asc ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-162",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n查询2017年10月1日的销售记录，包括员工工号，姓名，商品编号，商品名；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select employee.eid, ename, goods.gid,gname\nfrom employee,goods,eg\nwhere employee.eid=eg.eid and goods.gid=eg.gid and saledate='2017-10-1' ;",
+        "analysis": "select employee.eid, ename, goods.gid,gname\nfrom employee,goods,eg\nwhere employee.eid=eg.eid and goods.gid=eg.gid and saledate='2017-10-1' ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-163",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n查询所有姓李的员工的工号，姓名以及电话；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select eid, ename,tel\nfrom employee\nwhere ename like '李%' ;",
+        "analysis": "select eid, ename,tel\nfrom employee\nwhere ename like '李%' ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-164",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n创建存储过程，统计各类别商品的平均价格；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delimiter $$\ncreate procedure myproc\nbegin\nselect type,avg(price)\nfrom goods\ngroup by type ;\nend $$\ndelimiter ;",
+        "analysis": "delimiter $$\ncreate procedure myproc\nbegin\nselect type,avg(price)\nfrom goods\ngroup by type ;\nend $$\ndelimiter ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-165",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n查询员工李华销售出的商品的总数量；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select sum(quantity)\nfrom employee,eg\nwhere employee.eid=eg.eid and ename='李华' ;",
+        "analysis": "select sum(quantity)\nfrom employee,eg\nwhere employee.eid=eg.eid and ename='李华' ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-166",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n查询在2017年10月1日销售业绩为0的员工的工号和姓名；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select eid, ename\nfrom employee\nwhere eid not in ( select eid\nfrom eg\nwhere saledate='2017-10-1');",
+        "analysis": "select eid, ename\nfrom employee\nwhere eid not in ( select eid\nfrom eg\nwhere saledate='2017-10-1');",
+        "source": "数据库"
+      },
+      {
+        "id": "db-167",
+        "type": "application",
+        "question": "1、已知MySQL服务器上的商品销售数据库（sales）中包括三张表：\n利用关系代数表达式查询所有工号为1001的员工所销售商品的名称以及销售时间。（关系代数操作用文字描述即可）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "goods表与eg表做自然连接操作，然后基于条件eid=‘1001’进行选择操作，最后在gname和saledate属性做投影操作。",
+        "analysis": "goods表与eg表做自然连接操作，然后基于条件eid=‘1001’进行选择操作，最后在gname和saledate属性做投影操作。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-168",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n写出创建book_lib数据库的SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create database book_lib",
+        "analysis": "create database book_lib",
+        "source": "数据库"
+      },
+      {
+        "id": "db-169",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n写出创建sb表的SQL语句（数据类型由学生自定义）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create table sb\n（ sid char（10），\nbid char（20），\nborrowdate datetime，\nprimary key（sid，bid），\nforeign key（sid）references student（sid），\nforeign key（bid）references book（bid））",
+        "analysis": "create table sb\n（ sid char（10），\nbid char（20），\nborrowdate datetime，\nprimary key（sid，bid），\nforeign key（sid）references student（sid），\nforeign key（bid）references book（bid））",
+        "source": "数据库"
+      },
+      {
+        "id": "db-170",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n向学生信息表中插入一条学生记录（学号为‘1001’，姓名为‘王刚’，年龄为20，性别为‘男’，专业为‘软件工程’）。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "inset into student values(‘1001’, ‘王刚’, 20, ‘男’, ‘软件工程’)",
+        "analysis": "inset into student values(‘1001’, ‘王刚’, 20, ‘男’, ‘软件工程’)",
+        "source": "数据库"
+      },
+      {
+        "id": "db-171",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n删除学号为‘1001’的学生的所有借阅记录。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delete from sb where sid=‘1001’",
+        "analysis": "delete from sb where sid=‘1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-172",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n将学号为‘1001’的学生的专业修改为‘人工智能’，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "update student\nset major=’人工智能’\nwhere sid=‘1001’",
+        "analysis": "update student\nset major=’人工智能’\nwhere sid=‘1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-173",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n查询年龄在20到25岁（含20,25）之间的学生信息，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select *\nfrom student\nwhere age between 20 and 25;",
+        "analysis": "select *\nfrom student\nwhere age between 20 and 25;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-174",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n查询清华大学出版社出版的书籍的图书编号，图书名和价格，按价格由低到高排序。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select bid,bname,price\nfrom book\nwhere press='清华大学出版社'\norder by price;",
+        "analysis": "select bid,bname,price\nfrom book\nwhere press='清华大学出版社'\norder by price;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-175",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n查询所有姓李的学生的姓名、年龄、性别和专业。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select sname,age,sex,major\nfrom student\nwhere sname like '李%';",
+        "analysis": "select sname,age,sex,major\nfrom student\nwhere sname like '李%';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-176",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n利用SQL查询借阅过数据结构书籍的学生的姓名和借阅时间。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select sname,borrowdate\nfrom student,book,sb\nwhere student.sid=sb.sid and book.bid=sb.bid and bname='数据结构';",
+        "analysis": "select sname,borrowdate\nfrom student,book,sb\nwhere student.sid=sb.sid and book.bid=sb.bid and bname='数据结构';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-177",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n利用SQL创建一个存储过程，统计各专业的学生人数（存储过程名称自定义）。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delimiter $$\ncreate procedure myprocedure\nbegin\nselect major, count(sid)\nfrom student\ngroup by major;\nend $$\ndelimiter ;",
+        "analysis": "delimiter $$\ncreate procedure myprocedure\nbegin\nselect major, count(sid)\nfrom student\ngroup by major;\nend $$\ndelimiter ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-178",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n利用SQL查询年龄大于平均年龄的学生的信息。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select *\nfrom student\nwhere age>( select avg(age)\nfrom student);",
+        "analysis": "select *\nfrom student\nwhere age>( select avg(age)\nfrom student);",
+        "source": "数据库"
+      },
+      {
+        "id": "db-179",
+        "type": "application",
+        "question": "2、已知MySQL服务器上的图书管理数据库（book_lib）中包括三张表：\n利用关系代数表达式查询年龄大于等于30岁的学生借阅的图书书名。（关系代数操作用文字描述即可）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "student、book、sb三张表做自然连接，继而基于条件age>=30进行选择操作，最后在bname列做投影操作。",
+        "analysis": "student、book、sb三张表做自然连接，继而基于条件age>=30进行选择操作，最后在bname列做投影操作。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-180",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n写出创建teachingdb数据库的SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create database teachingdb",
+        "analysis": "create database teachingdb",
+        "source": "数据库"
+      },
+      {
+        "id": "db-181",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n写出创建tc表的SQL语句（数据类型由学生自定义）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create table tc\n（ tid char（10），\ncid char（20），\nprimary key（tid，cid），\nforeign key（tid）references teacher（tid），\nforeign key（cid）references course（cid））",
+        "analysis": "create table tc\n（ tid char（10），\ncid char（20），\nprimary key（tid，cid），\nforeign key（tid）references teacher（tid），\nforeign key（cid）references course（cid））",
+        "source": "数据库"
+      },
+      {
+        "id": "db-182",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n向课程信息表中插入一条课程记录（课程号为‘C001’，课程名为‘数据库’）。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "insert into course values（‘C001’，’数据库’）",
+        "analysis": "insert into course values（‘C001’，’数据库’）",
+        "source": "数据库"
+      },
+      {
+        "id": "db-183",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n删除工号为‘1001’的教师的所有授课记录。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delete from tc where tid=’1001’",
+        "analysis": "delete from tc where tid=’1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-184",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n将工号为‘t001’的教师的职称修改为‘教授’，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "update teacher\nset title=’教授’\nwhere tid=‘1001’",
+        "analysis": "update teacher\nset title=’教授’\nwhere tid=‘1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-185",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（3） 查询年龄在30到40岁之间（含30,40）的教师信息，按年龄由小到大排序。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select *\nfrom teacher\nwhere age between 30 and 40\norder by age asc;",
+        "analysis": "select *\nfrom teacher\nwhere age between 30 and 40\norder by age asc;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-186",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（4） 查询所有姓张的教师的姓名、年龄和性别。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select tname,age,sex\nfrom teacher\nwhere tname like '张%';",
+        "analysis": "select tname,age,sex\nfrom teacher\nwhere tname like '张%';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-187",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（5） 查询讲授“数据库”课程的教师的工号。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select tid\nfrom course, tc\nwhere course.cid=tc.cid and cname='数据库';",
+        "analysis": "select tid\nfrom course, tc\nwhere course.cid=tc.cid and cname='数据库';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-188",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（6） 创建存储过程，统计各个专业技术职称的教师人数。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delimiter $$\ncreate procedure myprocedure\nbegin\nselect title,count(tid)\nfrom teacher\ngroup by title;\nend $$\ndelimiter ;",
+        "analysis": "delimiter $$\ncreate procedure myprocedure\nbegin\nselect title,count(tid)\nfrom teacher\ngroup by title;\nend $$\ndelimiter ;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-189",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（7） 查询教师李华的授课数量。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select count(cid)\nfrom teacher,tc\nwhere teacher.tid=tc.tid and tname='李华';",
+        "analysis": "select count(cid)\nfrom teacher,tc\nwhere teacher.tid=tc.tid and tname='李华';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-190",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（8） 查询年龄小于所有教师平均年龄的男性教师的工号与职称。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select tid,title\nfrom teacher\nwhere sex='男' and age<( select avg(age)\nfrom teacher);",
+        "analysis": "select tid,title\nfrom teacher\nwhere sex='男' and age<( select avg(age)\nfrom teacher);",
+        "source": "数据库"
+      },
+      {
+        "id": "db-191",
+        "type": "application",
+        "question": "3、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（9） 利用关系代数表达式查询所有职称为教授的教师讲授课程的课程名称。（关系代数操作用文字描述即可）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "teacher，course和tc三张表做自然连接，继而基于title=’教授’条件做选择，最后在cname列做投影。",
+        "analysis": "teacher，course和tc三张表做自然连接，继而基于title=’教授’条件做选择，最后在cname列做投影。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-192",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n写出创建booksales数据库的SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create database booksales",
+        "analysis": "create database booksales",
+        "source": "数据库"
+      },
+      {
+        "id": "db-193",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n写出创建cb表的SQL语句（数据类型由学生自定义）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create table cb\n（ cid char（10），\nbid char（20），\nshoppingdate datetime，\nquantity int，\nprimary key（cid，bid），\nforeign key（cid）references customer（cid），\nforeign key（bid）references book（bid））",
+        "analysis": "create table cb\n（ cid char（10），\nbid char（20），\nshoppingdate datetime，\nquantity int，\nprimary key（cid，bid），\nforeign key（cid）references customer（cid），\nforeign key（bid）references book（bid））",
+        "source": "数据库"
+      },
+      {
+        "id": "db-194",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n向客户信息表中插入一条客户记录（客户账号为‘C001’，姓名为‘王刚’）。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "insert into customer( cid, cname) values (‘C001’, ‘王刚’)",
+        "analysis": "insert into customer( cid, cname) values (‘C001’, ‘王刚’)",
+        "source": "数据库"
+      },
+      {
+        "id": "db-195",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n删除账号为‘1001’的客户的所有图书购买记录。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delete from cb where cid=’1001’",
+        "analysis": "delete from cb where cid=’1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-196",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n将图书编号为‘B001’的图书的价格修改为32，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "update book\nset price=32\nwhere bid=‘B001’",
+        "analysis": "update book\nset price=32\nwhere bid=‘B001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-197",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n（3）查询价格在50元到100元（含50、100元）之间的图书的书名、作者与价格。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select bname,author,price\nfrom book\nwhere price between 50 and 100;",
+        "analysis": "select bname,author,price\nfrom book\nwhere price between 50 and 100;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-198",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n（4）查询购买了编号为b001的图书的客户的账号和购买日期，按购买日期由先到后排序；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select cid,shoppingdate\nfrom cb\nwhere bid='b001'\norder by shoppingdate asc;",
+        "analysis": "select cid,shoppingdate\nfrom cb\nwhere bid='b001'\norder by shoppingdate asc;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-199",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n（5）查询所有地址中含有“杨浦”关键字的客户的姓名、电话和地址；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select cname,tel,address\nfrom customer\nwhere address like '%杨浦%';",
+        "analysis": "select cname,tel,address\nfrom customer\nwhere address like '%杨浦%';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-200",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n（6）查询一次购买了超过50本《数据库应用技术》图书的客户的姓名；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select cname\nfrom customer,book,cb\nwhere customer.cid=cb.cid and book.bid=cb.bid\nand bname='数据库应用技术' and quantity>50;",
+        "analysis": "select cname\nfrom customer,book,cb\nwhere customer.cid=cb.cid and book.bid=cb.bid\nand bname='数据库应用技术' and quantity>50;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-201",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n创建一个视图，统计各出版社出版的图书的平均价格（视图名称自行定义）；写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create view myview\nas\nselect press, avg(price) as avgprice\nfrom book\ngroup by press;",
+        "analysis": "create view myview\nas\nselect press, avg(price) as avgprice\nfrom book\ngroup by press;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-202",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n（8）查询没有购买过图书的客户的姓名和电话；写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select cname,tel\nfrom customer\nwhere cid not in ( select cid\nfrom cb);",
+        "analysis": "select cname,tel\nfrom customer\nwhere cid not in ( select cid\nfrom cb);",
+        "source": "数据库"
+      },
+      {
+        "id": "db-203",
+        "type": "application",
+        "question": "4、已知MySQL服务器上的网上图书销售系统数据库（booksales）中包括三张表：\n利用关系代数表达式查询购买了《数据库应用技术》的客户姓名。（关系代数操作用文字描述即可）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "customer，book和cb三张表做自然连接，继而基于bname=’数据库应用技术’条件做选择，最后在cname列做投影。",
+        "analysis": "customer，book和cb三张表做自然连接，继而基于bname=’数据库应用技术’条件做选择，最后在cname列做投影。",
+        "source": "数据库"
+      },
+      {
+        "id": "db-204",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n写出创建teachingdb数据库的SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create database teachingdb",
+        "analysis": "create database teachingdb",
+        "source": "数据库"
+      },
+      {
+        "id": "db-205",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n写出创建sc表的SQL语句（数据类型由学生自定义）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create table sc\n（ sid char（10），\ncid char（20），\nscore int，\nprimary key（sid，cid），\nforeign key（sid）references student（sid），\nforeign key（cid）references course（cid））",
+        "analysis": "create table sc\n（ sid char（10），\ncid char（20），\nscore int，\nprimary key（sid，cid），\nforeign key（sid）references student（sid），\nforeign key（cid）references course（cid））",
+        "source": "数据库"
+      },
+      {
+        "id": "db-206",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n向学生信息表中插入一条学生记录（学号为‘1001’，姓名为‘王刚’，年龄为20，性别为‘男’，专业为‘软件工程’）。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "inset into student values(‘1001’, ‘王刚’, 20, ‘男’, ‘软件工程’)",
+        "analysis": "inset into student values(‘1001’, ‘王刚’, 20, ‘男’, ‘软件工程’)",
+        "source": "数据库"
+      },
+      {
+        "id": "db-207",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n删除课程号为‘C001’的课程的所有选课记录。写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "delete from sc where cid=’1001’",
+        "analysis": "delete from sc where cid=’1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-208",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n将学号为‘1001’的学生的专业修改为‘人工智能’，写出SQL语句。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "update student\nset major=’人工智能’\nwhere sid=‘1001’",
+        "analysis": "update student\nset major=’人工智能’\nwhere sid=‘1001’",
+        "source": "数据库"
+      },
+      {
+        "id": "db-209",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（3）查询年龄在20到30岁（含20与30）之间的女学生信息。写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select *\nfrom student\nwhere sex='女' and age between 20 and 30;",
+        "analysis": "select *\nfrom student\nwhere sex='女' and age between 20 and 30;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-210",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n查询选修了课程号为c001课程的学生的学号和成绩，按成绩由高到低排序。写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select sid,score\nfrom sc\nwhere cid='c001'\norder by score desc;",
+        "analysis": "select sid,score\nfrom sc\nwhere cid='c001'\norder by score desc;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-211",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（5） 查询所有姓名中含有华字的学生的姓名，年龄和性别。写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select sname, age, sex\nfrom student\nwhere sname like '%华%';",
+        "analysis": "select sname, age, sex\nfrom student\nwhere sname like '%华%';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-212",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（6） 创建视图，统计各门课程考试成绩的最高分。写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "create view myview\nas\nselect cid, max(score) as maxscore\nfrom sc\ngroup by cid;",
+        "analysis": "create view myview\nas\nselect cid, max(score) as maxscore\nfrom sc\ngroup by cid;",
+        "source": "数据库"
+      },
+      {
+        "id": "db-213",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（7） 查询李华同学选修的所有课程的课程名以及成绩。写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select cname, score\nfrom student, course, sc\nwhere student.sid=sc.sid and course.cid=sc.cid and sname='李华';",
+        "analysis": "select cname, score\nfrom student, course, sc\nwhere student.sid=sc.sid and course.cid=sc.cid and sname='李华';",
+        "source": "数据库"
+      },
+      {
+        "id": "db-214",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n（8） 查询没有被选修的课程的课程名。写出SQL语句",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "select cname\nfrom course\nwhere cid not in ( select cid\nfrom sc);",
+        "analysis": "select cname\nfrom course\nwhere cid not in ( select cid\nfrom sc);",
+        "source": "数据库"
+      },
+      {
+        "id": "db-215",
+        "type": "application",
+        "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n利用关系代数表达式查询机械电子专业学生选修的课程名。关系代数操作用文字描述即可）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "student，course和sc三张表做自然连接，继而基于major=’机械电子’条件做选择，最后在cname列做投影。",
+        "analysis": "student，course和sc三张表做自然连接，继而基于major=’机械电子’条件做选择，最后在cname列做投影。",
+        "source": "数据库"
+      }
+    ]
+  },
+  {
+    "subject": "软件工程",
+    "accent": "#f97316",
+    "description": "流程、需求、设计、测试、维护与项目管理",
+    "questions": [
+      {
+        "id": "se-1",
+        "type": "judge",
+        "question": "软件工程决定了软件的质量；商业模式决定了一个软件企业的成败",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-2",
+        "type": "judge",
+        "question": "软件工程是把系统的、有序的、可量化的方法应用到软件的开发、运营 维护上的过程。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-3",
+        "type": "judge",
+        "question": "软件开发流程的目的是为了提高软件开发、运营、维护的效率，并提高软件的质量、用户满意度、可靠性和软件的可维护性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-4",
+        "type": "judge",
+        "question": "软件是可以运行在计算机及电子设备中的指令和数据的集合。（程序）",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-5",
+        "type": "judge",
+        "question": "软件的行为和用户的期望值一致就叫做Bug(不一致)",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-6",
+        "type": "judge",
+        "question": "单元测试应该准确、快速地保证程序所有模块的正确性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-7",
+        "type": "judge",
+        "question": "单元测试必须由最熟悉代码的人（程序的作者）来写",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-8",
+        "type": "judge",
+        "question": "单元测试过后，机器状态应保持不变。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-9",
+        "type": "judge",
+        "question": "单元测试要快，一个测试的运行时间应该是几秒钟而不是几分钟。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-10",
+        "type": "judge",
+        "question": "单元测试应该覆盖所有代码路径，包括错误处理路径。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-11",
+        "type": "judge",
+        "question": "单元测试应该自动化，这样每个人都能随时随地运行单元测试。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-12",
+        "type": "judge",
+        "question": "一个模块的所有单元测试就是这个模块最初的功能基准线。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-13",
+        "type": "judge",
+        "question": "在效能分析过程中通常先用代码注入的方法对特定的模块进行详细分析，然后用抽样的方法找到效能瓶颈所在。(先用抽样的方法找到效能瓶颈所在，然后对特定的模块用代码注入的方法进行详细分析。)",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-14",
+        "type": "judge",
+        "question": "在团队工作中，稳定、一致的交付时间是衡量一个员工能力的重要方面。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-15",
+        "type": "judge",
+        "question": "代码风格的原则是：简明，易读，无二义性",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-16",
+        "type": "judge",
+        "question": "代码注释中应当尽量减少中文或其他特殊字符的使用，这是为了提高程序的可移植性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-17",
+        "type": "judge",
+        "question": "结对编程中，程序各方面的质量取决于一对程序员中各方面水平比较低的那一位，就像是木桶原则一样。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-18",
+        "type": "judge",
+        "question": "瀑布模型是一个单向，不可逆的生产流程",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-19",
+        "type": "judge",
+        "question": "RUP(统一软件过程)流程在大尺度上像迭代模型，在每个阶段内像瀑布模型。(反了,每个阶段有若干次迭代组成)",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-20",
+        "type": "judge",
+        "question": "敏捷开发的原则是尽早并持续的交付有价值的软件以满足客户需求",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-21",
+        "type": "judge",
+        "question": "敏捷开发的冲刺阶段是任务驱动的，任务完成就结束。(时间驱动)",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-22",
+        "type": "judge",
+        "question": "敏捷宣言表明的是一些优先级，不必当做圣旨或者教条来争论",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-23",
+        "type": "judge",
+        "question": "创新可以分为改良型的创新和颠覆型的创新",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-24",
+        "type": "judge",
+        "question": "PM(项目经理)最大、最独特的贡献是带领团队达成最重要的目标，并保持团队的平衡。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-25",
+        "type": "judge",
+        "question": "典型用户及包含受欢迎的典型用户，同时还要包含不受欢迎的典型用户。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-26",
+        "type": "judge",
+        "question": "软件工程说明书，主要用来说明软件的内部功能和用户的交互情况。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-27",
+        "type": "judge",
+        "question": "软件技术说明书，主要用来说明软件内部的设计规范。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-28",
+        "type": "judge",
+        "question": "在需求分析阶段，我们要搞清楚用户的需求是什么，软件如何解决用户的需求。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-29",
+        "type": "judge",
+        "question": "在设计与实现阶段，我们要搞清楚软件是怎么解决这些需求的。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-30",
+        "type": "judge",
+        "question": "在测试和发布阶段，我们要搞清楚软件真的解决了这些需求了么。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-31",
+        "type": "judge",
+        "question": "好的设计应当让操作者不需要花费额外的注意力，也不需要经验与专业知识即可凭直觉完成正确的操作。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-32",
+        "type": "judge",
+        "question": "用户体验设计的一个重要目的是降低用户的认知阻力。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-33",
+        "type": "judge",
+        "question": "认知阻力是用户对于软件界面的认知和实际结果的差异。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-34",
+        "type": "judge",
+        "question": "大多数用户的心理是以熟练掌握认知阻力大的工具而自豪的。(躲避认知阻力)",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-35",
+        "type": "judge",
+        "question": "黑箱测试将软件系统看作一个黑箱，无法了解或使用系统的内部结构及知识。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-36",
+        "type": "judge",
+        "question": "白箱测试中设计者可以看到软件系统的内部结构，并使用软件的内部结构和知识来选择测试数据及具体的测试方法。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-37",
+        "type": "judge",
+        "question": "系统测试是在软件开发的一定阶段，对软件进行全面和系统的测试，以保证软件的各个模块都能共同工作，各方面均能满足用户的要求。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-38",
+        "type": "judge",
+        "question": "测试在项目的最后进行就可以了(全过程)",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-39",
+        "type": "judge",
+        "question": "测试就得根据规格说明书来测，是很机械的。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-40",
+        "type": "judge",
+        "question": "测试人员当然也写代码，但是质量不一定要很高。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-41",
+        "type": "judge",
+        "question": "测试的时候尽量用Debug版本，便于发现Bug（早期Debug 后期Release）",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-42",
+        "type": "judge",
+        "question": "测试设计说明书告诉测试人员要如何设计测试。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-43",
+        "type": "judge",
+        "question": "一个功能的所有测试用例合称为这个功能的测试用例集。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-44",
+        "type": "judge",
+        "question": "Alpha版本通常指集成了主要功能的第一个试用版本。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-45",
+        "type": "judge",
+        "question": "Beta版本通常指功能完备，稳定性高，用户可以在实际工作中直接使用。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "本题判断为：错误。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-46",
+        "type": "judge",
+        "question": "项目接近尾声时，要确保修复的门槛越来越高，这样才能不断提升系统的稳定性。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-47",
+        "type": "judge",
+        "question": "重构是在尽量保持原有界面的基础上优化部分代码。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-48",
+        "type": "judge",
+        "question": "重写是重新实现原有功能，同时，要分清是全部重写原有功能，还是加上许多新的功能。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-49",
+        "type": "judge",
+        "question": "软件工程师的行为应与公众利益一致。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-50",
+        "type": "judge",
+        "question": "软件工程师应以其客户和雇主利益最大化的方式做事，与公众利益保持一致。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-51",
+        "type": "judge",
+        "question": "软件工程师应当确保自己的产品以及相关的修改满足最高的专业标准。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-52",
+        "type": "judge",
+        "question": "软件工程师应当具备完整且独立的专业判断。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-53",
+        "type": "judge",
+        "question": "软件项目的经理和领导人应该提倡并亲自采用符合道德规范的方法来管理软件的开发与维护。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-54",
+        "type": "judge",
+        "question": "在于公众利益一致的原则下，软件工程师应当保证其职业的诚信和信誉。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-55",
+        "type": "judge",
+        "question": "软件工程师应当公平对待同侪，并予以支持和帮助",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-56",
+        "type": "judge",
+        "question": "软件工程师应当终生学习以提高自身的专业水平，并在工作实践中推动落实道德准则。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "本题判断为：正确。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-57",
+        "type": "cloze",
+        "question": "计算机软件主要包括____。",
+        "options": [],
+        "answer": "程序和文档",
+        "answerText": "程序和文档",
+        "analysis": "本题填空答案为：程序和文档。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-58",
+        "type": "cloze",
+        "question": "将软件开发过程分为若干阶段，每个阶段接受上一阶段的结果作为本阶段的输入，各个阶段以线性的方式依次进行的软件开发过程模型是_____________。",
+        "options": [],
+        "answer": "瀑布模型",
+        "answerText": "瀑布模型",
+        "analysis": "本题填空答案为：瀑布模型。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-59",
+        "type": "cloze",
+        "question": "在面向对象方法中，一组具有相同属性和相同操作的对象的集合称为____________。",
+        "options": [],
+        "answer": "类",
+        "answerText": "类",
+        "analysis": "本题填空答案为：类。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-60",
+        "type": "cloze",
+        "question": "使用系统的一个特定情节或用况的一条执行路径（即用况实例）被称为__________。",
+        "options": [],
+        "answer": "场景",
+        "answerText": "场景",
+        "analysis": "本题填空答案为：场景。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-61",
+        "type": "cloze",
+        "question": "要求“模块的内部实现对外隐藏，仅允许外界通过受控的接口访问模块的数据和操作”的软件设计原则叫__________________________。",
+        "options": [],
+        "answer": "信息隐藏",
+        "answerText": "信息隐藏",
+        "analysis": "本题填空答案为：信息隐藏。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-62",
+        "type": "cloze",
+        "question": "极限编程（Extreme Programming，简称XP）是一种_____________软件开发方法。",
+        "options": [],
+        "answer": "敏捷",
+        "answerText": "敏捷",
+        "analysis": "本题填空答案为：敏捷。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-63",
+        "type": "cloze",
+        "question": "请列举3种基于计算机的系统中的系统元素类型____________________________。",
+        "options": [],
+        "answer": "软件、硬件、网络基础设施、人员、数据库、文档、规程",
+        "answerText": "软件、硬件、网络基础设施、人员、数据库、文档、规程",
+        "analysis": "本题填空答案为：软件、硬件、网络基础设施、人员、数据库、文档、规程。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-64",
+        "type": "cloze",
+        "question": "要求“模块的内部实现对外隐藏，仅允许外界通过受控的接口访问模块的数据和操作”的软件设计原则叫____。",
+        "options": [],
+        "answer": "信息隐藏",
+        "answerText": "信息隐藏",
+        "analysis": "本题填空答案为：信息隐藏。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-65",
+        "type": "cloze",
+        "question": "在面向对象方法中，没有实例的类称为________________________类。",
+        "options": [],
+        "answer": "抽象",
+        "answerText": "抽象",
+        "analysis": "本题填空答案为：抽象。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-66",
+        "type": "cloze",
+        "question": "重新执行已经通过的测试用例集合的子集以确保对程序的修改没有产生副作用的测试种类称为_____________________。",
+        "options": [],
+        "answer": "回归测试",
+        "answerText": "回归测试",
+        "analysis": "本题填空答案为：回归测试。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-67",
+        "type": "cloze",
+        "question": "面向对象方法中，“同一个操作作用于不同的对象上可以有不同的解释，并产生不同的执行结果”这一机制被称为______________________。",
+        "options": [],
+        "answer": "多态性",
+        "answerText": "多态性",
+        "analysis": "本题填空答案为：多态性。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-68",
+        "type": "cloze",
+        "question": "极限编程（Extreme Programming，简称XP）是一种____软件开发方法。",
+        "options": [],
+        "answer": "敏捷",
+        "answerText": "敏捷",
+        "analysis": "本题填空答案为：敏捷。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-69",
+        "type": "cloze",
+        "question": "在面向对象方法中，“汽车”与“交通工具”之间的关系被称为____关系。",
+        "options": [],
+        "answer": "继承",
+        "answerText": "继承",
+        "analysis": "本题填空答案为：继承。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-70",
+        "type": "cloze",
+        "question": "软件模块化设计中衡量一个模块与其他模块之间的关联程度的指标是____度。",
+        "options": [],
+        "answer": "耦合",
+        "answerText": "耦合",
+        "analysis": "本题填空答案为：耦合。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-71",
+        "type": "cloze",
+        "question": "在面向对象方法中，类的实例被称为____。",
+        "options": [],
+        "answer": "对象",
+        "answerText": "对象",
+        "analysis": "本题填空答案为：对象。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-72",
+        "type": "cloze",
+        "question": "软件体系结构设计主要包括一组软件部件、____这三部分内容。",
+        "options": [],
+        "answer": "部件之间的关系、部件的外部可见属性",
+        "answerText": "部件之间的关系、部件的外部可见属性",
+        "analysis": "本题填空答案为：部件之间的关系、部件的外部可见属性。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-73",
+        "type": "cloze",
+        "question": "重新执行已经通过的测试用例集合的子集以确保对程序的修改没有产生副作用的测试种类称为____。",
+        "options": [],
+        "answer": "回归测试",
+        "answerText": "回归测试",
+        "analysis": "本题填空答案为：回归测试。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-74",
+        "type": "cloze",
+        "question": "白盒测试的基本思想是____。",
+        "options": [],
+        "answer": "测试人员根据程序内部的逻辑结构及有关信息设计测试用例，覆盖不同的逻辑路径",
+        "answerText": "测试人员根据程序内部的逻辑结构及有关信息设计测试用例，覆盖不同的逻辑路径",
+        "analysis": "本题填空答案为：测试人员根据程序内部的逻辑结构及有关信息设计测试用例，覆盖不同的逻辑路径。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-75",
+        "type": "cloze",
+        "question": "软件测试中等价类划分方法中的“等价类”的含义是____。",
+        "options": [],
+        "answer": "输入域的一个子集，该子集中的每个输入数据对揭露软件中的错误都是等效的",
+        "answerText": "输入域的一个子集，该子集中的每个输入数据对揭露软件中的错误都是等效的",
+        "analysis": "本题填空答案为：输入域的一个子集，该子集中的每个输入数据对揭露软件中的错误都是等效的。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-76",
+        "type": "cloze",
+        "question": "在基本的软件开发过程中解决“做什么”问题的开发活动是____。",
+        "options": [],
+        "answer": "需求分析",
+        "answerText": "需求分析",
+        "analysis": "本题填空答案为：需求分析。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-77",
+        "type": "cloze",
+        "question": "同时继承“陆上交通工具”和“水上交通工具”的类是 ____。",
+        "options": [],
+        "answer": "水陆两栖交通工具",
+        "answerText": "水陆两栖交通工具",
+        "analysis": "本题填空答案为：水陆两栖交通工具。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-78",
+        "type": "cloze",
+        "question": "不能进行实例化的类称为____类。",
+        "options": [],
+        "answer": "抽象",
+        "answerText": "抽象",
+        "analysis": "本题填空答案为：抽象。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-79",
+        "type": "cloze",
+        "question": "根据程序内部的逻辑结构及有关信息设计测试用例的软件测试称为____测试。",
+        "options": [],
+        "answer": "白盒",
+        "answerText": "白盒",
+        "analysis": "本题填空答案为：白盒。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-80",
+        "type": "cloze",
+        "question": "软件测试中的语句覆盖是指____。",
+        "options": [],
+        "answer": "选择一组测试用例使得被测程序的每个可执行语句都至少执行一次",
+        "answerText": "选择一组测试用例使得被测程序的每个可执行语句都至少执行一次",
+        "analysis": "本题填空答案为：选择一组测试用例使得被测程序的每个可执行语句都至少执行一次。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-81",
+        "type": "cloze",
+        "question": "McCall软件质量模型中属于产品运行维度的质量要素包括（任意列举两种）____。",
+        "options": [],
+        "answer": "正确性、易用性、效率、可靠性、完整性",
+        "answerText": "正确性、易用性、效率、可靠性、完整性",
+        "analysis": "本题填空答案为：正确性、易用性、效率、可靠性、完整性。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-82",
+        "type": "cloze",
+        "question": "面向对象方法中一个对象通常由对象名、____三部分组成。属性、操作",
+        "options": [],
+        "answer": "和",
+        "answerText": "和",
+        "analysis": "本题填空答案为：和。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-83",
+        "type": "cloze",
+        "question": "面向对象方法中一组具有相同属性和相同操作的对象的集合称为____。",
+        "options": [],
+        "answer": "类",
+        "answerText": "类",
+        "analysis": "本题填空答案为：类。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-84",
+        "type": "cloze",
+        "question": "白盒测试中的条件覆盖是指____",
+        "options": [],
+        "answer": "程序的每个判定中的每个条件分支都至少被执行一次",
+        "answerText": "程序的每个判定中的每个条件分支都至少被执行一次",
+        "analysis": "本题填空答案为：程序的每个判定中的每个条件分支都至少被执行一次。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-85",
+        "type": "cloze",
+        "question": "程序调试的目的是____",
+        "options": [],
+        "answer": "确定错误的原因和准确位置并加以纠正",
+        "answerText": "确定错误的原因和准确位置并加以纠正",
+        "analysis": "本题填空答案为：确定错误的原因和准确位置并加以纠正。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-86",
+        "type": "cloze",
+        "question": "面向对象软件设计中的“开闭原则”是指____",
+        "options": [],
+        "answer": "一个模块应该对扩展开放对修改封闭",
+        "answerText": "一个模块应该对扩展开放对修改封闭",
+        "analysis": "本题填空答案为：一个模块应该对扩展开放对修改封闭。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-87",
+        "type": "cloze",
+        "question": "面向对象设计中模块的耦合度是指____",
+        "options": [],
+        "answer": "不同的模块间相互联系和依赖的程度",
+        "answerText": "不同的模块间相互联系和依赖的程度",
+        "analysis": "本题填空答案为：不同的模块间相互联系和依赖的程度。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-88",
+        "type": "comprehensive",
+        "question": "一个信用卡申请系统的基本功能描述如下。\n客户向系统提交信用卡申请。申请接收功能接收信用卡申请并将其记录到信用卡数据库中。预处理功能从信用卡数据库中读取信用卡申请并对申请信息进行初步检查。对于不符合要求的申请，这个预处理功能会生成无效的信用卡申请反馈给客户。对于符合要求的申请，这个预处理功能会向信用检查功能提供一个有效申请列表。信用检查功能从一个外部信用机构获得信用记录，并以此为基础检查申请人的信用。对于那些未通过信用检查的申请，信用检查功能会向客户发送一个未通过的申请反馈。对于通过信用检查的申请，信用检查功能会生成一个审批通过的申请列表并提供给发卡功能。最后，发卡功能生成信用卡并将它们发送给客户\n分析上面这个系统的数据流并且回答以下问题。\n1）画出该系统的顶层数据流图\n2）画出该系统的1层数据流图",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
+        "analysis": "参考答案见图：顶层数据流图、1层数据流图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image18.png",
+          "./assets/answers/software/image19.png"
+        ]
+      },
+      {
+        "id": "se-89",
+        "type": "comprehensive",
+        "question": "一个招聘信息管理系统的描述如下。\n在每一个招聘季，每个部门的部门秘书向系统提交职位列表和职位要求。“招聘准备”功能接收职位列表和职位要求，将它们记录到招聘数据库中，同时向外部的求职网站发布招聘广告。对这些职位感兴趣的求职者向招聘系统提交申请表格。“申请接受”功能接收申请表格，从招聘系统中读取职位要求，然后产生一个申请列表并发送给一个外部的能力测试系统。能力测试系统将能力测试结果发送给“最终决定”功能。该功能产生一个推荐列表给经理，并从经理那里获得通过的申请者列表，然后生成最终招聘列表并将其记录到招聘数据库中。最后，“通知”功能从招聘数据库中读取最终的招聘列表，然后向申请者发送招聘通知，同时向部门秘书发送新员工列表。\n分析上面这个系统的数据流并且回答以下问题：\n画出该系统的顶层数据流图\n画出该系统的1层数据流图",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
+        "analysis": "参考答案见图：顶层数据流图、1层数据流图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image20.png",
+          "./assets/answers/software/image21.png"
+        ]
+      },
+      {
+        "id": "se-90",
+        "type": "comprehensive",
+        "question": "根据以下所述的在线购物系统的需求画出相应的UML类图。\n系统中有很多产品出售，每件产品都有产品ID、名称、价格和产品描述。系统记录客户信息，包括客户ID、姓名和年龄。客户分为VIP客户或者普通客户。每一个客户可以有多个订单。每一个订单有订单ID和时间，并包含至少一个订单条目。每一个订单条目对应于一件产品，同时记录该产品的数量。每一个订单对应于一个付款信息，这个付款信息包括支付时间、支付方式和支付结果。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：在线购物系统 UML 类图。",
+        "analysis": "参考答案见图：在线购物系统 UML 类图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image22.png"
+        ]
+      },
+      {
+        "id": "se-91",
+        "type": "comprehensive",
+        "question": "根据以下所述的学术会议论文发表信息系统的需求画出相应的UML类图。\n每一个研究人员都有姓名、所属机构以及电子邮箱地址。每一个会议论文集都有会议名称、会议地点以及日期，并包含一个或者多个研究人员作为论文集的编辑，同时包含一系列（1篇或1篇以上）的论文。每一篇论文都有标题、摘要、页数，并包含一个或多个作者（这些作者也都是研究人员）。论文包含三类，包括墙报、短文和长文。）",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
+        "analysis": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image23.png"
+        ]
+      },
+      {
+        "id": "se-92",
+        "type": "comprehensive",
+        "question": "对于以下所述的出版物领域的需求画出相应的UML类图。\n出版物领域中所涉及的业务类包括：出版物、数字图书、纸质图书、CD、人、作者、编辑。\n他们的关系和属性如下：数字图书和纸质图书都是一种出版物；作者和编辑都是一种人；每一本纸质图书可以没有或者包含一张或多张CD作为附录；每一个出版物都有一个ISBN号、标题、页数、价格，包含一个或者多个作者并对应唯一的一个编辑；每一本数字图书有一个文件格式的属性，而每一本纸质图书都有一个印刷规格的属性；每一个人都有ID、姓名、性别和生日的属性。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：出版物领域 UML 类图。",
+        "analysis": "参考答案见图：出版物领域 UML 类图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image24.png"
+        ]
+      },
+      {
+        "id": "se-93",
+        "type": "comprehensive",
+        "question": "某个银行支持两类账户：支票账户和储蓄账户。每个账户（无论支票账户还是储蓄账户）都需要记录账户号和余额，同时与一个客户相关联。客户需要记录身份证号、姓名、性别和出生日期。此外，支票账户需要记录最近一笔存款的金额，而储蓄账户则需要记录累计利息。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：银行账户系统 UML 类图。",
+        "analysis": "参考答案见图：银行账户系统 UML 类图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image25.png"
+        ]
+      },
+      {
+        "id": "se-94",
+        "type": "comprehensive",
+        "question": "用况分析与建模\n一个网上购物系统为用户提供了网络购物支持。使用该系统，用户在第三方支付系统的支持下进行商品的选择和购买。用户还可以查询订单状态。此外，网上商城的工作人员可以对支付成功的用户订单进行处理。\n1）根据以上描述分析该网上购物系统的用况并用一个UML用况图进行描述\n2）根据以下描述分析“订单处理”用况并用一个UML泳道图描述该用况\n进入订单处理后，系统首先列出待处理的订单。工作人员查看订单列表并决定是否继续。如果选择结束处理，那么当前订单处理过程结束。否则（即选择继续处理）工作人员选择其中一个订单，接下来系统显示该订单的详细信息。工作人员检查订单详细信息并决定该订单是否可以进行配送。如果暂时不能配送，那么工作人员返回查看订单列表。如果可以配送，那么系统发送一个配送单给第三方配送系统。第三方配送系统接收配送单之后，该工作人员返回查看订单列表。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
+        "analysis": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image26.png",
+          "./assets/answers/software/image27.png"
+        ]
+      },
+      {
+        "id": "se-95",
+        "type": "comprehensive",
+        "question": "用况分析建模。\n一个图书馆管理系统是为读者和图书馆工作人员提供服务的系统。读者可以在图书馆工作人员的帮助下，一起完成开设账户、借书和还书的过程。读者也可以通过网页独自完成预约图书的过程。\n1）根据上面的描述画出这个图书馆管理系统的UML用况图\n2） 根据下面的描述用UML泳道图来描述“借书”这个用况\n一个读者把图书和他的读者卡交给图书馆工作人员。工作人员扫描图书的条形码，然后通过图书馆管理系统检索并展示图书信息。如果这本书已经被其他读者预约，那么工作人员会告诉读者这本书现在不能出借，然后将读者卡还给读者，借书过程结束。如果这本书没有被其他读者预约，那么工作人员扫描读者卡，然后通过图书馆管理系统获取并显示读者信息。如果读者没有未缴纳的罚款，那么系统将记录本次借书信息，然后工作人员将书和读者卡还给读者，借书过程结束。如果读者有未缴纳的罚款，那么工作人员告诉读者需要支付罚款。如果读者选择支付，那么工作人员接收付款，系统更新罚款信息、记录本次借书信息，然后工作人员将书和读者卡还给读者，借书过程结束。如果读者选择本次不支付，那么工作人员将读者卡还给读者，借书过程结束。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
+        "analysis": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
+        "source": "软件工程",
+        "referenceImages": [
+          "./assets/answers/software/image28.png",
+          "./assets/answers/software/image29.png"
+        ]
+      },
+      {
+        "id": "se-96",
+        "type": "comprehensive",
+        "question": "某模块的流程图如下图所示。试分别根据判定覆盖、条件覆盖、路径覆盖这三种覆盖标准设计最少的测试用例。对于每个测试用例，列出其测试数据（即变量X和Y的值）、预期的输出结果、程序的执行路径（按照语句的标号列出路径）。\n按照判定覆盖设计最少的测试用例\n最少3个用例\n按照条件覆盖设计最少的测试用例\n最少2个用例\n按照路径覆盖设计最少的测试用例\n最少3个用例",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+        "analysis": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+        "source": "软件工程",
+        "questionImages": [
+          "./assets/answers/software/image30.png"
+        ]
+      },
+      {
+        "id": "se-97",
+        "type": "qa",
+        "question": "什么是软件工程?它目标和内容是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件工程就是用科学的知识和技术原理来定义，开发，维护软件的一门学科。软件工程目标：付出较低开发成本；达到要求的功能；取得较好的性能；开发的软件易于移植；只需较低的维护费用；能按时完成开发任务，及时交付使用；开发的软件可靠性高。软件工程内容：包括开发技术和开发管理两个方面。",
+        "analysis": "软件工程就是用科学的知识和技术原理来定义，开发，维护软件的一门学科。软件工程目标：付出较低开发成本；达到要求的功能；取得较好的性能；开发的软件易于移植；只需较低的维护费用；能按时完成开发任务，及时交付使用；开发的软件可靠性高。软件工程内容：包括开发技术和开发管理两个方面。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-98",
+        "type": "qa",
+        "question": "软件开发中有哪几种过程模型?哪些适用于面向对象的软件开发?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件开发中常见的软件过程模型有瀑布模型、原型模型、螺旋模型、喷泉模型、统一软件过程等。其中喷泉模型、统一软件过程适用于面向对象的软件开发。",
+        "analysis": "软件开发中常见的软件过程模型有瀑布模型、原型模型、螺旋模型、喷泉模型、统一软件过程等。其中喷泉模型、统一软件过程适用于面向对象的软件开发。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-99",
+        "type": "qa",
+        "question": "什么是结构分析方法?该方法使用什么描述工具?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "结构化分析：简称SA，面向数据流进行数据分析的方法。采用自顶向下逐层分解的分析策略。顶层抽象地描述整个系统，底层具体地画出系统工程的每个细节。中间层则是从抽象到具体的过渡。使用数据流图，数据字典，作为描述工具，使用结构化语言，判定表，判定树描述加工逻辑。",
+        "analysis": "结构化分析：简称SA，面向数据流进行数据分析的方法。采用自顶向下逐层分解的分析策略。顶层抽象地描述整个系统，底层具体地画出系统工程的每个细节。中间层则是从抽象到具体的过渡。使用数据流图，数据字典，作为描述工具，使用结构化语言，判定表，判定树描述加工逻辑。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-100",
+        "type": "qa",
+        "question": "什么是软件概要设计?该阶段的基本任务是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "把一个软件需求转换为软件表示时，首先设计出软件总的体系结构。称为概要设计或结构设计。基本任务：⑴设计软件系统结构⑵进行数据结构及数据库的设计⑶编写概要设计的文档⑷评审",
+        "analysis": "把一个软件需求转换为软件表示时，首先设计出软件总的体系结构。称为概要设计或结构设计。基本任务：⑴设计软件系统结构⑵进行数据结构及数据库的设计⑶编写概要设计的文档⑷评审",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-101",
+        "type": "qa",
+        "question": "软件维护有哪些内容?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）校正性维护。在软件交付使用后，一些隐含的错误在某些特定的使用环境下会暴露出来。为了识别和纠正错误，修改软件性能上的缺陷，应进行确定和修改错误的过程，这个过程就称为校正性维护。（2）适应性维护。为了使应用软件适应计算机硬件、软件环境及数据环境的不断发生的变化而修改软件的过程称为适应性维护。（3）完善性维护。为增加软件功能、增强软件性能、提高软件运行效率而进行的维护活动称为完善性维护。（4）预防性维护。为了提高软件的可维护性和可靠性而对软件进行的修改称为预防性维护。",
+        "analysis": "（1）校正性维护。在软件交付使用后，一些隐含的错误在某些特定的使用环境下会暴露出来。为了识别和纠正错误，修改软件性能上的缺陷，应进行确定和修改错误的过程，这个过程就称为校正性维护。（2）适应性维护。为了使应用软件适应计算机硬件、软件环境及数据环境的不断发生的变化而修改软件的过程称为适应性维护。（3）完善性维护。为增加软件功能、增强软件性能、提高软件运行效率而进行的维护活动称为完善性维护。（4）预防性维护。为了提高软件的可维护性和可靠性而对软件进行的修改称为预防性维护。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-102",
+        "type": "qa",
+        "question": "软件测试要经过哪些步骤?这些测试与软件开发各阶段之间有什么关系?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件测试要经过的步骤是：单元测试→集成测试→确认测试→系统测试。单元测试对源程序中每一个程序单元进行测试，检查各个模块是否正确实现规定的功能，从而发现模块在编码中或算法中的错误。该阶段涉及编码和详细设计文档。集成测试是为了检查与设计相关的软件体系结构的有关问题，也就是检查概要设计是否合理有效。确认测试主要是检查已实现的软件是否满足需求规格说明书中确定了的各种需求。系统测试是把已确认的软件与其他系统元素(如硬件、其他支持软件、数据、人工等)结合在一起进行测试。以确定软件是否可以支付使用。",
+        "analysis": "软件测试要经过的步骤是：单元测试→集成测试→确认测试→系统测试。单元测试对源程序中每一个程序单元进行测试，检查各个模块是否正确实现规定的功能，从而发现模块在编码中或算法中的错误。该阶段涉及编码和详细设计文档。集成测试是为了检查与设计相关的软件体系结构的有关问题，也就是检查概要设计是否合理有效。确认测试主要是检查已实现的软件是否满足需求规格说明书中确定了的各种需求。系统测试是把已确认的软件与其他系统元素(如硬件、其他支持软件、数据、人工等)结合在一起进行测试。以确定软件是否可以支付使用。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-103",
+        "type": "qa",
+        "question": "什么是软件生存周期?它有哪几个活动?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件生存周期：一个软件从提出开发要求开始直到该软件报废为止的整个时期。包括：可行性分析和项目开发计划，需求分析，概要设计，详细设计，编码，测试，维护。",
+        "analysis": "软件生存周期：一个软件从提出开发要求开始直到该软件报废为止的整个时期。包括：可行性分析和项目开发计划，需求分析，概要设计，详细设计，编码，测试，维护。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-104",
+        "type": "qa",
+        "question": "衡量模块独立性的两个标准是什么?各表示什么含义?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "内聚和耦合。内聚：又称为块内联系，指模块内部各成分之间相互关联的程度，以高内聚为设计目标。耦合：也称块间联系，模块之间相互联系程度的度量，联系越紧密，耦合性越强，独立性越差，以低耦合为设计目标。",
+        "analysis": "内聚和耦合。内聚：又称为块内联系，指模块内部各成分之间相互关联的程度，以高内聚为设计目标。耦合：也称块间联系，模块之间相互联系程度的度量，联系越紧密，耦合性越强，独立性越差，以低耦合为设计目标。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-105",
+        "type": "qa",
+        "question": "什么是结构分析方法?结构化分析方法通过哪些步骤来实现?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "结构化分析：简称SA，面向数据流进行数据分析的方法。采用自顶向下逐层分解的分析策略。顶层抽象地描述整个系统，底层具体地画出系统工程的每个细节。中间层则是从抽象到具体的过渡。实现的步骤：⑴了解当前系统的工作流程，获得当前系统的物理模型。 ⑵抽象出当前系统的逻辑模型。 ⑶建立目标系统的逻辑模型。 ⑷作进一步补充和优化。",
+        "analysis": "结构化分析：简称SA，面向数据流进行数据分析的方法。采用自顶向下逐层分解的分析策略。顶层抽象地描述整个系统，底层具体地画出系统工程的每个细节。中间层则是从抽象到具体的过渡。实现的步骤：⑴了解当前系统的工作流程，获得当前系统的物理模型。 ⑵抽象出当前系统的逻辑模型。 ⑶建立目标系统的逻辑模型。 ⑷作进一步补充和优化。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-106",
+        "type": "qa",
+        "question": "什么是需求分析?需求分析阶段的基本任务是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "需求分析：开发人员准确地理解用户的要求，进行细致的调查分析，将用户非形式的需求陈述转化为完整的需求定义，再由需求定义转换到相应的需求规格说明的过程。基本任务：⑴问题识别⑵分析与综合，导出软件的逻辑模型⑶编写文档",
+        "analysis": "需求分析：开发人员准确地理解用户的要求，进行细致的调查分析，将用户非形式的需求陈述转化为完整的需求定义，再由需求定义转换到相应的需求规格说明的过程。基本任务：⑴问题识别⑵分析与综合，导出软件的逻辑模型⑶编写文档",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-107",
+        "type": "qa",
+        "question": "什么样是“事物流”?什么是 “变换流”?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "数据流图（DFD）一般可分为“变换流”， “事物流”两种。“变换流”：由输入﹑输出﹑变换（或称处理）三部分组成，是一顺序结构。“事物流”：它的某个加工，分离成许多发散的数据流，形成许多加工路径，并且根据输入值选择其中一个路径来执行。（这人加工称为事务处理中心）",
+        "analysis": "数据流图（DFD）一般可分为“变换流”， “事物流”两种。“变换流”：由输入﹑输出﹑变换（或称处理）三部分组成，是一顺序结构。“事物流”：它的某个加工，分离成许多发散的数据流，形成许多加工路径，并且根据输入值选择其中一个路径来执行。（这人加工称为事务处理中心）",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-108",
+        "type": "qa",
+        "question": "单元测试有哪些内容?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "单元测试主要针对模块的以下五个基本特征进行测试：(1)模块接口(2)局部数据结构(3)重要的执行路径(4)错误处理(5)边界条件",
+        "analysis": "单元测试主要针对模块的以下五个基本特征进行测试：(1)模块接口(2)局部数据结构(3)重要的执行路径(4)错误处理(5)边界条件",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-109",
+        "type": "qa",
+        "question": "什么是软件生存周期模型?有哪些主要模型?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "生存周期模型：描述软件开发过程中各种活动如何执行的模型。对软件开发提供强有力的支持，为开发过程中的活动提供统一的政策保证，为参与开发的人员提供帮助和指导，是软件生存周期模型化技术的基础，也是建立软件开发环境的核心。主要有：瀑布模型，增量模型，螺旋模型，喷泉模型，基于知识的模型，变换模型。",
+        "analysis": "生存周期模型：描述软件开发过程中各种活动如何执行的模型。对软件开发提供强有力的支持，为开发过程中的活动提供统一的政策保证，为参与开发的人员提供帮助和指导，是软件生存周期模型化技术的基础，也是建立软件开发环境的核心。主要有：瀑布模型，增量模型，螺旋模型，喷泉模型，基于知识的模型，变换模型。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-110",
+        "type": "qa",
+        "question": "软件设计的基本原理包括哪些内容?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "⑴模块化：模块是软件的组成部分，是具有独立功能且可命名的一段程序，所有模块组成整体，可以满足问题的要求。⑵抽象：认识复杂现象过程所使用权的工具，只考虑事物本质的共同特性，忽略细节和其它因素。通过抽象确定组成软件的过程实体。⑶信息隐蔽：将模块实现自身功能的细节与数据”隐蔽”起来。模块间仅交换为完成系统功能所必须的信息。⑷模块独立性：每个模块只完成系统要求的独立的子功能。",
+        "analysis": "⑴模块化：模块是软件的组成部分，是具有独立功能且可命名的一段程序，所有模块组成整体，可以满足问题的要求。⑵抽象：认识复杂现象过程所使用权的工具，只考虑事物本质的共同特性，忽略细节和其它因素。通过抽象确定组成软件的过程实体。⑶信息隐蔽：将模块实现自身功能的细节与数据”隐蔽”起来。模块间仅交换为完成系统功能所必须的信息。⑷模块独立性：每个模块只完成系统要求的独立的子功能。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-111",
+        "type": "qa",
+        "question": "结构化程序设计的基本要点是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "主要有三个：1、采用自顶向下、逐步求精的程序设计方法2、使用三种基本控制结构构造程序。任何程序都可以由顺序、选择、重复(循环)三种基本控制结构构造，这三种基本结构的共同点是单入口、单出口。3、主程序员组的组织形式。",
+        "analysis": "主要有三个：1、采用自顶向下、逐步求精的程序设计方法2、使用三种基本控制结构构造程序。任何程序都可以由顺序、选择、重复(循环)三种基本控制结构构造，这三种基本结构的共同点是单入口、单出口。3、主程序员组的组织形式。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-112",
+        "type": "qa",
+        "question": "详细设计有哪几种描述方法?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "详细设计的描述方法有图形、表格和语言，其中图形常用结构化程序流程图、盒图和PAD(问题分析图)为描述工具，语言常用过程设计语言(PDL)来作为工具。",
+        "analysis": "详细设计的描述方法有图形、表格和语言，其中图形常用结构化程序流程图、盒图和PAD(问题分析图)为描述工具，语言常用过程设计语言(PDL)来作为工具。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-113",
+        "type": "qa",
+        "question": "单元测试中采用什么方法?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "测试的方法是为被测试模块编写驱动模块和桩模块来实现被测试单元的可运行。通过驱动模块来模拟被测试模块的上级调用模块，以上级模块调用被测模块的格式驱动被测模块，接收被测模块的测试结构并输出。桩模块则用来代替被测试模块所调用的模块。它的作用是返回被测模块所需的信息。",
+        "analysis": "测试的方法是为被测试模块编写驱动模块和桩模块来实现被测试单元的可运行。通过驱动模块来模拟被测试模块的上级调用模块，以上级模块调用被测模块的格式驱动被测模块，接收被测模块的测试结构并输出。桩模块则用来代替被测试模块所调用的模块。它的作用是返回被测模块所需的信息。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-114",
+        "type": "qa",
+        "question": "什么是软件配置管理?什么是基线?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件配置管理，简称SCM(Software Configuration Management),是指一组管理整个软件生存期各阶段中变更的活动。软件配置管理技术可以使软件变更所产生的错误达到最小并最有效地提高生产率。基线：是软件生存期中各开发阶段的一个特定点，它的作用是把开发各阶段工作的划分更加明确化，使本来连续的工作在这些点上断开，以便于检查与肯定阶段成果。",
+        "analysis": "软件配置管理，简称SCM(Software Configuration Management),是指一组管理整个软件生存期各阶段中变更的活动。软件配置管理技术可以使软件变更所产生的错误达到最小并最有效地提高生产率。基线：是软件生存期中各开发阶段的一个特定点，它的作用是把开发各阶段工作的划分更加明确化，使本来连续的工作在这些点上断开，以便于检查与肯定阶段成果。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-115",
+        "type": "qa",
+        "question": "简述文档在软件工程中的作用?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "文档在软件工程中的作用如下：(1)提高软件开发过程的能见度(2)提高开发效率(3)作为开发人员阶段工作成果和结束标志(4)记录开发过程的有关信息便于使用与维护；(5)提供软件运行、维护和培训有关资料；(6)便于用户了解软件功能、性能。",
+        "analysis": "文档在软件工程中的作用如下：(1)提高软件开发过程的能见度(2)提高开发效率(3)作为开发人员阶段工作成果和结束标志(4)记录开发过程的有关信息便于使用与维护；(5)提供软件运行、维护和培训有关资料；(6)便于用户了解软件功能、性能。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-116",
+        "type": "qa",
+        "question": "软件工程三要素之间的关系?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "analysis": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-117",
+        "type": "qa",
+        "question": "说明面向对象的特征?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "面向对象的特征是：(1)对象唯一性。每个对象都有自身唯一的标识，在对象生存期中，其标识不变，不同的对象不能有不同的标识。(2)分类性。是指将具有一致的数据结构(属性)和行为(操作)的对象抽象成类(3)继承性。是子类自动共享父类数据结构和方法的机制，这是类之间的一种关系。(4)多态性。是指相同的操作或函数过程可以作用于多种类型的对象上并获得不同的结果。",
+        "analysis": "面向对象的特征是：(1)对象唯一性。每个对象都有自身唯一的标识，在对象生存期中，其标识不变，不同的对象不能有不同的标识。(2)分类性。是指将具有一致的数据结构(属性)和行为(操作)的对象抽象成类(3)继承性。是子类自动共享父类数据结构和方法的机制，这是类之间的一种关系。(4)多态性。是指相同的操作或函数过程可以作用于多种类型的对象上并获得不同的结果。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-118",
+        "type": "qa",
+        "question": "简述“变换分析”设计步骤。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "⑴确定变换中心，逻辑输入和输出。⑵设计软件结构的顶层和第一层–变换结构。⑶设计中﹑下层模块，对第一层的模块自顶向下分解。⑷设计的优化 ：输入部分求精，每个物理输入设置专门模块，以体现系统的外部接口。其它输入模块与转换数据模块都很简单时，可将它们合并。",
+        "analysis": "⑴确定变换中心，逻辑输入和输出。⑵设计软件结构的顶层和第一层–变换结构。⑶设计中﹑下层模块，对第一层的模块自顶向下分解。⑷设计的优化 ：输入部分求精，每个物理输入设置专门模块，以体现系统的外部接口。其它输入模块与转换数据模块都很简单时，可将它们合并。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-119",
+        "type": "qa",
+        "question": "请简述可行性研究有哪些步骤?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "复查系统规模和目标；研究当前的系统；导出新系统的高层逻辑模型；重新定义问题；导出和评价可供选择的解决方案；推荐可行的行动方案；草拟开发计划；书写文档并提交审查。",
+        "analysis": "复查系统规模和目标；研究当前的系统；导出新系统的高层逻辑模型；重新定义问题；导出和评价可供选择的解决方案；推荐可行的行动方案；草拟开发计划；书写文档并提交审查。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-120",
+        "type": "qa",
+        "question": "请简述黑盒测试和白盒测试有何区别，黑盒测试有哪些常用方法?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "黑盒测试和白盒测试的区别：前者基于功能，后者基于结构；黑盒测试常用方法有：边界值、等价类、因果图、错误推测法等。",
+        "analysis": "黑盒测试和白盒测试的区别：前者基于功能，后者基于结构；黑盒测试常用方法有：边界值、等价类、因果图、错误推测法等。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-121",
+        "type": "qa",
+        "question": "什么是软件可维护性?常见的软件维护活动有哪几类?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件可维护性的定义：软件能够被理解、校正、适应及增强功能的容易程度；常见的软件维护活动有：改正型、适应型、完善型、预防型。",
+        "analysis": "软件可维护性的定义：软件能够被理解、校正、适应及增强功能的容易程度；常见的软件维护活动有：改正型、适应型、完善型、预防型。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-122",
+        "type": "qa",
+        "question": "CMM全称是什么?分为哪几个级别?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "CMM全称是软件能力成熟度模型；从无序到有序的进化分成5个级别，分别为：1 初始级；2 可重复级；3 已定义级；4 已管理级；5 优化级。",
+        "analysis": "CMM全称是软件能力成熟度模型；从无序到有序的进化分成5个级别，分别为：1 初始级；2 可重复级；3 已定义级；4 已管理级；5 优化级。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-123",
+        "type": "qa",
+        "question": "什么是数据字典?简述数据字典与数据流图的关系。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "数据字典是关于数据的信息的集合，对数据流程图中的各个元素做完整的定义与说明，是数据流程图的补充工具；数据字典与数据流图的关系：数据流图和数据字典共同构成系统的逻辑模型，没有数据字典数据流图就不严格，然而没有数据流图数据字典也难于发挥作用。 数据流图和对数据流图中每个元素的精确定义放在一起，才能共同构成系统的规格说明。",
+        "analysis": "数据字典是关于数据的信息的集合，对数据流程图中的各个元素做完整的定义与说明，是数据流程图的补充工具；数据字典与数据流图的关系：数据流图和数据字典共同构成系统的逻辑模型，没有数据字典数据流图就不严格，然而没有数据流图数据字典也难于发挥作用。 数据流图和对数据流图中每个元素的精确定义放在一起，才能共同构成系统的规格说明。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-124",
+        "type": "qa",
+        "question": "软件生命周期划分为哪几个阶段?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件生命周期分为三个时期八个阶段：软件定义：问题定义、可行性研究；软件开发：需求分析、概要设计、详细设计、编码、测试；软件运行：软件维护",
+        "analysis": "软件生命周期分为三个时期八个阶段：软件定义：问题定义、可行性研究；软件开发：需求分析、概要设计、详细设计、编码、测试；软件运行：软件维护",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-125",
+        "type": "qa",
+        "question": "简述三种面向对象模型的主要功能?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "①对象模型：表示了静态的结构化的系统数据性质，描绘了系统的静态结构，从客观世界实体的对象关系角度来描绘对象。②动态模型：该模型描述了系统的控制结构，它表示了瞬间的、行为化的系统控制性质，它关心的是系统的控制及操作的执行顺序，它从对象的事件和状态的角度出发，表现了对象的交互行为。③功能模型：表示变化的系统“功能”性质，它指明系统应该“做什么”，因此功能模型更直接的反映了用户对目标系统的要求。",
+        "analysis": "①对象模型：表示了静态的结构化的系统数据性质，描绘了系统的静态结构，从客观世界实体的对象关系角度来描绘对象。②动态模型：该模型描述了系统的控制结构，它表示了瞬间的、行为化的系统控制性质，它关心的是系统的控制及操作的执行顺序，它从对象的事件和状态的角度出发，表现了对象的交互行为。③功能模型：表示变化的系统“功能”性质，它指明系统应该“做什么”，因此功能模型更直接的反映了用户对目标系统的要求。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-126",
+        "type": "qa",
+        "question": "详细设计的基本任务是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "详细设计的基本任务包括：为每个模块进行详细的算法设计；为模块内的数据结构进行设计；对数据库进行物理设计；其他设计；编写详细设计说明书；评审。",
+        "analysis": "详细设计的基本任务包括：为每个模块进行详细的算法设计；为模块内的数据结构进行设计；对数据库进行物理设计；其他设计；编写详细设计说明书；评审。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-127",
+        "type": "qa",
+        "question": "黑盒测试和白盒测试有什么区别?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "（1）黑盒测试法: 把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。它只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息的完整性。黑盒测试又称为功能测试，包含等价类划分法、边界值法、错误推测法、因果图法等。（2）白盒测试法: 是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。这种方法按照程序内部的逻辑测试程序，检测程序中的主要执行通路是否都能按预定要求正确工作。白盒测试又称为结构测试，包含逻辑覆",
+        "analysis": "（1）黑盒测试法: 把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。它只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息的完整性。黑盒测试又称为功能测试，包含等价类划分法、边界值法、错误推测法、因果图法等。（2）白盒测试法: 是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。这种方法按照程序内部的逻辑测试程序，检测程序中的主要执行通路是否都能按预定要求正确工作。白盒测试又称为结构测试，包含逻辑覆",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-128",
+        "type": "qa",
+        "question": "什么是软件工程?软件工程面临的问题是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件工程就是用科学的知识和技术原理来定义，开发，维护软件的一门学科。软件工程面临的问题：软件的费用，可靠性，可维护性，软件生产率和软件的重用。",
+        "analysis": "软件工程就是用科学的知识和技术原理来定义，开发，维护软件的一门学科。软件工程面临的问题：软件的费用，可靠性，可维护性，软件生产率和软件的重用。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-129",
+        "type": "qa",
+        "question": "软件工程三要素之间的关系?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "analysis": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-130",
+        "type": "qa",
+        "question": "简述结构化程序设计方法的基本要点。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "(1)采用自顶向下，逐步求精的程序设计方法。(2)使用三种基本控制结构构造程序，分别是顺序，选择和循环(3)采用主程序员组的组织形式。",
+        "analysis": "(1)采用自顶向下，逐步求精的程序设计方法。(2)使用三种基本控制结构构造程序，分别是顺序，选择和循环(3)采用主程序员组的组织形式。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-131",
+        "type": "qa",
+        "question": "简述提高可维护性的方法。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "(1)建立明确的软件质量目标；(2)利用先进的软件开发技术和工具；(3)建立明确的质量保证工作；(4)选择可维护的程序设计语言；(5)改进程序文档。",
+        "analysis": "(1)建立明确的软件质量目标；(2)利用先进的软件开发技术和工具；(3)建立明确的质量保证工作；(4)选择可维护的程序设计语言；(5)改进程序文档。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-132",
+        "type": "qa",
+        "question": "简述文档在软件工程中的作用。",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "(1)提高软件开发过程的能见度；(2)提高开发效率；(3)作为开发人员阶段工作成果和结束标志；(4)记录开发过程的有关信息便于使用与维护；(5)提供软件运行、维护和培训有关资料；(6)便于用户了解软件功能、性能。",
+        "analysis": "(1)提高软件开发过程的能见度；(2)提高开发效率；(3)作为开发人员阶段工作成果和结束标志；(4)记录开发过程的有关信息便于使用与维护；(5)提供软件运行、维护和培训有关资料；(6)便于用户了解软件功能、性能。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-133",
+        "type": "qa",
+        "question": "什么是软件危机?产生原因是什么?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "软件开发技术的进步未能满足发展的要求。在软件开发中遇到的问题找不到解决的办法，问题积累起来，形态尖锐的矛盾，导致了软件危机。产生原因：⑴ 软件规模越来越大，结构越来越复杂。⑵ 软件开发管理困难而复杂。⑶ 软件包开发费用不断增加。⑷ 软件开发技术落后。⑸ 生产方式落后，仍采用手工方式。⑹ 开发工具落后，生产率提高缓慢。",
+        "analysis": "软件开发技术的进步未能满足发展的要求。在软件开发中遇到的问题找不到解决的办法，问题积累起来，形态尖锐的矛盾，导致了软件危机。产生原因：⑴ 软件规模越来越大，结构越来越复杂。⑵ 软件开发管理困难而复杂。⑶ 软件包开发费用不断增加。⑷ 软件开发技术落后。⑸ 生产方式落后，仍采用手工方式。⑹ 开发工具落后，生产率提高缓慢。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-134",
+        "type": "qa",
+        "question": "调试的目的是什么?调试有哪些技术手段?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "调试则是在进行了成功的测试之后才开始的工作。调试的目的是确定错误的原因和位置，并改正错误，因此调试也称为纠错(Debug)。调试的技术手段有简单的调试方法、归纳法、演绎法和回溯法等。",
+        "analysis": "调试则是在进行了成功的测试之后才开始的工作。调试的目的是确定错误的原因和位置，并改正错误，因此调试也称为纠错(Debug)。调试的技术手段有简单的调试方法、归纳法、演绎法和回溯法等。",
+        "source": "软件工程"
+      },
+      {
+        "id": "se-135",
+        "type": "qa",
+        "question": "在传统软件工程方法指导下，数据流图和数据字典的关系如何?",
+        "options": [],
+        "answer": "",
+        "referenceAnswer": "数据字典是关于数据的信息的集合，对数据流程图中的各个元素做完整的定义与说明，是数据流程图的补充工具。数据流图和数据字典共同构成系统的逻辑模型，没有数据字典数据流图就不严格，然而没有数据流图数据字典也难于发挥作用。 数据流图和对数据流图中每个元素的精确定义放在一起，才能共同构成系统的规格说明\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+        "analysis": "数据字典是关于数据的信息的集合，对数据流程图中的各个元素做完整的定义与说明，是数据流程图的补充工具。数据流图和数据字典共同构成系统的逻辑模型，没有数据字典数据流图就不严格，然而没有数据流图数据字典也难于发挥作用。 数据流图和对数据流图中每个元素的精确定义放在一起，才能共同构成系统的规格说明\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+        "source": "软件工程"
+      }
+    ]
+  },
+  {
+    "subject": "数据科学",
+    "accent": "#7c3aed",
+    "description": "数据、统计、可视化、大数据与机器学习",
+    "questions": [
+      {
+        "id": "ds-1",
+        "type": "single",
+        "question": "在DIKW金字塔模型中，能够回答“who-what-when-where”等模式问题，并被视为解释\n事物之间相互关系的是哪一层？",
+        "options": [
+          "数据",
+          "信息",
+          "知识",
+          "智慧"
+        ],
+        "answer": "B",
+        "analysis": "信息是对原始数据进行整合和分析后形成的，能够解释事物之间相互关系，且\n 能够回答“who-what-when-where”等模式的问题。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-2",
+        "type": "single",
+        "question": "以下关于数据结构的描述中，属于“半结构化数据”典型特征的是什么？",
+        "options": [
+          "需要先严格定义表结构和字段，然后才能存储数据",
+          "数据自身携带关于其含义和关系的描述（如标签），结构与数据共存",
+          "完全不存在统一结构，无法在传统数据库中处理",
+          "必须以二维表格的形式呈现，行代表记录，列代表属性"
+        ],
+        "answer": "B",
+        "analysis": "半结构化数据不需要像结构化数据那样先定义结构，其结构和数据是同时存在\n 的，具有自描述性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-3",
+        "type": "single",
+        "question": "在统计学数据分类中，摄氏温度属于哪一种数据类型？",
+        "options": [
+          "定类数据",
+          "定序数据",
+          "定距数据",
+          "定比数据"
+        ],
+        "answer": "C",
+        "analysis": "定距数据具有类别、可排序且可计算差距，但不存在绝对零点，无法进行乘除\n 运算。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-4",
+        "type": "single",
+        "question": "数据科学的发展历程中，哪一位学者在2001年提出了大数据的“3V”模型？",
+        "options": [
+          "约翰·图基",
+          "埃德加·科德",
+          "道格·莱尼",
+          "威廉·S·克利夫兰"
+        ],
+        "answer": "C",
+        "analysis": "2001年高德纳咨询公司的道格·莱尼提出了大数据的“3V”模型。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-5",
+        "type": "single",
+        "question": "在数据科学生命周期中，通常最为耗时和繁琐，大约占据75%工作量的阶段是？",
+        "options": [
+          "业务理解",
+          "数据获取与收集",
+          "数据清洗与预处理",
+          "数据建模与机器学习"
+        ],
+        "answer": "C",
+        "analysis": "“数据清洗与预处理”旨在确保数据质量，这一阶段最为耗时和繁琐，花费大约\n 75%的工作量。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-6",
+        "type": "single",
+        "question": "某研究机构收集了“2010年至2024年全国各省每年的GDP数据”，这种结合了多个观测单\n元在多个时间点进行跟踪采集的数据属于？",
+        "options": [
+          "横截面数据",
+          "时间序列数据",
+          "面板数据",
+          "流数据"
+        ],
+        "answer": "C",
+        "analysis": "横截面数据是同一时间点不同单元的快照；时间序列数据是同一单元在连续时\n 间点的测量；面板数据结合了二者特征，是对多个观测单元在多个时间点进行跟踪采集的\n 数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-7",
+        "type": "single",
+        "question": "下列哪项不属于非结构化数据？",
+        "options": [
+          "电子邮件",
+          "规范的CSV文件",
+          "淘宝商品图片",
+          "行车记录仪视频"
+        ],
+        "answer": "B",
+        "analysis": "CSV文件是使用逗号分隔值的纯文本文件，属于结构化数据的存储方式之一。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-8",
+        "type": "single",
+        "question": "早在1970年，首次提出关系模型概念，从而奠定了关系数据库理论基础的IBM研究员\n是？",
+        "options": [
+          "Bill Inmon",
+          "Ralph Kimball",
+          "Edgar Codd",
+          "Doug Laney"
+        ],
+        "answer": "C",
+        "analysis": "1970年IBM研究员Codd发表了关于系统数据库理论的论文，首次提出了关系模\n 型的概念。Bill Inmon是数据仓库之父，Ralph Kimball提出了维度建模，Doug Laney提出\n 了大数据的3V模型。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-9",
+        "type": "single",
+        "question": "关系数据库遵循ACID原则，其中“事务一旦提交后，它所做的修改将会永久保存在数据\n库上，即使出现意外系统故障或断电情况也不会丢失”描述的是哪一特性？",
+        "options": [
+          "原子性",
+          "一致性",
+          "隔离性",
+          "持久性"
+        ],
+        "answer": "D",
+        "analysis": "隔离性指事务提交后修改永久保存，不怕故障丢失。原子性是“全有或全无”，一\n 致性是符合架构约束，独立性是并发事务互不干扰。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-10",
+        "type": "single",
+        "question": "在SQL语言中，若希望查询结果中去除重复的值，应该使用以下哪个关键字？",
+        "options": [
+          "ORDER BY",
+          "DISTINCT",
+          "UNIQUE",
+          "DELETE"
+        ],
+        "answer": "B",
+        "analysis": "SELECT DISTINCT param ... 用于去重查询，保证重复的值只能出现一次。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-11",
+        "type": "single",
+        "question": "关于列式数据库的优势，下列描述正确的是？",
+        "options": [
+          "适合存储社交网络关系图谱",
+          "针对写入行数据进行了优化，适合高频事务处理",
+          "适合一次性读取同一列的大量数据，极大降低了I/O要求",
+          "必须预先定义严格的表结构"
+        ],
+        "answer": "C",
+        "analysis": "列式数据库针对读取和写入数据列进行了优化，特别适合一次性读取同一列的\n 大量数据，降低磁盘I/O。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-12",
+        "type": "single",
+        "question": "在数据仓库的定义中，“数据一旦进入数据仓库，通常就不会被更新或删除，主要操作\n是批量加载和查询”体现了哪一特性？",
+        "options": [
+          "面向主题的",
+          "集成的",
+          "非易失的",
+          "随时间变化的"
+        ],
+        "answer": "C",
+        "analysis": "非易失性表示数据仓库环境相对稳定，数据一旦进入通常不更新或删除，操作\n 主要是批量加载和查询。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-13",
+        "type": "single",
+        "question": "关于数据仓库的逻辑数据模型，星型模型与雪花模型的主要区别在于？",
+        "options": [
+          "星型模型的事实表位于中心，而雪花模型没有事实表",
+          "星型模型的维度表直接与事实表相连，而雪花模型的维度表被分解为多个层级",
+          "星型模型数据结构更规范，无冗余；雪花模型存在大量冗余",
+          "星型模型查询性能低，雪花模型查询性能高"
+        ],
+        "answer": "B",
+        "analysis": "星型模型的维表与事实表直接相连，简单直观但有冗余；雪花模型的维度表被\n 分解成多个层级，减少了冗余但模型更复杂，查询性能可能下降。星型模型通常是反规范\n 化的，存在数据冗余；而雪花模型是规范化的，冗余较少。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-14",
+        "type": "single",
+        "question": "下列哪种NoSQL数据库类型最适合用于“查找朋友的朋友”或“识别欺诈团伙”等高度互联\n数据的场景？",
+        "options": [
+          "键值存储数据库",
+          "文档数据库",
+          "列式数据库",
+          "图数据库"
+        ],
+        "answer": "D",
+        "analysis": "图数据库专门为处理高度互联数据设计，常用于社交网络、欺诈检测等场景。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-15",
+        "type": "single",
+        "question": "数据湖与传统数据仓库的一个显著区别在于数据湖采用什么样的模式策略？",
+        "options": [
+          "先定义模式，后写入数据",
+          "只能存储结构化数据",
+          "允许以原始格式存储，分析时才确定模型",
+          "不支持任何形式的数据分析"
+        ],
+        "answer": "C",
+        "analysis": "数据仓库要求“先定义模式，后写入数据”，而数据湖允许数据以原始格式存储，\n 数据模型可以在分析时才确定。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-16",
+        "type": "single",
+        "question": "数据中台的核心目标是？",
+        "options": [
+          "替代底层的数据库和数据仓库技术",
+          "实现数据资产的“共建共享”，连接后台数据与前台业务",
+          "专门用于存储非结构化数据",
+          "提高数据写入的事务一致性"
+        ],
+        "answer": "B",
+        "analysis": "数据中台的核心目标是打破数据孤岛，实现数据资产的“共建共享”，作为连接\n “后台数据”与“前台业务”的桥梁。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-17",
+        "type": "single",
+        "question": "在数据预处理的数据标准化环节中，若希望转换后的数据分布均值为0、标准差为1，\n且转换结果不易受异常值干扰，应选择下列哪种方法？",
+        "options": [
+          "最大最小值标准化",
+          "Z-score标准化",
+          "独热编码",
+          "标签编码"
+        ],
+        "answer": "B",
+        "analysis": "Z-score标准化将原始数据转换为均值为0、标准差为1的分布。与最大最小值标\n 准化相比，此方法的转换结果不会被异常值干扰。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-18",
+        "type": "single",
+        "question": "下列哪种数据采集模式强调“数据产生即采集、采集即处理”，并能为实时分析和在线决\n策提供数据底座？",
+        "options": [
+          "批量采集",
+          "网络爬虫",
+          "流式采集",
+          "API接口调用"
+        ],
+        "answer": "C",
+        "analysis": "流式采集是一种实时、持续地捕获并传输数据的采集模式，强调“数据产生即采\n 集、采集即处理”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-19",
+        "type": "single",
+        "question": "在进行数据科学项目时，若需要展示决策树模型的结构，或者在结果解释阶段将复杂\n的模型结论转化为业务人员能理解的洞察，以下哪种做法最符合“数据可视化”在数据建模及部署\n阶段的应用？",
+        "options": [
+          "使用直方图查看数值变量的分布",
+          "利用树状图展示决策树模型，利用仪表盘进行结果解释",
+          "使用散点图矩阵探索变量间的相关性",
+          "利用折线图观察时间序列数据的趋势性"
+        ],
+        "answer": "B",
+        "analysis": "在数据建模时，可利用树状图展示决策树模型；在结果解释和部署阶段，利用\n 仪表盘将复杂的模型结论转化为业务人员能理解的洞察。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-20",
+        "type": "single",
+        "question": "在选择可视化工具时，如果你的需求是进行企业级数据可视化分析，且偏好拖拽式操\n作界面和强大的交互设计能力，以下哪组工具最适合？",
+        "options": [
+          "Matplotlib, Seaborn",
+          "Echarts, D3js",
+          "Tableau, Power BI",
+          "Superset, Grafana"
+        ],
+        "answer": "C",
+        "analysis": "BI商业软件以Tableau、Power BI为代表，采用拖拽式操作界面，交互设计能力\n 强，适合企业级数据可视化分析。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-21",
+        "type": "single",
+        "question": "若要分析某公司不同类别产品在整体销售额中的占比情况，最不适合选用的图表类型\n是？",
+        "options": [
+          "饼图",
+          "堆叠柱状图",
+          "堆叠面积图",
+          "散点图"
+        ],
+        "answer": "D",
+        "analysis": "散点图主要用于观察数据的分布或聚类结果，不适合展示比例关系。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-22",
+        "type": "single",
+        "question": "在Tableau中，若希望将“公司”和“小型企业”两个字段合并，以便与“消费者”进行对比\n分析，应使用以下哪项功能？",
+        "options": [
+          "聚类",
+          "分组",
+          "筛选器",
+          "快速表计算"
+        ],
+        "answer": "B",
+        "analysis": "Tableau提供了分组功能，允许用户将某些字段合并为同一组进行分析。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-23",
+        "type": "single",
+        "question": "关于Tableau中的“故事”功能，下列说法正确的是？",
+        "options": [
+          "故事中的不同故事点的筛选状态会自动同步变化",
+          "故事点是动态连接的，在一个点上的交互操作会影响所有其他点",
+          "每个故事点都是一个独立的快照，记录了当前的可视化状态",
+          "故事只能包含仪表板，不能包含单独的工作表"
+        ],
+        "answer": "C",
+        "analysis": "利用Tableau进行数据可视化中的“故事”部分，指出“每个故事点都是一个独立的\n 快照，它记录了当前的可视化状态。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-24",
+        "type": "single",
+        "question": "在Tableau中，若要在散点图中根据数据特征自动将样本划分为不同的群组，应点击\n“分析”菜单下的哪个选项？",
+        "options": [
+          "趋势线",
+          "参考线",
+          "预测",
+          "群集"
+        ],
+        "answer": "D",
+        "analysis": "利用Tableau进行数据可视化中的“散点图”部分，点击“分析”-“群集”，则会使用K\n 均值方法进行聚类分析。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-25",
+        "type": "single",
+        "question": "某电商平台希望通过分析用户的点击流数据，优化购物流程。如果系统发现“将手机加\n入购物车”但未付款的用户，往往会在接下来“查看耳机”页面，从而决定在购物车页面直接推荐\n耳机。这种分析方法属于以下哪种数据建模任务？",
+        "options": [
+          "关联分析",
+          "序列模式分析",
+          "聚类分析",
+          "分类分析"
+        ],
+        "answer": "B",
+        "analysis": "该分析方法关心的是“哪些项目按顺序先后出现”，时间顺序是关键。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-26",
+        "type": "single",
+        "question": "在统计分析中，若分析师利用样本数据得出“有95%的信心认为销售部员工的平均血压\n高于人力资源部”的结论，这属于哪种统计分析类型？",
+        "options": [
+          "描述性统计",
+          "探索性统计",
+          "推断性统计",
+          "诊断性统计"
+        ],
+        "answer": "C",
+        "analysis": "推断性统计的目的是利用样本数据来对总体做出推断或预测，并对预测结果的\n 不确定性进行评估。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-27",
+        "type": "single",
+        "question": "在数据科学的发展历程中，哪一事件标志着大数据成为驱动人工智能取得突破的关键\n性因素，并宣告了大数据与AI时代的正式到来？",
+        "options": [
+          "2001年道格·莱尼发布研究报告，提出“3V”模型",
+          "2003-2006年Google发表关于GFS、MapReduce和BigTable的开创性论文",
+          "2012年维克托·迈尔-舍恩伯格出版《大数据时代》",
+          "2016年Google开发的AlphaGo以4:1战胜围棋世界冠军李世石"
+        ],
+        "answer": "D",
+        "analysis": "AlphaGo战胜李世石的事件表明大数据成为驱动人工智能取得突破的关键性因\n 素，标志着大数据与AI时代的到来。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-28",
+        "type": "single",
+        "question": "大数据分析领域出现了三大根本性转变，以下哪项描述不符合这三大转变的内容？",
+        "options": [
+          "从依赖随机抽样转向分析全体数据",
+          "从追求精确性转向接受混杂性",
+          "从关注因果关系转向重视相关关系",
+          "从处理结构化数据转向仅处理非结构化数据"
+        ],
+        "answer": "D",
+        "analysis": "三大根本性转变分别是：从依赖随机抽样转向分析全体数据；从追求精确性转\n 向接受混杂性；从关注因果关系转向重视相关关系。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-29",
+        "type": "single",
+        "question": "在医疗健康领域，电子健康记录、医学影像、基因组序列等多模态数据的融合，主要\n体现了大数据“5V”特征中的哪一个？",
+        "options": [
+          "数量大",
+          "多样性",
+          "时效性",
+          "真实性"
+        ],
+        "answer": "B",
+        "analysis": "多样性 (Variety)，医疗健康领域中结构化（如电子记录）与非结构化（如影\n 像、基因序列）数据的融合，体现了数据形态的多元性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-30",
+        "type": "single",
+        "question": "关于大数据思维中的“不确定性”，以下说法错误的是",
+        "options": [
+          "复杂系统的决策者无法在事前准确预知事件的具体结果",
+          "物理世界的本质是不确定的，如微观粒子的位置与速度无法同时精确测定",
+          "只有消除所有变量的干扰，才能完全消除系统的不确定性",
+          "大数据的本质是通过规模化信息采集与智能算法处理，系统化地降低不确定性"
+        ],
+        "answer": "C",
+        "analysis": "世界的不确定性源于变量极多且物理世界本质不确定。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-31",
+        "type": "single",
+        "question": "沃尔玛发现“飓风用品”与“草莓挞”之间存在强关联，从而调整商品摆放提升了销售额。\n这一案例主要体现了大数据思维中的哪一维度？",
+        "options": [
+          "机械思维",
+          "因果性",
+          "强相关性",
+          "完备性"
+        ],
+        "answer": "C",
+        "analysis": "沃尔玛的案例说明了无需探究内部机理（因果性），只需利用发现的关联关系\n （强相关性）即可进行有效预测和决策。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-32",
+        "type": "single",
+        "question": "在分布式计算框架中，MapReduce的核心思想来源于计算机科学中的哪种策略？",
+        "options": [
+          "动态规划",
+          "贪心算法",
+          "分治策略",
+          "回溯法"
+        ],
+        "answer": "C",
+        "analysis": "MapReduce的核心思想是计算机科学中的分治策略，即将大规模任务分解为子\n 任务并行处理。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-33",
+        "type": "single",
+        "question": "Spark相较于Hadoop MapReduce，其运行速度更快的主要原因是什么？",
+        "options": [
+          "Spark使用了更昂贵的硬件设备",
+          "Spark基于内存计算，并使用了DAG执行引擎",
+          "Spark仅支持Java语言，执行效率更高",
+          "Spark放弃了容错机制以换取速度"
+        ],
+        "answer": "B",
+        "analysis": "Spark运行速度快是因为它使用先进的DAG执行引擎以支持循环数据流与内存计\n 算，基于内存的执行速度比MapReduce快上百倍。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-34",
+        "type": "single",
+        "question": "若某电商平台需要构建一个实时推荐系统，能够在用户浏览行为发生的500毫秒内完成\n个性化推荐，最适合采用哪种类型的计算框架？",
+        "options": [
+          "批处理框架",
+          "流式计算框架",
+          "增量计算框架",
+          "图计算框架"
+        ],
+        "answer": "B",
+        "analysis": "流式计算框架对无界数据流进行“一次事件，一次处理”的低延迟实时计算，适用\n 于实时推荐等场景。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-35",
+        "type": "single",
+        "question": "以下哪款工具秉承“统计即编程”的理念，内置丰富统计函数，且近年来可通过\nreticulate包与Python生态互联？",
+        "options": [
+          "SPSS",
+          "SAS",
+          "R语言",
+          "Tableau"
+        ],
+        "answer": "C",
+        "analysis": "R语言秉承“统计即编程”的理念，且可以通过reticulate包实现与Python生态的\n 互联。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-36",
+        "type": "single",
+        "question": "根据智慧城市的功能架构，哪一层主要负责利用数据仓库和数据挖掘等技术存储和监\n控管理大量分散的数据，并从全局角度分析实时解决问题？",
+        "options": [
+          "感知层",
+          "网络层",
+          "数据层",
+          "应用层"
+        ],
+        "answer": "C",
+        "analysis": "数据层的功能是“海量的数据存储及信息整合和共享”，具体内容包括应用数据仓\n 库和数据挖掘等技术存储和监控管理大量分散的数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-37",
+        "type": "single",
+        "question": "在智慧城市大数据的特征中，关于数据规模的描述，以下哪项数据符合文档中关于医\n疗影像领域的描述？",
+        "options": [
+          "单个公共安防摄像头每小时产生的数据量为100GB",
+          "北京地铁每日数据增量突破1TB",
+          "单个肿瘤患者的多期增强CT影像结合三维重建数据，普遍达到60-80GB",
+          "国家电网年均产生的核心运行数据达到EB级"
+        ],
+        "answer": "C",
+        "analysis": "单个肿瘤患者的多期增强CT影像结合三维重建数据，单例患者的影像数据量普\n 遍达到60-80GB。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-38",
+        "type": "single",
+        "question": "以下哪项技术的核心思想是将真实物理世界中的数据内在联系映射到数据存储与管理\n的数字空间中，恢复数据在物理世界当中的关联性？",
+        "options": [
+          "数据感知技术",
+          "数据挖掘技术",
+          "数据活化技术",
+          "数据可视化技术"
+        ],
+        "answer": "C",
+        "analysis": "数据活化技术的核心思想在于将真实物理世界中的数据内在联系映射到数据存\n 储与管理的数字空间中，使存储空间中相互隔离的数据变为一个有机的整体。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-39",
+        "type": "single",
+        "question": "在新加坡的智慧水务管理系统中，通过部署压力传感器与泄漏监测器，2024年将供水\n管网泄漏率降至了多少？",
+        "options": [
+          "15%",
+          "4.2%",
+          "12%",
+          "8%"
+        ],
+        "answer": "B",
+        "analysis": "2024年，新加坡供水管网泄漏率降至4.2%，远低于全球平均水平（15%）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-40",
+        "type": "single",
+        "question": "新加坡在应对台风“海燕”时，利用国家应急响应平台实现了救援响应时间的显著缩短，\n具体缩短到了多少分钟？",
+        "options": [
+          "15分钟",
+          "10分钟",
+          "8分钟",
+          "5分钟"
+        ],
+        "answer": "C",
+        "analysis": "救援响应时间从以往的15分钟缩短至8分钟。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-41",
+        "type": "single",
+        "question": "杭州被称为“移动支付之城”，在智慧生活建设中，以下哪项描述不符合其“无卡化”升级\n的现状？",
+        "options": [
+          "公交、地铁支持“刷脸乘车”",
+          "西湖景区主要景点实现“刷脸入园”",
+          "超市、便利店完全取消了人工结算通道",
+          "市民卡电子钱包整合了公园年卡、图书馆借阅等功能"
+        ],
+        "answer": "C",
+        "analysis": "国内智慧城市案例”中“智慧生活”",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-42",
+        "type": "single",
+        "question": "杭州在解决“潮汐车流”问题时，采取了“可变车道+AI调度”模式，其主要操作方式是？",
+        "options": [
+          "永久性增加进城车道数量",
+          "通过电子指示牌实时调整车道方向",
+          "禁止私家车在高峰时段上路",
+          "仅允许公交车使用潮汐车道"
+        ],
+        "answer": "B",
+        "analysis": "针对“潮汐车流”，杭州通过电子指示牌实时调整车道方向。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-43",
+        "type": "single",
+        "question": "杭州推出的“医信付”模式，其核心特点是？",
+        "options": [
+          "治疗完全免费",
+          "先诊疗，后还款",
+          "仅支持现金支付",
+          "必须先存款后治疗"
+        ],
+        "answer": "B",
+        "analysis": "“智慧医疗”，杭州研发了“医信付——先诊疗，后还款”模式。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-44",
+        "type": "single",
+        "question": "在杭州的智慧养老服务中，为独居老人发放的智能床垫主要监测什么指标以触发报\n警？",
+        "options": [
+          "血压和血糖",
+          "呼吸和翻身频率",
+          "室内温度和湿度",
+          "进食量和饮水量"
+        ],
+        "answer": "B",
+        "analysis": "“智慧养老”，智能床垫用于监测呼吸、翻身频率，若长时间未翻身或呼吸异常，\n 触发报警。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-45",
+        "type": "single",
+        "question": "关于杭州政务服务网的“一件事一次办”集成服务，以下描述正确的是？",
+        "options": [
+          "仅适用于个人简单的社保查询业务",
+          "将多个部门的审批环节整合为“一个窗口、一套材料、一次办结”",
+          "要求企业必须分别跑访每一个相关部门",
+          "办理时间通常比传统方式更长"
+        ],
+        "answer": "B",
+        "analysis": "“智慧型的政务服务网”部分，针对复杂事项，杭州推出“一件事一次办”集成服\n 务，将多个部门的审批环节整合为“一个窗口、一套材料、一次办结”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-46",
+        "type": "single",
+        "question": "物联网体系架构通常被划分为三个层次，其中负责解决人类世界和物理世界的数据获\n取问题，实现对“物”的识别的是哪一层？",
+        "options": [
+          "网络层",
+          "应用层",
+          "感知层",
+          "传输层"
+        ],
+        "answer": "C",
+        "analysis": "感知层处于三层架构的最底层，解决的是人类世界和物理世界的数据获取问\n 题，实现对“物”的识别。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-47",
+        "type": "single",
+        "question": "在物联网的特征中，“全面感知”不仅追求信息的广泛和透彻，还强调信息的什么特性？",
+        "options": [
+          "快速和廉价",
+          "精准和效用",
+          "安全和加密",
+          "开放和共享"
+        ],
+        "answer": "B",
+        "analysis": "全面感知是指物联网在信息采集和信息获取的过程中，追求的不仅是信息的广\n 泛和透彻，而且强调信息的精准和效用。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-48",
+        "type": "single",
+        "question": "关于物联网与大数据的关系，以下哪项描述是错误的？",
+        "options": [
+          "物联网贡献了全球大数据来源的90%以上。",
+          "大数据技术通过“数据赋能”推动物联网从“连接”向“智能”升级。",
+          "物联网产生的数据结构单一，主要为结构化数据。",
+          "没有物联网的广泛部署，就没有海量、持续的数据源支撑大数据技术的应用。"
+        ],
+        "answer": "C",
+        "analysis": "物联网数据结构具有显著的“多元性”特征，从单一的结构化数据向“结构化+半结\n 构化+非结构化”混合的方向发展，而非仅为结构化数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-49",
+        "type": "single",
+        "question": "在智能交通应用中，ETC系统主要利用微波专用短程通信技术实现车辆不停车收费。\nETC系统通过安装在车辆哪里的电子标签与收费站微波天线进行通信？",
+        "options": [
+          "车牌上",
+          "挡风玻璃上",
+          "发动机舱内",
+          "驾驶员手机中"
+        ],
+        "answer": "B",
+        "analysis": "ETC系统是通过安装在车辆挡风玻璃上的车载电子标签与在收费站ETC车道上的\n 微波天线之间的微波专用短程通信。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-50",
+        "type": "single",
+        "question": "美国Royal Food Import公司利用物联网监控服务改善食品运输，其核心技术方案中，\n集装箱封锁除了具备GPS定位功能外，还内嵌了什么传感器以监测箱内状况？",
+        "options": [
+          "气味传感器",
+          "辐射传感器",
+          "温度和湿度传感器",
+          "噪音传感器"
+        ],
+        "answer": "C",
+        "analysis": "封锁内嵌着温度和湿度感应器，用来监测箱内状况。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-51",
+        "type": "single",
+        "question": "在比尔·盖茨的豪宅智能设计中，访客进门时会领到一个什么设备，用于系统自动调整\n环境以适应访客的偏好？",
+        "options": [
+          "智能手机",
+          "内建微晶片的胸针",
+          "智能手表",
+          "平板电脑"
+        ],
+        "answer": "B",
+        "analysis": "访客从一进门开始，就会领到一个内建微晶片的胸针，可以预先设定偏好的温\n 度、湿度、灯光等条件。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-52",
+        "type": "single",
+        "question": "上海浦东试运行的国内首条全场景智能网联公交专用道，通过什么技术实现了公交车\n与信号灯、路侧设备的实时交互？",
+        "options": [
+          "4G+GPS定位",
+          "5G+北斗定位与车路协同技术",
+          "蓝牙+Wi-Fi定位",
+          "红外线感应技术"
+        ],
+        "answer": "B",
+        "analysis": "2025年7月，国内首条全场景智能网联公交专用道在浦东试运行，通过5G+北斗\n 定位与车路协同技术，实现交互。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-53",
+        "type": "single",
+        "question": "德国普罗斯维茨城堡酒庄利用物联网技术搭建了“感知神经网”，其中无人机编队主要利\n用什么技术捕捉葡萄叶片的健康度差异？",
+        "options": [
+          "热成像技术",
+          "激光雷达技术",
+          "多光谱成像技术",
+          "超声波探测技术"
+        ],
+        "answer": "C",
+        "analysis": "搭载多光谱相机的无人机编队通过光谱成像技术捕捉肉眼难以察觉的叶片健康\n 度差异。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-54",
+        "type": "single",
+        "question": "在物联网应用层的关键技术中，主要用于处理海量数据的技术是？",
+        "options": [
+          "射频识别",
+          "蓝牙技术",
+          "云计算技术",
+          "嵌入式技术"
+        ],
+        "answer": "C",
+        "analysis": "应用层的关键技术主要有M2M技术、用于处理海量数据的云计算技术等。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-55",
+        "type": "single",
+        "question": "商务智能的概念最早由哪家机构于1996年正式提出？",
+        "options": [
+          "IBM",
+          "Gartner Group",
+          "Microsoft",
+          "Oracle"
+        ],
+        "answer": "B",
+        "analysis": "商务智能的概念最早由美国加特纳企业（Gartner Group）于1996年正式提\n 出。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-56",
+        "type": "single",
+        "question": "在商务智能的功能架构中，负责将原始数据集成到数据仓库中，并针对不同部门的异\n构数据进行整合的技术层通常使用什么过程？",
+        "options": [
+          "OLAP",
+          "DM",
+          "ETL",
+          "CRM"
+        ],
+        "answer": "C",
+        "analysis": "商务智能系统通过ETL（Extract-Transform-Load，数据抽取、转换、加载）将\n 数据层的原始数据集成到数据仓库中。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-57",
+        "type": "single",
+        "question": "关于商务智能与大数据关系的描述，以下哪项是不正确的？",
+        "options": [
+          "商务智能是一种基于大数据的管理工具，旨在将非结构化数据转化为结构化信息。",
+          "大数据侧重于刻画个体和个性化分析，而商务智能更倾向于分析模式和组织决策。",
+          "没有大数据，商务智能就失去了存在的基础；没有商务智能，大数据就缺乏转化为价值 的工具。",
+          "商务智能完全等同于大数据技术，两者在定义和应用上没有任何区别。"
+        ],
+        "answer": "D",
+        "analysis": "商务智能是基于大数据的管理工具，两者侧重点不同（BI倾向分析模式，大数\n 据倾向刻画个体），且存在依存关系，但并非完全等同。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-58",
+        "type": "single",
+        "question": "在商务智能的核心技术中，哪项技术主要关注多维数据库和多维分析，使用户能够从\n多种角度快速、一致、交互地存取数据？",
+        "options": [
+          "数据可视化",
+          "联机分析处理",
+          "数据挖掘",
+          "元数据管理"
+        ],
+        "answer": "B",
+        "analysis": "OLAP主要关注多维数据库和多维分析，使分析人员能够从多种角度对信息进行\n 快速、一致、交互的存取。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-59",
+        "type": "single",
+        "question": "在销售领域的应用中，BI系统可以通过分析历史销售数据、市场趋势等构建模型，实\n现精准预测。这种预测结果除了用于制定销售目标外，还能直接协同哪个系统以优化库存管\n理？",
+        "options": [
+          "财务管理系统",
+          "人力资源系统",
+          "供应链系统",
+          "客户服务系统"
+        ],
+        "answer": "C",
+        "analysis": "销售预测结果不仅为企业制定销售目标提供科学依据，更能与供应链系统深度\n 协同，实现库存的优化管理。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-60",
+        "type": "single",
+        "question": "在营销领域，BI系统通过整合内外部数据对客户进行细分。以下哪项属于客户细分中\n的“心理维度”？",
+        "options": [
+          "年龄、性别、收入",
+          "购买频率、消费金额",
+          "消费理念、品牌偏好",
+          "所在地区、城市等级"
+        ],
+        "answer": "C",
+        "analysis": "心理维度包括消费理念、品牌偏好。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-61",
+        "type": "single",
+        "question": "在供应链领域的应用中，BI系统如何帮助企业进行供应商管理？",
+        "options": [
+          "仅通过价格低廉程度选择供应商",
+          "通过多维度评估建立供应商信用评级体系",
+          "随机分配采购订单给不同供应商",
+          "仅依据供应商的地理位置进行筛选"
+        ],
+        "answer": "B",
+        "analysis": "BI系统对供应商进行多维度评估，包括产品质量、交货周期、价格水平、售后\n 服务等，建立供应商信用评级体系。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-62",
+        "type": "single",
+        "question": "在金融领域的反欺诈应用中，BI系统主要通过什么方式来识别潜在的欺诈行为？",
+        "options": [
+          "人工逐笔核对所有交易记录",
+          "仅依赖客户的主动申报",
+          "实时采集交易数据，构建异常行为识别模型",
+          "停止所有跨境交易"
+        ],
+        "answer": "C",
+        "analysis": "BI系统实时采集交易数据，构建异常行为识别模型，监控大额高频转账、跨区\n 域异常交易、交易习惯突变等可疑场景。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-63",
+        "type": "single",
+        "question": "商务智能的价值体现在多个方面，其中“促进PDCA高效循环”主要属于哪个层面的价\n值？",
+        "options": [
+          "支撑管理决策",
+          "提升管理水平",
+          "提高业务运营效率",
+          "改进优化业务"
+        ],
+        "answer": "B",
+        "analysis": "BI能够进一步帮助企业基于数据的透明和流程化，促进PDCA高效循环，提升管\n 理水平。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-64",
+        "type": "single",
+        "question": "根据2025年国家卫健委发布的《卫生健康行业数据分类分级指南（试行）》（征求意\n见稿），医疗大数据被定义为具有“三性”的数据集合。以下哪项不属于这“三性”？",
+        "options": [
+          "场景关联性",
+          "隐私敏感性",
+          "价值潜在性",
+          "结构单一性"
+        ],
+        "answer": "D",
+        "analysis": "2025年的指南提出医疗大数据具有“三性”：一是场景关联性；二是隐私敏感\n 性；三是价值潜在性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-65",
+        "type": "single",
+        "question": "在医院信息系统中，专门用于管理医学影像存档与通信的系统简称是什么？",
+        "options": [
+          "EMRS",
+          "LIS",
+          "PACS",
+          "CDSS"
+        ],
+        "answer": "C",
+        "analysis": "医学影像存档与通信系统被称为PACS（Picture Archiving & Communication\n System）。EMRS是电子病历系统，LIS是实验室信息系统，CDSS是临床决策支持系统。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-66",
+        "type": "single",
+        "question": "生物信息学数据之所以体现出典型的大数据特征，除了数据量大之外，还因为其维度\n组合极为丰富，经常出现什么现象？",
+        "options": [
+          "维度组合爆炸",
+          "数据价值归零",
+          "信息完全冗余",
+          "存储空间无限"
+        ],
+        "answer": "A",
+        "analysis": "生物信息学数据的维度极为丰富，在维度组合的多样性上远超互联网数据，常\n 常出现“维度组合爆炸”的现象。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-67",
+        "type": "single",
+        "question": "智慧医疗通过构建跨机构信息共享平台，主要解决了传统医疗模式下的哪一痛点？",
+        "options": [
+          "医生薪资过低",
+          "患者重复检查",
+          "药品研发周期长",
+          "医保基金盈余过多"
+        ],
+        "answer": "B",
+        "analysis": "智慧医疗通过构建跨机构信息共享平台，患者既往病史和检查报告可即时调\n 取，有效避免了转诊过程中的重复检查。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-68",
+        "type": "single",
+        "question": "在医疗保险领域，众安保险利用大数据实现了医保费用的精准定价。其具体的做法是\n将保险产品与什么场景结合？",
+        "options": [
+          "用户的饮食习惯",
+          "用户的基因测序结果",
+          "用户的运动场景",
+          "用户的社交网络活跃度"
+        ],
+        "answer": "C",
+        "analysis": "众安保险以用户运动量作为重大疾病保险的定价依据，将保险产品与运动场景\n 相结合，用户的运动步数还可以抵扣保费。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-69",
+        "type": "single",
+        "question": "关于BergHealth公司在药物研发中的做法，以下描述正确的是？",
+        "options": [
+          "完全依赖传统的试错法进行药物筛选",
+          "利用大数据平台从大量样本数据中创建病人“图谱”，反向推导治疗方案",
+          "仅使用基因组学数据，忽略蛋白质组学和代谢组学",
+          "研发一款新药的周期通常需要10年以上"
+        ],
+        "answer": "B",
+        "analysis": "BergHealth公司利用结合了多种组学的药物研发平台，从大量样本数据中创建\n 病人“图谱”，进而挖掘数据，通过明确发病时细胞活动途径的改变来反向推导出合适的药物\n 治疗方案。其研发周期缩短至9~12个月。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-70",
+        "type": "single",
+        "question": "医疗大数据具有“价值巨大但价值密度低”的特点。以下哪项不是导致“价值密度低”的主\n要原因？",
+        "options": [
+          "医疗机构中信息资源分散、重复、孤立",
+          "有效信息闲置",
+          "信息重复或不一致",
+          "医疗数据总量太小，无法提取规律"
+        ],
+        "answer": "D",
+        "analysis": "“数据总量太小”与医疗大数据“规模大”的特征矛盾。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-71",
+        "type": "single",
+        "question": "推荐系统与传统搜索引擎的核心区别在于“需求触发方式”。以下哪项描述最准确地体现\n了推荐系统的特点？",
+        "options": [
+          "用户必须先明确需求，输入关键词后获取结果",
+          "基于用户过往行为“预判需求”，主动推送信息",
+          "只能搜索热门榜单上的内容",
+          "完全依赖人工编辑进行内容筛选"
+        ],
+        "answer": "B",
+        "analysis": "推荐系统基于用户过往行为“预判需求”，主动推送信息。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-72",
+        "type": "single",
+        "question": "长尾理论在推荐系统中的应用价值主要体现在哪里？",
+        "options": [
+          "集中资源推广头部热门商品，因为它们销量最高",
+          "消除热门商品，只销售冷门商品",
+          "通过个性化匹配，让海量“非热门商品”获得曝光，累计销量超过热门商品",
+          "限制用户只能看到最近30天发布的新内容"
+        ],
+        "answer": "C",
+        "analysis": "长尾理论指出互联网平台可容纳海量“非热门商品”，推荐系统能打破“热门垄\n 断”，将长尾商品精准推送，累计销售额甚至能超过热门商品。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-73",
+        "type": "single",
+        "question": "以下哪种推荐方法容易出现“冷启动问题”，即面对新用户或新物品时无法生成推荐？",
+        "options": [
+          "专家推荐",
+          "基于统计的推荐",
+          "基于内容的推荐",
+          "协同过滤推荐"
+        ],
+        "answer": "D",
+        "analysis": "协同过滤推荐的缺点是存在“冷启动问题”——新用户无交互数据、新物品无用户\n 反馈时，无法生成推荐。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-74",
+        "type": "single",
+        "question": "在推荐系统的架构中，“离线计算层”的核心目标是什么？",
+        "options": [
+          "捕捉用户的即时兴趣，实现毫秒级响应",
+          "处理海量历史数据，提升推荐精准度",
+          "实时过滤违规内容",
+          "收集用户的实时点击行为"
+        ],
+        "answer": "B",
+        "analysis": "离线计算层处理海量历史数据，周期较长，核心目标是“提升推荐精准度”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-75",
+        "type": "single",
+        "question": "沃尔玛利用大数据发现了“啤酒与尿布”的关联购买行为。这一案例主要体现了大数据在\n零售领域的哪种应用？",
+        "options": [
+          "客户群体细分",
+          "供应链库存优化",
+          "发现关联购物行为",
+          "竞争对手分析"
+        ],
+        "answer": "C",
+        "analysis": "“啤酒与尿布”是发现关联购物行为的经典案例，沃尔玛利用购物篮分析发现了二\n 者的关联性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-76",
+        "type": "single",
+        "question": "Target百货公司通过分析消费数据构建“怀孕预测指数”，其主要目的是为了解决什么问\n题？",
+        "options": [
+          "优化物流配送路线",
+          "识别高价值的孕妇群体，在竞争对手之前进行精准营销",
+          "减少库存积压",
+          "提高商品的售价"
+        ],
+        "answer": "B",
+        "analysis": "Target为了在婴儿出生前锁定孕妇这一高价值群体，利用大数据预测怀孕情况\n 并进行精准营销。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-77",
+        "type": "single",
+        "question": "在供应链管理中，大数据支持的“预售模式”可以实现哪种库存策略？",
+        "options": [
+          "高库存缓冲策略",
+          "“以销定产”的零库存模式",
+          "依赖经验的备货模式",
+          "仅在中央仓库囤货"
+        ],
+        "answer": "B",
+        "analysis": "大数据支持的“预售模式”可实现“零库存”运营——先收集订单，再生产发货，避\n 免库存积压。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-78",
+        "type": "single",
+        "question": "智能物流的核心特征不包括以下哪一项？",
+        "options": [
+          "先进化",
+          "互连化",
+          "智能化",
+          "人工化"
+        ],
+        "answer": "D",
+        "analysis": "智能物流的三大特征是先进化、互连化、智能化。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-79",
+        "type": "single",
+        "question": "京东物流的“亚洲一号”智能仓库通过大数据实现了“全链路可视化”，这主要解决了传统\n物流的什么痛点？",
+        "options": [
+          "运费过低",
+          "信息黑箱，无法实时掌握货物状态",
+          "仓库面积不足",
+          "配送员数量过多"
+        ],
+        "answer": "B",
+        "analysis": "智能物流通过大数据实现“全链路可视化追踪”，解决无法实时掌握货物状态的问\n 题。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-80",
+        "type": "single",
+        "question": "在冷链物流中，大数据结合传感器技术主要用于解决什么问题？",
+        "options": [
+          "降低车辆油耗",
+          "全链路温度监控与风险预判",
+          "提高快递员的配送速度",
+          "增加货物的装载量"
+        ],
+        "answer": "B",
+        "analysis": "智能冷链通过大数据与温度传感器，实现“全链路温度监控与风险预判”，防止生\n 鲜腐烂或药品失效。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-81",
+        "type": "single",
+        "question": "餐饮行业利用大数据进行“智能选址”时，通常会分析哪些维度的数据？",
+        "options": [
+          "仅分析该区域的租金成本",
+          "仅分析店长的个人喜好",
+          "人流量、消费能力、竞争格局、租金成本等",
+          "仅分析周边的交通状况"
+        ],
+        "answer": "C",
+        "analysis": "智能选址通过人流量、消费能力、竞争格局、租金成本等维度进行分析，精准\n 定位高潜力区域。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-82",
+        "type": "single",
+        "question": "奈雪的茶研发“霸气玉油柑”等新品，主要依据了哪种大数据分析结果？",
+        "options": [
+          "厨师的个人口味偏好",
+          "社交媒体上的小众口味趋势与话题讨论量",
+          "竞争对手的降价策略",
+          "历史销量最低的单品数据"
+        ],
+        "answer": "B",
+        "analysis": "奈雪的茶通过分析小红书、抖音的“饮品话题”，发现“油柑”等小众水果饮品的讨\n 论量巨大，从而研发新品。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-83",
+        "type": "single",
+        "question": "Netflix决定投资制作《纸牌屋》的主要依据是？",
+        "options": [
+          "导演和演员的知名度高",
+          "竞争对手HBO拒绝了该剧本",
+          "大数据分析发现原版剧集观众、导演粉丝和主演粉丝存在显著交集",
+          "制作成本低廉"
+        ],
+        "answer": "C",
+        "analysis": "Netflix发现喜爱原版《纸牌屋》和导演大卫·芬奇、演员凯文·史派西的用户群体\n 存在显著交集，基于此数据洞察决定投资。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-84",
+        "type": "single",
+        "question": "线上影视平台进行版权采购时，如何利用大数据规避风险？",
+        "options": [
+          "只采购价格最低的作品",
+          "评估题材政策导向、主创团队负面舆情关联度等指标",
+          "完全依赖采购经理的直觉",
+          "忽略市场趋势，只看剧本质量"
+        ],
+        "answer": "B",
+        "analysis": "大数据能帮助平台规避“高风险作品”，如评估题材是否符合政策导向、主创团队\n 是否存在负面舆情等。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-85",
+        "type": "single",
+        "question": "爱奇艺发现“连续7天观看超2小时”的用户付费转化率极高，针对这类用户推送定向优\n惠。这属于哪种商业化变现策略？",
+        "options": [
+          "广告运营",
+          "衍生品销售",
+          "会员运营",
+          "内容植入"
+        ],
+        "answer": "C",
+        "analysis": "识别高潜力付费用户并推送优惠，属于会员运营中的精准触达策略，旨在提升\n 付费率。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-86",
+        "type": "single",
+        "question": "在餐饮O2O模式中，实现“数据闭环”的关键在于？",
+        "options": [
+          "只关注线上引流，不关注线下消费",
+          "线上引流数据、线下消费数据、用户反馈数据形成循环",
+          "禁止用户在线上发表差评",
+          "仅利用大数据进行团购促销"
+        ],
+        "answer": "B",
+        "analysis": "O2O的核心价值在于“数据闭环”，即线上引流、线下消费、用户反馈数据形成\n 循环，持续优化运营。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-87",
+        "type": "single",
+        "question": "传统数据安全的核心目标通常被称为“三性”，这指的是数据的什么属性？",
+        "options": [
+          "规模性、多样性、高速性",
+          "保密性、完整性、可用性",
+          "共享性、流通性、价值性",
+          "独立性、排他性、竞争性"
+        ],
+        "answer": "B",
+        "analysis": "传统数据安全的核心聚焦数据的“保密性、完整性、可用性”，这是信息安全领域\n 的经典安全框架。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-88",
+        "type": "single",
+        "question": "与传统数据分散存储相比，大数据集中化管理带来的主要安全特征是？",
+        "options": [
+          "攻击成本变高，黑客不再感兴趣",
+          "数据价值降低，泄露风险减小",
+          "成为网络攻击的“显著目标”，一旦突破可获取海量敏感数据",
+          "天然具备更强的防御机制，无需额外保护"
+        ],
+        "answer": "C",
+        "analysis": "大数据因集中化管理，对攻击者更具吸引力，一旦突破安全屏障，攻击者可一\n 次性获取海量敏感数据，收益远高于攻击传统分散数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-89",
+        "type": "single",
+        "question": "大数据时代，“高级可持续攻击”区别于传统攻击的主要特征是？",
+        "options": [
+          "攻击过程短暂且直接",
+          "具有隐蔽性、长期性，利用大数据隐藏轨迹并持续渗透",
+          "主要依赖计算机病毒进行破坏",
+          "容易被传统基于特征匹配的检测手段识别"
+        ],
+        "answer": "B",
+        "analysis": "“高级可持续攻击”具有隐蔽性、长期性特征，攻击者会利用大数据技术隐藏攻击\n 轨迹，通过持续渗透逐步获取数据，传统检测手段难以识别。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-90",
+        "type": "single",
+        "question": "2013年曝光的“棱镜门”事件中，美国国家安全局主要通过什么方式实施全球监听？",
+        "options": [
+          "仅通过派遣特工进行线下窃听",
+          "仅监听美国本土公民的电话记录",
+          "与国际互联网企业合作，直接接入服务器获取数据",
+          "破解所有用户的个人电脑密码"
+        ],
+        "answer": "C",
+        "analysis": "美国国家安全局与微软、谷歌、苹果等国际互联网企业达成合作，直接接入这\n 些企业的核心服务器，通过技术手段挖掘数据、收集情报。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-91",
+        "type": "single",
+        "question": "Facebook数据滥用事件（剑桥分析事件）的核心矛盾在于？",
+        "options": [
+          "黑客通过技术手段攻破了Facebook的防火墙",
+          "数据虽然经过用户授权，但被用于超出授权范围的政治目的",
+          "Facebook完全没有收集用户数据",
+          "用户数据被用于合法的商业广告推送"
+        ],
+        "answer": "B",
+        "analysis": "Facebook虽声称用户数据获取“经过授权”，但剑桥分析将数据用于“影响政治决\n 策”的目的，远超用户授权范围，属于“数据滥用”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-92",
+        "type": "single",
+        "question": "在12306数据泄露事件中，黑客使用的攻击手段“撞库”是指？",
+        "options": [
+          "使用暴力破解软件尝试所有可能的密码组合",
+          "利用此前其他网站泄露的“用户名+密码”组合，批量尝试登录目标平台",
+          "物理破坏服务器硬盘以窃取数据",
+          "伪造钓鱼网站诱导用户输入密码"
+        ],
+        "answer": "B",
+        "analysis": "“撞库”即利用此前其他游戏网站、论坛泄露的“用户名+密码”组合，批量尝试登\n 录12306平台。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-93",
+        "type": "single",
+        "question": "大数据保护的“数据主权原则”强调？",
+        "options": [
+          "数据是全人类的共同财产，不应受国家管辖",
+          "一个国家对其管辖范围内的数据拥有独立自主的占有、管理和控制权",
+          "数据应完全自由流通，不受任何法律限制",
+          "企业拥有对用户数据的绝对所有权"
+        ],
+        "answer": "B",
+        "analysis": "数据主权是指一个国家对其管辖范围内的数据拥有独立自主的占有、管理、控\n 制、利用和保护的权力。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-94",
+        "type": "single",
+        "question": "云杀毒软件与传统本地杀毒软件的主要区别在于？",
+        "options": [
+          "云杀毒软件完全不需要安装客户端",
+          "云杀毒软件只针对特定病毒进行查杀",
+          "云杀毒依托庞大的网络服务实时采集全网数据，实现全网协同防御",
+          "云杀毒软件会占用更多的本地硬件资源"
+        ],
+        "answer": "C",
+        "analysis": "云杀毒软件依托庞大的网络服务实时采集、分析全网数据，利用云计算基础设\n 施与大数据分析技术，实现“全网协同防御”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-95",
+        "type": "single",
+        "question": "关于大数据伦理中的“知情同意”原则，以下描述正确的是？",
+        "options": [
+          "企业可以通过“默认勾选”的方式获取用户同意",
+          "只要是为了提升服务质量，企业可以隐蔽采集用户数据",
+          "数据采集需获得数据主体明确授权，且需告知采集目的、范围与用途",
+          "用户一旦同意，企业即可将数据用于任何商业用途"
+        ],
+        "answer": "C",
+        "analysis": "知情同意原则要求数据采集需获得数据主体的明确授权，且需告知采集目的、\n 范围与用途，禁止“隐蔽采集”、“过度采集”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-96",
+        "type": "single",
+        "question": "“数字鸿沟”在社会公平维度上主要反映了什么问题？",
+        "options": [
+          "不同群体在数据获取与使用能力上的差距，导致发展机会不均",
+          "数据存储技术的代际差异",
+          "互联网企业之间的竞争壁垒",
+          "数字货币与实体货币的汇率差"
+        ],
+        "answer": "A",
+        "analysis": "数字鸿沟指先进技术的成果不能为人公正分享，造成“富者越富、穷者越穷”，是\n 个体在数据获取与利用能力上的差异导致的社会公平问题。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-97",
+        "type": "single",
+        "question": "下列哪种行为属于“数据垄断”的表现？",
+        "options": [
+          "企业通过技术创新提升数据处理效率",
+          "企业利用数据优势设置行业壁垒，阻碍新企业进入市场",
+          "政府向社会开放公共数据",
+          "企业对敏感数据进行加密存储"
+        ],
+        "answer": "B",
+        "analysis": "数据垄断表现之一是利用数据优势设置行业进入壁垒或扩张壁垒，阻碍新企业\n 进入市场。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-98",
+        "type": "single",
+        "question": "“大数据杀熟”现象违背了大数据伦理中的哪一原则？",
+        "options": [
+          "数据真实性",
+          "算法透明性",
+          "公平交易与正当使用",
+          "数据主权"
+        ],
+        "answer": "C",
+        "analysis": "大数据杀熟利用数据优势“剥削”忠实用户，违背了“公平交易”的道德原则。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-99",
+        "type": "single",
+        "question": "算法推荐导致的“信息茧房”效应，其主要负面影响是？",
+        "options": [
+          "用户无法获取任何信息",
+          "用户被局限在自身偏好的信息圈层中，加剧认知固化",
+          "推荐系统运行速度变慢",
+          "增加了用户接触多元信息的机会"
+        ],
+        "answer": "B",
+        "analysis": "信息茧房使用户被局限在自身偏好的信息圈层中，丧失对多元信息的接触机\n 会，加剧“认知固化”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-100",
+        "type": "single",
+        "question": "外卖骑手“困在算法里”的根本原因是？",
+        "options": [
+          "骑手驾驶技术不佳",
+          "算法对“效率”的单一追求，忽视了劳动者的安全与基本权益",
+          "智能手机定位不准确",
+          "消费者要求过高"
+        ],
+        "answer": "B",
+        "analysis": "算法逐渐呈现“极致优化”倾向，将“理想状态”等同于“标准要求”，对效率的单一\n 追求挤压了骑手的权益空间。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-101",
+        "type": "judge",
+        "question": "在DIKW金字塔中，知识不仅包括事实和技能，还包括人们认识到的规律和模型，它能\n够回答“why”（为什么）这类根本性问题。\n 正确答案：错误\n 答案解析：知识能够回答“how”（如何做）这类模式的问题；而智慧才能够回答“why”（为\n 什么）以及“what-to-do”的问题。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "知识能够回答“how”（如何做）这类模式的问题；而智慧才能够回答“why”（为\n 什么）以及“what-to-do”的问题。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-102",
+        "type": "judge",
+        "question": "在数据世界中，结构化数据占据了绝大多数，约占总数据量的80%以上。\n 正确答案：错误\n 答案解析：非结构化数据约占总数据量的80%以上。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "非结构化数据约占总数据量的80%以上。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-103",
+        "type": "judge",
+        "question": "数据科学是一门交叉学科，其三大支柱分别是计算机科学、统计学与数学、以及领域知\n识。\n 正确答案：正确\n 答案解析：数据科学建立在计算机科学、统计学与数学、领域知识这三大支柱之上。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "数据科学建立在计算机科学、统计学与数学、领域知识这三大支柱之上。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-104",
+        "type": "judge",
+        "question": "JSON数据格式使用键值对和数组来组织数据，是一种典型的半结构化数据。\n 正确答案：正确\n 答案解析：JSON是当前最流行的Web数据交换格式，属于常见的半结构化数据。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "JSON是当前最流行的Web数据交换格式，属于常见的半结构化数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-105",
+        "type": "judge",
+        "question": "定序数据不仅具有排序关系，还可以精确计算不同等级之间的差距。\n 正确答案：错误\n 答案解析：定序数据具有排序关系，但是不同等级数据的差距无法精细度量，不能做加减\n 操作。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "定序数据具有排序关系，但是不同等级数据的差距无法精细度量，不能做加减\n 操作。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-106",
+        "type": "judge",
+        "question": "在数据科学生命周期的“模型评估与验证”阶段，只需要关注模型的准确率等技术指标，\n无需考虑业务层面的成功标准。\n 正确答案：错误\n 答案解析：除了评估模型的泛化能力（技术性能），还必须“在业务层面上确认性能指标是\n 否达到了第一阶段设定的成功标准”。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "除了评估模型的泛化能力（技术性能），还必须“在业务层面上确认性能指标是\n 否达到了第一阶段设定的成功标准”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-107",
+        "type": "judge",
+        "question": "1970年，IBM的计算机科学家Edgar Codd提出了关系模型，奠定了现代关系型数据库\n的理论基础。\n 正确答案：正确\n 答案解析：Edgar Codd在1970年发表论文提出了关系模型，奠定了关系型数据库的理论基\n 础。\n 章节：第一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "Edgar Codd在1970年发表论文提出了关系模型，奠定了关系型数据库的理论基\n 础。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-108",
+        "type": "judge",
+        "question": "关系数据库为了提高读写效率，一般采用主从模式，由主数据库负责读入，从数据库负\n责写入，因此非常善于处理大数据的写入操作。\n 正确答案：错误\n 答案解析：关系数据库缺点：一般是由主数据库负责数据的写入，由从数据库负责数据的\n 读入。关系数据库不善于处理大数据的写入操作。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "关系数据库缺点：一般是由主数据库负责数据的写入，由从数据库负责数据的\n 读入。关系数据库不善于处理大数据的写入操作。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-109",
+        "type": "judge",
+        "question": "NoSQL数据库的出现是为了完全替代传统的关系型数据库，因为关系型数据库已经无法\n适应现代应用需求。\n 正确答案：错误\n 答案解析：NoSQL数据库与关系数据库是互补关系，而非替代关系。它们各自有不可替代\n 的优势。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "NoSQL数据库与关系数据库是互补关系，而非替代关系。它们各自有不可替代\n 的优势。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-110",
+        "type": "judge",
+        "question": "文档数据库通常采用JSON或XML格式存储数据，其架构灵活，每个文档的结构可以不\n同。\n 正确答案：正确\n 答案解析：文档数据库旨在将半结构化数据存储为文档，每个NoSQL文档的架构是不同\n 的。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "文档数据库旨在将半结构化数据存储为文档，每个NoSQL文档的架构是不同\n 的。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-111",
+        "type": "judge",
+        "question": "OLTP（在线事务处理）主要用于支持企业管理层的决策分析，涉及大规模的数据查询\n和聚合操作。\n 正确答案：错误\n 答案解析：OLTP用于日常业务运营，涉及高频的增删查改；OLAP才用于支持管理层决\n 策，涉及大规模查询和聚合。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "OLTP用于日常业务运营，涉及高频的增删查改；OLAP才用于支持管理层决\n 策，涉及大规模查询和聚合。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-112",
+        "type": "judge",
+        "question": "操作型数据存储既具备操作型系统的“实时性”和“可变性”，又具备数据仓库的“集成性”\n和“面向主题”的特性。\n 正确答案：正确\n 答案解析：ODS充当操作环境与分析环境之间的缓冲区，确实具备上述双重特性。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "ODS充当操作环境与分析环境之间的缓冲区，确实具备上述双重特性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-113",
+        "type": "judge",
+        "question": "在数据仓库的维度建模中，事实表用于存储业务过程的上下文信息，而维度表用于存\n储数值型的度量值。\n 正确答案：错误\n 答案解析：事实表存储业务的度量值，维度表存储上下文信息。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "事实表存储业务的度量值，维度表存储上下文信息。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-114",
+        "type": "judge",
+        "question": "数据湖的核心存储层通常采用对象存储，因为它具有无限扩展、成本低廉和高耐久性\n等优势。\n 正确答案：正确\n 答案解析：数据湖五大核心要素的描述，核心存储层采用对象存储作为底层存储。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "数据湖五大核心要素的描述，核心存储层采用对象存储作为底层存储。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-115",
+        "type": "judge",
+        "question": "Redis是一种典型的键值存储数据库，它通常将重要数据存储在内存中以实现低延迟访\n问。\n 正确答案：正确\n 答案解析：键值存储数据库针对性能优化，将数据存储在内存中。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "键值存储数据库针对性能优化，将数据存储在内存中。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-116",
+        "type": "judge",
+        "question": "数据中台主要面向技术而非业务，其目的是为了更好地管理底层的服务器和网络设\n施。\n 正确答案：错误\n 答案解析：数据中台主要面向业务而非面向技术，其核心目标是提升数据共享和复用能\n 力，支撑前台业务。\n 章节：第二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "数据中台主要面向业务而非面向技术，其核心目标是提升数据共享和复用能\n 力，支撑前台业务。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-117",
+        "type": "judge",
+        "question": "对于“不满意、满意、非常满意”这类具有内在顺序的有序类别数据，最常用的数据编码\n方法是独热编码。\n 正确答案：错误\n 答案解析：对于有序类别数据，最常用的方法是序数编码。独热编码通常用于无序类别数\n 据。\n 章节：第三章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "对于有序类别数据，最常用的方法是序数编码。独热编码通常用于无序类别数\n 据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-118",
+        "type": "judge",
+        "question": "在欺诈检测等场景中，样本不均衡往往会导致数据模型被数量上占主导地位的多数类\n所“支配”，从而降低其对少数类的识别能力。\n 正确答案：正确\n 答案解析：样本不均衡指不同类别样本数量相差悬殊。\n 章节：第三章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "样本不均衡指不同类别样本数量相差悬殊。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-119",
+        "type": "judge",
+        "question": "数据可视化仅仅是数据科学工作流中最后用于结果展示的环节，在数据获取和建模阶\n段作用不大。\n 正确答案：错误\n 答案解析：数据可视化并非数据科学工作流中一个独立展示环节，它在数据科学的每一个\n 阶段（包括数据获取、探索、建模、结果解释等）均可发挥重要作用。\n 章节：第四章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "数据可视化并非数据科学工作流中一个独立展示环节，它在数据科学的每一个\n 阶段（包括数据获取、探索、建模、结果解释等）均可发挥重要作用。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-120",
+        "type": "judge",
+        "question": "Nathan Yau认为，将数据属性映射为视觉感知层面的位置、颜色、形状等，能帮助人\n类大脑更高效地识别潜藏的模式、趋势和异常。\n 正确答案：正确\n 答案解析：Nathan Yau在《数据可视化指南》中表达：把数字置于视觉空间中，大脑更容\n 易发现潜藏模式。\n 章节：第四章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "Nathan Yau在《数据可视化指南》中表达：把数字置于视觉空间中，大脑更容\n 易发现潜藏模式。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-121",
+        "type": "judge",
+        "question": "在Tableau中，若要展示与地理位置相关的数据，必须先手动输入经纬度数据才能生成\n地图。\n 正确答案：错误\n 答案解析：无需强制手动输入经纬度（除非数据源无法识别）。\n 章节：第四章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "无需强制手动输入经纬度（除非数据源无法识别）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-122",
+        "type": "judge",
+        "question": "在Tableau中创建仪表板时，如果希望某个筛选器的操作能同时影响仪表板上的所有图\n表，需要在筛选器设置中选择“应用于工作表”-“使用此数据源的所有项”。\n 正确答案：正确\n 答案解析：利用Tableau进行数据可视化：在筛选框的下拉菜单中选择“应用于工作表”-“使\n 用此数据源的所有项”，则可以在筛选时同步更改相关的其他图表。\n 章节：第四章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "利用Tableau进行数据可视化：在筛选框的下拉菜单中选择“应用于工作表”-“使\n 用此数据源的所有项”，则可以在筛选时同步更改相关的其他图表。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-123",
+        "type": "judge",
+        "question": "Tableau绘制的图表数据无法直接导出，必须通过截图方式保存到Excel中。\n 正确答案：错误\n 答案解析：复制图表中的数据，可直接粘贴至Excel表格中。\n 章节：第四章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "复制图表中的数据，可直接粘贴至Excel表格中。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-124",
+        "type": "judge",
+        "question": "在Tableau中，可以通过将“利润”字段拖入“标记”卡的“颜色”属性，并设置渐变颜色，\n来制作突出显示表。\n 正确答案：正确\n 答案解析：“突出显示表”：操作步骤是将利润拖入“标记”-“颜色”，并编辑颜色属性选择渐变\n 颜色。\n 章节：第四章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "“突出显示表”：操作步骤是将利润拖入“标记”-“颜色”，并编辑颜色属性选择渐变\n 颜色。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-125",
+        "type": "judge",
+        "question": "回归分析的主要目标是确定自变量与因变量之间的定量关系，其输出结果通常是离散\n的类别标签。\n 正确答案：错误\n 答案解析：回归分析用于研究变量间的定量关系并进行预测，回归问题的输出是连续的数\n 值型数据。\n 章节：第五章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "回归分析用于研究变量间的定量关系并进行预测，回归问题的输出是连续的数\n 值型数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-126",
+        "type": "judge",
+        "question": "聚类分析的目标是在没有预设答案的前提下，将数据集中的对象自动分组，使得同组\n内对象相似度高，不同组间对象差异明显。\n 正确答案：正确\n 答案解析：聚类分析是在没有预设答案的前提下，实现对象的“物以类聚”，要求簇内相似度\n 高，簇间差异明显。\n 章节：第五章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "聚类分析是在没有预设答案的前提下，实现对象的“物以类聚”，要求簇内相似度\n 高，簇间差异明显。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-127",
+        "type": "judge",
+        "question": "小数据时代的数据处理目标主要强调精确性和因果关系的探寻，旨在用最小成本从有\n限信息中获取最大化的洞见。\n 正确答案：正确\n 答案解析：小数据时代的核心特征。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "小数据时代的核心特征。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-128",
+        "type": "judge",
+        "question": "根据“大数据摩尔定律”，全球数据总量长期保持约每年50%的增长率，意味着数据量每\n五年翻一番。\n 正确答案：错误\n 答案解析：“大数据摩尔定律”是指数据总量每两年翻一番，而不是每五年。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "“大数据摩尔定律”是指数据总量每两年翻一番，而不是每五年。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-129",
+        "type": "judge",
+        "question": "大数据价值密度低，意味着大数据背后潜藏的商业价值很小，不值得挖掘。\n 正确答案：错误\n 答案解析：大数据价值特征包含两方面：一是原始数据价值密度低，二是大数据背后潜藏\n 的价值巨大。两者并不矛盾。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "大数据价值特征包含两方面：一是原始数据价值密度低，二是大数据背后潜藏\n 的价值巨大。两者并不矛盾。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-130",
+        "type": "judge",
+        "question": "机械思维建立在牛顿力学等经典理论之上，其核心价值在于通过精确的因果关系解释\n物理世界的规律性。\n 正确答案：正确\n 答案解析：机械思维是以确定性为核心，建立在经典物理理论之上，强调精确的因果关\n 系。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "机械思维是以确定性为核心，建立在经典物理理论之上，强调精确的因果关\n 系。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-131",
+        "type": "judge",
+        "question": "香农信息论认为，信息熵越大，系统的不确定性越低。\n 正确答案：错误\n 答案解析：香农信息论中信息熵越大，则不确定性越高。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "香农信息论中信息熵越大，则不确定性越高。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-132",
+        "type": "judge",
+        "question": "MapReduce计算框架采用两级处理模型，其中Reduce阶段负责自顶向下将大型任务\n拆分为细粒度子任务。\n 正确答案：错误\n 答案解析：Map阶段负责分解映射（拆分任务），而Reduce阶段负责归约聚合（合并结\n 果）。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "Map阶段负责分解映射（拆分任务），而Reduce阶段负责归约聚合（合并结\n 果）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-133",
+        "type": "judge",
+        "question": "Storm是一个面向批处理的架构，其首要优化指标是提高系统的吞吐量。\n 正确答案：错误\n 答案解析：Storm采用事件驱动的流处理模型，以低延迟响应为首要优化指标；而\n MapReduce才是面向批处理且追求高吞吐量。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "Storm采用事件驱动的流处理模型，以低延迟响应为首要优化指标；而\n MapReduce才是面向批处理且追求高吞吐量。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-134",
+        "type": "judge",
+        "question": "Pregel是由Google提出的分布式图计算模型，专门用于处理大规模图结构数据，支持\nPageRank等算法。\n 正确答案：正确\n 答案解析：文档“处理框架Pregel”。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "文档“处理框架Pregel”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-135",
+        "type": "judge",
+        "question": "Tableau是一款需要编写复杂代码才能创建可视化图表的商业智能工具，因此使用门槛\n较高。\n 正确答案：错误\n 答案解析：Tableau通过直观的拖放式操作界面，用户无需编程即可快速构建可视化图表，\n 理念是“人人可用的数据分析”。\n 章节：第六章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "Tableau通过直观的拖放式操作界面，用户无需编程即可快速构建可视化图表，\n 理念是“人人可用的数据分析”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-136",
+        "type": "judge",
+        "question": "智慧城市的概念中，仅包含物联网和云计算基础设施，不涉及社交网络或维基等工具\n的应用。\n 正确答案：错误\n 答案解析：智慧城市的基础除了物联网、云计算等基础设施外，还包括维基、社交网络、\n FabLab、Living Lab等工具和方法的应用。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "智慧城市的基础除了物联网、云计算等基础设施外，还包括维基、社交网络、\n FabLab、Living Lab等工具和方法的应用。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-137",
+        "type": "judge",
+        "question": "在数据感知的地理采样粒度上，城市数据只能精确到区县或省市级别，无法精确到米\n级。\n 正确答案：错误\n 答案解析：数据的多尺度与多粒度，地理采样粒度可以像遥感测绘数据一样精确到数米。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "数据的多尺度与多粒度，地理采样粒度可以像遥感测绘数据一样精确到数米。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-138",
+        "type": "judge",
+        "question": "现有的分布式数据库和Hadoop等数据管理方式，目前已能完全满足智慧城市应用对于\n海量数据查询与管理的实时性和灵活性要求。\n 正确答案：错误\n 答案解析：分布式数据库、Hadoop等现有方式“尚无法完全满足”智慧城市应用的实时性和\n 灵活性要求。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "分布式数据库、Hadoop等现有方式“尚无法完全满足”智慧城市应用的实时性和\n 灵活性要求。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-139",
+        "type": "judge",
+        "question": "智慧交通系统不仅可以监控车辆和行人，还可以运用于地铁线路上，根据客流量自动\n调节发车间隔时间。\n 正确答案：正确\n 答案解析：智能交通系统运用于地铁线路上的列车调配，列车可根据客流量自动调节发车\n 间隔时间。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "智能交通系统运用于地铁线路上的列车调配，列车可根据客流量自动调节发车\n 间隔时间。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-140",
+        "type": "judge",
+        "question": "新加坡的“智慧国2.0”战略升级方案于2014年正式推出。\n 正确答案：错误\n 答案解析：2014年发布的是全球首个“智慧国”蓝图，而“智慧国2.0”战略升级方案是在2024\n 年正式推出的。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "2014年发布的是全球首个“智慧国”蓝图，而“智慧国2.0”战略升级方案是在2024\n 年正式推出的。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-141",
+        "type": "judge",
+        "question": "新加坡樟宜机场利用区块链技术实现了货物从发货到清关的全流程追踪，主要是为了\n减少单据伪造风险。\n 正确答案：正确\n 答案解析：通过区块链技术实现货物全流程追踪，数据不可篡改，减少单据伪造风险。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "通过区块链技术实现货物全流程追踪，数据不可篡改，减少单据伪造风险。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-142",
+        "type": "judge",
+        "question": "杭州的“城市大脑”交通信号控制系统可以根据车流量动态调整红绿灯配时，但无法应对\n交通事故等突发情况。\n 正确答案：错误\n 答案解析：系统不仅能动态调整配时，还能“根据突发情况（如交通事故、临时管制）快速\n 调整信号”。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "系统不仅能动态调整配时，还能“根据突发情况（如交通事故、临时管制）快速\n 调整信号”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-143",
+        "type": "judge",
+        "question": "杭州市的医疗数据共享平台仅整合了市属医院的数据，社区卫生服务中心的数据尚未\n接入。\n 正确答案：错误\n 答案解析：智慧医疗平台整合了15家市属医院和89家社区卫生服务中心的电子病历数据。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "智慧医疗平台整合了15家市属医院和89家社区卫生服务中心的电子病历数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-144",
+        "type": "judge",
+        "question": "杭州政务服务网的“数据开放”板块向社会免费开放公共数据，企业和市民可以利用这些\n数据进行创新应用开发。\n 正确答案：正确\n 答案解析：平台向社会开放300余项公共数据，企业与市民可免费查询、下载，用于创新应\n 用开发。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "平台向社会开放300余项公共数据，企业与市民可免费查询、下载，用于创新应\n 用开发。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-145",
+        "type": "judge",
+        "question": "数据可视化技术的主要作用是填补技术到用户之间的理解鸿沟，将复杂的数据以简洁\n易懂的方式呈现出来。\n 正确答案：正确\n 答案解析：数据可视化可以很好地填补技术到用户之间的理解鸿沟，将数据以简洁且易于\n 理解的方式呈现。\n 章节：第七章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "数据可视化可以很好地填补技术到用户之间的理解鸿沟，将数据以简洁且易于\n 理解的方式呈现。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-146",
+        "type": "judge",
+        "question": "物联网的核心和基础是全新的独立网络，与传统的互联网没有任何关系。\n 正确答案：错误\n 答案解析：物联网的核心和基础仍然是互联网，是在互联网基础之上延伸和扩展的一种网\n 络。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "物联网的核心和基础仍然是互联网，是在互联网基础之上延伸和扩展的一种网\n 络。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-147",
+        "type": "judge",
+        "question": "物联网网络层不仅需要承担比现有网络更大的数据量，还面临更高的服务质量要求，\n因此需要对现有网络进行融合和扩展。\n 正确答案：正确\n 答案解析：物联网网络层将承担比现有网络更大的数据量和面临更高的服务质量要求，所\n 以现有网络尚不能满足物联网的需求，这就意味着物联网需要对现有网络进行融合和扩\n 展。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "物联网网络层将承担比现有网络更大的数据量和面临更高的服务质量要求，所\n 以现有网络尚不能满足物联网的需求，这就意味着物联网需要对现有网络进行融合和扩\n 展。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-148",
+        "type": "judge",
+        "question": "在智能交通的信号灯控制中，“智能分布式”控制技术旨在最大化保证道路交叉口的通行\n顺畅，通过制定符合车辆通行最优化的信号机配时方案。\n 正确答案：正确\n 答案解析：以“智能分布式”控制交通流网络平衡技术最大限度保证道路交叉口的通行顺畅。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "以“智能分布式”控制交通流网络平衡技术最大限度保证道路交叉口的通行顺畅。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-149",
+        "type": "judge",
+        "question": "在智能物流中，全自动化物流配送中心的无人车完全由人工远程操控，以确保路线规\n划的准确性。\n 正确答案：错误\n 答案解析：无人车完全由电子计算机操纵，对物流路线规划、信息接收传递更为敏感。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "无人车完全由电子计算机操纵，对物流路线规划、信息接收传递更为敏感。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-150",
+        "type": "judge",
+        "question": "Royal Food Import公司的食品监控方案中，集装箱封锁一旦上锁，就会连续发射唯一\n的ID码，且无法设置为不激活状态。\n 正确答案：错误\n 答案解析：封锁可设置在海上或非信号范围内不激活。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "封锁可设置在海上或非信号范围内不激活。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-151",
+        "type": "judge",
+        "question": "比尔·盖茨豪宅的安全系统设计了冗余机制，当一套系统发生故障时，另一套能自动激\n活接替工作。\n 正确答案：正确\n 答案解析：安全系统有两套，当一套发生故障时，另一套能自动激活，立即接替工作。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "安全系统有两套，当一套发生故障时，另一套能自动激活，立即接替工作。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-152",
+        "type": "judge",
+        "question": "上海地铁的刷脸进站技术依托蚂蚁金服的人脸识别算法，在实测中识别率超过95%，\n乘客无需停留即可通过。\n 正确答案：正确\n 答案解析：依托蚂蚁金服的人脸识别算法，在1:3000身份识别场景下实测识别率超95%，\n 乘客无需停留即可快速通过闸机。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "依托蚂蚁金服的人脸识别算法，在1:3000身份识别场景下实测识别率超95%，\n 乘客无需停留即可快速通过闸机。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-153",
+        "type": "judge",
+        "question": "普罗斯维茨城堡酒庄的灌溉管理系统完全依赖于固定的时间周期进行浇水，以保证葡\n萄生长的一致性。\n 正确答案：错误\n 答案解析：系统不再依赖固定周期浇水，而是根据土壤湿度传感器数据、葡萄生长阶段及\n 天气预报，自动生成个性化灌溉方案。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "系统不再依赖固定周期浇水，而是根据土壤湿度传感器数据、葡萄生长阶段及\n 天气预报，自动生成个性化灌溉方案。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-154",
+        "type": "judge",
+        "question": "物联网技术不仅提供了传感器的连接，也能将传感器和智能处理相结合，从海量信息\n中分析出有意义的数据。\n 正确答案：正确\n 答案解析：物联网不仅仅提供了传感器的连接，也能将传感器和智能处理相结合，具有智\n 能处理的能力。\n 章节：第八章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "物联网不仅仅提供了传感器的连接，也能将传感器和智能处理相结合，具有智\n 能处理的能力。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-155",
+        "type": "judge",
+        "question": "商务智能是一个全新的技术概念，它完全脱离了传统的数据仓库和数据挖掘技术。\n 正确答案：错误\n 答案解析：BI并不全是新的技术，而是对一些现代技术（如数据仓库、数据分析、数据挖\n 掘等）的综合运用。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "BI并不全是新的技术，而是对一些现代技术（如数据仓库、数据分析、数据挖\n 掘等）的综合运用。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-156",
+        "type": "judge",
+        "question": "在企业级商务智能系统的层次架构中，决策层位于最底层，负责收集原始数据。\n 正确答案：错误\n 答案解析：企业级商务智能系统的层次架构中，数据层位于最底层负责收集数据，决策层\n 位于最顶层，用户运用系统提供的分析结果指导行动。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "企业级商务智能系统的层次架构中，数据层位于最底层负责收集数据，决策层\n 位于最顶层，用户运用系统提供的分析结果指导行动。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-157",
+        "type": "judge",
+        "question": "目前企业中80%以上的数据属于非结构化数据，且这类数据正以较快的速度增长。\n 正确答案：正确\n 答案解析：目前企业中80%以上的数据属于非结构化数据，且正以每年55%~65%的速度快\n 速增长。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "目前企业中80%以上的数据属于非结构化数据，且正以每年55%~65%的速度快\n 速增长。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-158",
+        "type": "judge",
+        "question": "数据可视化技术仅包括简单的报表展示，无法处理复杂数据的交互效果。\n 正确答案：错误\n 答案解析：数据可视化的具体形式分为报表和可视化图表两大类。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "数据可视化的具体形式分为报表和可视化图表两大类。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-159",
+        "type": "judge",
+        "question": "在销售业绩分析中，BI系统只能按时间维度分析业绩波动，无法按区域或产品维度进\n行分析。\n 正确答案：错误\n 答案解析：销售业绩分析与监控维度包括时间维度、区域维度、产品维度以及销售人员维\n 度。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "销售业绩分析与监控维度包括时间维度、区域维度、产品维度以及销售人员维\n 度。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-160",
+        "type": "judge",
+        "question": "交叉销售是指根据客户的购买行为，向其推荐与已购商品相关联的其他商品，例如向\n购买手机的客户推荐手机壳。\n 正确答案：正确\n 答案解析：电商平台发现购买手机的客户会购买手机壳，从而进行推荐，这属于交叉销\n 售。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "电商平台发现购买手机的客户会购买手机壳，从而进行推荐，这属于交叉销\n 售。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-161",
+        "type": "judge",
+        "question": "在财务领域，BI系统可以帮助企业进行成本分析，识别成本管控的关键环节，例如发\n现某产品的原材料成本占比过高。\n 正确答案：正确\n 答案解析：BI系统通过精细化拆分与分析成本数据，可以识别成本管控的关键环节。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "BI系统通过精细化拆分与分析成本数据，可以识别成本管控的关键环节。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-162",
+        "type": "judge",
+        "question": "客户关系管理中的360度客户画像构建仅依赖于企业内部的客户数据，不需要结合外部\n数据。\n 正确答案：错误\n 答案解析：构建360度客户画像需要整合企业内部各系统的数据，同时结合外部数据。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "构建360度客户画像需要整合企业内部各系统的数据，同时结合外部数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-163",
+        "type": "judge",
+        "question": "在金融领域，BI系统可以通过自然语言处理技术解析财经新闻和研报观点，量化舆情\n对资产价格的影响，从而辅助投资决策。\n 正确答案：正确\n 答案解析：BI系统通过自然语言处理技术解析财经新闻、研报观点，量化舆情对资产价格\n 的影响。\n 章节：第九章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "BI系统通过自然语言处理技术解析财经新闻、研报观点，量化舆情对资产价格\n 的影响。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-164",
+        "type": "judge",
+        "question": "狭义的医疗大数据仅指因疾病而产生的数据，而现在医疗大数据的范畴已经扩展到涵\n盖人全生命周期的健康数据。\n 正确答案：正确\n 答案解析：医疗大数据狭义上是从因疾病而产生的数据，现在已经扩展到健康状态下的人\n 体所有体征数据……涵盖人的全生命周期。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "医疗大数据狭义上是从因疾病而产生的数据，现在已经扩展到健康状态下的人\n 体所有体征数据……涵盖人的全生命周期。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-165",
+        "type": "judge",
+        "question": "医疗数据虽然体量巨大，但其增长速度较慢，主要以静态数据为主，缺乏实时性。\n 正确答案：错误\n 答案解析：医疗大数据具有“增长快”的特征，存在大量在线或实时数据分析处理的需求，且\n 保持高速增长态势。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "医疗大数据具有“增长快”的特征，存在大量在线或实时数据分析处理的需求，且\n 保持高速增长态势。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-166",
+        "type": "judge",
+        "question": "随着测序技术的突破，人类基因组测序成本已经从2000年的约1亿美元大幅降至如今\n的1000美元左右。\n 正确答案：正确\n 答案解析：随着测序技术的突破，人类基因组测序成本从2000年的约1亿美元大幅降至如\n 今的1000美元左右。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "随着测序技术的突破，人类基因组测序成本从2000年的约1亿美元大幅降至如\n 今的1000美元左右。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-167",
+        "type": "judge",
+        "question": "智慧医疗的核心理念是“以医院为中心”，旨在提高医院的盈利能力。\n 正确答案：错误\n 答案解析：智慧医疗的核心就是“以患者为中心”，给予患者以全面、专业、个性化的医疗体\n 验。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "智慧医疗的核心就是“以患者为中心”，给予患者以全面、专业、个性化的医疗体\n 验。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-168",
+        "type": "judge",
+        "question": "IBM的沃森机器人医生可以依据患者的临床、病理及基因等特征，完全替代人类医生\n进行独立诊疗。\n 正确答案：错误\n 答案解析：沃森机器人医生是为医生提出规范化临床路径及个体化治疗建议，协助医生做\n 出最佳诊断。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "沃森机器人医生是为医生提出规范化临床路径及个体化治疗建议，协助医生做\n 出最佳诊断。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-169",
+        "type": "judge",
+        "question": "哈佛大学公共卫生学院的研究人员曾通过跨域大数据的关联分析，成功预测了巴基斯\n坦登革热的蔓延趋势。\n 正确答案：正确\n 答案解析：2014年哈佛大学公共卫生学院的研究人员成功预测了巴基斯坦登革热的蔓延趋\n 势。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "2014年哈佛大学公共卫生学院的研究人员成功预测了巴基斯坦登革热的蔓延趋\n 势。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-170",
+        "type": "judge",
+        "question": "由于大量医疗数据来源于人工记录，且搜集和处理过程经常脱节，因此医疗大数据具\n有不完整性的特征。\n 正确答案：正确\n 答案解析：大量数据来源于人工记录，导致数据记录的残缺和偏差，这使得医疗大数据具\n 有不完整性。\n 章节：第十章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "大量数据来源于人工记录，导致数据记录的残缺和偏差，这使得医疗大数据具\n 有不完整性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-171",
+        "type": "judge",
+        "question": "基于内容的推荐方法的主要缺点是容易陷入“推荐同质化”，导致用户难以发现新兴趣。\n 正确答案：正确\n 答案解析：基于内容的推荐核心逻辑是“推荐相似特征的物品”，缺陷是容易陷入“推荐同质\n 化”，用户长期只能收到同类内容。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "基于内容的推荐核心逻辑是“推荐相似特征的物品”，缺陷是容易陷入“推荐同质\n 化”，用户长期只能收到同类内容。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-172",
+        "type": "judge",
+        "question": "协同过滤推荐必须依赖物品本身的特征才能进行推荐。\n 正确答案：错误\n 答案解析：协同过滤推荐的核心逻辑是“不依赖物品本身的特征”，而是通过分析用户与物品\n 的交互关系（如购买、评分）来实现推荐。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "协同过滤推荐的核心逻辑是“不依赖物品本身的特征”，而是通过分析用户与物品\n 的交互关系（如购买、评分）来实现推荐。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-173",
+        "type": "judge",
+        "question": "推荐系统的实时计算层通常采用复杂的深度学习模型，以追求最高的推荐精准度，响\n应时间可以较长。\n 正确答案：错误\n 答案解析：实时计算层响应时间要求极高，通常采用简单高效的算法；离线计算层才适合\n 采用复杂模型提升精度。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "实时计算层响应时间要求极高，通常采用简单高效的算法；离线计算层才适合\n 采用复杂模型提升精度。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-174",
+        "type": "judge",
+        "question": "长尾理论认为，在互联网平台上，海量“非热门商品”的累计销售额可能超过热门商品。\n 正确答案：正确\n 答案解析：长尾理论指出互联网平台无物理空间限制，海量长尾商品总量庞大，累计销售\n 额甚至能超过热门商品。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "长尾理论指出互联网平台无物理空间限制，海量长尾商品总量庞大，累计销售\n 额甚至能超过热门商品。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-175",
+        "type": "judge",
+        "question": "沃尔玛与宝洁的数据共享系统案例中，零售商将销售数据实时同步给供应商，主要是\n为了增加供应商的库存成本。\n 正确答案：错误\n 答案解析：数据共享是为了让供应商调整生产计划，实现“以销定产”，结果是双方的库存成\n 本均降低，而非增加。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "数据共享是为了让供应商调整生产计划，实现“以销定产”，结果是双方的库存成\n 本均降低，而非增加。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-176",
+        "type": "judge",
+        "question": "智能物流中的“前置仓”模式，是通过将商品集中存储在远离城市的中央仓库，来降低仓\n储成本。\n 正确答案：错误\n 答案解析：前置仓模式是将高频购买的商品提前存储在“靠近用户”的仓库，而非远离城市的\n 中央仓库，目的是缩短配送时效。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "前置仓模式是将高频购买的商品提前存储在“靠近用户”的仓库，而非远离城市的\n 中央仓库，目的是缩短配送时效。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-177",
+        "type": "judge",
+        "question": "大数据在物流领域的应用可以破解“信息不对称”，让物流成本结构中的隐性成本显形\n化。\n 正确答案：正确\n 答案解析：大数据通过挖掘海量数据背后的规律，让“黑大陆”变透明，让“冰山成本”显形。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "大数据通过挖掘海量数据背后的规律，让“黑大陆”变透明，让“冰山成本”显形。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-178",
+        "type": "judge",
+        "question": "美团外卖的“超脑智能调度系统”在分配订单时，只考虑配送员的直线距离，不考虑路况\n和商家出餐速度。\n 正确答案：错误\n 答案解析：该系统实时整合订单、配送员位置、实时路况、商家出餐速度等多维度数据进\n 行分配。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "该系统实时整合订单、配送员位置、实时路况、商家出餐速度等多维度数据进\n 行分配。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-179",
+        "type": "judge",
+        "question": "餐饮企业利用大数据进行“菜单优化”时，对于销量低但毛利率极高的菜品，通常会直接\n淘汰。\n 正确答案：错误\n 答案解析：对于“毛利率低于30%且销量一般”的菜品才考虑调价或淘汰；对于毛利率高的菜\n 品，可能会尝试改良或保留。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "对于“毛利率低于30%且销量一般”的菜品才考虑调价或淘汰；对于毛利率高的菜\n 品，可能会尝试改良或保留。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-180",
+        "type": "judge",
+        "question": "星巴克的“星享俱乐部”收集会员数据构建用户画像，主要是为了在所有时间段向所有用\n户推送相同的优惠券。\n 正确答案：错误\n 答案解析：星巴克利用用户画像进行“场景化营销”，如针对特定用户的习惯在特定时间推送\n 特定产品的优惠，而非无差别推送。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "星巴克利用用户画像进行“场景化营销”，如针对特定用户的习惯在特定时间推送\n 特定产品的优惠，而非无差别推送。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-181",
+        "type": "judge",
+        "question": "麦当劳的“智能排班系统”可以根据历史订单数据和实时客流，实现分钟级的人力调整，\n避免人手不足或冗余。\n 正确答案：正确\n 答案解析：麦当劳的系统可实现“分钟级”的人力调整，结合预测和实时数据优化排班。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "麦当劳的系统可实现“分钟级”的人力调整，结合预测和实时数据优化排班。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-182",
+        "type": "judge",
+        "question": "线上影视平台的“场景化推荐”是指根据用户观看的设备和时间段，动态调整推荐的内容\n时长和类型。\n 正确答案：正确\n 答案解析：Netflix和国内平台都会依据“观看设备”和“时间”调整内容。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "Netflix和国内平台都会依据“观看设备”和“时间”调整内容。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-183",
+        "type": "judge",
+        "question": "Disney+的“内容潜力评分系统”在采购版权时，主要依赖采购人员对IP的主观喜爱程度\n进行打分。\n 正确答案：错误\n 答案解析：该系统进行100余项指标评估，包括IP过往数据、主创口碑、用户匹配度等量化\n 数据，而非主观喜爱。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "该系统进行100余项指标评估，包括IP过往数据、主创口碑、用户匹配度等量化\n 数据，而非主观喜爱。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-184",
+        "type": "judge",
+        "question": "大数据在影视行业的应用仅限于内容推荐和用户运营，无法介入剧本开发和演员选角\n等创作环节。\n 正确答案：错误\n 答案解析：大数据已深度介入内容生产，如《纸牌屋》的选角、《长相思》的名场面规划\n 等。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "大数据已深度介入内容生产，如《纸牌屋》的选角、《长相思》的名场面规划\n 等。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-185",
+        "type": "judge",
+        "question": "在餐饮O2O模式中，线上评价数据可以帮助线下门店定位服务痛点并进行改进。\n 正确答案：正确\n 答案解析：大数据分析线上评价可定位门店问题（如服务响应慢），从而指导线下改进。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "大数据分析线上评价可定位门店问题（如服务响应慢），从而指导线下改进。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-186",
+        "type": "judge",
+        "question": "基于统计的推荐方法个性化程度高，能够很好地满足用户发现新内容的需求。\n 正确答案：错误\n 答案解析：基于统计的推荐缺点是完全缺乏个性化，推荐范围固定，难以挖掘用户潜在兴\n 趣。\n 章节：第十一章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "基于统计的推荐缺点是完全缺乏个性化，推荐范围固定，难以挖掘用户潜在兴\n 趣。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-187",
+        "type": "judge",
+        "question": "大数据安全是一个全新的独立领域，与传统数据安全没有任何关联。\n 正确答案：错误\n 答案解析：大数据安全的相关概念，大数据安全并非独立于传统数据安全的全新领域，而\n 是对传统数据安全的延伸与升级。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "大数据安全的相关概念，大数据安全并非独立于传统数据安全的全新领域，而\n 是对传统数据安全的延伸与升级。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-188",
+        "type": "judge",
+        "question": "NoSQL数据库由于发展时间较短，安全防护机制相对不完善，曾多次发生被攻击导致\n泄密事件。\n 正确答案：正确\n 答案解析：MongoDB作为典型的NoSQL数据库，因发展时间短、安全防护机制不完善，\n 曾多次发生被黑客攻击导致数据库泄密的事件。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "MongoDB作为典型的NoSQL数据库，因发展时间短、安全防护机制不完善，\n 曾多次发生被黑客攻击导致数据库泄密的事件。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-189",
+        "type": "judge",
+        "question": "哈佛大学研究显示，仅通过年龄、性别、邮编三个基础信息，即可在公开数据库中识\n别出87%的个人身份。\n 正确答案：正确\n 答案解析：哈佛大学研究显示，仅通过年龄、性别、邮编三个基础信息，即可在公开数据\n 库中识别出87%的个人身份。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "哈佛大学研究显示，仅通过年龄、性别、邮编三个基础信息，即可在公开数据\n 库中识别出87%的个人身份。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-190",
+        "type": "judge",
+        "question": "美国“棱镜计划”不仅监控美国公民，也对全球范围内的网络活动实施深度监听，包括他\n国公民的通信内容。\n 正确答案：正确\n 答案解析：大数据安全的典型案例，棱镜计划对境外非美国公民的网络活动实施无差别监\n 听，且监控跨境数据流动。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "大数据安全的典型案例，棱镜计划对境外非美国公民的网络活动实施无差别监\n 听，且监控跨境数据流动。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-191",
+        "type": "judge",
+        "question": "手机APP在安装时要求读取通讯录权限，即使该功能与APP核心业务无关（如手电筒\nAPP），也符合数据采集的“必要原则”。\n 正确答案：错误\n 答案解析：像手电筒这类功能单一的APP要求读取通讯录，违背了“必要原则”。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "像手电筒这类功能单一的APP要求读取通讯录，违背了“必要原则”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-192",
+        "type": "judge",
+        "question": "在公共场所使用免费WiFi进行支付、转账等操作是非常安全的，因为商家会保护用户\n信息。\n 正确答案：错误\n 答案解析：大数据安全的典型案例，免费WiFi存在黑客搭建陷阱窃取信息的风险，个人应\n 避免连接无密码的公共WiFi进行支付转账。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "大数据安全的典型案例，免费WiFi存在黑客搭建陷阱窃取信息的风险，个人应\n 避免连接无密码的公共WiFi进行支付转账。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-193",
+        "type": "judge",
+        "question": "数据自由流通原则意味着数据可以在任何情况下无限制地自由流动，不需要考虑安全\n问题。\n 正确答案：错误\n 答案解析：数据自由流通需以“安全”为前提，并非无限制自由。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "数据自由流通需以“安全”为前提，并非无限制自由。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-194",
+        "type": "judge",
+        "question": "洛杉矶警察局利用地震余震预测模型来预测犯罪事件，取得了良好效果。\n 正确答案：正确\n 答案解析：洛杉矶警察局将原本用于地震余震预测的数学模型成功应用于犯罪预测。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "洛杉矶警察局将原本用于地震余震预测的数学模型成功应用于犯罪预测。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-195",
+        "type": "judge",
+        "question": "大数据伦理中的“数据使用伦理”要求数据使用需符合道德目的，不得用于损害他人或社\n会利益的活动。\n 正确答案：正确\n 答案解析：大数据伦理的概念，数据使用的伦理关注“数据使用是否正当”，要求符合道德目\n 的。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "大数据伦理的概念，数据使用的伦理关注“数据使用是否正当”，要求符合道德目\n 的。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-196",
+        "type": "judge",
+        "question": "在“万物皆可数据化”的环境中，人的主体地位得到了前所未有的增强，因为人可以被更\n精准地量化。\n 正确答案：错误\n 答案解析：在“万物皆可数据化”的环境中，人的主体地位遭遇了冲击，真实的被“数据塑造\n 的身份”替代，陷入“主体异化”困境。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "在“万物皆可数据化”的环境中，人的主体地位遭遇了冲击，真实的被“数据塑造\n 的身份”替代，陷入“主体异化”困境。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-197",
+        "type": "judge",
+        "question": "数据偏见会导致算法决策歧视，例如招聘算法可能因为历史数据中男性录用比例高而\n排斥女性求职者。\n 正确答案：正确\n 答案解析：算法训练数据可能包含历史社会偏见，导致算法将“性别”作为隐性筛选因素，形\n 成歧视。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "算法训练数据可能包含历史社会偏见，导致算法将“性别”作为隐性筛选因素，形\n 成歧视。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-198",
+        "type": "judge",
+        "question": "“数据独裁”是指人们在面对复杂决策时，过度依赖数据预测与结论，导致人类的独立思\n考能力逐渐丧失。\n 正确答案：正确\n 答案解析：数据独裁指形成“数据主导决策、人类被动服从”的唯数据主义倾向，导致自主性\n 丧失。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "数据独裁指形成“数据主导决策、人类被动服从”的唯数据主义倾向，导致自主性\n 丧失。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-199",
+        "type": "judge",
+        "question": "央视“3·15”晚会曝光的“探针盒子”是在用户明确知情并同意的情况下采集个人信息的。\n 正确答案：错误\n 答案解析：“探针盒子”是在用户不知情的情况下自动捕捉个人信息，违背了知情同意原则。\n 章节：第十二章",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "“探针盒子”是在用户不知情的情况下自动捕捉个人信息，违背了知情同意原则。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-200",
+        "type": "judge",
+        "question": "魏则西事件暴露了搜索引擎企业在数据垄断下，将商业利益置于用户权益之上，缺乏\n对信息真实性的审核。\n 正确答案：正确\n 答案解析：魏则西事件暴露出百度通过竞价排名误导用户，且未审核医疗信息真实性。\n 章节：第十二章\n5. 填空题（100道）",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "魏则西事件暴露出百度通过竞价排名误导用户，且未审核医疗信息真实性。",
+        "source": "数据科学"
+      }
+    ]
+  },
+  {
+    "subject": "人工智能",
+    "accent": "#e11d48",
+    "description": "知识表示、搜索、机器学习、深度学习与智能体",
+    "questions": [
+      {
+        "id": "ai-1",
+        "type": "single",
+        "question": "人工智能（Artificial Intelligence, AI）这一术语是在哪一年正式提出的？",
+        "options": [
+          "1946年",
+          "1950年",
+          "1956年",
+          "1969年"
+        ],
+        "answer": "C",
+        "analysis": "1956年夏季在达特矛斯大学召开的学术研讨会上，正式采用了“人工智能”这一术\n语，标志着学科的诞生。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-2",
+        "type": "single",
+        "question": "20世纪三大科学技术成就除了空间技术、原子能技术外，还包括哪一项？",
+        "options": [
+          "纳米技术",
+          "人工智能",
+          "基因工程",
+          "量子计算"
+        ],
+        "answer": "B",
+        "analysis": "20世纪三大科学技术成就包括空间技术、原子能技术和人工智能。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-3",
+        "type": "single",
+        "question": "在人类感知的外部信息中，通过视觉得到的信息占比约为多少？",
+        "options": [
+          "10%",
+          "50%",
+          "80%以上",
+          "100%"
+        ],
+        "answer": "C",
+        "analysis": "80%以上的信息通过视觉得到，10%的信息通过听觉得到。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-4",
+        "type": "single",
+        "question": "哪种思维方式具有串行、易形式化、严密且可靠的特点？",
+        "options": [
+          "形象思维",
+          "顿悟思维",
+          "逻辑思维",
+          "灵感思维"
+        ],
+        "answer": "C",
+        "analysis": "逻辑思维（抽象思维）依靠逻辑进行，过程是串行的，容易形式化，且具有严密性\n和可靠性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-5",
+        "type": "single",
+        "question": "谁因在达特矛斯会议上提议正式采用“人工智能”一词而被称为“人工智能之父”？",
+        "options": [
+          "图灵（Turing）",
+          "麦卡锡（McCarthy）",
+          "明斯基（Minsky）",
+          "香农（Shannon）"
+        ],
+        "answer": "B",
+        "analysis": "会上经麦卡锡提议正式采用“人工智能”这一术语，麦卡锡因而被称为人工智能之\n父。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-6",
+        "type": "single",
+        "question": "1950年，哪位科学家在《计算机与智能》中提出了著名的“图灵测试”？",
+        "options": [
+          "阿塔纳索夫",
+          "约翰·塞尔",
+          "艾伦·图灵",
+          "维纳"
+        ],
+        "answer": "C",
+        "analysis": "1950年图灵发表的《计算机与智能》中设计了一个测试，用以说明人工智能的概\n念。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-7",
+        "type": "single",
+        "question": "“中国屋思考实验”是由哪位哲学家提出的，用以证明通过图灵测试并不代表计算机\n具有思维？",
+        "options": [
+          "约翰·塞尔",
+          "纽厄尔",
+          "西蒙",
+          "费根鲍姆"
+        ],
+        "answer": "A",
+        "analysis": "语言哲学家约翰·R·塞尔于1980年提出了中国屋思考实验。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-8",
+        "type": "single",
+        "question": "被公认为为人工智能研究奠定了物质基础的世界上第一台电子计算机是？",
+        "options": [
+          "ENIAC",
+          "ABC",
+          "深蓝",
+          "AlphaGo"
+        ],
+        "answer": "B",
+        "analysis": "1937年至1941年间开发的ABC计算机为人工智能研究奠定了物质基础。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-9",
+        "type": "single",
+        "question": "1977年，在第五届国际人工智能联合会议上提出“知识工程”概念的科学家是？",
+        "options": [
+          "鲁宾逊",
+          "塞缪尔",
+          "费根鲍姆",
+          "吴文俊"
+        ],
+        "answer": "C",
+        "analysis": "1977年，费根鲍姆提出了“知识工程”概念，推动了以知识为中心的研究。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-10",
+        "type": "single",
+        "question": "关于专用人工智能与通用人工智能，下列说法正确的是？",
+        "options": [
+          "专用人工智能可处理各类问题",
+          "通用人工智能尚处于起步阶段",
+          "人工智能的发展方向是专用人工智能",
+          "AlphaGo属于通用人工智能"
+        ],
+        "answer": "B",
+        "analysis": "通用人工智能尚处于起步阶段，是人工智能的发展方向；AlphaGo属于专用人工智\n能。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-11",
+        "type": "single",
+        "question": "符号主义学派的理论基础起源于什么？",
+        "options": [
+          "控制论",
+          "数理逻辑",
+          "仿生学",
+          "统计学"
+        ],
+        "answer": "B",
+        "analysis": "符号主义起源于数理逻辑，是一种基于逻辑推理的智能模拟方法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-12",
+        "type": "single",
+        "question": "连接主义学派又被称为？",
+        "options": [
+          "逻辑主义",
+          "进化主义",
+          "仿生学派",
+          "计算机学派"
+        ],
+        "answer": "C",
+        "analysis": "连接主义学派又称仿生学派或生理学派，基于神经网络进行模拟。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-13",
+        "type": "single",
+        "question": "行为主义学派的理论基础是什么？",
+        "options": [
+          "知识表示",
+          "神经网络",
+          "控制论",
+          "定理证明"
+        ],
+        "answer": "C",
+        "analysis": "行为主义又称进化主义或控制论学派，其理论基础是控制论。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-14",
+        "type": "single",
+        "question": "我国科学家吴文俊院士在哪个领域取得了突出的成果，并建立了“吴方法”？",
+        "options": [
+          "机器感知",
+          "专家系统",
+          "几何定理自动证明",
+          "语音识别"
+        ],
+        "answer": "C",
+        "analysis": "吴文俊院士在几何定理证明方面建立了一套机器证明方法，被称为“吴方法”。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-15",
+        "type": "single",
+        "question": "1997年击败国际象棋特级大师卡斯帕罗夫的计算机系统是？",
+        "options": [
+          "深蓝（Deep Blue）",
+          "Deep Thought 2",
+          "AlphaGo",
+          "Master"
+        ],
+        "answer": "A",
+        "analysis": "1997年5月，“深蓝”以3.5比2.5的总比分赢得了与卡斯帕罗夫的对弈。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-16",
+        "type": "single",
+        "question": "模式识别主要研究的是？",
+        "options": [
+          "知识的形式化",
+          "对象的描述和分类",
+          "机器人的行为表达",
+          "机器人的思维过程"
+        ],
+        "answer": "B",
+        "analysis": "模式识别是研究对象描述和分类方法的学科。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-17",
+        "type": "single",
+        "question": "专家系统的核心组成部分通常包括推理机和什么？",
+        "options": [
+          "解释机构",
+          "知识库",
+          "传感器",
+          "互联网"
+        ],
+        "answer": "B",
+        "analysis": "专家系统的核心包括知识库和推理机。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-18",
+        "type": "single",
+        "question": "机器人发展的三个阶段依次是？",
+        "options": [
+          "智能-自适应-程序控制",
+          "程序控制-智能-自适应",
+          "程序控制-自适应-智能",
+          "遥控-程序控制-智能"
+        ],
+        "answer": "C",
+        "analysis": "机器人发展经历了程序控制机器人、自适应机器人、智能机器人三个阶段。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-19",
+        "type": "single",
+        "question": "1943年提出的用于模拟大脑神经元行为的模型是？",
+        "options": [
+          "感知器模型",
+          "M-P神经元模型",
+          "BP学习算法",
+          "卷积神经网络"
+        ],
+        "answer": "B",
+        "analysis": "1943年麦克洛克和皮茨提出了M-P神经元模型。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-20",
+        "type": "single",
+        "question": "旨在将云计算运作模式与人工智能深度融合的技术是？",
+        "options": [
+          "云端人工智能",
+          "脑机接口",
+          "具身智能",
+          "多智能体系统"
+        ],
+        "answer": "A",
+        "analysis": "云端人工智能是将云计算的运作模式与人工智能深度融合的技术。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-21",
+        "type": "single",
+        "question": "在人工智能中，知识通常被定义为在长期生活及中所形成的对客观世界的认识，其\n数学表达式可简写为？",
+        "options": [
+          "知识 = 数据 + 经验",
+          "知识 = 信息 + 处理",
+          "知识 = 信息 + 经验",
+          "知识 = 事实 + 规则"
+        ],
+        "answer": "C",
+        "analysis": "PPT指出，知识是经过加工的信息，是把有关的信息关联在一起形成的经验，通常\n表示为：知识 = 信息 + 经验。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-22",
+        "type": "single",
+        "question": "在“数据、信息、知识、智能”的递进关系中，最高层级的是？",
+        "options": [
+          "数据",
+          "信息",
+          "知识",
+          "智能"
+        ],
+        "answer": "D",
+        "analysis": "根据PPT中的金字塔结构，从底层到顶层依次是数据、信息、知识、智能。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-23",
+        "type": "single",
+        "question": "谓词逻辑中，用于表示个体之间关系的符号称为？",
+        "options": [
+          "个体常数",
+          "个体变量",
+          "谓词",
+          "函数"
+        ],
+        "answer": "C",
+        "analysis": "谓词是用来刻画个体的性质或个体之间关系的符号。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-24",
+        "type": "single",
+        "question": "在谓词公式中，全称量词（∀x）的含义是？",
+        "options": [
+          "存在一个x",
+          "对所有的x",
+          "仅有一个x",
+          "没有任何x"
+        ],
+        "answer": "B",
+        "analysis": "全称量词（∀x）表示对定义域中的每一个个体x，命题都成立。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-25",
+        "type": "single",
+        "question": "谓词公式 等价于下列哪项逻辑组合？",
+        "options": [
+          "B.",
+          "D."
+        ],
+        "answer": "A",
+        "analysis": "根据逻辑等价式，蕴含式 逻辑等价于 。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-26",
+        "type": "single",
+        "question": "产生式系统（Production System）通常由哪三部分组成？",
+        "options": [
+          "规则库、事实库、推理机",
+          "数据库、控制系统、用户界面",
+          "符号库、神经网络、学习模块",
+          "知识图谱、语义网络、框架"
+        ],
+        "answer": "A",
+        "analysis": "产生式系统由规则库（知识库）、综合数据库（事实库）和控制策略（推理机）三\n部分组成。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-27",
+        "type": "single",
+        "question": "产生式规则的一般形式是 ，其中 代表的是？",
+        "options": [
+          "结论",
+          "动作",
+          "前提或条件",
+          "事实"
+        ],
+        "answer": "C",
+        "analysis": "在产生式规则中， 是左部（LHS），表示前提或条件； 是右部（RHS），表示结\n论或动作。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-28",
+        "type": "single",
+        "question": "下列哪项是产生式表示法的主要缺点？",
+        "options": [
+          "不自然",
+          "模块化程度低",
+          "容易导致“组合爆炸”",
+          "知识无法演化"
+        ],
+        "answer": "C",
+        "analysis": "产生式表示法虽然易于理解和修改，但在处理复杂逻辑时容易产生效率低和组合爆\n炸的问题。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-29",
+        "type": "single",
+        "question": "框架表示法（Frame Representation）最初是由哪位科学家于1974年提出的？",
+        "options": [
+          "明斯基（Minsky）",
+          "麦卡锡（McCarthy）",
+          "费根鲍姆（Feigenbaum）",
+          "纽厄尔（Newell）"
+        ],
+        "answer": "B",
+        "analysis": "框架理论由Minsky于1974年提出，用于解释人类的感知和思维。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-30",
+        "type": "single",
+        "question": "在框架结构中，用于描述对象某一属性的单元被称为？",
+        "options": [
+          "槽（Slot）",
+          "侧面（Facet）",
+          "节点（Node）",
+          "弧（Arc）"
+        ],
+        "answer": "A",
+        "analysis": "一个框架由若干个“槽”组成，每个槽对应对象的一个属性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-31",
+        "type": "single",
+        "question": "框架表示法中的“侧面”（Facet）主要用于描述什么？",
+        "options": [
+          "框架的名称",
+          "属性的取值范围或属性值",
+          "框架之间的父子关系",
+          "知识的确定性"
+        ],
+        "answer": "B",
+        "analysis": "槽可以划分为若干个侧面，用来描述该槽所代表属性的属性值、默认值、取值范围\n等。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-32",
+        "type": "single",
+        "question": "知识图谱（Knowledge Graph）的概念最早是由哪家公司在2012年提出的？",
+        "options": [
+          "微软",
+          "百度",
+          "谷歌（Google）",
+          "阿里"
+        ],
+        "answer": "C",
+        "analysis": "2012年5月，谷歌公司正式提出了知识图谱的概念。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-33",
+        "type": "single",
+        "question": "知识图谱的一种通用表示方式是“三元组”，其基本形式是？",
+        "options": [
+          "(实体1, 关系, 实体2)",
+          "(属性, 值, 单位)",
+          "(规则, 条件, 结论)",
+          "(框架, 槽, 侧面)"
+        ],
+        "answer": "A",
+        "analysis": "知识图谱的三元组通常表示为（实体1, 关系, 实体2）或（实体, 属性, 属性值）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-34",
+        "type": "single",
+        "question": "语义网络中，节点（Node）通常代表什么？",
+        "options": [
+          "逻辑运算",
+          "实体、对象或概念",
+          "谓词公式",
+          "推理方向"
+        ],
+        "answer": "B",
+        "analysis": "语义网络通过带箭头的弧连接节点，节点代表事物、概念或状态。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-35",
+        "type": "single",
+        "question": "知识的“演化性”特征是指？",
+        "options": [
+          "知识在不同人眼里是一样的",
+          "知识是绝对正确的",
+          "知识会随着时间和经验的积累而修正",
+          "知识只存在于书本中"
+        ],
+        "answer": "C",
+        "analysis": "知识具有演化性，即它是不断发展和修正的。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-36",
+        "type": "single",
+        "question": "谓词逻辑表示法最适合表示哪类知识？",
+        "options": [
+          "复杂的动作序列",
+          "具有严密逻辑关系的确定性事实",
+          "模糊的感官直觉",
+          "大规模的非结构化数据"
+        ],
+        "answer": "B",
+        "analysis": "谓词逻辑具有严密、精确的特点，适合描述确定性的因果和逻辑关系。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-37",
+        "type": "single",
+        "question": "产生式系统中的“规则库”存放的是？",
+        "options": [
+          "系统运行过程中的临时事实",
+          "领域专家的经验性知识",
+          "原始的感测数据",
+          "用户的个人偏好"
+        ],
+        "answer": "B",
+        "analysis": "规则库是产生式规则的集合，代表了领域专家的知识。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-38",
+        "type": "single",
+        "question": "框架表示法的核心特点之一是？",
+        "options": [
+          "无法处理默认值",
+          "具有结构性和继承性",
+          "纯碎的数值计算",
+          "只能处理一阶逻辑"
+        ],
+        "answer": "B",
+        "analysis": "框架表示法具有结构性（各框架相互连接）和继承性（子框架继承父框架属性）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-39",
+        "type": "single",
+        "question": "在知识图谱中，连接两个实体节点的边代表什么？",
+        "options": [
+          "实体本身",
+          "逻辑否定",
+          "关系或属性",
+          "权重分布"
+        ],
+        "answer": "C",
+        "analysis": "知识图谱可以看作一张图，节点表示实体，边表示实体间的关系或属性。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-40",
+        "type": "single",
+        "question": "“北京-人口-2069万”在知识图谱中属于哪种描述方式？",
+        "options": [
+          "实体-关系-实体",
+          "实体-属性-属性值",
+          "框架-槽-侧面",
+          "规则-前提-动作"
+        ],
+        "answer": "B",
+        "analysis": "“北京”是实体，“人口”是属性，“2069万”是属性值。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-41",
+        "type": "single",
+        "question": "在不确定性推理中，由于客观上事物随机性的存在而产生的不确定性属于？",
+        "options": [
+          "模糊性",
+          "随机性",
+          "不完全性",
+          "不一致性"
+        ],
+        "answer": "B",
+        "analysis": "随机性是指由于客观上存在的偶然性导致的不确定性，是概率论研究的主要对象。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-42",
+        "type": "single",
+        "question": "可信度方法（C-F模型）最早是在哪一个专家系统中提出的？",
+        "options": [
+          "SHRDLU",
+          "DENDRAL",
+          "MYCIN",
+          "PROSPECTOR"
+        ],
+        "answer": "C",
+        "analysis": "可信度方法是20世纪70年代中后期由肖特里夫等人在开发医疗诊断专家系统\nMYCIN时提出的。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-43",
+        "type": "single",
+        "question": "当 时，其含义是？",
+        "options": [
+          "证据 对结论 没有任何影响",
+          "证据 以 0.8 的程度反对结论",
+          "证据 以 0.8 的程度支持结论 为真",
+          "结论 发生的概率是 80%"
+        ],
+        "answer": "C",
+        "analysis": "表示证据增加结论为真的信任程度，数值越大信任程度越高。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-44",
+        "type": "single",
+        "question": "可信度模型中，若 ，则表示？",
+        "options": [
+          "结论 绝对不可信",
+          "证据 与结论 无关",
+          "证据 必定导致结论 发生",
+          "结论 为假"
+        ],
+        "answer": "B",
+        "analysis": "表示证据 对结论 既无支持也无反对，即两者无关。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-45",
+        "type": "single",
+        "question": "在证据理论中，设 是由互斥的备选答案组成的集合，则 被称为？",
+        "options": [
+          "模糊集",
+          "辨识框架",
+          "幂集",
+          "概率空间"
+        ],
+        "answer": "B",
+        "analysis": "证据理论首先定义一个由所有可能答案组成的集合，称为辨识框架，记作 。\n章\n节：第四章：不确定性推理方法\n认知层次：记忆\n难度：5",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-46",
+        "type": "single",
+        "question": "证据理论中，概率分配函数 的所有子集 的分配值之和必须等于？",
+        "options": [
+          "0",
+          "0.5",
+          "1",
+          "100"
+        ],
+        "answer": "C",
+        "analysis": "基本概率分配函数（Mass函数）满足所有子集的 值之和为 1。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-47",
+        "type": "single",
+        "question": "信任函数 表示对 的什么程度？",
+        "options": [
+          "信任下限",
+          "信任上限",
+          "否定程度",
+          "可能程度"
+        ],
+        "answer": "A",
+        "analysis": "信任函数 又称下限函数，表示对 为真的信任程度。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-48",
+        "type": "single",
+        "question": "似然函数 表示对 的什么程度？",
+        "options": [
+          "确信度",
+          "信任上限",
+          "必然性",
+          "错误率"
+        ],
+        "answer": "B",
+        "analysis": "似然函数 又称上限函数，表示对 非假的信任程度。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-49",
+        "type": "single",
+        "question": "模糊集合理论是由哪位科学家在1965年首次提出的？",
+        "options": [
+          "肖特里夫（Shortliffe）",
+          "扎德（L. A. Zadeh）",
+          "邓普斯特（Dempster）",
+          "斯佩（Shafer）"
+        ],
+        "answer": "B",
+        "analysis": "1965年，美国控制论专家扎德发表了论文《Fuzzy Sets》，标志着模糊数学的诞\n生。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-50",
+        "type": "single",
+        "question": "若模糊集 年轻，非常年轻，则 通常可以用 的隶属函数的何种运算表示？",
+        "options": [
+          "算术平方根",
+          "平方",
+          "取反",
+          "加 0.5"
+        ],
+        "answer": "B",
+        "analysis": "在模糊语言处理中，“非常”通常对应集中运算，即隶属函数的平方。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-51",
+        "type": "single",
+        "question": "模糊关系合成运算中，最常用的方法是？",
+        "options": [
+          "最大-乘积法",
+          "最小-最大法",
+          "最大-最小法",
+          "平均值法"
+        ],
+        "answer": "C",
+        "analysis": "模糊推理中，模糊关系的合成常采用最大-最小合成规则（Max-Min\nComposition）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-52",
+        "type": "single",
+        "question": "在模糊推理中，将模糊的推理结果转化为精确数值输出的过程称为？",
+        "options": [
+          "模糊化",
+          "反模糊化（解模糊）",
+          "规则匹配",
+          "证据融合"
+        ],
+        "answer": "B",
+        "analysis": "为了在实际控制中使用，需要将模糊集转化为精确值，这一过程称为反模糊化或清\n脆化。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-53",
+        "type": "single",
+        "question": "反模糊化方法中，取模糊集隶属度最大的点作为代表值的方法是？",
+        "options": [
+          "重心法",
+          "最大隶属度法",
+          "加权平均法",
+          "中位数法"
+        ],
+        "answer": "B",
+        "analysis": "最大隶属度法是在模糊集合中寻找隶属度最大的个体作为输出。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-54",
+        "type": "single",
+        "question": "证据理论中的“空集”的基本概率分配 规定为？",
+        "options": [
+          "1",
+          "0.5",
+          "0",
+          "无法确定"
+        ],
+        "answer": "C",
+        "analysis": "在证据理论的定义中，。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-55",
+        "type": "single",
+        "question": "下列关于不确定性推理的说法，正确的是？",
+        "options": [
+          "不确定性推理即为逻辑演绎推理",
+          "它能处理由于知识不精确带来的问题",
+          "推理结果必须是百分之百正确的",
+          "只能使用概率论进行建模"
+        ],
+        "answer": "B",
+        "analysis": "不确定性推理专门用于处理不精确、不完整和模糊的信息。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-56",
+        "type": "single",
+        "question": "在可信度方法中，若证据 由多个子证据 析取（OR）而成，则 取值为？",
+        "options": [
+          "B.",
+          "D."
+        ],
+        "answer": "B",
+        "analysis": "证据的析取（联言连接）在可信度计算中取各个子证据可信度的最大值。\n章\n节：第四章：不确定性推理方法\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-57",
+        "type": "single",
+        "question": "模糊集合的“交”运算对应于逻辑运算中的？",
+        "options": [
+          "且（AND）",
+          "或（OR）",
+          "非（NOT）",
+          "异或（XOR）"
+        ],
+        "answer": "A",
+        "analysis": "集合的交运算（Intersection）在隶属度计算中通常采用取最小值（min），对应逻\n辑“且”。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-58",
+        "type": "single",
+        "question": "隶属函数 表示个体 与模糊集 的关系是？",
+        "options": [
+          "完全不属于",
+          "完全属于",
+          "属于 的程度为一半",
+          "是 的边界"
+        ],
+        "answer": "B",
+        "analysis": "隶属度为 1 表示元素完全属于该集合，这与经典集合论是一致的。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-59",
+        "type": "single",
+        "question": "在人工智能中，搜索是指为了达到某一目标，不断寻找什么的过程？",
+        "options": [
+          "最终答案",
+          "知识表示",
+          "解决问题路线",
+          "评估函数"
+        ],
+        "answer": "C",
+        "analysis": "搜索是根据问题的实际情况，按照一定的策略，在状态空间中不断寻找可利用知\n识，从而找到一条从初始状态到目标状态的解决问题路线的过程。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-60",
+        "type": "single",
+        "question": "状态空间法中，用于描述对象在某一时刻特征的数据结构被称为？",
+        "options": [
+          "算子",
+          "状态",
+          "目标",
+          "路径"
+        ],
+        "answer": "B",
+        "analysis": "状态（State）是表示问题求解过程中每一步状况的数据结构。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-61",
+        "type": "single",
+        "question": "在状态空间表示法中，引起状态转移的操作被称为？",
+        "options": [
+          "谓词",
+          "框架",
+          "操作符（算子）",
+          "评估函数"
+        ],
+        "answer": "C",
+        "analysis": "操作符（Operator）作用于某个状态，使其转变为另一个状态。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-62",
+        "type": "single",
+        "question": "状态空间的一个四元组表示为 ，其中 代表？",
+        "options": [
+          "状态集合",
+          "操作符集合",
+          "初始状态",
+          "目标状态集合"
+        ],
+        "answer": "D",
+        "analysis": "为状态集合， 为操作符集合， 为初始状态， 为目标状态集合。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-63",
+        "type": "single",
+        "question": "盲目搜索策略与启发式搜索策略的主要区别在于？",
+        "options": [
+          "是否具有目标状态",
+          "是否具有初始状态",
+          "是否利用与问题有关的特征信息",
+          "是否使用图搜索"
+        ],
+        "answer": "C",
+        "analysis": "启发式搜索利用与问题有关的特征信息（启发式信息）来引导搜索方向。\n章\n节：第五章：搜索求解策略\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-64",
+        "type": "single",
+        "question": "宽度优先搜索（BFS）通常使用哪种数据结构来保存待扩展的节点？",
+        "options": [
+          "栈（Stack）",
+          "队列（Queue）",
+          "链表（Link List）",
+          "哈希表（Hash Table）"
+        ],
+        "answer": "B",
+        "analysis": "宽度优先搜索按照层次顺序进行，遵循先进先出（FIFO）原则，因此使用队列。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-65",
+        "type": "single",
+        "question": "深度优先搜索（DFS）在搜索过程中，若当前节点不可扩展且非目标点，则下一步\n操作是？",
+        "options": [
+          "停止搜索",
+          "回溯到父节点",
+          "重新开始",
+          "进入死循环"
+        ],
+        "answer": "B",
+        "analysis": "深度优先搜索在遇到死胡同或达到深度限制时，会进行回溯。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-66",
+        "type": "single",
+        "question": "回溯策略与深度优先搜索的主要区别在于回溯策略主要在什么空间中进行？",
+        "options": [
+          "状态空间",
+          "搜索树",
+          "物理空间",
+          "评估空间"
+        ],
+        "answer": "A",
+        "analysis": "回溯策略是在状态空间中进行搜索，且通常只需要保存从初始状态到当前状态的单\n一路径。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-67",
+        "type": "single",
+        "question": "启发式搜索中，用于估计从当前节点 到目标节点所需代价的函数记为？",
+        "options": [
+          "B.",
+          "D."
+        ],
+        "answer": "B",
+        "analysis": "为启发函数，表示从节点 到目标节点的估计代价。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-68",
+        "type": "single",
+        "question": "在 中， 代表的含义是？",
+        "options": [
+          "从初始节点到节点 的实际代价",
+          "从节点 到目标的估计代价",
+          "节点 的总评估值",
+          "节点的深度"
+        ],
+        "answer": "A",
+        "analysis": "表示从初始节点 到当前节点 的实际代价。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-69",
+        "type": "single",
+        "question": "如果一个算法在满足 （ 为实际最小代价）的条件下，一定能找到最优解，则该算\n法被称为？",
+        "options": [
+          "A算法",
+          "A* 算法",
+          "盲目搜索算法",
+          "回溯算法"
+        ],
+        "answer": "B",
+        "analysis": "A* 算法是指满足可采纳性条件（Admissibility）的启发式搜索算法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-70",
+        "type": "single",
+        "question": "A* 算法的启发信息 越大，则意味着？",
+        "options": [
+          "搜索的状态越多",
+          "搜索的信息性越多",
+          "计算时间越少",
+          "越容易陷入局部最优"
+        ],
+        "answer": "B",
+        "analysis": "越大（且不超过实际代价），算法利用的启发信息越多，搜索的状态越少。\n章\n节：第五章：搜索求解策略\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-71",
+        "type": "single",
+        "question": "蒙特卡洛树搜索（MCTS）是由谁在2006年首次发明的？",
+        "options": [
+          "麦卡锡（McCarthy）",
+          "雷米·库隆（Remi Coulom）",
+          "费根鲍姆（Feigenbaum）",
+          "扎德（Zadeh）"
+        ],
+        "answer": "B",
+        "analysis": "MCTS 算法由 Remi Coulom 于 2006 年在围棋引擎 Crazy Stone 中首次发明。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-72",
+        "type": "single",
+        "question": "蒙特卡洛树搜索（MCTS）通常包含四个步骤，其正确的顺序是？",
+        "options": [
+          "选择-模拟-拓展-反向传播",
+          "选择-拓展-模拟-反向传播",
+          "拓展-选择-模拟-反向传播",
+          "模拟-选择-拓展-反向传播"
+        ],
+        "answer": "B",
+        "analysis": "MCTS 四步：选择（Selection）、拓展（Expansion）、模拟（Simulation）、反\n向传播（Backpropagation）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-73",
+        "type": "single",
+        "question": "MCTS 的“选择”步骤主要依据什么结果来选择最优子步骤？",
+        "options": [
+          "随机概率",
+          "统计结果",
+          "深度限制",
+          "硬件性能"
+        ],
+        "answer": "B",
+        "analysis": "选择是根据当前获得所有子步骤的统计结果，选择一个最优子步骤。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-74",
+        "type": "single",
+        "question": "在 MCTS 的“拓展”步骤中，如果一个节点不是目标节点且尚未完全展开，通常会？",
+        "options": [
+          "重新开始",
+          "创建一个或多个子节点",
+          "直接进行反向传播",
+          "停止搜索"
+        ],
+        "answer": "B",
+        "analysis": "拓展步骤是在被选中的节点下创建一个或多个子节点。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-75",
+        "type": "single",
+        "question": "MCTS 的“模拟”步骤又被称为？",
+        "options": [
+          "学习",
+          "演进",
+          "打谱（Play-out）",
+          "评估"
+        ],
+        "answer": "C",
+        "analysis": "模拟是指从拓展出的节点开始，按照随机策略进行对局直到结束，又称 Play-out。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-76",
+        "type": "single",
+        "question": "在 A* 算法中，若 且每条边权值为 1，则该算法退化为？",
+        "options": [
+          "深度优先搜索",
+          "宽度优先搜索",
+          "随机搜索",
+          "最佳优先搜索"
+        ],
+        "answer": "B",
+        "analysis": "当 时，只根据路径代价 搜索，即为宽度优先搜索（或 Dijkstra 算法）。\n章\n节：第五章：搜索求解策略\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-77",
+        "type": "single",
+        "question": "状态空间图中，从一个节点到另一个节点的弧线表示？",
+        "options": [
+          "状态",
+          "估价值",
+          "状态间的转移（算子作用）",
+          "深度限制"
+        ],
+        "answer": "C",
+        "analysis": "弧线代表状态的变迁，即应用操作符的结果。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-78",
+        "type": "single",
+        "question": "状态空间搜索中，如果从初始状态到目标状态存在多条路径，搜索的主要任务是？",
+        "options": [
+          "随机选一条",
+          "找出所有路径",
+          "找出一条（或最优一条）路径",
+          "消除重复状态"
+        ],
+        "answer": "C",
+        "analysis": "搜索的任务是寻找从初始状态到目标状态的一条路径。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-79",
+        "type": "single",
+        "question": "智能计算（Computational Intelligence, CI）受自然界和生物界规律启迪，下列不属\n于智能计算典型算法的是？",
+        "options": [
+          "遗传算法",
+          "蚁群算法",
+          "谓词逻辑",
+          "粒子群优化算法"
+        ],
+        "answer": "C",
+        "analysis": "智能计算包括神经网络、进化计算、群智能等。谓词逻辑属于符号主义人工智能的\n范畴。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-80",
+        "type": "single",
+        "question": "遗传算法（Genetic Algorithm, GA）最早是由哪位科学家提出的？",
+        "options": [
+          "霍兰德（John Holland）",
+          "扎德（Zadeh）",
+          "尼尔逊（Nilsson）",
+          "杜里戈（Marco Dorigo）"
+        ],
+        "answer": "A",
+        "analysis": "遗传算法是由美国密歇根大学的 Holland 教授于1975年首先提出的。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-81",
+        "type": "single",
+        "question": "在遗传算法中，用于模拟生物进化过程中优胜劣汰现象的操作是？",
+        "options": [
+          "编码",
+          "选择",
+          "交叉",
+          "变异"
+        ],
+        "answer": "B",
+        "analysis": "选择（Selection）操作是从旧群体中以一定概率选择优良个体，模拟“物竞天择”。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-82",
+        "type": "single",
+        "question": "遗传算法中，将问题的解空间转换到算法能处理的搜索空间的过程称为？",
+        "options": [
+          "杂交",
+          "解码",
+          "编码",
+          "演化"
+        ],
+        "answer": "C",
+        "analysis": "编码是将问题的解表示成位串或其它形式的过程。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-83",
+        "type": "single",
+        "question": "关于二进制编码的缺点，下列描述正确的是？",
+        "options": [
+          "计算简单",
+          "存在“汉明悬崖”问题",
+          "容易实现交叉操作",
+          "搜索能力弱"
+        ],
+        "answer": "B",
+        "analysis": "二进制编码存在“汉明悬崖”问题，即相邻整数的二进制表示可能存在大量位数差\n异。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-84",
+        "type": "single",
+        "question": "适应度函数（Fitness Function）在遗传算法中的作用是？",
+        "options": [
+          "决定个体的长度",
+          "区分个体好坏的标准",
+          "增加群体的多样性",
+          "防止算法陷入局部最优"
+        ],
+        "answer": "B",
+        "analysis": "适应度函数是评价个体优劣的唯一指标，适应度越高，个体越好。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-85",
+        "type": "single",
+        "question": "最常用的选择算子是轮盘赌选择法，它是基于什么比例来进行选择的？",
+        "options": [
+          "随机比例",
+          "适应度比例",
+          "深度比例",
+          "长度比例"
+        ],
+        "answer": "B",
+        "analysis": "轮盘赌选择法（Roulette Wheel Selection）中，个体被选中的概率与其适应度值\n成正比。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-86",
+        "type": "single",
+        "question": "遗传算法中，实现群体进化和产生新个体的核心环节是？",
+        "options": [
+          "初始种群产生",
+          "计算适应度",
+          "交叉操作",
+          "终止条件判断"
+        ],
+        "answer": "C",
+        "analysis": "交叉（Crossover）是遗传算法产生新个体的最主要途径，是核心操作。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-87",
+        "type": "single",
+        "question": "变异操作的主要目的是？",
+        "options": [
+          "提高收敛速度",
+          "维持群体的多样性，防止早熟收敛",
+          "简化计算复杂度",
+          "确定目标函数"
+        ],
+        "answer": "B",
+        "analysis": "变异操作可以产生原群体中没有的新基因，增加多样性，避免陷入局部最优。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-88",
+        "type": "single",
+        "question": "模式定理（Schema Theorem）说明了具有低阶、短定义长度以及什么特征的模式\n在进化中会指数级增长？",
+        "options": [
+          "低适应度",
+          "高适应度",
+          "随机性",
+          "复杂性"
+        ],
+        "answer": "B",
+        "analysis": "模式定理指出：具有低阶、短定义长度且平均适应度高于群体平均值的模式会按指\n数规律增长。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-89",
+        "type": "single",
+        "question": "当遗传算法在寻找全局最优解之前，群体中所有个体都趋于一致且停止进化，这种\n现象称为？",
+        "options": [
+          "优化失败",
+          "维度灾难",
+          "早熟收敛（Premature Convergence）",
+          "循环搜索"
+        ],
+        "answer": "C",
+        "analysis": "早熟收敛是指算法过早陷入局部最优解，失去进化能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-90",
+        "type": "single",
+        "question": "粒子群优化算法（PSO）最初是受什么生物行为的启发而设计的？",
+        "options": [
+          "蚂蚁搬家",
+          "鸟类捕食",
+          "蜜蜂采蜜",
+          "细菌生长"
+        ],
+        "answer": "B",
+        "analysis": "PSO 是由 Kennedy 和 Eberhart 模拟鸟类群体觅食行为而提出的一种群智能算\n法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-91",
+        "type": "single",
+        "question": "在 PSO 算法中，每个粒子根据两个“极值”来更新其速度和位置，这两个极值分别\n是？",
+        "options": [
+          "初始值和当前值",
+          "最小值和最大值",
+          "个体极值（pbest）和全局极值（gbest）",
+          "局部平均值和全局平均值"
+        ],
+        "answer": "C",
+        "analysis": "粒子追踪自己的历史最优（pbest）和群体历史最优（gbest）进行寻优。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：5",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-92",
+        "type": "single",
+        "question": "蚁群算法（ACO）中，蚂蚁留下的用于传递路径信息的化学物质称为？",
+        "options": [
+          "激素",
+          "信息素（Pheromone）",
+          "粘液",
+          "信号肽"
+        ],
+        "answer": "B",
+        "analysis": "蚂蚁通过在路径上留下信息素来吸引其他蚂蚁，实现间接通信。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-93",
+        "type": "single",
+        "question": "在蚁群算法中，信息素浓度的更新包含信息素的累积和什么过程？",
+        "options": [
+          "增强",
+          "挥发（蒸发）",
+          "屏蔽",
+          "催化"
+        ],
+        "answer": "B",
+        "analysis": "信息素随时间推移会逐渐挥发，这有助于算法摆脱较差的路径。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-94",
+        "type": "single",
+        "question": "蚁群优化算法最成功、应用最广泛的典型领域是？",
+        "options": [
+          "垃圾分类",
+          "旅行商问题（TSP）",
+          "图像去噪",
+          "语音翻译"
+        ],
+        "answer": "B",
+        "analysis": "蚁群算法最初就是为了解决旅行商问题（TSP）而提出的，展现了强大的组合优化\n能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-95",
+        "type": "single",
+        "question": "在基本蚁群算法模型中，效果最好且通常作为基本模型的是？",
+        "options": [
+          "蚂蚁周系统（Ant-cycle）",
+          "蚂蚁数量系统（Ant-quantity）",
+          "蚂蚁密度系统（Ant-density）",
+          "蚂蚁时间系统"
+        ],
+        "answer": "A",
+        "analysis": "蚂蚁周模型利用全局信息更新信息素，通常效果最好。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-96",
+        "type": "single",
+        "question": "在 PSO 算法中，学习因子 和 通常被称为？",
+        "options": [
+          "加速系数",
+          "权重系数",
+          "变异率",
+          "衰减率"
+        ],
+        "answer": "A",
+        "analysis": "和 调节粒子向 pbest 和 gbest 飞行的步长，故称加速系数。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-97",
+        "type": "single",
+        "question": "智能计算通常被归类为哪种类型的优化方法？",
+        "options": [
+          "确定性优化",
+          "元启发式随机优化",
+          "线性规划优化",
+          "枚举式优化"
+        ],
+        "answer": "B",
+        "analysis": "智能计算方法（如遗传算法、蚁群算法）属于元启发式随机优化方法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-98",
+        "type": "single",
+        "question": "遗传算法中，若采用格雷码（Gray Code）编码，其主要优势是？",
+        "options": [
+          "提高计算速度",
+          "减少存储空间",
+          "相邻数之间只有一位不同",
+          "增加随机性"
+        ],
+        "answer": "C",
+        "analysis": "格雷码保证了相邻整数的编码仅有一位差异，克服了二进制码的“汉明悬崖”问题。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-99",
+        "type": "single",
+        "question": "机器学习（Machine Learning）研究的是如何使计算机能够模拟或实现人类的什么\n行为？",
+        "options": [
+          "运动行为",
+          "学习行为",
+          "情感行为",
+          "视觉行为"
+        ],
+        "answer": "B",
+        "analysis": "机器学习是研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-100",
+        "type": "single",
+        "question": "汤姆·米切尔（Tom Mitchell）对机器学习的定义中，三个核心要素分别是？",
+        "options": [
+          "数据、模型、算法",
+          "经验 、任务 、性能度量",
+          "输入、输出、权重",
+          "知识、推理、结果"
+        ],
+        "answer": "B",
+        "analysis": "Mitchell 认为，机器学习是对于某类任务 和性能度量 ，如果在经验 的帮助下，在\n上由 衡量的性能得到了改善。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-101",
+        "type": "single",
+        "question": "如果训练数据中既有输入特征，又有对应的目标标签（Label），这种学习方式属\n于？",
+        "options": [
+          "无监督学习",
+          "强化学习",
+          "监督学习",
+          "迁移学习"
+        ],
+        "answer": "C",
+        "analysis": "监督学习（Supervised Learning）是从标签化的训练数据中学习一个函数或模\n型。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-102",
+        "type": "single",
+        "question": "线性回归算法的主要目标是找到一条什么，使预测值与实际值之间的误差最小？",
+        "options": [
+          "曲线",
+          "折线",
+          "最佳拟合直线",
+          "圆弧"
+        ],
+        "answer": "C",
+        "analysis": "线性回归是利用数理统计中回归分析，来确定两种或两种以上变量间相互依赖的定\n量关系，其目标是寻找最佳拟合直线。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-103",
+        "type": "single",
+        "question": "K-近邻（KNN）算法中的“K”代表的含义是？",
+        "options": [
+          "聚类的类别数量",
+          "训练样本的总数",
+          "最近邻居的个数",
+          "决策树的深度"
+        ],
+        "answer": "C",
+        "analysis": "KNN 算法通过计算待分类样本与训练集中所有样本的距离，选取距离最近的 个邻\n居进行投票。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-104",
+        "type": "single",
+        "question": "KNN 算法被称为“懒惰学习（Lazy Learning）”，是因为它？",
+        "options": [
+          "运行速度非常快",
+          "不需要显式的训练过程，在分类时才进行计算",
+          "只能处理少量数据",
+          "算法结构过于简单"
+        ],
+        "answer": "B",
+        "analysis": "KNN 在训练阶段只是简单地存储数据，只有在接收到测试样本时才开始计算距离\n并进行分类。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-105",
+        "type": "single",
+        "question": "在决策树中，没有任何出边（即没有子节点）的节点被称为？",
+        "options": [
+          "根节点",
+          "内部节点",
+          "叶节点",
+          "分支节点"
+        ],
+        "answer": "C",
+        "analysis": "叶节点（Leaf Node）代表最终的分类结果或决策结论。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-106",
+        "type": "single",
+        "question": "ID3 决策树算法在选择划分特征时，主要采用哪种标准？",
+        "options": [
+          "基尼指数",
+          "信息增益",
+          "欧氏距离",
+          "余弦相似度"
+        ],
+        "answer": "B",
+        "analysis": "ID3 算法使用信息增益（Information Gain）作为属性选择的标准。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-107",
+        "type": "single",
+        "question": "支持向量机（SVM）的核心思想是寻找一个超平面，使得该平面与两类样本之间的\n什么达到最大？",
+        "options": [
+          "投影",
+          "夹角",
+          "分类间隔（Margin）",
+          "欧式距离之和"
+        ],
+        "answer": "C",
+        "analysis": "SVM 的目标是寻找一个最大间隔超平面（Maximum Margin Hyperplane），以增\n强分类器的泛化能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-108",
+        "type": "single",
+        "question": "当数据在原始空间线性不可分时，SVM 通常采用什么技术将数据映射到高维空间？",
+        "options": [
+          "降维",
+          "核函数（Kernel Function）",
+          "随机森林",
+          "梯度下降"
+        ],
+        "answer": "B",
+        "analysis": "核函数可以将非线性问题转化为高维空间中的线性问题，从而实现分类。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-109",
+        "type": "single",
+        "question": "K均值（K-means）聚类算法属于哪一类学习方式？",
+        "options": [
+          "监督学习",
+          "无监督学习",
+          "强化学习",
+          "逻辑推理"
+        ],
+        "answer": "B",
+        "analysis": "聚类算法不需要目标标签，而是根据数据本身的相似性进行划分，属于无监督学\n习。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-110",
+        "type": "single",
+        "question": "K-means 算法中的核心步骤是不断迭代更新什么？",
+        "options": [
+          "权重向量",
+          "特征维数",
+          "聚类中心（质心）",
+          "信息熵"
+        ],
+        "answer": "C",
+        "analysis": "K-means 通过迭代重新分配样本点并更新各簇的中心点（Centroids），直到收\n敛。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-111",
+        "type": "single",
+        "question": "专家系统（Expert System）是一种具有大量专门知识与经验的计算机程序，它主\n要模拟人类专家的？",
+        "options": [
+          "视觉观察过程",
+          "肢体运动过程",
+          "思维推理过程",
+          "语言发声过程"
+        ],
+        "answer": "C",
+        "analysis": "专家系统能够利用专家的知识和解决问题的方法进行推理，模拟专家的思维。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-112",
+        "type": "single",
+        "question": "专家系统与一般计算机程序的主要区别在于，它实现了什么的分离？",
+        "options": [
+          "输入与输出",
+          "硬件与软件",
+          "知识与控制（推理）",
+          "临时事实与永久数据"
+        ],
+        "answer": "C",
+        "analysis": "专家系统将领域知识（知识库）与推理逻辑（推理机）分离，使其具有良好的灵活\n性和可维护性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-113",
+        "type": "single",
+        "question": "在专家系统的基本结构中，用于存放领域专家提供的专门知识的部件是？",
+        "options": [
+          "知识库",
+          "推理机",
+          "综合数据库",
+          "解释器"
+        ],
+        "answer": "A",
+        "analysis": "知识库是专家系统的核心组件，存放着规则、事实和经验。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-114",
+        "type": "single",
+        "question": "专家系统的推理机中，从已知事实出发向结论方向执行的推理方式称为？",
+        "options": [
+          "反向推理",
+          "正向推理",
+          "双向推理",
+          "模糊推理"
+        ],
+        "answer": "B",
+        "analysis": "正向推理是从初始事实出发，通过规则库进行匹配，直到得出结论。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-115",
+        "type": "single",
+        "question": "为了让用户了解系统得出结论的原因，专家系统通常配有什么子系统？",
+        "options": [
+          "自动更新子系统",
+          "解释子系统",
+          "硬件维护子系统",
+          "数据库管理子系统"
+        ],
+        "answer": "B",
+        "analysis": "解释子系统负责向用户说明推理路径，解释“为什么”和“如何”得出当前结论。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-116",
+        "type": "single",
+        "question": "下列哪种编程语言被公认为早期的 AI 语言，常用于开发专家系统？",
+        "options": [
+          "Pascal",
+          "LISP",
+          "Fortran",
+          "COBOL"
+        ],
+        "answer": "B",
+        "analysis": "LISP 和 PROLOG 是人工智能领域著名的逻辑型/表处理语言。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-117",
+        "type": "single",
+        "question": "所谓的“骨架系统”（Skeletal System）是指？",
+        "options": [
+          "只有硬件没有软件的系统",
+          "移去具体领域知识、保留推理机制的专家系统开发工具",
+          "专门用于骨科医疗的诊断系统",
+          "没有任何功能的空白程序"
+        ],
+        "answer": "B",
+        "analysis": "骨架系统（如 EMYCIN）是从成熟专家系统中剥离知识后留下的通用框架，用户\n只需装入新知识即可。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-118",
+        "type": "single",
+        "question": "专家系统最显著的特征之一是具有启发性，这表示它？",
+        "options": [
+          "只能解决数学难题",
+          "能利用经验性知识和不完全的信息进行推理",
+          "运行过程必须由人类实时干预",
+          "只能处理结构化数据"
+        ],
+        "answer": "B",
+        "analysis": "专家系统能利用专家在长期实践中总结出的启发式经验进行问题求解。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-119",
+        "type": "single",
+        "question": "2024年诺贝尔物理学奖授予了约翰·霍普菲尔德和杰弗里·欣顿，以表彰他们在下列\n哪个领域的贡献？",
+        "options": [
+          "符号逻辑推理",
+          "人工神经网络与机器学习",
+          "专家系统开发",
+          "蚁群算法优化"
+        ],
+        "answer": "B",
+        "analysis": "2024年诺奖授予了这两位科学家，表彰他们在使用人工神经网络进行机器学习方\n面的基础性发现。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-120",
+        "type": "single",
+        "question": "在生物神经元结构中，主要负责接收来自其他神经元输入信号的部分是？",
+        "options": [
+          "轴突",
+          "细胞体",
+          "树突",
+          "突触"
+        ],
+        "answer": "C",
+        "analysis": "树突（Dendrites）是从细胞体向外延伸出的许多分叉，负责接收输入信号。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-121",
+        "type": "single",
+        "question": "1943年提出的第一个人工神经元数学模型简称为？",
+        "options": [
+          "BP模型",
+          "M-P模型",
+          "CNN模型",
+          "RNN模型"
+        ],
+        "answer": "B",
+        "analysis": "美国心理学家McCulloch和数学家Pitts提出了M-P模型，奠定了神经网络的研究基\n础。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-122",
+        "type": "single",
+        "question": "在人工神经元模型中，用于引入非线性因素、使神经元具有处理复杂问题能力的函\n数是？",
+        "options": [
+          "权重函数",
+          "激活函数（传输函数）",
+          "求和函数",
+          "损失函数"
+        ],
+        "answer": "B",
+        "analysis": "激活函数（Activation Function）决定神经元的输出，并为网络引入非线性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-123",
+        "type": "single",
+        "question": "Sigmoid 激活函数的输出值范围通常在？",
+        "options": [
+          "B.",
+          "D."
+        ],
+        "answer": "B",
+        "analysis": "Sigmoid函数将输入映射到 区间，常用于早期的神经网络。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-124",
+        "type": "single",
+        "question": "BP（Backpropagation）神经网络最核心的拓扑结构属于？",
+        "options": [
+          "单层前向网络",
+          "多层前向网络",
+          "反馈网络",
+          "自组织网络"
+        ],
+        "answer": "B",
+        "analysis": "BP网络是一种按误差逆传播算法训练的多层前向神经网络。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-125",
+        "type": "single",
+        "question": "BP算法的学习过程主要由两部分组成，分别是？",
+        "options": [
+          "随机初始化与权重调整",
+          "正向传播与反向传播",
+          "编码与解码",
+          "卷积与池化"
+        ],
+        "answer": "B",
+        "analysis": "BP算法包括工作信号的正向传播和误差信号的反向传播。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-126",
+        "type": "single",
+        "question": "BP神经网络在反向传播阶段，修改权重的原则是依据什么梯度下降？",
+        "options": [
+          "预测值最大化",
+          "误差函数最小值",
+          "激活函数导数最大化",
+          "隐藏层节点数"
+        ],
+        "answer": "B",
+        "analysis": "BP算法沿着误差函数的负梯度方向修改权值，以使网络误差最小。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-127",
+        "type": "single",
+        "question": "下列关于BP神经网络缺点的描述，正确的是？",
+        "options": [
+          "无法处理非线性问题",
+          "容易陷入局部极小值",
+          "结构过于简单",
+          "训练速度总是极快"
+        ],
+        "answer": "B",
+        "analysis": "梯度下降法可能导致BP算法陷入局部最优解，而非全局最优解。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-128",
+        "type": "single",
+        "question": "Hopfield 神经网络属于下列哪种类型的网络？",
+        "options": [
+          "前向网络",
+          "只有输入层的网络",
+          "反馈（递归）网络",
+          "卷积网络"
+        ],
+        "answer": "C",
+        "analysis": "Hopfield网络是一种典型的反馈神经网络，节点之间存在反馈连接。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-129",
+        "type": "single",
+        "question": "离散型Hopfield网络的主要用途之一是？",
+        "options": [
+          "图像生成",
+          "联想记忆",
+          "特征降维",
+          "语音翻译"
+        ],
+        "answer": "B",
+        "analysis": "Hopfield网络广泛用于联想记忆和组合优化问题的求解。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-130",
+        "type": "single",
+        "question": "深度学习（Deep Learning）与传统神经网络的主要区别在于？",
+        "options": [
+          "节点的计算方式完全不同",
+          "网络层数更多、结构更深",
+          "不再使用反向传播",
+          "只能处理结构化文本"
+        ],
+        "answer": "B",
+        "analysis": "深度学习通过增加隐藏层深度，提高了对复杂特征的表达能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-131",
+        "type": "single",
+        "question": "卷积神经网络（CNN）的设计灵感来源于？",
+        "options": [
+          "蚂蚁觅食行为",
+          "鸟类飞行轨迹",
+          "动物视觉机理",
+          "进化论"
+        ],
+        "answer": "C",
+        "analysis": "CNN模拟了人类/动物视觉皮层对图像的处理方式（局部感受野）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-132",
+        "type": "single",
+        "question": "CNN 中的卷积层（Convolutional Layer）主要作用是？",
+        "options": [
+          "降低数据维度",
+          "提取图像特征",
+          "增加全连接层数量",
+          "随机初始化权重"
+        ],
+        "answer": "B",
+        "analysis": "卷积层通过卷积核（滤波器）对输入图像进行特征提取。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-133",
+        "type": "single",
+        "question": "CNN 中的池化层（Pooling Layer）通常用于？",
+        "options": [
+          "增加特征图的大小",
+          "数据降维和减少计算量",
+          "改变颜色通道",
+          "执行逻辑运算"
+        ],
+        "answer": "B",
+        "analysis": "池化（如最大池化）用于减小特征图尺寸，提高模型的鲁棒性和计算效率。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-134",
+        "type": "single",
+        "question": "生成对抗网络（GAN）由哪两部分组成？",
+        "options": [
+          "编码器与解码器",
+          "卷积层与池化层",
+          "生成器与判别器",
+          "规则库与推理机"
+        ],
+        "answer": "C",
+        "analysis": "GAN包含一个生成模型（Generator）和一个判别模型（Discriminator）。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-135",
+        "type": "single",
+        "question": "在 GAN 的博弈过程中，生成器的目标是？",
+        "options": [
+          "尽量准确地识别假图片",
+          "降低网络的计算复杂度",
+          "制造出能骗过判别器的逼真数据",
+          "提高池化层的效率"
+        ],
+        "answer": "C",
+        "analysis": "生成器负责生成尽可能真实的图像，使判别器难以区分。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-136",
+        "type": "single",
+        "question": "修正线性单元（ReLU）激活函数的数学表达式是？",
+        "options": [
+          "B.",
+          "D."
+        ],
+        "answer": "B",
+        "analysis": "ReLU函数在 时输出 ，在 时输出 。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-137",
+        "type": "single",
+        "question": "神经网络的“学习”本质上是不断调整网络中的什么参数？",
+        "options": [
+          "隐藏层层数",
+          "激活函数的种类",
+          "权重和阈值",
+          "节点的物理布局"
+        ],
+        "answer": "C",
+        "analysis": "学习过程就是通过训练数据不断优化连接权值和阈值的过程。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-138",
+        "type": "single",
+        "question": "2018年中国首个“人工智能主持人”在乌镇发布，它应用的核心技术通常包括？",
+        "options": [
+          "专家系统",
+          "深度学习与音视频生成",
+          "遗传算法",
+          "宽度优先搜索"
+        ],
+        "answer": "B",
+        "analysis": "AI主持人涉及计算机视觉、语音合成等深度学习前沿技术。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-139",
+        "type": "single",
+        "question": "比尔·盖茨曾将哪项技术誉为“人工智能皇冠上的明珠”？",
+        "options": [
+          "计算机视觉",
+          "语言理解（自然语言处理）",
+          "自动驾驶",
+          "智能机器人"
+        ],
+        "answer": "B",
+        "analysis": "比尔·盖茨曾说过，“语言理解是人工智能皇冠上的明珠”。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-140",
+        "type": "single",
+        "question": "从微观角度看，自然语言理解是指从自然语言到机器内部表示的一种什么？",
+        "options": [
+          "翻译",
+          "映射",
+          "编码",
+          "推理"
+        ],
+        "answer": "B",
+        "analysis": "微观角度看，自然语言理解是从自然语言到机器内部的一个映射。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-141",
+        "type": "single",
+        "question": "1950年，图灵在他的论文中提出了著名的什么，被广泛认为是衡量机器是否具有智\n能的标准？",
+        "options": [
+          "达特茅斯会议",
+          "物理符号系统假设",
+          "图灵测试",
+          "贝叶斯定理"
+        ],
+        "answer": "C",
+        "analysis": "1950年图灵发表《计算机器与智能》，提出了著名的图灵测试。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-142",
+        "type": "single",
+        "question": "1966年由魏泽鲍姆开发的、能模拟心理医生与人交谈的早期自然语言处理系统是？",
+        "options": [
+          "Deep Blue",
+          "ELIZA",
+          "AlphaGo",
+          "ChatGPT"
+        ],
+        "answer": "B",
+        "analysis": "ELIZA是1966年研制成功的模拟心理医生与人交谈的系统。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-143",
+        "type": "single",
+        "question": "在语言处理过程的层次中，研究单词的词素构成以及词的结构成分的层次是？",
+        "options": [
+          "语音分析",
+          "词法分析（形态学分析）",
+          "句法分析",
+          "语义分析"
+        ],
+        "answer": "B",
+        "analysis": "词法分析研究单词的词素构成、词的结构成分。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-144",
+        "type": "single",
+        "question": "句法分析（Syntactic Analysis）的主要任务是？",
+        "options": [
+          "确定语音的频率",
+          "研究词语的含义",
+          "确定句子各成分之间的结构关系",
+          "理解语言的上下文环境"
+        ],
+        "answer": "C",
+        "analysis": "句法分析通过单词的词类和词法属性，确定句子各成分之间的结构关系。\n章\n节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-145",
+        "type": "single",
+        "question": "循环神经网络（Recurrent Neural Networks, RNN）与传统前馈网络最大的不同在\n于？",
+        "options": [
+          "网络层数更多",
+          "具有隐藏状态（Hidden State）和循环连接",
+          "不使用激活函数",
+          "只能处理静态图像"
+        ],
+        "answer": "B",
+        "analysis": "RNN在节点间增加了隐层状态的循环连接，使其能够利用之前的序列信息。\n章\n节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-146",
+        "type": "single",
+        "question": "RNN 特别适用于处理下列哪种类型的数据？",
+        "options": [
+          "静态二维图像",
+          "序列数据（如文本、音频）",
+          "独立的数值表",
+          "3D 几何点云"
+        ],
+        "answer": "B",
+        "analysis": "RNN通过隐藏状态保留历史信息，非常适合处理具有时间依赖性的序列数据。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-147",
+        "type": "single",
+        "question": "标准循环神经网络（Vanilla RNN）在处理长序列时，常会遇到的主要技术难题是？",
+        "options": [
+          "过拟合",
+          "计算量过大",
+          "梯度消失或梯度爆炸",
+          "激活函数选择过多"
+        ],
+        "answer": "C",
+        "analysis": "由于权重共享和长链式乘法，标准RNN很难处理长距离依赖，容易产生梯度消\n失。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-148",
+        "type": "single",
+        "question": "长短期记忆网络（LSTM）是由谁在1997年首先提出的？",
+        "options": [
+          "霍普菲尔德（Hopfield）",
+          "辛顿（Hinton）",
+          "霍赫赖特（Hochreiter）和施密德胡伯（Schmidhuber）",
+          "麦卡锡（McCarthy）"
+        ],
+        "answer": "C",
+        "analysis": "LSTM由 Hochreiter 和 Schmidhuber 于 1997 年在论文中首次提出。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-149",
+        "type": "single",
+        "question": "LSTM 引入了“门（Gate）”结构，下列不属于其三门结构的是？",
+        "options": [
+          "遗忘门",
+          "输入门",
+          "输出门",
+          "搜索门"
+        ],
+        "answer": "D",
+        "analysis": "LSTM包含遗忘门、输入门和输出门。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-150",
+        "type": "single",
+        "question": "在 LSTM 中，负责决定从细胞状态中丢弃哪些信息的部分是？",
+        "options": [
+          "遗忘门",
+          "输入门",
+          "输出门",
+          "激活层"
+        ],
+        "answer": "A",
+        "analysis": "遗忘门决定从细胞状态中丢弃哪些不再需要的信息。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-151",
+        "type": "single",
+        "question": "LSTM 中的细胞状态（Cell State）通常被形象地比喻为？",
+        "options": [
+          "过滤器",
+          "传送带",
+          "开关",
+          "放大器"
+        ],
+        "answer": "B",
+        "analysis": "细胞状态类似于一条传送带，它贯穿整个链条，信息在其上流动时仅有少量的线性\n交互。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-152",
+        "type": "single",
+        "question": "神经机器翻译（NMT）通常采用的通用架构是？",
+        "options": [
+          "卷积-池化架构",
+          "编码器-解码器（Encoder-Decoder）架构",
+          "决策树-森林架构",
+          "产生式规则架构"
+        ],
+        "answer": "B",
+        "analysis": "NMT通常将一种语言编码为中间向量，再由解码器映射到目标语言。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-153",
+        "type": "single",
+        "question": "在语音识别中，反映信号波形穿越零电平次数的特征参数称为？",
+        "options": [
+          "线性预测编码",
+          "矢量量化",
+          "过零率（ZCR）",
+          "能量包络"
+        ],
+        "answer": "C",
+        "analysis": "过零率（Zero Crossing Rate）描述信号中波形穿越零电平的次数。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-154",
+        "type": "single",
+        "question": "语音信号处理中，在一段信号中确定语音起点和终点的技术称为？",
+        "options": [
+          "端点检测",
+          "特征提取",
+          "模式匹配",
+          "语音增强"
+        ],
+        "answer": "A",
+        "analysis": "端点检测是在包含语音的一段信号中确定语音的起点以及终点。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-155",
+        "type": "single",
+        "question": "线性预测编码（LPC）的基本思想是基于语音样点之间的什么特性？",
+        "options": [
+          "独立性",
+          "随机性",
+          "相关性",
+          "周期性"
+        ],
+        "answer": "C",
+        "analysis": "LPC利用语音样点间的相关性，用过去 个样点值预测当前值。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-156",
+        "type": "single",
+        "question": "矢量量化（VQ）技术在语音识别中主要起到的作用是？",
+        "options": [
+          "增加数据量",
+          "数据压缩和编码",
+          "提高音频采样率",
+          "改变音色"
+        ],
+        "answer": "B",
+        "analysis": "矢量量化是一种数据压缩和编码技术。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-157",
+        "type": "single",
+        "question": "在 NLU 的研究历史中，20世纪90年代开始，主要流行的方法是？",
+        "options": [
+          "符号派方法",
+          "统计机器学习方法",
+          "深度学习方法",
+          "人工智能生成内容（AIGC）"
+        ],
+        "answer": "B",
+        "analysis": "NLP的发展经历了符号学派、统计机器学习到如今的深度学习阶段。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-158",
+        "type": "single",
+        "question": "所谓语用分析（Pragmatic Analysis），是指研究语言在不同什么下的具体含义？",
+        "options": [
+          "语法结构",
+          "词汇量",
+          "上下文或交际情境",
+          "语音语调"
+        ],
+        "answer": "C",
+        "analysis": "语用分析研究特定语境下的语言意义及其应用。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-159",
+        "type": "single",
+        "question": "AIGC 是指利用人工智能技术来自动生产内容，其全称是？",
+        "options": [
+          "Artificial Intelligence Group Control",
+          "Artificial Intelligence Generated Content",
+          "Automated Information General Computing",
+          "Advanced Intelligent Graphic Creation"
+        ],
+        "answer": "B",
+        "analysis": "AIGC 的全称是 Artificial Intelligence Generated Content，即人工智能生成内容。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-160",
+        "type": "single",
+        "question": "大语言模型引领了 AIGC 的快速发展，使得“无生命”的人工智能成了越来越多内容\n生成的源头。这里的 AIGC 涵盖的领域不包括？",
+        "options": [
+          "文本生成",
+          "图像生成",
+          "物理硬件制造",
+          "视频和代码生成"
+        ],
+        "answer": "C",
+        "analysis": "AIGC 主要涵盖文本、图像、音频、视频、代码等数字内容生成的领域。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-161",
+        "type": "single",
+        "question": "在自然语言处理领域，BERT 和 GPT 等大模型主要通过学习语言的什么特征来提\n高准确性？",
+        "options": [
+          "物理频率特征",
+          "上下文信息和语义特征",
+          "像素分布特征",
+          "硬件指令集特征"
+        ],
+        "answer": "B",
+        "analysis": "大模型能够学习语言的上下文信息和语义特征，从而提高语义理解和情感分析的效\n果。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-162",
+        "type": "single",
+        "question": "提示工程（Prompt Engineering）的主要目标是？",
+        "options": [
+          "增加计算机的内存容量",
+          "优化硬件的散热系统",
+          "通过撰写、优化和精炼提示词来引导模型生成准确输出",
+          "编写底层的汇编语言代码"
+        ],
+        "answer": "C",
+        "analysis": "提示工程是指通过设计和优化输入给模型的提示词（Prompt），以获得更符合预\n期的结果。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-163",
+        "type": "single",
+        "question": "知识蒸馏（Knowledge Distillation）技术的主要目的是？",
+        "options": [
+          "增加模型的层数使其变深",
+          "将大型、复杂模型的知识迁移到小型、简单的模型中",
+          "将文本数据转换为图像数据",
+          "提高计算机的运算主频"
+        ],
+        "answer": "B",
+        "analysis": "知识蒸馏是一种模型压缩技术，通过“教师模型”指导“学生模型”学习，从而实现模\n型轻量化。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-164",
+        "type": "single",
+        "question": "在知识蒸馏中，扮演引导角色、拥有强大表达能力的大型模型被称为？",
+        "options": [
+          "学生模型",
+          "助理模型",
+          "教师模型",
+          "核心模型"
+        ],
+        "answer": "C",
+        "analysis": "在蒸馏过程中，大型模型被称为教师模型（Teacher Model），小型模型被称为学\n生模型（Student Model）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-165",
+        "type": "single",
+        "question": "编码器-解码器（Encoder-Decoder）结构中，编码器的主要任务是？",
+        "options": [
+          "将目标序列转换为中间表示",
+          "将输入序列转换为中间表示（向量）",
+          "直接输出最终的翻译结果",
+          "存储所有的训练数据"
+        ],
+        "answer": "B",
+        "analysis": "编码器负责将输入序列处理成中间表示，解码器再将其转换为目标序列。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-166",
+        "type": "single",
+        "question": "Transformer 模型是由哪家公司的研究人员在 2017 年提出的？",
+        "options": [
+          "微软（Microsoft）",
+          "脸书（Meta/Facebook）",
+          "谷歌（Google）",
+          "百度（Baidu）"
+        ],
+        "answer": "C",
+        "analysis": "Transformer 是由 Google 研究人员在 2017 年的论文《Attention is All You\nNeed》中提出的。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-167",
+        "type": "single",
+        "question": "Transformer 架构彻底抛弃了传统的哪种网络结构，完全基于注意力机制？",
+        "options": [
+          "循环神经网络（RNN）",
+          "专家系统",
+          "决策树",
+          "线性规划"
+        ],
+        "answer": "A",
+        "analysis": "Transformer 不再使用 RNN 或 CNN 的循环或卷积结构，而是完全依赖注意力机\n制。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-168",
+        "type": "single",
+        "question": "注意力机制（Attention Mechanism）的核心思想是模仿人类的什么行为？",
+        "options": [
+          "运动平衡行为",
+          "视觉注意力的选择性聚焦",
+          "语言发声频率",
+          "肌肉反射"
+        ],
+        "answer": "B",
+        "analysis": "注意力机制模仿人类在处理大量信息时，会选择性地关注重点部分而忽略次要部\n分。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-169",
+        "type": "single",
+        "question": "在自注意力机制中，为了计算序列中每个元素与其他元素的相关性，通常引入了三\n个向量，它们分别是？",
+        "options": [
+          "长度、宽度、高度",
+          "频率、振幅、相位",
+          "查询（Q）、键（K）、值（V）",
+          "权重、偏差、学习率"
+        ],
+        "answer": "C",
+        "analysis": "自注意力机制通过 Query（查询）、Key（键）、Value（值）的线性投影和计算\n来确定权重。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-170",
+        "type": "single",
+        "question": "Transformer 中的“多头注意力机制”（Multi-Head Attention）的作用是？",
+        "options": [
+          "增加模型的运行速度",
+          "让模型从不同的子空间并行学习多种语义信息",
+          "减少参数的数量",
+          "将图像转换为文本"
+        ],
+        "answer": "B",
+        "analysis": "多头机制通过将注意力机制拆分为多个并行的“头”，使模型能够捕捉到更多样化的\n特征。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-171",
+        "type": "single",
+        "question": "下列不属于国内主要大模型平台的是？",
+        "options": [
+          "文心一言（百度）",
+          "通义千问（阿里）",
+          "智谱清言",
+          "ChatGPT"
+        ],
+        "answer": "D",
+        "analysis": "ChatGPT 是美国 OpenAI 公司开发的，文心一言、通义千问等是国内主流平台。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-172",
+        "type": "single",
+        "question": "大语言模型在写作应用中，能够根据提示词撰写电子邮件、博客或内容摘要，这体\n现了它的？",
+        "options": [
+          "逻辑推理能力",
+          "语言生成能力",
+          "图像去噪能力",
+          "硬件控制能力"
+        ],
+        "answer": "B",
+        "analysis": "写作大模型展示了其强大的语言生成、提炼和润色能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-173",
+        "type": "single",
+        "question": "在 AIGC 视频生成领域，AI 换脸术主要应用的技术代表是？",
+        "options": [
+          "遗传算法",
+          "生成对抗网络（GAN）",
+          "蒙特卡洛树搜索",
+          "宽度优先搜索"
+        ],
+        "answer": "B",
+        "analysis": "GAN 是实现 AI 换脸、视频合成等任务的核心技术之一。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-174",
+        "type": "single",
+        "question": "2024 年 2 月，OpenAI 发布的一款能够根据文本提示创建长达 60 秒视频的模型\n是？",
+        "options": [
+          "Sora",
+          "Midjourney",
+          "DALL-E",
+          "Stable Diffusion"
+        ],
+        "answer": "A",
+        "analysis": "Sora 是 OpenAI 发布的文生视频大模型。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-175",
+        "type": "single",
+        "question": "下列关于 Transformer 优点的描述，错误的是？",
+        "options": [
+          "具有很强的并行计算能力",
+          "能够处理长距离依赖问题",
+          "依然受限于 RNN 的顺序计算模式",
+          "在自然语言处理和图像处理领域都有广泛应用"
+        ],
+        "answer": "C",
+        "analysis": "Transformer 抛弃了顺序计算，采用并行计算，这是其相对于 RNN 的重大改进。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-176",
+        "type": "single",
+        "question": "在 AIGC 图像处理中，可以实现“文生图”功能，即根据文字描述生成图片。这属\n于？",
+        "options": [
+          "跨模态生成",
+          "线性回归",
+          "数据压缩",
+          "自动驾驶"
+        ],
+        "answer": "A",
+        "analysis": "从文本（模态1）生成图像（模态2）属于跨模态生成的范畴。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-177",
+        "type": "single",
+        "question": "大模型在语音识别领域的应用不包括？",
+        "options": [
+          "语音转文字",
+          "语音合成（文生语）",
+          "声音转换（变声）",
+          "打印驱动安装"
+        ],
+        "answer": "D",
+        "analysis": "大模型在语音领域主要用于识别、合成和转换。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-178",
+        "type": "single",
+        "question": "提示工程中，如果用户提供几个例子来引导模型，这种方法通常被称为？",
+        "options": [
+          "Zero-shot（零样本）提示",
+          "Few-shot（少样本）提示",
+          "负反馈提示",
+          "递归提示"
+        ],
+        "answer": "B",
+        "analysis": "提供少量示例引导模型学习任务被称为 Few-shot 提示。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-179",
+        "type": "single",
+        "question": "比尔·盖茨曾预言，继 Android、iOS 和 Windows 之后，下一个平台将会是？",
+        "options": [
+          "虚拟现实（VR）",
+          "AI 智能体（Agent）",
+          "区块链",
+          "量子计算机"
+        ],
+        "answer": "B",
+        "analysis": "比尔·盖茨认为 AI 智能体将成为下一个操作系统级别的平台。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-180",
+        "type": "single",
+        "question": "智能体（Agent）最重要的特征是能够感知环境，并通过什么来作用于环境？",
+        "options": [
+          "存储器",
+          "效应器（执行器）",
+          "编译器",
+          "传感器"
+        ],
+        "answer": "B",
+        "analysis": "Agent 通过传感器感知环境，通过效应器作用于环境，形成闭环。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-181",
+        "type": "single",
+        "question": "下列哪项不属于智能体（Agent）的基本特性？",
+        "options": [
+          "自治性",
+          "反应性",
+          "被动性",
+          "社会性"
+        ],
+        "answer": "C",
+        "analysis": "Agent 是主动的（能动性），而非被动接受指令。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-182",
+        "type": "single",
+        "question": "弱定义下的智能体（Agent）通常具备四个特性，其中“能够根据环境的变化做出适\n时的反应”是指？",
+        "options": [
+          "自治性",
+          "反应性",
+          "社会性",
+          "能动性"
+        ],
+        "answer": "B",
+        "analysis": "反应性指 Agent 能够感知环境并做出及时的响应。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-183",
+        "type": "single",
+        "question": "强定义下的智能体（Agent）除了具备弱定义的所有特性外，还应具有人类的心理\n概念，如？",
+        "options": [
+          "速度与容量",
+          "意图、信念与义务",
+          "形状与颜色",
+          "电压与电流"
+        ],
+        "answer": "B",
+        "analysis": "强定义强调 Agent 具有类似人类的认知属性，如 Belief（信念）、Desire（愿\n望）、Intention（意图）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-184",
+        "type": "single",
+        "question": "只根据当前感知做出决策，不考虑历史感知信息的 Agent 被称为？",
+        "options": [
+          "基于模型的 Agent",
+          "简单反射 Agent",
+          "基于目标的 Agent",
+          "基于效用的 Agent"
+        ],
+        "answer": "B",
+        "analysis": "简单反射 Agent 直接根据“当前”情况执行动作，不维护内部状态。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-185",
+        "type": "single",
+        "question": "多智能体系统（Multi-Agent Systems, MAS）的研究核心在于处理多个 Agent 之间\n的什么？",
+        "options": [
+          "硬件兼容性",
+          "计算速度",
+          "通信、协调、协作与协商",
+          "能源分配"
+        ],
+        "answer": "C",
+        "analysis": "MAS 的关键在于多个 Agent 如何通过交互共同解决复杂问题。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-186",
+        "type": "single",
+        "question": "MAS 结构中，所有 Agent 处于平等地位，没有主从之分的结构是？",
+        "options": [
+          "自主型结构",
+          "联邦型结构",
+          "主从型结构",
+          "层次型结构"
+        ],
+        "answer": "A",
+        "analysis": "自主型结构中每个 Agent 都是独立的，地位平等。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-187",
+        "type": "single",
+        "question": "在联邦型结构中，Agent 不直接与其他 Agent 通信，而是通过一个被称为什么的中\n间件进行联络？",
+        "options": [
+          "路由器",
+          "联络员",
+          "交换机",
+          "内存条"
+        ],
+        "answer": "B",
+        "analysis": "联络员负责管理 Agent 之间的信息交换和服务注册。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-188",
+        "type": "single",
+        "question": "MAS 通信逻辑模型中，为了使 Agent 能够理解消息的含义，必须具备共同的？",
+        "options": [
+          "硬件接口",
+          "知识背景（Ontology/本体）",
+          "操作系统",
+          "地理位置"
+        ],
+        "answer": "B",
+        "analysis": "本体（Ontology）定义了交流中术语的共同含义。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-189",
+        "type": "single",
+        "question": "目前最常用的 Agent 通信语言（ACL）除了 KQML 外，还有？",
+        "options": [
+          "HTML",
+          "FIPA-ACL",
+          "SQL",
+          "Python"
+        ],
+        "answer": "B",
+        "analysis": "FIPA-ACL 是由国际组织 FIPA 制定的标准 Agent 通信语言。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-190",
+        "type": "single",
+        "question": "协调（Coordination）的主要目的是为了减少 Agent 之间的冲突并？",
+        "options": [
+          "增加通信开销",
+          "提高系统的同步性",
+          "消除冗余计算",
+          "降低 CPU 频率"
+        ],
+        "answer": "B",
+        "analysis": "协调旨在使一组 Agent 的行为和谐，避免资源冲突或重复劳动。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-191",
+        "type": "single",
+        "question": "在协调机制中，由一个 Agent 负责为其他 Agent 制定计划并分配任务的方法属于？",
+        "options": [
+          "分布式协调",
+          "集中协调（中心协调）",
+          "随机协调",
+          "市场机制协调"
+        ],
+        "answer": "B",
+        "analysis": "集中协调由中心节点统一指挥。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-192",
+        "type": "single",
+        "question": "协作（Collaboration）与协调的区别在于，协作更强调 Agent 之间具有？",
+        "options": [
+          "共同的目标",
+          "不同的编程语言",
+          "物理连接",
+          "竞争关系"
+        ],
+        "answer": "A",
+        "analysis": "协作是为了完成一个共同的、单个 Agent 无法独立完成的目标。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-193",
+        "type": "single",
+        "question": "在协作方法中，黑板模型（Blackboard Model）是一种典型的？",
+        "options": [
+          "基于市场的协作",
+          "间接协作",
+          "强制性协作",
+          "线性协作"
+        ],
+        "answer": "B",
+        "analysis": "Agent 通过在共享的“黑板”上发布和获取信息来实现间接协作。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-194",
+        "type": "single",
+        "question": "合同网（Contract Net）协作协议模拟了人类社会中的什么过程？",
+        "options": [
+          "购物过程",
+          "招标、投标、中标过程",
+          "体育竞赛过程",
+          "课堂讨论过程"
+        ],
+        "answer": "B",
+        "analysis": "合同网通过招标（Manager 发起任务）和投标（Agent 响应）来分配任务。\n章\n节：第十一章：智能体与多智能体系统\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-195",
+        "type": "single",
+        "question": "市场机制协作方法的基本思想是建立相应的什么，通过利益驱动来分配资源？",
+        "options": [
+          "法律体系",
+          "计算经济",
+          "社交网络",
+          "数据库系统"
+        ],
+        "answer": "B",
+        "analysis": "市场机制利用价格和投标等经济手段引导 Agent 行为。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-196",
+        "type": "single",
+        "question": "协商（Negotiation）是指 Agent 之间为了达成一致而进行的什么过程？",
+        "options": [
+          "强制命令",
+          "随机选择",
+          "交互式讨价还价",
+          "自动升级"
+        ],
+        "answer": "C",
+        "analysis": "协商通常涉及提议、反提议等循环往复的交互过程。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-197",
+        "type": "single",
+        "question": "在协商处理中，用于处理 Agent 之间交互规则的部分称为？",
+        "options": [
+          "协商策略",
+          "协商协议",
+          "协商对象",
+          "协商结果"
+        ],
+        "answer": "B",
+        "analysis": "协商协议规定了双方交互的规则，如谁先提议、如何结束等。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-198",
+        "type": "single",
+        "question": "如果一个多智能体系统能够根据用户输入选择工具，并自行确定解决步骤，它体现\n了 Agent 的？",
+        "options": [
+          "刚性",
+          "脆弱性",
+          "智能性与自治性",
+          "封闭性"
+        ],
+        "answer": "C",
+        "analysis": "自行确定步骤并完成目标是 Agent 高度自治和智能的体现。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-199",
+        "type": "single",
+        "question": "计算机游戏（Computer Game）始于1958年的哪一款游戏？",
+        "options": [
+          "小精灵（Pac-Man）",
+          "两人网球（Tennis for Two）",
+          "虚幻（Unreal）",
+          "扫雷"
+        ],
+        "answer": "B",
+        "analysis": "计算机游戏始于1958年的游戏“两人网球”。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-200",
+        "type": "single",
+        "question": "应用人工智能技术设计的游戏，通常简称为？",
+        "options": [
+          "VR 游戏",
+          "智能游戏（AI Game）",
+          "云游戏",
+          "沙盒游戏"
+        ],
+        "answer": "B",
+        "analysis": "应用人工智能技术设计的游戏称为人工智能游戏（AI Game），简称智能游戏。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-201",
+        "type": "single",
+        "question": "在游戏开发中，目前最常被采用且最易实现的 AI 技术架构是？",
+        "options": [
+          "遗传算法",
+          "有限状态机（FSM）",
+          "深度强化学习",
+          "产生式系统"
+        ],
+        "answer": "B",
+        "analysis": "有限状态机（FSM）是目前最常采用的游戏 AI 架构，因为它简单且易于实现。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-202",
+        "type": "single",
+        "question": "游戏中的“NPC”是指？",
+        "options": [
+          "玩家控制角色",
+          "非玩家控制角色",
+          "游戏开发工程师",
+          "游戏服务器核心"
+        ],
+        "answer": "B",
+        "analysis": "NPC 代表非玩家控制角色。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-203",
+        "type": "single",
+        "question": "脚本语言（Scripting Language）在游戏 AI 中的主要优点是？",
+        "options": [
+          "执行速度超过 C++",
+          "允许非专业程序员（如策划）修改游戏逻辑而无需重新编译",
+          "可以直接控制底层硬件",
+          "只能处理简单的数学运算"
+        ],
+        "answer": "B",
+        "analysis": "脚本语言易于修改和快速迭代，且无需重新编译整个程序。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-204",
+        "type": "single",
+        "question": "游戏角色的“指导行为”（Steering Behaviors）是指通过什么来控制角色的移动？",
+        "options": [
+          "随机坐标跳转",
+          "施加虚拟的力（力向量）",
+          "强制路径点对点移动",
+          "增加角色的血量"
+        ],
+        "answer": "B",
+        "analysis": "指导行为是通过计算力向量来引导角色平滑地移动。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-205",
+        "type": "single",
+        "question": "在追逐与躲避技术中，为了使 NPC 显得更聪明，通常不采用直接追向当前位置，\n而是预测玩家未来的位置，这种技术称为？",
+        "options": [
+          "简单追逐",
+          "拦截（Interception）",
+          "随机游走",
+          "路径消减"
+        ],
+        "answer": "B",
+        "analysis": "拦截技术通过预测目标未来的位置来决定当前的移动方向。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-206",
+        "type": "single",
+        "question": "雷诺兹（Craig Reynolds）提出的群聚（Flocking）模型模拟了哪种自然现象？",
+        "options": [
+          "蚂蚁搬家",
+          "鸟群或鱼群的协同飞行/游动",
+          "细胞分裂",
+          "火山爆发"
+        ],
+        "answer": "B",
+        "analysis": "群聚模型（Boids）模拟了鸟类或鱼类等群体的群体运动行为。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-207",
+        "type": "single",
+        "question": "群聚模型中的“分离（Separation）”规则是指？",
+        "options": [
+          "尽可能靠近邻居",
+          "避免与邻居靠得太近，防止碰撞",
+          "保持与邻居的速度一致",
+          "随机飞向不同的方向"
+        ],
+        "answer": "B",
+        "analysis": "分离是为了避免群聚成员之间过于拥挤和发生碰撞。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-208",
+        "type": "single",
+        "question": "群聚模型中的“凝聚（Cohesion）”规则要求 Agent 移向何处？",
+        "options": [
+          "邻居的平均位置（质心）",
+          "离自己最远的邻居",
+          "地图的中心点",
+          "永远保持静止"
+        ],
+        "answer": "A",
+        "analysis": "凝聚规则引导 Agent 移向其邻居的平均位置，以保持群体的紧凑。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-209",
+        "type": "single",
+        "question": "目前智能游戏中路径搜索的“黄金标准”算法是？",
+        "options": [
+          "宽度优先搜索",
+          "A* 算法",
+          "深度优先搜索",
+          "爬山法"
+        ],
+        "answer": "B",
+        "analysis": "A* 算法是游戏开发中最流行、最有效的路径搜索算法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-210",
+        "type": "single",
+        "question": "A* 算法中，估价函数 ，其中 代表？",
+        "options": [
+          "从起点到当前点的实际代价",
+          "从当前点到目标点的启发式估计代价",
+          "当前点的像素值",
+          "路径的总步数"
+        ],
+        "answer": "B",
+        "analysis": "是启发式函数，表示当前状态到目标状态的估计代价。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-211",
+        "type": "single",
+        "question": "在游戏地图处理中，将可行走区域划分为一系列互不相交的多边形，这种技术称\n为？",
+        "options": [
+          "瓦片地图",
+          "导航网格",
+          "像素图",
+          "位图"
+        ],
+        "answer": "B",
+        "analysis": "导航网格（Navigation Mesh）是将复杂的场景几何体转化为可行走区域的多边形\n集合。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-212",
+        "type": "single",
+        "question": "游戏开发工具中，如 Virtools、RPG Maker 属于哪一类？",
+        "options": [
+          "编程语言类",
+          "创作工具类（游戏引擎/中间件）",
+          "硬件测试类",
+          "系统驱动类"
+        ],
+        "answer": "B",
+        "analysis": "这些属于采用“拖、拉、放”形式开发的创作工具类软件。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-213",
+        "type": "single",
+        "question": "开发智能游戏常用的编程语言不包括？",
+        "options": [
+          "VC++",
+          "Java",
+          "Python",
+          "HTML 4.0"
+        ],
+        "answer": "D",
+        "analysis": "VC++、Java、C#、Python 是主流的游戏编程语言，HTML 4.0 已过时且非核心逻\n辑开发语言。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-214",
+        "type": "single",
+        "question": "在扫雷机智能游戏案例中，控制扫雷机权值演化的算法是？",
+        "options": [
+          "蚁群算法",
+          "遗传算法（GA）",
+          "模拟退火",
+          "粒子群算法"
+        ],
+        "answer": "B",
+        "analysis": "案例中使用遗传算法来演化神经网络的权值，使扫雷机变得聪明。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-215",
+        "type": "single",
+        "question": "扫雷机案例中使用的神经网络结构通常是？",
+        "options": [
+          "单层感知器",
+          "三层 BP 神经网络",
+          "卷积神经网络",
+          "循环神经网络"
+        ],
+        "answer": "B",
+        "analysis": "案例选择几个神经元作为隐层，构成一个三层 BP 神经网络。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-216",
+        "type": "single",
+        "question": "扫雷机神经网络的输出通常对应于？",
+        "options": [
+          "地雷的坐标",
+          "左右两个履带轮的速度",
+          "游戏的剩余时间",
+          "玩家的分数"
+        ],
+        "answer": "B",
+        "analysis": "神经网络的输出直接控制扫雷机轮轨的相对速度，从而控制其移动。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-217",
+        "type": "single",
+        "question": "下列关于游戏 AI 与学术 AI 的区别，说法正确的是？",
+        "options": [
+          "游戏 AI 必须寻找全局最优解",
+          "游戏 AI 的核心目标是增强娱乐性和挑战性",
+          "游戏 AI 严禁使用任何欺骗（Cheating）手段",
+          "游戏 AI 不需要考虑计算资源的限制"
+        ],
+        "answer": "B",
+        "analysis": "游戏 AI 旨在为玩家创造更好的体验，有时为了节省资源可以使用简化的手段。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-218",
+        "type": "single",
+        "question": "角色在运动中为了避开障碍物，通常会在探测到障碍物时产生一个什么？",
+        "options": [
+          "吸引力",
+          "排斥力",
+          "停止力",
+          "重力"
+        ],
+        "answer": "B",
+        "analysis": "避障行为通过探测传感器产生与障碍物相反方向的排斥力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-219",
+        "type": "multiple",
+        "question": "自然界四大奥秘包括哪些内容？",
+        "options": [
+          "物质的本质",
+          "宇宙的起源",
+          "生命的本质",
+          "智能的发生",
+          "能量的转换"
+        ],
+        "answer": "ABCD",
+        "analysis": "自然界四大奥秘为物质的本质、宇宙的起源、生命的本质、智能的发生。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-220",
+        "type": "multiple",
+        "question": "智能的主要特征包括哪些方面？",
+        "options": [
+          "感知能力",
+          "记忆与思维能力",
+          "学习能力",
+          "行为能力",
+          "物质转换能力"
+        ],
+        "answer": "ABCD",
+        "analysis": "智能的特征包括感知能力、记忆与思维能力、学习能力、行为能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-221",
+        "type": "multiple",
+        "question": "人工智能研究的三大学派是指？",
+        "options": [
+          "符号主义",
+          "结构主义",
+          "连接主义",
+          "行为主义",
+          "现实主义"
+        ],
+        "answer": "ACD",
+        "analysis": "人工智能三大学派分别是符号主义、连接主义、行为主义。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-222",
+        "type": "multiple",
+        "question": "人工智能研究的基本内容包括哪些？",
+        "options": [
+          "知识表示",
+          "机器感知",
+          "机器思维",
+          "机器学习",
+          "机器行为"
+        ],
+        "answer": "ABCDE",
+        "analysis": "基本内容涵盖知识表示、感知、思维、学习和行为五个方面。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-223",
+        "type": "multiple",
+        "question": "无人驾驶商业化的关键要素包括哪些？",
+        "options": [
+          "硬件组件",
+          "软件组件",
+          "整车制造",
+          "出行网络",
+          "道路建设"
+        ],
+        "answer": "ABCD",
+        "analysis": "无人驾驶商业化包括硬件、软件、整车制造和网络四个关键要素。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-224",
+        "type": "multiple",
+        "question": "知识的主要特性包括哪些？",
+        "options": [
+          "相对正确性",
+          "不确定性",
+          "演化性",
+          "静态性",
+          "关联性"
+        ],
+        "answer": "ABCE",
+        "analysis": "知识具有相对正确性、不确定性、演化性、关联性等特点，而不是绝对静态的。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-225",
+        "type": "multiple",
+        "question": "产生式系统通常适用于表示下列哪些知识？",
+        "options": [
+          "领域专家的经验知识",
+          "具有启发性的因果知识",
+          "严格的几何证明",
+          "“如果...那么...”形式的规则",
+          "大规模三维建模"
+        ],
+        "answer": "ABD",
+        "analysis": "产生式系统最适合表示经验性、启发性规则。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-226",
+        "type": "multiple",
+        "question": "谓词逻辑表示法的优点有哪些？",
+        "options": [
+          "自然性好",
+          "严密性",
+          "容易实现模块化",
+          "不存在组合爆炸问题",
+          "精确性高"
+        ],
+        "answer": "ABCE",
+        "analysis": "谓词逻辑具有自然、严密、模块化、精确等优点，但存在组合爆炸问题。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：5",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-227",
+        "type": "multiple",
+        "question": "知识图谱中的基本组成元素包括？",
+        "options": [
+          "实体（Entity）",
+          "属性（Attribute）",
+          "关系（Relation）",
+          "权重（Weight）",
+          "偏置（Bias）"
+        ],
+        "answer": "ABC",
+        "analysis": "知识图谱的核心三要素是实体、属性和关系。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-228",
+        "type": "multiple",
+        "question": "框架表示法中的“框架”结构可以包含哪些内容？",
+        "options": [
+          "框架名",
+          "槽",
+          "侧面",
+          "槽值",
+          "逻辑谓词"
+        ],
+        "answer": "ABCD",
+        "analysis": "框架由名、槽、侧面、槽值等层级组成。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-229",
+        "type": "multiple",
+        "question": "知识的不确定性通常来源于哪些方面？",
+        "options": [
+          "随机性",
+          "模糊性",
+          "不完全性",
+          "不一致性",
+          "确定性"
+        ],
+        "answer": "ABCD",
+        "analysis": "知识的不确定性包括随机性（偶然性）、模糊性（定义不准）、不完全性（信息不\n足）和不一致性（逻辑冲突）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-230",
+        "type": "multiple",
+        "question": "下列属于反模糊化（解模糊）常用方法的有？",
+        "options": [
+          "最大隶属度法",
+          "重心法",
+          "加权平均法",
+          "最小二乘法",
+          "逻辑合并法"
+        ],
+        "answer": "ABC",
+        "analysis": "PPT中提到的模糊判决（解模糊）方法主要包括最大隶属度法、重心法和加权平均\n法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-231",
+        "type": "multiple",
+        "question": "证据理论（D-S理论）相比于概率论，其优点在于？",
+        "options": [
+          "能处理不确定性",
+          "能够处理由“不知道”引起的不确定性",
+          "区分了“不信任”和“不知道”",
+          "计算复杂度更低",
+          "不需要定义辨识框架"
+        ],
+        "answer": "BC",
+        "analysis": "D-S理论最大的特点是能够刻画由于缺乏证据而导致的“不知道”状态。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-232",
+        "type": "multiple",
+        "question": "在可信度模型中，结论 的最终可信度 取决于哪些因素？",
+        "options": [
+          "规则的可信度",
+          "证据的可信度",
+          "用户的心情",
+          "计算机的算力",
+          "规则的前提条件"
+        ],
+        "answer": "AB",
+        "analysis": "结论的可信度由规则本身的强度（）和证据的强度（）共同决定，计算公式为 。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-233",
+        "type": "multiple",
+        "question": "模糊集之间的基本运算包括？",
+        "options": [
+          "交（Intersection）",
+          "并（Union）",
+          "补（Complement）",
+          "差（Difference）",
+          "幂（Power）"
+        ],
+        "answer": "ABC",
+        "analysis": "模糊集最基础的三种运算是交（min）、并（max）和补（1-μ）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-234",
+        "type": "multiple",
+        "question": "蒙特卡洛树搜索（MCTS）的四个基本步骤包括？",
+        "options": [
+          "选择（Selection）",
+          "拓展（Expansion）",
+          "模拟（Simulation）",
+          "反向传播（Backpropagation）",
+          "剪枝（Pruning）"
+        ],
+        "answer": "ABCD",
+        "analysis": "MCTS 由选择、拓展、模拟和反向传播四个步骤组成。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-235",
+        "type": "multiple",
+        "question": "状态空间描述的基本要素包括哪些？",
+        "options": [
+          "状态集合",
+          "操作符集合",
+          "初始状态",
+          "目标状态集合",
+          "评估函数"
+        ],
+        "answer": "ABCD",
+        "analysis": "状态空间法通常表示为四元组 。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-236",
+        "type": "multiple",
+        "question": "下列属于盲目搜索策略的有？",
+        "options": [
+          "宽度优先搜索",
+          "深度优先搜索",
+          "回溯策略",
+          "A算法",
+          "最佳优先搜索"
+        ],
+        "answer": "ABC",
+        "analysis": "宽度优先、深度优先和回溯策略属于盲目搜索；A算法和最佳优先属于启发式搜\n索。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-237",
+        "type": "multiple",
+        "question": "在搜索树中，关于节点及其关系的描述正确的是？",
+        "options": [
+          "根节点没有父节点",
+          "叶节点没有子节点",
+          "子节点由父节点通过操作符生成",
+          "节点代表状态",
+          "边代表算子"
+        ],
+        "answer": "ABCDE",
+        "analysis": "以上描述均符合搜索树的基本定义。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-238",
+        "type": "multiple",
+        "question": "启发式搜索中，启发式信息可以来自哪些方面？",
+        "options": [
+          "与问题有关的特征信息",
+          "简化问题的解",
+          "专家的经验",
+          "随机数生成器",
+          "硬件缓存"
+        ],
+        "answer": "ABC",
+        "analysis": "启发式信息是与问题求解有关的针对性信息，如特征、简化解或经验。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-239",
+        "type": "multiple",
+        "question": "遗传算法（GA）的主要特点包括哪些？",
+        "options": [
+          "自组织、自适应",
+          "具有极强的鲁棒性",
+          "需要求导或导数信息",
+          "具有本质并行性",
+          "搜索从群体出发而非单个点"
+        ],
+        "answer": "ABDE",
+        "analysis": "遗传算法不要求函数连续或可导，具有自组织性、鲁棒性、并行性及群体搜索特\n征。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-240",
+        "type": "multiple",
+        "question": "遗传算法中常用的编码方法有？",
+        "options": [
+          "二进制编码",
+          "格雷码编码",
+          "实数编码",
+          "符号编码",
+          "概率编码"
+        ],
+        "answer": "ABCD",
+        "analysis": "PPT中提到的常用编码包括二进制码、格雷码、浮点数（实数）编码和符号编码。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-241",
+        "type": "multiple",
+        "question": "蚁群算法中，影响蚂蚁选择路径的启发式因子通常包括？",
+        "options": [
+          "信息素启发因子",
+          "期望值启发因子",
+          "路径长度的倒数",
+          "蚂蚁的存活时间",
+          "硬件CPU频率"
+        ],
+        "answer": "ABC",
+        "analysis": "代表信息素的重要性， 代表能见度（通常是距离倒数）的重要性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-242",
+        "type": "multiple",
+        "question": "下列属于群智能（Swarm Intelligence）算法的有？",
+        "options": [
+          "粒子群优化算法",
+          "蚁群算法",
+          "人工蜂群算法",
+          "人工鱼群算法",
+          "专家系统"
+        ],
+        "answer": "ABCD",
+        "analysis": "专家系统属于传统符号人工智能，不属于模仿生物群体行为的群智能算法。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-243",
+        "type": "multiple",
+        "question": "改进遗传算法的常见策略包括？",
+        "options": [
+          "双倍体遗传算法",
+          "自适应遗传算法",
+          "双种群遗传算法",
+          "增加单纯形法杂交",
+          "仅使用变异不使用交叉"
+        ],
+        "answer": "ABCD",
+        "analysis": "PPT 中详细介绍了改进遗传算法，包括双倍体、双种群、自适应等改进。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-244",
+        "type": "multiple",
+        "question": "机器学习按学习方式（标签情况）分类，主要包括哪些？",
+        "options": [
+          "监督学习",
+          "无监督学习",
+          "弱监督学习（含半监督、强化学习等）",
+          "深度学习",
+          "迁移学习"
+        ],
+        "answer": "ABC",
+        "analysis": "PPT中明确将机器学习按学习方式分为监督、无监督和弱监督学习三大类。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-245",
+        "type": "multiple",
+        "question": "专家系统的主要组成部分包括？",
+        "options": [
+          "知识库",
+          "推理机",
+          "综合数据库（事实库）",
+          "解释器",
+          "硬件设备"
+        ],
+        "answer": "ABCD",
+        "analysis": "一个典型的专家系统通常由知识库、推理机、综合数据库、解释器、知识获取机构\n和人机界面组成。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-246",
+        "type": "multiple",
+        "question": "决策树算法具有哪些显著优点？",
+        "options": [
+          "模型具有可读性，易于理解",
+          "分类速度快",
+          "必须要求数据连续且无缺失",
+          "能够处理非线性的关系",
+          "只能处理二分类问题"
+        ],
+        "answer": "ABD",
+        "analysis": "决策树直观形象，分类效率高，且对数据分布要求不严，能处理非线性。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：5",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-247",
+        "type": "multiple",
+        "question": "在构建专家系统时，获取知识的途径通常有？",
+        "options": [
+          "手工获取（采访专家）",
+          "半自动获取（知识编辑工具）",
+          "自动获取（机器学习）",
+          "随机猜测",
+          "硬件升级"
+        ],
+        "answer": "ABC",
+        "analysis": "知识获取可以通过人工、辅助工具或机器学习自动完成。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-248",
+        "type": "multiple",
+        "question": "弱监督学习包含下列哪些具体的子领域？",
+        "options": [
+          "半监督学习",
+          "转移学习（迁移学习）",
+          "强化学习",
+          "完全标注学习",
+          "聚类学习"
+        ],
+        "answer": "ABC",
+        "analysis": "根据PPT 7.1节，弱监督学习包括半监督学习、转移学习、强化学习等。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：2",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-249",
+        "type": "multiple",
+        "question": "下列属于常见激活函数的有？",
+        "options": [
+          "Sigmoid 函数",
+          "ReLU 函数",
+          "Tanh 函数",
+          "阶跃函数",
+          "恒等函数"
+        ],
+        "answer": "ABCD",
+        "analysis": "以上四种均为神经网络中常用的激活函数。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-250",
+        "type": "multiple",
+        "question": "卷积神经网络（CNN）的核心结构通常包括哪些层？",
+        "options": [
+          "卷积层",
+          "池化层",
+          "全连接层",
+          "递归层",
+          "搜索层"
+        ],
+        "answer": "ABC",
+        "analysis": "CNN的基本三层结构为卷积层、池化（采样）层和全连接层。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-251",
+        "type": "multiple",
+        "question": "神经网络的学习方式按标签情况可以分为？",
+        "options": [
+          "有监督学习",
+          "无监督学习",
+          "强化学习",
+          "深度学习",
+          "符号学习"
+        ],
+        "answer": "ABC",
+        "analysis": "神经网络的常见学习方式包含监督、无监督和强化学习。深度学习是学习的一种架\n构，不是并列的学习方式分类。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-252",
+        "type": "multiple",
+        "question": "关于 Hopfield 网络的能量函数，下列说法正确的是？",
+        "options": [
+          "网络运行过程中能量不断增加",
+          "网络演化过程就是能量下降的过程",
+          "当能量达到最小值时，网络进入稳定状态",
+          "能量函数与物理学中的能量概念类似",
+          "能量函数决定了卷积核的大小"
+        ],
+        "answer": "BCD",
+        "analysis": "Hopfield引入能量函数概念，证明了反馈网络在一定条件下能收敛到极小值点。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-253",
+        "type": "multiple",
+        "question": "深度学习在下列哪些领域取得了显著的应用成果？",
+        "options": [
+          "图像识别（如人脸识别）",
+          "自然语言处理（如自动作诗、翻译）",
+          "医疗诊断",
+          "围棋对弈（如AlphaGo）",
+          "传统规则专家系统"
+        ],
+        "answer": "ABCD",
+        "analysis": "深度学习广泛应用于图像、语言、博弈等领域。专家系统属于符号主义，不属于典\n型的深度学习范畴。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-254",
+        "type": "multiple",
+        "question": "自然语言理解的层次通常包括？",
+        "options": [
+          "语音分析",
+          "词法分析",
+          "句法分析",
+          "语义分析",
+          "语用分析"
+        ],
+        "answer": "ABCDE",
+        "analysis": "这是一个完整的语言处理过程层次。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-255",
+        "type": "multiple",
+        "question": "循环神经网络（RNN）的常见变体或改进模型包括？",
+        "options": [
+          "长短期记忆网络（LSTM）",
+          "门控循环单元（GRU）",
+          "卷积神经网络（CNN）",
+          "生成对抗网络（GAN）",
+          "双向RNN"
+        ],
+        "answer": "ABE",
+        "analysis": "LSTM、GRU和双向网络均属于循环神经网络范畴。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-256",
+        "type": "multiple",
+        "question": "LSTM 中的三个门结构分别是？",
+        "options": [
+          "遗忘门（Forget Gate）",
+          "输入门（Input Gate）",
+          "输出门（Output Gate）",
+          "递归门（Recurrent Gate）",
+          "过滤门（Filter Gate）"
+        ],
+        "answer": "ABC",
+        "analysis": "这是经典 LSTM 的标准门控结构。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-257",
+        "type": "multiple",
+        "question": "语音信号的两个主要物理特征是？",
+        "options": [
+          "振幅",
+          "颜色",
+          "频率",
+          "灰度",
+          "透明度"
+        ],
+        "answer": "AC",
+        "analysis": "声波的主要物理特征是振幅和频率。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-258",
+        "type": "multiple",
+        "question": "机器翻译的发展经历了哪些阶段？",
+        "options": [
+          "基于规则的机器翻译",
+          "基于统计的机器翻译",
+          "基于神经网络的机器翻译",
+          "基于量子计算的机器翻译",
+          "基于完全随机的机器翻译"
+        ],
+        "answer": "ABC",
+        "analysis": "机器翻译从早期规则方法演进到统计学方法，再到现在的深度学习（神经翻译）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-259",
+        "type": "multiple",
+        "question": "大语言模型在自然语言处理中的典型任务包括？",
+        "options": [
+          "机器翻译",
+          "文本生成",
+          "对话系统",
+          "情感分析",
+          "语义理解"
+        ],
+        "answer": "ABCDE",
+        "analysis": "PPT 10.8.1 提到大模型在上述任务中都取得了显著成果。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-260",
+        "type": "multiple",
+        "question": "知识蒸馏的主要流程通常包括？",
+        "options": [
+          "训练一个强大的教师模型",
+          "让学生模型模仿教师模型的输出（如软标签）",
+          "丢弃教师模型，只使用轻量化的学生模型进行推理",
+          "增加硬件的 CPU 核心数",
+          "降低模型的词汇量"
+        ],
+        "answer": "ABC",
+        "analysis": "知识蒸馏的核心是教师引导、学生模仿及最终的模型轻量化。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-261",
+        "type": "multiple",
+        "question": "Transformer 模型的主要组成部分包括？",
+        "options": [
+          "多头自注意力机制",
+          "前馈神经网络",
+          "层归一化",
+          "残差连接",
+          "卷积核池化层"
+        ],
+        "answer": "ABCD",
+        "analysis": "这些是 Transformer Block 的标准内部组件。卷积/池化主要用于 CNN。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-262",
+        "type": "multiple",
+        "question": "AIGC 可以生成的作品类型涵盖哪些领域？",
+        "options": [
+          "文本和论文",
+          "图像和艺术画",
+          "音频和音乐",
+          "视频和动画",
+          "计算机代码"
+        ],
+        "answer": "ABCDE",
+        "analysis": "AIGC 利用大模型可以生成涵盖文本、图像、音频、视频、代码等多个领域的内\n容。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-263",
+        "type": "multiple",
+        "question": "注意力机制中，计算注意力权重的步骤通常包含？",
+        "options": [
+          "Q 与 K 的相似度计算（如点积）",
+          "对相似度进行缩放和归一化（如 Softmax）",
+          "根据权重对 V 进行加权求和",
+          "统计样本的均值和方差",
+          "执行逻辑回归运算"
+        ],
+        "answer": "ABC",
+        "analysis": "这是注意力机制的标准计算流程。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-264",
+        "type": "multiple",
+        "question": "智能体（Agent）的结构通常由哪些部分组成？",
+        "options": [
+          "传感器",
+          "控制系统（计算单元）",
+          "效应器",
+          "环境",
+          "外部电源"
+        ],
+        "answer": "ABC",
+        "analysis": "虽然 Agent 运行在环境中，但其自身结构核心为感知、决策和执行。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-265",
+        "type": "multiple",
+        "question": "多智能体系统（MAS）的典型组织结构包括？",
+        "options": [
+          "主从型结构",
+          "自主型结构",
+          "联邦型结构",
+          "单体型结构",
+          "网络型结构"
+        ],
+        "answer": "ABC",
+        "analysis": "PPT 11.2 节介绍了这三种核心组织结构。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-266",
+        "type": "multiple",
+        "question": "Agent 之间进行通信时，一条完整的消息通常包含？",
+        "options": [
+          "发送者和接收者",
+          "消息类别（意图）",
+          "消息内容",
+          "语境和本体",
+          "硬件序列号"
+        ],
+        "answer": "ABCD",
+        "analysis": "消息封装了“谁发给谁、想干什么、具体是什么、如何理解”等信息。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-267",
+        "type": "multiple",
+        "question": "实现多智能体系统协调与协作的常见方法有？",
+        "options": [
+          "合同网协议",
+          "黑板系统",
+          "市场机制（投标/博弈）",
+          "集中式任务分配",
+          "随机游走"
+        ],
+        "answer": "ABCD",
+        "analysis": "以上四种均为 MAS 中主流的交互和合作机制。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-268",
+        "type": "multiple",
+        "question": "协商（Negotiation）包含哪三个基本要素？",
+        "options": [
+          "协商协议",
+          "协商策略",
+          "协商处理",
+          "协商硬件",
+          "协商带宽"
+        ],
+        "answer": "ABC",
+        "analysis": "根据 PPT 11.6 节，协商概括为协议、策略和处理。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-269",
+        "type": "multiple",
+        "question": "群聚（Flocking）模型的三条核心规则是？",
+        "options": [
+          "分离（Separation）",
+          "对齐（Alignment）",
+          "凝聚（Cohesion）",
+          "加速（Acceleration）",
+          "旋转（Rotation）"
+        ],
+        "answer": "ABC",
+        "analysis": "这是雷诺兹提出的 Boids 模型三大核心规则。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-270",
+        "type": "multiple",
+        "question": "游戏角色设计中的基本移动行为包括？",
+        "options": [
+          "靠近（Seek）",
+          "离开（Flee）",
+          "抵达（Arrive）",
+          "漫游（Wander）",
+          "避障（Obstacle Avoidance）"
+        ],
+        "answer": "ABCDE",
+        "analysis": "这些都是 PPT 中提到的游戏角色设计基本技术。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-271",
+        "type": "multiple",
+        "question": "下列属于有限状态机（FSM）优点的有？",
+        "options": [
+          "编程简单",
+          "运行开销小",
+          "易于调试",
+          "能够处理无限数量的状态",
+          "具有良好的可扩展性"
+        ],
+        "answer": "ABCE",
+        "analysis": "FSM 简单高效，但随着状态增加（状态爆炸），复杂性会显著提升，并非能无限\n处理。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-272",
+        "type": "multiple",
+        "question": "A* 算法的效率和准确性取决于哪些因素？",
+        "options": [
+          "地图网格的划分方式",
+          "启发式函数 的设计",
+          "搜索空间的节点总数",
+          "游戏的分辨率",
+          "显卡的显存大小"
+        ],
+        "answer": "ABC",
+        "analysis": "地图划分、启发式函数和状态空间是影响搜索算法的核心因素。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-273",
+        "type": "multiple",
+        "question": "扫雷机智能游戏开发中，神经网络的输入信息包含？",
+        "options": [
+          "扫雷机的视线向量",
+          "到达最近地雷的向量",
+          "游戏背景音乐频率",
+          "玩家的按键记录",
+          "扫雷机的当前速度"
+        ],
+        "answer": "AB",
+        "analysis": "根据 PPT 12.6 节，输入参数为视线向量和到地雷的向量。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-274",
+        "type": "judge",
+        "question": "1946年诞生的ENIAC是为人工智能研究奠定物质基础的世界上第一台电子计算机。\n**答案：\n正确答案：错误\n答案解析：PPT明确指出是ABC计算机，而不是莫克利和埃柯1946年发明的ENIAC。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "PPT明确指出是ABC计算机，而不是莫克利和埃柯1946年发明的ENIAC。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-275",
+        "type": "judge",
+        "question": "“中国屋思考实验”证明了即使通过图灵测试，也不能说明计算机能思维。\n正确答案：正确\n答案解析：该实验旨在说明机器只是在进行符号匹配，并不真正理解其含义。\n章节：第一\n章：绪论\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "该实验旨在说明机器只是在进行符号匹配，并不真正理解其含义。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-276",
+        "type": "judge",
+        "question": "符号主义学派认为智能的核心是逻辑推理，因此又被称为逻辑主义或计算机学派。\n正确答案：正确\n答案解析：符号主义起源于数理逻辑，基于逻辑推理。\n章节：第一章：绪论\n认知层次：\n记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "符号主义起源于数理逻辑，基于逻辑推理。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-277",
+        "type": "judge",
+        "question": "连接主义学派是一种基于“感知-行动”的行为智能模拟方法。\n正确答案：错误\n答案解析：“感知-行动”是行为主义学派的方法，连接主义是基于神经网络的方法。\n章节：\n第一章：绪论\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "“感知-行动”是行为主义学派的方法，连接主义是基于神经网络的方法。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-278",
+        "type": "judge",
+        "question": "云端人工智能能够有效地降低终端设备使用人工智能技术的门槛。\n正确答案：正确\n答案解析：通过在云端部署算法并提供API，降低了终端设备的使用门槛。\n章节：第一\n章：绪论\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "通过在云端部署算法并提供API，降低了终端设备的使用门槛。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-279",
+        "type": "judge",
+        "question": "知识和信息是完全等同的概念，没有任何区别。\n正确答案：错误\n答案解析：知识是关联在一起的信息，是经过加工和提炼的，两者不等同。\n章节：第二\n章：知识表示与知识图谱\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "知识是关联在一起的信息，是经过加工和提炼的，两者不等同。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-280",
+        "type": "judge",
+        "question": "一阶谓词逻辑不能很好地表示具有不确定性的知识。\n正确答案：正确\n答案解析：谓词逻辑通常处理确定的逻辑关系，对于不确定性、模糊性知识表现较弱。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "谓词逻辑通常处理确定的逻辑关系，对于不确定性、模糊性知识表现较弱。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：3",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-281",
+        "type": "judge",
+        "question": "产生式系统中的“综合数据库”专门用于存放长久不变的规则。\n正确答案：错误\n答案解析：综合数据库存放的是推理过程中的初始事实和中间状态，是动态变化的。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "综合数据库存放的是推理过程中的初始事实和中间状态，是动态变化的。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：5",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-282",
+        "type": "judge",
+        "question": "在框架表示法中，子框架可以自动继承父框架中的某些属性。\n正确答案：正确\n答案解析：继承性是框架表示法的一个核心优点，可以减少冗余。\n章节：第二章：知识表\n示与知识图谱\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "继承性是框架表示法的一个核心优点，可以减少冗余。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-283",
+        "type": "judge",
+        "question": "知识图谱可以被看作是一张巨大的图，其中节点表示实体，边表示关系。\n正确答案：正确\n答案解析：知识图谱在本质上就是一种基于图的知识表示方式。\n章节：第二章：知识表示\n与知识图谱\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "知识图谱在本质上就是一种基于图的知识表示方式。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-284",
+        "type": "judge",
+        "question": "随机性不确定性是指事物本身的含义是不确定的。\n正确答案：错误\n答案解析：含义不确定属于“模糊性”，随机性是指事物发生的因果关系不确定。\n章节：第\n四章：不确定性推理方法\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "含义不确定属于“模糊性”，随机性是指事物发生的因果关系不确定。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-285",
+        "type": "judge",
+        "question": "在可信度方法中， 表示由于证据 的出现，结论 绝对不可信。\n正确答案：正确\n答案解析： 是可信度的最小值，代表完全否定。\n章节：第四章：不确定性推理方法\n认知\n层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "是可信度的最小值，代表完全否定。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-286",
+        "type": "judge",
+        "question": "模糊推理中的重心法能够输出比最大隶属度法更平滑的控制结果。\n正确答案：正确\n答案解析：重心法考虑了整个模糊集的形状，输出更具代表性且变化更连续。\n章节：第四\n章：不确定性推理方法\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "重心法考虑了整个模糊集的形状，输出更具代表性且变化更连续。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-287",
+        "type": "judge",
+        "question": "证据理论中，信任函数 一定大于或等于似然函数 。\n正确答案：错误\n答案解析：实际上 。 是信任下限， 是信任上限。\n章节：第四章：不确定性推理方法\n认\n知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "实际上 。 是信任下限， 是信任上限。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-288",
+        "type": "judge",
+        "question": "模糊集合理论可以看作是经典集合理论的一种扩展。\n正确答案：正确\n答案解析：当隶属度只能取 0 或 1 时，模糊集合就退化为经典集合（硬集合）。\n章节：第\n四章：不确定性推理方法\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "当隶属度只能取 0 或 1 时，模糊集合就退化为经典集合（硬集合）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-289",
+        "type": "judge",
+        "question": "状态空间搜索中，如果找到了目标状态，则一定找到了最短路径。\n正确答案：错误\n答案解析：盲目搜索（如 DFS）可能找到较长路径，只有特定的搜索策略（如 BFS 或满足条\n件的 A*）能保证找到最短路径。\n章节：第五章：搜索求解策略\n认知层次：记忆\n难度：\n4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "盲目搜索（如 DFS）可能找到较长路径，只有特定的搜索策略（如 BFS 或满足条\n件的 A*）能保证找到最短路径。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-290",
+        "type": "judge",
+        "question": "深度优先搜索（DFS）适合在搜索树非常深且目标在较浅层的情况下使用。\n正确答案：错误\n答案解析：DFS 可能会陷入深层分支，如果目标在浅层，宽度优先搜索（BFS）更合适。\n章节：第五章：搜索求解策略\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "DFS 可能会陷入深层分支，如果目标在浅层，宽度优先搜索（BFS）更合适。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-291",
+        "type": "judge",
+        "question": "在 A* 算法中，如果启发函数 恒等于 0，则该算法一定能找到解（如果解存在）。\n正确答案：正确\n答案解析：此时算法退化为广度优先搜索或 Dijkstra 算法，具有完备性。\n章节：第五章：\n搜索求解策略\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "此时算法退化为广度优先搜索或 Dijkstra 算法，具有完备性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-292",
+        "type": "judge",
+        "question": "蒙特卡洛树搜索中的“反向传播”是指将模拟得到的结果沿着搜索路径向上更新统计\n值。\n正确答案：正确\n答案解析：反向传播阶段会将模拟阶段的奖励值传回根节点方向，更新路径上节点的统计信\n息。\n章节：第五章：搜索求解策略\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "反向传播阶段会将模拟阶段的奖励值传回根节点方向，更新路径上节点的统计信\n息。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-293",
+        "type": "judge",
+        "question": "启发式搜索通过利用领域知识，可以有效缩小搜索空间，提高搜索效率。\n正确答案：正确\n答案解析：启发式信息引导搜索朝更有希望的方向进行，从而减少不必要的尝试。\n章节：\n第五章：搜索求解策略\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "启发式信息引导搜索朝更有希望的方向进行，从而减少不必要的尝试。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-294",
+        "type": "judge",
+        "question": "遗传算法是一种基于概率的、随机性的全局搜索算法。\n正确答案：正确\n答案解析：遗传算法利用概率机制进行操作，具有全局搜索的潜能。\n章节：第六章：智能\n计算及其应用\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "遗传算法利用概率机制进行操作，具有全局搜索的潜能。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-295",
+        "type": "judge",
+        "question": "在遗传算法中，交叉率 和变异率 的值越大，算法性能就一定越好。\n正确答案：错误\n答案解析：参数设置需要均衡。交叉率过大会破坏优良基因；变异率过大会使算法退化为随机\n搜索。\n章节：第六章：智能计算及其应用\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "参数设置需要均衡。交叉率过大会破坏优良基因；变异率过大会使算法退化为随机\n搜索。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-296",
+        "type": "judge",
+        "question": "蚁群算法具有正反馈机制，信息素浓度越高的路径吸引的蚂蚁越多。\n正确答案：正确\n答案解析：这正是蚁群算法能够收敛到较短路径的核心机制。\n章节：第六章：智能计算及\n其应用\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "这正是蚁群算法能够收敛到较短路径的核心机制。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-297",
+        "type": "judge",
+        "question": "粒子群算法（PSO）由于没有交叉和变异算子，因此其结构比遗传算法更复杂。\n正确答案：错误\n答案解析：恰恰相反，PSO 由于省去了复杂的交叉、变异操作，计算上更简单，易于实现。\n章节：第六章：智能计算及其应用\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "恰恰相反，PSO 由于省去了复杂的交叉、变异操作，计算上更简单，易于实现。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-298",
+        "type": "judge",
+        "question": "进化算法的理论基础主要是达尔文的生物进化论和孟德尔的遗传学说。\n正确答案：正确\n答案解析：进化算法模拟自然选择、遗传、变异等生物进化过程。\n章节：第六章：智能计\n算及其应用\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "进化算法模拟自然选择、遗传、变异等生物进化过程。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-299",
+        "type": "judge",
+        "question": "机器学习被认为是专家系统的核心，能够提升系统的智能化水平。\n正确答案：正确\n答案解析：机器学习为专家系统提供了获取和完善知识的手段。\n章节：第七章：机器学习\n与专家系统\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "机器学习为专家系统提供了获取和完善知识的手段。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-300",
+        "type": "judge",
+        "question": "在 K-means 聚类中，K 值需要由用户在算法运行前预先设定。\n正确答案：正确\n答案解析：K 值代表目标簇的数量，是 K-means 算法的一个预设超参数。\n章节：第七\n章：机器学习与专家系统\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "K 值代表目标簇的数量，是 K-means 算法的一个预设超参数。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-301",
+        "type": "judge",
+        "question": "KNN 算法在处理样本极度不平衡的数据集时，分类效果依然非常完美，不需要特殊\n处理。\n正确答案：错误\n答案解析：样本不平衡会导致投票时大类样本占优，KNN 对此比较敏感。\n章节：第七章：\n机器学习与专家系统\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "样本不平衡会导致投票时大类样本占优，KNN 对此比较敏感。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-302",
+        "type": "judge",
+        "question": "专家系统的“知识库”中不仅存放事实，还存放用于推理的规则。\n正确答案：正确\n答案解析：知识库由事实（静态知识）和规则（推理知识）两部分组成。\n章节：第七章：\n机器学习与专家系统\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "知识库由事实（静态知识）和规则（推理知识）两部分组成。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-303",
+        "type": "judge",
+        "question": "SVM 只能解决线性可分的二分类问题，无法处理线性不可分的数据。\n正确答案：错误\n答案解析：通过引入核函数，SVM 可以将线性不可分的数据映射到高维空间使其变得线性可\n分。\n章节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "通过引入核函数，SVM 可以将线性不可分的数据映射到高维空间使其变得线性可\n分。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-304",
+        "type": "judge",
+        "question": "只要隐藏层节点足够多，三层BP网络可以以任意精度逼近任何连续函数。\n正确答案：正确\n答案解析：这是BP网络的万能逼近定理。\n章节：第八章：人工神经网络与深度学习\n认知\n层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "这是BP网络的万能逼近定理。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-305",
+        "type": "judge",
+        "question": "在 GAN 模型训练结束后，判别器理想的分类准确率应该是 100%。\n正确答案：错误\n答案解析：理想状态（纳什均衡）下，生成器生成的图像极度逼近真实，判别器无法区分，准\n确率应趋近于 50%（即随机猜测）。\n章节：第八章：人工神经网络与深度学习\n认知层\n次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "理想状态（纳什均衡）下，生成器生成的图像极度逼近真实，判别器无法区分，准\n确率应趋近于 50%（即随机猜测）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-306",
+        "type": "judge",
+        "question": "生物神经元的轴突起到了将神经冲动传出到其他神经元的作用。\n正确答案：正确\n答案解析：轴突是输出通道。\n章节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "轴突是输出通道。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-307",
+        "type": "judge",
+        "question": "池化操作虽然减少了计算量，但会导致图像特征的完全丢失，因此应尽量避免使\n用。\n正确答案：错误\n答案解析：池化能保留主要特征并实现平移不变性，是CNN的关键步骤。\n章节：第八章：\n人工神经网络与深度学习\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "池化能保留主要特征并实现平移不变性，是CNN的关键步骤。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-308",
+        "type": "judge",
+        "question": "人工神经网络具有良好的容错性，因为信息是分布式存储在连接权值中的。\n正确答案：正确\n答案解析：神经网络的分布式存储特性使其即使部分节点损坏，也能保持一定的功能。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "神经网络的分布式存储特性使其即使部分节点损坏，也能保持一定的功能。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：5",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-309",
+        "type": "judge",
+        "question": "自然语言理解（NLU）是自然语言处理（NLP）中的一个重要子领域。\n正确答案：正确\n答案解析：NLU更侧重于对语言意义的深度理解。\n章节：第九章：循环神经网络与自然语\n言理解\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "NLU更侧重于对语言意义的深度理解。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-310",
+        "type": "judge",
+        "question": "循环神经网络（RNN）因为可以共享参数，所以能够处理变长的序列数据。\n正确答案：正确\n答案解析：权重共享使得RNN在不同时间步使用相同的转换矩阵，能够适应不同长度的输\n入。\n章节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "权重共享使得RNN在不同时间步使用相同的转换矩阵，能够适应不同长度的输\n入。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-311",
+        "type": "judge",
+        "question": "LSTM 相比于标准 RNN，能够更好地捕捉序列中的长距离依赖关系。\n正确答案：正确\n答案解析：通过门控机制，LSTM能有效缓解梯度消失问题，保留长时记忆。\n章节：第九\n章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "通过门控机制，LSTM能有效缓解梯度消失问题，保留长时记忆。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-312",
+        "type": "judge",
+        "question": "在语音识别中，过零率越高通常代表信号的能量分布在高频段。\n正确答案：正确\n答案解析：过零率描述波形穿越零点的频繁程度，反映了频率高低。\n章节：第九章：循环\n神经网络与自然语言理解\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "过零率描述波形穿越零点的频繁程度，反映了频率高低。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-313",
+        "type": "judge",
+        "question": "机器翻译的目的是直接将源语言转换为机器内部表示，而不生成目标语言。\n正确答案：错误\n答案解析：机器翻译（MT）的目标是将一种自然语言（源语言）自动翻译成另一种自然语言\n（目标语言）。\n章节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：\n4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "机器翻译（MT）的目标是将一种自然语言（源语言）自动翻译成另一种自然语言\n（目标语言）。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-314",
+        "type": "judge",
+        "question": "AIGC 的出现使得人工智能不再仅仅是分类和识别的工具，而成为了创意的源头。\n正确答案：正确\n答案解析：AIGC 强调了 AI 的生成和创作能力。\n章节：第十章：大语言模型及其应用\n认\n知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "AIGC 强调了 AI 的生成和创作能力。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-315",
+        "type": "judge",
+        "question": "知识蒸馏会导致模型变大，从而增加推理延迟，主要用于提高服务器性能。\n正确答案：错误\n答案解析：知识蒸馏是为了获得小型、高效的“学生模型”，从而减少推理延迟，便于在移动端\n部署。\n章节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "知识蒸馏是为了获得小型、高效的“学生模型”，从而减少推理延迟，便于在移动端\n部署。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-316",
+        "type": "judge",
+        "question": "Transformer 架构中的“编码器”和“解码器”在每一层都包含注意力机制。\n正确答案：正确\n答案解析：注意力机制是 Transformer 各个组件的核心。\n章节：第十章：大语言模型及其\n应用\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "注意力机制是 Transformer 各个组件的核心。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-317",
+        "type": "judge",
+        "question": "在提示工程中，提示词（Prompt）设计得越模糊，模型生成的答案就越准确。\n正确答案：错误\n答案解析：提示工程强调通过精炼和明确的提示词来引导模型。\n章节：第十章：大语言模\n型及其应用\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "提示工程强调通过精炼和明确的提示词来引导模型。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-318",
+        "type": "judge",
+        "question": "Transformer 只能处理文本数据，无法应用于图像或视频领域。\n正确答案：错误\n答案解析：Transformer 及其变体（如 ViT）已广泛应用于图像处理和视频生成领域。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "Transformer 及其变体（如 ViT）已广泛应用于图像处理和视频生成领域。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：1",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-319",
+        "type": "judge",
+        "question": "智能体（Agent）就是指具有人类外形的物理机器人。\n正确答案：错误\n答案解析：Agent 既可以是物理机器人，也可以是运行在计算机环境中的软件程序。\n章\n节：第十一章：智能体与多智能体系统\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "Agent 既可以是物理机器人，也可以是运行在计算机环境中的软件程序。\n章\n节：第十一章：智能体与多智能体系统\n认知层次：记忆\n难度：4",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-320",
+        "type": "judge",
+        "question": "在多智能体系统中，Agent 之间的通信只能通过直接点对点发消息的方式进行。\n正确答案：错误\n答案解析：还可以通过黑板模型等间接通信方式。\n章节：第十一章：智能体与多智能体系\n统\n认知层次：记忆\n难度：5\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "还可以通过黑板模型等间接通信方式。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-321",
+        "type": "judge",
+        "question": "协作（Collaboration）的目的是为了解决单个 Agent 无法独立完成的大规模复杂问\n题。\n正确答案：正确\n答案解析：协作的核心优势在于资源的整合与任务的并行化。\n章节：第十一章：智能体与\n多智能体系统\n认知层次：记忆\n难度：2\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "协作的核心优势在于资源的整合与任务的并行化。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-322",
+        "type": "judge",
+        "question": "合同网协议中，所有的 Agent 都可以同时担任“经理（Manager）”和“承包商\n（Contractor）”的角色。\n正确答案：正确\n答案解析：在灵活的 MAS 中，角色是动态的，取决于谁发起了任务。\n章节：第十一章：\n智能体与多智能体系统\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "在灵活的 MAS 中，角色是动态的，取决于谁发起了任务。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-323",
+        "type": "judge",
+        "question": "多智能体系统中的“社会性”是指 Agent 之间能通过某种通信语言进行交互。\n正确答案：正确\n答案解析：社会性是 Agent 能够与其他 Agent 或人类协同工作的基本特性。\n章节：第十一\n章：智能体与多智能体系统\n认知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "社会性是 Agent 能够与其他 Agent 或人类协同工作的基本特性。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-324",
+        "type": "judge",
+        "question": "游戏人工智能的主要目的不是打败玩家，而是让玩家觉得“有趣”。\n正确答案：正确\n答案解析：游戏 AI 追求的是玩家的体验和适度的挑战感。\n章节：第十二章：人工智能在\n游戏设计中的应用\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "游戏 AI 追求的是玩家的体验和适度的挑战感。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-325",
+        "type": "judge",
+        "question": "A* 算法在任何情况下都必须搜索地图上的所有节点才能找到最优路径。\n正确答案：错误\n答案解析：A* 通过启发式函数可以剪枝，避免盲目搜索所有节点。\n章节：第十二章：人工\n智能在游戏设计中的应用\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "B",
+        "analysis": "A* 通过启发式函数可以剪枝，避免盲目搜索所有节点。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-326",
+        "type": "judge",
+        "question": "有限状态机（FSM）在同一时刻只能处于一种状态。\n正确答案：正确\n答案解析：这是状态机的基本定义。\n章节：第十二章：人工智能在游戏设计中的应用\n认\n知层次：记忆\n难度：4\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "这是状态机的基本定义。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-327",
+        "type": "judge",
+        "question": "在群聚行为中，对齐（Alignment）规则是指 Agent 保持与邻居的速度向量一致。\n正确答案：正确\n答案解析：对齐规则是为了让群体朝同一个方向前进。\n章节：第十二章：人工智能在游戏\n设计中的应用\n认知层次：记忆\n难度：3\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "对齐规则是为了让群体朝同一个方向前进。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-328",
+        "type": "judge",
+        "question": "脚本语言通常是在游戏运行时由解释器执行的，不需要像 C++ 那样预先编译成二\n进制文件。\n正确答案：正确\n答案解析：脚本语言的解释执行特性使其便于在线修改逻辑。\n章节：第十二章：人工智能\n在游戏设计中的应用\n认知层次：记忆\n难度：1\n---",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "A",
+        "analysis": "脚本语言的解释执行特性使其便于在线修改逻辑。",
+        "source": "人工智能"
+      }
+    ]
+  }
+];
+
+const flatQuestions = questionBank.flatMap((subject) =>
+  subject.questions.map((question) => ({
+    ...question,
+    subject: subject.subject,
+    accent: subject.accent
+  }))
+);
+
+return { questionBank, flatQuestions };
+})();

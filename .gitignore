@@ -1,0 +1,7 @@
+cloudflared.exe
+cloudflared-tunnel.*.log
+question-bank-app-deploy.zip
+app-preview.png
+extracted/
+word-export*/
+assets/answers/software/raw/

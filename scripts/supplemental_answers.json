@@ -1,0 +1,60 @@
+{
+  "se-88": {
+    "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
+    "referenceImages": [
+      "./assets/answers/software/image18.png",
+      "./assets/answers/software/image19.png"
+    ]
+  },
+  "se-89": {
+    "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
+    "referenceImages": [
+      "./assets/answers/software/image20.png",
+      "./assets/answers/software/image21.png"
+    ]
+  },
+  "se-90": {
+    "referenceAnswer": "参考答案见图：在线购物系统 UML 类图。",
+    "referenceImages": [
+      "./assets/answers/software/image22.png"
+    ]
+  },
+  "se-91": {
+    "referenceAnswer": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
+    "referenceImages": [
+      "./assets/answers/software/image23.png"
+    ]
+  },
+  "se-92": {
+    "referenceAnswer": "参考答案见图：出版物领域 UML 类图。",
+    "referenceImages": [
+      "./assets/answers/software/image24.png"
+    ]
+  },
+  "se-93": {
+    "referenceAnswer": "参考答案见图：银行账户系统 UML 类图。",
+    "referenceImages": [
+      "./assets/answers/software/image25.png"
+    ]
+  },
+  "se-94": {
+    "referenceAnswer": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
+    "referenceImages": [
+      "./assets/answers/software/image26.png",
+      "./assets/answers/software/image27.png"
+    ]
+  },
+  "se-95": {
+    "referenceAnswer": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
+    "referenceImages": [
+      "./assets/answers/software/image28.png",
+      "./assets/answers/software/image29.png"
+    ]
+  },
+  "se-96": {
+    "questionImages": [
+      "./assets/answers/software/image30.png"
+    ],
+    "referenceAnswer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg"
+  }
+}
