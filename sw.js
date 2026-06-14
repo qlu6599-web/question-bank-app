@@ -1,18 +1,28 @@
-﻿const CACHE_NAME = "question-bank-mvp-v9";
+const CACHE_NAME = "question-bank-mvp-v10";
 const ASSETS = [
   "./",
-  "./index.html?v=20260614-v9",
-  "./refresh.html?v=20260614-v9",
-  "./manifest.webmanifest?v=20260614-v9",
-  "./styles/app.css?v=20260614-v9",
-  "./src/app.js?v=20260614-v9",
-  "./src/data/questions.js?v=20260614-v9",
-  "./src/services/aiTutor.js?v=20260614-v9",
-  "./src/services/analytics.js?v=20260614-v9",
-  "./src/services/cloudSync.js?v=20260614-v9",
-  "./src/services/userService.js?v=20260614-v9",
-  "./src/store/appStore.js?v=20260614-v9",
-  "./src/utils/dom.js?v=20260614-v9",
+  "./index.html?v=20260614-v10",
+  "./refresh.html?v=20260614-v10",
+  "./manifest.webmanifest?v=20260614-v10",
+  "./styles/app.css?v=20260614-v10",
+  "./app/config/app_config.js?v=20260614-v10",
+  "./app/components/ui.js?v=20260614-v10",
+  "./app/store/app_store.js?v=20260614-v10",
+  "./app/services/ai_tutor.js?v=20260614-v10",
+  "./app/services/cloud_sync.js?v=20260614-v10",
+  "./app/services/user_service.js?v=20260614-v10",
+  "./app/data/question_bank.json?v=20260614-v10",
+  "./app/data/question_repository.js?v=20260614-v10",
+  "./app/logic/quiz_engine.js?v=20260614-v10",
+  "./app/logic/error_book.js?v=20260614-v10",
+  "./app/logic/stats.js?v=20260614-v10",
+  "./app/pages/home.js?v=20260614-v10",
+  "./app/pages/subject.js?v=20260614-v10",
+  "./app/pages/quiz.js?v=20260614-v10",
+  "./app/pages/wrongBook.js?v=20260614-v10",
+  "./app/pages/stats.js?v=20260614-v10",
+  "./app/pages/profile.js?v=20260614-v10",
+  "./app/main.js?v=20260614-v10",
   "./assets/icon-192.svg",
   "./assets/icon-512.svg",
   "./assets/answers/software/image18.png",
@@ -49,7 +59,7 @@ self.addEventListener("fetch", (event) => {
   const isFreshAsset =
     event.request.mode === "navigate" ||
     url.pathname.endsWith(".html") ||
-    url.pathname.includes("/src/") ||
+    url.pathname.includes("/app/") ||
     url.pathname.includes("/styles/");
 
   if (isFreshAsset) {

@@ -6,7 +6,27 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EXTRACTED = ROOT / "extracted"
 OUTPUT = ROOT / "src" / "data" / "questions.js"
+JSON_OUTPUT = ROOT / "app" / "data" / "question_bank.json"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
+APP_DATA_VERSION = "20260614-v10"
+
+TYPE_MAP = {
+    "cloze": "fill",
+    "qa": "essay",
+    "design": "comprehensive",
+    "application": "comprehensive",
+}
+
+TYPE_ORDER = ["single", "multiple", "judge", "fill", "comprehensive", "essay"]
+
+TYPE_LABELS = {
+    "single": "单选题",
+    "multiple": "多选题",
+    "judge": "判断题",
+    "fill": "填空题",
+    "comprehensive": "综合题",
+    "essay": "问答题",
+}
 
 SUBJECT_META = {
     "操作系统": {
@@ -652,6 +672,61 @@ def find_text_file(key):
     return next(path for path in EXTRACTED.glob("*.txt") if key in path.name)
 
 
+def normalize_question_type(question_type):
+    return TYPE_MAP.get(question_type, question_type)
+
+
+def build_json_question(question, subject, meta):
+    normalized = dict(question)
+    original_type = normalized.get("type", "")
+    question_type = normalize_question_type(original_type)
+    reference = normalized.get("referenceAnswer") or normalized.get("answerText") or normalized.get("answer") or ""
+
+    normalized["subject"] = subject
+    normalized["type"] = question_type
+    normalized["question"] = normalized.get("question", "")
+    normalized["options"] = normalized.get("options") if isinstance(normalized.get("options"), list) else []
+    normalized["answer"] = normalized.get("answer") or reference
+    normalized["analysis"] = normalized.get("analysis") or reference
+    normalized["source"] = normalized.get("source") or subject
+    normalized["accent"] = meta["accent"]
+    if original_type != question_type:
+        normalized["originalType"] = original_type
+    return normalized
+
+
+def build_json_bank(bank):
+    subjects = []
+    questions = []
+    for subject_block in bank:
+        subject_name = subject_block["subject"]
+        normalized_questions = [
+            build_json_question(question, subject_name, subject_block)
+            for question in subject_block["questions"]
+        ]
+        type_counts = {}
+        for question in normalized_questions:
+            type_counts[question["type"]] = type_counts.get(question["type"], 0) + 1
+        subjects.append({
+            "name": subject_name,
+            "accent": subject_block["accent"],
+            "description": subject_block["description"],
+            "types": [
+                {"type": question_type, "label": TYPE_LABELS[question_type], "count": type_counts[question_type]}
+                for question_type in TYPE_ORDER
+                if question_type in type_counts
+            ],
+            "total": len(normalized_questions),
+        })
+        questions.extend(normalized_questions)
+    return {
+        "version": APP_DATA_VERSION,
+        "schema": "question-bank-json-v1",
+        "subjects": subjects,
+        "questions": questions,
+    }
+
+
 def build():
     supplemental = json.loads(SUPPLEMENTAL_ANSWERS.read_text(encoding="utf-8")) if SUPPLEMENTAL_ANSWERS.exists() else {}
     bank = []
@@ -706,6 +781,8 @@ def build():
 
 return { questionBank, flatQuestions };
 })();\n"""
+    JSON_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    JSON_OUTPUT.write_text(json.dumps(build_json_bank(bank), ensure_ascii=False, indent=2), encoding="utf-8")
     OUTPUT.write_text(js, encoding="utf-8")
     print(json.dumps(counts, ensure_ascii=False, indent=2))
     print("total", sum(counts.values()))

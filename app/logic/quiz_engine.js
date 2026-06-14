@@ -1,0 +1,116 @@
+window.QuizEngine = (() => {
+  function scopeKey(subject, type) {
+    return `${subject}::${type}`;
+  }
+
+  function getCurrentIndex(state, subject, type, length) {
+    const key = scopeKey(subject, type);
+    const raw = state.indexByScope[key] || 0;
+    return Math.min(raw, Math.max(length - 1, 0));
+  }
+
+  function goNext(state, subject, type, length) {
+    const key = scopeKey(subject, type);
+    if (!length) {
+      state.indexByScope[key] = 0;
+      return;
+    }
+    if (state.mode === "random") {
+      state.indexByScope[key] = Math.floor(Math.random() * length);
+      return;
+    }
+    state.indexByScope[key] = ((state.indexByScope[key] || 0) + 1) % length;
+  }
+
+  function getMode(question) {
+    if (question.type === "multiple") return "choice-multiple";
+    if (["single", "judge"].includes(question.type)) return "choice-single";
+    if (question.type === "fill") return "text";
+    return "essay";
+  }
+
+  function isChoice(question) {
+    return ["single", "multiple", "judge"].includes(question.type) && question.options.length >= 2;
+  }
+
+  function isSubjective(question) {
+    return ["essay", "comprehensive"].includes(question.type);
+  }
+
+  function evaluate(question, selected) {
+    const mode = getMode(question);
+    if (mode === "essay") {
+      return {
+        selected: String(selected || "").trim(),
+        correct: false,
+        needsReview: true,
+        answeredAt: new Date().toISOString()
+      };
+    }
+
+    if (mode === "text") {
+      const expected = acceptedTextAnswers(question);
+      const actual = normalizeTextAnswer(selected);
+      const correct = expected.some((answer) => normalizeTextAnswer(answer) === actual);
+      return {
+        selected: String(selected || "").trim(),
+        correct,
+        answeredAt: new Date().toISOString()
+      };
+    }
+
+    const selectedLetters = normalizeLetters(selected);
+    const correctLetters = normalizeLetters(question.answer);
+    const unscored = question.unscored || correctLetters.length === 0;
+    return {
+      selected: selectedLetters,
+      correct: unscored ? null : selectedLetters.join("") === correctLetters.join(""),
+      unscored,
+      answeredAt: new Date().toISOString()
+    };
+  }
+
+  function markSubjective(answerRecord, correct) {
+    return {
+      ...answerRecord,
+      correct,
+      needsReview: false,
+      reviewedAt: new Date().toISOString()
+    };
+  }
+
+  function acceptedTextAnswers(question) {
+    if (Array.isArray(question.acceptedAnswers) && question.acceptedAnswers.length) return question.acceptedAnswers;
+    return [question.answer].filter(Boolean);
+  }
+
+  function normalizeLetters(value) {
+    if (Array.isArray(value)) return value.map(String).map((item) => item.trim().toUpperCase()).filter(Boolean).sort();
+    return String(value || "")
+      .replace(/[,，\s]+/g, "")
+      .split("")
+      .map((item) => item.trim().toUpperCase())
+      .filter(Boolean)
+      .sort();
+  }
+
+  function normalizeTextAnswer(value) {
+    return String(value || "")
+      .trim()
+      .replace(/\s+/g, "")
+      .replace(/[，。,.、；;：:（）()]/g, "")
+      .toLowerCase();
+  }
+
+  return {
+    scopeKey,
+    getCurrentIndex,
+    goNext,
+    getMode,
+    isChoice,
+    isSubjective,
+    evaluate,
+    markSubjective,
+    normalizeLetters
+  };
+})();
