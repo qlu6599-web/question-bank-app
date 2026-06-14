@@ -79,13 +79,31 @@ def parse_pdf_questions(text, subject, prefix, start_idx=1):
         block = text[match.end(): matches[pos + 1].start() if pos + 1 < len(matches) else len(text)]
         raw_question = re.split(r"\n\s*选项\s*[：:]", block, maxsplit=1)[0]
         raw_question = re.split(r"\n\s*[A-F]\.\s*", raw_question, maxsplit=1)[0]
-        answer_match = re.search(r"正确答案\s*[：:]\s*([A-Fa-f]+|正确|错误|T|F)", block)
-        if not answer_match:
-            continue
-        answer = answer_to_option(answer_match.group(1))
         analysis_match = re.search(r"答案解析\s*[：:]\s*(.*?)(?:\n\s*章节\s*[：:]|$)", block, re.S)
         analysis = clean(analysis_match.group(1)) if analysis_match else ""
         analysis = clean(re.split(r"\n\s*章节\s*[：:]|章节\s*[：:]|---", analysis, maxsplit=1)[0])
+        answer_match = re.search(r"正确答案\s*[：:]\s*((?:[A-Fa-f]+)(?![A-Za-z])|正确|错误|T|F)", block)
+        if not answer_match:
+            generic_answer = re.search(r"正确答案\s*[：:]\s*(.*?)(?:\n\s*答案解析\s*[：:]|\n\s*章节\s*[：:]|答案解析\s*[：:]|章节\s*[：:]|---|$)", block, re.S)
+            if generic_answer:
+                answer_text = clean(generic_answer.group(1))
+                prompt = clean(re.split(r"\n\s*正确答案\s*[：:]", block, maxsplit=1)[0])
+                prompt = re.sub(r"[（(]\s*1\s*[）)]", "____", prompt)
+                prompt = re.sub(r"_+", "____", prompt)
+                if answer_text and "____" in prompt:
+                    questions.append({
+                        "id": f"{prefix}-{start_idx + len(questions)}",
+                        "type": "cloze",
+                        "question": prompt,
+                        "options": [],
+                        "answer": answer_text,
+                        "answerText": answer_text,
+                        "acceptedAnswers": answer_variants(answer_text),
+                        "analysis": analysis or f"本题填空答案为：{answer_text}。",
+                        "source": subject,
+                    })
+            continue
+        answer = answer_to_option(answer_match.group(1))
         option_area = block
         if "正确答案" in option_area:
             option_area = option_area.split("正确答案", 1)[0]
@@ -110,7 +128,41 @@ def parse_pdf_questions(text, subject, prefix, start_idx=1):
                 "analysis": analysis or "参考资料未提供详细解析。",
                 "source": subject,
             })
+            continue
+        override = infer_pdf_cloze_override(subject, raw_question, analysis)
+        if override:
+            question_text, answer_text, accepted = override
+            questions.append({
+                "id": f"{prefix}-{start_idx + len(questions)}",
+                "type": "cloze",
+                "question": question_text,
+                "options": [],
+                "answer": answer_text,
+                "answerText": answer_text,
+                "acceptedAnswers": accepted,
+                "analysis": analysis or f"本题填空答案为：{answer_text}。",
+                "source": subject,
+            })
     return questions
+
+
+def infer_pdf_cloze_override(subject, raw_question, analysis):
+    if subject != "人工智能":
+        return None
+    normalized = re.sub(r"\s+", "", raw_question)
+    if "可信度因子" in normalized and "取值范围" in normalized:
+        return (
+            "在可信度方法中，可信度因子的取值范围是 ____。",
+            "-1 到 1",
+            ["-1 到 1", "-1到1", "[-1,1]", "[-1，1]", "-1～1", "-1~1"],
+        )
+    if "模糊集合" in normalized and "隶属函数" in normalized and "取值范围" in normalized:
+        return (
+            "模糊集合的隶属函数的取值范围是 ____。",
+            "0 到 1",
+            ["0 到 1", "0到1", "[0,1]", "[0，1]", "0～1", "0~1"],
+        )
+    return None
 
 
 def split_labelled_options(text):

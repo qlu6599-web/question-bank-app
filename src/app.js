@@ -1,5 +1,5 @@
 (() => {
-const APP_VERSION = "20260614-v7";
+const APP_VERSION = "20260614-v8";
 const { questionBank, flatQuestions } = window.QuestionData;
 const analyticsService = window.AnalyticsService;
 const aiTutorService = window.AiTutorService;

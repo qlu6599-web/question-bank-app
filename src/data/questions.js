@@ -11114,6 +11114,1307 @@ const questionBank = [
         "answer": "A",
         "analysis": "魏则西事件暴露出百度通过竞价排名误导用户，且未审核医疗信息真实性。",
         "source": "数据科学"
+      },
+      {
+        "id": "ds-201",
+        "type": "cloze",
+        "question": "在DIKW金字塔模型中，数据是信息的载体和原材料，通常是离散、混乱且缺乏明确意\n义的；而____是基于信息形成的系统性理解，包含了模式、原则和策略，可用于预测和指导行\n动。",
+        "options": [],
+        "answer": "知识",
+        "answerText": "知识",
+        "acceptedAnswers": [
+          "知识"
+        ],
+        "analysis": "数据是信息的载体和原材料；知识是基于信息形成的系统性理解。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-202",
+        "type": "cloze",
+        "question": "结构化数据通常存储在关系数据库中，其最直观的呈现形式是____，其中行代表一条\n独立的记录，列代表记录的一个属性。",
+        "options": [],
+        "answer": "二维表格",
+        "answerText": "二维表格",
+        "acceptedAnswers": [
+          "二维表格"
+        ],
+        "analysis": "结构化数据最直观的呈现形式就是二维表格。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-203",
+        "type": "cloze",
+        "question": "从统计学角度划分，性别（1代表男，0代表女）属于____数据，而身高、体重属于定\n比数据。",
+        "options": [],
+        "answer": "定类",
+        "answerText": "定类",
+        "acceptedAnswers": [
+          "定类"
+        ],
+        "analysis": "性别代表类别标签，无数学意义，是定类数据；身高体重可排序且可进行倍数\n 运算，是定比数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-204",
+        "type": "cloze",
+        "question": "数据科学生命周期的第一阶段是____，其核心任务是明确要解决的商业问题，并将其\n转化为具体的数据科学任务。",
+        "options": [],
+        "answer": "业务理解",
+        "answerText": "业务理解",
+        "acceptedAnswers": [
+          "业务理解"
+        ],
+        "analysis": "生命周期的第一阶段是业务理解。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-205",
+        "type": "cloze",
+        "question": "按数据来源划分，企业ERP系统的交易数据属于内部数据，而社交媒体数据和政府公开\n数据通常属于____数据。",
+        "options": [],
+        "answer": "外部",
+        "answerText": "外部",
+        "acceptedAnswers": [
+          "外部"
+        ],
+        "analysis": "产生于组织内部的是内部数据，从组织外部获取（如社交媒体、政府数据）的\n 是外部数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-206",
+        "type": "cloze",
+        "question": "2016年Google发布的Cloud AutoML标志着传统机器学习的调参、特征工程等步骤被自\n动化搜索替代，降低了技术门槛，推动数据科学走向了“____”时代。",
+        "options": [],
+        "answer": "全民化",
+        "answerText": "全民化",
+        "acceptedAnswers": [
+          "全民化"
+        ],
+        "analysis": "AutoML和低代码平台的出现标志着数据科学走向了“全民化”时代。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-207",
+        "type": "cloze",
+        "question": "在数据科学生命周期的第四阶段“探索性数据分析与可视化”中，分析师通常会提出假\n设，例如通过观察散点图来查看变量间的关系，或使用____图来分析变量之间的相关性。",
+        "options": [],
+        "answer": "热力",
+        "answerText": "热力",
+        "acceptedAnswers": [
+          "热力"
+        ],
+        "analysis": "使用热力图分析相关性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-208",
+        "type": "cloze",
+        "question": "关系数据库中的数据被组织为二维表，其中每一____代表一条具体的数据记录，每一\n列用于描述数据的某个属性。",
+        "options": [],
+        "answer": "行",
+        "answerText": "行",
+        "acceptedAnswers": [
+          "行"
+        ],
+        "analysis": "数据被组织为由行和列构成的二维表，每一列描述属性，每一行是记录。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-209",
+        "type": "cloze",
+        "question": "SQL语句 UPDATE table SET param=new____value WHERE condition 的作用是将满足\ncondition条件的字段param更新为____。",
+        "options": [],
+        "answer": "new_value",
+        "answerText": "new_value",
+        "acceptedAnswers": [
+          "new_value"
+        ],
+        "analysis": "该语句用于更新数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-210",
+        "type": "cloze",
+        "question": "NoSQL是“____”的缩写，指的是非关系型、分布式、不保证遵循ACID原则的数据存储\n系统。",
+        "options": [],
+        "answer": "Not only SQL",
+        "answerText": "Not only SQL",
+        "acceptedAnswers": [
+          "Not only SQL",
+          "NotonlySQL"
+        ],
+        "analysis": "NoSQL是“Not only SQL”的缩写。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-211",
+        "type": "cloze",
+        "question": "数据仓库建设中最关键的一环是____，即在数据进入仓库前，必须经过清洗、转换，\n解决命名、编码和格式的不一致，形成统一的视图。",
+        "options": [],
+        "answer": "集成",
+        "answerText": "集成",
+        "acceptedAnswers": [
+          "集成"
+        ],
+        "analysis": "集成是数据仓库建设中最关键的一环。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-212",
+        "type": "cloze",
+        "question": "构建数据仓库的重要环节ETL分别代表数据的____、转换和加载。",
+        "options": [],
+        "answer": "抽取",
+        "answerText": "抽取",
+        "acceptedAnswers": [
+          "抽取"
+        ],
+        "analysis": "ETL表示Extract-Transform-Load，即抽取、转换和加载。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-213",
+        "type": "cloze",
+        "question": "数据集市可以被理解为____级的数据仓库，它面向特定主题或部门提供专门的决策支\n持。",
+        "options": [],
+        "answer": "部门",
+        "answerText": "部门",
+        "acceptedAnswers": [
+          "部门"
+        ],
+        "analysis": "数据集市可以理解为部门级的数据仓库。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-214",
+        "type": "cloze",
+        "question": "在数据仓库的逻辑模型中，____模型简单直观、查询性能高，但存在数据冗余；而雪\n花模型通过将维表分解为多个层级，减少了冗余但增加了复杂度。",
+        "options": [],
+        "answer": "星型",
+        "answerText": "星型",
+        "acceptedAnswers": [
+          "星型"
+        ],
+        "analysis": "星型模型和雪花模型的主要对比特征。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-215",
+        "type": "cloze",
+        "question": "数据湖允许存储任意规模的结构化、半结构化和____数据。",
+        "options": [],
+        "answer": "非结构化",
+        "answerText": "非结构化",
+        "acceptedAnswers": [
+          "非结构化"
+        ],
+        "analysis": "数据湖可以存储结构化、半结构化和非结构化数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-216",
+        "type": "cloze",
+        "question": "数据中台被视为连接“____”与“前台业务”的桥梁，解决了二者之间速度失衡的问题。",
+        "options": [],
+        "answer": "后台数据",
+        "answerText": "后台数据",
+        "acceptedAnswers": [
+          "后台数据"
+        ],
+        "analysis": "数据中台被视为连接“后台数据”与“前台业务”的桥梁。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-217",
+        "type": "cloze",
+        "question": "网络爬虫通过模拟浏览器行为发送HTTP请求，获取服务器返回的响应内容，再经解析\n和清洗，将非结构化或半结构化的网页数据转化为____数据。",
+        "options": [],
+        "answer": "结构化",
+        "answerText": "结构化",
+        "acceptedAnswers": [
+          "结构化"
+        ],
+        "analysis": "爬虫通过模拟浏览器行为发送HTTP请求，最终目标是将非结构化或半结构化的\n 网页数据转化为结构化数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-218",
+        "type": "cloze",
+        "question": "在数据清洗过程中处理缺失值时，对于数值型数据，通常采用均值或____进行填充；\n对于分类数据，则通常采用众数进行填充。",
+        "options": [],
+        "answer": "中位数",
+        "answerText": "中位数",
+        "acceptedAnswers": [
+          "中位数"
+        ],
+        "analysis": "对于数值型数据，可以采用均值、中位数等进行填充；对于分类数据，可采用\n 众数填充。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-219",
+        "type": "cloze",
+        "question": "数据可视化的核心是将数据的属性映射为视觉感知层面的____、长度、颜色、形状、\n面积等，旨在借助图形化手段清晰有效地传达信息。",
+        "options": [],
+        "answer": "位置",
+        "answerText": "位置",
+        "acceptedAnswers": [
+          "位置"
+        ],
+        "analysis": "将数据属性映射为视觉感知层面的位置、长度、颜色、形状、面积等。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-220",
+        "type": "cloze",
+        "question": "在数据可视化工具中，Matplotlib、Seaborn属于____类别，而Tableau、Power BI\n则属于BI商业软件类别。",
+        "options": [],
+        "answer": "开源库",
+        "answerText": "开源库",
+        "acceptedAnswers": [
+          "开源库"
+        ],
+        "analysis": "工具通常分为BI商业软件、开源库、云原生平台三大类。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-221",
+        "type": "cloze",
+        "question": "若要观察数据的分布情况，常用的图表包括直方图和____；若要展示实体之间的复杂\n关系，可以采用热力图或桑基图。",
+        "options": [],
+        "answer": "箱线图",
+        "answerText": "箱线图",
+        "acceptedAnswers": [
+          "箱线图"
+        ],
+        "analysis": "观察数据分布可采用直方图、箱线图、散点图等；展示实体间复杂关系可采用\n 热力图、桑基图等。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-222",
+        "type": "cloze",
+        "question": "在Tableau中，若需要查看销售额的具体数值，可以将“销售额”字段拖入“标记”卡中的\n____，这样当鼠标悬停在图表上时就会显示具体数据。",
+        "options": [],
+        "answer": "工具提示",
+        "answerText": "工具提示",
+        "acceptedAnswers": [
+          "工具提示"
+        ],
+        "analysis": "若需要销售额的具体数值，可以将销售额拖入“标记”-“工具提示”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-223",
+        "type": "cloze",
+        "question": "Tableau中的____功能允许用户将多个可视化图表和仪表板按逻辑顺序组织在一起，\n形成一个连贯的、交互式的演示文稿。",
+        "options": [],
+        "answer": "故事",
+        "answerText": "故事",
+        "acceptedAnswers": [
+          "故事"
+        ],
+        "analysis": "利用Tableau中的“故事”，可以将多个可视化图表和仪表板按逻辑顺序组织在一\n 起。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-224",
+        "type": "cloze",
+        "question": "在Tableau中创建分组时，若希望将除已选定组之外的所有其他类别汇总为一个组，可\n以在下拉菜单中选择____选项。",
+        "options": [],
+        "answer": "其他",
+        "answerText": "其他",
+        "acceptedAnswers": [
+          "其他"
+        ],
+        "analysis": "在使用分组字段时，可在下拉菜单中选择“包括‘其他’”选项，此时除该分组之外\n 的其他类别被汇总为一个名为“其他”的组。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-225",
+        "type": "cloze",
+        "question": "在关联分析中，支持度用于衡量数据对象出现的频率，只有频繁出现的对象才具有分\n析价值；而____则用于衡量如 {A}->{B} 这样关联规则的可信程度。",
+        "options": [],
+        "answer": "置信度",
+        "answerText": "置信度",
+        "acceptedAnswers": [
+          "置信度"
+        ],
+        "analysis": "关联分析利用支持度衡量数据对象出现的频率，利用置信度衡量关联规则的可\n 信程度。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-226",
+        "type": "cloze",
+        "question": "时间序列分析的基础是惯性原则，即在一定条件下，被预测事务过去的变化趋势会延\n续到未来。该分析主要关注四种基本运动：趋势、季节性、____和不规则运动。",
+        "options": [],
+        "answer": "周期性",
+        "answerText": "周期性",
+        "acceptedAnswers": [
+          "周期性"
+        ],
+        "analysis": "时间序列分析基础是惯性原则；主要关注的基本运动包括趋势、季节性、周期\n 性和不规则运动。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-227",
+        "type": "cloze",
+        "question": "高德纳公司的分析师道格·莱尼在2001年首次清晰地将大数据的挑战和特征描述为\n____模型。",
+        "options": [],
+        "answer": "3V",
+        "answerText": "3V",
+        "acceptedAnswers": [
+          "3V"
+        ],
+        "analysis": "道格·莱尼提出了“3V”模型。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-228",
+        "type": "cloze",
+        "question": "大数据的“5V”特征中，____指数据的采集、计算与存储量巨大；时效性强调数据的高\n速流转与实时处理能力；真实性则是保障数据价值实现的基础前提，涉及数据的客观性与可信\n度。",
+        "options": [],
+        "answer": "数量大",
+        "answerText": "数量大",
+        "acceptedAnswers": [
+          "数量大"
+        ],
+        "analysis": "“大数据的概念与特征”部分，分别对应Volume（数量大）、Velocity（时效\n 性）和Veracity（真实性）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-229",
+        "type": "cloze",
+        "question": "大数据思维要求我们从关注因果关系转向关注____关系。",
+        "options": [],
+        "answer": "相关",
+        "answerText": "相关",
+        "acceptedAnswers": [
+          "相关"
+        ],
+        "analysis": "大数据思维强调从因果性转向相关性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-230",
+        "type": "cloze",
+        "question": "在分布式计算中，Google提出了____分布式文件系统。",
+        "options": [],
+        "answer": "GFS",
+        "answerText": "GFS",
+        "acceptedAnswers": [
+          "GFS"
+        ],
+        "analysis": "Google的三篇奠基性论文分别介绍了GFS、MapReduce和BigTable。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-231",
+        "type": "cloze",
+        "question": "Hadoop 2.0版本进行了重大架构升级，将资源管理与任务调度功能从MapReduce中\n解耦，形成了独立的____层，从而支持多种计算框架运行在统一集群之上。",
+        "options": [],
+        "answer": "YARN",
+        "answerText": "YARN",
+        "acceptedAnswers": [
+          "YARN"
+        ],
+        "analysis": "Hadoop 2.0引入了YARN（Yet Another Resource Negotiator）作为独立的资\n 源管理层。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-232",
+        "type": "cloze",
+        "question": "根据技术体系，大数据计算框架可分为四类：批处理框架对有界数据集进行高吞吐量\n计算；____ 框架对无界数据流进行低延迟实时计算；交互式分析框架提供快速查询；增量计算\n框架只计算受影响的数据。",
+        "options": [],
+        "answer": "流式计算",
+        "answerText": "流式计算",
+        "acceptedAnswers": [
+          "流式计算"
+        ],
+        "analysis": "批处理对应有界数据集，流式计算对应无界数据流。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-233",
+        "type": "cloze",
+        "question": "Python凭借强大的第三方库成为大数据开发的实际标准，____库用于提供基础数据\n结构（如数组）。",
+        "options": [],
+        "answer": "NumPy",
+        "answerText": "NumPy",
+        "acceptedAnswers": [
+          "NumPy"
+        ],
+        "analysis": "NumPy提供基础数据结构，Pandas用于构建异构标签数据框架及清洗分析。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-234",
+        "type": "cloze",
+        "question": "SPSS采用统一的Windows标准界面，其数据编辑器采用类似于____的二维表格结\n构。",
+        "options": [],
+        "answer": "Excel",
+        "answerText": "Excel",
+        "acceptedAnswers": [
+          "Excel"
+        ],
+        "analysis": "SPSS的数据编辑器采用类似于Excel的二维表格结构。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-235",
+        "type": "cloze",
+        "question": "Power BI是微软推出的商业智能平台，用户可通过Power Query组件进行直观的数据\n整理与转换，并利用内置的____语言构建复杂业务指标。",
+        "options": [],
+        "answer": "DAX",
+        "answerText": "DAX",
+        "acceptedAnswers": [
+          "DAX"
+        ],
+        "analysis": "Power Query用于数据整理与转换，DAX语言用于构建复杂业务指标。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-236",
+        "type": "cloze",
+        "question": "智慧城市的架构通常分为四个层面：____层负责信息收集，网络层负责信息传输，数\n据层负责信息整合共享，应用层负责信息资源利用。",
+        "options": [],
+        "answer": "感知",
+        "answerText": "感知",
+        "acceptedAnswers": [
+          "感知"
+        ],
+        "analysis": "四层分别为感知层、网络层、数据层和应用层。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-237",
+        "type": "cloze",
+        "question": "随着移动互联网的兴起，人们可以随时随地记录和分享所见所闻，这种“以____为传\n感器”对城市进行感知的群体感知技术开始日渐兴起。",
+        "options": [],
+        "answer": "人",
+        "answerText": "人",
+        "acceptedAnswers": [
+          "人"
+        ],
+        "analysis": "“以人为传感器”的群体感知技术。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-238",
+        "type": "cloze",
+        "question": "大数据在智慧环境领域的应用之一是能源使用管理，安装在电网系统中的____可实时\n收集用户的能耗信息，并按时段调配能源供给。",
+        "options": [],
+        "answer": "传感器",
+        "answerText": "传感器",
+        "acceptedAnswers": [
+          "传感器"
+        ],
+        "analysis": "安装在电网系统中的传感器可实时收集用户的能耗信息。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-239",
+        "type": "cloze",
+        "question": "新加坡推出的“国家电子健康档案系统”简称为____系统，市民通过SingPass登录后可\n查询过往就诊记录。",
+        "options": [],
+        "answer": "EHR",
+        "answerText": "EHR",
+        "acceptedAnswers": [
+          "EHR"
+        ],
+        "analysis": "国家电子健康档案系统简称为EHR（Electronic Health Record）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-240",
+        "type": "cloze",
+        "question": "新加坡在公共出行方面，采用“AI+视频分析”监测地铁车厢客流，若某节车厢拥挤度超\n过____%，系统会自动推送提示引导乘客前往较空的车厢。",
+        "options": [],
+        "answer": "80",
+        "answerText": "80",
+        "acceptedAnswers": [
+          "80"
+        ],
+        "analysis": "若某节车厢拥挤度超过80%，系统自动推送提示。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-241",
+        "type": "cloze",
+        "question": "杭州依托阿里巴巴、海康威视等企业优势，将“____”作为核心引擎，推动数字技术与\n城市治理深度融合。",
+        "options": [],
+        "answer": "城市大脑",
+        "answerText": "城市大脑",
+        "acceptedAnswers": [
+          "城市大脑"
+        ],
+        "analysis": "杭州将“城市大脑”作为核心引擎。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-242",
+        "type": "cloze",
+        "question": "杭州以“让市民少跑腿、____多跑路”为核心，构建起“移动支付+便民服务”的智慧生活\n生态。",
+        "options": [],
+        "answer": "数据",
+        "answerText": "数据",
+        "acceptedAnswers": [
+          "数据"
+        ],
+        "analysis": "核心理念是“让市民少跑腿、数据多跑路”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-243",
+        "type": "cloze",
+        "question": "杭州建设的“全市智慧停车平台”推广了“____车位”模式，鼓励小区、企业将闲置车位\n对外开放，实现错时利用。",
+        "options": [],
+        "answer": "共享",
+        "answerText": "共享",
+        "acceptedAnswers": [
+          "共享"
+        ],
+        "analysis": "杭州推广“共享车位”模式。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-244",
+        "type": "cloze",
+        "question": "杭州政务服务网整合了全市政务服务事项，实现了“一网申请、一网受理、____”。",
+        "options": [],
+        "answer": "一网办结",
+        "answerText": "一网办结",
+        "acceptedAnswers": [
+          "一网办结"
+        ],
+        "analysis": "智慧型的政务服务网，实现了“一网申请、一网受理、一网办结”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-245",
+        "type": "cloze",
+        "question": "在数据挖掘技术中，需要突破数据提取技术，即____处理技术，以便从大量现存非结\n构化数据中提取丰富信息。",
+        "options": [],
+        "answer": "自然语言",
+        "answerText": "自然语言",
+        "acceptedAnswers": [
+          "自然语言"
+        ],
+        "analysis": "数据挖掘技术需要突破数据提取技术（自然语言处理）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-246",
+        "type": "cloze",
+        "question": "物联网的特征在于感知、互联和智能的叠加，其体系架构大致被公认为有三个层次：\n底层是____层，第二层是网络层，最上面则是应用层。",
+        "options": [],
+        "answer": "感知",
+        "answerText": "感知",
+        "acceptedAnswers": [
+          "感知"
+        ],
+        "analysis": "物联网体系架构也大致被公认为有这三个层次：底层是感知层，第二层是网络\n 层，最上面则是应用层。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-247",
+        "type": "cloze",
+        "question": "在物联网中，应用层的主要功能是把感知和传输来的信息进行分析和处理，做出正确\n的控制和决策，这一层主要解决的是____处理和人机界面问题。",
+        "options": [],
+        "answer": "信息",
+        "answerText": "信息",
+        "acceptedAnswers": [
+          "信息"
+        ],
+        "analysis": "应用层解决的是信息处理和人机界面的问题。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-248",
+        "type": "cloze",
+        "question": "物联网产生的数据来源具有显著的“多元性”，不仅包含传统互联网数据，更核心的是来\n自各类物联网终端设备的“____数据”。",
+        "options": [],
+        "answer": "原生",
+        "answerText": "原生",
+        "acceptedAnswers": [
+          "原生"
+        ],
+        "analysis": "来自各类物联网终端设备的“原生数据”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-249",
+        "type": "cloze",
+        "question": "在智能交通的交通诱导中，除了发布实时路况外，还可以通过“ ____+实时交通状态\n+实时交通事件”的形式发布城市路网的实时交通状态。",
+        "options": [],
+        "answer": "GIS",
+        "answerText": "GIS",
+        "acceptedAnswers": [
+          "GIS"
+        ],
+        "analysis": "通过公共Internet网络平台以“GIS+实时交通状态+实时交通事件”的形式发布城\n 市路网的实时交通状态。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-250",
+        "type": "cloze",
+        "question": "在智能家居的家庭医疗应用中，移动医疗系统可收集三类生理信号，包括连续型时变\n生理信号、____型时变生理信号以及人体活动和动作信号。",
+        "options": [],
+        "answer": "离散",
+        "answerText": "离散",
+        "acceptedAnswers": [
+          "离散"
+        ],
+        "analysis": "连续型时变生理信号、离散型时变生理信号以及人体活动和动作信号。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-251",
+        "type": "cloze",
+        "question": "上海交通综合信息平台应用了线圈、出租车GPS信息、手机信令、____系统、牌照识\n别等多种技术手段。",
+        "options": [],
+        "answer": "SCATS",
+        "answerText": "SCATS",
+        "acceptedAnswers": [
+          "SCATS"
+        ],
+        "analysis": "应用线圈、出租车GPS信息、手机信令、SCATS系统、牌照识别、微波等多种技\n 术手段。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-252",
+        "type": "cloze",
+        "question": "在Savi Networks公司的食品监控方案中，集装箱封锁发送的数据被转发到由控制中心\n管理的____服务器，供客户通过互联网获取信息。",
+        "options": [],
+        "answer": "Web",
+        "answerText": "Web",
+        "acceptedAnswers": [
+          "Web"
+        ],
+        "analysis": "货物集装箱封锁发送的数据，被转发到由Savi Networks公司控制中心管理的\n Web服务器。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-253",
+        "type": "cloze",
+        "question": "普罗斯维茨城堡酒庄利用物联网与大数据技术，构建了“环境-生长-____”关联模型，\n通过长期积累的数据对比分析，实现“一地一策”的精细化种植。",
+        "options": [],
+        "answer": "品质",
+        "answerText": "品质",
+        "acceptedAnswers": [
+          "品质"
+        ],
+        "analysis": "通过机器学习算法构建起“环境-生长-品质”关联模型。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-254",
+        "type": "cloze",
+        "question": "上海地铁18号线二期预计于2025年底前实现初期运营，全线搭载基于____车地无线\n通信的全自动驾驶信号系统。",
+        "options": [],
+        "answer": "LTE",
+        "answerText": "LTE",
+        "acceptedAnswers": [
+          "LTE"
+        ],
+        "analysis": "18号线二期全线搭载基于LTE车地无线通信的全自动驾驶信号系统。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-255",
+        "type": "cloze",
+        "question": "商务智能是指利用数据仓库、数据可视化与分析技术，将指定的数据转化为____和知\n识的解决方案。",
+        "options": [],
+        "answer": "信息",
+        "answerText": "信息",
+        "acceptedAnswers": [
+          "信息"
+        ],
+        "analysis": "商业智能是利用数据仓库、数据可视化与分析技术，将指定的数据转化为信息\n 和知识的解决方案。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-256",
+        "type": "cloze",
+        "question": "商务智能的功能架构一般分为三个功能层级：负责管理数据（包括采集、ETL等）的\n____层；利用OLAP、数据挖掘等方法进行处理的数据分析层；以及呈现报表和可视化图表的\n数据展示层。",
+        "options": [],
+        "answer": "数据底层",
+        "answerText": "数据底层",
+        "acceptedAnswers": [
+          "数据底层"
+        ],
+        "analysis": "一般BI系统的功能架构分为数据底层、数据分析和数据展示三个功能层级。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-257",
+        "type": "cloze",
+        "question": "数据仓库是商务智能的基础，它是一个面向____的、集成的、稳定的、不同时间的数\n据集合。",
+        "options": [],
+        "answer": "主题",
+        "answerText": "主题",
+        "acceptedAnswers": [
+          "主题"
+        ],
+        "analysis": "数据仓库就是面向主题的、集成的、稳定的、不同时间的数据集合。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-258",
+        "type": "cloze",
+        "question": "在营销渠道效果分析中，BI系统通过追踪各渠道的流量来源、转化路径等指标，可以\n量化各渠道的营销效果，从而提升营销投入的____。",
+        "options": [],
+        "answer": "产出比",
+        "answerText": "产出比",
+        "acceptedAnswers": [
+          "产出比"
+        ],
+        "analysis": "商务智能通过对营销数据的全链路分析，提升营销投入产出比。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-259",
+        "type": "cloze",
+        "question": "在供应链领域，BI系统可以通过整合物流数据、订单数据及仓储数据，采用____算法\n来规划最优配送路线，从而降低运输成本。",
+        "options": [],
+        "answer": "路径优化",
+        "answerText": "路径优化",
+        "acceptedAnswers": [
+          "路径优化"
+        ],
+        "analysis": "BI系统采用路径优化算法优化物流配送路线。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-260",
+        "type": "cloze",
+        "question": "在财务领域，BI系统通过构建财务风险预警模型，可以实时监控企业的____风险、流\n动性风险和信用风险等。",
+        "options": [],
+        "answer": "偿债",
+        "answerText": "偿债",
+        "acceptedAnswers": [
+          "偿债"
+        ],
+        "analysis": "实时监控企业的偿债风险、流动性风险、信用风险等潜在风险。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-261",
+        "type": "cloze",
+        "question": "在客户关系管理中，针对潜在的流失客户，BI系统可以通过构建____模型进行识别，\n并分析流失原因，帮助企业制定挽回策略。",
+        "options": [],
+        "answer": "客户流失预警",
+        "answerText": "客户流失预警",
+        "acceptedAnswers": [
+          "客户流失预警"
+        ],
+        "analysis": "BI系统通过分析客户的行为数据，构建客户流失预警模型。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-262",
+        "type": "cloze",
+        "question": "在金融信贷业务中，BI系统通过整合多维度数据构建机器学习驱动的风险评估模型，\n对个人信贷重点分析收入稳定性、____习惯及还款意愿。",
+        "options": [],
+        "answer": "消费",
+        "answerText": "消费",
+        "acceptedAnswers": [
+          "消费"
+        ],
+        "analysis": "对个人信贷，重点分析收入稳定性、消费习惯及还款意愿。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-263",
+        "type": "cloze",
+        "question": "2013年，Gartner对BI概念进行了扩展，将“Business Intelligence”与“Analytics”合\n并，提出了____的新定义。",
+        "options": [],
+        "answer": "分析与商业智能",
+        "answerText": "分析与商业智能",
+        "acceptedAnswers": [
+          "分析与商业智能"
+        ],
+        "analysis": "2013年，Gartner集团对BI的概念进行了更新与扩展，合并成“分析与商业智\n 能”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-264",
+        "type": "cloze",
+        "question": "医疗大数据的数据结构多样，其中Word、PDF文档、音视频、影像等属于____数\n据。",
+        "options": [],
+        "answer": "非结构化",
+        "answerText": "非结构化",
+        "acceptedAnswers": [
+          "非结构化"
+        ],
+        "analysis": "非结构化数据包括Word、PDF文档、音视频、影像等多类数据。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-265",
+        "type": "cloze",
+        "question": "智慧医疗通过整合各类医疗信息资源，构建了卫生领域的6大基础数据库，包括药品目\n录数据库、居民健康档案数据库、____数据库、检验数据库、医疗人员数据库和医疗设备数据\n库。",
+        "options": [],
+        "answer": "影像",
+        "answerText": "影像",
+        "acceptedAnswers": [
+          "影像"
+        ],
+        "analysis": "6大基础数据库。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-266",
+        "type": "cloze",
+        "question": "在临床医疗领域，国内研究人员利用“大数据+____”技术实现了色素性皮肤病的计算\n机辅助诊断。",
+        "options": [],
+        "answer": "深度学习",
+        "answerText": "深度学习",
+        "acceptedAnswers": [
+          "深度学习"
+        ],
+        "analysis": "国内由国家卫计委统计信息中心和电子科技大学共同组建的研究院，利用“大数\n 据+深度学习”技术实现了色素性皮肤病的计算机辅助诊断。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-267",
+        "type": "cloze",
+        "question": "在医药研发中，____研究日益成为一大趋势，建设合规的数据查询平台可以很大程度\n地提升该类研究的效率和准确率。",
+        "options": [],
+        "answer": "真实世界",
+        "answerText": "真实世界",
+        "acceptedAnswers": [
+          "真实世界"
+        ],
+        "analysis": "真实世界研究日益成为医药研发的一大趋势。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-268",
+        "type": "cloze",
+        "question": "医疗大数据在保险领域的一个重要应用是帮助医保机构快速筛选出存在____风险的索\n赔请求，例如分解住院、不合理医疗检查项目等。",
+        "options": [],
+        "answer": "欺诈",
+        "answerText": "欺诈",
+        "acceptedAnswers": [
+          "欺诈"
+        ],
+        "analysis": "大数据分析可以帮助医保机构找出风险问题，快速筛选出存在欺诈风险的索赔\n 请求。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-269",
+        "type": "cloze",
+        "question": "医疗大数据具有____性，患者的就诊和疾病发病过程在时间上有一个进度，医学检测\n的波形、图像均为时间函数。",
+        "options": [],
+        "answer": "时序",
+        "answerText": "时序",
+        "acceptedAnswers": [
+          "时序"
+        ],
+        "analysis": "患者就诊、疾病发病过程在时间上有一个进度，体现了时序性。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-270",
+        "type": "cloze",
+        "question": "智能问诊系统通过采集与分析海量医疗数据，构建医学____，模拟医生问诊流程与用\n户进行多轮交流。",
+        "options": [],
+        "answer": "知识库",
+        "answerText": "知识库",
+        "acceptedAnswers": [
+          "知识库"
+        ],
+        "analysis": "智能问诊应用是通过采集与分析海量医疗数据、专业文献，构建医学知识库，\n 经人工智能产品设计实现。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-271",
+        "type": "cloze",
+        "question": "推荐系统的核心目标是解决“____”与“个性化需求”的矛盾，让用户在无需主动搜索的\n情况下，高效发现潜在需求。",
+        "options": [],
+        "answer": "信息过载",
+        "answerText": "信息过载",
+        "acceptedAnswers": [
+          "信息过载"
+        ],
+        "analysis": "推荐系统的核心目标是解决“信息过载”与“个性化需求”的矛盾。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-272",
+        "type": "cloze",
+        "question": "协同过滤推荐主要分为两类：基于____的协同过滤（找到兴趣相似的邻居）和基于物\n品的协同过滤。",
+        "options": [],
+        "answer": "用户",
+        "answerText": "用户",
+        "acceptedAnswers": [
+          "用户"
+        ],
+        "analysis": "协同过滤分为“基于用户的协同过滤”与“基于物品的协同过滤”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-273",
+        "type": "cloze",
+        "question": "为了解决单一推荐算法的局限性，实际应用中常采用____推荐，例如将协同过滤与基\n于内容的算法进行加权融合或串联融合。",
+        "options": [],
+        "answer": "混合",
+        "answerText": "混合",
+        "acceptedAnswers": [
+          "混合"
+        ],
+        "analysis": "多数推荐系统会采用“混合推荐”——将多种算法有机结合，弥补单一算法的缺\n 陷。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-274",
+        "type": "cloze",
+        "question": "在推荐系统架构中，____计算层处理海量历史数据，核心目标是提升推荐精准度；而\n实时计算层处理用户当前行为，核心目标是捕捉即时兴趣。",
+        "options": [],
+        "answer": "离线",
+        "answerText": "离线",
+        "acceptedAnswers": [
+          "离线"
+        ],
+        "analysis": "系统通常分为“离线计算”与“实时计算”两层，分别负责长期精准度和即时响应。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-275",
+        "type": "cloze",
+        "question": "沃尔玛利用大数据进行购物篮分析，发现年轻父亲在购买婴儿尿布时，往往会同时购\n买____，从而调整了商品摆放策略。",
+        "options": [],
+        "answer": "啤酒",
+        "answerText": "啤酒",
+        "acceptedAnswers": [
+          "啤酒"
+        ],
+        "analysis": "这是经典的“啤酒与尿布”案例。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-276",
+        "type": "cloze",
+        "question": "在零售供应链中，大数据通过构建“____数据中台”，实时整合所有渠道的库存信息，\n打破信息孤岛，实现全局库存可视化。",
+        "options": [],
+        "answer": "全域库存",
+        "answerText": "全域库存",
+        "acceptedAnswers": [
+          "全域库存"
+        ],
+        "analysis": "大数据通过构建“全域库存数据中台”，实时整合所有渠道的库存信息。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-277",
+        "type": "cloze",
+        "question": "智能物流经历了从自动化、信息化到____化的演进，如今借助大数据与物联网，已能\n实现全链路实时协同。",
+        "options": [],
+        "answer": "网络",
+        "answerText": "网络",
+        "acceptedAnswers": [
+          "网络"
+        ],
+        "analysis": "智能物流经历了“自动化-信息化-网络化”的演进。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-278",
+        "type": "cloze",
+        "question": "在城市配送中，美团外卖的智能调度系统会为每个配送员规划最优路线，同时考虑\n“____优先级”，例如生鲜订单优先配送。",
+        "options": [],
+        "answer": "订单",
+        "answerText": "订单",
+        "acceptedAnswers": [
+          "订单"
+        ],
+        "analysis": "系统规划路线时会考虑“订单优先级”，如生鲜订单优先。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-279",
+        "type": "cloze",
+        "question": "物流领域的“____说”认为物流成本如冰山，水面下的隐性成本占比超80%，而大数据\n可以让这些隐性成本显形。",
+        "options": [],
+        "answer": "物流冰山",
+        "answerText": "物流冰山",
+        "acceptedAnswers": [
+          "物流冰山"
+        ],
+        "analysis": "西泽修提出的“物流冰山说”认为物流隐性成本巨大。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-280",
+        "type": "cloze",
+        "question": "餐饮企业构建用户画像时，通常包括基础属性、____行为（如消费频次、客单价）和\n场景需求三个维度。",
+        "options": [],
+        "answer": "消费",
+        "answerText": "消费",
+        "acceptedAnswers": [
+          "消费"
+        ],
+        "analysis": "用户画像包括基础属性、消费行为、场景需求。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-281",
+        "type": "cloze",
+        "question": "在餐饮新品研发中，大数据可以帮助测算____成本，结合供应链数据和库存情况，确\n保新品毛利率不低于行业平均水平。",
+        "options": [],
+        "answer": "食材",
+        "answerText": "食材",
+        "acceptedAnswers": [
+          "食材"
+        ],
+        "analysis": "大数据从用户需求、市场热度、食材成本三个维度支持新品研发。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-282",
+        "type": "cloze",
+        "question": "餐饮选址是“生死线”，大数据可以通过分析____、消费能力、竞争格局和租金成本等\n维度，精准定位高潜力区域。",
+        "options": [],
+        "answer": "人流量",
+        "answerText": "人流量",
+        "acceptedAnswers": [
+          "人流量"
+        ],
+        "analysis": "智能选址分析的第一个维度通常是人流量。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-283",
+        "type": "cloze",
+        "question": "Netflix推出的剧集《____》是大数据赋能影视创作的里程碑案例，其成功证明了大数\n据可将用户需求转化为内容生产力。",
+        "options": [],
+        "answer": "纸牌屋",
+        "answerText": "纸牌屋",
+        "acceptedAnswers": [
+          "纸牌屋"
+        ],
+        "analysis": "2013年Netflix推出的《纸牌屋》是大数据赋能影视创作的里程碑案例。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-284",
+        "type": "cloze",
+        "question": "线上影视平台的推荐系统不仅关注用户的显性行为，还挖掘____行为，如观看时长、\n快进/暂停节点等，以构建更精准的用户画像。",
+        "options": [],
+        "answer": "隐性",
+        "answerText": "隐性",
+        "acceptedAnswers": [
+          "隐性"
+        ],
+        "analysis": "平台通过用户“显性行为”与“隐性行为”构建多维度画像。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-285",
+        "type": "cloze",
+        "question": "在影视商业化变现中，大数据能识别“高潜力____用户”，例如连续多天观看且收藏多\n部作品的用户，从而进行定向优惠推送。",
+        "options": [],
+        "answer": "付费",
+        "answerText": "付费",
+        "acceptedAnswers": [
+          "付费"
+        ],
+        "analysis": "大数据能识别“高潜力付费用户”并促进转化。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-286",
+        "type": "cloze",
+        "question": "餐饮O2O模式通过线上引流、线下消费和线上____形成闭环，利用数据持续优化运\n营。",
+        "options": [],
+        "answer": "反馈",
+        "answerText": "反馈",
+        "acceptedAnswers": [
+          "反馈"
+        ],
+        "analysis": "数据闭环包括线上引流、线下消费、用户反馈（评价）。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-287",
+        "type": "cloze",
+        "question": "传统数据安全面临的三类主要风险是计算机病毒、____攻击以及存储介质损坏与操作\n失误。",
+        "options": [],
+        "answer": "黑客",
+        "answerText": "黑客",
+        "acceptedAnswers": [
+          "黑客"
+        ],
+        "analysis": "传统数据安全面临的三类主要风险是计算机病毒、黑客攻击、存储介质损坏与\n 操作失误。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-288",
+        "type": "cloze",
+        "question": "大数据时代，黑客利用大数据技术隐藏攻击轨迹，通过持续渗透逐步获取数据，这种\n攻击被称为“____”（简称APT攻击）。",
+        "options": [],
+        "answer": "高级可持续攻击",
+        "answerText": "高级可持续攻击",
+        "acceptedAnswers": [
+          "高级可持续攻击"
+        ],
+        "analysis": "大数据成为“高级可持续攻击”（APT攻击）的载体。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-289",
+        "type": "cloze",
+        "question": "2018年，华住旗下连锁酒店近5亿条开房信息在____出售，包含用户姓名、身份证号\n等敏感数据。",
+        "options": [],
+        "answer": "暗网",
+        "answerText": "暗网",
+        "acceptedAnswers": [
+          "暗网"
+        ],
+        "analysis": "2018年华住旗下酒店信息在暗网出售。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-290",
+        "type": "cloze",
+        "question": "滴滴数据安全事件中，滴滴因将大量包含____坐标的高精度出行数据出境，违反了数\n据跨境流动的相关规定。",
+        "options": [],
+        "answer": "地理",
+        "answerText": "地理",
+        "acceptedAnswers": [
+          "地理"
+        ],
+        "analysis": "滴滴将大量包含地理坐标的高精度出行数据出境。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-291",
+        "type": "cloze",
+        "question": "大数据保护的____原则要求确认数据为独立的法律保护客体，明确数据的权属关系与\n保护边界。",
+        "options": [],
+        "answer": "数据保护",
+        "answerText": "数据保护",
+        "acceptedAnswers": [
+          "数据保护"
+        ],
+        "analysis": "数据保护原则的核心是确认“数据为独立的法律保护客体”。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-292",
+        "type": "cloze",
+        "question": "为了防范数据泄露，个人应养成安全习惯，例如设置复杂且不同的平台密码，避免\n“____通用”。",
+        "options": [],
+        "answer": "一码",
+        "answerText": "一码",
+        "acceptedAnswers": [
+          "一码"
+        ],
+        "analysis": "个人应避免“一码通用”，设置复杂且不同的平台密码。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-293",
+        "type": "cloze",
+        "question": "云杀毒软件利用____基础设施与大数据分析技术，自动处理海量客户端上传的威胁信\n息。",
+        "options": [],
+        "answer": "云计算",
+        "answerText": "云计算",
+        "acceptedAnswers": [
+          "云计算"
+        ],
+        "analysis": "云杀毒利用云计算基础设施与大数据分析技术。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-294",
+        "type": "cloze",
+        "question": "大数据伦理包含三个维度：数据采集的伦理、数据使用的伦理和____决策的伦理。",
+        "options": [],
+        "answer": "算法",
+        "answerText": "算法",
+        "acceptedAnswers": [
+          "算法"
+        ],
+        "analysis": "三个维度是数据采集、数据使用、算法决策。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-295",
+        "type": "cloze",
+        "question": "在“万物皆可数据化”的环境中，人被简化为“数据标签”，导致真实的人被“数据塑造的身\n份”替代，陷入“主体____”的困境。",
+        "options": [],
+        "answer": "异化",
+        "answerText": "异化",
+        "acceptedAnswers": [
+          "异化"
+        ],
+        "analysis": "“主体异化”的困境。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-296",
+        "type": "cloze",
+        "question": "数字鸿沟本质上是一个关乎____正义的伦理问题，能否接入并利用数据已成为能否平\n等参与社会发展的关键。",
+        "options": [],
+        "answer": "公平",
+        "answerText": "公平",
+        "acceptedAnswers": [
+          "公平"
+        ],
+        "analysis": "数字鸿沟本质上是一个关乎公平正义的伦理问题。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-297",
+        "type": "cloze",
+        "question": "数据真实性是大数据应用的伦理底线，若数据失信或失真，可能引发严重后果，例如\n在精准医疗中导致____。",
+        "options": [],
+        "answer": "误诊",
+        "answerText": "误诊",
+        "acceptedAnswers": [
+          "误诊"
+        ],
+        "analysis": "失真的健康数据可能导致误诊。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-298",
+        "type": "cloze",
+        "question": "为了解决外卖骑手“困在算法里”的问题，部分平台推出了“____时长”申请，允许骑手\n在恶劣天气或交通拥堵时延长配送时间。",
+        "options": [],
+        "answer": "弹性",
+        "answerText": "弹性",
+        "acceptedAnswers": [
+          "弹性"
+        ],
+        "analysis": "美团推出“安准卡”制度，允许骑手使用“弹性时长”申请。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-299",
+        "type": "cloze",
+        "question": "徐玉玉事件是大数据时代____泄露引发严重后果的标志性案例，黑客窃取了高考报名\n系统中的敏感信息。",
+        "options": [],
+        "answer": "隐私",
+        "answerText": "隐私",
+        "acceptedAnswers": [
+          "隐私"
+        ],
+        "analysis": "徐玉玉事件是隐私泄露引发严重后果的案例。",
+        "source": "数据科学"
+      },
+      {
+        "id": "ds-300",
+        "type": "cloze",
+        "question": "2019年央视“3·15”晚会曝光的“____盒子”，可以在用户不知情的情况下自动捕捉手\n机MAC地址并关联个人信息。",
+        "options": [],
+        "answer": "探针",
+        "answerText": "探针",
+        "acceptedAnswers": [
+          "探针"
+        ],
+        "analysis": "探针盒子。",
+        "source": "数据科学"
       }
     ]
   },
@@ -11710,6 +13011,24 @@ const questionBank = [
       },
       {
         "id": "ai-43",
+        "type": "cloze",
+        "question": "在可信度方法中，可信度因子的取值范围是 ____。",
+        "options": [],
+        "answer": "-1 到 1",
+        "answerText": "-1 到 1",
+        "acceptedAnswers": [
+          "-1 到 1",
+          "-1到1",
+          "[-1,1]",
+          "[-1，1]",
+          "-1～1",
+          "-1~1"
+        ],
+        "analysis": "可信度因子 在 之间取值。若大于0表示证据支持结论；小于0表示证据反对结论。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-44",
         "type": "single",
         "question": "当 时，其含义是？",
         "options": [
@@ -11723,7 +13042,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-44",
+        "id": "ai-45",
         "type": "single",
         "question": "可信度模型中，若 ，则表示？",
         "options": [
@@ -11737,7 +13056,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-45",
+        "id": "ai-46",
         "type": "single",
         "question": "在证据理论中，设 是由互斥的备选答案组成的集合，则 被称为？",
         "options": [
@@ -11751,7 +13070,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-46",
+        "id": "ai-47",
         "type": "single",
         "question": "证据理论中，概率分配函数 的所有子集 的分配值之和必须等于？",
         "options": [
@@ -11765,7 +13084,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-47",
+        "id": "ai-48",
         "type": "single",
         "question": "信任函数 表示对 的什么程度？",
         "options": [
@@ -11779,7 +13098,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-48",
+        "id": "ai-49",
         "type": "single",
         "question": "似然函数 表示对 的什么程度？",
         "options": [
@@ -11793,7 +13112,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-49",
+        "id": "ai-50",
         "type": "single",
         "question": "模糊集合理论是由哪位科学家在1965年首次提出的？",
         "options": [
@@ -11807,7 +13126,25 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-50",
+        "id": "ai-51",
+        "type": "cloze",
+        "question": "模糊集合的隶属函数的取值范围是 ____。",
+        "options": [],
+        "answer": "0 到 1",
+        "answerText": "0 到 1",
+        "acceptedAnswers": [
+          "0 到 1",
+          "0到1",
+          "[0,1]",
+          "[0，1]",
+          "0～1",
+          "0~1"
+        ],
+        "analysis": "模糊集合的隶属度在闭区间 之间。",
+        "source": "人工智能"
+      },
+      {
+        "id": "ai-52",
         "type": "single",
         "question": "若模糊集 年轻，非常年轻，则 通常可以用 的隶属函数的何种运算表示？",
         "options": [
@@ -11821,7 +13158,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-51",
+        "id": "ai-53",
         "type": "single",
         "question": "模糊关系合成运算中，最常用的方法是？",
         "options": [
@@ -11835,7 +13172,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-52",
+        "id": "ai-54",
         "type": "single",
         "question": "在模糊推理中，将模糊的推理结果转化为精确数值输出的过程称为？",
         "options": [
@@ -11849,7 +13186,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-53",
+        "id": "ai-55",
         "type": "single",
         "question": "反模糊化方法中，取模糊集隶属度最大的点作为代表值的方法是？",
         "options": [
@@ -11863,7 +13200,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-54",
+        "id": "ai-56",
         "type": "single",
         "question": "证据理论中的“空集”的基本概率分配 规定为？",
         "options": [
@@ -11877,7 +13214,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-55",
+        "id": "ai-57",
         "type": "single",
         "question": "下列关于不确定性推理的说法，正确的是？",
         "options": [
@@ -11891,7 +13228,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-56",
+        "id": "ai-58",
         "type": "single",
         "question": "在可信度方法中，若证据 由多个子证据 析取（OR）而成，则 取值为？",
         "options": [
@@ -11903,7 +13240,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-57",
+        "id": "ai-59",
         "type": "single",
         "question": "模糊集合的“交”运算对应于逻辑运算中的？",
         "options": [
@@ -11917,7 +13254,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-58",
+        "id": "ai-60",
         "type": "single",
         "question": "隶属函数 表示个体 与模糊集 的关系是？",
         "options": [
@@ -11931,7 +13268,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-59",
+        "id": "ai-61",
         "type": "single",
         "question": "在人工智能中，搜索是指为了达到某一目标，不断寻找什么的过程？",
         "options": [
@@ -11945,7 +13282,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-60",
+        "id": "ai-62",
         "type": "single",
         "question": "状态空间法中，用于描述对象在某一时刻特征的数据结构被称为？",
         "options": [
@@ -11959,7 +13296,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-61",
+        "id": "ai-63",
         "type": "single",
         "question": "在状态空间表示法中，引起状态转移的操作被称为？",
         "options": [
@@ -11973,7 +13310,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-62",
+        "id": "ai-64",
         "type": "single",
         "question": "状态空间的一个四元组表示为 ，其中 代表？",
         "options": [
@@ -11987,7 +13324,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-63",
+        "id": "ai-65",
         "type": "single",
         "question": "盲目搜索策略与启发式搜索策略的主要区别在于？",
         "options": [
@@ -12001,7 +13338,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-64",
+        "id": "ai-66",
         "type": "single",
         "question": "宽度优先搜索（BFS）通常使用哪种数据结构来保存待扩展的节点？",
         "options": [
@@ -12015,7 +13352,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-65",
+        "id": "ai-67",
         "type": "single",
         "question": "深度优先搜索（DFS）在搜索过程中，若当前节点不可扩展且非目标点，则下一步\n操作是？",
         "options": [
@@ -12029,7 +13366,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-66",
+        "id": "ai-68",
         "type": "single",
         "question": "回溯策略与深度优先搜索的主要区别在于回溯策略主要在什么空间中进行？",
         "options": [
@@ -12043,7 +13380,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-67",
+        "id": "ai-69",
         "type": "single",
         "question": "启发式搜索中，用于估计从当前节点 到目标节点所需代价的函数记为？",
         "options": [
@@ -12055,7 +13392,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-68",
+        "id": "ai-70",
         "type": "single",
         "question": "在 中， 代表的含义是？",
         "options": [
@@ -12069,7 +13406,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-69",
+        "id": "ai-71",
         "type": "single",
         "question": "如果一个算法在满足 （ 为实际最小代价）的条件下，一定能找到最优解，则该算\n法被称为？",
         "options": [
@@ -12083,7 +13420,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-70",
+        "id": "ai-72",
         "type": "single",
         "question": "A* 算法的启发信息 越大，则意味着？",
         "options": [
@@ -12097,7 +13434,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-71",
+        "id": "ai-73",
         "type": "single",
         "question": "蒙特卡洛树搜索（MCTS）是由谁在2006年首次发明的？",
         "options": [
@@ -12111,7 +13448,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-72",
+        "id": "ai-74",
         "type": "single",
         "question": "蒙特卡洛树搜索（MCTS）通常包含四个步骤，其正确的顺序是？",
         "options": [
@@ -12125,7 +13462,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-73",
+        "id": "ai-75",
         "type": "single",
         "question": "MCTS 的“选择”步骤主要依据什么结果来选择最优子步骤？",
         "options": [
@@ -12139,7 +13476,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-74",
+        "id": "ai-76",
         "type": "single",
         "question": "在 MCTS 的“拓展”步骤中，如果一个节点不是目标节点且尚未完全展开，通常会？",
         "options": [
@@ -12153,7 +13490,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-75",
+        "id": "ai-77",
         "type": "single",
         "question": "MCTS 的“模拟”步骤又被称为？",
         "options": [
@@ -12167,7 +13504,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-76",
+        "id": "ai-78",
         "type": "single",
         "question": "在 A* 算法中，若 且每条边权值为 1，则该算法退化为？",
         "options": [
@@ -12181,7 +13518,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-77",
+        "id": "ai-79",
         "type": "single",
         "question": "状态空间图中，从一个节点到另一个节点的弧线表示？",
         "options": [
@@ -12195,7 +13532,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-78",
+        "id": "ai-80",
         "type": "single",
         "question": "状态空间搜索中，如果从初始状态到目标状态存在多条路径，搜索的主要任务是？",
         "options": [
@@ -12209,7 +13546,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-79",
+        "id": "ai-81",
         "type": "single",
         "question": "智能计算（Computational Intelligence, CI）受自然界和生物界规律启迪，下列不属\n于智能计算典型算法的是？",
         "options": [
@@ -12223,7 +13560,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-80",
+        "id": "ai-82",
         "type": "single",
         "question": "遗传算法（Genetic Algorithm, GA）最早是由哪位科学家提出的？",
         "options": [
@@ -12237,7 +13574,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-81",
+        "id": "ai-83",
         "type": "single",
         "question": "在遗传算法中，用于模拟生物进化过程中优胜劣汰现象的操作是？",
         "options": [
@@ -12251,7 +13588,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-82",
+        "id": "ai-84",
         "type": "single",
         "question": "遗传算法中，将问题的解空间转换到算法能处理的搜索空间的过程称为？",
         "options": [
@@ -12265,7 +13602,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-83",
+        "id": "ai-85",
         "type": "single",
         "question": "关于二进制编码的缺点，下列描述正确的是？",
         "options": [
@@ -12279,7 +13616,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-84",
+        "id": "ai-86",
         "type": "single",
         "question": "适应度函数（Fitness Function）在遗传算法中的作用是？",
         "options": [
@@ -12293,7 +13630,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-85",
+        "id": "ai-87",
         "type": "single",
         "question": "最常用的选择算子是轮盘赌选择法，它是基于什么比例来进行选择的？",
         "options": [
@@ -12307,7 +13644,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-86",
+        "id": "ai-88",
         "type": "single",
         "question": "遗传算法中，实现群体进化和产生新个体的核心环节是？",
         "options": [
@@ -12321,7 +13658,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-87",
+        "id": "ai-89",
         "type": "single",
         "question": "变异操作的主要目的是？",
         "options": [
@@ -12335,7 +13672,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-88",
+        "id": "ai-90",
         "type": "single",
         "question": "模式定理（Schema Theorem）说明了具有低阶、短定义长度以及什么特征的模式\n在进化中会指数级增长？",
         "options": [
@@ -12349,7 +13686,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-89",
+        "id": "ai-91",
         "type": "single",
         "question": "当遗传算法在寻找全局最优解之前，群体中所有个体都趋于一致且停止进化，这种\n现象称为？",
         "options": [
@@ -12363,7 +13700,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-90",
+        "id": "ai-92",
         "type": "single",
         "question": "粒子群优化算法（PSO）最初是受什么生物行为的启发而设计的？",
         "options": [
@@ -12377,7 +13714,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-91",
+        "id": "ai-93",
         "type": "single",
         "question": "在 PSO 算法中，每个粒子根据两个“极值”来更新其速度和位置，这两个极值分别\n是？",
         "options": [
@@ -12391,7 +13728,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-92",
+        "id": "ai-94",
         "type": "single",
         "question": "蚁群算法（ACO）中，蚂蚁留下的用于传递路径信息的化学物质称为？",
         "options": [
@@ -12405,7 +13742,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-93",
+        "id": "ai-95",
         "type": "single",
         "question": "在蚁群算法中，信息素浓度的更新包含信息素的累积和什么过程？",
         "options": [
@@ -12419,7 +13756,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-94",
+        "id": "ai-96",
         "type": "single",
         "question": "蚁群优化算法最成功、应用最广泛的典型领域是？",
         "options": [
@@ -12433,7 +13770,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-95",
+        "id": "ai-97",
         "type": "single",
         "question": "在基本蚁群算法模型中，效果最好且通常作为基本模型的是？",
         "options": [
@@ -12447,7 +13784,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-96",
+        "id": "ai-98",
         "type": "single",
         "question": "在 PSO 算法中，学习因子 和 通常被称为？",
         "options": [
@@ -12461,7 +13798,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-97",
+        "id": "ai-99",
         "type": "single",
         "question": "智能计算通常被归类为哪种类型的优化方法？",
         "options": [
@@ -12475,7 +13812,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-98",
+        "id": "ai-100",
         "type": "single",
         "question": "遗传算法中，若采用格雷码（Gray Code）编码，其主要优势是？",
         "options": [
@@ -12489,7 +13826,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-99",
+        "id": "ai-101",
         "type": "single",
         "question": "机器学习（Machine Learning）研究的是如何使计算机能够模拟或实现人类的什么\n行为？",
         "options": [
@@ -12503,7 +13840,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-100",
+        "id": "ai-102",
         "type": "single",
         "question": "汤姆·米切尔（Tom Mitchell）对机器学习的定义中，三个核心要素分别是？",
         "options": [
@@ -12517,7 +13854,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-101",
+        "id": "ai-103",
         "type": "single",
         "question": "如果训练数据中既有输入特征，又有对应的目标标签（Label），这种学习方式属\n于？",
         "options": [
@@ -12531,7 +13868,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-102",
+        "id": "ai-104",
         "type": "single",
         "question": "线性回归算法的主要目标是找到一条什么，使预测值与实际值之间的误差最小？",
         "options": [
@@ -12545,7 +13882,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-103",
+        "id": "ai-105",
         "type": "single",
         "question": "K-近邻（KNN）算法中的“K”代表的含义是？",
         "options": [
@@ -12559,7 +13896,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-104",
+        "id": "ai-106",
         "type": "single",
         "question": "KNN 算法被称为“懒惰学习（Lazy Learning）”，是因为它？",
         "options": [
@@ -12573,7 +13910,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-105",
+        "id": "ai-107",
         "type": "single",
         "question": "在决策树中，没有任何出边（即没有子节点）的节点被称为？",
         "options": [
@@ -12587,7 +13924,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-106",
+        "id": "ai-108",
         "type": "single",
         "question": "ID3 决策树算法在选择划分特征时，主要采用哪种标准？",
         "options": [
@@ -12601,7 +13938,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-107",
+        "id": "ai-109",
         "type": "single",
         "question": "支持向量机（SVM）的核心思想是寻找一个超平面，使得该平面与两类样本之间的\n什么达到最大？",
         "options": [
@@ -12615,7 +13952,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-108",
+        "id": "ai-110",
         "type": "single",
         "question": "当数据在原始空间线性不可分时，SVM 通常采用什么技术将数据映射到高维空间？",
         "options": [
@@ -12629,7 +13966,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-109",
+        "id": "ai-111",
         "type": "single",
         "question": "K均值（K-means）聚类算法属于哪一类学习方式？",
         "options": [
@@ -12643,7 +13980,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-110",
+        "id": "ai-112",
         "type": "single",
         "question": "K-means 算法中的核心步骤是不断迭代更新什么？",
         "options": [
@@ -12657,7 +13994,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-111",
+        "id": "ai-113",
         "type": "single",
         "question": "专家系统（Expert System）是一种具有大量专门知识与经验的计算机程序，它主\n要模拟人类专家的？",
         "options": [
@@ -12671,7 +14008,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-112",
+        "id": "ai-114",
         "type": "single",
         "question": "专家系统与一般计算机程序的主要区别在于，它实现了什么的分离？",
         "options": [
@@ -12685,7 +14022,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-113",
+        "id": "ai-115",
         "type": "single",
         "question": "在专家系统的基本结构中，用于存放领域专家提供的专门知识的部件是？",
         "options": [
@@ -12699,7 +14036,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-114",
+        "id": "ai-116",
         "type": "single",
         "question": "专家系统的推理机中，从已知事实出发向结论方向执行的推理方式称为？",
         "options": [
@@ -12713,7 +14050,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-115",
+        "id": "ai-117",
         "type": "single",
         "question": "为了让用户了解系统得出结论的原因，专家系统通常配有什么子系统？",
         "options": [
@@ -12727,7 +14064,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-116",
+        "id": "ai-118",
         "type": "single",
         "question": "下列哪种编程语言被公认为早期的 AI 语言，常用于开发专家系统？",
         "options": [
@@ -12741,7 +14078,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-117",
+        "id": "ai-119",
         "type": "single",
         "question": "所谓的“骨架系统”（Skeletal System）是指？",
         "options": [
@@ -12755,7 +14092,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-118",
+        "id": "ai-120",
         "type": "single",
         "question": "专家系统最显著的特征之一是具有启发性，这表示它？",
         "options": [
@@ -12769,7 +14106,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-119",
+        "id": "ai-121",
         "type": "single",
         "question": "2024年诺贝尔物理学奖授予了约翰·霍普菲尔德和杰弗里·欣顿，以表彰他们在下列\n哪个领域的贡献？",
         "options": [
@@ -12783,7 +14120,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-120",
+        "id": "ai-122",
         "type": "single",
         "question": "在生物神经元结构中，主要负责接收来自其他神经元输入信号的部分是？",
         "options": [
@@ -12797,7 +14134,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-121",
+        "id": "ai-123",
         "type": "single",
         "question": "1943年提出的第一个人工神经元数学模型简称为？",
         "options": [
@@ -12811,7 +14148,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-122",
+        "id": "ai-124",
         "type": "single",
         "question": "在人工神经元模型中，用于引入非线性因素、使神经元具有处理复杂问题能力的函\n数是？",
         "options": [
@@ -12825,7 +14162,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-123",
+        "id": "ai-125",
         "type": "single",
         "question": "Sigmoid 激活函数的输出值范围通常在？",
         "options": [
@@ -12837,7 +14174,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-124",
+        "id": "ai-126",
         "type": "single",
         "question": "BP（Backpropagation）神经网络最核心的拓扑结构属于？",
         "options": [
@@ -12851,7 +14188,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-125",
+        "id": "ai-127",
         "type": "single",
         "question": "BP算法的学习过程主要由两部分组成，分别是？",
         "options": [
@@ -12865,7 +14202,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-126",
+        "id": "ai-128",
         "type": "single",
         "question": "BP神经网络在反向传播阶段，修改权重的原则是依据什么梯度下降？",
         "options": [
@@ -12879,7 +14216,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-127",
+        "id": "ai-129",
         "type": "single",
         "question": "下列关于BP神经网络缺点的描述，正确的是？",
         "options": [
@@ -12893,7 +14230,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-128",
+        "id": "ai-130",
         "type": "single",
         "question": "Hopfield 神经网络属于下列哪种类型的网络？",
         "options": [
@@ -12907,7 +14244,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-129",
+        "id": "ai-131",
         "type": "single",
         "question": "离散型Hopfield网络的主要用途之一是？",
         "options": [
@@ -12921,7 +14258,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-130",
+        "id": "ai-132",
         "type": "single",
         "question": "深度学习（Deep Learning）与传统神经网络的主要区别在于？",
         "options": [
@@ -12935,7 +14272,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-131",
+        "id": "ai-133",
         "type": "single",
         "question": "卷积神经网络（CNN）的设计灵感来源于？",
         "options": [
@@ -12949,7 +14286,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-132",
+        "id": "ai-134",
         "type": "single",
         "question": "CNN 中的卷积层（Convolutional Layer）主要作用是？",
         "options": [
@@ -12963,7 +14300,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-133",
+        "id": "ai-135",
         "type": "single",
         "question": "CNN 中的池化层（Pooling Layer）通常用于？",
         "options": [
@@ -12977,7 +14314,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-134",
+        "id": "ai-136",
         "type": "single",
         "question": "生成对抗网络（GAN）由哪两部分组成？",
         "options": [
@@ -12991,7 +14328,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-135",
+        "id": "ai-137",
         "type": "single",
         "question": "在 GAN 的博弈过程中，生成器的目标是？",
         "options": [
@@ -13005,7 +14342,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-136",
+        "id": "ai-138",
         "type": "single",
         "question": "修正线性单元（ReLU）激活函数的数学表达式是？",
         "options": [
@@ -13017,7 +14354,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-137",
+        "id": "ai-139",
         "type": "single",
         "question": "神经网络的“学习”本质上是不断调整网络中的什么参数？",
         "options": [
@@ -13031,7 +14368,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-138",
+        "id": "ai-140",
         "type": "single",
         "question": "2018年中国首个“人工智能主持人”在乌镇发布，它应用的核心技术通常包括？",
         "options": [
@@ -13045,7 +14382,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-139",
+        "id": "ai-141",
         "type": "single",
         "question": "比尔·盖茨曾将哪项技术誉为“人工智能皇冠上的明珠”？",
         "options": [
@@ -13059,7 +14396,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-140",
+        "id": "ai-142",
         "type": "single",
         "question": "从微观角度看，自然语言理解是指从自然语言到机器内部表示的一种什么？",
         "options": [
@@ -13073,7 +14410,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-141",
+        "id": "ai-143",
         "type": "single",
         "question": "1950年，图灵在他的论文中提出了著名的什么，被广泛认为是衡量机器是否具有智\n能的标准？",
         "options": [
@@ -13087,7 +14424,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-142",
+        "id": "ai-144",
         "type": "single",
         "question": "1966年由魏泽鲍姆开发的、能模拟心理医生与人交谈的早期自然语言处理系统是？",
         "options": [
@@ -13101,7 +14438,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-143",
+        "id": "ai-145",
         "type": "single",
         "question": "在语言处理过程的层次中，研究单词的词素构成以及词的结构成分的层次是？",
         "options": [
@@ -13115,7 +14452,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-144",
+        "id": "ai-146",
         "type": "single",
         "question": "句法分析（Syntactic Analysis）的主要任务是？",
         "options": [
@@ -13129,7 +14466,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-145",
+        "id": "ai-147",
         "type": "single",
         "question": "循环神经网络（Recurrent Neural Networks, RNN）与传统前馈网络最大的不同在\n于？",
         "options": [
@@ -13143,7 +14480,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-146",
+        "id": "ai-148",
         "type": "single",
         "question": "RNN 特别适用于处理下列哪种类型的数据？",
         "options": [
@@ -13157,7 +14494,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-147",
+        "id": "ai-149",
         "type": "single",
         "question": "标准循环神经网络（Vanilla RNN）在处理长序列时，常会遇到的主要技术难题是？",
         "options": [
@@ -13171,7 +14508,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-148",
+        "id": "ai-150",
         "type": "single",
         "question": "长短期记忆网络（LSTM）是由谁在1997年首先提出的？",
         "options": [
@@ -13185,7 +14522,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-149",
+        "id": "ai-151",
         "type": "single",
         "question": "LSTM 引入了“门（Gate）”结构，下列不属于其三门结构的是？",
         "options": [
@@ -13199,7 +14536,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-150",
+        "id": "ai-152",
         "type": "single",
         "question": "在 LSTM 中，负责决定从细胞状态中丢弃哪些信息的部分是？",
         "options": [
@@ -13213,7 +14550,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-151",
+        "id": "ai-153",
         "type": "single",
         "question": "LSTM 中的细胞状态（Cell State）通常被形象地比喻为？",
         "options": [
@@ -13227,7 +14564,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-152",
+        "id": "ai-154",
         "type": "single",
         "question": "神经机器翻译（NMT）通常采用的通用架构是？",
         "options": [
@@ -13241,7 +14578,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-153",
+        "id": "ai-155",
         "type": "single",
         "question": "在语音识别中，反映信号波形穿越零电平次数的特征参数称为？",
         "options": [
@@ -13255,7 +14592,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-154",
+        "id": "ai-156",
         "type": "single",
         "question": "语音信号处理中，在一段信号中确定语音起点和终点的技术称为？",
         "options": [
@@ -13269,7 +14606,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-155",
+        "id": "ai-157",
         "type": "single",
         "question": "线性预测编码（LPC）的基本思想是基于语音样点之间的什么特性？",
         "options": [
@@ -13283,7 +14620,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-156",
+        "id": "ai-158",
         "type": "single",
         "question": "矢量量化（VQ）技术在语音识别中主要起到的作用是？",
         "options": [
@@ -13297,7 +14634,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-157",
+        "id": "ai-159",
         "type": "single",
         "question": "在 NLU 的研究历史中，20世纪90年代开始，主要流行的方法是？",
         "options": [
@@ -13311,7 +14648,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-158",
+        "id": "ai-160",
         "type": "single",
         "question": "所谓语用分析（Pragmatic Analysis），是指研究语言在不同什么下的具体含义？",
         "options": [
@@ -13325,7 +14662,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-159",
+        "id": "ai-161",
         "type": "single",
         "question": "AIGC 是指利用人工智能技术来自动生产内容，其全称是？",
         "options": [
@@ -13339,7 +14676,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-160",
+        "id": "ai-162",
         "type": "single",
         "question": "大语言模型引领了 AIGC 的快速发展，使得“无生命”的人工智能成了越来越多内容\n生成的源头。这里的 AIGC 涵盖的领域不包括？",
         "options": [
@@ -13353,7 +14690,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-161",
+        "id": "ai-163",
         "type": "single",
         "question": "在自然语言处理领域，BERT 和 GPT 等大模型主要通过学习语言的什么特征来提\n高准确性？",
         "options": [
@@ -13367,7 +14704,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-162",
+        "id": "ai-164",
         "type": "single",
         "question": "提示工程（Prompt Engineering）的主要目标是？",
         "options": [
@@ -13381,7 +14718,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-163",
+        "id": "ai-165",
         "type": "single",
         "question": "知识蒸馏（Knowledge Distillation）技术的主要目的是？",
         "options": [
@@ -13395,7 +14732,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-164",
+        "id": "ai-166",
         "type": "single",
         "question": "在知识蒸馏中，扮演引导角色、拥有强大表达能力的大型模型被称为？",
         "options": [
@@ -13409,7 +14746,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-165",
+        "id": "ai-167",
         "type": "single",
         "question": "编码器-解码器（Encoder-Decoder）结构中，编码器的主要任务是？",
         "options": [
@@ -13423,7 +14760,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-166",
+        "id": "ai-168",
         "type": "single",
         "question": "Transformer 模型是由哪家公司的研究人员在 2017 年提出的？",
         "options": [
@@ -13437,7 +14774,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-167",
+        "id": "ai-169",
         "type": "single",
         "question": "Transformer 架构彻底抛弃了传统的哪种网络结构，完全基于注意力机制？",
         "options": [
@@ -13451,7 +14788,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-168",
+        "id": "ai-170",
         "type": "single",
         "question": "注意力机制（Attention Mechanism）的核心思想是模仿人类的什么行为？",
         "options": [
@@ -13465,7 +14802,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-169",
+        "id": "ai-171",
         "type": "single",
         "question": "在自注意力机制中，为了计算序列中每个元素与其他元素的相关性，通常引入了三\n个向量，它们分别是？",
         "options": [
@@ -13479,7 +14816,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-170",
+        "id": "ai-172",
         "type": "single",
         "question": "Transformer 中的“多头注意力机制”（Multi-Head Attention）的作用是？",
         "options": [
@@ -13493,7 +14830,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-171",
+        "id": "ai-173",
         "type": "single",
         "question": "下列不属于国内主要大模型平台的是？",
         "options": [
@@ -13507,7 +14844,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-172",
+        "id": "ai-174",
         "type": "single",
         "question": "大语言模型在写作应用中，能够根据提示词撰写电子邮件、博客或内容摘要，这体\n现了它的？",
         "options": [
@@ -13521,7 +14858,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-173",
+        "id": "ai-175",
         "type": "single",
         "question": "在 AIGC 视频生成领域，AI 换脸术主要应用的技术代表是？",
         "options": [
@@ -13535,7 +14872,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-174",
+        "id": "ai-176",
         "type": "single",
         "question": "2024 年 2 月，OpenAI 发布的一款能够根据文本提示创建长达 60 秒视频的模型\n是？",
         "options": [
@@ -13549,7 +14886,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-175",
+        "id": "ai-177",
         "type": "single",
         "question": "下列关于 Transformer 优点的描述，错误的是？",
         "options": [
@@ -13563,7 +14900,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-176",
+        "id": "ai-178",
         "type": "single",
         "question": "在 AIGC 图像处理中，可以实现“文生图”功能，即根据文字描述生成图片。这属\n于？",
         "options": [
@@ -13577,7 +14914,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-177",
+        "id": "ai-179",
         "type": "single",
         "question": "大模型在语音识别领域的应用不包括？",
         "options": [
@@ -13591,7 +14928,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-178",
+        "id": "ai-180",
         "type": "single",
         "question": "提示工程中，如果用户提供几个例子来引导模型，这种方法通常被称为？",
         "options": [
@@ -13605,7 +14942,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-179",
+        "id": "ai-181",
         "type": "single",
         "question": "比尔·盖茨曾预言，继 Android、iOS 和 Windows 之后，下一个平台将会是？",
         "options": [
@@ -13619,7 +14956,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-180",
+        "id": "ai-182",
         "type": "single",
         "question": "智能体（Agent）最重要的特征是能够感知环境，并通过什么来作用于环境？",
         "options": [
@@ -13633,7 +14970,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-181",
+        "id": "ai-183",
         "type": "single",
         "question": "下列哪项不属于智能体（Agent）的基本特性？",
         "options": [
@@ -13647,7 +14984,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-182",
+        "id": "ai-184",
         "type": "single",
         "question": "弱定义下的智能体（Agent）通常具备四个特性，其中“能够根据环境的变化做出适\n时的反应”是指？",
         "options": [
@@ -13661,7 +14998,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-183",
+        "id": "ai-185",
         "type": "single",
         "question": "强定义下的智能体（Agent）除了具备弱定义的所有特性外，还应具有人类的心理\n概念，如？",
         "options": [
@@ -13675,7 +15012,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-184",
+        "id": "ai-186",
         "type": "single",
         "question": "只根据当前感知做出决策，不考虑历史感知信息的 Agent 被称为？",
         "options": [
@@ -13689,7 +15026,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-185",
+        "id": "ai-187",
         "type": "single",
         "question": "多智能体系统（Multi-Agent Systems, MAS）的研究核心在于处理多个 Agent 之间\n的什么？",
         "options": [
@@ -13703,7 +15040,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-186",
+        "id": "ai-188",
         "type": "single",
         "question": "MAS 结构中，所有 Agent 处于平等地位，没有主从之分的结构是？",
         "options": [
@@ -13717,7 +15054,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-187",
+        "id": "ai-189",
         "type": "single",
         "question": "在联邦型结构中，Agent 不直接与其他 Agent 通信，而是通过一个被称为什么的中\n间件进行联络？",
         "options": [
@@ -13731,7 +15068,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-188",
+        "id": "ai-190",
         "type": "single",
         "question": "MAS 通信逻辑模型中，为了使 Agent 能够理解消息的含义，必须具备共同的？",
         "options": [
@@ -13745,7 +15082,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-189",
+        "id": "ai-191",
         "type": "single",
         "question": "目前最常用的 Agent 通信语言（ACL）除了 KQML 外，还有？",
         "options": [
@@ -13759,7 +15096,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-190",
+        "id": "ai-192",
         "type": "single",
         "question": "协调（Coordination）的主要目的是为了减少 Agent 之间的冲突并？",
         "options": [
@@ -13773,7 +15110,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-191",
+        "id": "ai-193",
         "type": "single",
         "question": "在协调机制中，由一个 Agent 负责为其他 Agent 制定计划并分配任务的方法属于？",
         "options": [
@@ -13787,7 +15124,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-192",
+        "id": "ai-194",
         "type": "single",
         "question": "协作（Collaboration）与协调的区别在于，协作更强调 Agent 之间具有？",
         "options": [
@@ -13801,7 +15138,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-193",
+        "id": "ai-195",
         "type": "single",
         "question": "在协作方法中，黑板模型（Blackboard Model）是一种典型的？",
         "options": [
@@ -13815,7 +15152,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-194",
+        "id": "ai-196",
         "type": "single",
         "question": "合同网（Contract Net）协作协议模拟了人类社会中的什么过程？",
         "options": [
@@ -13829,7 +15166,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-195",
+        "id": "ai-197",
         "type": "single",
         "question": "市场机制协作方法的基本思想是建立相应的什么，通过利益驱动来分配资源？",
         "options": [
@@ -13843,7 +15180,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-196",
+        "id": "ai-198",
         "type": "single",
         "question": "协商（Negotiation）是指 Agent 之间为了达成一致而进行的什么过程？",
         "options": [
@@ -13857,7 +15194,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-197",
+        "id": "ai-199",
         "type": "single",
         "question": "在协商处理中，用于处理 Agent 之间交互规则的部分称为？",
         "options": [
@@ -13871,7 +15208,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-198",
+        "id": "ai-200",
         "type": "single",
         "question": "如果一个多智能体系统能够根据用户输入选择工具，并自行确定解决步骤，它体现\n了 Agent 的？",
         "options": [
@@ -13885,7 +15222,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-199",
+        "id": "ai-201",
         "type": "single",
         "question": "计算机游戏（Computer Game）始于1958年的哪一款游戏？",
         "options": [
@@ -13899,7 +15236,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-200",
+        "id": "ai-202",
         "type": "single",
         "question": "应用人工智能技术设计的游戏，通常简称为？",
         "options": [
@@ -13913,7 +15250,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-201",
+        "id": "ai-203",
         "type": "single",
         "question": "在游戏开发中，目前最常被采用且最易实现的 AI 技术架构是？",
         "options": [
@@ -13927,7 +15264,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-202",
+        "id": "ai-204",
         "type": "single",
         "question": "游戏中的“NPC”是指？",
         "options": [
@@ -13941,7 +15278,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-203",
+        "id": "ai-205",
         "type": "single",
         "question": "脚本语言（Scripting Language）在游戏 AI 中的主要优点是？",
         "options": [
@@ -13955,7 +15292,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-204",
+        "id": "ai-206",
         "type": "single",
         "question": "游戏角色的“指导行为”（Steering Behaviors）是指通过什么来控制角色的移动？",
         "options": [
@@ -13969,7 +15306,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-205",
+        "id": "ai-207",
         "type": "single",
         "question": "在追逐与躲避技术中，为了使 NPC 显得更聪明，通常不采用直接追向当前位置，\n而是预测玩家未来的位置，这种技术称为？",
         "options": [
@@ -13983,7 +15320,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-206",
+        "id": "ai-208",
         "type": "single",
         "question": "雷诺兹（Craig Reynolds）提出的群聚（Flocking）模型模拟了哪种自然现象？",
         "options": [
@@ -13997,7 +15334,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-207",
+        "id": "ai-209",
         "type": "single",
         "question": "群聚模型中的“分离（Separation）”规则是指？",
         "options": [
@@ -14011,7 +15348,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-208",
+        "id": "ai-210",
         "type": "single",
         "question": "群聚模型中的“凝聚（Cohesion）”规则要求 Agent 移向何处？",
         "options": [
@@ -14025,7 +15362,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-209",
+        "id": "ai-211",
         "type": "single",
         "question": "目前智能游戏中路径搜索的“黄金标准”算法是？",
         "options": [
@@ -14039,7 +15376,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-210",
+        "id": "ai-212",
         "type": "single",
         "question": "A* 算法中，估价函数 ，其中 代表？",
         "options": [
@@ -14053,7 +15390,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-211",
+        "id": "ai-213",
         "type": "single",
         "question": "在游戏地图处理中，将可行走区域划分为一系列互不相交的多边形，这种技术称\n为？",
         "options": [
@@ -14067,7 +15404,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-212",
+        "id": "ai-214",
         "type": "single",
         "question": "游戏开发工具中，如 Virtools、RPG Maker 属于哪一类？",
         "options": [
@@ -14081,7 +15418,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-213",
+        "id": "ai-215",
         "type": "single",
         "question": "开发智能游戏常用的编程语言不包括？",
         "options": [
@@ -14095,7 +15432,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-214",
+        "id": "ai-216",
         "type": "single",
         "question": "在扫雷机智能游戏案例中，控制扫雷机权值演化的算法是？",
         "options": [
@@ -14109,7 +15446,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-215",
+        "id": "ai-217",
         "type": "single",
         "question": "扫雷机案例中使用的神经网络结构通常是？",
         "options": [
@@ -14123,7 +15460,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-216",
+        "id": "ai-218",
         "type": "single",
         "question": "扫雷机神经网络的输出通常对应于？",
         "options": [
@@ -14137,7 +15474,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-217",
+        "id": "ai-219",
         "type": "single",
         "question": "下列关于游戏 AI 与学术 AI 的区别，说法正确的是？",
         "options": [
@@ -14151,7 +15488,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-218",
+        "id": "ai-220",
         "type": "single",
         "question": "角色在运动中为了避开障碍物，通常会在探测到障碍物时产生一个什么？",
         "options": [
@@ -14165,7 +15502,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-219",
+        "id": "ai-221",
         "type": "multiple",
         "question": "自然界四大奥秘包括哪些内容？",
         "options": [
@@ -14180,7 +15517,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-220",
+        "id": "ai-222",
         "type": "multiple",
         "question": "智能的主要特征包括哪些方面？",
         "options": [
@@ -14195,7 +15532,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-221",
+        "id": "ai-223",
         "type": "multiple",
         "question": "人工智能研究的三大学派是指？",
         "options": [
@@ -14210,7 +15547,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-222",
+        "id": "ai-224",
         "type": "multiple",
         "question": "人工智能研究的基本内容包括哪些？",
         "options": [
@@ -14225,7 +15562,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-223",
+        "id": "ai-225",
         "type": "multiple",
         "question": "无人驾驶商业化的关键要素包括哪些？",
         "options": [
@@ -14240,7 +15577,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-224",
+        "id": "ai-226",
         "type": "multiple",
         "question": "知识的主要特性包括哪些？",
         "options": [
@@ -14255,7 +15592,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-225",
+        "id": "ai-227",
         "type": "multiple",
         "question": "产生式系统通常适用于表示下列哪些知识？",
         "options": [
@@ -14270,7 +15607,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-226",
+        "id": "ai-228",
         "type": "multiple",
         "question": "谓词逻辑表示法的优点有哪些？",
         "options": [
@@ -14285,7 +15622,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-227",
+        "id": "ai-229",
         "type": "multiple",
         "question": "知识图谱中的基本组成元素包括？",
         "options": [
@@ -14300,7 +15637,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-228",
+        "id": "ai-230",
         "type": "multiple",
         "question": "框架表示法中的“框架”结构可以包含哪些内容？",
         "options": [
@@ -14315,7 +15652,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-229",
+        "id": "ai-231",
         "type": "multiple",
         "question": "知识的不确定性通常来源于哪些方面？",
         "options": [
@@ -14330,7 +15667,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-230",
+        "id": "ai-232",
         "type": "multiple",
         "question": "下列属于反模糊化（解模糊）常用方法的有？",
         "options": [
@@ -14345,7 +15682,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-231",
+        "id": "ai-233",
         "type": "multiple",
         "question": "证据理论（D-S理论）相比于概率论，其优点在于？",
         "options": [
@@ -14360,7 +15697,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-232",
+        "id": "ai-234",
         "type": "multiple",
         "question": "在可信度模型中，结论 的最终可信度 取决于哪些因素？",
         "options": [
@@ -14375,7 +15712,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-233",
+        "id": "ai-235",
         "type": "multiple",
         "question": "模糊集之间的基本运算包括？",
         "options": [
@@ -14390,7 +15727,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-234",
+        "id": "ai-236",
         "type": "multiple",
         "question": "蒙特卡洛树搜索（MCTS）的四个基本步骤包括？",
         "options": [
@@ -14405,7 +15742,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-235",
+        "id": "ai-237",
         "type": "multiple",
         "question": "状态空间描述的基本要素包括哪些？",
         "options": [
@@ -14420,7 +15757,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-236",
+        "id": "ai-238",
         "type": "multiple",
         "question": "下列属于盲目搜索策略的有？",
         "options": [
@@ -14435,7 +15772,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-237",
+        "id": "ai-239",
         "type": "multiple",
         "question": "在搜索树中，关于节点及其关系的描述正确的是？",
         "options": [
@@ -14450,7 +15787,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-238",
+        "id": "ai-240",
         "type": "multiple",
         "question": "启发式搜索中，启发式信息可以来自哪些方面？",
         "options": [
@@ -14465,7 +15802,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-239",
+        "id": "ai-241",
         "type": "multiple",
         "question": "遗传算法（GA）的主要特点包括哪些？",
         "options": [
@@ -14480,7 +15817,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-240",
+        "id": "ai-242",
         "type": "multiple",
         "question": "遗传算法中常用的编码方法有？",
         "options": [
@@ -14495,7 +15832,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-241",
+        "id": "ai-243",
         "type": "multiple",
         "question": "蚁群算法中，影响蚂蚁选择路径的启发式因子通常包括？",
         "options": [
@@ -14510,7 +15847,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-242",
+        "id": "ai-244",
         "type": "multiple",
         "question": "下列属于群智能（Swarm Intelligence）算法的有？",
         "options": [
@@ -14525,7 +15862,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-243",
+        "id": "ai-245",
         "type": "multiple",
         "question": "改进遗传算法的常见策略包括？",
         "options": [
@@ -14540,7 +15877,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-244",
+        "id": "ai-246",
         "type": "multiple",
         "question": "机器学习按学习方式（标签情况）分类，主要包括哪些？",
         "options": [
@@ -14555,7 +15892,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-245",
+        "id": "ai-247",
         "type": "multiple",
         "question": "专家系统的主要组成部分包括？",
         "options": [
@@ -14570,7 +15907,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-246",
+        "id": "ai-248",
         "type": "multiple",
         "question": "决策树算法具有哪些显著优点？",
         "options": [
@@ -14585,7 +15922,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-247",
+        "id": "ai-249",
         "type": "multiple",
         "question": "在构建专家系统时，获取知识的途径通常有？",
         "options": [
@@ -14600,7 +15937,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-248",
+        "id": "ai-250",
         "type": "multiple",
         "question": "弱监督学习包含下列哪些具体的子领域？",
         "options": [
@@ -14615,7 +15952,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-249",
+        "id": "ai-251",
         "type": "multiple",
         "question": "下列属于常见激活函数的有？",
         "options": [
@@ -14630,7 +15967,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-250",
+        "id": "ai-252",
         "type": "multiple",
         "question": "卷积神经网络（CNN）的核心结构通常包括哪些层？",
         "options": [
@@ -14645,7 +15982,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-251",
+        "id": "ai-253",
         "type": "multiple",
         "question": "神经网络的学习方式按标签情况可以分为？",
         "options": [
@@ -14660,7 +15997,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-252",
+        "id": "ai-254",
         "type": "multiple",
         "question": "关于 Hopfield 网络的能量函数，下列说法正确的是？",
         "options": [
@@ -14675,7 +16012,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-253",
+        "id": "ai-255",
         "type": "multiple",
         "question": "深度学习在下列哪些领域取得了显著的应用成果？",
         "options": [
@@ -14690,7 +16027,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-254",
+        "id": "ai-256",
         "type": "multiple",
         "question": "自然语言理解的层次通常包括？",
         "options": [
@@ -14705,7 +16042,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-255",
+        "id": "ai-257",
         "type": "multiple",
         "question": "循环神经网络（RNN）的常见变体或改进模型包括？",
         "options": [
@@ -14720,7 +16057,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-256",
+        "id": "ai-258",
         "type": "multiple",
         "question": "LSTM 中的三个门结构分别是？",
         "options": [
@@ -14735,7 +16072,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-257",
+        "id": "ai-259",
         "type": "multiple",
         "question": "语音信号的两个主要物理特征是？",
         "options": [
@@ -14750,7 +16087,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-258",
+        "id": "ai-260",
         "type": "multiple",
         "question": "机器翻译的发展经历了哪些阶段？",
         "options": [
@@ -14765,7 +16102,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-259",
+        "id": "ai-261",
         "type": "multiple",
         "question": "大语言模型在自然语言处理中的典型任务包括？",
         "options": [
@@ -14780,7 +16117,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-260",
+        "id": "ai-262",
         "type": "multiple",
         "question": "知识蒸馏的主要流程通常包括？",
         "options": [
@@ -14795,7 +16132,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-261",
+        "id": "ai-263",
         "type": "multiple",
         "question": "Transformer 模型的主要组成部分包括？",
         "options": [
@@ -14810,7 +16147,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-262",
+        "id": "ai-264",
         "type": "multiple",
         "question": "AIGC 可以生成的作品类型涵盖哪些领域？",
         "options": [
@@ -14825,7 +16162,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-263",
+        "id": "ai-265",
         "type": "multiple",
         "question": "注意力机制中，计算注意力权重的步骤通常包含？",
         "options": [
@@ -14840,7 +16177,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-264",
+        "id": "ai-266",
         "type": "multiple",
         "question": "智能体（Agent）的结构通常由哪些部分组成？",
         "options": [
@@ -14855,7 +16192,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-265",
+        "id": "ai-267",
         "type": "multiple",
         "question": "多智能体系统（MAS）的典型组织结构包括？",
         "options": [
@@ -14870,7 +16207,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-266",
+        "id": "ai-268",
         "type": "multiple",
         "question": "Agent 之间进行通信时，一条完整的消息通常包含？",
         "options": [
@@ -14885,7 +16222,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-267",
+        "id": "ai-269",
         "type": "multiple",
         "question": "实现多智能体系统协调与协作的常见方法有？",
         "options": [
@@ -14900,7 +16237,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-268",
+        "id": "ai-270",
         "type": "multiple",
         "question": "协商（Negotiation）包含哪三个基本要素？",
         "options": [
@@ -14915,7 +16252,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-269",
+        "id": "ai-271",
         "type": "multiple",
         "question": "群聚（Flocking）模型的三条核心规则是？",
         "options": [
@@ -14930,7 +16267,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-270",
+        "id": "ai-272",
         "type": "multiple",
         "question": "游戏角色设计中的基本移动行为包括？",
         "options": [
@@ -14945,7 +16282,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-271",
+        "id": "ai-273",
         "type": "multiple",
         "question": "下列属于有限状态机（FSM）优点的有？",
         "options": [
@@ -14960,7 +16297,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-272",
+        "id": "ai-274",
         "type": "multiple",
         "question": "A* 算法的效率和准确性取决于哪些因素？",
         "options": [
@@ -14975,7 +16312,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-273",
+        "id": "ai-275",
         "type": "multiple",
         "question": "扫雷机智能游戏开发中，神经网络的输入信息包含？",
         "options": [
@@ -14990,7 +16327,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-274",
+        "id": "ai-276",
         "type": "judge",
         "question": "1946年诞生的ENIAC是为人工智能研究奠定物质基础的世界上第一台电子计算机。\n**答案：\n正确答案：错误\n答案解析：PPT明确指出是ABC计算机，而不是莫克利和埃柯1946年发明的ENIAC。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15002,7 +16339,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-275",
+        "id": "ai-277",
         "type": "judge",
         "question": "“中国屋思考实验”证明了即使通过图灵测试，也不能说明计算机能思维。\n正确答案：正确\n答案解析：该实验旨在说明机器只是在进行符号匹配，并不真正理解其含义。\n章节：第一\n章：绪论\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15014,7 +16351,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-276",
+        "id": "ai-278",
         "type": "judge",
         "question": "符号主义学派认为智能的核心是逻辑推理，因此又被称为逻辑主义或计算机学派。\n正确答案：正确\n答案解析：符号主义起源于数理逻辑，基于逻辑推理。\n章节：第一章：绪论\n认知层次：\n记忆\n难度：4\n---",
         "options": [
@@ -15026,7 +16363,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-277",
+        "id": "ai-279",
         "type": "judge",
         "question": "连接主义学派是一种基于“感知-行动”的行为智能模拟方法。\n正确答案：错误\n答案解析：“感知-行动”是行为主义学派的方法，连接主义是基于神经网络的方法。\n章节：\n第一章：绪论\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15038,7 +16375,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-278",
+        "id": "ai-280",
         "type": "judge",
         "question": "云端人工智能能够有效地降低终端设备使用人工智能技术的门槛。\n正确答案：正确\n答案解析：通过在云端部署算法并提供API，降低了终端设备的使用门槛。\n章节：第一\n章：绪论\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15050,7 +16387,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-279",
+        "id": "ai-281",
         "type": "judge",
         "question": "知识和信息是完全等同的概念，没有任何区别。\n正确答案：错误\n答案解析：知识是关联在一起的信息，是经过加工和提炼的，两者不等同。\n章节：第二\n章：知识表示与知识图谱\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15062,7 +16399,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-280",
+        "id": "ai-282",
         "type": "judge",
         "question": "一阶谓词逻辑不能很好地表示具有不确定性的知识。\n正确答案：正确\n答案解析：谓词逻辑通常处理确定的逻辑关系，对于不确定性、模糊性知识表现较弱。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15074,7 +16411,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-281",
+        "id": "ai-283",
         "type": "judge",
         "question": "产生式系统中的“综合数据库”专门用于存放长久不变的规则。\n正确答案：错误\n答案解析：综合数据库存放的是推理过程中的初始事实和中间状态，是动态变化的。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15086,7 +16423,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-282",
+        "id": "ai-284",
         "type": "judge",
         "question": "在框架表示法中，子框架可以自动继承父框架中的某些属性。\n正确答案：正确\n答案解析：继承性是框架表示法的一个核心优点，可以减少冗余。\n章节：第二章：知识表\n示与知识图谱\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15098,7 +16435,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-283",
+        "id": "ai-285",
         "type": "judge",
         "question": "知识图谱可以被看作是一张巨大的图，其中节点表示实体，边表示关系。\n正确答案：正确\n答案解析：知识图谱在本质上就是一种基于图的知识表示方式。\n章节：第二章：知识表示\n与知识图谱\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15110,7 +16447,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-284",
+        "id": "ai-286",
         "type": "judge",
         "question": "随机性不确定性是指事物本身的含义是不确定的。\n正确答案：错误\n答案解析：含义不确定属于“模糊性”，随机性是指事物发生的因果关系不确定。\n章节：第\n四章：不确定性推理方法\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15122,7 +16459,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-285",
+        "id": "ai-287",
         "type": "judge",
         "question": "在可信度方法中， 表示由于证据 的出现，结论 绝对不可信。\n正确答案：正确\n答案解析： 是可信度的最小值，代表完全否定。\n章节：第四章：不确定性推理方法\n认知\n层次：记忆\n难度：2\n---",
         "options": [
@@ -15134,7 +16471,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-286",
+        "id": "ai-288",
         "type": "judge",
         "question": "模糊推理中的重心法能够输出比最大隶属度法更平滑的控制结果。\n正确答案：正确\n答案解析：重心法考虑了整个模糊集的形状，输出更具代表性且变化更连续。\n章节：第四\n章：不确定性推理方法\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15146,7 +16483,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-287",
+        "id": "ai-289",
         "type": "judge",
         "question": "证据理论中，信任函数 一定大于或等于似然函数 。\n正确答案：错误\n答案解析：实际上 。 是信任下限， 是信任上限。\n章节：第四章：不确定性推理方法\n认\n知层次：记忆\n难度：5\n---",
         "options": [
@@ -15158,7 +16495,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-288",
+        "id": "ai-290",
         "type": "judge",
         "question": "模糊集合理论可以看作是经典集合理论的一种扩展。\n正确答案：正确\n答案解析：当隶属度只能取 0 或 1 时，模糊集合就退化为经典集合（硬集合）。\n章节：第\n四章：不确定性推理方法\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15170,7 +16507,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-289",
+        "id": "ai-291",
         "type": "judge",
         "question": "状态空间搜索中，如果找到了目标状态，则一定找到了最短路径。\n正确答案：错误\n答案解析：盲目搜索（如 DFS）可能找到较长路径，只有特定的搜索策略（如 BFS 或满足条\n件的 A*）能保证找到最短路径。\n章节：第五章：搜索求解策略\n认知层次：记忆\n难度：\n4\n---",
         "options": [
@@ -15182,7 +16519,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-290",
+        "id": "ai-292",
         "type": "judge",
         "question": "深度优先搜索（DFS）适合在搜索树非常深且目标在较浅层的情况下使用。\n正确答案：错误\n答案解析：DFS 可能会陷入深层分支，如果目标在浅层，宽度优先搜索（BFS）更合适。\n章节：第五章：搜索求解策略\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15194,7 +16531,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-291",
+        "id": "ai-293",
         "type": "judge",
         "question": "在 A* 算法中，如果启发函数 恒等于 0，则该算法一定能找到解（如果解存在）。\n正确答案：正确\n答案解析：此时算法退化为广度优先搜索或 Dijkstra 算法，具有完备性。\n章节：第五章：\n搜索求解策略\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15206,7 +16543,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-292",
+        "id": "ai-294",
         "type": "judge",
         "question": "蒙特卡洛树搜索中的“反向传播”是指将模拟得到的结果沿着搜索路径向上更新统计\n值。\n正确答案：正确\n答案解析：反向传播阶段会将模拟阶段的奖励值传回根节点方向，更新路径上节点的统计信\n息。\n章节：第五章：搜索求解策略\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15218,7 +16555,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-293",
+        "id": "ai-295",
         "type": "judge",
         "question": "启发式搜索通过利用领域知识，可以有效缩小搜索空间，提高搜索效率。\n正确答案：正确\n答案解析：启发式信息引导搜索朝更有希望的方向进行，从而减少不必要的尝试。\n章节：\n第五章：搜索求解策略\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15230,7 +16567,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-294",
+        "id": "ai-296",
         "type": "judge",
         "question": "遗传算法是一种基于概率的、随机性的全局搜索算法。\n正确答案：正确\n答案解析：遗传算法利用概率机制进行操作，具有全局搜索的潜能。\n章节：第六章：智能\n计算及其应用\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15242,7 +16579,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-295",
+        "id": "ai-297",
         "type": "judge",
         "question": "在遗传算法中，交叉率 和变异率 的值越大，算法性能就一定越好。\n正确答案：错误\n答案解析：参数设置需要均衡。交叉率过大会破坏优良基因；变异率过大会使算法退化为随机\n搜索。\n章节：第六章：智能计算及其应用\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15254,7 +16591,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-296",
+        "id": "ai-298",
         "type": "judge",
         "question": "蚁群算法具有正反馈机制，信息素浓度越高的路径吸引的蚂蚁越多。\n正确答案：正确\n答案解析：这正是蚁群算法能够收敛到较短路径的核心机制。\n章节：第六章：智能计算及\n其应用\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15266,7 +16603,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-297",
+        "id": "ai-299",
         "type": "judge",
         "question": "粒子群算法（PSO）由于没有交叉和变异算子，因此其结构比遗传算法更复杂。\n正确答案：错误\n答案解析：恰恰相反，PSO 由于省去了复杂的交叉、变异操作，计算上更简单，易于实现。\n章节：第六章：智能计算及其应用\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15278,7 +16615,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-298",
+        "id": "ai-300",
         "type": "judge",
         "question": "进化算法的理论基础主要是达尔文的生物进化论和孟德尔的遗传学说。\n正确答案：正确\n答案解析：进化算法模拟自然选择、遗传、变异等生物进化过程。\n章节：第六章：智能计\n算及其应用\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15290,7 +16627,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-299",
+        "id": "ai-301",
         "type": "judge",
         "question": "机器学习被认为是专家系统的核心，能够提升系统的智能化水平。\n正确答案：正确\n答案解析：机器学习为专家系统提供了获取和完善知识的手段。\n章节：第七章：机器学习\n与专家系统\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15302,7 +16639,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-300",
+        "id": "ai-302",
         "type": "judge",
         "question": "在 K-means 聚类中，K 值需要由用户在算法运行前预先设定。\n正确答案：正确\n答案解析：K 值代表目标簇的数量，是 K-means 算法的一个预设超参数。\n章节：第七\n章：机器学习与专家系统\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15314,7 +16651,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-301",
+        "id": "ai-303",
         "type": "judge",
         "question": "KNN 算法在处理样本极度不平衡的数据集时，分类效果依然非常完美，不需要特殊\n处理。\n正确答案：错误\n答案解析：样本不平衡会导致投票时大类样本占优，KNN 对此比较敏感。\n章节：第七章：\n机器学习与专家系统\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15326,7 +16663,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-302",
+        "id": "ai-304",
         "type": "judge",
         "question": "专家系统的“知识库”中不仅存放事实，还存放用于推理的规则。\n正确答案：正确\n答案解析：知识库由事实（静态知识）和规则（推理知识）两部分组成。\n章节：第七章：\n机器学习与专家系统\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15338,7 +16675,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-303",
+        "id": "ai-305",
         "type": "judge",
         "question": "SVM 只能解决线性可分的二分类问题，无法处理线性不可分的数据。\n正确答案：错误\n答案解析：通过引入核函数，SVM 可以将线性不可分的数据映射到高维空间使其变得线性可\n分。\n章节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15350,7 +16687,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-304",
+        "id": "ai-306",
         "type": "judge",
         "question": "只要隐藏层节点足够多，三层BP网络可以以任意精度逼近任何连续函数。\n正确答案：正确\n答案解析：这是BP网络的万能逼近定理。\n章节：第八章：人工神经网络与深度学习\n认知\n层次：记忆\n难度：5\n---",
         "options": [
@@ -15362,7 +16699,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-305",
+        "id": "ai-307",
         "type": "judge",
         "question": "在 GAN 模型训练结束后，判别器理想的分类准确率应该是 100%。\n正确答案：错误\n答案解析：理想状态（纳什均衡）下，生成器生成的图像极度逼近真实，判别器无法区分，准\n确率应趋近于 50%（即随机猜测）。\n章节：第八章：人工神经网络与深度学习\n认知层\n次：记忆\n难度：1\n---",
         "options": [
@@ -15374,7 +16711,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-306",
+        "id": "ai-308",
         "type": "judge",
         "question": "生物神经元的轴突起到了将神经冲动传出到其他神经元的作用。\n正确答案：正确\n答案解析：轴突是输出通道。\n章节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15386,7 +16723,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-307",
+        "id": "ai-309",
         "type": "judge",
         "question": "池化操作虽然减少了计算量，但会导致图像特征的完全丢失，因此应尽量避免使\n用。\n正确答案：错误\n答案解析：池化能保留主要特征并实现平移不变性，是CNN的关键步骤。\n章节：第八章：\n人工神经网络与深度学习\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15398,7 +16735,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-308",
+        "id": "ai-310",
         "type": "judge",
         "question": "人工神经网络具有良好的容错性，因为信息是分布式存储在连接权值中的。\n正确答案：正确\n答案解析：神经网络的分布式存储特性使其即使部分节点损坏，也能保持一定的功能。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15410,7 +16747,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-309",
+        "id": "ai-311",
         "type": "judge",
         "question": "自然语言理解（NLU）是自然语言处理（NLP）中的一个重要子领域。\n正确答案：正确\n答案解析：NLU更侧重于对语言意义的深度理解。\n章节：第九章：循环神经网络与自然语\n言理解\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15422,7 +16759,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-310",
+        "id": "ai-312",
         "type": "judge",
         "question": "循环神经网络（RNN）因为可以共享参数，所以能够处理变长的序列数据。\n正确答案：正确\n答案解析：权重共享使得RNN在不同时间步使用相同的转换矩阵，能够适应不同长度的输\n入。\n章节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15434,7 +16771,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-311",
+        "id": "ai-313",
         "type": "judge",
         "question": "LSTM 相比于标准 RNN，能够更好地捕捉序列中的长距离依赖关系。\n正确答案：正确\n答案解析：通过门控机制，LSTM能有效缓解梯度消失问题，保留长时记忆。\n章节：第九\n章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15446,7 +16783,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-312",
+        "id": "ai-314",
         "type": "judge",
         "question": "在语音识别中，过零率越高通常代表信号的能量分布在高频段。\n正确答案：正确\n答案解析：过零率描述波形穿越零点的频繁程度，反映了频率高低。\n章节：第九章：循环\n神经网络与自然语言理解\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15458,7 +16795,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-313",
+        "id": "ai-315",
         "type": "judge",
         "question": "机器翻译的目的是直接将源语言转换为机器内部表示，而不生成目标语言。\n正确答案：错误\n答案解析：机器翻译（MT）的目标是将一种自然语言（源语言）自动翻译成另一种自然语言\n（目标语言）。\n章节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：\n4\n---",
         "options": [
@@ -15470,7 +16807,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-314",
+        "id": "ai-316",
         "type": "judge",
         "question": "AIGC 的出现使得人工智能不再仅仅是分类和识别的工具，而成为了创意的源头。\n正确答案：正确\n答案解析：AIGC 强调了 AI 的生成和创作能力。\n章节：第十章：大语言模型及其应用\n认\n知层次：记忆\n难度：1\n---",
         "options": [
@@ -15482,7 +16819,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-315",
+        "id": "ai-317",
         "type": "judge",
         "question": "知识蒸馏会导致模型变大，从而增加推理延迟，主要用于提高服务器性能。\n正确答案：错误\n答案解析：知识蒸馏是为了获得小型、高效的“学生模型”，从而减少推理延迟，便于在移动端\n部署。\n章节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15494,7 +16831,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-316",
+        "id": "ai-318",
         "type": "judge",
         "question": "Transformer 架构中的“编码器”和“解码器”在每一层都包含注意力机制。\n正确答案：正确\n答案解析：注意力机制是 Transformer 各个组件的核心。\n章节：第十章：大语言模型及其\n应用\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15506,7 +16843,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-317",
+        "id": "ai-319",
         "type": "judge",
         "question": "在提示工程中，提示词（Prompt）设计得越模糊，模型生成的答案就越准确。\n正确答案：错误\n答案解析：提示工程强调通过精炼和明确的提示词来引导模型。\n章节：第十章：大语言模\n型及其应用\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15518,7 +16855,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-318",
+        "id": "ai-320",
         "type": "judge",
         "question": "Transformer 只能处理文本数据，无法应用于图像或视频领域。\n正确答案：错误\n答案解析：Transformer 及其变体（如 ViT）已广泛应用于图像处理和视频生成领域。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：1\n---",
         "options": [
@@ -15530,7 +16867,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-319",
+        "id": "ai-321",
         "type": "judge",
         "question": "智能体（Agent）就是指具有人类外形的物理机器人。\n正确答案：错误\n答案解析：Agent 既可以是物理机器人，也可以是运行在计算机环境中的软件程序。\n章\n节：第十一章：智能体与多智能体系统\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15542,7 +16879,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-320",
+        "id": "ai-322",
         "type": "judge",
         "question": "在多智能体系统中，Agent 之间的通信只能通过直接点对点发消息的方式进行。\n正确答案：错误\n答案解析：还可以通过黑板模型等间接通信方式。\n章节：第十一章：智能体与多智能体系\n统\n认知层次：记忆\n难度：5\n---",
         "options": [
@@ -15554,7 +16891,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-321",
+        "id": "ai-323",
         "type": "judge",
         "question": "协作（Collaboration）的目的是为了解决单个 Agent 无法独立完成的大规模复杂问\n题。\n正确答案：正确\n答案解析：协作的核心优势在于资源的整合与任务的并行化。\n章节：第十一章：智能体与\n多智能体系统\n认知层次：记忆\n难度：2\n---",
         "options": [
@@ -15566,7 +16903,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-322",
+        "id": "ai-324",
         "type": "judge",
         "question": "合同网协议中，所有的 Agent 都可以同时担任“经理（Manager）”和“承包商\n（Contractor）”的角色。\n正确答案：正确\n答案解析：在灵活的 MAS 中，角色是动态的，取决于谁发起了任务。\n章节：第十一章：\n智能体与多智能体系统\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15578,7 +16915,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-323",
+        "id": "ai-325",
         "type": "judge",
         "question": "多智能体系统中的“社会性”是指 Agent 之间能通过某种通信语言进行交互。\n正确答案：正确\n答案解析：社会性是 Agent 能够与其他 Agent 或人类协同工作的基本特性。\n章节：第十一\n章：智能体与多智能体系统\n认知层次：记忆\n难度：4\n---",
         "options": [
@@ -15590,7 +16927,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-324",
+        "id": "ai-326",
         "type": "judge",
         "question": "游戏人工智能的主要目的不是打败玩家，而是让玩家觉得“有趣”。\n正确答案：正确\n答案解析：游戏 AI 追求的是玩家的体验和适度的挑战感。\n章节：第十二章：人工智能在\n游戏设计中的应用\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15602,7 +16939,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-325",
+        "id": "ai-327",
         "type": "judge",
         "question": "A* 算法在任何情况下都必须搜索地图上的所有节点才能找到最优路径。\n正确答案：错误\n答案解析：A* 通过启发式函数可以剪枝，避免盲目搜索所有节点。\n章节：第十二章：人工\n智能在游戏设计中的应用\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15614,7 +16951,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-326",
+        "id": "ai-328",
         "type": "judge",
         "question": "有限状态机（FSM）在同一时刻只能处于一种状态。\n正确答案：正确\n答案解析：这是状态机的基本定义。\n章节：第十二章：人工智能在游戏设计中的应用\n认\n知层次：记忆\n难度：4\n---",
         "options": [
@@ -15626,7 +16963,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-327",
+        "id": "ai-329",
         "type": "judge",
         "question": "在群聚行为中，对齐（Alignment）规则是指 Agent 保持与邻居的速度向量一致。\n正确答案：正确\n答案解析：对齐规则是为了让群体朝同一个方向前进。\n章节：第十二章：人工智能在游戏\n设计中的应用\n认知层次：记忆\n难度：3\n---",
         "options": [
@@ -15638,7 +16975,7 @@ const questionBank = [
         "source": "人工智能"
       },
       {
-        "id": "ai-328",
+        "id": "ai-330",
         "type": "judge",
         "question": "脚本语言通常是在游戏运行时由解释器执行的，不需要像 C++ 那样预先编译成二\n进制文件。\n正确答案：正确\n答案解析：脚本语言的解释执行特性使其便于在线修改逻辑。\n章节：第十二章：人工智能\n在游戏设计中的应用\n认知层次：记忆\n难度：1\n---",
         "options": [
