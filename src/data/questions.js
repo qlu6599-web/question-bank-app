@@ -19,7 +19,9 @@ const questionBank = [
         "analysis": "1956年夏季在达特矛斯大学召开的学术研讨会上，正式采用了“人工智能”这一术\n语，标志着学科的诞生。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-2",
@@ -35,7 +37,9 @@ const questionBank = [
         "analysis": "20世纪三大科学技术成就包括空间技术、原子能技术和人工智能。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-3",
@@ -51,7 +55,9 @@ const questionBank = [
         "analysis": "80%以上的信息通过视觉得到，10%的信息通过听觉得到。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-4",
@@ -67,7 +73,9 @@ const questionBank = [
         "analysis": "逻辑思维（抽象思维）依靠逻辑进行，过程是串行的，容易形式化，且具有严密性\n和可靠性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-5",
@@ -83,7 +91,9 @@ const questionBank = [
         "analysis": "会上经麦卡锡提议正式采用“人工智能”这一术语，麦卡锡因而被称为人工智能之\n父。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-6",
@@ -99,7 +109,9 @@ const questionBank = [
         "analysis": "1950年图灵发表的《计算机与智能》中设计了一个测试，用以说明人工智能的概\n念。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-7",
@@ -115,7 +127,9 @@ const questionBank = [
         "analysis": "语言哲学家约翰·R·塞尔于1980年提出了中国屋思考实验。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-8",
@@ -131,7 +145,9 @@ const questionBank = [
         "analysis": "1937年至1941年间开发的ABC计算机为人工智能研究奠定了物质基础。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-9",
@@ -147,7 +163,9 @@ const questionBank = [
         "analysis": "1977年，费根鲍姆提出了“知识工程”概念，推动了以知识为中心的研究。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：1",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-10",
@@ -163,7 +181,9 @@ const questionBank = [
         "analysis": "通用人工智能尚处于起步阶段，是人工智能的发展方向；AlphaGo属于专用人工智\n能。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-11",
@@ -179,7 +199,9 @@ const questionBank = [
         "analysis": "符号主义起源于数理逻辑，是一种基于逻辑推理的智能模拟方法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-12",
@@ -195,7 +217,9 @@ const questionBank = [
         "analysis": "连接主义学派又称仿生学派或生理学派，基于神经网络进行模拟。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-13",
@@ -211,7 +235,9 @@ const questionBank = [
         "analysis": "行为主义又称进化主义或控制论学派，其理论基础是控制论。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-14",
@@ -227,7 +253,9 @@ const questionBank = [
         "analysis": "吴文俊院士在几何定理证明方面建立了一套机器证明方法，被称为“吴方法”。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-15",
@@ -243,7 +271,9 @@ const questionBank = [
         "analysis": "1997年5月，“深蓝”以3.5比2.5的总比分赢得了与卡斯帕罗夫的对弈。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-16",
@@ -259,7 +289,9 @@ const questionBank = [
         "analysis": "模式识别是研究对象描述和分类方法的学科。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-17",
@@ -275,7 +307,9 @@ const questionBank = [
         "analysis": "专家系统的核心包括知识库和推理机。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-18",
@@ -291,7 +325,9 @@ const questionBank = [
         "analysis": "机器人发展经历了程序控制机器人、自适应机器人、智能机器人三个阶段。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：1",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-19",
@@ -307,7 +343,9 @@ const questionBank = [
         "analysis": "1943年麦克洛克和皮茨提出了M-P神经元模型。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-20",
@@ -323,7 +361,9 @@ const questionBank = [
         "analysis": "云端人工智能是将云计算的运作模式与人工智能深度融合的技术。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-21",
@@ -339,7 +379,9 @@ const questionBank = [
         "analysis": "PPT指出，知识是经过加工的信息，是把有关的信息关联在一起形成的经验，通常\n表示为：知识 = 信息 + 经验。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-22",
@@ -355,7 +397,9 @@ const questionBank = [
         "analysis": "根据PPT中的金字塔结构，从底层到顶层依次是数据、信息、知识、智能。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-23",
@@ -371,7 +415,9 @@ const questionBank = [
         "analysis": "谓词是用来刻画个体的性质或个体之间关系的符号。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-24",
@@ -387,7 +433,9 @@ const questionBank = [
         "analysis": "全称量词（∀x）表示对定义域中的每一个个体x，命题都成立。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-25",
@@ -407,7 +455,9 @@ const questionBank = [
         "needsImageOptions": true,
         "questionImages": [
           "./assets/questions/ai/ai-25.png"
-        ]
+        ],
+        "sourceNumber": 25,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-26",
@@ -423,7 +473,9 @@ const questionBank = [
         "analysis": "产生式系统由规则库（知识库）、综合数据库（事实库）和控制策略（推理机）三\n部分组成。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-27",
@@ -439,7 +491,9 @@ const questionBank = [
         "analysis": "在产生式规则中， 是左部（LHS），表示前提或条件； 是右部（RHS），表示结\n论或动作。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-28",
@@ -455,7 +509,9 @@ const questionBank = [
         "analysis": "产生式表示法虽然易于理解和修改，但在处理复杂逻辑时容易产生效率低和组合爆\n炸的问题。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-29",
@@ -471,7 +527,9 @@ const questionBank = [
         "analysis": "框架理论由Minsky于1974年提出，用于解释人类的感知和思维。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-30",
@@ -487,7 +545,9 @@ const questionBank = [
         "analysis": "一个框架由若干个“槽”组成，每个槽对应对象的一个属性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-31",
@@ -503,7 +563,9 @@ const questionBank = [
         "analysis": "槽可以划分为若干个侧面，用来描述该槽所代表属性的属性值、默认值、取值范围\n等。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-32",
@@ -519,7 +581,9 @@ const questionBank = [
         "analysis": "2012年5月，谷歌公司正式提出了知识图谱的概念。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-33",
@@ -535,7 +599,9 @@ const questionBank = [
         "analysis": "知识图谱的三元组通常表示为（实体1, 关系, 实体2）或（实体, 属性, 属性值）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-34",
@@ -551,7 +617,9 @@ const questionBank = [
         "analysis": "语义网络通过带箭头的弧连接节点，节点代表事物、概念或状态。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-35",
@@ -567,7 +635,9 @@ const questionBank = [
         "analysis": "知识具有演化性，即它是不断发展和修正的。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-36",
@@ -583,7 +653,9 @@ const questionBank = [
         "analysis": "谓词逻辑具有严密、精确的特点，适合描述确定性的因果和逻辑关系。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-37",
@@ -599,7 +671,9 @@ const questionBank = [
         "analysis": "规则库是产生式规则的集合，代表了领域专家的知识。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-38",
@@ -615,7 +689,9 @@ const questionBank = [
         "analysis": "框架表示法具有结构性（各框架相互连接）和继承性（子框架继承父框架属性）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-39",
@@ -631,7 +707,9 @@ const questionBank = [
         "analysis": "知识图谱可以看作一张图，节点表示实体，边表示实体间的关系或属性。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-40",
@@ -647,7 +725,9 @@ const questionBank = [
         "analysis": "“北京”是实体，“人口”是属性，“2069万”是属性值。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-41",
@@ -663,7 +743,9 @@ const questionBank = [
         "analysis": "随机性是指由于客观上存在的偶然性导致的不确定性，是概率论研究的主要对象。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-42",
@@ -679,7 +761,9 @@ const questionBank = [
         "analysis": "可信度方法是20世纪70年代中后期由肖特里夫等人在开发医疗诊断专家系统\nMYCIN时提出的。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-43",
@@ -700,7 +784,9 @@ const questionBank = [
         "source": "人工智能",
         "subject": "人工智能",
         "accent": "#e11d48",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ai-44",
@@ -716,7 +802,9 @@ const questionBank = [
         "analysis": "表示证据增加结论为真的信任程度，数值越大信任程度越高。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-45",
@@ -732,7 +820,9 @@ const questionBank = [
         "analysis": "表示证据 对结论 既无支持也无反对，即两者无关。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-46",
@@ -748,7 +838,9 @@ const questionBank = [
         "analysis": "证据理论首先定义一个由所有可能答案组成的集合，称为辨识框架，记作 。\n章\n节：第四章：不确定性推理方法\n认知层次：记忆\n难度：5",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-47",
@@ -764,7 +856,9 @@ const questionBank = [
         "analysis": "基本概率分配函数（Mass函数）满足所有子集的 值之和为 1。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-48",
@@ -780,7 +874,9 @@ const questionBank = [
         "analysis": "信任函数 又称下限函数，表示对 为真的信任程度。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-49",
@@ -796,7 +892,9 @@ const questionBank = [
         "analysis": "似然函数 又称上限函数，表示对 非假的信任程度。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-50",
@@ -812,7 +910,9 @@ const questionBank = [
         "analysis": "1965年，美国控制论专家扎德发表了论文《Fuzzy Sets》，标志着模糊数学的诞\n生。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-51",
@@ -833,7 +933,9 @@ const questionBank = [
         "source": "人工智能",
         "subject": "人工智能",
         "accent": "#e11d48",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ai-52",
@@ -849,7 +951,9 @@ const questionBank = [
         "analysis": "在模糊语言处理中，“非常”通常对应集中运算，即隶属函数的平方。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-53",
@@ -865,7 +969,9 @@ const questionBank = [
         "analysis": "模糊推理中，模糊关系的合成常采用最大-最小合成规则（Max-Min\nComposition）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-54",
@@ -881,7 +987,9 @@ const questionBank = [
         "analysis": "为了在实际控制中使用，需要将模糊集转化为精确值，这一过程称为反模糊化或清\n脆化。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-55",
@@ -897,7 +1005,9 @@ const questionBank = [
         "analysis": "最大隶属度法是在模糊集合中寻找隶属度最大的个体作为输出。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-56",
@@ -913,7 +1023,9 @@ const questionBank = [
         "analysis": "在证据理论的定义中，。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-57",
@@ -929,7 +1041,9 @@ const questionBank = [
         "analysis": "不确定性推理专门用于处理不精确、不完整和模糊的信息。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-58",
@@ -949,7 +1063,9 @@ const questionBank = [
         "needsImageOptions": true,
         "questionImages": [
           "./assets/questions/ai/ai-58.png"
-        ]
+        ],
+        "sourceNumber": 56,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-59",
@@ -965,7 +1081,9 @@ const questionBank = [
         "analysis": "集合的交运算（Intersection）在隶属度计算中通常采用取最小值（min），对应逻\n辑“且”。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-60",
@@ -981,7 +1099,9 @@ const questionBank = [
         "analysis": "隶属度为 1 表示元素完全属于该集合，这与经典集合论是一致的。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-61",
@@ -997,7 +1117,9 @@ const questionBank = [
         "analysis": "搜索是根据问题的实际情况，按照一定的策略，在状态空间中不断寻找可利用知\n识，从而找到一条从初始状态到目标状态的解决问题路线的过程。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-62",
@@ -1013,7 +1135,9 @@ const questionBank = [
         "analysis": "状态（State）是表示问题求解过程中每一步状况的数据结构。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-63",
@@ -1029,7 +1153,9 @@ const questionBank = [
         "analysis": "操作符（Operator）作用于某个状态，使其转变为另一个状态。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-64",
@@ -1045,7 +1171,9 @@ const questionBank = [
         "analysis": "为状态集合， 为操作符集合， 为初始状态， 为目标状态集合。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-65",
@@ -1061,7 +1189,9 @@ const questionBank = [
         "analysis": "启发式搜索利用与问题有关的特征信息（启发式信息）来引导搜索方向。\n章\n节：第五章：搜索求解策略\n认知层次：记忆\n难度：1",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-66",
@@ -1077,7 +1207,9 @@ const questionBank = [
         "analysis": "宽度优先搜索按照层次顺序进行，遵循先进先出（FIFO）原则，因此使用队列。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-67",
@@ -1093,7 +1225,9 @@ const questionBank = [
         "analysis": "深度优先搜索在遇到死胡同或达到深度限制时，会进行回溯。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-68",
@@ -1109,7 +1243,9 @@ const questionBank = [
         "analysis": "回溯策略是在状态空间中进行搜索，且通常只需要保存从初始状态到当前状态的单\n一路径。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-69",
@@ -1129,7 +1265,9 @@ const questionBank = [
         "needsImageOptions": true,
         "questionImages": [
           "./assets/questions/ai/ai-69.png"
-        ]
+        ],
+        "sourceNumber": 67,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-70",
@@ -1145,7 +1283,9 @@ const questionBank = [
         "analysis": "表示从初始节点 到当前节点 的实际代价。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-71",
@@ -1161,7 +1301,9 @@ const questionBank = [
         "analysis": "A* 算法是指满足可采纳性条件（Admissibility）的启发式搜索算法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-72",
@@ -1177,7 +1319,9 @@ const questionBank = [
         "analysis": "越大（且不超过实际代价），算法利用的启发信息越多，搜索的状态越少。\n章\n节：第五章：搜索求解策略\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-73",
@@ -1193,7 +1337,9 @@ const questionBank = [
         "analysis": "MCTS 算法由 Remi Coulom 于 2006 年在围棋引擎 Crazy Stone 中首次发明。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-74",
@@ -1209,7 +1355,9 @@ const questionBank = [
         "analysis": "MCTS 四步：选择（Selection）、拓展（Expansion）、模拟（Simulation）、反\n向传播（Backpropagation）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-75",
@@ -1225,7 +1373,9 @@ const questionBank = [
         "analysis": "选择是根据当前获得所有子步骤的统计结果，选择一个最优子步骤。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-76",
@@ -1241,7 +1391,9 @@ const questionBank = [
         "analysis": "拓展步骤是在被选中的节点下创建一个或多个子节点。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-77",
@@ -1257,7 +1409,9 @@ const questionBank = [
         "analysis": "模拟是指从拓展出的节点开始，按照随机策略进行对局直到结束，又称 Play-out。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-78",
@@ -1273,7 +1427,9 @@ const questionBank = [
         "analysis": "当 时，只根据路径代价 搜索，即为宽度优先搜索（或 Dijkstra 算法）。\n章\n节：第五章：搜索求解策略\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-79",
@@ -1289,7 +1445,9 @@ const questionBank = [
         "analysis": "弧线代表状态的变迁，即应用操作符的结果。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-80",
@@ -1305,7 +1463,9 @@ const questionBank = [
         "analysis": "搜索的任务是寻找从初始状态到目标状态的一条路径。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-81",
@@ -1321,7 +1481,9 @@ const questionBank = [
         "analysis": "智能计算包括神经网络、进化计算、群智能等。谓词逻辑属于符号主义人工智能的\n范畴。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-82",
@@ -1337,7 +1499,9 @@ const questionBank = [
         "analysis": "遗传算法是由美国密歇根大学的 Holland 教授于1975年首先提出的。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-83",
@@ -1353,7 +1517,9 @@ const questionBank = [
         "analysis": "选择（Selection）操作是从旧群体中以一定概率选择优良个体，模拟“物竞天择”。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-84",
@@ -1369,7 +1535,9 @@ const questionBank = [
         "analysis": "编码是将问题的解表示成位串或其它形式的过程。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-85",
@@ -1385,7 +1553,9 @@ const questionBank = [
         "analysis": "二进制编码存在“汉明悬崖”问题，即相邻整数的二进制表示可能存在大量位数差\n异。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-86",
@@ -1401,7 +1571,9 @@ const questionBank = [
         "analysis": "适应度函数是评价个体优劣的唯一指标，适应度越高，个体越好。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-87",
@@ -1417,7 +1589,9 @@ const questionBank = [
         "analysis": "轮盘赌选择法（Roulette Wheel Selection）中，个体被选中的概率与其适应度值\n成正比。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-88",
@@ -1433,7 +1607,9 @@ const questionBank = [
         "analysis": "交叉（Crossover）是遗传算法产生新个体的最主要途径，是核心操作。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-89",
@@ -1449,7 +1625,9 @@ const questionBank = [
         "analysis": "变异操作可以产生原群体中没有的新基因，增加多样性，避免陷入局部最优。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-90",
@@ -1465,7 +1643,9 @@ const questionBank = [
         "analysis": "模式定理指出：具有低阶、短定义长度且平均适应度高于群体平均值的模式会按指\n数规律增长。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-91",
@@ -1481,7 +1661,9 @@ const questionBank = [
         "analysis": "早熟收敛是指算法过早陷入局部最优解，失去进化能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-92",
@@ -1497,7 +1679,9 @@ const questionBank = [
         "analysis": "PSO 是由 Kennedy 和 Eberhart 模拟鸟类群体觅食行为而提出的一种群智能算\n法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-93",
@@ -1513,7 +1697,9 @@ const questionBank = [
         "analysis": "粒子追踪自己的历史最优（pbest）和群体历史最优（gbest）进行寻优。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：5",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-94",
@@ -1529,7 +1715,9 @@ const questionBank = [
         "analysis": "蚂蚁通过在路径上留下信息素来吸引其他蚂蚁，实现间接通信。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-95",
@@ -1545,7 +1733,9 @@ const questionBank = [
         "analysis": "信息素随时间推移会逐渐挥发，这有助于算法摆脱较差的路径。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-96",
@@ -1561,7 +1751,9 @@ const questionBank = [
         "analysis": "蚁群算法最初就是为了解决旅行商问题（TSP）而提出的，展现了强大的组合优化\n能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-97",
@@ -1577,7 +1769,9 @@ const questionBank = [
         "analysis": "蚂蚁周模型利用全局信息更新信息素，通常效果最好。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-98",
@@ -1593,7 +1787,9 @@ const questionBank = [
         "analysis": "和 调节粒子向 pbest 和 gbest 飞行的步长，故称加速系数。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-99",
@@ -1609,7 +1805,9 @@ const questionBank = [
         "analysis": "智能计算方法（如遗传算法、蚁群算法）属于元启发式随机优化方法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-100",
@@ -1625,7 +1823,9 @@ const questionBank = [
         "analysis": "格雷码保证了相邻整数的编码仅有一位差异，克服了二进制码的“汉明悬崖”问题。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-101",
@@ -1641,7 +1841,9 @@ const questionBank = [
         "analysis": "机器学习是研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-102",
@@ -1657,7 +1859,9 @@ const questionBank = [
         "analysis": "Mitchell 认为，机器学习是对于某类任务 和性能度量 ，如果在经验 的帮助下，在\n上由 衡量的性能得到了改善。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-103",
@@ -1673,7 +1877,9 @@ const questionBank = [
         "analysis": "监督学习（Supervised Learning）是从标签化的训练数据中学习一个函数或模\n型。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 101,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-104",
@@ -1689,7 +1895,9 @@ const questionBank = [
         "analysis": "线性回归是利用数理统计中回归分析，来确定两种或两种以上变量间相互依赖的定\n量关系，其目标是寻找最佳拟合直线。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 102,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-105",
@@ -1705,7 +1913,9 @@ const questionBank = [
         "analysis": "KNN 算法通过计算待分类样本与训练集中所有样本的距离，选取距离最近的 个邻\n居进行投票。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 103,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-106",
@@ -1721,7 +1931,9 @@ const questionBank = [
         "analysis": "KNN 在训练阶段只是简单地存储数据，只有在接收到测试样本时才开始计算距离\n并进行分类。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 104,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-107",
@@ -1737,7 +1949,9 @@ const questionBank = [
         "analysis": "叶节点（Leaf Node）代表最终的分类结果或决策结论。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 105,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-108",
@@ -1753,7 +1967,9 @@ const questionBank = [
         "analysis": "ID3 算法使用信息增益（Information Gain）作为属性选择的标准。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 106,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-109",
@@ -1769,7 +1985,9 @@ const questionBank = [
         "analysis": "SVM 的目标是寻找一个最大间隔超平面（Maximum Margin Hyperplane），以增\n强分类器的泛化能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 107,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-110",
@@ -1785,7 +2003,9 @@ const questionBank = [
         "analysis": "核函数可以将非线性问题转化为高维空间中的线性问题，从而实现分类。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 108,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-111",
@@ -1801,7 +2021,9 @@ const questionBank = [
         "analysis": "聚类算法不需要目标标签，而是根据数据本身的相似性进行划分，属于无监督学\n习。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 109,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-112",
@@ -1817,7 +2039,9 @@ const questionBank = [
         "analysis": "K-means 通过迭代重新分配样本点并更新各簇的中心点（Centroids），直到收\n敛。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 110,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-113",
@@ -1833,7 +2057,9 @@ const questionBank = [
         "analysis": "专家系统能够利用专家的知识和解决问题的方法进行推理，模拟专家的思维。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 111,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-114",
@@ -1849,7 +2075,9 @@ const questionBank = [
         "analysis": "专家系统将领域知识（知识库）与推理逻辑（推理机）分离，使其具有良好的灵活\n性和可维护性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 112,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-115",
@@ -1865,7 +2093,9 @@ const questionBank = [
         "analysis": "知识库是专家系统的核心组件，存放着规则、事实和经验。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 113,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-116",
@@ -1881,7 +2111,9 @@ const questionBank = [
         "analysis": "正向推理是从初始事实出发，通过规则库进行匹配，直到得出结论。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 114,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-117",
@@ -1897,7 +2129,9 @@ const questionBank = [
         "analysis": "解释子系统负责向用户说明推理路径，解释“为什么”和“如何”得出当前结论。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 115,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-118",
@@ -1913,7 +2147,9 @@ const questionBank = [
         "analysis": "LISP 和 PROLOG 是人工智能领域著名的逻辑型/表处理语言。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 116,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-119",
@@ -1929,7 +2165,9 @@ const questionBank = [
         "analysis": "骨架系统（如 EMYCIN）是从成熟专家系统中剥离知识后留下的通用框架，用户\n只需装入新知识即可。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 117,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-120",
@@ -1945,7 +2183,9 @@ const questionBank = [
         "analysis": "专家系统能利用专家在长期实践中总结出的启发式经验进行问题求解。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 118,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-121",
@@ -1961,7 +2201,9 @@ const questionBank = [
         "analysis": "2024年诺奖授予了这两位科学家，表彰他们在使用人工神经网络进行机器学习方\n面的基础性发现。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 119,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-122",
@@ -1977,7 +2219,9 @@ const questionBank = [
         "analysis": "树突（Dendrites）是从细胞体向外延伸出的许多分叉，负责接收输入信号。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 120,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-123",
@@ -1993,7 +2237,9 @@ const questionBank = [
         "analysis": "美国心理学家McCulloch和数学家Pitts提出了M-P模型，奠定了神经网络的研究基\n础。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 121,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-124",
@@ -2009,7 +2255,9 @@ const questionBank = [
         "analysis": "激活函数（Activation Function）决定神经元的输出，并为网络引入非线性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 122,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-125",
@@ -2029,7 +2277,9 @@ const questionBank = [
         "needsImageOptions": true,
         "questionImages": [
           "./assets/questions/ai/ai-125.png"
-        ]
+        ],
+        "sourceNumber": 123,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-126",
@@ -2045,7 +2295,9 @@ const questionBank = [
         "analysis": "BP网络是一种按误差逆传播算法训练的多层前向神经网络。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 124,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-127",
@@ -2061,7 +2313,9 @@ const questionBank = [
         "analysis": "BP算法包括工作信号的正向传播和误差信号的反向传播。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 125,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-128",
@@ -2077,7 +2331,9 @@ const questionBank = [
         "analysis": "BP算法沿着误差函数的负梯度方向修改权值，以使网络误差最小。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 126,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-129",
@@ -2093,7 +2349,9 @@ const questionBank = [
         "analysis": "梯度下降法可能导致BP算法陷入局部最优解，而非全局最优解。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 127,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-130",
@@ -2109,7 +2367,9 @@ const questionBank = [
         "analysis": "Hopfield网络是一种典型的反馈神经网络，节点之间存在反馈连接。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 128,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-131",
@@ -2125,7 +2385,9 @@ const questionBank = [
         "analysis": "Hopfield网络广泛用于联想记忆和组合优化问题的求解。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 129,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-132",
@@ -2141,7 +2403,9 @@ const questionBank = [
         "analysis": "深度学习通过增加隐藏层深度，提高了对复杂特征的表达能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 130,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-133",
@@ -2157,7 +2421,9 @@ const questionBank = [
         "analysis": "CNN模拟了人类/动物视觉皮层对图像的处理方式（局部感受野）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 131,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-134",
@@ -2173,7 +2439,9 @@ const questionBank = [
         "analysis": "卷积层通过卷积核（滤波器）对输入图像进行特征提取。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 132,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-135",
@@ -2189,7 +2457,9 @@ const questionBank = [
         "analysis": "池化（如最大池化）用于减小特征图尺寸，提高模型的鲁棒性和计算效率。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 133,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-136",
@@ -2205,7 +2475,9 @@ const questionBank = [
         "analysis": "GAN包含一个生成模型（Generator）和一个判别模型（Discriminator）。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 134,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-137",
@@ -2221,7 +2493,9 @@ const questionBank = [
         "analysis": "生成器负责生成尽可能真实的图像，使判别器难以区分。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 135,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-138",
@@ -2241,7 +2515,9 @@ const questionBank = [
         "needsImageOptions": true,
         "questionImages": [
           "./assets/questions/ai/ai-138.png"
-        ]
+        ],
+        "sourceNumber": 136,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-139",
@@ -2257,7 +2533,9 @@ const questionBank = [
         "analysis": "学习过程就是通过训练数据不断优化连接权值和阈值的过程。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 137,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-140",
@@ -2273,7 +2551,9 @@ const questionBank = [
         "analysis": "AI主持人涉及计算机视觉、语音合成等深度学习前沿技术。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 138,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-141",
@@ -2289,7 +2569,9 @@ const questionBank = [
         "analysis": "比尔·盖茨曾说过，“语言理解是人工智能皇冠上的明珠”。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 139,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-142",
@@ -2305,7 +2587,9 @@ const questionBank = [
         "analysis": "微观角度看，自然语言理解是从自然语言到机器内部的一个映射。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 140,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-143",
@@ -2321,7 +2605,9 @@ const questionBank = [
         "analysis": "1950年图灵发表《计算机器与智能》，提出了著名的图灵测试。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 141,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-144",
@@ -2337,7 +2623,9 @@ const questionBank = [
         "analysis": "ELIZA是1966年研制成功的模拟心理医生与人交谈的系统。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 142,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-145",
@@ -2353,7 +2641,9 @@ const questionBank = [
         "analysis": "词法分析研究单词的词素构成、词的结构成分。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 143,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-146",
@@ -2369,7 +2659,9 @@ const questionBank = [
         "analysis": "句法分析通过单词的词类和词法属性，确定句子各成分之间的结构关系。\n章\n节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：1",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 144,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-147",
@@ -2385,7 +2677,9 @@ const questionBank = [
         "analysis": "RNN在节点间增加了隐层状态的循环连接，使其能够利用之前的序列信息。\n章\n节：第九章：循环神经网络与自然语言理解\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 145,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-148",
@@ -2401,7 +2695,9 @@ const questionBank = [
         "analysis": "RNN通过隐藏状态保留历史信息，非常适合处理具有时间依赖性的序列数据。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 146,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-149",
@@ -2417,7 +2713,9 @@ const questionBank = [
         "analysis": "由于权重共享和长链式乘法，标准RNN很难处理长距离依赖，容易产生梯度消\n失。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 147,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-150",
@@ -2433,7 +2731,9 @@ const questionBank = [
         "analysis": "LSTM由 Hochreiter 和 Schmidhuber 于 1997 年在论文中首次提出。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 148,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-151",
@@ -2449,7 +2749,9 @@ const questionBank = [
         "analysis": "LSTM包含遗忘门、输入门和输出门。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 149,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-152",
@@ -2465,7 +2767,9 @@ const questionBank = [
         "analysis": "遗忘门决定从细胞状态中丢弃哪些不再需要的信息。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 150,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-153",
@@ -2481,7 +2785,9 @@ const questionBank = [
         "analysis": "细胞状态类似于一条传送带，它贯穿整个链条，信息在其上流动时仅有少量的线性\n交互。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 151,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-154",
@@ -2497,7 +2803,9 @@ const questionBank = [
         "analysis": "NMT通常将一种语言编码为中间向量，再由解码器映射到目标语言。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 152,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-155",
@@ -2513,7 +2821,9 @@ const questionBank = [
         "analysis": "过零率（Zero Crossing Rate）描述信号中波形穿越零电平的次数。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 153,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-156",
@@ -2529,7 +2839,9 @@ const questionBank = [
         "analysis": "端点检测是在包含语音的一段信号中确定语音的起点以及终点。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 154,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-157",
@@ -2545,7 +2857,9 @@ const questionBank = [
         "analysis": "LPC利用语音样点间的相关性，用过去 个样点值预测当前值。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 155,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-158",
@@ -2561,7 +2875,9 @@ const questionBank = [
         "analysis": "矢量量化是一种数据压缩和编码技术。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 156,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-159",
@@ -2577,7 +2893,9 @@ const questionBank = [
         "analysis": "NLP的发展经历了符号学派、统计机器学习到如今的深度学习阶段。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 157,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-160",
@@ -2593,7 +2911,9 @@ const questionBank = [
         "analysis": "语用分析研究特定语境下的语言意义及其应用。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 158,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-161",
@@ -2609,7 +2929,9 @@ const questionBank = [
         "analysis": "AIGC 的全称是 Artificial Intelligence Generated Content，即人工智能生成内容。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 159,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-162",
@@ -2625,7 +2947,9 @@ const questionBank = [
         "analysis": "AIGC 主要涵盖文本、图像、音频、视频、代码等数字内容生成的领域。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 160,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-163",
@@ -2641,7 +2965,9 @@ const questionBank = [
         "analysis": "大模型能够学习语言的上下文信息和语义特征，从而提高语义理解和情感分析的效\n果。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 161,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-164",
@@ -2657,7 +2983,9 @@ const questionBank = [
         "analysis": "提示工程是指通过设计和优化输入给模型的提示词（Prompt），以获得更符合预\n期的结果。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 162,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-165",
@@ -2673,7 +3001,9 @@ const questionBank = [
         "analysis": "知识蒸馏是一种模型压缩技术，通过“教师模型”指导“学生模型”学习，从而实现模\n型轻量化。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 163,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-166",
@@ -2689,7 +3019,9 @@ const questionBank = [
         "analysis": "在蒸馏过程中，大型模型被称为教师模型（Teacher Model），小型模型被称为学\n生模型（Student Model）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 164,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-167",
@@ -2705,7 +3037,9 @@ const questionBank = [
         "analysis": "编码器负责将输入序列处理成中间表示，解码器再将其转换为目标序列。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 165,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-168",
@@ -2721,7 +3055,9 @@ const questionBank = [
         "analysis": "Transformer 是由 Google 研究人员在 2017 年的论文《Attention is All You\nNeed》中提出的。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 166,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-169",
@@ -2737,7 +3073,9 @@ const questionBank = [
         "analysis": "Transformer 不再使用 RNN 或 CNN 的循环或卷积结构，而是完全依赖注意力机\n制。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 167,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-170",
@@ -2753,7 +3091,9 @@ const questionBank = [
         "analysis": "注意力机制模仿人类在处理大量信息时，会选择性地关注重点部分而忽略次要部\n分。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 168,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-171",
@@ -2769,7 +3109,9 @@ const questionBank = [
         "analysis": "自注意力机制通过 Query（查询）、Key（键）、Value（值）的线性投影和计算\n来确定权重。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 169,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-172",
@@ -2785,7 +3127,9 @@ const questionBank = [
         "analysis": "多头机制通过将注意力机制拆分为多个并行的“头”，使模型能够捕捉到更多样化的\n特征。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 170,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-173",
@@ -2801,7 +3145,9 @@ const questionBank = [
         "analysis": "ChatGPT 是美国 OpenAI 公司开发的，文心一言、通义千问等是国内主流平台。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 171,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-174",
@@ -2817,7 +3163,9 @@ const questionBank = [
         "analysis": "写作大模型展示了其强大的语言生成、提炼和润色能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 172,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-175",
@@ -2833,7 +3181,9 @@ const questionBank = [
         "analysis": "GAN 是实现 AI 换脸、视频合成等任务的核心技术之一。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 173,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-176",
@@ -2849,7 +3199,9 @@ const questionBank = [
         "analysis": "Sora 是 OpenAI 发布的文生视频大模型。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 174,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-177",
@@ -2865,7 +3217,9 @@ const questionBank = [
         "analysis": "Transformer 抛弃了顺序计算，采用并行计算，这是其相对于 RNN 的重大改进。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 175,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-178",
@@ -2881,7 +3235,9 @@ const questionBank = [
         "analysis": "从文本（模态1）生成图像（模态2）属于跨模态生成的范畴。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 176,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-179",
@@ -2897,7 +3253,9 @@ const questionBank = [
         "analysis": "大模型在语音领域主要用于识别、合成和转换。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 177,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-180",
@@ -2913,7 +3271,9 @@ const questionBank = [
         "analysis": "提供少量示例引导模型学习任务被称为 Few-shot 提示。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 178,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-181",
@@ -2929,7 +3289,9 @@ const questionBank = [
         "analysis": "比尔·盖茨认为 AI 智能体将成为下一个操作系统级别的平台。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 179,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-182",
@@ -2945,7 +3307,9 @@ const questionBank = [
         "analysis": "Agent 通过传感器感知环境，通过效应器作用于环境，形成闭环。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 180,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-183",
@@ -2961,7 +3325,9 @@ const questionBank = [
         "analysis": "Agent 是主动的（能动性），而非被动接受指令。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 181,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-184",
@@ -2977,7 +3343,9 @@ const questionBank = [
         "analysis": "反应性指 Agent 能够感知环境并做出及时的响应。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 182,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-185",
@@ -2993,7 +3361,9 @@ const questionBank = [
         "analysis": "强定义强调 Agent 具有类似人类的认知属性，如 Belief（信念）、Desire（愿\n望）、Intention（意图）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 183,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-186",
@@ -3009,7 +3379,9 @@ const questionBank = [
         "analysis": "简单反射 Agent 直接根据“当前”情况执行动作，不维护内部状态。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 184,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-187",
@@ -3025,7 +3397,9 @@ const questionBank = [
         "analysis": "MAS 的关键在于多个 Agent 如何通过交互共同解决复杂问题。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 185,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-188",
@@ -3041,7 +3415,9 @@ const questionBank = [
         "analysis": "自主型结构中每个 Agent 都是独立的，地位平等。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 186,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-189",
@@ -3057,7 +3433,9 @@ const questionBank = [
         "analysis": "联络员负责管理 Agent 之间的信息交换和服务注册。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 187,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-190",
@@ -3073,7 +3451,9 @@ const questionBank = [
         "analysis": "本体（Ontology）定义了交流中术语的共同含义。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 188,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-191",
@@ -3089,7 +3469,9 @@ const questionBank = [
         "analysis": "FIPA-ACL 是由国际组织 FIPA 制定的标准 Agent 通信语言。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 189,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-192",
@@ -3105,7 +3487,9 @@ const questionBank = [
         "analysis": "协调旨在使一组 Agent 的行为和谐，避免资源冲突或重复劳动。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 190,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-193",
@@ -3121,7 +3505,9 @@ const questionBank = [
         "analysis": "集中协调由中心节点统一指挥。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 191,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-194",
@@ -3137,7 +3523,9 @@ const questionBank = [
         "analysis": "协作是为了完成一个共同的、单个 Agent 无法独立完成的目标。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 192,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-195",
@@ -3153,7 +3541,9 @@ const questionBank = [
         "analysis": "Agent 通过在共享的“黑板”上发布和获取信息来实现间接协作。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 193,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-196",
@@ -3169,7 +3559,9 @@ const questionBank = [
         "analysis": "合同网通过招标（Manager 发起任务）和投标（Agent 响应）来分配任务。\n章\n节：第十一章：智能体与多智能体系统\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 194,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-197",
@@ -3185,7 +3577,9 @@ const questionBank = [
         "analysis": "市场机制利用价格和投标等经济手段引导 Agent 行为。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 195,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-198",
@@ -3201,7 +3595,9 @@ const questionBank = [
         "analysis": "协商通常涉及提议、反提议等循环往复的交互过程。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 196,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-199",
@@ -3217,7 +3613,9 @@ const questionBank = [
         "analysis": "协商协议规定了双方交互的规则，如谁先提议、如何结束等。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 197,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-200",
@@ -3233,7 +3631,9 @@ const questionBank = [
         "analysis": "自行确定步骤并完成目标是 Agent 高度自治和智能的体现。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 198,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-201",
@@ -3249,7 +3649,9 @@ const questionBank = [
         "analysis": "计算机游戏始于1958年的游戏“两人网球”。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 199,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-202",
@@ -3265,7 +3667,9 @@ const questionBank = [
         "analysis": "应用人工智能技术设计的游戏称为人工智能游戏（AI Game），简称智能游戏。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 200,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-203",
@@ -3281,7 +3685,9 @@ const questionBank = [
         "analysis": "有限状态机（FSM）是目前最常采用的游戏 AI 架构，因为它简单且易于实现。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 201,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-204",
@@ -3297,7 +3703,9 @@ const questionBank = [
         "analysis": "NPC 代表非玩家控制角色。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 202,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-205",
@@ -3313,7 +3721,9 @@ const questionBank = [
         "analysis": "脚本语言易于修改和快速迭代，且无需重新编译整个程序。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 203,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-206",
@@ -3329,7 +3739,9 @@ const questionBank = [
         "analysis": "指导行为是通过计算力向量来引导角色平滑地移动。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 204,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-207",
@@ -3345,7 +3757,9 @@ const questionBank = [
         "analysis": "拦截技术通过预测目标未来的位置来决定当前的移动方向。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 205,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-208",
@@ -3361,7 +3775,9 @@ const questionBank = [
         "analysis": "群聚模型（Boids）模拟了鸟类或鱼类等群体的群体运动行为。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 206,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-209",
@@ -3377,7 +3793,9 @@ const questionBank = [
         "analysis": "分离是为了避免群聚成员之间过于拥挤和发生碰撞。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 207,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-210",
@@ -3393,7 +3811,9 @@ const questionBank = [
         "analysis": "凝聚规则引导 Agent 移向其邻居的平均位置，以保持群体的紧凑。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 208,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-211",
@@ -3409,7 +3829,9 @@ const questionBank = [
         "analysis": "A* 算法是游戏开发中最流行、最有效的路径搜索算法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 209,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-212",
@@ -3425,7 +3847,9 @@ const questionBank = [
         "analysis": "是启发式函数，表示当前状态到目标状态的估计代价。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 210,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-213",
@@ -3441,7 +3865,9 @@ const questionBank = [
         "analysis": "导航网格（Navigation Mesh）是将复杂的场景几何体转化为可行走区域的多边形\n集合。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 211,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-214",
@@ -3457,7 +3883,9 @@ const questionBank = [
         "analysis": "这些属于采用“拖、拉、放”形式开发的创作工具类软件。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 212,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-215",
@@ -3473,7 +3901,9 @@ const questionBank = [
         "analysis": "VC++、Java、C#、Python 是主流的游戏编程语言，HTML 4.0 已过时且非核心逻\n辑开发语言。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 213,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-216",
@@ -3489,7 +3919,9 @@ const questionBank = [
         "analysis": "案例中使用遗传算法来演化神经网络的权值，使扫雷机变得聪明。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 214,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-217",
@@ -3505,7 +3937,9 @@ const questionBank = [
         "analysis": "案例选择几个神经元作为隐层，构成一个三层 BP 神经网络。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 215,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-218",
@@ -3521,7 +3955,9 @@ const questionBank = [
         "analysis": "神经网络的输出直接控制扫雷机轮轨的相对速度，从而控制其移动。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 216,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-219",
@@ -3537,7 +3973,9 @@ const questionBank = [
         "analysis": "游戏 AI 旨在为玩家创造更好的体验，有时为了节省资源可以使用简化的手段。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 217,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-220",
@@ -3553,7 +3991,9 @@ const questionBank = [
         "analysis": "避障行为通过探测传感器产生与障碍物相反方向的排斥力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 218,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ai-221",
@@ -3570,7 +4010,9 @@ const questionBank = [
         "analysis": "自然界四大奥秘为物质的本质、宇宙的起源、生命的本质、智能的发生。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-222",
@@ -3587,7 +4029,9 @@ const questionBank = [
         "analysis": "智能的特征包括感知能力、记忆与思维能力、学习能力、行为能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-223",
@@ -3604,7 +4048,9 @@ const questionBank = [
         "analysis": "人工智能三大学派分别是符号主义、连接主义、行为主义。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-224",
@@ -3621,7 +4067,9 @@ const questionBank = [
         "analysis": "基本内容涵盖知识表示、感知、思维、学习和行为五个方面。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-225",
@@ -3638,7 +4086,9 @@ const questionBank = [
         "analysis": "无人驾驶商业化包括硬件、软件、整车制造和网络四个关键要素。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-226",
@@ -3655,7 +4105,9 @@ const questionBank = [
         "analysis": "知识具有相对正确性、不确定性、演化性、关联性等特点，而不是绝对静态的。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-227",
@@ -3672,7 +4124,9 @@ const questionBank = [
         "analysis": "产生式系统最适合表示经验性、启发性规则。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-228",
@@ -3689,7 +4143,9 @@ const questionBank = [
         "analysis": "谓词逻辑具有自然、严密、模块化、精确等优点，但存在组合爆炸问题。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：5",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-229",
@@ -3706,7 +4162,9 @@ const questionBank = [
         "analysis": "知识图谱的核心三要素是实体、属性和关系。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-230",
@@ -3723,7 +4181,9 @@ const questionBank = [
         "analysis": "框架由名、槽、侧面、槽值等层级组成。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-231",
@@ -3740,7 +4200,9 @@ const questionBank = [
         "analysis": "知识的不确定性包括随机性（偶然性）、模糊性（定义不准）、不完全性（信息不\n足）和不一致性（逻辑冲突）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-232",
@@ -3757,7 +4219,9 @@ const questionBank = [
         "analysis": "PPT中提到的模糊判决（解模糊）方法主要包括最大隶属度法、重心法和加权平均\n法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-233",
@@ -3774,7 +4238,9 @@ const questionBank = [
         "analysis": "D-S理论最大的特点是能够刻画由于缺乏证据而导致的“不知道”状态。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-234",
@@ -3791,7 +4257,9 @@ const questionBank = [
         "analysis": "结论的可信度由规则本身的强度（）和证据的强度（）共同决定，计算公式为 。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-235",
@@ -3808,7 +4276,9 @@ const questionBank = [
         "analysis": "模糊集最基础的三种运算是交（min）、并（max）和补（1-μ）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-236",
@@ -3825,7 +4295,9 @@ const questionBank = [
         "analysis": "MCTS 由选择、拓展、模拟和反向传播四个步骤组成。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-237",
@@ -3842,7 +4314,9 @@ const questionBank = [
         "analysis": "状态空间法通常表示为四元组 。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-238",
@@ -3859,7 +4333,9 @@ const questionBank = [
         "analysis": "宽度优先、深度优先和回溯策略属于盲目搜索；A算法和最佳优先属于启发式搜\n索。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-239",
@@ -3876,7 +4352,9 @@ const questionBank = [
         "analysis": "以上描述均符合搜索树的基本定义。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-240",
@@ -3893,7 +4371,9 @@ const questionBank = [
         "analysis": "启发式信息是与问题求解有关的针对性信息，如特征、简化解或经验。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-241",
@@ -3910,7 +4390,9 @@ const questionBank = [
         "analysis": "遗传算法不要求函数连续或可导，具有自组织性、鲁棒性、并行性及群体搜索特\n征。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-242",
@@ -3927,7 +4409,9 @@ const questionBank = [
         "analysis": "PPT中提到的常用编码包括二进制码、格雷码、浮点数（实数）编码和符号编码。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-243",
@@ -3944,7 +4428,9 @@ const questionBank = [
         "analysis": "代表信息素的重要性， 代表能见度（通常是距离倒数）的重要性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-244",
@@ -3961,7 +4447,9 @@ const questionBank = [
         "analysis": "专家系统属于传统符号人工智能，不属于模仿生物群体行为的群智能算法。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-245",
@@ -3978,7 +4466,9 @@ const questionBank = [
         "analysis": "PPT 中详细介绍了改进遗传算法，包括双倍体、双种群、自适应等改进。\n章\n节：第六章：智能计算及其应用\n认知层次：记忆\n难度：1",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-246",
@@ -3995,7 +4485,9 @@ const questionBank = [
         "analysis": "PPT中明确将机器学习按学习方式分为监督、无监督和弱监督学习三大类。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-247",
@@ -4012,7 +4504,9 @@ const questionBank = [
         "analysis": "一个典型的专家系统通常由知识库、推理机、综合数据库、解释器、知识获取机构\n和人机界面组成。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-248",
@@ -4029,7 +4523,9 @@ const questionBank = [
         "analysis": "决策树直观形象，分类效率高，且对数据分布要求不严，能处理非线性。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：5",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-249",
@@ -4046,7 +4542,9 @@ const questionBank = [
         "analysis": "知识获取可以通过人工、辅助工具或机器学习自动完成。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-250",
@@ -4063,7 +4561,9 @@ const questionBank = [
         "analysis": "根据PPT 7.1节，弱监督学习包括半监督学习、转移学习、强化学习等。\n章\n节：第七章：机器学习与专家系统\n认知层次：记忆\n难度：2",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-251",
@@ -4080,7 +4580,9 @@ const questionBank = [
         "analysis": "以上四种均为神经网络中常用的激活函数。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-252",
@@ -4097,7 +4599,9 @@ const questionBank = [
         "analysis": "CNN的基本三层结构为卷积层、池化（采样）层和全连接层。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-253",
@@ -4114,7 +4618,9 @@ const questionBank = [
         "analysis": "神经网络的常见学习方式包含监督、无监督和强化学习。深度学习是学习的一种架\n构，不是并列的学习方式分类。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-254",
@@ -4131,7 +4637,9 @@ const questionBank = [
         "analysis": "Hopfield引入能量函数概念，证明了反馈网络在一定条件下能收敛到极小值点。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-255",
@@ -4148,7 +4656,9 @@ const questionBank = [
         "analysis": "深度学习广泛应用于图像、语言、博弈等领域。专家系统属于符号主义，不属于典\n型的深度学习范畴。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-256",
@@ -4165,7 +4675,9 @@ const questionBank = [
         "analysis": "这是一个完整的语言处理过程层次。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-257",
@@ -4182,7 +4694,9 @@ const questionBank = [
         "analysis": "LSTM、GRU和双向网络均属于循环神经网络范畴。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-258",
@@ -4199,7 +4713,9 @@ const questionBank = [
         "analysis": "这是经典 LSTM 的标准门控结构。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-259",
@@ -4216,7 +4732,9 @@ const questionBank = [
         "analysis": "声波的主要物理特征是振幅和频率。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-260",
@@ -4233,7 +4751,9 @@ const questionBank = [
         "analysis": "机器翻译从早期规则方法演进到统计学方法，再到现在的深度学习（神经翻译）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-261",
@@ -4250,7 +4770,9 @@ const questionBank = [
         "analysis": "PPT 10.8.1 提到大模型在上述任务中都取得了显著成果。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-262",
@@ -4267,7 +4789,9 @@ const questionBank = [
         "analysis": "知识蒸馏的核心是教师引导、学生模仿及最终的模型轻量化。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-263",
@@ -4284,7 +4808,9 @@ const questionBank = [
         "analysis": "这些是 Transformer Block 的标准内部组件。卷积/池化主要用于 CNN。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-264",
@@ -4301,7 +4827,9 @@ const questionBank = [
         "analysis": "AIGC 利用大模型可以生成涵盖文本、图像、音频、视频、代码等多个领域的内\n容。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-265",
@@ -4318,7 +4846,9 @@ const questionBank = [
         "analysis": "这是注意力机制的标准计算流程。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-266",
@@ -4335,7 +4865,9 @@ const questionBank = [
         "analysis": "虽然 Agent 运行在环境中，但其自身结构核心为感知、决策和执行。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-267",
@@ -4352,7 +4884,9 @@ const questionBank = [
         "analysis": "PPT 11.2 节介绍了这三种核心组织结构。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-268",
@@ -4369,7 +4903,9 @@ const questionBank = [
         "analysis": "消息封装了“谁发给谁、想干什么、具体是什么、如何理解”等信息。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-269",
@@ -4386,7 +4922,9 @@ const questionBank = [
         "analysis": "以上四种均为 MAS 中主流的交互和合作机制。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-270",
@@ -4403,7 +4941,9 @@ const questionBank = [
         "analysis": "根据 PPT 11.6 节，协商概括为协议、策略和处理。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-271",
@@ -4420,7 +4960,9 @@ const questionBank = [
         "analysis": "这是雷诺兹提出的 Boids 模型三大核心规则。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-272",
@@ -4437,7 +4979,9 @@ const questionBank = [
         "analysis": "这些都是 PPT 中提到的游戏角色设计基本技术。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-273",
@@ -4454,7 +4998,9 @@ const questionBank = [
         "analysis": "FSM 简单高效，但随着状态增加（状态爆炸），复杂性会显著提升，并非能无限\n处理。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-274",
@@ -4471,7 +5017,9 @@ const questionBank = [
         "analysis": "地图划分、启发式函数和状态空间是影响搜索算法的核心因素。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-275",
@@ -4488,7 +5036,9 @@ const questionBank = [
         "analysis": "根据 PPT 12.6 节，输入参数为视线向量和到地雷的向量。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "ai-276",
@@ -4502,7 +5052,9 @@ const questionBank = [
         "analysis": "PPT明确指出是ABC计算机，而不是莫克利和埃柯1946年发明的ENIAC。\n章\n节：第一章：绪论\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-277",
@@ -4516,7 +5068,9 @@ const questionBank = [
         "analysis": "该实验旨在说明机器只是在进行符号匹配，并不真正理解其含义。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-278",
@@ -4530,7 +5084,9 @@ const questionBank = [
         "analysis": "符号主义起源于数理逻辑，基于逻辑推理。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-279",
@@ -4544,7 +5100,9 @@ const questionBank = [
         "analysis": "“感知-行动”是行为主义学派的方法，连接主义是基于神经网络的方法。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-280",
@@ -4558,7 +5116,9 @@ const questionBank = [
         "analysis": "通过在云端部署算法并提供API，降低了终端设备的使用门槛。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-281",
@@ -4572,7 +5132,9 @@ const questionBank = [
         "analysis": "知识是关联在一起的信息，是经过加工和提炼的，两者不等同。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-282",
@@ -4586,7 +5148,9 @@ const questionBank = [
         "analysis": "谓词逻辑通常处理确定的逻辑关系，对于不确定性、模糊性知识表现较弱。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：3",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-283",
@@ -4600,7 +5164,9 @@ const questionBank = [
         "analysis": "综合数据库存放的是推理过程中的初始事实和中间状态，是动态变化的。\n章\n节：第二章：知识表示与知识图谱\n认知层次：记忆\n难度：5",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-284",
@@ -4614,7 +5180,9 @@ const questionBank = [
         "analysis": "继承性是框架表示法的一个核心优点，可以减少冗余。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-285",
@@ -4628,7 +5196,9 @@ const questionBank = [
         "analysis": "知识图谱在本质上就是一种基于图的知识表示方式。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-286",
@@ -4642,7 +5212,9 @@ const questionBank = [
         "analysis": "含义不确定属于“模糊性”，随机性是指事物发生的因果关系不确定。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-287",
@@ -4656,7 +5228,9 @@ const questionBank = [
         "analysis": "是可信度的最小值，代表完全否定。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-288",
@@ -4670,7 +5244,9 @@ const questionBank = [
         "analysis": "重心法考虑了整个模糊集的形状，输出更具代表性且变化更连续。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-289",
@@ -4684,7 +5260,9 @@ const questionBank = [
         "analysis": "实际上 。 是信任下限， 是信任上限。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-290",
@@ -4698,7 +5276,9 @@ const questionBank = [
         "analysis": "当隶属度只能取 0 或 1 时，模糊集合就退化为经典集合（硬集合）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-291",
@@ -4712,7 +5292,9 @@ const questionBank = [
         "analysis": "盲目搜索（如 DFS）可能找到较长路径，只有特定的搜索策略（如 BFS 或满足条\n件的 A*）能保证找到最短路径。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-292",
@@ -4726,7 +5308,9 @@ const questionBank = [
         "analysis": "DFS 可能会陷入深层分支，如果目标在浅层，宽度优先搜索（BFS）更合适。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-293",
@@ -4740,7 +5324,9 @@ const questionBank = [
         "analysis": "此时算法退化为广度优先搜索或 Dijkstra 算法，具有完备性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-294",
@@ -4754,7 +5340,9 @@ const questionBank = [
         "analysis": "反向传播阶段会将模拟阶段的奖励值传回根节点方向，更新路径上节点的统计信\n息。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-295",
@@ -4768,7 +5356,9 @@ const questionBank = [
         "analysis": "启发式信息引导搜索朝更有希望的方向进行，从而减少不必要的尝试。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-296",
@@ -4782,7 +5372,9 @@ const questionBank = [
         "analysis": "遗传算法利用概率机制进行操作，具有全局搜索的潜能。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-297",
@@ -4796,7 +5388,9 @@ const questionBank = [
         "analysis": "参数设置需要均衡。交叉率过大会破坏优良基因；变异率过大会使算法退化为随机\n搜索。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-298",
@@ -4810,7 +5404,9 @@ const questionBank = [
         "analysis": "这正是蚁群算法能够收敛到较短路径的核心机制。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-299",
@@ -4824,7 +5420,9 @@ const questionBank = [
         "analysis": "恰恰相反，PSO 由于省去了复杂的交叉、变异操作，计算上更简单，易于实现。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-300",
@@ -4838,7 +5436,9 @@ const questionBank = [
         "analysis": "进化算法模拟自然选择、遗传、变异等生物进化过程。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-301",
@@ -4852,7 +5452,9 @@ const questionBank = [
         "analysis": "机器学习为专家系统提供了获取和完善知识的手段。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-302",
@@ -4866,7 +5468,9 @@ const questionBank = [
         "analysis": "K 值代表目标簇的数量，是 K-means 算法的一个预设超参数。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-303",
@@ -4880,7 +5484,9 @@ const questionBank = [
         "analysis": "样本不平衡会导致投票时大类样本占优，KNN 对此比较敏感。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-304",
@@ -4894,7 +5500,9 @@ const questionBank = [
         "analysis": "知识库由事实（静态知识）和规则（推理知识）两部分组成。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-305",
@@ -4908,7 +5516,9 @@ const questionBank = [
         "analysis": "通过引入核函数，SVM 可以将线性不可分的数据映射到高维空间使其变得线性可\n分。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-306",
@@ -4922,7 +5532,9 @@ const questionBank = [
         "analysis": "这是BP网络的万能逼近定理。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-307",
@@ -4936,7 +5548,9 @@ const questionBank = [
         "analysis": "理想状态（纳什均衡）下，生成器生成的图像极度逼近真实，判别器无法区分，准\n确率应趋近于 50%（即随机猜测）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-308",
@@ -4950,7 +5564,9 @@ const questionBank = [
         "analysis": "轴突是输出通道。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-309",
@@ -4964,7 +5580,9 @@ const questionBank = [
         "analysis": "池化能保留主要特征并实现平移不变性，是CNN的关键步骤。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-310",
@@ -4978,7 +5596,9 @@ const questionBank = [
         "analysis": "神经网络的分布式存储特性使其即使部分节点损坏，也能保持一定的功能。\n章\n节：第八章：人工神经网络与深度学习\n认知层次：记忆\n难度：5",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-311",
@@ -4992,7 +5612,9 @@ const questionBank = [
         "analysis": "NLU更侧重于对语言意义的深度理解。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-312",
@@ -5006,7 +5628,9 @@ const questionBank = [
         "analysis": "权重共享使得RNN在不同时间步使用相同的转换矩阵，能够适应不同长度的输\n入。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-313",
@@ -5020,7 +5644,9 @@ const questionBank = [
         "analysis": "通过门控机制，LSTM能有效缓解梯度消失问题，保留长时记忆。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-314",
@@ -5034,7 +5660,9 @@ const questionBank = [
         "analysis": "过零率描述波形穿越零点的频繁程度，反映了频率高低。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-315",
@@ -5048,7 +5676,9 @@ const questionBank = [
         "analysis": "机器翻译（MT）的目标是将一种自然语言（源语言）自动翻译成另一种自然语言\n（目标语言）。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-316",
@@ -5062,7 +5692,9 @@ const questionBank = [
         "analysis": "AIGC 强调了 AI 的生成和创作能力。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-317",
@@ -5076,7 +5708,9 @@ const questionBank = [
         "analysis": "知识蒸馏是为了获得小型、高效的“学生模型”，从而减少推理延迟，便于在移动端\n部署。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-318",
@@ -5090,7 +5724,9 @@ const questionBank = [
         "analysis": "注意力机制是 Transformer 各个组件的核心。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-319",
@@ -5104,7 +5740,9 @@ const questionBank = [
         "analysis": "提示工程强调通过精炼和明确的提示词来引导模型。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-320",
@@ -5118,7 +5756,9 @@ const questionBank = [
         "analysis": "Transformer 及其变体（如 ViT）已广泛应用于图像处理和视频生成领域。\n章\n节：第十章：大语言模型及其应用\n认知层次：记忆\n难度：1",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-321",
@@ -5132,7 +5772,9 @@ const questionBank = [
         "analysis": "Agent 既可以是物理机器人，也可以是运行在计算机环境中的软件程序。\n章\n节：第十一章：智能体与多智能体系统\n认知层次：记忆\n难度：4",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-322",
@@ -5146,7 +5788,9 @@ const questionBank = [
         "analysis": "还可以通过黑板模型等间接通信方式。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-323",
@@ -5160,7 +5804,9 @@ const questionBank = [
         "analysis": "协作的核心优势在于资源的整合与任务的并行化。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-324",
@@ -5174,7 +5820,9 @@ const questionBank = [
         "analysis": "在灵活的 MAS 中，角色是动态的，取决于谁发起了任务。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-325",
@@ -5188,7 +5836,9 @@ const questionBank = [
         "analysis": "社会性是 Agent 能够与其他 Agent 或人类协同工作的基本特性。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-326",
@@ -5202,7 +5852,9 @@ const questionBank = [
         "analysis": "游戏 AI 追求的是玩家的体验和适度的挑战感。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-327",
@@ -5216,7 +5868,9 @@ const questionBank = [
         "analysis": "A* 通过启发式函数可以剪枝，避免盲目搜索所有节点。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-328",
@@ -5230,7 +5884,9 @@ const questionBank = [
         "analysis": "这是状态机的基本定义。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-329",
@@ -5244,7 +5900,9 @@ const questionBank = [
         "analysis": "对齐规则是为了让群体朝同一个方向前进。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ai-330",
@@ -5258,7 +5916,9 @@ const questionBank = [
         "analysis": "脚本语言的解释执行特性使其便于在线修改逻辑。",
         "source": "人工智能",
         "subject": "人工智能",
-        "accent": "#e11d48"
+        "accent": "#e11d48",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "判断题"
       }
     ]
   },
@@ -5281,7 +5941,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-2",
@@ -5297,7 +5959,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-3",
@@ -5313,7 +5977,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-4",
@@ -5329,7 +5995,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-5",
@@ -5345,7 +6013,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-6",
@@ -5361,7 +6031,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-7",
@@ -5377,7 +6049,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-8",
@@ -5393,7 +6067,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-9",
@@ -5409,7 +6085,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-10",
@@ -5425,7 +6103,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-11",
@@ -5441,7 +6121,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-12",
@@ -5457,7 +6139,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-13",
@@ -5473,7 +6157,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-14",
@@ -5489,7 +6175,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-15",
@@ -5505,7 +6193,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-16",
@@ -5521,7 +6211,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-17",
@@ -5537,7 +6229,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-18",
@@ -5553,7 +6247,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-19",
@@ -5569,7 +6265,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-20",
@@ -5585,7 +6283,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-21",
@@ -5601,7 +6301,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-22",
@@ -5617,7 +6319,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-23",
@@ -5633,7 +6337,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-24",
@@ -5649,7 +6355,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-25",
@@ -5665,7 +6373,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-26",
@@ -5681,7 +6391,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-27",
@@ -5697,7 +6409,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-28",
@@ -5713,7 +6427,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-29",
@@ -5729,7 +6445,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-30",
@@ -5745,7 +6463,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-31",
@@ -5761,7 +6481,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-32",
@@ -5777,7 +6499,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-33",
@@ -5793,7 +6517,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-34",
@@ -5809,7 +6535,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-35",
@@ -5825,7 +6553,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-36",
@@ -5841,7 +6571,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-37",
@@ -5857,7 +6589,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-38",
@@ -5873,7 +6607,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-39",
@@ -5889,7 +6625,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-40",
@@ -5905,7 +6643,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-41",
@@ -5921,7 +6661,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-42",
@@ -5937,7 +6679,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-43",
@@ -5953,7 +6697,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-44",
@@ -5969,7 +6715,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-45",
@@ -5985,7 +6733,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-46",
@@ -6001,7 +6751,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-47",
@@ -6017,7 +6769,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-48",
@@ -6033,7 +6787,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-49",
@@ -6049,7 +6805,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-50",
@@ -6065,7 +6823,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-51",
@@ -6081,7 +6841,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-52",
@@ -6097,7 +6859,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-53",
@@ -6113,7 +6877,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-54",
@@ -6129,7 +6895,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-55",
@@ -6145,7 +6913,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-56",
@@ -6161,7 +6931,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-57",
@@ -6177,7 +6949,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-58",
@@ -6193,7 +6967,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-59",
@@ -6209,7 +6985,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-60",
@@ -6225,7 +7003,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-61",
@@ -6241,7 +7021,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-62",
@@ -6257,7 +7039,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-63",
@@ -6273,7 +7057,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-64",
@@ -6289,7 +7075,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-65",
@@ -6305,7 +7093,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 C。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-66",
@@ -6321,7 +7111,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-67",
@@ -6337,7 +7129,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 D。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-68",
@@ -6353,7 +7147,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-69",
@@ -6369,7 +7165,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 B。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-70",
@@ -6385,7 +7183,9 @@ const questionBank = [
         "analysis": "原复习资料标注正确答案为 A。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "db-71",
@@ -6399,7 +7199,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-72",
@@ -6413,7 +7215,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-73",
@@ -6427,7 +7231,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-74",
@@ -6441,7 +7247,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-75",
@@ -6455,7 +7263,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-76",
@@ -6469,7 +7279,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-77",
@@ -6483,7 +7295,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-78",
@@ -6497,7 +7311,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-79",
@@ -6511,7 +7327,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-80",
@@ -6525,7 +7343,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-81",
@@ -6539,7 +7359,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-82",
@@ -6553,7 +7375,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-83",
@@ -6567,7 +7391,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-84",
@@ -6581,7 +7407,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-85",
@@ -6595,7 +7423,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-86",
@@ -6609,7 +7439,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-87",
@@ -6623,7 +7455,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-88",
@@ -6637,7 +7471,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-89",
@@ -6651,7 +7487,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-90",
@@ -6665,7 +7503,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-91",
@@ -6679,7 +7519,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-92",
@@ -6693,7 +7535,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-93",
@@ -6707,7 +7551,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-94",
@@ -6721,7 +7567,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-95",
@@ -6735,7 +7583,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-96",
@@ -6749,7 +7599,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-97",
@@ -6763,7 +7615,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-98",
@@ -6777,7 +7631,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-99",
@@ -6791,7 +7647,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-100",
@@ -6805,7 +7663,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-101",
@@ -6819,7 +7679,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-102",
@@ -6833,7 +7695,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-103",
@@ -6847,7 +7711,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-104",
@@ -6861,7 +7727,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-105",
@@ -6875,7 +7743,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-106",
@@ -6889,7 +7759,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-107",
@@ -6903,7 +7775,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-108",
@@ -6917,7 +7791,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-109",
@@ -6931,7 +7807,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-110",
@@ -6945,7 +7823,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-111",
@@ -6959,7 +7839,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-112",
@@ -6973,7 +7855,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-113",
@@ -6987,7 +7871,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-114",
@@ -7001,7 +7887,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-115",
@@ -7015,7 +7903,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-116",
@@ -7029,7 +7919,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-117",
@@ -7043,7 +7935,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-118",
@@ -7057,7 +7951,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-119",
@@ -7071,7 +7967,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-120",
@@ -7085,7 +7983,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-121",
@@ -7099,7 +7999,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-122",
@@ -7113,7 +8015,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-123",
@@ -7127,7 +8031,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-124",
@@ -7141,7 +8047,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-125",
@@ -7155,7 +8063,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-126",
@@ -7169,7 +8079,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-127",
@@ -7183,7 +8095,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-128",
@@ -7197,7 +8111,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-129",
@@ -7211,7 +8127,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-130",
@@ -7225,7 +8143,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-131",
@@ -7239,7 +8159,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-132",
@@ -7253,7 +8175,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-133",
@@ -7267,7 +8191,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-134",
@@ -7281,7 +8207,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-135",
@@ -7295,7 +8223,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-136",
@@ -7309,7 +8239,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-137",
@@ -7323,7 +8255,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-138",
@@ -7337,7 +8271,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-139",
@@ -7351,7 +8287,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-140",
@@ -7365,7 +8303,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "数据库",
         "subject": "数据库",
-        "accent": "#14b8a6"
+        "accent": "#14b8a6",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "db-141",
@@ -7378,7 +8318,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-142",
@@ -7391,7 +8333,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-143",
@@ -7404,7 +8348,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-144",
@@ -7417,7 +8363,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-145",
@@ -7430,7 +8378,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-146",
@@ -7443,7 +8393,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-147",
@@ -7456,7 +8408,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-148",
@@ -7469,7 +8423,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-149",
@@ -7482,7 +8438,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-150",
@@ -7495,7 +8453,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-151",
@@ -7508,7 +8468,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-152",
@@ -7521,7 +8483,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-153",
@@ -7534,7 +8498,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-154",
@@ -7547,7 +8513,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-155",
@@ -7560,7 +8528,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "design"
+        "originalType": "design",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-156",
@@ -7573,7 +8543,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-157",
@@ -7586,7 +8558,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-158",
@@ -7599,7 +8573,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-159",
@@ -7612,7 +8588,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-160",
@@ -7625,7 +8603,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-161",
@@ -7638,7 +8618,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-162",
@@ -7651,7 +8633,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-163",
@@ -7664,7 +8648,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-164",
@@ -7677,7 +8663,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-165",
@@ -7690,7 +8678,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-166",
@@ -7703,7 +8693,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-167",
@@ -7716,7 +8708,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-168",
@@ -7729,7 +8723,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-169",
@@ -7742,7 +8738,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-170",
@@ -7755,7 +8753,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-171",
@@ -7768,7 +8768,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-172",
@@ -7781,7 +8783,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-173",
@@ -7794,7 +8798,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-174",
@@ -7807,7 +8813,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-175",
@@ -7820,7 +8828,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-176",
@@ -7833,7 +8843,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-177",
@@ -7846,7 +8858,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-178",
@@ -7859,7 +8873,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-179",
@@ -7872,7 +8888,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-180",
@@ -7885,7 +8903,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-181",
@@ -7898,7 +8918,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-182",
@@ -7911,7 +8933,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-183",
@@ -7924,7 +8948,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-184",
@@ -7937,7 +8963,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-185",
@@ -7950,7 +8978,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-186",
@@ -7963,7 +8993,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-187",
@@ -7976,7 +9008,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-188",
@@ -7989,7 +9023,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-189",
@@ -8002,7 +9038,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-190",
@@ -8015,7 +9053,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-191",
@@ -8028,7 +9068,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-192",
@@ -8041,7 +9083,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-193",
@@ -8054,7 +9098,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-194",
@@ -8067,7 +9113,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-195",
@@ -8080,7 +9128,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-196",
@@ -8093,7 +9143,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-197",
@@ -8106,7 +9158,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-198",
@@ -8119,7 +9173,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-199",
@@ -8132,7 +9188,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-200",
@@ -8145,7 +9203,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-201",
@@ -8158,7 +9218,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-202",
@@ -8171,7 +9233,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-203",
@@ -8184,7 +9248,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-204",
@@ -8197,7 +9263,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-205",
@@ -8210,7 +9278,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-206",
@@ -8223,7 +9293,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-207",
@@ -8236,7 +9308,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-208",
@@ -8249,7 +9323,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-209",
@@ -8262,7 +9338,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-210",
@@ -8275,7 +9353,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-211",
@@ -8288,7 +9368,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-212",
@@ -8301,7 +9383,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-213",
@@ -8314,7 +9398,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-214",
@@ -8327,7 +9413,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "db-215",
@@ -8340,7 +9428,9 @@ const questionBank = [
         "source": "数据库",
         "subject": "数据库",
         "accent": "#14b8a6",
-        "originalType": "application"
+        "originalType": "application",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "综合题"
       }
     ]
   },
@@ -8363,7 +9453,9 @@ const questionBank = [
         "analysis": "信息是对原始数据进行整合和分析后形成的，能够解释事物之间相互关系，且\n能够回答 “who-what-when-where” 等模式的问题。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-2",
@@ -8379,7 +9471,9 @@ const questionBank = [
         "analysis": "半结构化数据不需要像结构化数据那样先定义结构，其结构和数据是同时存在\n的，具有自描述性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-3",
@@ -8395,7 +9489,9 @@ const questionBank = [
         "analysis": "定距数据具有类别、可排序且可计算差距，但不存在绝对零点，无法进行乘除\n运算。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-4",
@@ -8411,7 +9507,9 @@ const questionBank = [
         "analysis": "2001 年高德纳咨询公司的道格 · 莱尼提出了大数据的 “3V” 模型。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-5",
@@ -8427,7 +9525,9 @@ const questionBank = [
         "analysis": "“ 数据清洗与预处理 ” 旨在确保数据质量，这一阶段最为耗时和繁琐，花费大约\n75% 的工作量。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-6",
@@ -8443,7 +9543,9 @@ const questionBank = [
         "analysis": "横截面数据是同一时间点不同单元的快照；时间序列数据是同一单元在连续时\n间点的测量；面板数据结合了二者特征，是对多个观测单元在多个时间点进行跟踪采集的\n数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-7",
@@ -8459,7 +9561,9 @@ const questionBank = [
         "analysis": "CSV 文件是使用逗号分隔值的纯文本文件，属于结构化数据的存储方式之一。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-8",
@@ -8475,7 +9579,9 @@ const questionBank = [
         "analysis": "1970 年 IBM 研究员 Codd 发表了关于系统数据库理论的论文，首次提出了关系模\n型的概念。 Bill Inmon 是数据仓库之父， Ralph Kimball 提出了维度建模， Doug Laney 提出\n了大数据的 3V 模型。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-9",
@@ -8491,7 +9597,9 @@ const questionBank = [
         "analysis": "隔离性指事务提交后修改永久保存，不怕故障丢失。原子性是 “ 全有或全无 ” ，一\n致性是符合架构约束，独立性是并发事务互不干扰。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-10",
@@ -8507,7 +9615,9 @@ const questionBank = [
         "analysis": "SELECT DISTINCT param ... 用于去重查询，保证重复的值只能出现一次。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-11",
@@ -8523,7 +9633,9 @@ const questionBank = [
         "analysis": "列式数据库针对读取和写入数据列进行了优化，特别适合一次性读取同一列的\n大量数据，降低磁盘 I/O 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-12",
@@ -8539,7 +9651,9 @@ const questionBank = [
         "analysis": "非易失性表示数据仓库环境相对稳定，数据一旦进入通常不更新或删除，操作\n主要是批量加载和查询。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-13",
@@ -8555,7 +9669,9 @@ const questionBank = [
         "analysis": "星型模型的维表与事实表直接相连，简单直观但有冗余；雪花模型的维度表被\n分解成多个层级，减少了冗余但模型更复杂，查询性能可能下降。星型模型通常是反规范\n化的，存在数据冗余；而雪花模型是规范化的，冗余较少。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-14",
@@ -8571,7 +9687,9 @@ const questionBank = [
         "analysis": "图数据库专门为处理高度互联数据设计，常用于社交网络、欺诈检测等场景。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-15",
@@ -8587,7 +9705,9 @@ const questionBank = [
         "analysis": "数据仓库要求 “ 先定义模式，后写入数据 ” ，而数据湖允许数据以原始格式存储，\n数据模型可以在分析时才确定。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-16",
@@ -8603,7 +9723,9 @@ const questionBank = [
         "analysis": "数据中台的核心目标是打破数据孤岛，实现数据资产的 “ 共建共享 ” ，作为连接\n“ 后台数据 ” 与 “ 前台业务 ” 的桥梁。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-17",
@@ -8619,7 +9741,9 @@ const questionBank = [
         "analysis": "Z-score 标准化将原始数据转换为均值为 0 、标准差为 1 的分布。与最大最小值标\n准化相比，此方法的转换结果不会被异常值干扰。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-18",
@@ -8635,7 +9759,9 @@ const questionBank = [
         "analysis": "流式采集是一种实时、持续地捕获并传输数据的采集模式，强调 “ 数据产生即采\n集、采集即处理 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-19",
@@ -8651,7 +9777,9 @@ const questionBank = [
         "analysis": "在数据建模时，可利用树状图展示决策树模型；在结果解释和部署阶段，利用\n仪表盘将复杂的模型结论转化为业务人员能理解的洞察。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-20",
@@ -8667,7 +9795,9 @@ const questionBank = [
         "analysis": "BI 商业软件以 Tableau 、 Power BI 为代表，采用拖拽式操作界面，交互设计能力\n强，适合企业级数据可视化分析。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-21",
@@ -8683,7 +9813,9 @@ const questionBank = [
         "analysis": "散点图主要用于观察数据的分布或聚类结果，不适合展示比例关系。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-22",
@@ -8699,7 +9831,9 @@ const questionBank = [
         "analysis": "Tableau 提供了分组功能，允许用户将某些字段合并为同一组进行分析。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-23",
@@ -8715,7 +9849,9 @@ const questionBank = [
         "analysis": "利用 Tableau 进行数据可视化中的 “ 故事 ” 部分，指出 “ 每个故事点都是一个独立的\n快照，它记录了当前的可视化状态。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-24",
@@ -8731,7 +9867,9 @@ const questionBank = [
         "analysis": "利用 Tableau 进行数据可视化中的 “ 散点图 ” 部分，点击 “ 分析 ”-“ 群集 ” ，则会使用 K\n均值方法进行聚类分析。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-25",
@@ -8747,7 +9885,9 @@ const questionBank = [
         "analysis": "该分析方法关心的是 “ 哪些项目按顺序先后出现 ” ，时间顺序是关键。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-26",
@@ -8763,7 +9903,9 @@ const questionBank = [
         "analysis": "推断性统计的目的是利用样本数据来对总体做出推断或预测，并对预测结果的\n不确定性进行评估。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-27",
@@ -8779,7 +9921,9 @@ const questionBank = [
         "analysis": "AlphaGo 战胜李世石的事件表明大数据成为驱动人工智能取得突破的关键性因\n素，标志着大数据与 AI 时代的到来。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-28",
@@ -8795,7 +9939,9 @@ const questionBank = [
         "analysis": "三大根本性转变分别是：从依赖随机抽样转向分析全体数据；从追求精确性转\n向接受混杂性；从关注因果关系转向重视相关关系。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-29",
@@ -8811,7 +9957,9 @@ const questionBank = [
         "analysis": "多样性 (Variety) ，医疗健康领域中结构化（如电子记录）与非结构化（如影\n像、基因序列）数据的融合，体现了数据形态的多元性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-30",
@@ -8827,7 +9975,9 @@ const questionBank = [
         "analysis": "世界的不确定性源于变量极多且物理世界本质不确定。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-31",
@@ -8843,7 +9993,9 @@ const questionBank = [
         "analysis": "沃尔玛的案例说明了无需探究内部机理（因果性），只需利用发现的关联关系\n（强相关性）即可进行有效预测和决策。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-32",
@@ -8859,7 +10011,9 @@ const questionBank = [
         "analysis": "MapReduce 的核心思想是计算机科学中的分治策略，即将大规模任务分解为子\n任务并行处理。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-33",
@@ -8875,7 +10029,9 @@ const questionBank = [
         "analysis": "Spark 运行速度快是因为它使用先进的 DAG 执行引擎以支持循环数据流与内存计\n算，基于内存的执行速度比 MapReduce 快上百倍。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-34",
@@ -8891,7 +10047,9 @@ const questionBank = [
         "analysis": "流式计算框架对无界数据流进行 “ 一次事件，一次处理 ” 的低延迟实时计算，适用\n于实时推荐等场景。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-35",
@@ -8907,7 +10065,9 @@ const questionBank = [
         "analysis": "R 语言秉承 “ 统计即编程 ” 的理念，且可以通过 reticulate 包实现与 Python 生态的\n互联。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-36",
@@ -8923,7 +10083,9 @@ const questionBank = [
         "analysis": "数据层的功能是 “ 海量的数据存储及信息整合和共享 ” ，具体内容包括应用数据仓\n库和数据挖掘等技术存储和监控管理大量分散的数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-37",
@@ -8939,7 +10101,9 @@ const questionBank = [
         "analysis": "单个肿瘤患者的多期增强 CT 影像结合三维重建数据，单例患者的影像数据量普\n遍达到 60-80GB 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-38",
@@ -8955,7 +10119,9 @@ const questionBank = [
         "analysis": "数据活化技术的核心思想在于将真实物理世界中的数据内在联系映射到数据存\n储与管理的数字空间中，使存储空间中相互隔离的数据变为一个有机的整体。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-39",
@@ -8971,7 +10137,9 @@ const questionBank = [
         "analysis": "2024 年，新加坡供水管网泄漏率降至 4.2% ，远低于全球平均水平（ 15% ）。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-40",
@@ -8987,7 +10155,9 @@ const questionBank = [
         "analysis": "救援响应时间从以往的 15 分钟缩短至 8 分钟。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-41",
@@ -9003,7 +10173,9 @@ const questionBank = [
         "analysis": "国内智慧城市案例 ” 中 “ 智慧生活 ”",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-42",
@@ -9019,7 +10191,9 @@ const questionBank = [
         "analysis": "针对 “ 潮汐车流 ” ，杭州通过电子指示牌实时调整车道方向。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-43",
@@ -9035,7 +10209,9 @@ const questionBank = [
         "analysis": "“ 智慧医疗 ” ，杭州研发了 “ 医信付 —— 先诊疗，后还款 ” 模式。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-44",
@@ -9051,7 +10227,9 @@ const questionBank = [
         "analysis": "“ 智慧养老 ” ，智能床垫用于监测呼吸、翻身频率，若长时间未翻身或呼吸异常，\n触发报警。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-45",
@@ -9067,7 +10245,9 @@ const questionBank = [
         "analysis": "“ 智慧型的政务服务网 ” 部分，针对复杂事项，杭州推出 “ 一件事一次办 ” 集成服\n务，将多个部门的审批环节整合为 “ 一个窗口、一套材料、一次办结 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-46",
@@ -9083,7 +10263,9 @@ const questionBank = [
         "analysis": "感知层处于三层架构的最底层，解决的是人类世界和物理世界的数据获取问\n题，实现对 “ 物 ” 的识别。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-47",
@@ -9099,7 +10281,9 @@ const questionBank = [
         "analysis": "全面感知是指物联网在信息采集和信息获取的过程中，追求的不仅是信息的广\n泛和透彻，而且强调信息的精准和效用。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-48",
@@ -9115,7 +10299,9 @@ const questionBank = [
         "analysis": "物联网数据结构具有显著的 “ 多元性 ” 特征，从单一的结构化数据向 “ 结构化 + 半结\n构化 + 非结构化 ” 混合的方向发展，而非仅为结构化数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-49",
@@ -9131,7 +10317,9 @@ const questionBank = [
         "analysis": "ETC 系统是通过安装在车辆挡风玻璃上的车载电子标签与在收费站 ETC 车道上的\n微波天线之间的微波专用短程通信。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-50",
@@ -9147,7 +10335,9 @@ const questionBank = [
         "analysis": "封锁内嵌着温度和湿度感应器，用来监测箱内状况。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-51",
@@ -9163,7 +10353,9 @@ const questionBank = [
         "analysis": "访客从一进门开始，就会领到一个内建微晶片的胸针，可以预先设定偏好的温\n度、湿度、灯光等条件。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-52",
@@ -9179,7 +10371,9 @@ const questionBank = [
         "analysis": "2025 年 7 月，国内首条全场景智能网联公交专用道在浦东试运行，通过 5G+ 北斗\n定位与车路协同技术，实现交互。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-53",
@@ -9195,7 +10389,9 @@ const questionBank = [
         "analysis": "搭载多光谱相机的无人机编队通过光谱成像技术捕捉肉眼难以察觉的叶片健康\n度差异。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-54",
@@ -9211,7 +10407,9 @@ const questionBank = [
         "analysis": "应用层的关键技术主要有 M2M 技术、用于处理海量数据的云计算技术等。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-55",
@@ -9227,7 +10425,9 @@ const questionBank = [
         "analysis": "商务智能的概念最早由美国加特纳企业（ Gartner Group ）于 1996 年正式提\n出。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-56",
@@ -9243,7 +10443,9 @@ const questionBank = [
         "analysis": "商务智能系统通过 ETL （ Extract-Transform-Load ，数据抽取、转换、加载）将\n数据层的原始数据集成到数据仓库中。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-57",
@@ -9259,7 +10461,9 @@ const questionBank = [
         "analysis": "商务智能是基于大数据的管理工具，两者侧重点不同（ BI 倾向分析模式，大数\n据倾向刻画个体），且存在依存关系，但并非完全等同。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-58",
@@ -9275,7 +10479,9 @@ const questionBank = [
         "analysis": "OLAP 主要关注多维数据库和多维分析，使分析人员能够从多种角度对信息进行\n快速、一致、交互的存取。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-59",
@@ -9291,7 +10497,9 @@ const questionBank = [
         "analysis": "销售预测结果不仅为企业制定销售目标提供科学依据，更能与供应链系统深度\n协同，实现库存的优化管理。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-60",
@@ -9307,7 +10515,9 @@ const questionBank = [
         "analysis": "心理维度包括消费理念、品牌偏好。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-61",
@@ -9323,7 +10533,9 @@ const questionBank = [
         "analysis": "BI 系统对供应商进行多维度评估，包括产品质量、交货周期、价格水平、售后\n服务等，建立供应商信用评级体系。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-62",
@@ -9339,7 +10551,9 @@ const questionBank = [
         "analysis": "BI 系统实时采集交易数据，构建异常行为识别模型，监控大额高频转账、跨区\n域异常交易、交易习惯突变等可疑场景。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-63",
@@ -9355,7 +10569,9 @@ const questionBank = [
         "analysis": "BI 能够进一步帮助企业基于数据的透明和流程化，促进 PDCA 高效循环，提升管\n理水平。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-64",
@@ -9371,7 +10587,9 @@ const questionBank = [
         "analysis": "2025 年的指南提出医疗大数据具有 “ 三性 ” ：一是场景关联性；二是隐私敏感\n性；三是价值潜在性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-65",
@@ -9387,7 +10605,9 @@ const questionBank = [
         "analysis": "医学影像存档与通信系统被称为 PACS （ Picture Archiving & Communication \nSystem ）。 EMRS 是电子病历系统， LIS 是实验室信息系统， CDSS 是临床决策支持系统。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-66",
@@ -9403,7 +10623,9 @@ const questionBank = [
         "analysis": "生物信息学数据的维度极为丰富，在维度组合的多样性上远超互联网数据，常\n常出现 “ 维度组合爆炸 ” 的现象。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-67",
@@ -9419,7 +10641,9 @@ const questionBank = [
         "analysis": "智慧医疗通过构建跨机构信息共享平台，患者既往病史和检查报告可即时调\n取，有效避免了转诊过程中的重复检查。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-68",
@@ -9435,7 +10659,9 @@ const questionBank = [
         "analysis": "众安保险以用户运动量作为重大疾病保险的定价依据，将保险产品与运动场景\n相结合，用户的运动步数还可以抵扣保费。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-69",
@@ -9451,7 +10677,9 @@ const questionBank = [
         "analysis": "BergHealth 公司利用结合了多种组学的药物研发平台，从大量样本数据中创建\n病人 “ 图谱 ” ，进而挖掘数据，通过明确发病时细胞活动途径的改变来反向推导出合适的药物\n治疗方案。其研发周期缩短至 9~12 个月。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-70",
@@ -9467,7 +10695,9 @@ const questionBank = [
         "analysis": "“ 数据总量太小 ” 与医疗大数据 “ 规模大 ” 的特征矛盾。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-71",
@@ -9483,7 +10713,9 @@ const questionBank = [
         "analysis": "推荐系统基于用户过往行为 “ 预判需求 ” ，主动推送信息。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-72",
@@ -9499,7 +10731,9 @@ const questionBank = [
         "analysis": "长尾理论指出互联网平台可容纳海量 “ 非热门商品 ” ，推荐系统能打破 “ 热门垄\n断 ” ，将长尾商品精准推送，累计销售额甚至能超过热门商品。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-73",
@@ -9515,7 +10749,9 @@ const questionBank = [
         "analysis": "协同过滤推荐的缺点是存在 “ 冷启动问题 ”—— 新用户无交互数据、新物品无用户\n反馈时，无法生成推荐。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-74",
@@ -9531,7 +10767,9 @@ const questionBank = [
         "analysis": "离线计算层处理海量历史数据，周期较长，核心目标是 “ 提升推荐精准度 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-75",
@@ -9547,7 +10785,9 @@ const questionBank = [
         "analysis": "“ 啤酒与尿布 ” 是发现关联购物行为的经典案例，沃尔玛利用购物篮分析发现了二\n者的关联性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-76",
@@ -9563,7 +10803,9 @@ const questionBank = [
         "analysis": "Target 为了在婴儿出生前锁定孕妇这一高价值群体，利用大数据预测怀孕情况\n并进行精准营销。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-77",
@@ -9579,7 +10821,9 @@ const questionBank = [
         "analysis": "大数据支持的 “ 预售模式 ” 可实现 “ 零库存 ” 运营 —— 先收集订单，再生产发货，避\n免库存积压。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-78",
@@ -9595,7 +10839,9 @@ const questionBank = [
         "analysis": "智能物流的三大特征是先进化、互连化、智能化。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-79",
@@ -9611,7 +10857,9 @@ const questionBank = [
         "analysis": "智能物流通过大数据实现 “ 全链路可视化追踪 ” ，解决无法实时掌握货物状态的问\n题。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-80",
@@ -9627,7 +10875,9 @@ const questionBank = [
         "analysis": "智能冷链通过大数据与温度传感器，实现 “ 全链路温度监控与风险预判 ” ，防止生\n鲜腐烂或药品失效。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-81",
@@ -9643,7 +10893,9 @@ const questionBank = [
         "analysis": "智能选址通过人流量、消费能力、竞争格局、租金成本等维度进行分析，精准\n定位高潜力区域。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-82",
@@ -9659,7 +10911,9 @@ const questionBank = [
         "analysis": "奈雪的茶通过分析小红书、抖音的 “ 饮品话题 ” ，发现 “ 油柑 ” 等小众水果饮品的讨\n论量巨大，从而研发新品。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-83",
@@ -9675,7 +10929,9 @@ const questionBank = [
         "analysis": "Netflix 发现喜爱原版《纸牌屋》和导演大卫 · 芬奇、演员凯文 · 史派西的用户群体\n存在显著交集，基于此数据洞察决定投资。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-84",
@@ -9691,7 +10947,9 @@ const questionBank = [
         "analysis": "大数据能帮助平台规避 “ 高风险作品 ” ，如评估题材是否符合政策导向、主创团队\n是否存在负面舆情等。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-85",
@@ -9707,7 +10965,9 @@ const questionBank = [
         "analysis": "识别高潜力付费用户并推送优惠，属于会员运营中的精准触达策略，旨在提升\n付费率。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-86",
@@ -9723,7 +10983,9 @@ const questionBank = [
         "analysis": "O2O 的核心价值在于 “ 数据闭环 ” ，即线上引流、线下消费、用户反馈数据形成\n循环，持续优化运营。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-87",
@@ -9739,7 +11001,9 @@ const questionBank = [
         "analysis": "传统数据安全的核心聚焦数据的 “ 保密性、完整性、可用性 ” ，这是信息安全领域\n的经典安全框架。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-88",
@@ -9755,7 +11019,9 @@ const questionBank = [
         "analysis": "大数据因集中化管理，对攻击者更具吸引力，一旦突破安全屏障，攻击者可一\n次性获取海量敏感数据，收益远高于攻击传统分散数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-89",
@@ -9771,7 +11037,9 @@ const questionBank = [
         "analysis": "“ 高级可持续攻击 ” 具有隐蔽性、长期性特征，攻击者会利用大数据技术隐藏攻击\n轨迹，通过持续渗透逐步获取数据，传统检测手段难以识别。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-90",
@@ -9787,7 +11055,9 @@ const questionBank = [
         "analysis": "美国国家安全局与微软、谷歌、苹果等国际互联网企业达成合作，直接接入这\n些企业的核心服务器，通过技术手段挖掘数据、收集情报。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-91",
@@ -9803,7 +11073,9 @@ const questionBank = [
         "analysis": "Facebook 虽声称用户数据获取 “ 经过授权 ” ，但剑桥分析将数据用于 “ 影响政治决\n策 ” 的目的，远超用户授权范围，属于 “ 数据滥用 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-92",
@@ -9819,7 +11091,9 @@ const questionBank = [
         "analysis": "“ 撞库 ” 即利用此前其他游戏网站、论坛泄露的 “ 用户名 + 密码 ” 组合，批量尝试登\n录 12306 平台。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-93",
@@ -9835,7 +11109,9 @@ const questionBank = [
         "analysis": "数据主权是指一个国家对其管辖范围内的数据拥有独立自主的占有、管理、控\n制、利用和保护的权力。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-94",
@@ -9851,7 +11127,9 @@ const questionBank = [
         "analysis": "云杀毒软件依托庞大的网络服务实时采集、分析全网数据，利用云计算基础设\n施与大数据分析技术，实现 “ 全网协同防御 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-95",
@@ -9867,7 +11145,9 @@ const questionBank = [
         "analysis": "知情同意原则要求数据采集需获得数据主体的明确授权，且需告知采集目的、\n范围与用途，禁止 “ 隐蔽采集 ” 、 “ 过度采集 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-96",
@@ -9883,7 +11163,9 @@ const questionBank = [
         "analysis": "数字鸿沟指先进技术的成果不能为人公正分享，造成 “ 富者越富、穷者越穷 ” ，是\n个体在数据获取与利用能力上的差异导致的社会公平问题。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-97",
@@ -9899,7 +11181,9 @@ const questionBank = [
         "analysis": "数据垄断表现之一是利用数据优势设置行业进入壁垒或扩张壁垒，阻碍新企业\n进入市场。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-98",
@@ -9915,7 +11199,9 @@ const questionBank = [
         "analysis": "大数据杀熟利用数据优势 “ 剥削 ” 忠实用户，违背了 “ 公平交易 ” 的道德原则。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-99",
@@ -9931,7 +11217,9 @@ const questionBank = [
         "analysis": "信息茧房使用户被局限在自身偏好的信息圈层中，丧失对多元信息的接触机\n会，加剧 “ 认知固化 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-100",
@@ -9947,7 +11235,9 @@ const questionBank = [
         "analysis": "算法逐渐呈现 “ 极致优化 ” 倾向，将 “ 理想状态 ” 等同于 “ 标准要求 ” ，对效率的单一\n追求挤压了骑手的权益空间。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "ds-101",
@@ -9961,7 +11251,9 @@ const questionBank = [
         "analysis": "知识能够回答 “how” （如何做）这类模式的问题；而智慧才能够回答 “why” （为\n什么）以及 “what-to-do” 的问题。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-102",
@@ -9975,7 +11267,9 @@ const questionBank = [
         "analysis": "非结构化数据约占总数据量的 80% 以上。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-103",
@@ -9989,7 +11283,9 @@ const questionBank = [
         "analysis": "数据科学建立在计算机科学、统计学与数学、领域知识这三大支柱之上。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-104",
@@ -10003,7 +11299,9 @@ const questionBank = [
         "analysis": "JSON 是当前最流行的 Web 数据交换格式，属于常见的半结构化数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-105",
@@ -10017,7 +11315,9 @@ const questionBank = [
         "analysis": "定序数据具有排序关系，但是不同等级数据的差距无法精细度量，不能做加减\n操作。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-106",
@@ -10031,7 +11331,9 @@ const questionBank = [
         "analysis": "除了评估模型的泛化能力（技术性能），还必须 “ 在业务层面上确认性能指标是\n否达到了第一阶段设定的成功标准 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-107",
@@ -10045,7 +11347,9 @@ const questionBank = [
         "analysis": "Edgar Codd 在 1970 年发表论文提出了关系模型，奠定了关系型数据库的理论基\n础。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-108",
@@ -10059,7 +11363,9 @@ const questionBank = [
         "analysis": "关系数据库缺点：一般是由主数据库负责数据的写入，由从数据库负责数据的\n读入。关系数据库不善于处理大数据的写入操作。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-109",
@@ -10073,7 +11379,9 @@ const questionBank = [
         "analysis": "NoSQL 数据库与关系数据库是互补关系，而非替代关系。它们各自有不可替代\n的优势。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-110",
@@ -10087,7 +11395,9 @@ const questionBank = [
         "analysis": "文档数据库旨在将半结构化数据存储为文档，每个 NoSQL 文档的架构是不同\n的。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-111",
@@ -10101,7 +11411,9 @@ const questionBank = [
         "analysis": "OLTP 用于日常业务运营，涉及高频的增删查改； OLAP 才用于支持管理层决\n策，涉及大规模查询和聚合。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-112",
@@ -10115,7 +11427,9 @@ const questionBank = [
         "analysis": "ODS 充当操作环境与分析环境之间的缓冲区，确实具备上述双重特性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-113",
@@ -10129,7 +11443,9 @@ const questionBank = [
         "analysis": "事实表存储业务的度量值，维度表存储上下文信息。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-114",
@@ -10143,7 +11459,9 @@ const questionBank = [
         "analysis": "数据湖五大核心要素的描述，核心存储层采用对象存储作为底层存储。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-115",
@@ -10157,7 +11475,9 @@ const questionBank = [
         "analysis": "键值存储数据库针对性能优化，将数据存储在内存中。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-116",
@@ -10171,7 +11491,9 @@ const questionBank = [
         "analysis": "数据中台主要面向业务而非面向技术，其核心目标是提升数据共享和复用能\n力，支撑前台业务。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-117",
@@ -10185,7 +11507,9 @@ const questionBank = [
         "analysis": "对于有序类别数据，最常用的方法是序数编码。独热编码通常用于无序类别数\n据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-118",
@@ -10199,7 +11523,9 @@ const questionBank = [
         "analysis": "样本不均衡指不同类别样本数量相差悬殊。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-119",
@@ -10213,7 +11539,9 @@ const questionBank = [
         "analysis": "数据可视化并非数据科学工作流中一个独立展示环节，它在数据科学的每一个\n阶段（包括数据获取、探索、建模、结果解释等）均可发挥重要作用。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-120",
@@ -10227,7 +11555,9 @@ const questionBank = [
         "analysis": "Nathan Yau 在《数据可视化指南》中表达：把数字置于视觉空间中，大脑更容\n易发现潜藏模式。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-121",
@@ -10241,7 +11571,9 @@ const questionBank = [
         "analysis": "无需强制手动输入经纬度（除非数据源无法识别）。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-122",
@@ -10255,7 +11587,9 @@ const questionBank = [
         "analysis": "利用 Tableau 进行数据可视化：在筛选框的下拉菜单中选择 “ 应用于工作表 ”-“ 使\n用此数据源的所有项 ” ，则可以在筛选时同步更改相关的其他图表。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-123",
@@ -10269,7 +11603,9 @@ const questionBank = [
         "analysis": "复制图表中的数据，可直接粘贴至 Excel 表格中。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-124",
@@ -10283,7 +11619,9 @@ const questionBank = [
         "analysis": "“ 突出显示表 ” ：操作步骤是将利润拖入 “ 标记 ”-“ 颜色 ” ，并编辑颜色属性选择渐变\n颜色。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-125",
@@ -10297,7 +11635,9 @@ const questionBank = [
         "analysis": "回归分析用于研究变量间的定量关系并进行预测，回归问题的输出是连续的数\n值型数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-126",
@@ -10311,7 +11651,9 @@ const questionBank = [
         "analysis": "聚类分析是在没有预设答案的前提下，实现对象的 “ 物以类聚 ” ，要求簇内相似度\n高，簇间差异明显。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-127",
@@ -10325,7 +11667,9 @@ const questionBank = [
         "analysis": "小数据时代的核心特征。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-128",
@@ -10339,7 +11683,9 @@ const questionBank = [
         "analysis": "“ 大数据摩尔定律 ” 是指数据总量每两年翻一番，而不是每五年。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-129",
@@ -10353,7 +11699,9 @@ const questionBank = [
         "analysis": "大数据价值特征包含两方面：一是原始数据价值密度低，二是大数据背后潜藏\n的价值巨大。两者并不矛盾。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-130",
@@ -10367,7 +11715,9 @@ const questionBank = [
         "analysis": "机械思维是以确定性为核心，建立在经典物理理论之上，强调精确的因果关\n系。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-131",
@@ -10381,7 +11731,9 @@ const questionBank = [
         "analysis": "香农信息论中信息熵越大，则不确定性越高。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-132",
@@ -10395,7 +11747,9 @@ const questionBank = [
         "analysis": "Map 阶段负责分解映射（拆分任务），而 Reduce 阶段负责归约聚合（合并结\n果）。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-133",
@@ -10409,7 +11763,9 @@ const questionBank = [
         "analysis": "Storm 采用事件驱动的流处理模型，以低延迟响应为首要优化指标；而\nMapReduce 才是面向批处理且追求高吞吐量。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-134",
@@ -10423,7 +11779,9 @@ const questionBank = [
         "analysis": "文档 “ 处理框架 Pregel” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-135",
@@ -10437,7 +11795,9 @@ const questionBank = [
         "analysis": "Tableau 通过直观的拖放式操作界面，用户无需编程即可快速构建可视化图表，\n理念是 “ 人人可用的数据分析 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-136",
@@ -10451,7 +11811,9 @@ const questionBank = [
         "analysis": "智慧城市的基础除了物联网、云计算等基础设施外，还包括维基、社交网络、\nFabLab 、 Living Lab 等工具和方法的应用。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-137",
@@ -10465,7 +11827,9 @@ const questionBank = [
         "analysis": "数据的多尺度与多粒度，地理采样粒度可以像遥感测绘数据一样精确到数米。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-138",
@@ -10479,7 +11843,9 @@ const questionBank = [
         "analysis": "分布式数据库、 Hadoop 等现有方式 “ 尚无法完全满足 ” 智慧城市应用的实时性和\n灵活性要求。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-139",
@@ -10493,7 +11859,9 @@ const questionBank = [
         "analysis": "智能交通系统运用于地铁线路上的列车调配，列车可根据客流量自动调节发车\n间隔时间。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-140",
@@ -10507,7 +11875,9 @@ const questionBank = [
         "analysis": "2014 年发布的是全球首个 “ 智慧国 ” 蓝图，而 “ 智慧国 2.0” 战略升级方案是在 2024\n年正式推出的。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-141",
@@ -10521,7 +11891,9 @@ const questionBank = [
         "analysis": "通过区块链技术实现货物全流程追踪，数据不可篡改，减少单据伪造风险。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-142",
@@ -10535,7 +11907,9 @@ const questionBank = [
         "analysis": "系统不仅能动态调整配时，还能 “ 根据突发情况（如交通事故、临时管制）快速\n调整信号 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-143",
@@ -10549,7 +11923,9 @@ const questionBank = [
         "analysis": "智慧医疗平台整合了 15 家市属医院和 89 家社区卫生服务中心的电子病历数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-144",
@@ -10563,7 +11939,9 @@ const questionBank = [
         "analysis": "平台向社会开放 300 余项公共数据，企业与市民可免费查询、下载，用于创新应\n用开发。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-145",
@@ -10577,7 +11955,9 @@ const questionBank = [
         "analysis": "数据可视化可以很好地填补技术到用户之间的理解鸿沟，将数据以简洁且易于\n理解的方式呈现。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-146",
@@ -10591,7 +11971,9 @@ const questionBank = [
         "analysis": "物联网的核心和基础仍然是互联网，是在互联网基础之上延伸和扩展的一种网\n络。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-147",
@@ -10605,7 +11987,9 @@ const questionBank = [
         "analysis": "物联网网络层将承担比现有网络更大的数据量和面临更高的服务质量要求，所\n以现有网络尚不能满足物联网的需求，这就意味着物联网需要对现有网络进行融合和扩\n展。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-148",
@@ -10619,7 +12003,9 @@ const questionBank = [
         "analysis": "以 “ 智能分布式 ” 控制交通流网络平衡技术最大限度保证道路交叉口的通行顺畅。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-149",
@@ -10633,7 +12019,9 @@ const questionBank = [
         "analysis": "无人车完全由电子计算机操纵，对物流路线规划、信息接收传递更为敏感。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-150",
@@ -10647,7 +12035,9 @@ const questionBank = [
         "analysis": "封锁可设置在海上或非信号范围内不激活。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-151",
@@ -10661,7 +12051,9 @@ const questionBank = [
         "analysis": "安全系统有两套，当一套发生故障时，另一套能自动激活，立即接替工作。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-152",
@@ -10675,7 +12067,9 @@ const questionBank = [
         "analysis": "依托蚂蚁金服的人脸识别算法，在 1:3000 身份识别场景下实测识别率超 95% ，\n乘客无需停留即可快速通过闸机。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-153",
@@ -10689,7 +12083,9 @@ const questionBank = [
         "analysis": "系统不再依赖固定周期浇水，而是根据土壤湿度传感器数据、葡萄生长阶段及\n天气预报，自动生成个性化灌溉方案。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-154",
@@ -10703,7 +12099,9 @@ const questionBank = [
         "analysis": "物联网不仅仅提供了传感器的连接，也能将传感器和智能处理相结合，具有智\n能处理的能力。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-155",
@@ -10717,7 +12115,9 @@ const questionBank = [
         "analysis": "BI 并不全是新的技术，而是对一些现代技术（如数据仓库、数据分析、数据挖\n掘等）的综合运用。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-156",
@@ -10731,7 +12131,9 @@ const questionBank = [
         "analysis": "企业级商务智能系统的层次架构中，数据层位于最底层负责收集数据，决策层\n位于最顶层，用户运用系统提供的分析结果指导行动。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-157",
@@ -10745,7 +12147,9 @@ const questionBank = [
         "analysis": "目前企业中 80% 以上的数据属于非结构化数据，且正以每年 55%~65% 的速度快\n速增长。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-158",
@@ -10759,7 +12163,9 @@ const questionBank = [
         "analysis": "数据可视化的具体形式分为报表和可视化图表两大类。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-159",
@@ -10773,7 +12179,9 @@ const questionBank = [
         "analysis": "销售业绩分析与监控维度包括时间维度、区域维度、产品维度以及销售人员维\n度。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-160",
@@ -10787,7 +12195,9 @@ const questionBank = [
         "analysis": "电商平台发现购买手机的客户会购买手机壳，从而进行推荐，这属于交叉销\n售。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-161",
@@ -10801,7 +12211,9 @@ const questionBank = [
         "analysis": "BI 系统通过精细化拆分与分析成本数据，可以识别成本管控的关键环节。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-162",
@@ -10815,7 +12227,9 @@ const questionBank = [
         "analysis": "构建 360 度客户画像需要整合企业内部各系统的数据，同时结合外部数据。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-163",
@@ -10829,7 +12243,9 @@ const questionBank = [
         "analysis": "BI 系统通过自然语言处理技术解析财经新闻、研报观点，量化舆情对资产价格\n的影响。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-164",
@@ -10843,7 +12259,9 @@ const questionBank = [
         "analysis": "医疗大数据狭义上是从因疾病而产生的数据，现在已经扩展到健康状态下的人\n体所有体征数据 …… 涵盖人的全生命周期。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-165",
@@ -10857,7 +12275,9 @@ const questionBank = [
         "analysis": "医疗大数据具有 “ 增长快 ” 的特征，存在大量在线或实时数据分析处理的需求，且\n保持高速增长态势。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-166",
@@ -10871,7 +12291,9 @@ const questionBank = [
         "analysis": "随着测序技术的突破，人类基因组测序成本从 2000 年的约 1 亿美元大幅降至如\n今的 1000 美元左右。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-167",
@@ -10885,7 +12307,9 @@ const questionBank = [
         "analysis": "智慧医疗的核心就是 “ 以患者为中心 ” ，给予患者以全面、专业、个性化的医疗体\n验。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-168",
@@ -10899,7 +12323,9 @@ const questionBank = [
         "analysis": "沃森机器人医生是为医生提出规范化临床路径及个体化治疗建议，协助医生做\n出最佳诊断。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-169",
@@ -10913,7 +12339,9 @@ const questionBank = [
         "analysis": "2014 年哈佛大学公共卫生学院的研究人员成功预测了巴基斯坦登革热的蔓延趋\n势。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-170",
@@ -10927,7 +12355,9 @@ const questionBank = [
         "analysis": "大量数据来源于人工记录，导致数据记录的残缺和偏差，这使得医疗大数据具\n有不完整性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-171",
@@ -10941,7 +12371,9 @@ const questionBank = [
         "analysis": "基于内容的推荐核心逻辑是 “ 推荐相似特征的物品 ” ，缺陷是容易陷入 “ 推荐同质\n化 ” ，用户长期只能收到同类内容。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-172",
@@ -10955,7 +12387,9 @@ const questionBank = [
         "analysis": "协同过滤推荐的核心逻辑是 “ 不依赖物品本身的特征 ” ，而是通过分析用户与物品\n的交互关系（如购买、评分）来实现推荐。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-173",
@@ -10969,7 +12403,9 @@ const questionBank = [
         "analysis": "实时计算层响应时间要求极高，通常采用简单高效的算法；离线计算层才适合\n采用复杂模型提升精度。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-174",
@@ -10983,7 +12419,9 @@ const questionBank = [
         "analysis": "长尾理论指出互联网平台无物理空间限制，海量长尾商品总量庞大，累计销售\n额甚至能超过热门商品。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-175",
@@ -10997,7 +12435,9 @@ const questionBank = [
         "analysis": "数据共享是为了让供应商调整生产计划，实现 “ 以销定产 ” ，结果是双方的库存成\n本均降低，而非增加。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-176",
@@ -11011,7 +12451,9 @@ const questionBank = [
         "analysis": "前置仓模式是将高频购买的商品提前存储在 “ 靠近用户 ” 的仓库，而非远离城市的\n中央仓库，目的是缩短配送时效。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-177",
@@ -11025,7 +12467,9 @@ const questionBank = [
         "analysis": "大数据通过挖掘海量数据背后的规律，让 “ 黑大陆 ” 变透明，让 “ 冰山成本 ” 显形。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-178",
@@ -11039,7 +12483,9 @@ const questionBank = [
         "analysis": "该系统实时整合订单、配送员位置、实时路况、商家出餐速度等多维度数据进\n行分配。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-179",
@@ -11053,7 +12499,9 @@ const questionBank = [
         "analysis": "对于 “ 毛利率低于 30% 且销量一般 ” 的菜品才考虑调价或淘汰；对于毛利率高的菜\n品，可能会尝试改良或保留。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-180",
@@ -11067,7 +12515,9 @@ const questionBank = [
         "analysis": "星巴克利用用户画像进行 “ 场景化营销 ” ，如针对特定用户的习惯在特定时间推送\n特定产品的优惠，而非无差别推送。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-181",
@@ -11081,7 +12531,9 @@ const questionBank = [
         "analysis": "麦当劳的系统可实现 “ 分钟级 ” 的人力调整，结合预测和实时数据优化排班。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-182",
@@ -11095,7 +12547,9 @@ const questionBank = [
         "analysis": "Netflix 和国内平台都会依据 “ 观看设备 ” 和 “ 时间 ” 调整内容。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-183",
@@ -11109,7 +12563,9 @@ const questionBank = [
         "analysis": "该系统进行 100 余项指标评估，包括 IP 过往数据、主创口碑、用户匹配度等量化\n数据，而非主观喜爱。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-184",
@@ -11123,7 +12579,9 @@ const questionBank = [
         "analysis": "大数据已深度介入内容生产，如《纸牌屋》的选角、《长相思》的名场面规划\n等。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-185",
@@ -11137,7 +12595,9 @@ const questionBank = [
         "analysis": "大数据分析线上评价可定位门店问题（如服务响应慢），从而指导线下改进。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-186",
@@ -11151,7 +12611,9 @@ const questionBank = [
         "analysis": "基于统计的推荐缺点是完全缺乏个性化，推荐范围固定，难以挖掘用户潜在兴\n趣。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-187",
@@ -11165,7 +12627,9 @@ const questionBank = [
         "analysis": "大数据安全的相关概念，大数据安全并非独立于传统数据安全的全新领域，而\n是对传统数据安全的延伸与升级。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-188",
@@ -11179,7 +12643,9 @@ const questionBank = [
         "analysis": "MongoDB 作为典型的 NoSQL 数据库，因发展时间短、安全防护机制不完善，\n曾多次发生被黑客攻击导致数据库泄密的事件。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-189",
@@ -11193,7 +12659,9 @@ const questionBank = [
         "analysis": "哈佛大学研究显示，仅通过年龄、性别、邮编三个基础信息，即可在公开数据\n库中识别出 87% 的个人身份。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-190",
@@ -11207,7 +12675,9 @@ const questionBank = [
         "analysis": "大数据安全的典型案例，棱镜计划对境外非美国公民的网络活动实施无差别监\n听，且监控跨境数据流动。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-191",
@@ -11221,7 +12691,9 @@ const questionBank = [
         "analysis": "像手电筒这类功能单一的 APP 要求读取通讯录，违背了 “ 必要原则 ” 。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-192",
@@ -11235,7 +12707,9 @@ const questionBank = [
         "analysis": "大数据安全的典型案例，免费 WiFi 存在黑客搭建陷阱窃取信息的风险，个人应\n避免连接无密码的公共 WiFi 进行支付转账。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-193",
@@ -11249,7 +12723,9 @@ const questionBank = [
         "analysis": "数据自由流通需以 “ 安全 ” 为前提，并非无限制自由。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-194",
@@ -11263,7 +12739,9 @@ const questionBank = [
         "analysis": "洛杉矶警察局将原本用于地震余震预测的数学模型成功应用于犯罪预测。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-195",
@@ -11277,7 +12755,9 @@ const questionBank = [
         "analysis": "大数据伦理的概念，数据使用的伦理关注 “ 数据使用是否正当 ” ，要求符合道德目\n的。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-196",
@@ -11291,7 +12771,9 @@ const questionBank = [
         "analysis": "在 “ 万物皆可数据化 ” 的环境中，人的主体地位遭遇了冲击，真实的被 “ 数据塑造\n的身份 ” 替代，陷入 “ 主体异化 ” 困境。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-197",
@@ -11305,7 +12787,9 @@ const questionBank = [
         "analysis": "算法训练数据可能包含历史社会偏见，导致算法将 “ 性别 ” 作为隐性筛选因素，形\n成歧视。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-198",
@@ -11319,7 +12803,9 @@ const questionBank = [
         "analysis": "数据独裁指形成 “ 数据主导决策、人类被动服从 ” 的唯数据主义倾向，导致自主性\n丧失。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-199",
@@ -11333,7 +12819,9 @@ const questionBank = [
         "analysis": "“ 探针盒子 ” 是在用户不知情的情况下自动捕捉个人信息，违背了知情同意原则。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-200",
@@ -11347,7 +12835,9 @@ const questionBank = [
         "analysis": "魏则西事件暴露出百度通过竞价排名误导用户，且未审核医疗信息真实性。",
         "source": "数据科学",
         "subject": "数据科学",
-        "accent": "#7c3aed"
+        "accent": "#7c3aed",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "ds-201",
@@ -11363,7 +12853,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-202",
@@ -11379,7 +12871,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-203",
@@ -11395,7 +12889,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-204",
@@ -11411,7 +12907,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-205",
@@ -11427,7 +12925,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-206",
@@ -11443,7 +12943,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-207",
@@ -11459,7 +12961,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-208",
@@ -11475,7 +12979,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-209",
@@ -11491,7 +12997,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-210",
@@ -11508,7 +13016,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-211",
@@ -11524,7 +13034,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-212",
@@ -11540,7 +13052,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-213",
@@ -11556,7 +13070,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-214",
@@ -11572,7 +13088,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-215",
@@ -11588,7 +13106,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-216",
@@ -11604,7 +13124,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-217",
@@ -11620,7 +13142,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-218",
@@ -11636,7 +13160,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-219",
@@ -11652,7 +13178,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-220",
@@ -11668,7 +13196,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-221",
@@ -11684,7 +13214,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-222",
@@ -11700,7 +13232,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-223",
@@ -11716,7 +13250,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-224",
@@ -11732,7 +13268,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-225",
@@ -11748,7 +13286,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-226",
@@ -11764,7 +13304,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-227",
@@ -11780,7 +13322,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-228",
@@ -11796,7 +13340,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-229",
@@ -11812,7 +13358,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-230",
@@ -11828,7 +13376,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-231",
@@ -11844,7 +13394,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-232",
@@ -11860,7 +13412,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-233",
@@ -11876,7 +13430,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-234",
@@ -11892,7 +13448,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-235",
@@ -11908,7 +13466,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-236",
@@ -11924,7 +13484,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-237",
@@ -11940,7 +13502,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-238",
@@ -11956,7 +13520,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-239",
@@ -11972,7 +13538,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-240",
@@ -11988,7 +13556,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-241",
@@ -12004,7 +13574,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-242",
@@ -12020,7 +13592,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-243",
@@ -12036,7 +13610,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-244",
@@ -12052,7 +13628,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-245",
@@ -12068,7 +13646,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-246",
@@ -12084,7 +13664,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-247",
@@ -12100,7 +13682,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-248",
@@ -12116,7 +13700,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-249",
@@ -12132,7 +13718,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-250",
@@ -12148,7 +13736,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-251",
@@ -12164,7 +13754,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-252",
@@ -12180,7 +13772,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-253",
@@ -12196,7 +13790,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-254",
@@ -12212,7 +13808,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-255",
@@ -12228,7 +13826,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-256",
@@ -12244,7 +13844,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-257",
@@ -12260,7 +13862,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-258",
@@ -12276,7 +13880,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-259",
@@ -12292,7 +13898,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-260",
@@ -12308,7 +13916,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-261",
@@ -12324,7 +13934,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-262",
@@ -12340,7 +13952,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-263",
@@ -12356,7 +13970,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-264",
@@ -12372,7 +13988,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-265",
@@ -12388,7 +14006,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-266",
@@ -12404,7 +14024,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-267",
@@ -12420,7 +14042,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-268",
@@ -12436,7 +14060,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-269",
@@ -12452,7 +14078,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-270",
@@ -12468,7 +14096,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-271",
@@ -12484,7 +14114,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-272",
@@ -12500,7 +14132,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-273",
@@ -12516,7 +14150,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-274",
@@ -12532,7 +14168,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-275",
@@ -12548,7 +14186,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-276",
@@ -12564,7 +14204,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-277",
@@ -12580,7 +14222,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-278",
@@ -12596,7 +14240,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-279",
@@ -12612,7 +14258,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-280",
@@ -12628,7 +14276,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-281",
@@ -12644,7 +14294,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-282",
@@ -12660,7 +14312,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-283",
@@ -12676,7 +14330,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-284",
@@ -12692,7 +14348,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-285",
@@ -12708,7 +14366,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-286",
@@ -12724,7 +14384,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-287",
@@ -12740,7 +14402,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-288",
@@ -12756,7 +14420,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-289",
@@ -12772,7 +14438,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-290",
@@ -12788,7 +14456,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-291",
@@ -12804,7 +14474,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-292",
@@ -12820,7 +14492,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-293",
@@ -12836,7 +14510,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-294",
@@ -12852,7 +14528,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-295",
@@ -12868,7 +14546,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-296",
@@ -12884,7 +14564,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-297",
@@ -12900,7 +14582,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-298",
@@ -12916,7 +14600,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-299",
@@ -12932,7 +14618,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "ds-300",
@@ -12948,7 +14636,9 @@ const questionBank = [
         "source": "数据科学",
         "subject": "数据科学",
         "accent": "#7c3aed",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "填空题"
       }
     ]
   },
@@ -12972,7 +14662,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-2",
@@ -12989,7 +14681,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-3",
@@ -13006,7 +14700,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-4",
@@ -13023,7 +14719,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-5",
@@ -13040,7 +14738,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-6",
@@ -13057,7 +14757,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-7",
@@ -13074,7 +14776,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-8",
@@ -13091,7 +14795,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-9",
@@ -13108,7 +14814,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-10",
@@ -13125,7 +14833,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-11",
@@ -13142,7 +14852,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-12",
@@ -13159,7 +14871,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-13",
@@ -13176,7 +14890,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-14",
@@ -13193,7 +14909,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-15",
@@ -13210,7 +14928,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-16",
@@ -13227,7 +14947,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-17",
@@ -13244,7 +14966,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-18",
@@ -13261,7 +14985,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-19",
@@ -13278,7 +15004,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-20",
@@ -13295,7 +15023,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-21",
@@ -13312,7 +15042,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-22",
@@ -13329,7 +15061,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-23",
@@ -13346,7 +15080,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-24",
@@ -13363,7 +15099,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-25",
@@ -13380,7 +15118,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-26",
@@ -13397,7 +15137,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-27",
@@ -13414,7 +15156,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-28",
@@ -13431,7 +15175,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-29",
@@ -13448,7 +15194,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-30",
@@ -13465,7 +15213,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-31",
@@ -13482,7 +15232,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-32",
@@ -13499,7 +15251,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-33",
@@ -13516,7 +15270,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-34",
@@ -13533,7 +15289,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-35",
@@ -13550,7 +15308,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-36",
@@ -13567,7 +15327,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-37",
@@ -13584,7 +15346,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-38",
@@ -13601,7 +15365,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-39",
@@ -13618,7 +15384,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-40",
@@ -13635,7 +15403,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-41",
@@ -13652,7 +15422,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-42",
@@ -13669,7 +15441,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-43",
@@ -13686,7 +15460,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-44",
@@ -13703,7 +15479,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-45",
@@ -13720,7 +15498,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-46",
@@ -13737,7 +15517,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-47",
@@ -13754,7 +15536,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-48",
@@ -13771,7 +15555,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-49",
@@ -13788,7 +15574,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-50",
@@ -13805,7 +15593,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-51",
@@ -13822,7 +15612,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-52",
@@ -13839,7 +15631,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-53",
@@ -13856,7 +15650,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-54",
@@ -13873,7 +15669,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-55",
@@ -13890,7 +15688,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-56",
@@ -13907,7 +15707,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-57",
@@ -13924,7 +15726,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-58",
@@ -13941,7 +15745,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-59",
@@ -13958,7 +15764,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-60",
@@ -13975,7 +15783,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-61",
@@ -13992,7 +15802,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-62",
@@ -14009,7 +15821,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-63",
@@ -14026,7 +15840,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-64",
@@ -14043,7 +15859,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-65",
@@ -14060,7 +15878,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-66",
@@ -14077,7 +15897,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-67",
@@ -14094,7 +15916,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-68",
@@ -14111,7 +15935,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-69",
@@ -14128,7 +15954,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-70",
@@ -14145,7 +15973,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-71",
@@ -14162,7 +15992,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-72",
@@ -14179,7 +16011,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-73",
@@ -14196,7 +16030,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-74",
@@ -14213,7 +16049,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-75",
@@ -14230,7 +16068,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-76",
@@ -14247,7 +16087,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-77",
@@ -14264,7 +16106,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-78",
@@ -14281,7 +16125,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-79",
@@ -14298,7 +16144,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-80",
@@ -14315,7 +16163,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-81",
@@ -14332,7 +16182,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-82",
@@ -14349,7 +16201,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-83",
@@ -14366,7 +16220,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-84",
@@ -14383,7 +16239,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-85",
@@ -14400,7 +16258,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-86",
@@ -14417,7 +16277,28 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "单选题"
+      },
+      {
+        "id": "os-87",
+        "type": "single",
+        "question": "死锁的预防是根据 ____ 而采取措施实现的。",
+        "options": [
+          "配置足够的系统资源",
+          "使进程的推进顺序合理",
+          "破坏死锁的四个必要条件之一",
+          "防止系统进入不安全状态"
+        ],
+        "answer": "",
+        "unscored": true,
+        "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+        "source": "操作系统",
+        "subject": "操作系统",
+        "accent": "#2563eb",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-88",
@@ -14434,7 +16315,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-89",
@@ -14451,7 +16334,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-90",
@@ -14468,7 +16353,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-91",
@@ -14485,7 +16372,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-92",
@@ -14502,7 +16391,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-93",
@@ -14519,7 +16410,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-94",
@@ -14536,7 +16429,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-95",
@@ -14553,7 +16448,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-96",
@@ -14570,7 +16467,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-97",
@@ -14587,7 +16486,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-98",
@@ -14604,7 +16505,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-99",
@@ -14621,7 +16524,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-100",
@@ -14638,7 +16543,9 @@ const questionBank = [
         "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "os-101",
@@ -14654,7 +16561,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-102",
@@ -14670,7 +16579,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-103",
@@ -14686,7 +16597,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-104",
@@ -14702,7 +16615,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-105",
@@ -14718,7 +16633,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-106",
@@ -14734,7 +16651,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-107",
@@ -14751,7 +16670,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-108",
@@ -14767,7 +16688,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-109",
@@ -14783,7 +16706,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-110",
@@ -14799,7 +16724,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-111",
@@ -14815,7 +16742,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-112",
@@ -14831,7 +16760,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-113",
@@ -14847,7 +16778,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-114",
@@ -14863,7 +16796,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-115",
@@ -14879,7 +16814,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-116",
@@ -14895,7 +16832,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-117",
@@ -14911,7 +16850,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-118",
@@ -14927,7 +16868,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-119",
@@ -14943,7 +16886,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-120",
@@ -14959,7 +16904,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-121",
@@ -14975,7 +16922,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-122",
@@ -14991,7 +16940,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-123",
@@ -15007,7 +16958,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-124",
@@ -15023,7 +16976,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-125",
@@ -15040,7 +16995,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-126",
@@ -15056,7 +17013,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-127",
@@ -15072,7 +17031,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-128",
@@ -15088,7 +17049,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-129",
@@ -15106,7 +17069,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-130",
@@ -15122,7 +17087,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-131",
@@ -15138,7 +17105,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-132",
@@ -15154,7 +17123,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-133",
@@ -15170,7 +17141,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-134",
@@ -15186,7 +17159,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-135",
@@ -15202,7 +17177,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-136",
@@ -15218,7 +17195,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-137",
@@ -15234,7 +17213,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-138",
@@ -15250,7 +17231,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-139",
@@ -15266,7 +17249,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-140",
@@ -15282,7 +17267,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-141",
@@ -15298,7 +17285,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-142",
@@ -15314,7 +17303,9 @@ const questionBank = [
         "source": "操作系统",
         "subject": "操作系统",
         "accent": "#2563eb",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "os-143",
@@ -15328,7 +17319,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-144",
@@ -15342,7 +17335,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-145",
@@ -15356,7 +17351,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-146",
@@ -15370,7 +17367,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-147",
@@ -15384,7 +17383,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-148",
@@ -15398,7 +17399,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-149",
@@ -15412,7 +17415,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-150",
@@ -15426,7 +17431,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-151",
@@ -15440,7 +17447,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-152",
@@ -15454,7 +17463,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-153",
@@ -15468,7 +17479,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-154",
@@ -15482,7 +17495,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-155",
@@ -15496,7 +17511,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-156",
@@ -15510,7 +17527,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-157",
@@ -15524,7 +17543,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-158",
@@ -15538,7 +17559,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-159",
@@ -15552,7 +17575,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-160",
@@ -15566,7 +17591,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-161",
@@ -15580,7 +17607,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-162",
@@ -15594,7 +17623,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-163",
@@ -15608,7 +17639,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-164",
@@ -15622,7 +17655,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-165",
@@ -15636,7 +17671,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-166",
@@ -15650,7 +17687,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-167",
@@ -15664,7 +17703,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-168",
@@ -15678,7 +17719,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-169",
@@ -15692,7 +17735,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-170",
@@ -15706,7 +17751,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-171",
@@ -15720,7 +17767,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-172",
@@ -15734,7 +17783,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-173",
@@ -15748,7 +17799,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-174",
@@ -15762,7 +17815,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-175",
@@ -15776,7 +17831,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-176",
@@ -15790,7 +17847,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-177",
@@ -15804,7 +17863,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-178",
@@ -15818,7 +17879,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-179",
@@ -15832,7 +17895,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-180",
@@ -15846,7 +17911,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-181",
@@ -15860,7 +17927,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-182",
@@ -15874,7 +17943,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-183",
@@ -15888,7 +17959,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-184",
@@ -15902,7 +17975,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-185",
@@ -15916,7 +17991,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-186",
@@ -15930,7 +18007,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-187",
@@ -15944,7 +18023,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-188",
@@ -15958,7 +18039,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-189",
@@ -15972,7 +18055,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-190",
@@ -15986,7 +18071,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-191",
@@ -16000,7 +18087,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-192",
@@ -16014,7 +18103,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-193",
@@ -16028,7 +18119,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-194",
@@ -16042,7 +18135,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-195",
@@ -16056,7 +18151,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-196",
@@ -16070,7 +18167,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-197",
@@ -16084,7 +18183,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-198",
@@ -16098,7 +18199,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-199",
@@ -16112,7 +18215,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-200",
@@ -16126,7 +18231,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-201",
@@ -16140,7 +18247,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-202",
@@ -16154,7 +18263,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-203",
@@ -16168,7 +18279,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-204",
@@ -16182,7 +18295,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-205",
@@ -16196,7 +18311,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-206",
@@ -16210,7 +18327,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-207",
@@ -16224,7 +18343,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-208",
@@ -16238,7 +18359,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-209",
@@ -16252,7 +18375,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-210",
@@ -16266,7 +18391,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-211",
@@ -16280,7 +18407,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-212",
@@ -16294,7 +18423,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-213",
@@ -16308,7 +18439,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-214",
@@ -16322,7 +18455,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-215",
@@ -16336,7 +18471,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-216",
@@ -16350,7 +18487,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-217",
@@ -16364,7 +18503,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-218",
@@ -16378,7 +18519,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-219",
@@ -16392,7 +18535,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-220",
@@ -16406,7 +18551,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-221",
@@ -16420,7 +18567,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-222",
@@ -16434,7 +18583,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-223",
@@ -16448,7 +18599,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-224",
@@ -16462,7 +18615,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-225",
@@ -16476,7 +18631,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-226",
@@ -16490,7 +18647,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-227",
@@ -16504,7 +18663,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-228",
@@ -16518,7 +18679,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-229",
@@ -16532,7 +18695,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-230",
@@ -16546,7 +18711,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-231",
@@ -16560,7 +18727,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-232",
@@ -16574,7 +18743,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-233",
@@ -16588,7 +18759,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-234",
@@ -16602,7 +18775,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-235",
@@ -16616,7 +18791,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-236",
@@ -16630,7 +18807,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-237",
@@ -16644,7 +18823,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-238",
@@ -16658,7 +18839,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-239",
@@ -16672,7 +18855,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-240",
@@ -16686,7 +18871,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-241",
@@ -16700,7 +18887,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-242",
@@ -16714,7 +18903,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-243",
@@ -16728,7 +18919,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 101,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-244",
@@ -16742,7 +18935,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 102,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-245",
@@ -16756,7 +18951,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 103,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-246",
@@ -16770,7 +18967,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 104,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-247",
@@ -16784,7 +18983,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 105,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-248",
@@ -16798,7 +18999,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 106,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-249",
@@ -16812,7 +19015,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 107,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-250",
@@ -16826,7 +19031,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 108,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-251",
@@ -16840,7 +19047,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 109,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-252",
@@ -16854,7 +19063,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 110,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-253",
@@ -16868,7 +19079,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 111,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-254",
@@ -16882,7 +19095,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 112,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-255",
@@ -16896,7 +19111,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 113,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-256",
@@ -16910,7 +19127,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 114,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-257",
@@ -16924,7 +19143,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 115,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-258",
@@ -16938,7 +19159,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 116,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-259",
@@ -16952,7 +19175,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 117,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-260",
@@ -16966,7 +19191,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 118,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-261",
@@ -16980,7 +19207,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 119,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-262",
@@ -16994,7 +19223,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 120,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-263",
@@ -17008,7 +19239,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 121,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-264",
@@ -17022,7 +19255,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 122,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-265",
@@ -17036,7 +19271,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 123,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-266",
@@ -17050,7 +19287,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 124,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-267",
@@ -17064,7 +19303,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 125,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-268",
@@ -17078,7 +19319,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 126,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-269",
@@ -17092,7 +19335,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 127,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-270",
@@ -17106,7 +19351,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 128,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-271",
@@ -17120,7 +19367,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 129,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-272",
@@ -17134,7 +19383,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 130,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-273",
@@ -17148,7 +19399,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 131,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-274",
@@ -17162,7 +19415,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 132,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-275",
@@ -17176,7 +19431,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 133,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-276",
@@ -17190,7 +19447,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 134,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-277",
@@ -17204,7 +19463,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 135,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-278",
@@ -17218,7 +19479,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 136,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-279",
@@ -17232,7 +19495,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 137,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-280",
@@ -17246,7 +19511,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 138,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-281",
@@ -17260,7 +19527,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 139,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-282",
@@ -17274,7 +19543,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 140,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-283",
@@ -17288,7 +19559,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 141,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-284",
@@ -17302,7 +19575,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 142,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-285",
@@ -17316,7 +19591,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 143,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-286",
@@ -17330,7 +19607,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 144,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-287",
@@ -17344,7 +19623,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 145,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-288",
@@ -17358,7 +19639,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 146,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-289",
@@ -17372,7 +19655,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 147,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-290",
@@ -17386,7 +19671,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 148,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-291",
@@ -17400,7 +19687,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 149,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-292",
@@ -17414,7 +19703,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 150,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-293",
@@ -17428,7 +19719,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 151,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-294",
@@ -17442,7 +19735,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 152,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-295",
@@ -17456,7 +19751,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 153,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-296",
@@ -17470,7 +19767,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 154,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-297",
@@ -17484,7 +19783,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 155,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-298",
@@ -17498,7 +19799,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 156,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-299",
@@ -17512,7 +19815,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 157,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-300",
@@ -17526,7 +19831,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 158,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-301",
@@ -17540,7 +19847,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 159,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-302",
@@ -17554,7 +19863,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 160,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-303",
@@ -17568,7 +19879,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 161,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-304",
@@ -17582,7 +19895,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 162,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-305",
@@ -17596,7 +19911,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 163,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-306",
@@ -17610,7 +19927,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 164,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-307",
@@ -17624,7 +19943,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 165,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-308",
@@ -17638,7 +19959,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 166,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-309",
@@ -17652,7 +19975,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 167,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-310",
@@ -17666,7 +19991,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 168,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-311",
@@ -17680,7 +20007,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 169,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-312",
@@ -17694,7 +20023,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 170,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-313",
@@ -17708,7 +20039,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 171,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-314",
@@ -17722,7 +20055,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 172,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-315",
@@ -17736,7 +20071,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 173,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-316",
@@ -17750,7 +20087,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 174,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-317",
@@ -17764,7 +20103,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 175,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-318",
@@ -17778,7 +20119,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 176,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-319",
@@ -17792,7 +20135,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 177,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-320",
@@ -17806,7 +20151,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 178,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-321",
@@ -17820,7 +20167,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 179,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-322",
@@ -17834,7 +20183,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 180,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-323",
@@ -17848,7 +20199,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 181,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-324",
@@ -17862,7 +20215,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 182,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-325",
@@ -17876,7 +20231,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 183,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-326",
@@ -17890,7 +20247,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 184,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-327",
@@ -17904,7 +20263,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 185,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-328",
@@ -17918,7 +20279,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 186,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-329",
@@ -17932,7 +20295,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 187,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-330",
@@ -17946,7 +20311,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 188,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-331",
@@ -17960,7 +20327,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 189,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-332",
@@ -17974,7 +20343,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 190,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-333",
@@ -17988,7 +20359,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 191,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-334",
@@ -18002,7 +20375,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 192,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-335",
@@ -18016,7 +20391,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 193,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-336",
@@ -18030,7 +20407,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 194,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-337",
@@ -18044,7 +20423,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 195,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-338",
@@ -18058,7 +20439,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 196,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-339",
@@ -18072,7 +20455,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 197,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "os-340",
@@ -18086,7 +20471,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "操作系统",
         "subject": "操作系统",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "sourceNumber": 198,
+        "sourceTypeLabel": "判断题"
       }
     ]
   },
@@ -18107,7 +20494,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-2",
@@ -18121,7 +20510,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-3",
@@ -18135,7 +20526,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-4",
@@ -18149,7 +20542,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-5",
@@ -18163,7 +20558,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-6",
@@ -18177,7 +20574,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-7",
@@ -18191,7 +20590,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-8",
@@ -18205,7 +20606,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-9",
@@ -18219,7 +20622,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-10",
@@ -18233,7 +20638,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-11",
@@ -18247,7 +20654,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-12",
@@ -18261,7 +20670,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-13",
@@ -18275,7 +20686,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-14",
@@ -18289,7 +20702,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-15",
@@ -18303,7 +20718,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-16",
@@ -18317,7 +20734,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-17",
@@ -18331,7 +20750,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-18",
@@ -18345,7 +20766,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-19",
@@ -18359,7 +20782,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-20",
@@ -18373,7 +20798,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-21",
@@ -18387,7 +20814,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-22",
@@ -18401,7 +20830,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-23",
@@ -18415,7 +20846,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-24",
@@ -18429,7 +20862,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-25",
@@ -18443,7 +20878,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-26",
@@ -18457,7 +20894,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-27",
@@ -18471,7 +20910,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-28",
@@ -18485,7 +20926,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-29",
@@ -18499,7 +20942,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-30",
@@ -18513,7 +20958,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-31",
@@ -18527,7 +20974,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-32",
@@ -18541,7 +20990,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-33",
@@ -18555,7 +21006,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-34",
@@ -18569,7 +21022,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-35",
@@ -18583,7 +21038,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-36",
@@ -18597,7 +21054,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-37",
@@ -18611,7 +21070,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-38",
@@ -18625,7 +21086,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-39",
@@ -18639,7 +21102,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-40",
@@ -18653,7 +21118,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-41",
@@ -18667,7 +21134,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-42",
@@ -18681,7 +21150,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-43",
@@ -18695,7 +21166,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-44",
@@ -18709,7 +21182,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-45",
@@ -18723,7 +21198,9 @@ const questionBank = [
         "analysis": "本题判断为：错误。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-46",
@@ -18737,7 +21214,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-47",
@@ -18751,7 +21230,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-48",
@@ -18765,7 +21246,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-49",
@@ -18779,7 +21262,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-50",
@@ -18793,7 +21278,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-51",
@@ -18807,7 +21294,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-52",
@@ -18821,7 +21310,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-53",
@@ -18835,7 +21326,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-54",
@@ -18849,7 +21342,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-55",
@@ -18863,7 +21358,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-56",
@@ -18877,7 +21374,9 @@ const questionBank = [
         "analysis": "本题判断为：正确。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "判断题"
       },
       {
         "id": "se-57",
@@ -18894,7 +21393,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-58",
@@ -18911,7 +21412,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-59",
@@ -18928,7 +21431,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-60",
@@ -18945,7 +21450,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-61",
@@ -18962,7 +21469,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-62",
@@ -18979,7 +21488,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-63",
@@ -18996,7 +21507,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-64",
@@ -19013,7 +21526,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-65",
@@ -19030,7 +21545,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-66",
@@ -19047,7 +21564,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-67",
@@ -19064,7 +21583,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-68",
@@ -19081,7 +21602,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-69",
@@ -19098,7 +21621,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-70",
@@ -19115,7 +21640,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-71",
@@ -19132,7 +21659,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-72",
@@ -19149,7 +21678,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-73",
@@ -19166,7 +21697,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-74",
@@ -19183,7 +21716,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-75",
@@ -19200,7 +21735,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-76",
@@ -19217,7 +21754,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-77",
@@ -19234,7 +21773,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-78",
@@ -19251,7 +21792,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-79",
@@ -19268,7 +21811,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-80",
@@ -19285,7 +21830,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-81",
@@ -19302,7 +21849,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-82",
@@ -19319,7 +21868,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-83",
@@ -19336,7 +21887,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-84",
@@ -19353,7 +21906,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-85",
@@ -19370,7 +21925,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-86",
@@ -19387,7 +21944,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-87",
@@ -19404,7 +21963,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-88",
@@ -19426,7 +21987,9 @@ const questionBank = [
           "./assets/answers/software/image19.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-89",
@@ -19448,7 +22011,9 @@ const questionBank = [
           "./assets/answers/software/image21.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-90",
@@ -19469,7 +22034,9 @@ const questionBank = [
           "./assets/answers/software/image22.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-91",
@@ -19490,7 +22057,9 @@ const questionBank = [
           "./assets/answers/software/image23.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-92",
@@ -19511,7 +22080,9 @@ const questionBank = [
           "./assets/answers/software/image24.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-93",
@@ -19532,7 +22103,9 @@ const questionBank = [
           "./assets/answers/software/image25.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-94",
@@ -19554,7 +22127,9 @@ const questionBank = [
           "./assets/answers/software/image27.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-95",
@@ -19576,7 +22151,9 @@ const questionBank = [
           "./assets/answers/software/image29.png"
         ],
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-96",
@@ -19597,7 +22174,9 @@ const questionBank = [
         ],
         "referenceAnswer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-97",
@@ -19614,7 +22193,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-98",
@@ -19631,7 +22212,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-99",
@@ -19648,7 +22231,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-100",
@@ -19665,7 +22250,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-101",
@@ -19682,7 +22269,28 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "单选题"
+      },
+      {
+        "id": "se-102",
+        "type": "single",
+        "question": "能力成熟度模型CMM是一种评价什么的成熟度模型？",
+        "options": [
+          "程序员的个人开发能力",
+          "软件项目的管理能力",
+          "软件机构的软件过程能力",
+          "项目经理的个人能力"
+        ],
+        "answer": "",
+        "unscored": true,
+        "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-103",
@@ -19699,7 +22307,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-104",
@@ -19716,7 +22326,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-105",
@@ -19733,7 +22345,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-106",
@@ -19750,7 +22364,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-107",
@@ -19767,7 +22383,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 51,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-108",
@@ -19784,7 +22402,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 52,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-109",
@@ -19801,7 +22421,28 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 53,
+        "sourceTypeLabel": "单选题"
+      },
+      {
+        "id": "se-110",
+        "type": "single",
+        "question": "下列这些活动哪一项不属于软件构造过程？",
+        "options": [
+          "问题定义",
+          "单元测试",
+          "代码编写和调试",
+          "模块集成"
+        ],
+        "answer": "",
+        "unscored": true,
+        "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "sourceNumber": 54,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-111",
@@ -19818,7 +22459,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 55,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-112",
@@ -19835,7 +22478,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 56,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-113",
@@ -19852,7 +22497,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 57,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-114",
@@ -19869,7 +22516,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 58,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-115",
@@ -19886,7 +22535,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 59,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-116",
@@ -19903,7 +22554,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 60,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-117",
@@ -19920,7 +22573,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 61,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-118",
@@ -19937,7 +22592,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 62,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-119",
@@ -19954,7 +22611,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 63,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-120",
@@ -19971,7 +22630,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 64,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-121",
@@ -19988,7 +22649,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 65,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-122",
@@ -20005,7 +22668,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 66,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-123",
@@ -20022,7 +22687,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 67,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-124",
@@ -20039,7 +22706,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 68,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-125",
@@ -20056,7 +22725,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 69,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-126",
@@ -20073,7 +22744,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 70,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-127",
@@ -20090,7 +22763,28 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 71,
+        "sourceTypeLabel": "单选题"
+      },
+      {
+        "id": "se-128",
+        "type": "single",
+        "question": "以下哪一项内容不属于软件体系结构设计？",
+        "options": [
+          "一个关键部件内部的核心算法设计",
+          "将系统分解为多个部件（或子系统、模块）",
+          "考虑部件间的接口设计",
+          "明确每个部件的外部可见属性"
+        ],
+        "answer": "",
+        "unscored": true,
+        "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "sourceNumber": 72,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-129",
@@ -20107,7 +22801,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 73,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-130",
@@ -20124,7 +22820,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 74,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-131",
@@ -20141,7 +22839,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 75,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-132",
@@ -20158,7 +22858,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 76,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-133",
@@ -20175,7 +22877,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 77,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-134",
@@ -20192,7 +22896,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 78,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-135",
@@ -20209,7 +22915,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 79,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-136",
@@ -20226,7 +22934,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 80,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-137",
@@ -20243,7 +22953,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 81,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-138",
@@ -20260,7 +22972,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 82,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-139",
@@ -20277,7 +22991,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 83,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-140",
@@ -20294,7 +23010,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 84,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-141",
@@ -20311,7 +23029,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 85,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-142",
@@ -20328,7 +23048,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 86,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-143",
@@ -20345,7 +23067,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 87,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-144",
@@ -20362,7 +23086,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 88,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-145",
@@ -20379,7 +23105,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 89,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-146",
@@ -20396,7 +23124,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 90,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-147",
@@ -20413,7 +23143,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 91,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-148",
@@ -20430,7 +23162,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 92,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-149",
@@ -20447,7 +23181,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 93,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-150",
@@ -20464,7 +23200,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 94,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-151",
@@ -20481,7 +23219,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 95,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-152",
@@ -20498,7 +23238,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 96,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-153",
@@ -20515,7 +23257,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 97,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-154",
@@ -20532,7 +23276,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 98,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-155",
@@ -20549,7 +23295,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 99,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-156",
@@ -20566,7 +23314,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 100,
+        "sourceTypeLabel": "单选题"
       },
       {
         "id": "se-157",
@@ -20583,7 +23333,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-158",
@@ -20600,7 +23352,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-159",
@@ -20617,7 +23371,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-160",
@@ -20634,7 +23390,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-161",
@@ -20651,7 +23409,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-162",
@@ -20668,7 +23428,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-163",
@@ -20685,7 +23447,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-164",
@@ -20702,7 +23466,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-165",
@@ -20719,7 +23485,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-166",
@@ -20736,7 +23504,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-167",
@@ -20753,7 +23523,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-168",
@@ -20770,7 +23542,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-169",
@@ -20787,7 +23561,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-170",
@@ -20804,7 +23580,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-171",
@@ -20821,7 +23599,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-172",
@@ -20838,7 +23618,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-173",
@@ -20855,7 +23637,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-174",
@@ -20872,7 +23656,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-175",
@@ -20889,7 +23675,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-176",
@@ -20906,7 +23694,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-177",
@@ -20923,7 +23713,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-178",
@@ -20940,7 +23732,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-179",
@@ -20957,7 +23751,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-180",
@@ -20974,7 +23770,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-181",
@@ -20991,7 +23789,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-182",
@@ -21008,7 +23808,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-183",
@@ -21025,7 +23827,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-184",
@@ -21042,7 +23846,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-185",
@@ -21059,7 +23865,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-186",
@@ -21076,7 +23884,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-187",
@@ -21093,7 +23903,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-188",
@@ -21110,7 +23922,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-189",
@@ -21127,7 +23941,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-190",
@@ -21144,7 +23960,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-191",
@@ -21161,7 +23979,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-192",
@@ -21178,7 +23998,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-193",
@@ -21195,7 +24017,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-194",
@@ -21212,7 +24036,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-195",
@@ -21229,7 +24055,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-196",
@@ -21246,7 +24074,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 40,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-197",
@@ -21263,7 +24093,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 41,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-198",
@@ -21280,7 +24112,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 42,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-199",
@@ -21297,7 +24131,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 43,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-200",
@@ -21314,7 +24150,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 44,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-201",
@@ -21331,7 +24169,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 45,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-202",
@@ -21348,7 +24188,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 46,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-203",
@@ -21365,7 +24207,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 47,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-204",
@@ -21382,7 +24226,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 48,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-205",
@@ -21399,7 +24245,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 49,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-206",
@@ -21416,7 +24264,9 @@ const questionBank = [
         "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 50,
+        "sourceTypeLabel": "多选题"
       },
       {
         "id": "se-207",
@@ -21429,7 +24279,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-208",
@@ -21442,7 +24294,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-209",
@@ -21455,7 +24309,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-210",
@@ -21468,7 +24324,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-211",
@@ -21481,7 +24339,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-212",
@@ -21494,7 +24354,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-213",
@@ -21507,7 +24369,24 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "填空题"
+      },
+      {
+        "id": "se-214",
+        "type": "fill",
+        "question": "要求“模块的内部实现对外隐藏，仅允许外界通过受控的接口访问模块的数据和操作”的软件设计原则叫____。",
+        "options": [],
+        "answer": "信息隐藏",
+        "answerText": "信息隐藏",
+        "analysis": "本题填空答案为：信息隐藏。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "originalType": "cloze",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-215",
@@ -21520,7 +24399,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-216",
@@ -21533,7 +24414,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-217",
@@ -21546,7 +24429,24 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "填空题"
+      },
+      {
+        "id": "se-218",
+        "type": "fill",
+        "question": "极限编程（Extreme Programming，简称XP）是一种____软件开发方法。",
+        "options": [],
+        "answer": "敏捷",
+        "answerText": "敏捷",
+        "analysis": "本题填空答案为：敏捷。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "originalType": "cloze",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-219",
@@ -21559,7 +24459,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-220",
@@ -21572,7 +24474,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-221",
@@ -21585,7 +24489,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-222",
@@ -21598,7 +24504,24 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "填空题"
+      },
+      {
+        "id": "se-223",
+        "type": "fill",
+        "question": "重新执行已经通过的测试用例集合的子集以确保对程序的修改没有产生副作用的测试种类称为____。",
+        "options": [],
+        "answer": "回归测试",
+        "answerText": "回归测试",
+        "analysis": "本题填空答案为：回归测试。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "originalType": "cloze",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-224",
@@ -21611,7 +24534,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-225",
@@ -21624,7 +24549,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-226",
@@ -21637,7 +24564,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-227",
@@ -21650,7 +24579,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-228",
@@ -21663,7 +24594,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-229",
@@ -21676,7 +24609,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-230",
@@ -21689,7 +24624,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-231",
@@ -21702,7 +24639,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-232",
@@ -21715,7 +24654,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-233",
@@ -21728,7 +24669,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-234",
@@ -21741,7 +24684,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-235",
@@ -21754,7 +24699,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-236",
@@ -21767,7 +24714,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-237",
@@ -21780,7 +24729,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "cloze"
+        "originalType": "cloze",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "填空题"
       },
       {
         "id": "se-238",
@@ -21792,7 +24743,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-239",
@@ -21804,7 +24757,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-240",
@@ -21816,7 +24771,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-241",
@@ -21828,7 +24785,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-242",
@@ -21840,7 +24799,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-243",
@@ -21852,7 +24813,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-244",
@@ -21864,7 +24827,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-245",
@@ -21876,7 +24841,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-246",
@@ -21888,7 +24855,9 @@ const questionBank = [
         "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
         "source": "软件工程",
         "subject": "软件工程",
-        "accent": "#f97316"
+        "accent": "#f97316",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "综合题"
       },
       {
         "id": "se-247",
@@ -21901,7 +24870,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 1,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-248",
@@ -21914,7 +24885,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 2,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-249",
@@ -21927,7 +24900,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 3,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-250",
@@ -21940,7 +24915,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 4,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-251",
@@ -21953,7 +24930,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 5,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-252",
@@ -21966,7 +24945,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 6,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-253",
@@ -21979,7 +24960,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 7,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-254",
@@ -21992,7 +24975,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 8,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-255",
@@ -22005,7 +24990,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 9,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-256",
@@ -22018,7 +25005,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 10,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-257",
@@ -22031,7 +25020,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 11,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-258",
@@ -22044,7 +25035,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 12,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-259",
@@ -22057,7 +25050,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 13,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-260",
@@ -22070,7 +25065,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 14,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-261",
@@ -22083,7 +25080,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 15,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-262",
@@ -22096,7 +25095,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 16,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-263",
@@ -22109,7 +25110,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 17,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-264",
@@ -22122,7 +25125,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 18,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-265",
@@ -22135,7 +25140,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 19,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-266",
@@ -22148,7 +25155,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 20,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-267",
@@ -22161,7 +25170,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 21,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-268",
@@ -22174,7 +25185,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 22,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-269",
@@ -22187,7 +25200,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 23,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-270",
@@ -22200,7 +25215,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 24,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-271",
@@ -22213,7 +25230,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 25,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-272",
@@ -22226,7 +25245,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 26,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-273",
@@ -22239,7 +25260,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 27,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-274",
@@ -22252,7 +25275,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 28,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-275",
@@ -22265,7 +25290,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 29,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-276",
@@ -22278,7 +25305,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 30,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-277",
@@ -22291,7 +25320,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 31,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-278",
@@ -22304,7 +25335,24 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 32,
+        "sourceTypeLabel": "问答题"
+      },
+      {
+        "id": "se-279",
+        "type": "essay",
+        "question": "软件工程三要素之间的关系?",
+        "options": [],
+        "answer": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "referenceAnswer": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "analysis": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
+        "source": "软件工程",
+        "subject": "软件工程",
+        "accent": "#f97316",
+        "originalType": "qa",
+        "sourceNumber": 33,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-280",
@@ -22317,7 +25365,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 34,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-281",
@@ -22330,7 +25380,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 35,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-282",
@@ -22343,7 +25395,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 36,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-283",
@@ -22356,7 +25410,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 37,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-284",
@@ -22369,7 +25425,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 38,
+        "sourceTypeLabel": "问答题"
       },
       {
         "id": "se-285",
@@ -22382,7 +25440,9 @@ const questionBank = [
         "source": "软件工程",
         "subject": "软件工程",
         "accent": "#f97316",
-        "originalType": "qa"
+        "originalType": "qa",
+        "sourceNumber": 39,
+        "sourceTypeLabel": "问答题"
       }
     ]
   }

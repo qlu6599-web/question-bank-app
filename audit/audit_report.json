@@ -1,7 +1,7 @@
 {
-  "version": "20260614-v12",
+  "version": "20260614-v13",
   "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",
-  "generatedAt": "2026-06-14T12:14:39",
+  "generatedAt": "2026-06-14T12:31:58",
   "extraction": [
     {
       "subject": "操作系统",
@@ -147,9 +147,9 @@
           "type": "single",
           "label": "单选题",
           "rawCount": 100,
-          "systemCount": 99,
-          "difference": -1,
-          "reason": "原文存在 1 道完全重复题，已按规则去重"
+          "systemCount": 100,
+          "difference": 0,
+          "reason": "一致"
         },
         {
           "type": "multiple",
@@ -193,7 +193,7 @@
         }
       ],
       "rawTotal": 340,
-      "systemTotal": 339
+      "systemTotal": 340
     },
     {
       "subject": "数据库",
@@ -257,9 +257,9 @@
           "type": "single",
           "label": "单选题",
           "rawCount": 100,
-          "systemCount": 97,
-          "difference": -3,
-          "reason": "原文存在 3 道完全重复题，已按规则去重"
+          "systemCount": 100,
+          "difference": 0,
+          "reason": "一致"
         },
         {
           "type": "multiple",
@@ -281,9 +281,9 @@
           "type": "fill",
           "label": "填空题",
           "rawCount": 31,
-          "systemCount": 28,
-          "difference": -3,
-          "reason": "原文存在 3 道完全重复题，已按规则去重"
+          "systemCount": 31,
+          "difference": 0,
+          "reason": "一致"
         },
         {
           "type": "comprehensive",
@@ -297,13 +297,13 @@
           "type": "essay",
           "label": "问答题",
           "rawCount": 39,
-          "systemCount": 38,
-          "difference": -1,
-          "reason": "原文存在 1 道完全重复题，已按规则去重"
+          "systemCount": 39,
+          "difference": 0,
+          "reason": "一致"
         }
       ],
       "rawTotal": 285,
-      "systemTotal": 278
+      "systemTotal": 285
     },
     {
       "subject": "数据科学",
@@ -418,70 +418,70 @@
   ],
   "malformedChoiceOptionsBefore": [],
   "malformedChoiceOptionsAfter": [],
-  "duplicatesRemoved": [
+  "exactDuplicatesKept": [
     {
-      "keptId": "os-27",
-      "removedId": "os-87",
+      "leftId": "os-27",
+      "rightId": "os-87",
       "subject": "操作系统",
       "type": "single",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-69",
-      "removedId": "se-110",
+      "leftId": "se-82",
+      "rightId": "se-102",
       "subject": "软件工程",
       "type": "single",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-82",
-      "removedId": "se-102",
+      "leftId": "se-69",
+      "rightId": "se-110",
       "subject": "软件工程",
       "type": "single",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-87",
-      "removedId": "se-128",
+      "leftId": "se-87",
+      "rightId": "se-128",
       "subject": "软件工程",
       "type": "single",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-211",
-      "removedId": "se-214",
+      "leftId": "se-211",
+      "rightId": "se-214",
       "subject": "软件工程",
       "type": "fill",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-212",
-      "removedId": "se-218",
+      "leftId": "se-212",
+      "rightId": "se-218",
       "subject": "软件工程",
       "type": "fill",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-216",
-      "removedId": "se-223",
+      "leftId": "se-216",
+      "rightId": "se-223",
       "subject": "软件工程",
       "type": "fill",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     },
     {
-      "keptId": "se-266",
-      "removedId": "se-279",
+      "leftId": "se-266",
+      "rightId": "se-279",
       "subject": "软件工程",
       "type": "essay",
       "similarity": 1.0,
-      "reason": "full_signature_duplicate"
+      "reason": "full_signature_duplicate_not_removed"
     }
   ],
   "duplicateCandidates": [
@@ -632,22 +632,22 @@
   ],
   "mergeNotes": [
     {
-      "id": "os-27",
+      "id": "os-87",
       "action": "added_from_fresh",
       "reason": "new question emitted by fresh parser"
     },
     {
-      "id": "se-69",
+      "id": "se-102",
       "action": "added_from_fresh",
       "reason": "new question emitted by fresh parser"
     },
     {
-      "id": "se-82",
+      "id": "se-110",
       "action": "added_from_fresh",
       "reason": "new question emitted by fresh parser"
     },
     {
-      "id": "se-87",
+      "id": "se-128",
       "action": "added_from_fresh",
       "reason": "new question emitted by fresh parser"
     },
@@ -667,7 +667,7 @@
       "reason": "new question emitted by fresh parser"
     },
     {
-      "id": "se-266",
+      "id": "se-279",
       "action": "added_from_fresh",
       "reason": "new question emitted by fresh parser"
     }

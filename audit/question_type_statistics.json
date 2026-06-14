@@ -16,16 +16,16 @@
     "fill": 100
   },
   "操作系统": {
-    "single": 99,
+    "single": 100,
     "judge": 198,
     "fill": 42
   },
   "软件工程": {
-    "single": 97,
+    "single": 100,
     "multiple": 50,
     "judge": 56,
-    "fill": 28,
+    "fill": 31,
     "comprehensive": 9,
-    "essay": 38
+    "essay": 39
   }
 }

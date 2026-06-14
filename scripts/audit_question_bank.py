@@ -22,6 +22,8 @@ AUDIT_DIR = ROOT / "audit"
 SOURCE_TEXT_DIR = AUDIT_DIR / "source_text_fresh"
 REPORT_JSON = AUDIT_DIR / "audit_report.json"
 REPORT_MD = AUDIT_DIR / "missing_fix_report.md"
+NUMBER_RECONCILE_JSON = AUDIT_DIR / "number_reconciliation_report.json"
+NUMBER_RECONCILE_MD = AUDIT_DIR / "number_reconciliation_report.md"
 STATS_JSON = AUDIT_DIR / "question_type_statistics.json"
 MERGED_JSON = AUDIT_DIR / "question_bank_full_merged.json"
 RAW_MERGED_JSON = AUDIT_DIR / "question_bank_raw_before_dedupe.json"
@@ -30,7 +32,7 @@ APP_JSON = ROOT / "app" / "data" / "question_bank.json"
 SRC_COMPAT_JS = ROOT / "src" / "data" / "questions.js"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
 ASSET_QUESTION_DIR = ROOT / "assets" / "questions"
-STANDARD_VERSION = "20260614-v12"
+STANDARD_VERSION = "20260614-v13"
 
 
 SOURCE_FILES = {
@@ -289,32 +291,98 @@ def rebuild_subjects(bank):
     return subjects
 
 
-def dedupe_bank(bank):
-    kept = []
-    duplicates = []
+def sort_bank_questions(bank):
+    bank["questions"] = sorted(bank["questions"], key=lambda item: id_sort_key(item["id"]))
+    bank["subjects"] = rebuild_subjects(bank)
+
+
+def build_number_reconciliation(builder, raw_counts, bank):
+    questions_by_subject_type = defaultdict(list)
+    for question in sorted(bank["questions"], key=lambda item: id_sort_key(item["id"])):
+        questions_by_subject_type[(question["subject"], question["type"])].append(question)
+
+    subjects = []
+    for subject in builder.SUBJECT_META:
+        rows = []
+        for question_type in TYPE_ORDER:
+            expected_count = raw_counts[subject].get(question_type, 0)
+            system_questions = questions_by_subject_type[(subject, question_type)]
+            recognized_numbers = list(range(1, len(system_questions) + 1))
+            expected_numbers = list(range(1, expected_count + 1))
+            missing_numbers = [number for number in expected_numbers if number not in recognized_numbers]
+            extra_numbers = [number for number in recognized_numbers if number > expected_count]
+            for index, question in enumerate(system_questions, 1):
+                question["sourceNumber"] = index
+                question["sourceTypeLabel"] = TYPE_LABELS[question_type]
+            rows.append({
+                "type": question_type,
+                "label": TYPE_LABELS[question_type],
+                "expectedRange": f"1-{expected_count}" if expected_count else "",
+                "expectedCount": expected_count,
+                "recognizedCount": len(system_questions),
+                "missingNumbers": missing_numbers,
+                "extraNumbers": extra_numbers,
+                "status": "pass" if not missing_numbers and not extra_numbers else "fail",
+            })
+        subjects.append({
+            "subject": subject,
+            "rows": rows,
+        })
+    return {
+        "version": STANDARD_VERSION,
+        "basis": "按科目、题型、题号范围 1..N 强制对账；题型由题号区间与结构规则解析后建立索引。",
+        "subjects": subjects,
+    }
+
+
+def write_number_reconciliation_markdown(reconciliation):
+    lines = [
+        "# 逐题号强制对账报告",
+        "",
+        f"- 版本：{reconciliation['version']}",
+        f"- 规则：{reconciliation['basis']}",
+        "",
+    ]
+    for subject in reconciliation["subjects"]:
+        lines.extend([
+            f"## {subject['subject']}",
+            "",
+            "| 题型 | 原始题号范围 | 原始数量 | 系统识别数量 | 缺失题号 | 多余题号 | 状态 |",
+            "| --- | --- | ---: | ---: | --- | --- | --- |",
+        ])
+        for row in subject["rows"]:
+            missing = ", ".join(map(str, row["missingNumbers"])) if row["missingNumbers"] else "无"
+            extra = ", ".join(map(str, row["extraNumbers"])) if row["extraNumbers"] else "无"
+            lines.append(
+                f"| {row['label']} | {row['expectedRange'] or '-'} | {row['expectedCount']} | "
+                f"{row['recognizedCount']} | {missing} | {extra} | {row['status']} |"
+            )
+        lines.append("")
+    NUMBER_RECONCILE_MD.write_text("\n".join(lines), encoding="utf-8")
+
+
+def audit_duplicate_questions(bank):
+    exact_duplicates = []
     candidates = []
     by_group = defaultdict(list)
     for question in bank["questions"]:
         by_group[(question["subject"], question["type"])].append(question)
     for group_questions in by_group.values():
-        group_kept = []
+        seen = []
         for question in group_questions:
-            exact_match = find_exact_duplicate(question, group_kept)
+            exact_match = find_exact_duplicate(question, seen)
             if exact_match:
-                preferred = prefer_complete(question, exact_match)
-                removed = exact_match if preferred is question else question
-                if preferred is question:
-                    group_kept[group_kept.index(exact_match)] = question
-                duplicates.append({
-                    "keptId": preferred["id"],
-                    "removedId": removed["id"],
-                    "subject": preferred["subject"],
-                    "type": preferred["type"],
+                exact_duplicates.append({
+                    "leftId": exact_match["id"],
+                    "rightId": question["id"],
+                    "subject": question["subject"],
+                    "type": question["type"],
                     "similarity": 1.0,
-                    "reason": "full_signature_duplicate",
+                    "reason": "full_signature_duplicate_not_removed",
                 })
+                seen.append(question)
                 continue
-            similar_match = find_similar_question(question, group_kept)
+            similar_match = find_similar_question(question, seen)
             if similar_match:
                 candidates.append({
                     "leftId": question["id"],
@@ -324,13 +392,8 @@ def dedupe_bank(bank):
                     "similarity": similarity(question["question"], similar_match["question"]),
                     "reason": "similar_question_not_removed",
                 })
-                group_kept.append(question)
-            else:
-                group_kept.append(question)
-        kept.extend(group_kept)
-    bank["questions"] = sorted(kept, key=lambda item: id_sort_key(item["id"]))
-    bank["subjects"] = rebuild_subjects(bank)
-    return duplicates, candidates
+            seen.append(question)
+    return exact_duplicates, candidates
 
 
 def find_exact_duplicate(question, candidates):
@@ -443,8 +506,7 @@ return { questionBank, flatQuestions };
     SRC_COMPAT_JS.write_text(js, encoding="utf-8")
 
 
-def make_report(builder, extraction_report, raw_counts, system_counts, malformed_before, malformed_after, duplicates, duplicate_candidates, merge_notes, generated_images):
-    duplicate_count_by_subject_type = Counter((item["subject"], item["type"]) for item in duplicates)
+def make_report(builder, extraction_report, raw_counts, system_counts, malformed_before, malformed_after, exact_duplicates, duplicate_candidates, merge_notes, generated_images):
     subjects = []
     for subject in builder.SUBJECT_META:
         raw = raw_counts[subject]
@@ -453,12 +515,9 @@ def make_report(builder, extraction_report, raw_counts, system_counts, malformed
         for question_type in TYPE_ORDER:
             raw_count = raw.get(question_type, 0)
             system_count = system.get(question_type, 0)
-            duplicate_count = duplicate_count_by_subject_type[(subject, question_type)]
             difference = system_count - raw_count
             if difference == 0:
                 reason = "一致"
-            elif difference < 0 and abs(difference) == duplicate_count:
-                reason = f"原文存在 {duplicate_count} 道完全重复题，已按规则去重"
             else:
                 reason = "需查看解析规则或源文件公式/图片内容"
             rows.append({
@@ -483,7 +542,7 @@ def make_report(builder, extraction_report, raw_counts, system_counts, malformed
         "subjects": subjects,
         "malformedChoiceOptionsBefore": malformed_before,
         "malformedChoiceOptionsAfter": malformed_after,
-        "duplicatesRemoved": duplicates,
+        "exactDuplicatesKept": exact_duplicates,
         "duplicateCandidates": duplicate_candidates,
         "mergeNotes": merge_notes,
         "generatedImages": generated_images,
@@ -504,7 +563,7 @@ def write_markdown_report(report):
         "",
         f"- 残缺选择题修复前：{len(report['malformedChoiceOptionsBefore'])} 道",
         f"- 残缺选择题修复后：{len(report['malformedChoiceOptionsAfter'])} 道",
-        f"- 去重移除：{len(report['duplicatesRemoved'])} 道",
+        f"- 完全重复题保留并标记：{len(report['exactDuplicatesKept'])} 组",
         f"- 疑似相似题保留并列入报告：{len(report['duplicateCandidates'])} 组",
         f"- 公式选项题修复：{report['formulaOptionFixes']} 道",
         f"- 公式选项截图生成：{len(report['generatedImages'])} 张",
@@ -532,10 +591,10 @@ def write_markdown_report(report):
         lines.extend(["", "## 已修复残缺选择题", ""])
         for item in report["malformedChoiceOptionsBefore"]:
             lines.append(f"- {item['id']} {item['subject']}：{item['question']}")
-    if report["duplicatesRemoved"]:
-        lines.extend(["", "## 重复题处理", ""])
-        for item in report["duplicatesRemoved"]:
-            lines.append(f"- 保留 {item['keptId']}，移除 {item['removedId']}，相似度 {item['similarity']:.3f}")
+    if report["exactDuplicatesKept"]:
+        lines.extend(["", "## 完全重复题标记（不删除）", ""])
+        for item in report["exactDuplicatesKept"]:
+            lines.append(f"- {item['leftId']} 与 {item['rightId']} 完全重复，已保留两题，相似度 {item['similarity']:.3f}")
     REPORT_MD.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -604,8 +663,10 @@ def main():
 
     merged_bank, merge_notes = merge_with_existing(fresh_bank)
     RAW_MERGED_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
-    duplicates, duplicate_candidates = dedupe_bank(merged_bank)
+    sort_bank_questions(merged_bank)
+    exact_duplicates, duplicate_candidates = audit_duplicate_questions(merged_bank)
     merged_bank["version"] = STANDARD_VERSION
+    reconciliation = build_number_reconciliation(builder, raw_counts, merged_bank)
     system_counts = {
         subject["name"]: {
             item["type"]: item["count"]
@@ -632,13 +693,15 @@ def main():
         system_counts,
         malformed_before,
         malformed_after,
-        duplicates,
+        exact_duplicates,
         duplicate_candidates,
         merge_notes,
         generated_images,
     )
 
     STATS_JSON.write_text(json.dumps(system_counts, ensure_ascii=False, indent=2), encoding="utf-8")
+    NUMBER_RECONCILE_JSON.write_text(json.dumps(reconciliation, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_number_reconciliation_markdown(reconciliation)
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     write_markdown_report(report)
     MERGED_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -652,9 +715,10 @@ def main():
         "stats": system_counts,
         "malformedBefore": len(malformed_before),
         "malformedAfter": len(malformed_after),
-        "duplicatesRemoved": len(duplicates),
+        "exactDuplicatesKept": len(exact_duplicates),
         "duplicateCandidates": len(duplicate_candidates),
         "generatedImages": len(generated_images),
+        "numberReconciliation": str(NUMBER_RECONCILE_MD),
         "report": str(REPORT_MD),
     }, ensure_ascii=False, indent=2))
 

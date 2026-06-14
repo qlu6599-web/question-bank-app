@@ -1,0 +1,331 @@
+{
+  "version": "20260614-v13",
+  "basis": "按科目、题型、题号范围 1..N 强制对账；题型由题号区间与结构规则解析后建立索引。",
+  "subjects": [
+    {
+      "subject": "操作系统",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "expectedRange": "1-100",
+          "expectedCount": 100,
+          "recognizedCount": 100,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "expectedRange": "1-198",
+          "expectedCount": 198,
+          "recognizedCount": 198,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "expectedRange": "1-42",
+          "expectedCount": 42,
+          "recognizedCount": 42,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "subject": "数据库",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "expectedRange": "1-70",
+          "expectedCount": 70,
+          "recognizedCount": 70,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "expectedRange": "1-70",
+          "expectedCount": 70,
+          "recognizedCount": 70,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "expectedRange": "1-75",
+          "expectedCount": 75,
+          "recognizedCount": 75,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "subject": "软件工程",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "expectedRange": "1-100",
+          "expectedCount": 100,
+          "recognizedCount": 100,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "expectedRange": "1-50",
+          "expectedCount": 50,
+          "recognizedCount": 50,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "expectedRange": "1-56",
+          "expectedCount": 56,
+          "recognizedCount": 56,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "expectedRange": "1-31",
+          "expectedCount": 31,
+          "recognizedCount": 31,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "expectedRange": "1-9",
+          "expectedCount": 9,
+          "recognizedCount": 9,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "expectedRange": "1-39",
+          "expectedCount": 39,
+          "recognizedCount": 39,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "subject": "数据科学",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "expectedRange": "1-100",
+          "expectedCount": 100,
+          "recognizedCount": 100,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "expectedRange": "1-100",
+          "expectedCount": 100,
+          "recognizedCount": 100,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "expectedRange": "1-100",
+          "expectedCount": 100,
+          "recognizedCount": 100,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "subject": "人工智能",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "expectedRange": "1-218",
+          "expectedCount": 218,
+          "recognizedCount": 218,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "expectedRange": "1-55",
+          "expectedCount": 55,
+          "recognizedCount": 55,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "expectedRange": "1-55",
+          "expectedCount": 55,
+          "recognizedCount": 55,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "expectedRange": "1-2",
+          "expectedCount": 2,
+          "recognizedCount": 2,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "expectedRange": "",
+          "expectedCount": 0,
+          "recognizedCount": 0,
+          "missingNumbers": [],
+          "extraNumbers": [],
+          "status": "pass"
+        }
+      ]
+    }
+  ]
+}
