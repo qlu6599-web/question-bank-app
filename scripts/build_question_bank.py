@@ -8,7 +8,7 @@ EXTRACTED = ROOT / "extracted"
 OUTPUT = ROOT / "src" / "data" / "questions.js"
 JSON_OUTPUT = ROOT / "app" / "data" / "question_bank.json"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
-APP_DATA_VERSION = "20260614-v13"
+APP_DATA_VERSION = "20260614-v14"
 
 TYPE_MAP = {
     "cloze": "fill",
@@ -719,6 +719,8 @@ def build_json_question(question, subject, meta):
     normalized["answer"] = normalized.get("answer") or reference
     normalized["analysis"] = normalized.get("analysis") or reference
     normalized["source"] = normalized.get("source") or subject
+    normalized["sourceFile"] = normalized.get("sourceFile") or ""
+    normalized["pageNumber"] = normalized.get("pageNumber") if "pageNumber" in normalized else None
     normalized["accent"] = meta["accent"]
     if original_type != question_type:
         normalized["originalType"] = original_type
@@ -734,26 +736,18 @@ def build_json_bank(bank):
             build_json_question(question, subject_name, subject_block)
             for question in subject_block["questions"]
         ]
-        type_counts = {}
-        for question in normalized_questions:
-            type_counts[question["type"]] = type_counts.get(question["type"], 0) + 1
         subjects.append({
             "name": subject_name,
             "accent": subject_block["accent"],
             "description": subject_block["description"],
-            "types": [
-                {"type": question_type, "label": TYPE_LABELS[question_type], "count": type_counts[question_type]}
-                for question_type in TYPE_ORDER
-                if question_type in type_counts
-            ],
-            "total": len(normalized_questions),
         })
         questions.extend(normalized_questions)
     return {
         "version": APP_DATA_VERSION,
-        "schema": "question-bank-json-v1",
+        "schema": "question-bank-json-v2-single-source",
+        "singleSourceOfTruth": "ALL_QUESTIONS",
         "subjects": subjects,
-        "questions": questions,
+        "ALL_QUESTIONS": questions,
     }
 
 
@@ -797,22 +791,27 @@ def build():
             "questions": questions,
         })
         counts[subject] = len(questions)
+    json_bank = build_json_bank(bank)
     js = "window.QuestionData = (() => {\n"
-    js += "const questionBank = "
-    js += json.dumps(bank, ensure_ascii=False, indent=2)
+    js += "const ALL_QUESTIONS = "
+    js += json.dumps(json_bank["ALL_QUESTIONS"], ensure_ascii=False, indent=2)
     js += ";\n\n"
-    js += """const flatQuestions = questionBank.flatMap((subject) =>
-  subject.questions.map((question) => ({
-    ...question,
-    subject: subject.subject,
-    accent: subject.accent
-  }))
-);
+    js += "const subjectMeta = "
+    js += json.dumps(json_bank["subjects"], ensure_ascii=False, indent=2)
+    js += ";\n\n"
+    js += """const questionBank = subjectMeta.map((subject) => ({
+  subject: subject.name,
+  accent: subject.accent,
+  description: subject.description,
+  questions: ALL_QUESTIONS.filter((question) => question.subject === subject.name)
+}));
 
-return { questionBank, flatQuestions };
+const flatQuestions = ALL_QUESTIONS;
+
+return { ALL_QUESTIONS, questionBank, flatQuestions };
 })();\n"""
     JSON_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    JSON_OUTPUT.write_text(json.dumps(build_json_bank(bank), ensure_ascii=False, indent=2), encoding="utf-8")
+    JSON_OUTPUT.write_text(json.dumps(json_bank, ensure_ascii=False, indent=2), encoding="utf-8")
     OUTPUT.write_text(js, encoding="utf-8")
     print(json.dumps(counts, ensure_ascii=False, indent=2))
     print("total", sum(counts.values()))

@@ -11,18 +11,22 @@ window.QuestionRepository = (() => {
   }
 
   function normalizeBank(raw) {
+    if (!Array.isArray(raw.ALL_QUESTIONS)) {
+      throw new Error("题库缺少 ALL_QUESTIONS 单一真相源");
+    }
+
     const subjectMap = new Map();
     (raw.subjects || []).forEach((subject) => {
       subjectMap.set(subject.name, {
         name: subject.name,
         accent: subject.accent || "#2563eb",
         description: subject.description || "",
-        types: subject.types || [],
-        total: subject.total || 0
+        types: [],
+        total: 0
       });
     });
 
-    const questions = (raw.questions || []).map((question) => {
+    const questions = raw.ALL_QUESTIONS.map((question) => {
       const subject = subjectMap.get(question.subject) || {};
       return {
         id: question.id,
@@ -39,6 +43,10 @@ window.QuestionRepository = (() => {
         unscored: Boolean(question.unscored),
         originalType: question.originalType || question.type,
         source: question.source || question.subject,
+        sourceFile: question.sourceFile || "",
+        pageNumber: question.pageNumber ?? null,
+        sourceNumber: question.sourceNumber ?? null,
+        sourceTypeLabel: question.sourceTypeLabel || "",
         accent: question.accent || subject.accent || "#2563eb"
       };
     });
@@ -64,7 +72,9 @@ window.QuestionRepository = (() => {
 
     return {
       version: raw.version,
+      singleSourceOfTruth: raw.singleSourceOfTruth || "ALL_QUESTIONS",
       subjects,
+      ALL_QUESTIONS: questions,
       questions,
       byId: new Map(questions.map((question) => [question.id, question]))
     };
@@ -89,11 +99,15 @@ window.QuestionRepository = (() => {
   }
 
   function getQuestions(repository, filters = {}) {
-    return repository.questions.filter((question) => {
+    return repository.ALL_QUESTIONS.filter((question) => {
       if (filters.subject && question.subject !== filters.subject) return false;
       if (filters.type && question.type !== filters.type) return false;
       return true;
     });
+  }
+
+  function getAllQuestions(repository) {
+    return repository.ALL_QUESTIONS;
   }
 
   function getById(repository, questionId) {
@@ -107,5 +121,5 @@ window.QuestionRepository = (() => {
     return [...subject.types].sort((a, b) => order.indexOf(a.type) - order.indexOf(b.type));
   }
 
-  return { load, getSubjects, getSubject, getQuestions, getById, getTypesForSubject };
+  return { load, getSubjects, getSubject, getQuestions, getAllQuestions, getById, getTypesForSubject };
 })();

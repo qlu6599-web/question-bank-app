@@ -84,19 +84,33 @@ scripts/
 
 ## 题库结构
 
-题目统一由 `app/data/question_bank.json` 驱动。每道题至少包含：
+题目统一由 `app/data/question_bank.json` 中的 `ALL_QUESTIONS` 驱动。`subjects` 只保存科目元数据，不保存分类数量；首页、刷题、考试、统计都从 `ALL_QUESTIONS` 动态 `filter` 得到视图。
 
 ```json
 {
-  "id": "se-1",
-  "subject": "软件工程",
-  "type": "single",
-  "question": "题干",
-  "options": ["选项A", "选项B", "选项C", "选项D"],
-  "answer": "A",
-  "keywords": [],
-  "score": 0,
-  "analysis": "解析"
+  "version": "20260614-v14",
+  "schema": "question-bank-json-v2-single-source",
+  "singleSourceOfTruth": "ALL_QUESTIONS",
+  "subjects": [
+    {
+      "name": "软件工程",
+      "accent": "#7c3aed",
+      "description": "需求、设计、测试、维护与项目管理"
+    }
+  ],
+  "ALL_QUESTIONS": [
+    {
+      "id": "se-1",
+      "subject": "软件工程",
+      "type": "single",
+      "question": "题干",
+      "options": ["选项A", "选项B", "选项C", "选项D"],
+      "answer": "A",
+      "sourceFile": "C:/Users/17920/Desktop/t题库/软件工程  复习资料.docx",
+      "pageNumber": null,
+      "analysis": "解析"
+    }
+  ]
 }
 ```
 
@@ -123,6 +137,10 @@ scripts/audit_question_bank.py
 audit/source_text_fresh/
 audit/question_bank_raw_before_dedupe.json
 audit/question_bank_full_merged.json
+audit/source_of_truth_report.json
+audit/source_of_truth_report.md
+audit/number_reconciliation_report.json
+audit/number_reconciliation_report.md
 audit/question_type_statistics.json
 audit/audit_report.json
 audit/missing_fix_report.md
@@ -130,7 +148,7 @@ app/data/question_bank_standard.json
 app/data/question_bank.json
 ```
 
-当前标准题库版本为 `20260614-v13`。原始重新解析共 1470 道，标准题库保留 1470 道；其中 8 组完全重复题只标记、不删除。人工智能导论 PDF 中 5 道公式选项题已生成题目截图并修复残缺选项。
+当前标准题库版本为 `20260614-v14`。原始重新解析共 1470 道，标准题库保留 1470 道；其中 8 组完全重复题只标记、不删除。人工智能导论 PDF 中 5 道公式选项题已生成题目截图并修复残缺选项。
 
 ## 模拟考试系统
 

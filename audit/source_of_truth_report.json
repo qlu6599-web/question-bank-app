@@ -1,0 +1,293 @@
+{
+  "version": "20260614-v14",
+  "singleSourceOfTruth": "ALL_QUESTIONS",
+  "rule": "分类、统计、刷题、考试均只能从 ALL_QUESTIONS 动态 filter；subjects 只保存科目元数据。",
+  "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",
+  "sourceFiles": [
+    {
+      "subject": "操作系统",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+      "chosenExtractor": "python-docx",
+      "chosenQuestionCount": 340,
+      "candidateDiagnostics": [
+        {
+          "extractor": "python-docx",
+          "questionCount": 340,
+          "markerCount": 0,
+          "typeCounts": {},
+          "charCount": 18917
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\操作系统.txt"
+    },
+    {
+      "subject": "数据库",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+      "chosenExtractor": "python-docx",
+      "chosenQuestionCount": 215,
+      "candidateDiagnostics": [
+        {
+          "extractor": "python-docx",
+          "questionCount": 215,
+          "markerCount": 0,
+          "typeCounts": {},
+          "charCount": 21181
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\数据库.txt"
+    },
+    {
+      "subject": "软件工程",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+      "chosenExtractor": "python-docx",
+      "chosenQuestionCount": 285,
+      "candidateDiagnostics": [
+        {
+          "extractor": "python-docx",
+          "questionCount": 285,
+          "markerCount": 0,
+          "typeCounts": {},
+          "charCount": 24992
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\软件工程.txt"
+    },
+    {
+      "subject": "数据科学",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+      "chosenExtractor": "pypdf",
+      "chosenQuestionCount": 300,
+      "candidateDiagnostics": [
+        {
+          "extractor": "pypdf",
+          "questionCount": 300,
+          "markerCount": 300,
+          "typeCounts": {
+            "single": 100,
+            "judge": 100,
+            "cloze": 100
+          },
+          "charCount": 44036
+        },
+        {
+          "extractor": "fitz",
+          "questionCount": 300,
+          "markerCount": 300,
+          "typeCounts": {
+            "single": 100,
+            "judge": 100,
+            "cloze": 100
+          },
+          "charCount": 41603
+        },
+        {
+          "extractor": "pdfplumber",
+          "questionCount": 300,
+          "markerCount": 300,
+          "typeCounts": {
+            "single": 100,
+            "judge": 100,
+            "cloze": 100
+          },
+          "charCount": 41525
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\数据科学.txt"
+    },
+    {
+      "subject": "人工智能",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+      "chosenExtractor": "pdfplumber",
+      "chosenQuestionCount": 330,
+      "candidateDiagnostics": [
+        {
+          "extractor": "pdfplumber",
+          "questionCount": 330,
+          "markerCount": 330,
+          "typeCounts": {
+            "single": 218,
+            "cloze": 2,
+            "multiple": 55,
+            "judge": 55
+          },
+          "charCount": 54980
+        },
+        {
+          "extractor": "pypdf",
+          "questionCount": 106,
+          "markerCount": 330,
+          "typeCounts": {
+            "single": 37,
+            "cloze": 2,
+            "multiple": 12,
+            "judge": 55
+          },
+          "charCount": 58437
+        },
+        {
+          "extractor": "fitz",
+          "questionCount": 106,
+          "markerCount": 330,
+          "typeCounts": {
+            "single": 37,
+            "cloze": 2,
+            "multiple": 12,
+            "judge": 55
+          },
+          "charCount": 55070
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\人工智能.txt"
+    }
+  ],
+  "rawQuestionTotal": 1470,
+  "allQuestionsTotal": 1470,
+  "difference": 0,
+  "status": "pass",
+  "missingOrMismatchRows": [],
+  "typeStatsFromAllQuestions": {
+    "人工智能": {
+      "single": 218,
+      "multiple": 55,
+      "judge": 55,
+      "fill": 2
+    },
+    "操作系统": {
+      "single": 100,
+      "judge": 198,
+      "fill": 42
+    },
+    "数据库": {
+      "single": 70,
+      "judge": 70,
+      "comprehensive": 75
+    },
+    "数据科学": {
+      "single": 100,
+      "judge": 100,
+      "fill": 100
+    },
+    "软件工程": {
+      "single": 100,
+      "multiple": 50,
+      "judge": 56,
+      "fill": 31,
+      "comprehensive": 9,
+      "essay": 39
+    }
+  },
+  "question75Diagnostics": [
+    {
+      "subject": "操作系统",
+      "expectedType": "single",
+      "expectedTypeLabel": "单选题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "os-75",
+      "actualType": "single",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+      "pageNumber": null,
+      "question": "在存储管理中采用交换与覆盖技术，其目的是 ____。"
+    },
+    {
+      "subject": "操作系统",
+      "expectedType": "judge",
+      "expectedTypeLabel": "判断题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "os-217",
+      "actualType": "judge",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+      "pageNumber": null,
+      "question": "进程唤醒原语的核心操作是将阻塞态进程的状态改为就绪态,并移入就绪队列｡"
+    },
+    {
+      "subject": "数据库",
+      "expectedType": "comprehensive",
+      "expectedTypeLabel": "综合题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "db-215",
+      "actualType": "comprehensive",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+      "pageNumber": null,
+      "question": "5、已知MySQL服务器上的教学管理数据库（teachingdb）中包括三张表：\n利用关系代数表达式查询机械电子专业学生选修的课程名。关系代数操作用文字描述即可）"
+    },
+    {
+      "subject": "软件工程",
+      "expectedType": "single",
+      "expectedTypeLabel": "单选题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "se-131",
+      "actualType": "single",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+      "pageNumber": null,
+      "question": "“重新执行已经进行过测试的子集以确保对程序的修改没有产生副作用”描述的以下哪一种软件测试类型？"
+    },
+    {
+      "subject": "数据科学",
+      "expectedType": "single",
+      "expectedTypeLabel": "单选题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "ds-75",
+      "actualType": "single",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+      "pageNumber": 24,
+      "question": "沃尔玛利用大数据发现了 “ 啤酒与尿布 ” 的关联购买行为。这一案例主要体现了大数据在\n零售领域的哪种应用？"
+    },
+    {
+      "subject": "数据科学",
+      "expectedType": "judge",
+      "expectedTypeLabel": "判断题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "ds-175",
+      "actualType": "judge",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+      "pageNumber": 45,
+      "question": "沃尔玛与宝洁的数据共享系统案例中，零售商将销售数据实时同步给供应商，主要是\n为了增加供应商的库存成本。\n正确答案：错误\n答案解析：数据共享是为了让供应商调整生产计划，实现 “ 以销定产 ” ，结果是双方的库存成\n本均降低，而非增加。\n章节：第十一章"
+    },
+    {
+      "subject": "数据科学",
+      "expectedType": "fill",
+      "expectedTypeLabel": "填空题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "ds-275",
+      "actualType": "fill",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+      "pageNumber": 61,
+      "question": "沃尔玛利用大数据进行购物篮分析，发现年轻父亲在购买婴儿尿布时，往往会同时购\n买____，从而调整了商品摆放策略。"
+    },
+    {
+      "subject": "人工智能",
+      "expectedType": "single",
+      "expectedTypeLabel": "单选题",
+      "questionNumber": 75,
+      "existsInAllQuestions": true,
+      "id": "ai-77",
+      "actualType": "single",
+      "isMisclassified": false,
+      "isFilteredOut": false,
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+      "pageNumber": 23,
+      "question": "MCTS 的“模拟”步骤又被称为？"
+    }
+  ]
+}

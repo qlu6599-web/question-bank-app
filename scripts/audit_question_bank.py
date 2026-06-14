@@ -22,6 +22,8 @@ AUDIT_DIR = ROOT / "audit"
 SOURCE_TEXT_DIR = AUDIT_DIR / "source_text_fresh"
 REPORT_JSON = AUDIT_DIR / "audit_report.json"
 REPORT_MD = AUDIT_DIR / "missing_fix_report.md"
+SOURCE_OF_TRUTH_JSON = AUDIT_DIR / "source_of_truth_report.json"
+SOURCE_OF_TRUTH_MD = AUDIT_DIR / "source_of_truth_report.md"
 NUMBER_RECONCILE_JSON = AUDIT_DIR / "number_reconciliation_report.json"
 NUMBER_RECONCILE_MD = AUDIT_DIR / "number_reconciliation_report.md"
 STATS_JSON = AUDIT_DIR / "question_type_statistics.json"
@@ -33,7 +35,7 @@ APP_JSON = ROOT / "app" / "data" / "question_bank.json"
 SRC_COMPAT_JS = ROOT / "src" / "data" / "questions.js"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
 ASSET_QUESTION_DIR = ROOT / "assets" / "questions"
-STANDARD_VERSION = "20260614-v13"
+STANDARD_VERSION = "20260614-v14"
 
 
 SOURCE_FILES = {
@@ -182,14 +184,65 @@ def build_bank(builder, fresh_questions_by_subject):
         questions.extend(subject_questions)
     return {
         "version": STANDARD_VERSION,
-        "schema": "question-bank-json-v1",
+        "schema": "question-bank-internal-v1",
         "subjects": subjects,
         "questions": questions,
     }
 
 
+def bank_questions(bank):
+    return bank.get("ALL_QUESTIONS") or bank.get("questions") or []
+
+
+def to_single_source_bank(bank):
+    return {
+        "version": STANDARD_VERSION,
+        "schema": "question-bank-json-v2-single-source",
+        "singleSourceOfTruth": "ALL_QUESTIONS",
+        "subjects": [
+            {
+                "name": subject["name"],
+                "accent": subject.get("accent", "#2563eb"),
+                "description": subject.get("description", ""),
+            }
+            for subject in bank.get("subjects", [])
+        ],
+        "ALL_QUESTIONS": bank_questions(bank),
+    }
+
+
+def assign_source_metadata(questions, source_file, page_lookup=None):
+    for question in questions:
+        question["sourceFile"] = str(source_file)
+        question["pageNumber"] = page_lookup.get(question["id"]) if page_lookup else None
+
+
+def build_pdf_page_lookup(path, questions):
+    lookup = {}
+    if not questions:
+        return lookup
+    try:
+        with fitz.open(path) as doc:
+            page_texts = [(index + 1, page.get_text("text") or "") for index, page in enumerate(doc)]
+    except Exception:
+        return lookup
+    for question in questions:
+        raw_number = str(question.get("id", "")).split("-", 1)[-1]
+        labels = []
+        if raw_number.isdigit():
+            number = int(raw_number)
+            labels.extend([f"题目{number:03d}", f"题目{number}"])
+        stem = re.sub(r"\s+", "", question.get("question", ""))[:18]
+        for page_number, text in page_texts:
+            compact = re.sub(r"\s+", "", text)
+            if any(label in text for label in labels) or (stem and stem in compact):
+                lookup[question["id"]] = page_number
+                break
+    return lookup
+
+
 def attach_formula_option_images(bank, ai_pdf_path):
-    target_questions = [q for q in bank["questions"] if q.get("subject") == "人工智能" and q.get("needsImageOptions")]
+    target_questions = [q for q in bank_questions(bank) if q.get("subject") == "人工智能" and q.get("needsImageOptions")]
     if not target_questions:
         return []
     output_dir = ASSET_QUESTION_DIR / "ai"
@@ -238,10 +291,10 @@ def merge_with_existing(fresh_bank):
     if not APP_JSON.exists():
         return fresh_bank, []
     old_bank = json.loads(APP_JSON.read_text(encoding="utf-8"))
-    fresh_by_id = {question["id"]: question for question in fresh_bank["questions"]}
+    fresh_by_id = {question["id"]: question for question in bank_questions(fresh_bank)}
     merged = []
     merge_notes = []
-    for old in old_bank.get("questions", []):
+    for old in bank_questions(old_bank):
         fresh = fresh_by_id.pop(old.get("id"), None)
         if not fresh:
             merged.append(old)
@@ -272,7 +325,7 @@ def is_better_question(fresh, old):
 def rebuild_subjects(bank):
     by_subject = defaultdict(list)
     meta_by_subject = {subject["name"]: subject for subject in bank.get("subjects", [])}
-    for question in bank["questions"]:
+    for question in bank_questions(bank):
         by_subject[question["subject"]].append(question)
     subjects = []
     for subject, questions in by_subject.items():
@@ -293,13 +346,14 @@ def rebuild_subjects(bank):
 
 
 def sort_bank_questions(bank):
-    bank["questions"] = sorted(bank["questions"], key=lambda item: id_sort_key(item["id"]))
+    bank["questions"] = sorted(bank_questions(bank), key=lambda item: id_sort_key(item["id"]))
+    bank.pop("ALL_QUESTIONS", None)
     bank["subjects"] = rebuild_subjects(bank)
 
 
 def build_number_reconciliation(builder, raw_counts, bank):
     questions_by_subject_type = defaultdict(list)
-    for question in sorted(bank["questions"], key=lambda item: id_sort_key(item["id"])):
+    for question in sorted(bank_questions(bank), key=lambda item: id_sort_key(item["id"])):
         questions_by_subject_type[(question["subject"], question["type"])].append(question)
 
     subjects = []
@@ -331,7 +385,7 @@ def build_number_reconciliation(builder, raw_counts, bank):
         })
     return {
         "version": STANDARD_VERSION,
-        "basis": "按科目、题型、题号范围 1..N 强制对账；题型由题号区间与结构规则解析后建立索引。",
+        "basis": "以 ALL_QUESTIONS 为唯一题目总表，按科目、题型、题号范围 1..N 强制对账；分类只作为 filter 视图。",
         "subjects": subjects,
     }
 
@@ -362,11 +416,130 @@ def write_number_reconciliation_markdown(reconciliation):
     NUMBER_RECONCILE_MD.write_text("\n".join(lines), encoding="utf-8")
 
 
+def build_source_of_truth_report(builder, raw_counts, bank, reconciliation, extraction_report):
+    all_questions = bank_questions(bank)
+    raw_total = sum(sum(counts.values()) for counts in raw_counts.values())
+    all_total = len(all_questions)
+    missing_rows = []
+    for subject in reconciliation["subjects"]:
+        for row in subject["rows"]:
+            if row["missingNumbers"] or row["extraNumbers"] or row["expectedCount"] != row["recognizedCount"]:
+                missing_rows.append({
+                    "subject": subject["subject"],
+                    "type": row["type"],
+                    "label": row["label"],
+                    "expectedCount": row["expectedCount"],
+                    "allQuestionsCount": row["recognizedCount"],
+                    "missingNumbers": row["missingNumbers"],
+                    "extraNumbers": row["extraNumbers"],
+                    "status": row["status"],
+                })
+    return {
+        "version": STANDARD_VERSION,
+        "singleSourceOfTruth": "ALL_QUESTIONS",
+        "rule": "分类、统计、刷题、考试均只能从 ALL_QUESTIONS 动态 filter；subjects 只保存科目元数据。",
+        "sourceDirectory": str(SOURCE_DIR),
+        "sourceFiles": extraction_report,
+        "rawQuestionTotal": raw_total,
+        "allQuestionsTotal": all_total,
+        "difference": all_total - raw_total,
+        "status": "pass" if raw_total == all_total and not missing_rows else "fail",
+        "missingOrMismatchRows": missing_rows,
+        "typeStatsFromAllQuestions": build_type_stats(all_questions),
+        "question75Diagnostics": build_question75_diagnostics(builder, raw_counts, all_questions),
+    }
+
+
+def build_type_stats(all_questions):
+    stats = defaultdict(lambda: defaultdict(int))
+    for question in all_questions:
+        stats[question["subject"]][question["type"]] += 1
+    return {
+        subject: {question_type: stats[subject].get(question_type, 0) for question_type in TYPE_ORDER if stats[subject].get(question_type, 0)}
+        for subject in sorted(stats)
+    }
+
+
+def build_question75_diagnostics(builder, raw_counts, all_questions):
+    diagnostics = []
+    for subject in builder.SUBJECT_META:
+        for question_type in TYPE_ORDER:
+            expected_count = raw_counts[subject].get(question_type, 0)
+            if expected_count < 75:
+                continue
+            exact = [
+                question
+                for question in all_questions
+                if question.get("subject") == subject
+                and question.get("type") == question_type
+                and question.get("sourceNumber") == 75
+            ]
+            diagnostics.append({
+                "subject": subject,
+                "expectedType": question_type,
+                "expectedTypeLabel": TYPE_LABELS[question_type],
+                "questionNumber": 75,
+                "existsInAllQuestions": bool(exact),
+                "id": exact[0]["id"] if exact else None,
+                "actualType": exact[0]["type"] if exact else None,
+                "isMisclassified": False if exact else None,
+                "isFilteredOut": False if exact else True,
+                "sourceFile": exact[0].get("sourceFile") if exact else None,
+                "pageNumber": exact[0].get("pageNumber") if exact else None,
+                "question": exact[0].get("question") if exact else None,
+            })
+    return diagnostics
+
+
+def write_source_of_truth_markdown(report):
+    lines = [
+        "# 单一真相源数据一致性报告",
+        "",
+        f"- 版本：{report['version']}",
+        f"- 唯一数据源：`{report['singleSourceOfTruth']}`",
+        f"- 规则：{report['rule']}",
+        f"- 原始题目总数（从文件解析）：{report['rawQuestionTotal']}",
+        f"- 系统题目总数（ALL_QUESTIONS）：{report['allQuestionsTotal']}",
+        f"- 差异：{report['difference']}",
+        f"- 状态：{report['status']}",
+        "",
+        "## 缺失题号列表",
+        "",
+    ]
+    if report["missingOrMismatchRows"]:
+        lines.extend([
+            "| 科目 | 题型 | 原始数量 | ALL_QUESTIONS数量 | 缺失题号 | 多余题号 | 状态 |",
+            "| --- | --- | ---: | ---: | --- | --- | --- |",
+        ])
+        for row in report["missingOrMismatchRows"]:
+            missing = ", ".join(map(str, row["missingNumbers"])) if row["missingNumbers"] else "无"
+            extra = ", ".join(map(str, row["extraNumbers"])) if row["extraNumbers"] else "无"
+            lines.append(
+                f"| {row['subject']} | {row['label']} | {row['expectedCount']} | {row['allQuestionsCount']} | "
+                f"{missing} | {extra} | {row['status']} |"
+            )
+    else:
+        lines.append("无。")
+    lines.extend(["", "## 75题定位", ""])
+    lines.extend([
+        "| 科目 | 题型 | 题号75是否在ALL_QUESTIONS | 是否错误分类 | 是否被过滤 | ID | pageNumber | 题干 |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+    ])
+    for item in report["question75Diagnostics"]:
+        question = str(item.get("question") or "").replace("\n", " ")[:80]
+        lines.append(
+            f"| {item['subject']} | {item['expectedTypeLabel']} | {'是' if item['existsInAllQuestions'] else '否'} | "
+            f"{'否' if item['isMisclassified'] is False else '未定位'} | {'否' if not item['isFilteredOut'] else '是'} | "
+            f"{item.get('id') or '-'} | {item.get('pageNumber') or '-'} | {question or '-'} |"
+        )
+    SOURCE_OF_TRUTH_MD.write_text("\n".join(lines), encoding="utf-8")
+
+
 def audit_duplicate_questions(bank):
     exact_duplicates = []
     candidates = []
     by_group = defaultdict(list)
-    for question in bank["questions"]:
+    for question in bank_questions(bank):
         by_group[(question["subject"], question["type"])].append(question)
     for group_questions in by_group.values():
         seen = []
@@ -477,31 +650,31 @@ def find_subject_file(subject):
 
 
 def write_compat_js(bank):
-    by_subject = {subject["name"]: {**subject, "questions": []} for subject in bank["subjects"]}
-    for question in bank["questions"]:
-        by_subject[question["subject"]]["questions"].append(question)
-    question_bank = []
-    for subject in bank["subjects"]:
-        block = by_subject[subject["name"]]
-        question_bank.append({
-            "subject": block["name"],
-            "accent": block["accent"],
-            "description": block["description"],
-            "questions": block["questions"],
-        })
+    subject_meta = [
+        {
+            "name": subject["name"],
+            "accent": subject.get("accent", "#2563eb"),
+            "description": subject.get("description", ""),
+        }
+        for subject in bank["subjects"]
+    ]
     js = "window.QuestionData = (() => {\n"
-    js += "const questionBank = "
-    js += json.dumps(question_bank, ensure_ascii=False, indent=2)
+    js += "const ALL_QUESTIONS = "
+    js += json.dumps(bank_questions(bank), ensure_ascii=False, indent=2)
     js += ";\n\n"
-    js += """const flatQuestions = questionBank.flatMap((subject) =>
-  subject.questions.map((question) => ({
-    ...question,
-    subject: subject.subject,
-    accent: subject.accent
-  }))
-);
+    js += "const subjectMeta = "
+    js += json.dumps(subject_meta, ensure_ascii=False, indent=2)
+    js += ";\n\n"
+    js += """const questionBank = subjectMeta.map((subject) => ({
+  subject: subject.name,
+  accent: subject.accent,
+  description: subject.description,
+  questions: ALL_QUESTIONS.filter((question) => question.subject === subject.name)
+}));
 
-return { questionBank, flatQuestions };
+const flatQuestions = ALL_QUESTIONS;
+
+return { ALL_QUESTIONS, questionBank, flatQuestions };
 })();\n"""
     SRC_COMPAT_JS.parent.mkdir(parents=True, exist_ok=True)
     SRC_COMPAT_JS.write_text(js, encoding="utf-8")
@@ -630,6 +803,10 @@ def main():
         SOURCE_TEXT_DIR.joinpath(f"{subject}.txt").write_text(text, encoding="utf-8")
         questions = parse_subject(builder, subject, text)
         apply_supplemental(questions)
+        if path.suffix.lower() == ".pdf":
+            assign_source_metadata(questions, path, build_pdf_page_lookup(path, questions))
+        else:
+            assign_source_metadata(questions, path)
         fresh_questions_by_subject[subject] = questions
         raw_counts[subject] = normalized_type_counts(questions, builder)
         extraction_report.append({
@@ -653,7 +830,7 @@ def main():
             "question": question["question"],
             "options": question.get("options", []),
         }
-        for question in json.loads(APP_JSON.read_text(encoding="utf-8")).get("questions", [])
+        for question in bank_questions(json.loads(APP_JSON.read_text(encoding="utf-8")))
         if malformed_choice_options(question)
     ] if APP_JSON.exists() else []
 
@@ -663,11 +840,12 @@ def main():
         generated_images = []
 
     merged_bank, merge_notes = merge_with_existing(fresh_bank)
-    RAW_MERGED_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    RAW_MERGED_JSON.write_text(json.dumps(to_single_source_bank(merged_bank), ensure_ascii=False, indent=2), encoding="utf-8")
     sort_bank_questions(merged_bank)
     exact_duplicates, duplicate_candidates = audit_duplicate_questions(merged_bank)
     merged_bank["version"] = STANDARD_VERSION
     reconciliation = build_number_reconciliation(builder, raw_counts, merged_bank)
+    source_of_truth_report = build_source_of_truth_report(builder, raw_counts, merged_bank, reconciliation, extraction_report)
     system_counts = {
         subject["name"]: {
             item["type"]: item["count"]
@@ -683,7 +861,7 @@ def main():
             "question": question["question"],
             "options": question.get("options", []),
         }
-        for question in merged_bank["questions"]
+        for question in bank_questions(merged_bank)
         if malformed_choice_options(question)
     ]
 
@@ -703,24 +881,30 @@ def main():
     STATS_JSON.write_text(json.dumps(system_counts, ensure_ascii=False, indent=2), encoding="utf-8")
     NUMBER_RECONCILE_JSON.write_text(json.dumps(reconciliation, ensure_ascii=False, indent=2), encoding="utf-8")
     write_number_reconciliation_markdown(reconciliation)
+    SOURCE_OF_TRUTH_JSON.write_text(json.dumps(source_of_truth_report, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_source_of_truth_markdown(source_of_truth_report)
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     write_markdown_report(report)
-    MERGED_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
-    STRONG_SNAPSHOT_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
-    STANDARD_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
-    APP_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    single_source_bank = to_single_source_bank(merged_bank)
+    MERGED_JSON.write_text(json.dumps(single_source_bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    STRONG_SNAPSHOT_JSON.write_text(json.dumps(single_source_bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    STANDARD_JSON.write_text(json.dumps(single_source_bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    APP_JSON.write_text(json.dumps(single_source_bank, ensure_ascii=False, indent=2), encoding="utf-8")
     write_compat_js(merged_bank)
 
     print(json.dumps({
         "version": STANDARD_VERSION,
-        "total": len(merged_bank["questions"]),
+        "total": len(bank_questions(merged_bank)),
         "stats": system_counts,
+        "singleSourceOfTruth": "ALL_QUESTIONS",
+        "sourceOfTruthStatus": source_of_truth_report["status"],
         "malformedBefore": len(malformed_before),
         "malformedAfter": len(malformed_after),
         "exactDuplicatesKept": len(exact_duplicates),
         "duplicateCandidates": len(duplicate_candidates),
         "generatedImages": len(generated_images),
         "numberReconciliation": str(NUMBER_RECONCILE_MD),
+        "sourceOfTruthReport": str(SOURCE_OF_TRUTH_MD),
         "strongSnapshot": str(STRONG_SNAPSHOT_JSON),
         "report": str(REPORT_MD),
     }, ensure_ascii=False, indent=2))

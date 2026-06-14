@@ -2,7 +2,7 @@ window.StatsPage = {
   render(ctx) {
     const { el, percent, typeLabel } = window.AppUI;
     ctx.setShell("学习统计", "数据分析模块", { hideMode: true, showBack: false });
-    const summary = window.StatsEngine.summarize(ctx.state, ctx.repository.questions);
+    const summary = window.StatsEngine.summarize(ctx.state, window.QuestionRepository.getAllQuestions(ctx.repository));
     const root = el("section", "screen stats-screen");
     const cards = el("div", "metric-grid");
 
