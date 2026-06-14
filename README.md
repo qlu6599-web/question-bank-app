@@ -109,6 +109,29 @@ scripts/
 - `essay`：问答题
 - `comprehensive`：综合题
 
+## 数据审计结果
+
+已新增全量审计脚本：
+
+```text
+scripts/audit_question_bank.py
+```
+
+审计脚本会从 `C:\Users\17920\Desktop\t题库` 重新读取原始 `docx/pdf`，不使用 `extracted/` 缓存。输出文件：
+
+```text
+audit/source_text_fresh/
+audit/question_bank_raw_before_dedupe.json
+audit/question_bank_full_merged.json
+audit/question_type_statistics.json
+audit/audit_report.json
+audit/missing_fix_report.md
+app/data/question_bank_standard.json
+app/data/question_bank.json
+```
+
+当前标准题库版本为 `20260614-v12`。原始重新解析共 1470 道，去除 8 道完全重复题后，标准题库共 1462 道。人工智能导论 PDF 中 5 道公式选项题已生成题目截图并修复残缺选项。
+
 ## 模拟考试系统
 
 入口在底部 Tab 的“考试”。系统按课程自动组卷，每次随机抽题，不重复题目，并生成独立 `examId`。

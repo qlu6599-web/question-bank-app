@@ -8,7 +8,7 @@ EXTRACTED = ROOT / "extracted"
 OUTPUT = ROOT / "src" / "data" / "questions.js"
 JSON_OUTPUT = ROOT / "app" / "data" / "question_bank.json"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
-APP_DATA_VERSION = "20260614-v11"
+APP_DATA_VERSION = "20260614-v12"
 
 TYPE_MAP = {
     "cloze": "fill",
@@ -149,6 +149,19 @@ def parse_pdf_questions(text, subject, prefix, start_idx=1):
                 "source": subject,
             })
             continue
+        image_option_override = infer_pdf_image_option_override(subject, raw_question, option_area, answer)
+        if image_option_override:
+            questions.append({
+                "id": f"{prefix}-{start_idx + len(questions)}",
+                "type": "multiple" if len(answer) > 1 else "single",
+                "question": clean(raw_question),
+                "options": image_option_override,
+                "answer": answer,
+                "analysis": analysis or "本题选项包含公式或图片内容，请结合题目截图核对。",
+                "source": subject,
+                "needsImageOptions": True,
+            })
+            continue
         override = infer_pdf_cloze_override(subject, raw_question, analysis)
         if override:
             question_text, answer_text, accepted = override
@@ -182,6 +195,23 @@ def infer_pdf_cloze_override(subject, raw_question, analysis):
             "0 到 1",
             ["0 到 1", "0到1", "[0,1]", "[0，1]", "0～1", "0~1"],
         )
+    return None
+
+
+def infer_pdf_image_option_override(subject, raw_question, option_area, answer):
+    if subject != "人工智能":
+        return None
+    normalized = re.sub(r"\s+", "", raw_question)
+    formula_option_questions = [
+        "谓词公式",
+        "由多个子证据",
+        "启发式搜索",
+        "Sigmoid",
+        "ReLU",
+    ]
+    has_blank_option_markers = all(re.search(rf"^\s*{letter}\.\s*$", option_area, re.M) for letter in "ABCD")
+    if has_blank_option_markers and any(key in normalized for key in formula_option_questions):
+        return [f"{letter}. 见题目截图中的公式选项" for letter in "ABCD"]
     return None
 
 

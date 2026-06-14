@@ -1,5 +1,5 @@
 window.AppConfig = (() => {
-  const VERSION = "20260614-v11";
+  const VERSION = "20260614-v12";
 
   const tabs = [
     { key: "home", label: "首页", icon: "⌂" },

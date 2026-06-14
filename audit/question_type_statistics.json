@@ -1,0 +1,31 @@
+{
+  "人工智能": {
+    "single": 218,
+    "multiple": 55,
+    "judge": 55,
+    "fill": 2
+  },
+  "数据库": {
+    "single": 70,
+    "judge": 70,
+    "comprehensive": 75
+  },
+  "数据科学": {
+    "single": 100,
+    "judge": 100,
+    "fill": 100
+  },
+  "操作系统": {
+    "single": 99,
+    "judge": 198,
+    "fill": 42
+  },
+  "软件工程": {
+    "single": 97,
+    "multiple": 50,
+    "judge": 56,
+    "fill": 28,
+    "comprehensive": 9,
+    "essay": 38
+  }
+}

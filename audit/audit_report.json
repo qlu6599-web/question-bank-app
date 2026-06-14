@@ -1,0 +1,698 @@
+{
+  "version": "20260614-v12",
+  "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",
+  "generatedAt": "2026-06-14T12:14:39",
+  "extraction": [
+    {
+      "subject": "操作系统",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+      "chosenExtractor": "python-docx",
+      "chosenQuestionCount": 340,
+      "candidateDiagnostics": [
+        {
+          "extractor": "python-docx",
+          "questionCount": 340,
+          "markerCount": 0,
+          "typeCounts": {},
+          "charCount": 18917
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\操作系统.txt"
+    },
+    {
+      "subject": "数据库",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+      "chosenExtractor": "python-docx",
+      "chosenQuestionCount": 215,
+      "candidateDiagnostics": [
+        {
+          "extractor": "python-docx",
+          "questionCount": 215,
+          "markerCount": 0,
+          "typeCounts": {},
+          "charCount": 21181
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\数据库.txt"
+    },
+    {
+      "subject": "软件工程",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+      "chosenExtractor": "python-docx",
+      "chosenQuestionCount": 285,
+      "candidateDiagnostics": [
+        {
+          "extractor": "python-docx",
+          "questionCount": 285,
+          "markerCount": 0,
+          "typeCounts": {},
+          "charCount": 24992
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\软件工程.txt"
+    },
+    {
+      "subject": "数据科学",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+      "chosenExtractor": "pypdf",
+      "chosenQuestionCount": 300,
+      "candidateDiagnostics": [
+        {
+          "extractor": "pypdf",
+          "questionCount": 300,
+          "markerCount": 300,
+          "typeCounts": {
+            "single": 100,
+            "judge": 100,
+            "cloze": 100
+          },
+          "charCount": 44036
+        },
+        {
+          "extractor": "fitz",
+          "questionCount": 300,
+          "markerCount": 300,
+          "typeCounts": {
+            "single": 100,
+            "judge": 100,
+            "cloze": 100
+          },
+          "charCount": 41603
+        },
+        {
+          "extractor": "pdfplumber",
+          "questionCount": 300,
+          "markerCount": 300,
+          "typeCounts": {
+            "single": 100,
+            "judge": 100,
+            "cloze": 100
+          },
+          "charCount": 41525
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\数据科学.txt"
+    },
+    {
+      "subject": "人工智能",
+      "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+      "chosenExtractor": "pdfplumber",
+      "chosenQuestionCount": 330,
+      "candidateDiagnostics": [
+        {
+          "extractor": "pdfplumber",
+          "questionCount": 330,
+          "markerCount": 330,
+          "typeCounts": {
+            "single": 218,
+            "cloze": 2,
+            "multiple": 55,
+            "judge": 55
+          },
+          "charCount": 54980
+        },
+        {
+          "extractor": "pypdf",
+          "questionCount": 106,
+          "markerCount": 330,
+          "typeCounts": {
+            "single": 37,
+            "cloze": 2,
+            "multiple": 12,
+            "judge": 55
+          },
+          "charCount": 58437
+        },
+        {
+          "extractor": "fitz",
+          "questionCount": 106,
+          "markerCount": 330,
+          "typeCounts": {
+            "single": 37,
+            "cloze": 2,
+            "multiple": 12,
+            "judge": 55
+          },
+          "charCount": 55070
+        }
+      ],
+      "freshTextFile": "C:\\Users\\17920\\Documents\\题库APP\\audit\\source_text_fresh\\人工智能.txt"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "操作系统",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "rawCount": 100,
+          "systemCount": 99,
+          "difference": -1,
+          "reason": "原文存在 1 道完全重复题，已按规则去重"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "rawCount": 198,
+          "systemCount": 198,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "rawCount": 42,
+          "systemCount": 42,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        }
+      ],
+      "rawTotal": 340,
+      "systemTotal": 339
+    },
+    {
+      "subject": "数据库",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "rawCount": 70,
+          "systemCount": 70,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "rawCount": 70,
+          "systemCount": 70,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "rawCount": 75,
+          "systemCount": 75,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        }
+      ],
+      "rawTotal": 215,
+      "systemTotal": 215
+    },
+    {
+      "subject": "软件工程",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "rawCount": 100,
+          "systemCount": 97,
+          "difference": -3,
+          "reason": "原文存在 3 道完全重复题，已按规则去重"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "rawCount": 50,
+          "systemCount": 50,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "rawCount": 56,
+          "systemCount": 56,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "rawCount": 31,
+          "systemCount": 28,
+          "difference": -3,
+          "reason": "原文存在 3 道完全重复题，已按规则去重"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "rawCount": 9,
+          "systemCount": 9,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "rawCount": 39,
+          "systemCount": 38,
+          "difference": -1,
+          "reason": "原文存在 1 道完全重复题，已按规则去重"
+        }
+      ],
+      "rawTotal": 285,
+      "systemTotal": 278
+    },
+    {
+      "subject": "数据科学",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "rawCount": 100,
+          "systemCount": 100,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "rawCount": 100,
+          "systemCount": 100,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "rawCount": 100,
+          "systemCount": 100,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        }
+      ],
+      "rawTotal": 300,
+      "systemTotal": 300
+    },
+    {
+      "subject": "人工智能",
+      "rows": [
+        {
+          "type": "single",
+          "label": "单选题",
+          "rawCount": 218,
+          "systemCount": 218,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "multiple",
+          "label": "多选题",
+          "rawCount": 55,
+          "systemCount": 55,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "judge",
+          "label": "判断题",
+          "rawCount": 55,
+          "systemCount": 55,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "fill",
+          "label": "填空题",
+          "rawCount": 2,
+          "systemCount": 2,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "comprehensive",
+          "label": "综合题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        },
+        {
+          "type": "essay",
+          "label": "问答题",
+          "rawCount": 0,
+          "systemCount": 0,
+          "difference": 0,
+          "reason": "一致"
+        }
+      ],
+      "rawTotal": 330,
+      "systemTotal": 330
+    }
+  ],
+  "malformedChoiceOptionsBefore": [],
+  "malformedChoiceOptionsAfter": [],
+  "duplicatesRemoved": [
+    {
+      "keptId": "os-27",
+      "removedId": "os-87",
+      "subject": "操作系统",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-69",
+      "removedId": "se-110",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-82",
+      "removedId": "se-102",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-87",
+      "removedId": "se-128",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-211",
+      "removedId": "se-214",
+      "subject": "软件工程",
+      "type": "fill",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-212",
+      "removedId": "se-218",
+      "subject": "软件工程",
+      "type": "fill",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-216",
+      "removedId": "se-223",
+      "subject": "软件工程",
+      "type": "fill",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    },
+    {
+      "keptId": "se-266",
+      "removedId": "se-279",
+      "subject": "软件工程",
+      "type": "essay",
+      "similarity": 1.0,
+      "reason": "full_signature_duplicate"
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "leftId": "db-74",
+      "rightId": "db-73",
+      "subject": "数据库",
+      "type": "judge",
+      "similarity": 0.9666666666666667,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-80",
+      "rightId": "db-79",
+      "subject": "数据库",
+      "type": "judge",
+      "similarity": 0.9629629629629629,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-92",
+      "rightId": "db-91",
+      "subject": "数据库",
+      "type": "judge",
+      "similarity": 0.9714285714285714,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-147",
+      "rightId": "db-146",
+      "subject": "数据库",
+      "type": "comprehensive",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-148",
+      "rightId": "db-146",
+      "subject": "数据库",
+      "type": "comprehensive",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-149",
+      "rightId": "db-146",
+      "subject": "数据库",
+      "type": "comprehensive",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-150",
+      "rightId": "db-146",
+      "subject": "数据库",
+      "type": "comprehensive",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-204",
+      "rightId": "db-180",
+      "subject": "数据库",
+      "type": "comprehensive",
+      "similarity": 0.9830508474576272,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "db-205",
+      "rightId": "db-181",
+      "subject": "数据库",
+      "type": "comprehensive",
+      "similarity": 0.9661016949152542,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "os-94",
+      "rightId": "os-33",
+      "subject": "操作系统",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-96",
+      "rightId": "se-76",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 0.9629629629629629,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-108",
+      "rightId": "se-88",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-117",
+      "rightId": "se-77",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-137",
+      "rightId": "se-77",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-153",
+      "rightId": "se-73",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-155",
+      "rightId": "se-95",
+      "subject": "软件工程",
+      "type": "single",
+      "similarity": 0.9846153846153847,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-233",
+      "rightId": "se-209",
+      "subject": "软件工程",
+      "type": "fill",
+      "similarity": 0.9824561403508771,
+      "reason": "similar_question_not_removed"
+    },
+    {
+      "leftId": "se-282",
+      "rightId": "se-265",
+      "subject": "软件工程",
+      "type": "essay",
+      "similarity": 1.0,
+      "reason": "similar_question_not_removed"
+    }
+  ],
+  "mergeNotes": [
+    {
+      "id": "os-27",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-69",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-82",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-87",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-214",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-218",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-223",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    },
+    {
+      "id": "se-266",
+      "action": "added_from_fresh",
+      "reason": "new question emitted by fresh parser"
+    }
+  ],
+  "generatedImages": [
+    {
+      "questionId": "ai-25",
+      "image": "./assets/questions/ai/ai-25.png"
+    },
+    {
+      "questionId": "ai-58",
+      "image": "./assets/questions/ai/ai-58.png"
+    },
+    {
+      "questionId": "ai-69",
+      "image": "./assets/questions/ai/ai-69.png"
+    },
+    {
+      "questionId": "ai-125",
+      "image": "./assets/questions/ai/ai-125.png"
+    },
+    {
+      "questionId": "ai-138",
+      "image": "./assets/questions/ai/ai-138.png"
+    }
+  ],
+  "formulaOptionFixes": 5
+}
