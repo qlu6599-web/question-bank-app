@@ -27,6 +27,7 @@ window.QuestionBankApp = (() => {
 
   function renderTabs() {
     elements.tabbar.replaceChildren();
+    elements.tabbar.style.setProperty("--tab-count", window.AppConfig.tabs.length);
     window.AppConfig.tabs.forEach((tab) => {
       const button = window.AppUI.el("button", "tabbar__item", "");
       button.type = "button";
@@ -54,6 +55,7 @@ window.QuestionBankApp = (() => {
     state.currentTab = tab;
     if (tab === "home") state.route = { name: "home" };
     if (tab === "practice") state.route = state.lastPractice ? { name: "quiz", ...state.lastPractice } : { name: "practice" };
+    if (tab === "exam") state.route = { name: "examHome" };
     if (tab === "wrongBook") state.route = { name: "wrongBook" };
     if (tab === "stats") state.route = { name: "stats" };
     if (tab === "profile") state.route = { name: "profile" };
@@ -79,6 +81,71 @@ window.QuestionBankApp = (() => {
     saveAndRender();
   }
 
+  function openExamHome() {
+    state.currentTab = "exam";
+    state.route = { name: "examHome" };
+    saveAndRender();
+  }
+
+  function startExam(subject) {
+    const exam = window.ExamEngine.generate(repository, subject);
+    state.activeExam = window.ExamEngine.createSession(exam);
+    state.currentTab = "exam";
+    state.route = { name: "examTaking" };
+    saveAndRender();
+  }
+
+  function continueExam() {
+    if (!state.activeExam) {
+      openExamHome();
+      return;
+    }
+    state.currentTab = "exam";
+    state.route = { name: "examTaking" };
+    saveAndRender();
+  }
+
+  function setExamIndex(index) {
+    if (!state.activeExam) return;
+    state.activeExam.currentIndex = Math.max(0, Math.min(index, state.activeExam.questions.length - 1));
+    saveAndRender();
+  }
+
+  function updateExamAnswer(questionId, answer, options = {}) {
+    if (!state.activeExam) return;
+    state.activeExam.answers[questionId] = answer;
+    window.AppStore.saveState(state);
+    if (!options.silent) render();
+  }
+
+  function submitExam(autoSubmitted = false) {
+    if (!state.activeExam) {
+      openExamHome();
+      return;
+    }
+    const result = window.ExamScorer.scoreExam(state.activeExam, state.activeExam.answers);
+    result.autoSubmitted = autoSubmitted;
+    result.duration = state.activeExam.duration;
+    result.startedAt = new Date(state.activeExam.startedAt).toISOString();
+
+    result.wrongQuestions.forEach((questionId) => {
+      if (!state.mistakes.includes(questionId)) state.mistakes.push(questionId);
+    });
+
+    state.latestExamResult = result;
+    state.examHistory = [result, ...state.examHistory.filter((item) => item.examId !== result.examId)].slice(0, 20);
+    state.activeExam = null;
+    state.currentTab = "exam";
+    state.route = { name: "examResult", examId: result.examId };
+    saveAndRender();
+  }
+
+  function openExamResult(examId) {
+    state.currentTab = "exam";
+    state.route = { name: "examResult", examId };
+    saveAndRender();
+  }
+
   function startWrongReview(questionId) {
     window.ErrorBook.startReview(state, questionId);
     state.currentTab = "wrongBook";
@@ -91,6 +158,12 @@ window.QuestionBankApp = (() => {
     if (route.name === "quiz") {
       state.currentTab = "home";
       state.route = { name: "subject", subject: route.subject };
+    } else if (route.name === "examTaking") {
+      state.currentTab = "exam";
+      state.route = { name: "examHome" };
+    } else if (route.name === "examResult") {
+      state.currentTab = "exam";
+      state.route = { name: "examHome" };
     } else if (route.name === "subject") {
       state.currentTab = "home";
       state.route = { name: "home" };
@@ -124,11 +197,15 @@ window.QuestionBankApp = (() => {
     updateActiveTab();
     const ctx = buildContext();
     const route = state.route || { name: "home" };
+    if (route.name !== "examTaking") window.ExamPage?.stopTimer?.();
 
     if (route.name === "home") window.HomePage.render(ctx);
     else if (route.name === "subject") window.SubjectPage.render(ctx, route.subject);
     else if (route.name === "practice") window.QuizPage.renderLanding(ctx);
     else if (route.name === "quiz") window.QuizPage.render(ctx, route);
+    else if (route.name === "examHome") window.ExamPage.renderHome(ctx);
+    else if (route.name === "examTaking") window.ExamPage.renderTaking(ctx);
+    else if (route.name === "examResult") window.ExamPage.renderResult(ctx, route.examId);
     else if (route.name === "wrongBook") window.WrongBookPage.render(ctx);
     else if (route.name === "wrongReview") window.QuizPage.renderReview(ctx, route.questionId);
     else if (route.name === "stats") window.StatsPage.render(ctx);
@@ -146,6 +223,13 @@ window.QuestionBankApp = (() => {
       saveAndRender,
       openSubject,
       startQuiz,
+      openExamHome,
+      startExam,
+      continueExam,
+      setExamIndex,
+      updateExamAnswer,
+      submitExam,
+      openExamResult,
       openWrongBook,
       startWrongReview
     };

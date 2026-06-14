@@ -1,6 +1,6 @@
-# 智题库 - 模块化刷题 App MVP
+# 智题库 - 模块化刷题 + 模拟考试系统
 
-一个可真实使用、JSON 驱动、可扩展为商业产品的 Web/PWA 刷题系统。
+一个可真实使用、JSON 驱动、可扩展为商业产品的 Web/PWA 学习系统。当前包含刷题系统和多学科模拟考试系统。
 
 ## 线上地址
 
@@ -61,10 +61,13 @@ app/
     quiz_engine.js
     error_book.js
     stats.js
+    exam_engine.js
+    exam_scorer.js
   pages/
     home.js
     subject.js
     quiz.js
+    exam.js
     wrongBook.js
     stats.js
     profile.js
@@ -79,17 +82,20 @@ scripts/
   build_question_bank.py
 ```
 
-## 数据结构
+## 题库结构
 
 题目统一由 `app/data/question_bank.json` 驱动。每道题至少包含：
 
 ```json
 {
+  "id": "se-1",
   "subject": "软件工程",
   "type": "single",
   "question": "题干",
   "options": ["选项A", "选项B", "选项C", "选项D"],
   "answer": "A",
+  "keywords": [],
+  "score": 0,
   "analysis": "解析"
 }
 ```
@@ -103,23 +109,97 @@ scripts/
 - `essay`：问答题
 - `comprehensive`：综合题
 
-## 题库说明
+## 模拟考试系统
 
-当前题库共 1470 道。首页只选择科目，进入科目后再选择题型；软件工程已按“单选题、多选题、判断题、填空题、综合题、问答题”拆成二级分类。
+入口在底部 Tab 的“考试”。系统按课程自动组卷，每次随机抽题，不重复题目，并生成独立 `examId`。
 
-操作系统和软件工程复习资料中的部分选择题未提供答案表，App 会记录作答但不计入错题和正确率。
+试卷结构示例：
 
-## 扩展新题型
+```json
+{
+  "examId": "EXAM-软件-20260614120000-ABCDE",
+  "subject": "软件工程",
+  "totalScore": 100,
+  "duration": 90,
+  "questions": []
+}
+```
 
-1. 在 `app/config/app_config.js` 的 `types` 和 `typeOrder` 中添加新题型。
-2. 在 `app/logic/quiz_engine.js` 中添加该题型的判题模式。
-3. 在 `app/pages/quiz.js` 中添加对应输入 UI。
-4. 在 `app/data/question_bank.json` 中加入对应 `type` 的题目。
-5. 如果题库来自资料解析，更新 `scripts/build_question_bank.py` 的类型映射和生成逻辑。
+成绩结构：
+
+```json
+{
+  "examId": "EXAM-软件-20260614120000-ABCDE",
+  "score": 85,
+  "wrongQuestions": [],
+  "analysis": "本次模拟考试表现..."
+}
+```
+
+## 组卷算法
+
+1. `exam_engine.js` 读取 `AppConfig.examRules` 中的课程考试结构。
+2. 从 `question_repository.js` 按 `subject + type` 取题。
+3. 使用 Fisher-Yates shuffle 随机洗牌。
+4. 按题型数量截取题目，并用 `Set` 保证同一张试卷不重复。
+5. 为每题写入 `examScore`、题型分组、题号和待核对标记。
+6. 生成包含 `examId`、`duration=90`、`totalScore`、`questions` 的试卷对象。
+
+## 评分系统
+
+评分逻辑在 `app/logic/exam_scorer.js`：
+
+- 单选题：选项字母完全匹配得分。
+- 多选题：全部选对才得分。
+- 判断题：按 A/B 标准答案自动判分。
+- 填空题：去空格、标点、大小写后模糊匹配；短答案允许包含匹配和轻微编辑距离。
+- 问答题/综合题：从参考答案、解析、keywords 中提取关键词，按命中比例给分。
+- 原资料没有标准答案的题：标记为“待核对”，不伪造答案。
+
+提交后会生成成绩报告：
+
+- 总分
+- 各题型得分
+- 正确率
+- 错题列表
+- 待核对题
+- 薄弱分析
+- 推荐复习内容
+
+## 当前考试结构
+
+- 软件工程：判断10、单选10、多选10、填空10、综合1、问答1，共100分。
+- 数据库原理及应用：单选20、判断20、综合4，共100分。
+- 操作系统：判断40、填空20，共100分。
+- 数据科学：单选30、判断30、填空20，共100分。
+- 人工智能导论：单选35、多选15、判断25、填空2，共100分。
+
+说明：操作系统和软件工程复习资料中的部分选择题未提供答案表，考试系统会正常抽题，但提交后标为待核对，不会伪造自动评分。
+
+## 错题回炉
+
+考试提交后，自动评分错误的题会进入错题本。错题本不会直接显示答案，必须重新作答后才显示解析。
+
+## 扩展新考试结构
+
+在 `app/config/app_config.js` 中新增或修改：
+
+```js
+examRules["新课程"] = {
+  name: "新课程模拟卷",
+  duration: 90,
+  totalScore: 100,
+  sections: [
+    { type: "single", count: 20, score: 2 },
+    { type: "multiple", count: 10, score: 3 }
+  ]
+};
+```
 
 ## 预留模块
 
-- AI 讲题：`app/services/ai_tutor.js`
+- AI 自动讲解错题：`app/services/ai_tutor.js`
 - 云同步：`app/services/cloud_sync.js`
 - 用户系统：`app/services/user_service.js`
-- 数据分析：`app/logic/stats.js`
+- 学习路径与数据分析：`app/logic/stats.js`
+- 重点预测卷：可在 `exam_engine.js` 增加按知识点/难度抽题策略

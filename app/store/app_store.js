@@ -1,5 +1,6 @@
 window.AppStore = (() => {
-  const STORAGE_KEY = "question-bank-state-v5";
+  const STORAGE_KEY = "question-bank-state-v6";
+  const LEGACY_STORAGE_KEY_V5 = "question-bank-state-v5";
   const LEGACY_STORAGE_KEY = "question-bank-state-v4";
 
   const defaultState = {
@@ -15,6 +16,9 @@ window.AppStore = (() => {
       questionId: null,
       answers: {}
     },
+    activeExam: null,
+    examHistory: [],
+    latestExamResult: null,
     lastPractice: null,
     lastVisitedAt: null
   };
@@ -26,6 +30,8 @@ window.AppStore = (() => {
   function loadState() {
     const saved = readJson(STORAGE_KEY);
     if (saved) return ensureShape(saved);
+    const v5 = readJson(LEGACY_STORAGE_KEY_V5);
+    if (v5) return migrateLegacyState(v5);
     const legacy = readJson(LEGACY_STORAGE_KEY);
     return legacy ? migrateLegacyState(legacy) : cloneDefault();
   }
@@ -43,6 +49,9 @@ window.AppStore = (() => {
     state.tempSelections = {};
     state.indexByScope = {};
     state.wrongPractice = { questionId: null, answers: {} };
+    state.activeExam = null;
+    state.examHistory = [];
+    state.latestExamResult = null;
     saveState(state);
   }
 
@@ -58,6 +67,9 @@ window.AppStore = (() => {
       questionId: next.wrongPractice?.questionId || null,
       answers: next.wrongPractice?.answers || {}
     };
+    next.activeExam = next.activeExam || null;
+    next.examHistory = Array.isArray(next.examHistory) ? next.examHistory : [];
+    next.latestExamResult = next.latestExamResult || null;
     return next;
   }
 
