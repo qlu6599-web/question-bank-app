@@ -17,6 +17,7 @@ window.ErrorBook = (() => {
     state.wrongPractice ||= { questionId: null, answers: {} };
     state.wrongPractice.questionId = questionId;
     delete state.wrongPractice.answers[questionId];
+    if (state.tempSelections) delete state.tempSelections[`review:${questionId}`];
   }
 
   function getReviewAnswer(state, questionId) {
@@ -26,6 +27,7 @@ window.ErrorBook = (() => {
   function recordReviewAnswer(state, question, answerRecord) {
     state.wrongPractice ||= { questionId: question.id, answers: {} };
     state.wrongPractice.answers[question.id] = answerRecord;
+    if (state.tempSelections) delete state.tempSelections[`review:${question.id}`];
     recordAnswer(state, question, answerRecord);
   }
 

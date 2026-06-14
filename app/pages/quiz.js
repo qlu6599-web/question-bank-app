@@ -107,6 +107,7 @@ window.QuizPage = (() => {
     const isMulti = mode === "choice-multiple";
     const selectionKey = reviewMode ? `review:${question.id}` : question.id;
     const tempSelected = ctx.state.tempSelections[selectionKey] || [];
+    const interactionState = answerRecord ? "submitted" : "answering";
     const answeredInSet = questions.filter((item) => ctx.state.answers[item.id]).length;
     const accuracy = getAccuracy(ctx.state, questions);
     const root = el("section", "screen practice-screen");
@@ -138,7 +139,7 @@ window.QuizPage = (() => {
       card.append(window.AppUI.renderImageList(question.questionImages, "题目图片"));
     }
 
-    if (isChoice) renderChoiceOptions(card, question, answerRecord, tempSelected, isMulti, selectionKey, ctx, onSubmit);
+    if (isChoice) renderChoiceOptions(card, question, answerRecord, tempSelected, isMulti, selectionKey, ctx, onSubmit, interactionState);
     if (!answerRecord && mode === "text") renderTextAnswer(card, question, onSubmit);
     if (!answerRecord && mode === "essay") renderEssayAnswer(card, question, onSubmit);
     if (answerRecord) renderAnsweredState(card, question, answerRecord, reviewMode, onSubjectiveMark, onNext, onRetry);
@@ -147,8 +148,9 @@ window.QuizPage = (() => {
     window.AppUI.setView(ctx.view, root);
   }
 
-  function renderChoiceOptions(card, question, answerRecord, tempSelected, isMulti, selectionKey, ctx, onSubmit) {
+  function renderChoiceOptions(card, question, answerRecord, tempSelected, isMulti, selectionKey, ctx, onSubmit, interactionState) {
     const correctLetters = window.QuizEngine.normalizeLetters(question.answer);
+    const requiresSubmit = isMulti || question.type === "judge";
     const options = el("div", "option-list");
     question.options.forEach((option, index) => {
       const letter = optionLetter(index);
@@ -159,16 +161,19 @@ window.QuizPage = (() => {
       button.type = "button";
       button.innerHTML = `<span>${letter}</span><strong>${escapeHtml(option)}</strong>`;
 
-      if (answerRecord) {
+      if (interactionState === "submitted") {
         button.disabled = true;
         if (answerRecord.unscored) button.classList.toggle("is-selected", isSelected);
         else {
           button.classList.toggle("is-correct", isCorrect);
           button.classList.toggle("is-wrong", isSelected && !isCorrect);
         }
-      } else if (isMulti) {
+      } else if (requiresSubmit) {
         button.classList.toggle("is-selected", isSelected);
-        button.addEventListener("click", () => toggleMultiSelection(ctx, selectionKey, letter));
+        button.addEventListener("click", () => {
+          if (isMulti) toggleMultiSelection(ctx, selectionKey, letter);
+          else setSingleSelection(ctx, selectionKey, letter);
+        });
       } else {
         button.addEventListener("click", () => onSubmit([letter]));
       }
@@ -176,7 +181,7 @@ window.QuizPage = (() => {
     });
     card.append(options);
 
-    if (isMulti && !answerRecord) {
+    if (requiresSubmit && interactionState === "answering") {
       const actions = el("div", "action-row");
       const selectedInfo = window.AppUI.makeButton("ghost-btn", `已选 ${tempSelected.length}`);
       selectedInfo.disabled = true;
@@ -301,6 +306,12 @@ window.QuizPage = (() => {
     ctx.state.tempSelections[key] = current.includes(letter)
       ? current.filter((item) => item !== letter)
       : [...current, letter].sort();
+    ctx.saveAndRender();
+  }
+
+  function setSingleSelection(ctx, key, letter) {
+    ctx.state.tempSelections ||= {};
+    ctx.state.tempSelections[key] = [letter];
     ctx.saveAndRender();
   }
 

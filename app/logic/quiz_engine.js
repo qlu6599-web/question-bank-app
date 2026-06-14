@@ -42,6 +42,7 @@ window.QuizEngine = (() => {
     if (mode === "essay") {
       return {
         selected: String(selected || "").trim(),
+        status: "submitted",
         correct: false,
         needsReview: true,
         answeredAt: new Date().toISOString()
@@ -54,6 +55,7 @@ window.QuizEngine = (() => {
       const correct = expected.some((answer) => normalizeTextAnswer(answer) === actual);
       return {
         selected: String(selected || "").trim(),
+        status: "submitted",
         correct,
         answeredAt: new Date().toISOString()
       };
@@ -64,6 +66,7 @@ window.QuizEngine = (() => {
     const unscored = question.unscored || correctLetters.length === 0;
     return {
       selected: selectedLetters,
+      status: "submitted",
       correct: unscored ? null : selectedLetters.join("") === correctLetters.join(""),
       unscored,
       answeredAt: new Date().toISOString()
