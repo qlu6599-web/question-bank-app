@@ -1,5 +1,5 @@
 (() => {
-const APP_VERSION = "20260614-v8";
+const APP_VERSION = "20260614-v9";
 const { questionBank, flatQuestions } = window.QuestionData;
 const analyticsService = window.AnalyticsService;
 const aiTutorService = window.AiTutorService;
@@ -129,7 +129,7 @@ function renderPractice(subjectName, mistakeOnly = false) {
   const answerRecord = state.answers[question.id];
   const correctLetters = normalizeLetters(question.answer);
   const isChoice = hasChoiceOptions(question);
-  const isMulti = isChoice && correctLetters.length > 1;
+  const isMulti = isChoice && (question.type === "multiple" || correctLetters.length > 1);
   const isCloze = question.type === "cloze";
   const isSubjective = ["qa", "design", "application", "comprehensive"].includes(question.type);
   const tempSelected = state.tempSelections?.[question.id] || [];

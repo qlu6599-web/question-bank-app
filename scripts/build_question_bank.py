@@ -409,6 +409,62 @@ def parse_software_tf(text, prefix):
     return questions
 
 
+def parse_software_single_choice(text, prefix, start_idx=1):
+    if not re.search(r"\n\s*单选题\s*\n", text) or not re.search(r"\n\s*多选题\s*\n", text):
+        return []
+    section = re.split(r"\n\s*单选题\s*\n", text, maxsplit=1)[1]
+    section = re.split(r"\n\s*多选题\s*\n", section, maxsplit=1)[0]
+    questions = []
+    for _, body in group_numbered_items(section):
+        body = body.rstrip()
+        markers = list(re.finditer(r"(?<![A-Za-z0-9])([A-D])[.．]\s*", body))
+        if len(markers) < 4:
+            continue
+        question = clean(body[: markers[0].start()])
+        options = []
+        for index, marker in enumerate(markers[:4]):
+            start = marker.end()
+            end = markers[index + 1].start() if index + 1 < min(len(markers), 4) else len(body)
+            options.append(clean(body[start:end]))
+        if len(options) == 4 and all(options):
+            questions.append({
+                "id": f"{prefix}-{start_idx + len(questions)}",
+                "type": "single",
+                "question": question,
+                "options": options,
+                "answer": "",
+                "unscored": True,
+                "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+                "source": "软件工程",
+            })
+    return questions
+
+
+def parse_software_multiple_choice(text, prefix, start_idx=1):
+    if not re.search(r"\n\s*多选题\s*\n", text) or not re.search(r"\n\s*填空题\s*\n", text):
+        return []
+    section = re.split(r"\n\s*多选题\s*\n", text, maxsplit=1)[1]
+    section = re.split(r"\n\s*填空题\s*\n", section, maxsplit=1)[0]
+    lines = [line.strip() for line in section.splitlines() if line.strip()]
+    questions = []
+    for index in range(0, len(lines), 5):
+        group = lines[index:index + 5]
+        if len(group) < 5:
+            continue
+        question, *options = group
+        questions.append({
+            "id": f"{prefix}-{start_idx + len(questions)}",
+            "type": "multiple",
+            "question": clean(question),
+            "options": [clean(option) for option in options],
+            "answer": "",
+            "unscored": True,
+            "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+            "source": "软件工程",
+        })
+    return questions
+
+
 def parse_fill_questions(text, subject, prefix, start_idx=1):
     questions = []
     if subject == "操作系统" and "第二部分，填空题" in text:
@@ -619,6 +675,8 @@ def build():
         elif subject == "软件工程":
             questions = []
             questions.extend(parse_software_tf(text, meta["prefix"]))
+            questions.extend(parse_software_single_choice(text, meta["prefix"], len(questions) + 1))
+            questions.extend(parse_software_multiple_choice(text, meta["prefix"], len(questions) + 1))
             questions.extend(parse_fill_questions(text, subject, meta["prefix"], len(questions) + 1))
             questions.extend(parse_software_subjective(text, meta["prefix"], len(questions) + 1))
         for index, question in enumerate(questions, 1):
