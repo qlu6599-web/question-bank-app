@@ -5,3 +5,4 @@ app-preview.png
 extracted/
 word-export*/
 assets/answers/software/raw/
+__pycache__/

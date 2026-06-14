@@ -1,5 +1,5 @@
 window.AppStore = (() => {
-const STORAGE_KEY = "question-bank-state-v1";
+const STORAGE_KEY = "question-bank-state-v2";
 
 const defaultState = {
   currentTab: "home",

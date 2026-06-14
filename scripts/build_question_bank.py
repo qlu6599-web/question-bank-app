@@ -120,6 +120,173 @@ def split_labelled_options(text):
     return []
 
 
+def group_numbered_items(section):
+    items = []
+    current = None
+    for line in section.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        match = re.match(r"^(\d+)\s*[、.．](.*)", line)
+        if match:
+            if current:
+                items.append(current)
+            body = match.group(2)
+            if not re.match(r"^[ \t\u3000]{3,}", body):
+                body = body.lstrip()
+            current = [match.group(1), body]
+        elif current:
+            current[1] += " " + line
+    if current:
+        items.append(current)
+    return items
+
+
+def parse_os_single_choice(text, prefix, start_idx=1):
+    if "第一部分，单项选择题" not in text or "第二部分，填空题" not in text:
+        return []
+    section = text.split("第一部分，单项选择题", 1)[1].split("第二部分，填空题", 1)[0]
+    questions = []
+    for _, body in group_numbered_items(section):
+        body = body.rstrip(" 。")
+        markers = list(re.finditer(r"(?<![A-Za-z0-9])([A-D])[.．]\s*", body))
+        if len(markers) < 4:
+            continue
+        raw_question = body[: markers[0].start()].rstrip()
+        raw_question = re.sub(r"[（(]\s*[）)]", "____", raw_question)
+        raw_question = re.sub(r"[ \t\u3000]{3,}", " ____ ", raw_question)
+        raw_question = clean(raw_question)
+        raw_question = re.sub(r"\s+____", " ____", raw_question)
+        raw_question = re.sub(r"____\s+([。,.，、])", r"____\1", raw_question)
+        if "____" not in raw_question:
+            raw_question = raw_question.rstrip("。 ") + " ____。"
+        options = []
+        for index, marker in enumerate(markers[:4]):
+            start = marker.end()
+            end = markers[index + 1].start() if index + 1 < min(len(markers), 4) else len(body)
+            options.append(clean(body[start:end]))
+        if len(options) == 4 and all(options):
+            questions.append({
+                "id": f"{prefix}-{start_idx + len(questions)}",
+                "type": "single",
+                "question": raw_question,
+                "options": options,
+                "answer": "",
+                "unscored": True,
+                "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+                "source": "操作系统",
+            })
+    return questions
+
+
+OS_FILL_ANSWERS = {
+    1: "分时操作系统",
+    2: "阻塞状态",
+    3: "就绪状态",
+    4: "请求与保持",
+    5: "(3T1+2T2+T3)/3",
+    6: "重定位",
+    7: "虚拟地址空间（虚拟存储器）",
+    8: "绝对路径",
+    9: "最短寻道时间优先",
+    10: "操作系统",
+    11: "批处理操作系统",
+    12: "就绪状态",
+    13: "加1",
+    14: "循环等待",
+    15: "合并空闲分区",
+    16: "根目录",
+    17: "文件系统",
+    18: "实时操作系统",
+    19: "就绪队列",
+    20: "1",
+    21: "最佳适应算法",
+    22: "抖动",
+    23: "目录",
+    24: "就绪状态",
+    25: "-1～3",
+    26: "J1、J3、J2",
+    27: "地址重定位",
+    28: "局部性",
+    29: "16MB（2²⁴ B）",
+    30: "100",
+    31: "虚拟设备",
+    32: "2",
+    33: "P",
+    34: "4",
+    35: "3",
+    36: "防止系统进入不安全状态",
+    37: "编译",
+    38: "2",
+    39: "文件控制块",
+    40: "16",
+    41: "490",
+    42: "中断",
+}
+
+
+def answer_variants(answer):
+    variants = [answer]
+    compact = re.sub(r"\s+", "", answer)
+    if compact not in variants:
+        variants.append(compact)
+    if "（" in answer:
+        short = answer.split("（", 1)[0].strip()
+        if short and short not in variants:
+            variants.append(short)
+    if "～" in answer:
+        alt = answer.replace("～", "~")
+        if alt not in variants:
+            variants.append(alt)
+    return variants
+
+
+def cloze_question_from_answer(body, answer):
+    body = re.sub(r"\s+", " ", body).strip()
+    patterns = [re.escape(answer)]
+    compact = re.sub(r"\s+", "", answer)
+    if compact != answer:
+        patterns.append(r"\s*".join(map(re.escape, compact)))
+    if answer == "加1":
+        patterns.append(r"加\s*1")
+    best_match = None
+    for pattern in patterns:
+        matches = list(re.finditer(pattern, body))
+        if matches:
+            best_match = matches[-1]
+            break
+    if best_match:
+        question = body[: best_match.start()] + "____" + body[best_match.end():]
+    else:
+        question = body.rstrip("。") + " ____。"
+    question = re.sub(r"\s*[.．]\s*____", " ____", question)
+    question = re.sub(r"\s+", " ", question)
+    question = re.sub(r"\s+([。,.，、])", r"\1", question)
+    question = re.sub(r"____\s+", "____", question)
+    return clean(question)
+
+
+def parse_os_fill_questions(text, prefix, start_idx=1):
+    section = text.split("第二部分，填空题", 1)[1].split("三、判断题", 1)[0]
+    questions = []
+    for number, body in group_numbered_items(section):
+        answer = OS_FILL_ANSWERS.get(int(number))
+        if not answer:
+            continue
+        questions.append({
+            "id": f"{prefix}-{start_idx + len(questions)}",
+            "type": "cloze",
+            "question": cloze_question_from_answer(body, answer),
+            "options": [],
+            "answer": answer,
+            "answerText": answer,
+            "acceptedAnswers": answer_variants(answer),
+            "analysis": f"本题填空答案为：{answer}。",
+            "source": "操作系统",
+        })
+    return questions
+
+
 def parse_database_doc(text, prefix):
     questions = []
     mc_section = text.split("二、判断题", 1)[0]
@@ -192,10 +359,10 @@ def parse_software_tf(text, prefix):
 
 def parse_fill_questions(text, subject, prefix, start_idx=1):
     questions = []
+    if subject == "操作系统" and "第二部分，填空题" in text:
+        return parse_os_fill_questions(text, prefix, start_idx)
     if subject == "软件工程" and re.search(r"\n\s*填空题\s*\n", text):
         section = re.split(r"\n\s*填空题\s*\n", text, maxsplit=1)[1].split("综合题", 1)[0]
-    elif subject == "操作系统" and "第二部分，填空题" in text:
-        section = text.split("第二部分，填空题", 1)[1].split("三、判断题", 1)[0]
     else:
         return []
     lines = [line.strip() for line in section.splitlines() if re.match(r"^\d+[、.．]", line.strip())]
@@ -394,7 +561,8 @@ def build():
             questions.extend(parse_database_application(text, meta["prefix"], len(questions) + 1))
         elif subject == "操作系统":
             questions = []
-            questions.extend(parse_fill_questions(text, subject, meta["prefix"], 1))
+            questions.extend(parse_os_single_choice(text, meta["prefix"], 1))
+            questions.extend(parse_fill_questions(text, subject, meta["prefix"], len(questions) + 1))
             questions.extend(parse_tf_parentheses(text.split("三、判断题", 1)[1] if "三、判断题" in text else text, subject, meta["prefix"], len(questions) + 1))
         elif subject == "软件工程":
             questions = []

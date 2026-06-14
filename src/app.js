@@ -1,5 +1,5 @@
 (() => {
-const APP_VERSION = "20260613-v6";
+const APP_VERSION = "20260614-v7";
 const { questionBank, flatQuestions } = window.QuestionData;
 const analyticsService = window.AnalyticsService;
 const aiTutorService = window.AiTutorService;
@@ -174,8 +174,11 @@ function renderPractice(subjectName, mistakeOnly = false) {
       button.innerHTML = `<span>${letter}</span><strong>${option}</strong>`;
       if (answerRecord) {
         button.disabled = true;
-        button.classList.toggle("is-correct", isCorrect);
-        button.classList.toggle("is-wrong", isSelected && !isCorrect);
+        if (answerRecord.unscored) button.classList.toggle("is-selected", isSelected);
+        else {
+          button.classList.toggle("is-correct", isCorrect);
+          button.classList.toggle("is-wrong", isSelected && !isCorrect);
+        }
       } else if (isMulti) {
         button.classList.toggle("is-selected", isSelected);
         button.addEventListener("click", () => toggleMultiSelection(question.id, letter));
@@ -223,7 +226,8 @@ function renderPractice(subjectName, mistakeOnly = false) {
   }
 
   if (answerRecord) {
-    const feedback = el("div", `feedback ${answerRecord.correct ? "feedback--right" : "feedback--wrong"}`);
+    const feedbackClass = answerRecord.unscored ? "feedback--pending" : answerRecord.correct ? "feedback--right" : "feedback--wrong";
+    const feedback = el("div", `feedback ${feedbackClass}`);
     feedback.innerHTML = buildFeedbackHtml(question, answerRecord, correctLetters);
     card.append(feedback);
 
@@ -281,7 +285,7 @@ function renderStats() {
 
   const list = el("div", "stats-list");
   Object.entries(summary.subjectStats).forEach(([subject, item]) => {
-    const rate = item.answered ? Math.round((item.correct / item.answered) * 100) : 0;
+    const rate = item.scored ? Math.round((item.correct / item.scored) * 100) : 0;
     const row = el("div", "stats-row");
     row.innerHTML = `
       <div>
@@ -352,20 +356,25 @@ function toggleMultiSelection(questionId, letter) {
 function handleChoiceAnswer(question, selected) {
   const selectedLetters = normalizeLetters(selected);
   const correctLetters = normalizeLetters(question.answer);
-  const correct = selectedLetters.join("") === correctLetters.join("");
+  const unscored = question.unscored || correctLetters.length === 0;
+  const correct = unscored ? null : selectedLetters.join("") === correctLetters.join("");
   recordAnswer(question, {
     selected: selectedLetters,
     correct,
+    unscored,
     answeredAt: new Date().toISOString()
   });
 }
 
 function handleClozeAnswer(question, value) {
-  const expected = normalizeTextAnswer(question.answerText || question.answer);
+  const acceptedAnswers = Array.isArray(question.acceptedAnswers) && question.acceptedAnswers.length
+    ? question.acceptedAnswers
+    : [question.answerText || question.answer];
   const actual = normalizeTextAnswer(value);
+  const correct = acceptedAnswers.some((answer) => normalizeTextAnswer(answer) === actual);
   recordAnswer(question, {
     selected: value,
-    correct: actual === expected,
+    correct,
     answeredAt: new Date().toISOString()
   });
 }
@@ -393,7 +402,8 @@ function recordAnswer(question, answerRecord, options = {}) {
   state.answers[question.id] = answerRecord;
   if (state.tempSelections) delete state.tempSelections[question.id];
   if (!state.completedIds.includes(question.id)) state.completedIds.push(question.id);
-  if (!answerRecord.correct && !state.mistakes.includes(question.id)) state.mistakes.push(question.id);
+  if (answerRecord.unscored) state.mistakes = state.mistakes.filter((id) => id !== question.id);
+  else if (!answerRecord.correct && !state.mistakes.includes(question.id)) state.mistakes.push(question.id);
   if (answerRecord.correct) state.mistakes = state.mistakes.filter((id) => id !== question.id);
   saveState(state);
   render();
@@ -413,6 +423,10 @@ function buildFeedbackHtml(question, answerRecord, correctLetters) {
     const status = answerRecord.needsReview ? "请对照参考答案自评" : answerRecord.correct ? "已标记掌握" : "已标记未掌握";
     const images = renderReferenceImagesHtml(question.referenceImages);
     return `<strong>${status}</strong><p>你的作答：${selected}</p><p class="reference-answer">参考答案：<br>${reference}</p>${images}`;
+  }
+  if (answerRecord.unscored) {
+    const selected = normalizeLetters(answerRecord.selected).join("");
+    return `<strong>已记录选择</strong><p>你的选择：${escapeHtml(selected)}</p><p>${escapeHtml(question.analysis || "原资料未提供答案，暂不计入正确率。")}</p>`;
   }
   const answerText = correctLetters.join("");
   return answerRecord.correct
@@ -496,9 +510,11 @@ function getCurrentIndex(subjectName, length, mistakeOnly) {
 }
 
 function getAccuracyForQuestions(questions) {
-  const answered = questions.map((question) => state.answers[question.id]).filter(Boolean);
-  if (!answered.length) return 0;
-  return Math.round((answered.filter((answer) => answer.correct).length / answered.length) * 100);
+  const scored = questions
+    .map((question) => state.answers[question.id])
+    .filter((answer) => answer && !answer.unscored && !answer.needsReview);
+  if (!scored.length) return 0;
+  return Math.round((scored.filter((answer) => answer.correct).length / scored.length) * 100);
 }
 
 function renderEmptyState(title, text) {

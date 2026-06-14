@@ -386,6 +386,11 @@ button {
   color: #991b1b;
 }
 
+.feedback--pending {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
 .action-row {
   gap: 12px;
   margin-top: 16px;
