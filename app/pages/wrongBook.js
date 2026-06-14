@@ -40,9 +40,9 @@ window.WrongBookPage = (() => {
       row.innerHTML = `
         <span>${escapeHtml(question.subject)} · ${escapeHtml(typeLabel(question.type))}</span>
         <strong>${escapeHtml(question.question)}</strong>
-        <em>重新作答</em>
+        <em>从这里开始重刷</em>
       `;
-      row.addEventListener("click", () => ctx.startWrongReview(question.id));
+      row.addEventListener("click", () => ctx.startWrongReviewSession(question.subject, question.id));
       list.append(row);
     });
 

@@ -120,6 +120,7 @@ window.QuizPage = (() => {
       reviewMode: true,
       answerLookup: session.answers || {},
       metaLabel: "错题重刷",
+      nextLabel: currentIndex >= questions.length - 1 ? "完成重刷" : "下一题",
       onSubmit: (selected) => {
         const record = window.QuizEngine.evaluate(question, selected);
         window.ErrorBook.recordReviewAnswer(ctx.state, question, record);
@@ -157,6 +158,7 @@ window.QuizPage = (() => {
       reviewMode: false,
       answerLookup: session.answers || {},
       metaLabel: "综合随机",
+      nextLabel: currentIndex >= questions.length - 1 ? "查看结果" : "下一题",
       onSubmit: (selected) => {
         const record = window.QuizEngine.evaluate(question, selected);
         session.answers[question.id] = record;
@@ -271,7 +273,7 @@ window.QuizPage = (() => {
     if (isChoice) renderChoiceOptions(card, question, answerRecord, tempSelected, isMulti, selectionKey, ctx, onSubmit, interactionState);
     if (!answerRecord && mode === "text") renderTextAnswer(card, question, onSubmit);
     if (!answerRecord && mode === "essay") renderEssayAnswer(card, question, onSubmit);
-    if (answerRecord) renderAnsweredState(card, question, answerRecord, reviewMode, onSubjectiveMark, onNext, onRetry);
+    if (answerRecord) renderAnsweredState(card, question, answerRecord, reviewMode, onSubjectiveMark, onNext, onRetry, config.nextLabel);
 
     root.append(progressCard, card);
     window.AppUI.setView(ctx.view, root);
@@ -362,7 +364,7 @@ window.QuizPage = (() => {
     card.append(form);
   }
 
-  function renderAnsweredState(card, question, answerRecord, reviewMode, onSubjectiveMark, onNext, onRetry) {
+  function renderAnsweredState(card, question, answerRecord, reviewMode, onSubjectiveMark, onNext, onRetry, nextLabel) {
     const feedback = el("div", `feedback ${feedbackClass(answerRecord)}`);
     feedback.innerHTML = buildFeedbackHtml(question, answerRecord);
     card.append(feedback);
@@ -383,7 +385,7 @@ window.QuizPage = (() => {
       window.AppUI.showToast(result.message);
     }));
     if (reviewMode && onRetry) actions.append(window.AppUI.makeButton("ghost-btn", "再做一次", onRetry));
-    actions.append(window.AppUI.makeButton("primary-btn", reviewMode ? "返回错题本" : "下一题", onNext));
+    actions.append(window.AppUI.makeButton("primary-btn", nextLabel || (reviewMode ? "返回错题本" : "下一题"), onNext));
     card.append(actions);
   }
 

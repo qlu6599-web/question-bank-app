@@ -160,12 +160,12 @@ window.QuestionBankApp = (() => {
     saveAndRender();
   }
 
-  function startWrongReviewSession(subject) {
+  function startWrongReviewSession(subject, startQuestionId = null) {
     const questionIds = window.ErrorBook
       .getMistakeQuestions(state, repository)
       .filter((question) => question.subject === subject)
       .map((question) => question.id);
-    window.ErrorBook.startReviewSession(state, subject, questionIds);
+    window.ErrorBook.startReviewSession(state, subject, questionIds, startQuestionId);
     state.currentTab = "wrongBook";
     state.route = { name: "wrongReviewSession" };
     saveAndRender();

@@ -23,13 +23,14 @@ window.ErrorBook = (() => {
     if (state.tempSelections) delete state.tempSelections[`review:${questionId}`];
   }
 
-  function startReviewSession(state, subject, questionIds) {
+  function startReviewSession(state, subject, questionIds, startQuestionId = null) {
     state.wrongPractice ||= { questionId: null, answers: {} };
     const ids = [...new Set(questionIds)].filter(Boolean);
+    const startIndex = Math.max(0, ids.indexOf(startQuestionId));
     state.wrongPractice.subject = subject;
     state.wrongPractice.questionIds = ids;
-    state.wrongPractice.currentIndex = 0;
-    state.wrongPractice.questionId = ids[0] || null;
+    state.wrongPractice.currentIndex = startIndex;
+    state.wrongPractice.questionId = ids[startIndex] || null;
     state.wrongPractice.answers = {};
     ids.forEach((id) => {
       if (state.tempSelections) delete state.tempSelections[`review:${id}`];
