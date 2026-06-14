@@ -35,7 +35,7 @@ APP_JSON = ROOT / "app" / "data" / "question_bank.json"
 SRC_COMPAT_JS = ROOT / "src" / "data" / "questions.js"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
 ASSET_QUESTION_DIR = ROOT / "assets" / "questions"
-STANDARD_VERSION = "20260614-v15"
+STANDARD_VERSION = "20260614-v16"
 
 
 SOURCE_FILES = {

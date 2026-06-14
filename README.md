@@ -88,7 +88,7 @@ scripts/
 
 ```json
 {
-  "version": "20260614-v15",
+  "version": "20260614-v16",
   "schema": "question-bank-json-v2-single-source",
   "singleSourceOfTruth": "ALL_QUESTIONS",
   "subjects": [
@@ -148,7 +148,7 @@ app/data/question_bank_standard.json
 app/data/question_bank.json
 ```
 
-当前标准题库版本为 `20260614-v15`。原始重新解析共 1470 道，标准题库保留 1470 道；其中 8 组完全重复题只标记、不删除。人工智能导论 PDF 中 5 道公式选项题已生成题目截图并修复残缺选项。
+当前标准题库版本为 `20260614-v16`。原始重新解析共 1470 道，标准题库保留 1470 道；其中 8 组完全重复题只标记、不删除。人工智能导论 PDF 中 5 道公式选项题已生成题目截图并修复残缺选项。
 
 ## 模拟考试系统
 

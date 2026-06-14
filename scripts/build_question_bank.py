@@ -8,7 +8,7 @@ EXTRACTED = ROOT / "extracted"
 OUTPUT = ROOT / "src" / "data" / "questions.js"
 JSON_OUTPUT = ROOT / "app" / "data" / "question_bank.json"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
-APP_DATA_VERSION = "20260614-v15"
+APP_DATA_VERSION = "20260614-v16"
 
 TYPE_MAP = {
     "cloze": "fill",
@@ -91,6 +91,14 @@ def make_tf_question(prefix, idx, subject, statement, raw_answer, analysis=""):
     }
 
 
+def strip_solution_from_prompt(text):
+    return clean(re.split(r"\n?\s*(?:\*\*)?答案\s*[：:]|\n?\s*正确答案\s*[：:]|\n?\s*答案解析\s*[：:]|\n?\s*章\s*\n?\s*节\s*[：:]|\n?\s*章节\s*[：:]|\n?\s*认知层次\s*[：:]|\n?\s*难度\s*[：:]|---", text, maxsplit=1)[0])
+
+
+def strip_analysis_metadata(text):
+    return clean(re.split(r"\n?\s*章\s*\n?\s*节\s*[：:]|\n?\s*章节\s*[：:]|\n?\s*认知层次\s*[：:]|\n?\s*难度\s*[：:]|---", text, maxsplit=1)[0])
+
+
 def parse_pdf_questions(text, subject, prefix, start_idx=1):
     questions = []
     pattern = re.compile(r"题目\s*([0-9０-９]+)\s*[：:]\s*", re.M)
@@ -99,9 +107,10 @@ def parse_pdf_questions(text, subject, prefix, start_idx=1):
         block = text[match.end(): matches[pos + 1].start() if pos + 1 < len(matches) else len(text)]
         raw_question = re.split(r"\n\s*选项\s*[：:]", block, maxsplit=1)[0]
         raw_question = re.split(r"\n\s*[A-F]\.\s*", raw_question, maxsplit=1)[0]
+        raw_question = strip_solution_from_prompt(raw_question)
         analysis_match = re.search(r"答案解析\s*[：:]\s*(.*?)(?:\n\s*章节\s*[：:]|$)", block, re.S)
         analysis = clean(analysis_match.group(1)) if analysis_match else ""
-        analysis = clean(re.split(r"\n\s*章节\s*[：:]|章节\s*[：:]|---", analysis, maxsplit=1)[0])
+        analysis = strip_analysis_metadata(analysis)
         answer_match = re.search(r"正确答案\s*[：:]\s*((?:[A-Fa-f]+)(?![A-Za-z])|正确|错误|T|F)", block)
         if not answer_match:
             generic_answer = re.search(r"正确答案\s*[：:]\s*(.*?)(?:\n\s*答案解析\s*[：:]|\n\s*章节\s*[：:]|答案解析\s*[：:]|章节\s*[：:]|---|$)", block, re.S)

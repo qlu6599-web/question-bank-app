@@ -1,5 +1,5 @@
 {
-  "version": "20260614-v15",
+  "version": "20260614-v16",
   "singleSourceOfTruth": "ALL_QUESTIONS",
   "rule": "分类、统计、刷题、考试均只能从 ALL_QUESTIONS 动态 filter；subjects 只保存科目元数据。",
   "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",
@@ -259,7 +259,7 @@
       "isFilteredOut": false,
       "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
       "pageNumber": 45,
-      "question": "沃尔玛与宝洁的数据共享系统案例中，零售商将销售数据实时同步给供应商，主要是\n为了增加供应商的库存成本。\n正确答案：错误\n答案解析：数据共享是为了让供应商调整生产计划，实现 “ 以销定产 ” ，结果是双方的库存成\n本均降低，而非增加。\n章节：第十一章"
+      "question": "沃尔玛与宝洁的数据共享系统案例中，零售商将销售数据实时同步给供应商，主要是\n为了增加供应商的库存成本。"
     },
     {
       "subject": "数据科学",
