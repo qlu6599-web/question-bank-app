@@ -27,6 +27,7 @@ NUMBER_RECONCILE_MD = AUDIT_DIR / "number_reconciliation_report.md"
 STATS_JSON = AUDIT_DIR / "question_type_statistics.json"
 MERGED_JSON = AUDIT_DIR / "question_bank_full_merged.json"
 RAW_MERGED_JSON = AUDIT_DIR / "question_bank_raw_before_dedupe.json"
+STRONG_SNAPSHOT_JSON = AUDIT_DIR / "question_bank_strong_consistency_snapshot.json"
 STANDARD_JSON = ROOT / "app" / "data" / "question_bank_standard.json"
 APP_JSON = ROOT / "app" / "data" / "question_bank.json"
 SRC_COMPAT_JS = ROOT / "src" / "data" / "questions.js"
@@ -705,6 +706,7 @@ def main():
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     write_markdown_report(report)
     MERGED_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    STRONG_SNAPSHOT_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
     STANDARD_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
     APP_JSON.write_text(json.dumps(merged_bank, ensure_ascii=False, indent=2), encoding="utf-8")
     write_compat_js(merged_bank)
@@ -719,6 +721,7 @@ def main():
         "duplicateCandidates": len(duplicate_candidates),
         "generatedImages": len(generated_images),
         "numberReconciliation": str(NUMBER_RECONCILE_MD),
+        "strongSnapshot": str(STRONG_SNAPSHOT_JSON),
         "report": str(REPORT_MD),
     }, ensure_ascii=False, indent=2))
 

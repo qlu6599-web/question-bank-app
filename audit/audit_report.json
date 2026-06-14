@@ -1,7 +1,7 @@
 {
   "version": "20260614-v13",
   "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",
-  "generatedAt": "2026-06-14T12:31:58",
+  "generatedAt": "2026-06-14T12:49:32",
   "extraction": [
     {
       "subject": "操作系统",
@@ -630,48 +630,7 @@
       "reason": "similar_question_not_removed"
     }
   ],
-  "mergeNotes": [
-    {
-      "id": "os-87",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-102",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-110",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-128",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-214",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-218",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-223",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    },
-    {
-      "id": "se-279",
-      "action": "added_from_fresh",
-      "reason": "new question emitted by fresh parser"
-    }
-  ],
+  "mergeNotes": [],
   "generatedImages": [
     {
       "questionId": "ai-25",
