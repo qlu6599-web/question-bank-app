@@ -75,6 +75,13 @@ window.QuestionBankApp = (() => {
     saveAndRender();
   }
 
+  function startMixedPractice(subject, count) {
+    window.MixedPractice.createSession(state, repository, subject, count);
+    state.currentTab = "practice";
+    state.route = { name: "mixedQuiz" };
+    saveAndRender();
+  }
+
   function openWrongBook() {
     state.currentTab = "wrongBook";
     state.route = { name: "wrongBook" };
@@ -153,11 +160,51 @@ window.QuestionBankApp = (() => {
     saveAndRender();
   }
 
+  function startWrongReviewSession(subject) {
+    const questionIds = window.ErrorBook
+      .getMistakeQuestions(state, repository)
+      .filter((question) => question.subject === subject)
+      .map((question) => question.id);
+    window.ErrorBook.startReviewSession(state, subject, questionIds);
+    state.currentTab = "wrongBook";
+    state.route = { name: "wrongReviewSession" };
+    saveAndRender();
+  }
+
+  function advanceWrongReviewSession() {
+    if (window.ErrorBook.advanceReviewSession(state)) {
+      state.route = { name: "wrongReviewSession" };
+    } else {
+      state.route = { name: "wrongBook" };
+    }
+    saveAndRender();
+  }
+
+  function advanceMixedPractice() {
+    const session = state.mixedPractice?.active;
+    if (!session) {
+      state.route = { name: "practice" };
+      saveAndRender();
+      return;
+    }
+    if ((session.currentIndex || 0) >= session.questionIds.length - 1) {
+      window.MixedPractice.complete(state, repository);
+      state.route = { name: "mixedResult" };
+    } else {
+      session.currentIndex = (session.currentIndex || 0) + 1;
+      state.route = { name: "mixedQuiz" };
+    }
+    saveAndRender();
+  }
+
   function goBack() {
     const route = state.route || { name: "home" };
     if (route.name === "quiz") {
       state.currentTab = "home";
       state.route = { name: "subject", subject: route.subject };
+    } else if (route.name === "mixedQuiz" || route.name === "mixedResult") {
+      state.currentTab = "home";
+      state.route = { name: "subject", subject: state.mixedPractice?.active?.subject };
     } else if (route.name === "examTaking") {
       state.currentTab = "exam";
       state.route = { name: "examHome" };
@@ -167,7 +214,7 @@ window.QuestionBankApp = (() => {
     } else if (route.name === "subject") {
       state.currentTab = "home";
       state.route = { name: "home" };
-    } else if (route.name === "wrongReview") {
+    } else if (route.name === "wrongReview" || route.name === "wrongReviewSession") {
       state.currentTab = "wrongBook";
       state.route = { name: "wrongBook" };
     } else {
@@ -203,11 +250,14 @@ window.QuestionBankApp = (() => {
     else if (route.name === "subject") window.SubjectPage.render(ctx, route.subject);
     else if (route.name === "practice") window.QuizPage.renderLanding(ctx);
     else if (route.name === "quiz") window.QuizPage.render(ctx, route);
+    else if (route.name === "mixedQuiz") window.QuizPage.renderMixed(ctx);
+    else if (route.name === "mixedResult") window.QuizPage.renderMixedResult(ctx);
     else if (route.name === "examHome") window.ExamPage.renderHome(ctx);
     else if (route.name === "examTaking") window.ExamPage.renderTaking(ctx);
     else if (route.name === "examResult") window.ExamPage.renderResult(ctx, route.examId);
     else if (route.name === "wrongBook") window.WrongBookPage.render(ctx);
     else if (route.name === "wrongReview") window.QuizPage.renderReview(ctx, route.questionId);
+    else if (route.name === "wrongReviewSession") window.QuizPage.renderReviewSession(ctx);
     else if (route.name === "stats") window.StatsPage.render(ctx);
     else if (route.name === "profile") window.ProfilePage.render(ctx);
     else window.HomePage.render(ctx);
@@ -223,6 +273,7 @@ window.QuestionBankApp = (() => {
       saveAndRender,
       openSubject,
       startQuiz,
+      startMixedPractice,
       openExamHome,
       startExam,
       continueExam,
@@ -231,7 +282,10 @@ window.QuestionBankApp = (() => {
       submitExam,
       openExamResult,
       openWrongBook,
-      startWrongReview
+      startWrongReview,
+      startWrongReviewSession,
+      advanceWrongReviewSession,
+      advanceMixedPractice
     };
   }
 

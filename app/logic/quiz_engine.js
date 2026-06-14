@@ -9,17 +9,33 @@ window.QuizEngine = (() => {
     return Math.min(raw, Math.max(length - 1, 0));
   }
 
-  function goNext(state, subject, type, length) {
+  function goNext(state, subject, type, questionsOrLength) {
     const key = scopeKey(subject, type);
+    const questions = Array.isArray(questionsOrLength) ? questionsOrLength : [];
+    const length = Array.isArray(questionsOrLength) ? questionsOrLength.length : questionsOrLength;
     if (!length) {
       state.indexByScope[key] = 0;
       return;
     }
     if (state.mode === "random") {
-      state.indexByScope[key] = Math.floor(Math.random() * length);
+      const currentIndex = getCurrentIndex(state, subject, type, length);
+      const currentId = questions[currentIndex]?.id || null;
+      const unanswered = questions.filter((question) => !state.answers[question.id]);
+      const pool = (unanswered.length ? unanswered : questions).filter((question) => question.id !== currentId);
+      const selected = pool.length ? pool[Math.floor(Math.random() * pool.length)] : questions[currentIndex];
+      state.indexByScope[key] = Math.max(0, questions.findIndex((question) => question.id === selected.id));
       return;
     }
-    state.indexByScope[key] = ((state.indexByScope[key] || 0) + 1) % length;
+    const currentIndex = getCurrentIndex(state, subject, type, length);
+    for (let step = 1; step <= length; step += 1) {
+      const candidateIndex = (currentIndex + step) % length;
+      const candidate = questions[candidateIndex];
+      if (candidate && !state.answers[candidate.id]) {
+        state.indexByScope[key] = candidateIndex;
+        return;
+      }
+    }
+    state.indexByScope[key] = (currentIndex + 1) % length;
   }
 
   function getMode(question) {

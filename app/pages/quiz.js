@@ -63,7 +63,7 @@ window.QuizPage = (() => {
         ctx.saveAndRender();
       },
       onNext: () => {
-        window.QuizEngine.goNext(ctx.state, subject, type, questions.length);
+        window.QuizEngine.goNext(ctx.state, subject, type, questions);
         ctx.saveAndRender();
       }
     });
@@ -100,6 +100,133 @@ window.QuizPage = (() => {
     });
   }
 
+  function renderReviewSession(ctx) {
+    const session = ctx.state.wrongPractice;
+    const questions = (session?.questionIds || []).map((id) => window.QuestionRepository.getById(ctx.repository, id)).filter(Boolean);
+    if (!questions.length) {
+      ctx.openWrongBook();
+      return;
+    }
+    const currentIndex = Math.min(session.currentIndex || 0, questions.length - 1);
+    const question = questions[currentIndex];
+    session.questionId = question.id;
+    ctx.setShell("错题重刷", `${session.subject || question.subject} · ${currentIndex + 1}/${questions.length}`, { hideMode: true, showBack: true });
+    const answerRecord = window.ErrorBook.getReviewAnswer(ctx.state, question.id);
+    renderQuestion(ctx, {
+      questions,
+      question,
+      currentIndex,
+      answerRecord,
+      reviewMode: true,
+      answerLookup: session.answers || {},
+      metaLabel: "错题重刷",
+      onSubmit: (selected) => {
+        const record = window.QuizEngine.evaluate(question, selected);
+        window.ErrorBook.recordReviewAnswer(ctx.state, question, record);
+        ctx.saveAndRender();
+      },
+      onSubjectiveMark: (correct) => {
+        window.ErrorBook.markReviewSubjective(ctx.state, question, correct);
+        ctx.saveAndRender();
+      },
+      onNext: () => ctx.advanceWrongReviewSession(),
+      onRetry: () => {
+        delete ctx.state.wrongPractice.answers[question.id];
+        if (ctx.state.tempSelections) delete ctx.state.tempSelections[`review:${question.id}`];
+        ctx.saveAndRender();
+      }
+    });
+  }
+
+  function renderMixed(ctx) {
+    const session = ctx.state.mixedPractice?.active;
+    const questions = window.MixedPractice.getActiveQuestions(ctx.state, ctx.repository);
+    if (!session || !questions.length) {
+      window.AppUI.setView(ctx.view, window.AppUI.emptyState("暂无随机练习", "请先从科目页选择 20/30/40/50 题。"));
+      return;
+    }
+    const currentIndex = Math.min(session.currentIndex || 0, questions.length - 1);
+    const question = questions[currentIndex];
+    ctx.setShell(`${session.subject}综合刷题`, `${session.requestedCount}题随机组练`, { hideMode: true, showBack: true });
+    const answerRecord = session.answers?.[question.id] || null;
+    renderQuestion(ctx, {
+      questions,
+      question,
+      currentIndex,
+      answerRecord,
+      reviewMode: false,
+      answerLookup: session.answers || {},
+      metaLabel: "综合随机",
+      onSubmit: (selected) => {
+        const record = window.QuizEngine.evaluate(question, selected);
+        session.answers[question.id] = record;
+        window.ErrorBook.recordAnswer(ctx.state, question, record);
+        ctx.saveAndRender();
+      },
+      onSubjectiveMark: (correct) => {
+        const current = session.answers[question.id];
+        if (!current) return;
+        const record = window.QuizEngine.markSubjective(current, correct);
+        session.answers[question.id] = record;
+        window.ErrorBook.recordAnswer(ctx.state, question, record);
+        ctx.saveAndRender();
+      },
+      onNext: () => ctx.advanceMixedPractice()
+    });
+  }
+
+  function renderMixedResult(ctx) {
+    const session = ctx.state.mixedPractice?.active;
+    if (!session) {
+      window.AppUI.setView(ctx.view, window.AppUI.emptyState("暂无结果", "请先生成一组综合随机练习。"));
+      return;
+    }
+    const result = session.result || window.MixedPractice.score(session, ctx.repository);
+    ctx.setShell("练习结果", `${result.subject} · ${result.total}题`, { hideMode: true, showBack: true });
+    const root = el("section", "screen stats-screen");
+    const summary = el("div", "section-summary");
+    summary.innerHTML = `
+      <strong>${escapeHtml(result.subject)}综合随机练习</strong>
+      <span>${escapeHtml(result.sessionId)}</span>
+      <em>正确 ${result.correct} · 错误 ${result.wrong} · 待核对 ${result.pending}</em>
+    `;
+    const cards = el("div", "metric-grid");
+    [
+      ["总题数", result.total, "题"],
+      ["已作答", result.answered, "题"],
+      ["正确", result.correct, "题"],
+      ["正确率", result.accuracy, "%"]
+    ].forEach(([label, value, unit]) => {
+      const card = el("div", "metric-card");
+      card.innerHTML = `<span>${label}</span><strong>${value}</strong><em>${unit}</em>`;
+      cards.append(card);
+    });
+
+    const wrongDetails = result.details.filter((item) => item.answered && !item.correct);
+    const report = el("div", "report-card");
+    report.innerHTML = `
+      <strong>本组错题</strong>
+      ${wrongDetails.length ? wrongDetails.map((item) => `
+        <button class="report-wrong-row" type="button" data-question-id="${escapeHtml(item.questionId)}">
+          <span>#${item.index} · ${escapeHtml(typeLabel(item.type))}</span>
+          <em>${escapeHtml(item.question)}</em>
+        </button>
+      `).join("") : "<p>本组没有错题。</p>"}
+    `;
+    report.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-question-id]");
+      if (button) ctx.startWrongReview(button.dataset.questionId);
+    });
+
+    const actions = el("div", "action-row");
+    actions.append(
+      window.AppUI.makeButton("ghost-btn", "返回科目", () => ctx.openSubject(result.subject)),
+      window.AppUI.makeButton("primary-btn", "再来一组", () => ctx.startMixedPractice(result.subject, session.requestedCount))
+    );
+    root.append(summary, cards, report, actions);
+    window.AppUI.setView(ctx.view, root);
+  }
+
   function renderQuestion(ctx, config) {
     const { questions, question, currentIndex, answerRecord, reviewMode, onSubmit, onSubjectiveMark, onNext, onRetry } = config;
     const mode = window.QuizEngine.getMode(question);
@@ -108,8 +235,10 @@ window.QuizPage = (() => {
     const selectionKey = reviewMode ? `review:${question.id}` : question.id;
     const tempSelected = ctx.state.tempSelections[selectionKey] || [];
     const interactionState = answerRecord ? "submitted" : "answering";
-    const answeredInSet = questions.filter((item) => ctx.state.answers[item.id]).length;
-    const accuracy = getAccuracy(ctx.state, questions);
+    const answerLookup = config.answerLookup || ctx.state.answers;
+    const answeredInSet = questions.filter((item) => answerLookup[item.id]).length;
+    const accuracy = getAccuracy(answerLookup, questions);
+    const metaLabel = config.metaLabel || (reviewMode ? "错题重答" : ctx.state.mode === "sequence" ? "顺序模式" : "随机模式");
     const root = el("section", "screen practice-screen");
 
     const progressCard = el("div", "progress-card");
@@ -121,7 +250,7 @@ window.QuizPage = (() => {
       <div class="progress-track"><span style="width:${percent(answeredInSet, questions.length)}%"></span></div>
       <div class="progress-card__meta">
         <span>已完成 ${answeredInSet}</span>
-        <span>${reviewMode ? "错题重答" : ctx.state.mode === "sequence" ? "顺序模式" : "随机模式"}</span>
+        <span>${metaLabel}</span>
       </div>
     `;
 
@@ -315,13 +444,13 @@ window.QuizPage = (() => {
     ctx.saveAndRender();
   }
 
-  function getAccuracy(state, questions) {
+  function getAccuracy(answerLookup, questions) {
     const scored = questions
-      .map((question) => state.answers[question.id])
+      .map((question) => answerLookup[question.id])
       .filter((answer) => answer && !answer.unscored && !answer.needsReview);
     if (!scored.length) return 0;
     return Math.round((scored.filter((answer) => answer.correct).length / scored.length) * 100);
   }
 
-  return { renderLanding, render, renderReview };
+  return { renderLanding, render, renderReview, renderReviewSession, renderMixed, renderMixedResult };
 })();

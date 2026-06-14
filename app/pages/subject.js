@@ -34,6 +34,25 @@ window.SubjectPage = {
       grid.append(card);
     });
     root.append(grid);
+
+    const mixedTitle = el("h2", "section-title", "综合随机刷题");
+    const mixedGrid = el("div", "type-grid");
+    const allQuestions = window.QuestionRepository.getQuestions(ctx.repository, { subject: subject.name });
+    window.MixedPractice.countOptions.forEach((count) => {
+      const actualCount = Math.min(count, allQuestions.length);
+      const card = el("button", "type-card", "");
+      card.type = "button";
+      card.style.setProperty("--accent", subject.accent);
+      card.innerHTML = `
+        <span>不限题型</span>
+        <strong>${actualCount}</strong>
+        <em>随机抽题 · 尽量避开已抽题</em>
+      `;
+      card.disabled = actualCount === 0;
+      card.addEventListener("click", () => ctx.startMixedPractice(subject.name, actualCount));
+      mixedGrid.append(card);
+    });
+    root.append(mixedTitle, mixedGrid);
     window.AppUI.setView(ctx.view, root);
   }
 };

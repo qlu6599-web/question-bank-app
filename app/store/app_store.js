@@ -14,7 +14,15 @@ window.AppStore = (() => {
     indexByScope: {},
     wrongPractice: {
       questionId: null,
+      subject: null,
+      questionIds: [],
+      currentIndex: 0,
       answers: {}
+    },
+    mixedPractice: {
+      active: null,
+      history: [],
+      usedBySubject: {}
     },
     activeExam: null,
     examHistory: [],
@@ -48,7 +56,8 @@ window.AppStore = (() => {
     state.completedIds = [];
     state.tempSelections = {};
     state.indexByScope = {};
-    state.wrongPractice = { questionId: null, answers: {} };
+    state.wrongPractice = { questionId: null, subject: null, questionIds: [], currentIndex: 0, answers: {} };
+    state.mixedPractice = { active: null, history: [], usedBySubject: {} };
     state.activeExam = null;
     state.examHistory = [];
     state.latestExamResult = null;
@@ -65,7 +74,15 @@ window.AppStore = (() => {
     next.indexByScope = next.indexByScope || {};
     next.wrongPractice = {
       questionId: next.wrongPractice?.questionId || null,
+      subject: next.wrongPractice?.subject || null,
+      questionIds: Array.isArray(next.wrongPractice?.questionIds) ? next.wrongPractice.questionIds : [],
+      currentIndex: Number.isFinite(next.wrongPractice?.currentIndex) ? next.wrongPractice.currentIndex : 0,
       answers: next.wrongPractice?.answers || {}
+    };
+    next.mixedPractice = {
+      active: next.mixedPractice?.active || null,
+      history: Array.isArray(next.mixedPractice?.history) ? next.mixedPractice.history : [],
+      usedBySubject: next.mixedPractice?.usedBySubject || {}
     };
     next.activeExam = next.activeExam || null;
     next.examHistory = Array.isArray(next.examHistory) ? next.examHistory : [];

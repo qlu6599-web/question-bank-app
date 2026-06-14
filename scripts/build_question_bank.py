@@ -8,7 +8,7 @@ EXTRACTED = ROOT / "extracted"
 OUTPUT = ROOT / "src" / "data" / "questions.js"
 JSON_OUTPUT = ROOT / "app" / "data" / "question_bank.json"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
-APP_DATA_VERSION = "20260614-v16"
+APP_DATA_VERSION = "20260614-v17"
 
 TYPE_MAP = {
     "cloze": "fill",

@@ -1,5 +1,5 @@
 {
-  "version": "20260614-v16",
+  "version": "20260614-v17",
   "singleSourceOfTruth": "ALL_QUESTIONS",
   "rule": "分类、统计、刷题、考试均只能从 ALL_QUESTIONS 动态 filter；subjects 只保存科目元数据。",
   "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",

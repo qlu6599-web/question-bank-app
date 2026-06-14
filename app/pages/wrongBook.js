@@ -1,5 +1,5 @@
-window.WrongBookPage = {
-  render(ctx) {
+window.WrongBookPage = (() => {
+  function render(ctx) {
     const { el, escapeHtml, typeLabel } = window.AppUI;
     ctx.setShell("错题本", "重新作答后再看解析", { hideMode: true, showBack: false });
     const questions = window.ErrorBook.getMistakeQuestions(ctx.state, ctx.repository);
@@ -10,8 +10,27 @@ window.WrongBookPage = {
 
     const root = el("section", "screen wrongbook-screen");
     const summary = el("div", "section-summary");
-    summary.innerHTML = `<strong>${questions.length} 道待巩固</strong><span>错题不会直接显示答案，需要重新作答。</span>`;
+    summary.innerHTML = `<strong>${questions.length} 道待巩固</strong><span>按科目连续重刷，答完一题直接进入下一题。</span>`;
     root.append(summary);
+
+    const bySubject = groupBySubject(questions);
+    const subjectGrid = el("div", "type-grid");
+    Object.entries(bySubject).forEach(([subject, subjectQuestions]) => {
+      const card = el("button", "type-card", "");
+      card.type = "button";
+      card.style.setProperty("--accent", subjectQuestions[0]?.accent || "#2563eb");
+      card.innerHTML = `
+        <span>${escapeHtml(subject)}</span>
+        <strong>${subjectQuestions.length}</strong>
+        <em>开始错题重刷</em>
+      `;
+      card.addEventListener("click", () => ctx.startWrongReviewSession(subject));
+      subjectGrid.append(card);
+    });
+    root.append(subjectGrid);
+
+    const title = el("h2", "section-title", "全部错题");
+    root.append(title);
 
     const list = el("div", "wrong-list");
     questions.forEach((question) => {
@@ -30,4 +49,14 @@ window.WrongBookPage = {
     root.append(list);
     window.AppUI.setView(ctx.view, root);
   }
-};
+
+  function groupBySubject(questions) {
+    return questions.reduce((acc, question) => {
+      acc[question.subject] ||= [];
+      acc[question.subject].push(question);
+      return acc;
+    }, {});
+  }
+
+  return { render };
+})();

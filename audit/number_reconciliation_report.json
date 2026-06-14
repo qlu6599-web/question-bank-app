@@ -1,5 +1,5 @@
 {
-  "version": "20260614-v16",
+  "version": "20260614-v17",
   "basis": "以 ALL_QUESTIONS 为唯一题目总表，按科目、题型、题号范围 1..N 强制对账；分类只作为 filter 视图。",
   "subjects": [
     {

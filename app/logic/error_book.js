@@ -16,8 +16,34 @@ window.ErrorBook = (() => {
   function startReview(state, questionId) {
     state.wrongPractice ||= { questionId: null, answers: {} };
     state.wrongPractice.questionId = questionId;
+    state.wrongPractice.subject = null;
+    state.wrongPractice.questionIds = [questionId];
+    state.wrongPractice.currentIndex = 0;
     delete state.wrongPractice.answers[questionId];
     if (state.tempSelections) delete state.tempSelections[`review:${questionId}`];
+  }
+
+  function startReviewSession(state, subject, questionIds) {
+    state.wrongPractice ||= { questionId: null, answers: {} };
+    const ids = [...new Set(questionIds)].filter(Boolean);
+    state.wrongPractice.subject = subject;
+    state.wrongPractice.questionIds = ids;
+    state.wrongPractice.currentIndex = 0;
+    state.wrongPractice.questionId = ids[0] || null;
+    state.wrongPractice.answers = {};
+    ids.forEach((id) => {
+      if (state.tempSelections) delete state.tempSelections[`review:${id}`];
+    });
+  }
+
+  function advanceReviewSession(state) {
+    const session = state.wrongPractice;
+    if (!session?.questionIds?.length) return false;
+    const nextIndex = Math.min((session.currentIndex || 0) + 1, session.questionIds.length);
+    if (nextIndex >= session.questionIds.length) return false;
+    session.currentIndex = nextIndex;
+    session.questionId = session.questionIds[nextIndex];
+    return true;
   }
 
   function getReviewAnswer(state, questionId) {
@@ -51,6 +77,8 @@ window.ErrorBook = (() => {
     recordAnswer,
     getMistakeQuestions,
     startReview,
+    startReviewSession,
+    advanceReviewSession,
     getReviewAnswer,
     recordReviewAnswer,
     markReviewSubjective
