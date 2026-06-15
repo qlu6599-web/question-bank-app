@@ -14,11 +14,11 @@ const ALL_QUESTIONS = [
     "analysis": "1956年夏季在达特矛斯大学召开的学术研讨会上，正式采用了“人工智能”这一术\n语，标志着学科的诞生。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 1,
     "accent": "#e11d48",
     "sourceNumber": 1,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 1
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-2",
@@ -34,11 +34,11 @@ const ALL_QUESTIONS = [
     "analysis": "20世纪三大科学技术成就包括空间技术、原子能技术和人工智能。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 1,
     "accent": "#e11d48",
     "sourceNumber": 2,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 1
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-3",
@@ -54,11 +54,11 @@ const ALL_QUESTIONS = [
     "analysis": "80%以上的信息通过视觉得到，10%的信息通过听觉得到。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 1,
     "accent": "#e11d48",
     "sourceNumber": 3,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 1
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-4",
@@ -74,11 +74,11 @@ const ALL_QUESTIONS = [
     "analysis": "逻辑思维（抽象思维）依靠逻辑进行，过程是串行的，容易形式化，且具有严密性\n和可靠性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#e11d48",
     "sourceNumber": 4,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-5",
@@ -94,11 +94,11 @@ const ALL_QUESTIONS = [
     "analysis": "会上经麦卡锡提议正式采用“人工智能”这一术语，麦卡锡因而被称为人工智能之\n父。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#e11d48",
     "sourceNumber": 5,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-6",
@@ -114,11 +114,11 @@ const ALL_QUESTIONS = [
     "analysis": "1950年图灵发表的《计算机与智能》中设计了一个测试，用以说明人工智能的概\n念。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#e11d48",
     "sourceNumber": 6,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-7",
@@ -134,11 +134,11 @@ const ALL_QUESTIONS = [
     "analysis": "语言哲学家约翰·R·塞尔于1980年提出了中国屋思考实验。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#e11d48",
     "sourceNumber": 7,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-8",
@@ -154,11 +154,11 @@ const ALL_QUESTIONS = [
     "analysis": "1937年至1941年间开发的ABC计算机为人工智能研究奠定了物质基础。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#e11d48",
     "sourceNumber": 8,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-9",
@@ -174,11 +174,11 @@ const ALL_QUESTIONS = [
     "analysis": "1977年，费根鲍姆提出了“知识工程”概念，推动了以知识为中心的研究。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#e11d48",
     "sourceNumber": 9,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-10",
@@ -194,11 +194,11 @@ const ALL_QUESTIONS = [
     "analysis": "通用人工智能尚处于起步阶段，是人工智能的发展方向；AlphaGo属于专用人工智\n能。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#e11d48",
     "sourceNumber": 10,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-11",
@@ -214,11 +214,11 @@ const ALL_QUESTIONS = [
     "analysis": "符号主义起源于数理逻辑，是一种基于逻辑推理的智能模拟方法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 4,
     "accent": "#e11d48",
     "sourceNumber": 11,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 4
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-12",
@@ -234,11 +234,11 @@ const ALL_QUESTIONS = [
     "analysis": "连接主义学派又称仿生学派或生理学派，基于神经网络进行模拟。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 4,
     "accent": "#e11d48",
     "sourceNumber": 12,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 4
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-13",
@@ -254,11 +254,11 @@ const ALL_QUESTIONS = [
     "analysis": "行为主义又称进化主义或控制论学派，其理论基础是控制论。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 4,
     "accent": "#e11d48",
     "sourceNumber": 13,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 4
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-14",
@@ -274,11 +274,11 @@ const ALL_QUESTIONS = [
     "analysis": "吴文俊院士在几何定理证明方面建立了一套机器证明方法，被称为“吴方法”。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#e11d48",
     "sourceNumber": 14,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-15",
@@ -294,11 +294,11 @@ const ALL_QUESTIONS = [
     "analysis": "1997年5月，“深蓝”以3.5比2.5的总比分赢得了与卡斯帕罗夫的对弈。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#e11d48",
     "sourceNumber": 15,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-16",
@@ -314,11 +314,11 @@ const ALL_QUESTIONS = [
     "analysis": "模式识别是研究对象描述和分类方法的学科。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#e11d48",
     "sourceNumber": 16,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-17",
@@ -334,11 +334,11 @@ const ALL_QUESTIONS = [
     "analysis": "专家系统的核心包括知识库和推理机。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#e11d48",
     "sourceNumber": 17,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-18",
@@ -354,11 +354,11 @@ const ALL_QUESTIONS = [
     "analysis": "机器人发展经历了程序控制机器人、自适应机器人、智能机器人三个阶段。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 6,
     "accent": "#e11d48",
     "sourceNumber": 18,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 6
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-19",
@@ -374,11 +374,11 @@ const ALL_QUESTIONS = [
     "analysis": "1943年麦克洛克和皮茨提出了M-P神经元模型。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 6,
     "accent": "#e11d48",
     "sourceNumber": 19,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 6
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-20",
@@ -394,11 +394,11 @@ const ALL_QUESTIONS = [
     "analysis": "云端人工智能是将云计算的运作模式与人工智能深度融合的技术。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 6,
     "accent": "#e11d48",
     "sourceNumber": 20,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 6
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-21",
@@ -414,11 +414,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT指出，知识是经过加工的信息，是把有关的信息关联在一起形成的经验，通常\n表示为：知识 = 信息 + 经验。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 7,
     "accent": "#e11d48",
     "sourceNumber": 21,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 7
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-22",
@@ -434,11 +434,11 @@ const ALL_QUESTIONS = [
     "analysis": "根据PPT中的金字塔结构，从底层到顶层依次是数据、信息、知识、智能。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 7,
     "accent": "#e11d48",
     "sourceNumber": 22,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 7
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-23",
@@ -454,11 +454,11 @@ const ALL_QUESTIONS = [
     "analysis": "谓词是用来刻画个体的性质或个体之间关系的符号。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 7,
     "accent": "#e11d48",
     "sourceNumber": 23,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 7
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-24",
@@ -474,11 +474,11 @@ const ALL_QUESTIONS = [
     "analysis": "全称量词（∀x）表示对定义域中的每一个个体x，命题都成立。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#e11d48",
     "sourceNumber": 24,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-25",
@@ -494,15 +494,15 @@ const ALL_QUESTIONS = [
     "analysis": "根据逻辑等价式，蕴含式 逻辑等价于 。 选项为公式内容，已保留原 PDF 题目截图。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#e11d48",
     "needsImageOptions": true,
     "questionImages": [
       "./assets/questions/ai/ai-25.png"
     ],
     "sourceNumber": 25,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-26",
@@ -518,11 +518,11 @@ const ALL_QUESTIONS = [
     "analysis": "产生式系统由规则库（知识库）、综合数据库（事实库）和控制策略（推理机）三\n部分组成。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#e11d48",
     "sourceNumber": 26,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-27",
@@ -538,11 +538,11 @@ const ALL_QUESTIONS = [
     "analysis": "在产生式规则中， 是左部（LHS），表示前提或条件； 是右部（RHS），表示结\n论或动作。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#e11d48",
     "sourceNumber": 27,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-28",
@@ -558,11 +558,11 @@ const ALL_QUESTIONS = [
     "analysis": "产生式表示法虽然易于理解和修改，但在处理复杂逻辑时容易产生效率低和组合爆\n炸的问题。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#e11d48",
     "sourceNumber": 28,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-29",
@@ -578,11 +578,11 @@ const ALL_QUESTIONS = [
     "analysis": "框架理论由Minsky于1974年提出，用于解释人类的感知和思维。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#e11d48",
     "sourceNumber": 29,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-30",
@@ -598,11 +598,11 @@ const ALL_QUESTIONS = [
     "analysis": "一个框架由若干个“槽”组成，每个槽对应对象的一个属性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#e11d48",
     "sourceNumber": 30,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-31",
@@ -618,11 +618,11 @@ const ALL_QUESTIONS = [
     "analysis": "槽可以划分为若干个侧面，用来描述该槽所代表属性的属性值、默认值、取值范围\n等。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#e11d48",
     "sourceNumber": 31,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-32",
@@ -638,11 +638,11 @@ const ALL_QUESTIONS = [
     "analysis": "2012年5月，谷歌公司正式提出了知识图谱的概念。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#e11d48",
     "sourceNumber": 32,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-33",
@@ -658,11 +658,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识图谱的三元组通常表示为（实体1, 关系, 实体2）或（实体, 属性, 属性值）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#e11d48",
     "sourceNumber": 33,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-34",
@@ -678,11 +678,11 @@ const ALL_QUESTIONS = [
     "analysis": "语义网络通过带箭头的弧连接节点，节点代表事物、概念或状态。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#e11d48",
     "sourceNumber": 34,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-35",
@@ -698,11 +698,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识具有演化性，即它是不断发展和修正的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 11,
     "accent": "#e11d48",
     "sourceNumber": 35,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 11
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-36",
@@ -718,11 +718,11 @@ const ALL_QUESTIONS = [
     "analysis": "谓词逻辑具有严密、精确的特点，适合描述确定性的因果和逻辑关系。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 11,
     "accent": "#e11d48",
     "sourceNumber": 36,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 11
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-37",
@@ -738,11 +738,11 @@ const ALL_QUESTIONS = [
     "analysis": "规则库是产生式规则的集合，代表了领域专家的知识。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 11,
     "accent": "#e11d48",
     "sourceNumber": 37,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 11
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-38",
@@ -758,11 +758,11 @@ const ALL_QUESTIONS = [
     "analysis": "框架表示法具有结构性（各框架相互连接）和继承性（子框架继承父框架属性）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#e11d48",
     "sourceNumber": 38,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-39",
@@ -778,11 +778,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识图谱可以看作一张图，节点表示实体，边表示实体间的关系或属性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#e11d48",
     "sourceNumber": 39,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-40",
@@ -798,11 +798,11 @@ const ALL_QUESTIONS = [
     "analysis": "“北京”是实体，“人口”是属性，“2069万”是属性值。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#e11d48",
     "sourceNumber": 40,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-41",
@@ -818,11 +818,11 @@ const ALL_QUESTIONS = [
     "analysis": "随机性是指由于客观上存在的偶然性导致的不确定性，是概率论研究的主要对象。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#e11d48",
     "sourceNumber": 41,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-42",
@@ -838,11 +838,11 @@ const ALL_QUESTIONS = [
     "analysis": "可信度方法是20世纪70年代中后期由肖特里夫等人在开发医疗诊断专家系统\nMYCIN时提出的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 13,
     "accent": "#e11d48",
     "sourceNumber": 42,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 13
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-43",
@@ -862,12 +862,12 @@ const ALL_QUESTIONS = [
     "analysis": "可信度因子 在 之间取值。若大于0表示证据支持结论；小于0表示证据反对结论。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 13,
     "accent": "#e11d48",
     "originalType": "cloze",
     "sourceNumber": 1,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 13
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ai-44",
@@ -883,11 +883,11 @@ const ALL_QUESTIONS = [
     "analysis": "表示证据增加结论为真的信任程度，数值越大信任程度越高。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 13,
     "accent": "#e11d48",
     "sourceNumber": 43,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 13
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-45",
@@ -903,11 +903,11 @@ const ALL_QUESTIONS = [
     "analysis": "表示证据 对结论 既无支持也无反对，即两者无关。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#e11d48",
     "sourceNumber": 44,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-46",
@@ -923,11 +923,11 @@ const ALL_QUESTIONS = [
     "analysis": "证据理论首先定义一个由所有可能答案组成的集合，称为辨识框架，记作 。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#e11d48",
     "sourceNumber": 45,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-47",
@@ -943,11 +943,11 @@ const ALL_QUESTIONS = [
     "analysis": "基本概率分配函数（Mass函数）满足所有子集的 值之和为 1。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#e11d48",
     "sourceNumber": 46,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-48",
@@ -963,11 +963,11 @@ const ALL_QUESTIONS = [
     "analysis": "信任函数 又称下限函数，表示对 为真的信任程度。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#e11d48",
     "sourceNumber": 47,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-49",
@@ -983,11 +983,11 @@ const ALL_QUESTIONS = [
     "analysis": "似然函数 又称上限函数，表示对 非假的信任程度。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 15,
     "accent": "#e11d48",
     "sourceNumber": 48,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 15
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-50",
@@ -1003,11 +1003,11 @@ const ALL_QUESTIONS = [
     "analysis": "1965年，美国控制论专家扎德发表了论文《Fuzzy Sets》，标志着模糊数学的诞\n生。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 15,
     "accent": "#e11d48",
     "sourceNumber": 49,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 15
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-51",
@@ -1027,12 +1027,12 @@ const ALL_QUESTIONS = [
     "analysis": "模糊集合的隶属度在闭区间 之间。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 15,
     "accent": "#e11d48",
     "originalType": "cloze",
     "sourceNumber": 2,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 15
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ai-52",
@@ -1048,11 +1048,11 @@ const ALL_QUESTIONS = [
     "analysis": "在模糊语言处理中，“非常”通常对应集中运算，即隶属函数的平方。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#e11d48",
     "sourceNumber": 50,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-53",
@@ -1068,11 +1068,11 @@ const ALL_QUESTIONS = [
     "analysis": "模糊推理中，模糊关系的合成常采用最大-最小合成规则（Max-Min\nComposition）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#e11d48",
     "sourceNumber": 51,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-54",
@@ -1088,11 +1088,11 @@ const ALL_QUESTIONS = [
     "analysis": "为了在实际控制中使用，需要将模糊集转化为精确值，这一过程称为反模糊化或清\n脆化。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#e11d48",
     "sourceNumber": 52,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-55",
@@ -1108,11 +1108,11 @@ const ALL_QUESTIONS = [
     "analysis": "最大隶属度法是在模糊集合中寻找隶属度最大的个体作为输出。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#e11d48",
     "sourceNumber": 53,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-56",
@@ -1128,11 +1128,11 @@ const ALL_QUESTIONS = [
     "analysis": "在证据理论的定义中，。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 17,
     "accent": "#e11d48",
     "sourceNumber": 54,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 17
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-57",
@@ -1148,11 +1148,11 @@ const ALL_QUESTIONS = [
     "analysis": "不确定性推理专门用于处理不精确、不完整和模糊的信息。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 17,
     "accent": "#e11d48",
     "sourceNumber": 55,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 17
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-58",
@@ -1168,15 +1168,15 @@ const ALL_QUESTIONS = [
     "analysis": "证据的析取（联言连接）在可信度计算中取各个子证据可信度的最大值。 选项为公式内容，已保留原 PDF 题目截图。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 17,
     "accent": "#e11d48",
     "needsImageOptions": true,
     "questionImages": [
       "./assets/questions/ai/ai-58.png"
     ],
     "sourceNumber": 56,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 17
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-59",
@@ -1192,11 +1192,11 @@ const ALL_QUESTIONS = [
     "analysis": "集合的交运算（Intersection）在隶属度计算中通常采用取最小值（min），对应逻\n辑“且”。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#e11d48",
     "sourceNumber": 57,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-60",
@@ -1212,11 +1212,11 @@ const ALL_QUESTIONS = [
     "analysis": "隶属度为 1 表示元素完全属于该集合，这与经典集合论是一致的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#e11d48",
     "sourceNumber": 58,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-61",
@@ -1232,11 +1232,11 @@ const ALL_QUESTIONS = [
     "analysis": "搜索是根据问题的实际情况，按照一定的策略，在状态空间中不断寻找可利用知\n识，从而找到一条从初始状态到目标状态的解决问题路线的过程。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#e11d48",
     "sourceNumber": 59,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-62",
@@ -1252,11 +1252,11 @@ const ALL_QUESTIONS = [
     "analysis": "状态（State）是表示问题求解过程中每一步状况的数据结构。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#e11d48",
     "sourceNumber": 60,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-63",
@@ -1272,11 +1272,11 @@ const ALL_QUESTIONS = [
     "analysis": "操作符（Operator）作用于某个状态，使其转变为另一个状态。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 19,
     "accent": "#e11d48",
     "sourceNumber": 61,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 19
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-64",
@@ -1292,11 +1292,11 @@ const ALL_QUESTIONS = [
     "analysis": "为状态集合， 为操作符集合， 为初始状态， 为目标状态集合。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 19,
     "accent": "#e11d48",
     "sourceNumber": 62,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 19
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-65",
@@ -1312,11 +1312,11 @@ const ALL_QUESTIONS = [
     "analysis": "启发式搜索利用与问题有关的特征信息（启发式信息）来引导搜索方向。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 19,
     "accent": "#e11d48",
     "sourceNumber": 63,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 19
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-66",
@@ -1332,11 +1332,11 @@ const ALL_QUESTIONS = [
     "analysis": "宽度优先搜索按照层次顺序进行，遵循先进先出（FIFO）原则，因此使用队列。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#e11d48",
     "sourceNumber": 64,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-67",
@@ -1352,11 +1352,11 @@ const ALL_QUESTIONS = [
     "analysis": "深度优先搜索在遇到死胡同或达到深度限制时，会进行回溯。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#e11d48",
     "sourceNumber": 65,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-68",
@@ -1372,11 +1372,11 @@ const ALL_QUESTIONS = [
     "analysis": "回溯策略是在状态空间中进行搜索，且通常只需要保存从初始状态到当前状态的单\n一路径。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#e11d48",
     "sourceNumber": 66,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-69",
@@ -1392,15 +1392,15 @@ const ALL_QUESTIONS = [
     "analysis": "为启发函数，表示从节点 到目标节点的估计代价。 选项为公式内容，已保留原 PDF 题目截图。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#e11d48",
     "needsImageOptions": true,
     "questionImages": [
       "./assets/questions/ai/ai-69.png"
     ],
     "sourceNumber": 67,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-70",
@@ -1416,11 +1416,11 @@ const ALL_QUESTIONS = [
     "analysis": "表示从初始节点 到当前节点 的实际代价。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#e11d48",
     "sourceNumber": 68,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-71",
@@ -1436,11 +1436,11 @@ const ALL_QUESTIONS = [
     "analysis": "A* 算法是指满足可采纳性条件（Admissibility）的启发式搜索算法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#e11d48",
     "sourceNumber": 69,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-72",
@@ -1456,11 +1456,11 @@ const ALL_QUESTIONS = [
     "analysis": "越大（且不超过实际代价），算法利用的启发信息越多，搜索的状态越少。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#e11d48",
     "sourceNumber": 70,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-73",
@@ -1476,11 +1476,11 @@ const ALL_QUESTIONS = [
     "analysis": "MCTS 算法由 Remi Coulom 于 2006 年在围棋引擎 Crazy Stone 中首次发明。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 22,
     "accent": "#e11d48",
     "sourceNumber": 71,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 22
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-74",
@@ -1496,11 +1496,11 @@ const ALL_QUESTIONS = [
     "analysis": "MCTS 四步：选择（Selection）、拓展（Expansion）、模拟（Simulation）、反\n向传播（Backpropagation）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 22,
     "accent": "#e11d48",
     "sourceNumber": 72,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 22
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-75",
@@ -1516,11 +1516,11 @@ const ALL_QUESTIONS = [
     "analysis": "选择是根据当前获得所有子步骤的统计结果，选择一个最优子步骤。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 22,
     "accent": "#e11d48",
     "sourceNumber": 73,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 22
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-76",
@@ -1536,11 +1536,11 @@ const ALL_QUESTIONS = [
     "analysis": "拓展步骤是在被选中的节点下创建一个或多个子节点。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#e11d48",
     "sourceNumber": 74,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-77",
@@ -1556,11 +1556,11 @@ const ALL_QUESTIONS = [
     "analysis": "模拟是指从拓展出的节点开始，按照随机策略进行对局直到结束，又称 Play-out。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#e11d48",
     "sourceNumber": 75,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-78",
@@ -1576,11 +1576,11 @@ const ALL_QUESTIONS = [
     "analysis": "当 时，只根据路径代价 搜索，即为宽度优先搜索（或 Dijkstra 算法）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#e11d48",
     "sourceNumber": 76,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-79",
@@ -1596,11 +1596,11 @@ const ALL_QUESTIONS = [
     "analysis": "弧线代表状态的变迁，即应用操作符的结果。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#e11d48",
     "sourceNumber": 77,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-80",
@@ -1616,11 +1616,11 @@ const ALL_QUESTIONS = [
     "analysis": "搜索的任务是寻找从初始状态到目标状态的一条路径。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 24,
     "accent": "#e11d48",
     "sourceNumber": 78,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 24
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-81",
@@ -1636,11 +1636,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能计算包括神经网络、进化计算、群智能等。谓词逻辑属于符号主义人工智能的\n范畴。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 24,
     "accent": "#e11d48",
     "sourceNumber": 79,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 24
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-82",
@@ -1656,11 +1656,11 @@ const ALL_QUESTIONS = [
     "analysis": "遗传算法是由美国密歇根大学的 Holland 教授于1975年首先提出的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 24,
     "accent": "#e11d48",
     "sourceNumber": 80,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 24
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-83",
@@ -1676,11 +1676,11 @@ const ALL_QUESTIONS = [
     "analysis": "选择（Selection）操作是从旧群体中以一定概率选择优良个体，模拟“物竞天择”。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#e11d48",
     "sourceNumber": 81,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-84",
@@ -1696,11 +1696,11 @@ const ALL_QUESTIONS = [
     "analysis": "编码是将问题的解表示成位串或其它形式的过程。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#e11d48",
     "sourceNumber": 82,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-85",
@@ -1716,11 +1716,11 @@ const ALL_QUESTIONS = [
     "analysis": "二进制编码存在“汉明悬崖”问题，即相邻整数的二进制表示可能存在大量位数差\n异。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#e11d48",
     "sourceNumber": 83,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-86",
@@ -1736,11 +1736,11 @@ const ALL_QUESTIONS = [
     "analysis": "适应度函数是评价个体优劣的唯一指标，适应度越高，个体越好。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#e11d48",
     "sourceNumber": 84,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-87",
@@ -1756,11 +1756,11 @@ const ALL_QUESTIONS = [
     "analysis": "轮盘赌选择法（Roulette Wheel Selection）中，个体被选中的概率与其适应度值\n成正比。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 26,
     "accent": "#e11d48",
     "sourceNumber": 85,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 26
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-88",
@@ -1776,11 +1776,11 @@ const ALL_QUESTIONS = [
     "analysis": "交叉（Crossover）是遗传算法产生新个体的最主要途径，是核心操作。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 26,
     "accent": "#e11d48",
     "sourceNumber": 86,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 26
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-89",
@@ -1796,11 +1796,11 @@ const ALL_QUESTIONS = [
     "analysis": "变异操作可以产生原群体中没有的新基因，增加多样性，避免陷入局部最优。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 26,
     "accent": "#e11d48",
     "sourceNumber": 87,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 26
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-90",
@@ -1816,11 +1816,11 @@ const ALL_QUESTIONS = [
     "analysis": "模式定理指出：具有低阶、短定义长度且平均适应度高于群体平均值的模式会按指\n数规律增长。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 27,
     "accent": "#e11d48",
     "sourceNumber": 88,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 27
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-91",
@@ -1836,11 +1836,11 @@ const ALL_QUESTIONS = [
     "analysis": "早熟收敛是指算法过早陷入局部最优解，失去进化能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 27,
     "accent": "#e11d48",
     "sourceNumber": 89,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 27
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-92",
@@ -1856,11 +1856,11 @@ const ALL_QUESTIONS = [
     "analysis": "PSO 是由 Kennedy 和 Eberhart 模拟鸟类群体觅食行为而提出的一种群智能算\n法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 27,
     "accent": "#e11d48",
     "sourceNumber": 90,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 27
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-93",
@@ -1876,11 +1876,11 @@ const ALL_QUESTIONS = [
     "analysis": "粒子追踪自己的历史最优（pbest）和群体历史最优（gbest）进行寻优。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#e11d48",
     "sourceNumber": 91,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-94",
@@ -1896,11 +1896,11 @@ const ALL_QUESTIONS = [
     "analysis": "蚂蚁通过在路径上留下信息素来吸引其他蚂蚁，实现间接通信。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#e11d48",
     "sourceNumber": 92,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-95",
@@ -1916,11 +1916,11 @@ const ALL_QUESTIONS = [
     "analysis": "信息素随时间推移会逐渐挥发，这有助于算法摆脱较差的路径。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#e11d48",
     "sourceNumber": 93,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-96",
@@ -1936,11 +1936,11 @@ const ALL_QUESTIONS = [
     "analysis": "蚁群算法最初就是为了解决旅行商问题（TSP）而提出的，展现了强大的组合优化\n能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#e11d48",
     "sourceNumber": 94,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-97",
@@ -1956,11 +1956,11 @@ const ALL_QUESTIONS = [
     "analysis": "蚂蚁周模型利用全局信息更新信息素，通常效果最好。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#e11d48",
     "sourceNumber": 95,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-98",
@@ -1976,11 +1976,11 @@ const ALL_QUESTIONS = [
     "analysis": "和 调节粒子向 pbest 和 gbest 飞行的步长，故称加速系数。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#e11d48",
     "sourceNumber": 96,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-99",
@@ -1996,11 +1996,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能计算方法（如遗传算法、蚁群算法）属于元启发式随机优化方法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#e11d48",
     "sourceNumber": 97,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-100",
@@ -2016,11 +2016,11 @@ const ALL_QUESTIONS = [
     "analysis": "格雷码保证了相邻整数的编码仅有一位差异，克服了二进制码的“汉明悬崖”问题。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 30,
     "accent": "#e11d48",
     "sourceNumber": 98,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 30
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-101",
@@ -2036,11 +2036,11 @@ const ALL_QUESTIONS = [
     "analysis": "机器学习是研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 30,
     "accent": "#e11d48",
     "sourceNumber": 99,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 30
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-102",
@@ -2056,11 +2056,11 @@ const ALL_QUESTIONS = [
     "analysis": "Mitchell 认为，机器学习是对于某类任务 和性能度量 ，如果在经验 的帮助下，在\n上由 衡量的性能得到了改善。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 30,
     "accent": "#e11d48",
     "sourceNumber": 100,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 30
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-103",
@@ -2076,11 +2076,11 @@ const ALL_QUESTIONS = [
     "analysis": "监督学习（Supervised Learning）是从标签化的训练数据中学习一个函数或模\n型。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#e11d48",
     "sourceNumber": 101,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-104",
@@ -2096,11 +2096,11 @@ const ALL_QUESTIONS = [
     "analysis": "线性回归是利用数理统计中回归分析，来确定两种或两种以上变量间相互依赖的定\n量关系，其目标是寻找最佳拟合直线。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#e11d48",
     "sourceNumber": 102,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-105",
@@ -2116,11 +2116,11 @@ const ALL_QUESTIONS = [
     "analysis": "KNN 算法通过计算待分类样本与训练集中所有样本的距离，选取距离最近的 个邻\n居进行投票。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#e11d48",
     "sourceNumber": 103,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-106",
@@ -2136,11 +2136,11 @@ const ALL_QUESTIONS = [
     "analysis": "KNN 在训练阶段只是简单地存储数据，只有在接收到测试样本时才开始计算距离\n并进行分类。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#e11d48",
     "sourceNumber": 104,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-107",
@@ -2156,11 +2156,11 @@ const ALL_QUESTIONS = [
     "analysis": "叶节点（Leaf Node）代表最终的分类结果或决策结论。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#e11d48",
     "sourceNumber": 105,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-108",
@@ -2176,11 +2176,11 @@ const ALL_QUESTIONS = [
     "analysis": "ID3 算法使用信息增益（Information Gain）作为属性选择的标准。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#e11d48",
     "sourceNumber": 106,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-109",
@@ -2196,11 +2196,11 @@ const ALL_QUESTIONS = [
     "analysis": "SVM 的目标是寻找一个最大间隔超平面（Maximum Margin Hyperplane），以增\n强分类器的泛化能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#e11d48",
     "sourceNumber": 107,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-110",
@@ -2216,11 +2216,11 @@ const ALL_QUESTIONS = [
     "analysis": "核函数可以将非线性问题转化为高维空间中的线性问题，从而实现分类。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#e11d48",
     "sourceNumber": 108,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-111",
@@ -2236,11 +2236,11 @@ const ALL_QUESTIONS = [
     "analysis": "聚类算法不需要目标标签，而是根据数据本身的相似性进行划分，属于无监督学\n习。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#e11d48",
     "sourceNumber": 109,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-112",
@@ -2256,11 +2256,11 @@ const ALL_QUESTIONS = [
     "analysis": "K-means 通过迭代重新分配样本点并更新各簇的中心点（Centroids），直到收\n敛。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#e11d48",
     "sourceNumber": 110,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-113",
@@ -2276,11 +2276,11 @@ const ALL_QUESTIONS = [
     "analysis": "专家系统能够利用专家的知识和解决问题的方法进行推理，模拟专家的思维。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#e11d48",
     "sourceNumber": 111,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-114",
@@ -2296,11 +2296,11 @@ const ALL_QUESTIONS = [
     "analysis": "专家系统将领域知识（知识库）与推理逻辑（推理机）分离，使其具有良好的灵活\n性和可维护性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#e11d48",
     "sourceNumber": 112,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-115",
@@ -2316,11 +2316,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识库是专家系统的核心组件，存放着规则、事实和经验。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#e11d48",
     "sourceNumber": 113,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-116",
@@ -2336,11 +2336,11 @@ const ALL_QUESTIONS = [
     "analysis": "正向推理是从初始事实出发，通过规则库进行匹配，直到得出结论。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#e11d48",
     "sourceNumber": 114,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-117",
@@ -2356,11 +2356,11 @@ const ALL_QUESTIONS = [
     "analysis": "解释子系统负责向用户说明推理路径，解释“为什么”和“如何”得出当前结论。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#e11d48",
     "sourceNumber": 115,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-118",
@@ -2376,11 +2376,11 @@ const ALL_QUESTIONS = [
     "analysis": "LISP 和 PROLOG 是人工智能领域著名的逻辑型/表处理语言。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#e11d48",
     "sourceNumber": 116,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-119",
@@ -2396,11 +2396,11 @@ const ALL_QUESTIONS = [
     "analysis": "骨架系统（如 EMYCIN）是从成熟专家系统中剥离知识后留下的通用框架，用户\n只需装入新知识即可。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#e11d48",
     "sourceNumber": 117,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-120",
@@ -2416,11 +2416,11 @@ const ALL_QUESTIONS = [
     "analysis": "专家系统能利用专家在长期实践中总结出的启发式经验进行问题求解。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#e11d48",
     "sourceNumber": 118,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-121",
@@ -2436,11 +2436,11 @@ const ALL_QUESTIONS = [
     "analysis": "2024年诺奖授予了这两位科学家，表彰他们在使用人工神经网络进行机器学习方\n面的基础性发现。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#e11d48",
     "sourceNumber": 119,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-122",
@@ -2456,11 +2456,11 @@ const ALL_QUESTIONS = [
     "analysis": "树突（Dendrites）是从细胞体向外延伸出的许多分叉，负责接收输入信号。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#e11d48",
     "sourceNumber": 120,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-123",
@@ -2476,11 +2476,11 @@ const ALL_QUESTIONS = [
     "analysis": "美国心理学家McCulloch和数学家Pitts提出了M-P模型，奠定了神经网络的研究基\n础。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#e11d48",
     "sourceNumber": 121,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-124",
@@ -2496,11 +2496,11 @@ const ALL_QUESTIONS = [
     "analysis": "激活函数（Activation Function）决定神经元的输出，并为网络引入非线性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#e11d48",
     "sourceNumber": 122,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-125",
@@ -2516,15 +2516,15 @@ const ALL_QUESTIONS = [
     "analysis": "Sigmoid函数将输入映射到 区间，常用于早期的神经网络。 选项为公式内容，已保留原 PDF 题目截图。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#e11d48",
     "needsImageOptions": true,
     "questionImages": [
       "./assets/questions/ai/ai-125.png"
     ],
     "sourceNumber": 123,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-126",
@@ -2540,11 +2540,11 @@ const ALL_QUESTIONS = [
     "analysis": "BP网络是一种按误差逆传播算法训练的多层前向神经网络。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#e11d48",
     "sourceNumber": 124,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-127",
@@ -2560,11 +2560,11 @@ const ALL_QUESTIONS = [
     "analysis": "BP算法包括工作信号的正向传播和误差信号的反向传播。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#e11d48",
     "sourceNumber": 125,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-128",
@@ -2580,11 +2580,11 @@ const ALL_QUESTIONS = [
     "analysis": "BP算法沿着误差函数的负梯度方向修改权值，以使网络误差最小。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#e11d48",
     "sourceNumber": 126,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-129",
@@ -2600,11 +2600,11 @@ const ALL_QUESTIONS = [
     "analysis": "梯度下降法可能导致BP算法陷入局部最优解，而非全局最优解。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#e11d48",
     "sourceNumber": 127,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-130",
@@ -2620,11 +2620,11 @@ const ALL_QUESTIONS = [
     "analysis": "Hopfield网络是一种典型的反馈神经网络，节点之间存在反馈连接。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#e11d48",
     "sourceNumber": 128,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-131",
@@ -2640,11 +2640,11 @@ const ALL_QUESTIONS = [
     "analysis": "Hopfield网络广泛用于联想记忆和组合优化问题的求解。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#e11d48",
     "sourceNumber": 129,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-132",
@@ -2660,11 +2660,11 @@ const ALL_QUESTIONS = [
     "analysis": "深度学习通过增加隐藏层深度，提高了对复杂特征的表达能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#e11d48",
     "sourceNumber": 130,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-133",
@@ -2680,11 +2680,11 @@ const ALL_QUESTIONS = [
     "analysis": "CNN模拟了人类/动物视觉皮层对图像的处理方式（局部感受野）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#e11d48",
     "sourceNumber": 131,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-134",
@@ -2700,11 +2700,11 @@ const ALL_QUESTIONS = [
     "analysis": "卷积层通过卷积核（滤波器）对输入图像进行特征提取。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#e11d48",
     "sourceNumber": 132,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-135",
@@ -2720,11 +2720,11 @@ const ALL_QUESTIONS = [
     "analysis": "池化（如最大池化）用于减小特征图尺寸，提高模型的鲁棒性和计算效率。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#e11d48",
     "sourceNumber": 133,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-136",
@@ -2740,11 +2740,11 @@ const ALL_QUESTIONS = [
     "analysis": "GAN包含一个生成模型（Generator）和一个判别模型（Discriminator）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#e11d48",
     "sourceNumber": 134,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-137",
@@ -2760,11 +2760,11 @@ const ALL_QUESTIONS = [
     "analysis": "生成器负责生成尽可能真实的图像，使判别器难以区分。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#e11d48",
     "sourceNumber": 135,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-138",
@@ -2780,15 +2780,15 @@ const ALL_QUESTIONS = [
     "analysis": "ReLU函数在 时输出 ，在 时输出 。 选项为公式内容，已保留原 PDF 题目截图。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#e11d48",
     "needsImageOptions": true,
     "questionImages": [
       "./assets/questions/ai/ai-138.png"
     ],
     "sourceNumber": 136,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-139",
@@ -2804,11 +2804,11 @@ const ALL_QUESTIONS = [
     "analysis": "学习过程就是通过训练数据不断优化连接权值和阈值的过程。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#e11d48",
     "sourceNumber": 137,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-140",
@@ -2824,11 +2824,11 @@ const ALL_QUESTIONS = [
     "analysis": "AI主持人涉及计算机视觉、语音合成等深度学习前沿技术。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#e11d48",
     "sourceNumber": 138,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-141",
@@ -2844,11 +2844,11 @@ const ALL_QUESTIONS = [
     "analysis": "比尔·盖茨曾说过，“语言理解是人工智能皇冠上的明珠”。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#e11d48",
     "sourceNumber": 139,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-142",
@@ -2864,11 +2864,11 @@ const ALL_QUESTIONS = [
     "analysis": "微观角度看，自然语言理解是从自然语言到机器内部的一个映射。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#e11d48",
     "sourceNumber": 140,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-143",
@@ -2884,11 +2884,11 @@ const ALL_QUESTIONS = [
     "analysis": "1950年图灵发表《计算机器与智能》，提出了著名的图灵测试。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#e11d48",
     "sourceNumber": 141,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-144",
@@ -2904,11 +2904,11 @@ const ALL_QUESTIONS = [
     "analysis": "ELIZA是1966年研制成功的模拟心理医生与人交谈的系统。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#e11d48",
     "sourceNumber": 142,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-145",
@@ -2924,11 +2924,11 @@ const ALL_QUESTIONS = [
     "analysis": "词法分析研究单词的词素构成、词的结构成分。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#e11d48",
     "sourceNumber": 143,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-146",
@@ -2944,11 +2944,11 @@ const ALL_QUESTIONS = [
     "analysis": "句法分析通过单词的词类和词法属性，确定句子各成分之间的结构关系。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#e11d48",
     "sourceNumber": 144,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-147",
@@ -2964,11 +2964,11 @@ const ALL_QUESTIONS = [
     "analysis": "RNN在节点间增加了隐层状态的循环连接，使其能够利用之前的序列信息。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#e11d48",
     "sourceNumber": 145,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-148",
@@ -2984,11 +2984,11 @@ const ALL_QUESTIONS = [
     "analysis": "RNN通过隐藏状态保留历史信息，非常适合处理具有时间依赖性的序列数据。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#e11d48",
     "sourceNumber": 146,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-149",
@@ -3004,11 +3004,11 @@ const ALL_QUESTIONS = [
     "analysis": "由于权重共享和长链式乘法，标准RNN很难处理长距离依赖，容易产生梯度消\n失。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#e11d48",
     "sourceNumber": 147,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-150",
@@ -3024,11 +3024,11 @@ const ALL_QUESTIONS = [
     "analysis": "LSTM由 Hochreiter 和 Schmidhuber 于 1997 年在论文中首次提出。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#e11d48",
     "sourceNumber": 148,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-151",
@@ -3044,11 +3044,11 @@ const ALL_QUESTIONS = [
     "analysis": "LSTM包含遗忘门、输入门和输出门。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#e11d48",
     "sourceNumber": 149,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-152",
@@ -3064,11 +3064,11 @@ const ALL_QUESTIONS = [
     "analysis": "遗忘门决定从细胞状态中丢弃哪些不再需要的信息。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#e11d48",
     "sourceNumber": 150,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-153",
@@ -3084,11 +3084,11 @@ const ALL_QUESTIONS = [
     "analysis": "细胞状态类似于一条传送带，它贯穿整个链条，信息在其上流动时仅有少量的线性\n交互。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#e11d48",
     "sourceNumber": 151,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-154",
@@ -3104,11 +3104,11 @@ const ALL_QUESTIONS = [
     "analysis": "NMT通常将一种语言编码为中间向量，再由解码器映射到目标语言。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#e11d48",
     "sourceNumber": 152,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-155",
@@ -3124,11 +3124,11 @@ const ALL_QUESTIONS = [
     "analysis": "过零率（Zero Crossing Rate）描述信号中波形穿越零电平的次数。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#e11d48",
     "sourceNumber": 153,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-156",
@@ -3144,11 +3144,11 @@ const ALL_QUESTIONS = [
     "analysis": "端点检测是在包含语音的一段信号中确定语音的起点以及终点。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#e11d48",
     "sourceNumber": 154,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-157",
@@ -3164,11 +3164,11 @@ const ALL_QUESTIONS = [
     "analysis": "LPC利用语音样点间的相关性，用过去 个样点值预测当前值。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#e11d48",
     "sourceNumber": 155,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-158",
@@ -3184,11 +3184,11 @@ const ALL_QUESTIONS = [
     "analysis": "矢量量化是一种数据压缩和编码技术。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#e11d48",
     "sourceNumber": 156,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-159",
@@ -3204,11 +3204,11 @@ const ALL_QUESTIONS = [
     "analysis": "NLP的发展经历了符号学派、统计机器学习到如今的深度学习阶段。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#e11d48",
     "sourceNumber": 157,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-160",
@@ -3224,11 +3224,11 @@ const ALL_QUESTIONS = [
     "analysis": "语用分析研究特定语境下的语言意义及其应用。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#e11d48",
     "sourceNumber": 158,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-161",
@@ -3244,11 +3244,11 @@ const ALL_QUESTIONS = [
     "analysis": "AIGC 的全称是 Artificial Intelligence Generated Content，即人工智能生成内容。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#e11d48",
     "sourceNumber": 159,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-162",
@@ -3264,11 +3264,11 @@ const ALL_QUESTIONS = [
     "analysis": "AIGC 主要涵盖文本、图像、音频、视频、代码等数字内容生成的领域。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#e11d48",
     "sourceNumber": 160,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-163",
@@ -3284,11 +3284,11 @@ const ALL_QUESTIONS = [
     "analysis": "大模型能够学习语言的上下文信息和语义特征，从而提高语义理解和情感分析的效\n果。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#e11d48",
     "sourceNumber": 161,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-164",
@@ -3304,11 +3304,11 @@ const ALL_QUESTIONS = [
     "analysis": "提示工程是指通过设计和优化输入给模型的提示词（Prompt），以获得更符合预\n期的结果。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#e11d48",
     "sourceNumber": 162,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-165",
@@ -3324,11 +3324,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识蒸馏是一种模型压缩技术，通过“教师模型”指导“学生模型”学习，从而实现模\n型轻量化。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#e11d48",
     "sourceNumber": 163,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-166",
@@ -3344,11 +3344,11 @@ const ALL_QUESTIONS = [
     "analysis": "在蒸馏过程中，大型模型被称为教师模型（Teacher Model），小型模型被称为学\n生模型（Student Model）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#e11d48",
     "sourceNumber": 164,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-167",
@@ -3364,11 +3364,11 @@ const ALL_QUESTIONS = [
     "analysis": "编码器负责将输入序列处理成中间表示，解码器再将其转换为目标序列。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#e11d48",
     "sourceNumber": 165,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-168",
@@ -3384,11 +3384,11 @@ const ALL_QUESTIONS = [
     "analysis": "Transformer 是由 Google 研究人员在 2017 年的论文《Attention is All You\nNeed》中提出的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#e11d48",
     "sourceNumber": 166,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-169",
@@ -3404,11 +3404,11 @@ const ALL_QUESTIONS = [
     "analysis": "Transformer 不再使用 RNN 或 CNN 的循环或卷积结构，而是完全依赖注意力机\n制。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#e11d48",
     "sourceNumber": 167,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-170",
@@ -3424,11 +3424,11 @@ const ALL_QUESTIONS = [
     "analysis": "注意力机制模仿人类在处理大量信息时，会选择性地关注重点部分而忽略次要部\n分。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#e11d48",
     "sourceNumber": 168,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-171",
@@ -3444,11 +3444,11 @@ const ALL_QUESTIONS = [
     "analysis": "自注意力机制通过 Query（查询）、Key（键）、Value（值）的线性投影和计算\n来确定权重。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 51,
     "accent": "#e11d48",
     "sourceNumber": 169,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 51
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-172",
@@ -3464,11 +3464,11 @@ const ALL_QUESTIONS = [
     "analysis": "多头机制通过将注意力机制拆分为多个并行的“头”，使模型能够捕捉到更多样化的\n特征。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 51,
     "accent": "#e11d48",
     "sourceNumber": 170,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 51
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-173",
@@ -3484,11 +3484,11 @@ const ALL_QUESTIONS = [
     "analysis": "ChatGPT 是美国 OpenAI 公司开发的，文心一言、通义千问等是国内主流平台。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 51,
     "accent": "#e11d48",
     "sourceNumber": 171,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 51
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-174",
@@ -3504,11 +3504,11 @@ const ALL_QUESTIONS = [
     "analysis": "写作大模型展示了其强大的语言生成、提炼和润色能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 51,
     "accent": "#e11d48",
     "sourceNumber": 172,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 51
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-175",
@@ -3524,11 +3524,11 @@ const ALL_QUESTIONS = [
     "analysis": "GAN 是实现 AI 换脸、视频合成等任务的核心技术之一。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#e11d48",
     "sourceNumber": 173,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-176",
@@ -3544,11 +3544,11 @@ const ALL_QUESTIONS = [
     "analysis": "Sora 是 OpenAI 发布的文生视频大模型。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#e11d48",
     "sourceNumber": 174,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-177",
@@ -3564,11 +3564,11 @@ const ALL_QUESTIONS = [
     "analysis": "Transformer 抛弃了顺序计算，采用并行计算，这是其相对于 RNN 的重大改进。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#e11d48",
     "sourceNumber": 175,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-178",
@@ -3584,11 +3584,11 @@ const ALL_QUESTIONS = [
     "analysis": "从文本（模态1）生成图像（模态2）属于跨模态生成的范畴。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#e11d48",
     "sourceNumber": 176,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-179",
@@ -3604,11 +3604,11 @@ const ALL_QUESTIONS = [
     "analysis": "大模型在语音领域主要用于识别、合成和转换。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#e11d48",
     "sourceNumber": 177,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-180",
@@ -3624,11 +3624,11 @@ const ALL_QUESTIONS = [
     "analysis": "提供少量示例引导模型学习任务被称为 Few-shot 提示。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#e11d48",
     "sourceNumber": 178,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-181",
@@ -3644,11 +3644,11 @@ const ALL_QUESTIONS = [
     "analysis": "比尔·盖茨认为 AI 智能体将成为下一个操作系统级别的平台。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#e11d48",
     "sourceNumber": 179,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-182",
@@ -3664,11 +3664,11 @@ const ALL_QUESTIONS = [
     "analysis": "Agent 通过传感器感知环境，通过效应器作用于环境，形成闭环。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#e11d48",
     "sourceNumber": 180,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-183",
@@ -3684,11 +3684,11 @@ const ALL_QUESTIONS = [
     "analysis": "Agent 是主动的（能动性），而非被动接受指令。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#e11d48",
     "sourceNumber": 181,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-184",
@@ -3704,11 +3704,11 @@ const ALL_QUESTIONS = [
     "analysis": "反应性指 Agent 能够感知环境并做出及时的响应。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#e11d48",
     "sourceNumber": 182,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-185",
@@ -3724,11 +3724,11 @@ const ALL_QUESTIONS = [
     "analysis": "强定义强调 Agent 具有类似人类的认知属性，如 Belief（信念）、Desire（愿\n望）、Intention（意图）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#e11d48",
     "sourceNumber": 183,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-186",
@@ -3744,11 +3744,11 @@ const ALL_QUESTIONS = [
     "analysis": "简单反射 Agent 直接根据“当前”情况执行动作，不维护内部状态。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#e11d48",
     "sourceNumber": 184,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-187",
@@ -3764,11 +3764,11 @@ const ALL_QUESTIONS = [
     "analysis": "MAS 的关键在于多个 Agent 如何通过交互共同解决复杂问题。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#e11d48",
     "sourceNumber": 185,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-188",
@@ -3784,11 +3784,11 @@ const ALL_QUESTIONS = [
     "analysis": "自主型结构中每个 Agent 都是独立的，地位平等。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#e11d48",
     "sourceNumber": 186,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-189",
@@ -3804,11 +3804,11 @@ const ALL_QUESTIONS = [
     "analysis": "联络员负责管理 Agent 之间的信息交换和服务注册。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#e11d48",
     "sourceNumber": 187,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-190",
@@ -3824,11 +3824,11 @@ const ALL_QUESTIONS = [
     "analysis": "本体（Ontology）定义了交流中术语的共同含义。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#e11d48",
     "sourceNumber": 188,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-191",
@@ -3844,11 +3844,11 @@ const ALL_QUESTIONS = [
     "analysis": "FIPA-ACL 是由国际组织 FIPA 制定的标准 Agent 通信语言。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#e11d48",
     "sourceNumber": 189,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-192",
@@ -3864,11 +3864,11 @@ const ALL_QUESTIONS = [
     "analysis": "协调旨在使一组 Agent 的行为和谐，避免资源冲突或重复劳动。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#e11d48",
     "sourceNumber": 190,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-193",
@@ -3884,11 +3884,11 @@ const ALL_QUESTIONS = [
     "analysis": "集中协调由中心节点统一指挥。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#e11d48",
     "sourceNumber": 191,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-194",
@@ -3904,11 +3904,11 @@ const ALL_QUESTIONS = [
     "analysis": "协作是为了完成一个共同的、单个 Agent 无法独立完成的目标。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#e11d48",
     "sourceNumber": 192,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-195",
@@ -3924,11 +3924,11 @@ const ALL_QUESTIONS = [
     "analysis": "Agent 通过在共享的“黑板”上发布和获取信息来实现间接协作。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#e11d48",
     "sourceNumber": 193,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-196",
@@ -3944,11 +3944,11 @@ const ALL_QUESTIONS = [
     "analysis": "合同网通过招标（Manager 发起任务）和投标（Agent 响应）来分配任务。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#e11d48",
     "sourceNumber": 194,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-197",
@@ -3964,11 +3964,11 @@ const ALL_QUESTIONS = [
     "analysis": "市场机制利用价格和投标等经济手段引导 Agent 行为。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#e11d48",
     "sourceNumber": 195,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-198",
@@ -3984,11 +3984,11 @@ const ALL_QUESTIONS = [
     "analysis": "协商通常涉及提议、反提议等循环往复的交互过程。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#e11d48",
     "sourceNumber": 196,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-199",
@@ -4004,11 +4004,11 @@ const ALL_QUESTIONS = [
     "analysis": "协商协议规定了双方交互的规则，如谁先提议、如何结束等。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#e11d48",
     "sourceNumber": 197,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-200",
@@ -4024,11 +4024,11 @@ const ALL_QUESTIONS = [
     "analysis": "自行确定步骤并完成目标是 Agent 高度自治和智能的体现。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#e11d48",
     "sourceNumber": 198,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-201",
@@ -4044,11 +4044,11 @@ const ALL_QUESTIONS = [
     "analysis": "计算机游戏始于1958年的游戏“两人网球”。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#e11d48",
     "sourceNumber": 199,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-202",
@@ -4064,11 +4064,11 @@ const ALL_QUESTIONS = [
     "analysis": "应用人工智能技术设计的游戏称为人工智能游戏（AI Game），简称智能游戏。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#e11d48",
     "sourceNumber": 200,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-203",
@@ -4084,11 +4084,11 @@ const ALL_QUESTIONS = [
     "analysis": "有限状态机（FSM）是目前最常采用的游戏 AI 架构，因为它简单且易于实现。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#e11d48",
     "sourceNumber": 201,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-204",
@@ -4104,11 +4104,11 @@ const ALL_QUESTIONS = [
     "analysis": "NPC 代表非玩家控制角色。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#e11d48",
     "sourceNumber": 202,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-205",
@@ -4124,11 +4124,11 @@ const ALL_QUESTIONS = [
     "analysis": "脚本语言易于修改和快速迭代，且无需重新编译整个程序。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 61,
     "accent": "#e11d48",
     "sourceNumber": 203,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 61
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-206",
@@ -4144,11 +4144,11 @@ const ALL_QUESTIONS = [
     "analysis": "指导行为是通过计算力向量来引导角色平滑地移动。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 61,
     "accent": "#e11d48",
     "sourceNumber": 204,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 61
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-207",
@@ -4164,11 +4164,11 @@ const ALL_QUESTIONS = [
     "analysis": "拦截技术通过预测目标未来的位置来决定当前的移动方向。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 61,
     "accent": "#e11d48",
     "sourceNumber": 205,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 61
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-208",
@@ -4184,11 +4184,11 @@ const ALL_QUESTIONS = [
     "analysis": "群聚模型（Boids）模拟了鸟类或鱼类等群体的群体运动行为。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#e11d48",
     "sourceNumber": 206,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-209",
@@ -4204,11 +4204,11 @@ const ALL_QUESTIONS = [
     "analysis": "分离是为了避免群聚成员之间过于拥挤和发生碰撞。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#e11d48",
     "sourceNumber": 207,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-210",
@@ -4224,11 +4224,11 @@ const ALL_QUESTIONS = [
     "analysis": "凝聚规则引导 Agent 移向其邻居的平均位置，以保持群体的紧凑。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#e11d48",
     "sourceNumber": 208,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-211",
@@ -4244,11 +4244,11 @@ const ALL_QUESTIONS = [
     "analysis": "A* 算法是游戏开发中最流行、最有效的路径搜索算法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#e11d48",
     "sourceNumber": 209,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-212",
@@ -4264,11 +4264,11 @@ const ALL_QUESTIONS = [
     "analysis": "是启发式函数，表示当前状态到目标状态的估计代价。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#e11d48",
     "sourceNumber": 210,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-213",
@@ -4284,11 +4284,11 @@ const ALL_QUESTIONS = [
     "analysis": "导航网格（Navigation Mesh）是将复杂的场景几何体转化为可行走区域的多边形\n集合。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#e11d48",
     "sourceNumber": 211,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-214",
@@ -4304,11 +4304,11 @@ const ALL_QUESTIONS = [
     "analysis": "这些属于采用“拖、拉、放”形式开发的创作工具类软件。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#e11d48",
     "sourceNumber": 212,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-215",
@@ -4324,11 +4324,11 @@ const ALL_QUESTIONS = [
     "analysis": "VC++、Java、C#、Python 是主流的游戏编程语言，HTML 4.0 已过时且非核心逻\n辑开发语言。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#e11d48",
     "sourceNumber": 213,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-216",
@@ -4344,11 +4344,11 @@ const ALL_QUESTIONS = [
     "analysis": "案例中使用遗传算法来演化神经网络的权值，使扫雷机变得聪明。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#e11d48",
     "sourceNumber": 214,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-217",
@@ -4364,11 +4364,11 @@ const ALL_QUESTIONS = [
     "analysis": "案例选择几个神经元作为隐层，构成一个三层 BP 神经网络。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#e11d48",
     "sourceNumber": 215,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-218",
@@ -4384,11 +4384,11 @@ const ALL_QUESTIONS = [
     "analysis": "神经网络的输出直接控制扫雷机轮轨的相对速度，从而控制其移动。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#e11d48",
     "sourceNumber": 216,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-219",
@@ -4404,11 +4404,11 @@ const ALL_QUESTIONS = [
     "analysis": "游戏 AI 旨在为玩家创造更好的体验，有时为了节省资源可以使用简化的手段。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 65,
     "accent": "#e11d48",
     "sourceNumber": 217,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 65
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-220",
@@ -4424,11 +4424,11 @@ const ALL_QUESTIONS = [
     "analysis": "避障行为通过探测传感器产生与障碍物相反方向的排斥力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 65,
     "accent": "#e11d48",
     "sourceNumber": 218,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 65
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ai-221",
@@ -4445,11 +4445,11 @@ const ALL_QUESTIONS = [
     "analysis": "自然界四大奥秘为物质的本质、宇宙的起源、生命的本质、智能的发生。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 65,
     "accent": "#e11d48",
     "sourceNumber": 1,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 65
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-222",
@@ -4466,11 +4466,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能的特征包括感知能力、记忆与思维能力、学习能力、行为能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 66,
     "accent": "#e11d48",
     "sourceNumber": 2,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 66
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-223",
@@ -4487,11 +4487,11 @@ const ALL_QUESTIONS = [
     "analysis": "人工智能三大学派分别是符号主义、连接主义、行为主义。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 66,
     "accent": "#e11d48",
     "sourceNumber": 3,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 66
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-224",
@@ -4508,11 +4508,11 @@ const ALL_QUESTIONS = [
     "analysis": "基本内容涵盖知识表示、感知、思维、学习和行为五个方面。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 66,
     "accent": "#e11d48",
     "sourceNumber": 4,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 66
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-225",
@@ -4529,11 +4529,11 @@ const ALL_QUESTIONS = [
     "analysis": "无人驾驶商业化包括硬件、软件、整车制造和网络四个关键要素。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 67,
     "accent": "#e11d48",
     "sourceNumber": 5,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 67
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-226",
@@ -4550,11 +4550,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识具有相对正确性、不确定性、演化性、关联性等特点，而不是绝对静态的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 67,
     "accent": "#e11d48",
     "sourceNumber": 6,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 67
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-227",
@@ -4571,11 +4571,11 @@ const ALL_QUESTIONS = [
     "analysis": "产生式系统最适合表示经验性、启发性规则。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 67,
     "accent": "#e11d48",
     "sourceNumber": 7,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 67
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-228",
@@ -4592,11 +4592,11 @@ const ALL_QUESTIONS = [
     "analysis": "谓词逻辑具有自然、严密、模块化、精确等优点，但存在组合爆炸问题。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 68,
     "accent": "#e11d48",
     "sourceNumber": 8,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 68
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-229",
@@ -4613,11 +4613,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识图谱的核心三要素是实体、属性和关系。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 68,
     "accent": "#e11d48",
     "sourceNumber": 9,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 68
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-230",
@@ -4634,11 +4634,11 @@ const ALL_QUESTIONS = [
     "analysis": "框架由名、槽、侧面、槽值等层级组成。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 68,
     "accent": "#e11d48",
     "sourceNumber": 10,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 68
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-231",
@@ -4655,11 +4655,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识的不确定性包括随机性（偶然性）、模糊性（定义不准）、不完全性（信息不\n足）和不一致性（逻辑冲突）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 69,
     "accent": "#e11d48",
     "sourceNumber": 11,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 69
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-232",
@@ -4676,11 +4676,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT中提到的模糊判决（解模糊）方法主要包括最大隶属度法、重心法和加权平均\n法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 69,
     "accent": "#e11d48",
     "sourceNumber": 12,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 69
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-233",
@@ -4697,11 +4697,11 @@ const ALL_QUESTIONS = [
     "analysis": "D-S理论最大的特点是能够刻画由于缺乏证据而导致的“不知道”状态。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 69,
     "accent": "#e11d48",
     "sourceNumber": 13,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 69
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-234",
@@ -4718,11 +4718,11 @@ const ALL_QUESTIONS = [
     "analysis": "结论的可信度由规则本身的强度（）和证据的强度（）共同决定，计算公式为 。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 69,
     "accent": "#e11d48",
     "sourceNumber": 14,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 69
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-235",
@@ -4739,11 +4739,11 @@ const ALL_QUESTIONS = [
     "analysis": "模糊集最基础的三种运算是交（min）、并（max）和补（1-μ）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 70,
     "accent": "#e11d48",
     "sourceNumber": 15,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 70
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-236",
@@ -4760,11 +4760,11 @@ const ALL_QUESTIONS = [
     "analysis": "MCTS 由选择、拓展、模拟和反向传播四个步骤组成。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 70,
     "accent": "#e11d48",
     "sourceNumber": 16,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 70
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-237",
@@ -4781,11 +4781,11 @@ const ALL_QUESTIONS = [
     "analysis": "状态空间法通常表示为四元组 。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 70,
     "accent": "#e11d48",
     "sourceNumber": 17,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 70
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-238",
@@ -4802,11 +4802,11 @@ const ALL_QUESTIONS = [
     "analysis": "宽度优先、深度优先和回溯策略属于盲目搜索；A算法和最佳优先属于启发式搜\n索。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 71,
     "accent": "#e11d48",
     "sourceNumber": 18,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 71
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-239",
@@ -4823,11 +4823,11 @@ const ALL_QUESTIONS = [
     "analysis": "以上描述均符合搜索树的基本定义。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 71,
     "accent": "#e11d48",
     "sourceNumber": 19,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 71
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-240",
@@ -4844,11 +4844,11 @@ const ALL_QUESTIONS = [
     "analysis": "启发式信息是与问题求解有关的针对性信息，如特征、简化解或经验。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 71,
     "accent": "#e11d48",
     "sourceNumber": 20,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 71
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-241",
@@ -4865,11 +4865,11 @@ const ALL_QUESTIONS = [
     "analysis": "遗传算法不要求函数连续或可导，具有自组织性、鲁棒性、并行性及群体搜索特\n征。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 72,
     "accent": "#e11d48",
     "sourceNumber": 21,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 72
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-242",
@@ -4886,11 +4886,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT中提到的常用编码包括二进制码、格雷码、浮点数（实数）编码和符号编码。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 72,
     "accent": "#e11d48",
     "sourceNumber": 22,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 72
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-243",
@@ -4907,11 +4907,11 @@ const ALL_QUESTIONS = [
     "analysis": "代表信息素的重要性， 代表能见度（通常是距离倒数）的重要性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 72,
     "accent": "#e11d48",
     "sourceNumber": 23,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 72
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-244",
@@ -4928,11 +4928,11 @@ const ALL_QUESTIONS = [
     "analysis": "专家系统属于传统符号人工智能，不属于模仿生物群体行为的群智能算法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 73,
     "accent": "#e11d48",
     "sourceNumber": 24,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 73
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-245",
@@ -4949,11 +4949,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT 中详细介绍了改进遗传算法，包括双倍体、双种群、自适应等改进。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 73,
     "accent": "#e11d48",
     "sourceNumber": 25,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 73
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-246",
@@ -4970,11 +4970,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT中明确将机器学习按学习方式分为监督、无监督和弱监督学习三大类。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 73,
     "accent": "#e11d48",
     "sourceNumber": 26,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 73
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-247",
@@ -4991,11 +4991,11 @@ const ALL_QUESTIONS = [
     "analysis": "一个典型的专家系统通常由知识库、推理机、综合数据库、解释器、知识获取机构\n和人机界面组成。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 74,
     "accent": "#e11d48",
     "sourceNumber": 27,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 74
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-248",
@@ -5012,11 +5012,11 @@ const ALL_QUESTIONS = [
     "analysis": "决策树直观形象，分类效率高，且对数据分布要求不严，能处理非线性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 74,
     "accent": "#e11d48",
     "sourceNumber": 28,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 74
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-249",
@@ -5033,11 +5033,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识获取可以通过人工、辅助工具或机器学习自动完成。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 74,
     "accent": "#e11d48",
     "sourceNumber": 29,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 74
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-250",
@@ -5054,11 +5054,11 @@ const ALL_QUESTIONS = [
     "analysis": "根据PPT 7.1节，弱监督学习包括半监督学习、转移学习、强化学习等。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 75,
     "accent": "#e11d48",
     "sourceNumber": 30,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 75
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-251",
@@ -5075,11 +5075,11 @@ const ALL_QUESTIONS = [
     "analysis": "以上四种均为神经网络中常用的激活函数。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 75,
     "accent": "#e11d48",
     "sourceNumber": 31,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 75
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-252",
@@ -5096,11 +5096,11 @@ const ALL_QUESTIONS = [
     "analysis": "CNN的基本三层结构为卷积层、池化（采样）层和全连接层。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 75,
     "accent": "#e11d48",
     "sourceNumber": 32,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 75
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-253",
@@ -5117,11 +5117,11 @@ const ALL_QUESTIONS = [
     "analysis": "神经网络的常见学习方式包含监督、无监督和强化学习。深度学习是学习的一种架\n构，不是并列的学习方式分类。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 75,
     "accent": "#e11d48",
     "sourceNumber": 33,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 75
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-254",
@@ -5138,11 +5138,11 @@ const ALL_QUESTIONS = [
     "analysis": "Hopfield引入能量函数概念，证明了反馈网络在一定条件下能收敛到极小值点。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 76,
     "accent": "#e11d48",
     "sourceNumber": 34,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 76
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-255",
@@ -5159,11 +5159,11 @@ const ALL_QUESTIONS = [
     "analysis": "深度学习广泛应用于图像、语言、博弈等领域。专家系统属于符号主义，不属于典\n型的深度学习范畴。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 76,
     "accent": "#e11d48",
     "sourceNumber": 35,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 76
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-256",
@@ -5180,11 +5180,11 @@ const ALL_QUESTIONS = [
     "analysis": "这是一个完整的语言处理过程层次。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 76,
     "accent": "#e11d48",
     "sourceNumber": 36,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 76
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-257",
@@ -5201,11 +5201,11 @@ const ALL_QUESTIONS = [
     "analysis": "LSTM、GRU和双向网络均属于循环神经网络范畴。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 77,
     "accent": "#e11d48",
     "sourceNumber": 37,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 77
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-258",
@@ -5222,11 +5222,11 @@ const ALL_QUESTIONS = [
     "analysis": "这是经典 LSTM 的标准门控结构。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 77,
     "accent": "#e11d48",
     "sourceNumber": 38,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 77
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-259",
@@ -5243,11 +5243,11 @@ const ALL_QUESTIONS = [
     "analysis": "声波的主要物理特征是振幅和频率。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 77,
     "accent": "#e11d48",
     "sourceNumber": 39,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 77
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-260",
@@ -5264,11 +5264,11 @@ const ALL_QUESTIONS = [
     "analysis": "机器翻译从早期规则方法演进到统计学方法，再到现在的深度学习（神经翻译）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 78,
     "accent": "#e11d48",
     "sourceNumber": 40,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 78
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-261",
@@ -5285,11 +5285,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT 10.8.1 提到大模型在上述任务中都取得了显著成果。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 78,
     "accent": "#e11d48",
     "sourceNumber": 41,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 78
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-262",
@@ -5306,11 +5306,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识蒸馏的核心是教师引导、学生模仿及最终的模型轻量化。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 78,
     "accent": "#e11d48",
     "sourceNumber": 42,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 78
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-263",
@@ -5327,11 +5327,11 @@ const ALL_QUESTIONS = [
     "analysis": "这些是 Transformer Block 的标准内部组件。卷积/池化主要用于 CNN。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 79,
     "accent": "#e11d48",
     "sourceNumber": 43,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 79
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-264",
@@ -5348,11 +5348,11 @@ const ALL_QUESTIONS = [
     "analysis": "AIGC 利用大模型可以生成涵盖文本、图像、音频、视频、代码等多个领域的内\n容。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 79,
     "accent": "#e11d48",
     "sourceNumber": 44,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 79
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-265",
@@ -5369,11 +5369,11 @@ const ALL_QUESTIONS = [
     "analysis": "这是注意力机制的标准计算流程。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 79,
     "accent": "#e11d48",
     "sourceNumber": 45,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 79
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-266",
@@ -5390,11 +5390,11 @@ const ALL_QUESTIONS = [
     "analysis": "虽然 Agent 运行在环境中，但其自身结构核心为感知、决策和执行。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 80,
     "accent": "#e11d48",
     "sourceNumber": 46,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 80
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-267",
@@ -5411,11 +5411,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT 11.2 节介绍了这三种核心组织结构。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 80,
     "accent": "#e11d48",
     "sourceNumber": 47,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 80
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-268",
@@ -5432,11 +5432,11 @@ const ALL_QUESTIONS = [
     "analysis": "消息封装了“谁发给谁、想干什么、具体是什么、如何理解”等信息。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 80,
     "accent": "#e11d48",
     "sourceNumber": 48,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 80
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-269",
@@ -5453,11 +5453,11 @@ const ALL_QUESTIONS = [
     "analysis": "以上四种均为 MAS 中主流的交互和合作机制。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 81,
     "accent": "#e11d48",
     "sourceNumber": 49,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 81
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-270",
@@ -5474,11 +5474,11 @@ const ALL_QUESTIONS = [
     "analysis": "根据 PPT 11.6 节，协商概括为协议、策略和处理。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 81,
     "accent": "#e11d48",
     "sourceNumber": 50,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 81
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-271",
@@ -5495,11 +5495,11 @@ const ALL_QUESTIONS = [
     "analysis": "这是雷诺兹提出的 Boids 模型三大核心规则。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 81,
     "accent": "#e11d48",
     "sourceNumber": 51,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 81
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-272",
@@ -5516,11 +5516,11 @@ const ALL_QUESTIONS = [
     "analysis": "这些都是 PPT 中提到的游戏角色设计基本技术。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 81,
     "accent": "#e11d48",
     "sourceNumber": 52,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 81
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-273",
@@ -5537,11 +5537,11 @@ const ALL_QUESTIONS = [
     "analysis": "FSM 简单高效，但随着状态增加（状态爆炸），复杂性会显著提升，并非能无限\n处理。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 82,
     "accent": "#e11d48",
     "sourceNumber": 53,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 82
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-274",
@@ -5558,11 +5558,11 @@ const ALL_QUESTIONS = [
     "analysis": "地图划分、启发式函数和状态空间是影响搜索算法的核心因素。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 82,
     "accent": "#e11d48",
     "sourceNumber": 54,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 82
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-275",
@@ -5579,11 +5579,11 @@ const ALL_QUESTIONS = [
     "analysis": "根据 PPT 12.6 节，输入参数为视线向量和到地雷的向量。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 82,
     "accent": "#e11d48",
     "sourceNumber": 55,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 82
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "ai-276",
@@ -5597,11 +5597,11 @@ const ALL_QUESTIONS = [
     "analysis": "PPT明确指出是ABC计算机，而不是莫克利和埃柯1946年发明的ENIAC。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 83,
     "accent": "#e11d48",
     "sourceNumber": 1,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 83
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-277",
@@ -5615,11 +5615,11 @@ const ALL_QUESTIONS = [
     "analysis": "该实验旨在说明机器只是在进行符号匹配，并不真正理解其含义。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 83,
     "accent": "#e11d48",
     "sourceNumber": 2,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 83
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-278",
@@ -5633,11 +5633,11 @@ const ALL_QUESTIONS = [
     "analysis": "符号主义起源于数理逻辑，基于逻辑推理。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 83,
     "accent": "#e11d48",
     "sourceNumber": 3,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 83
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-279",
@@ -5651,11 +5651,11 @@ const ALL_QUESTIONS = [
     "analysis": "“感知-行动”是行为主义学派的方法，连接主义是基于神经网络的方法。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 83,
     "accent": "#e11d48",
     "sourceNumber": 4,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 83
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-280",
@@ -5669,11 +5669,11 @@ const ALL_QUESTIONS = [
     "analysis": "通过在云端部署算法并提供API，降低了终端设备的使用门槛。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 83,
     "accent": "#e11d48",
     "sourceNumber": 5,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 83
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-281",
@@ -5687,11 +5687,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识是关联在一起的信息，是经过加工和提炼的，两者不等同。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 83,
     "accent": "#e11d48",
     "sourceNumber": 6,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 83
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-282",
@@ -5705,11 +5705,11 @@ const ALL_QUESTIONS = [
     "analysis": "谓词逻辑通常处理确定的逻辑关系，对于不确定性、模糊性知识表现较弱。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 7,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-283",
@@ -5723,11 +5723,11 @@ const ALL_QUESTIONS = [
     "analysis": "综合数据库存放的是推理过程中的初始事实和中间状态，是动态变化的。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 8,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-284",
@@ -5741,11 +5741,11 @@ const ALL_QUESTIONS = [
     "analysis": "继承性是框架表示法的一个核心优点，可以减少冗余。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 9,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-285",
@@ -5759,11 +5759,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识图谱在本质上就是一种基于图的知识表示方式。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 10,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-286",
@@ -5777,11 +5777,11 @@ const ALL_QUESTIONS = [
     "analysis": "含义不确定属于“模糊性”，随机性是指事物发生的因果关系不确定。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 11,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-287",
@@ -5795,11 +5795,11 @@ const ALL_QUESTIONS = [
     "analysis": "是可信度的最小值，代表完全否定。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 12,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-288",
@@ -5813,11 +5813,11 @@ const ALL_QUESTIONS = [
     "analysis": "重心法考虑了整个模糊集的形状，输出更具代表性且变化更连续。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 84,
     "accent": "#e11d48",
     "sourceNumber": 13,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 84
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-289",
@@ -5831,11 +5831,11 @@ const ALL_QUESTIONS = [
     "analysis": "实际上 。 是信任下限， 是信任上限。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 14,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-290",
@@ -5849,11 +5849,11 @@ const ALL_QUESTIONS = [
     "analysis": "当隶属度只能取 0 或 1 时，模糊集合就退化为经典集合（硬集合）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 15,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-291",
@@ -5867,11 +5867,11 @@ const ALL_QUESTIONS = [
     "analysis": "盲目搜索（如 DFS）可能找到较长路径，只有特定的搜索策略（如 BFS 或满足条\n件的 A*）能保证找到最短路径。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 16,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-292",
@@ -5885,11 +5885,11 @@ const ALL_QUESTIONS = [
     "analysis": "DFS 可能会陷入深层分支，如果目标在浅层，宽度优先搜索（BFS）更合适。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 17,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-293",
@@ -5903,11 +5903,11 @@ const ALL_QUESTIONS = [
     "analysis": "此时算法退化为广度优先搜索或 Dijkstra 算法，具有完备性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 18,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-294",
@@ -5921,11 +5921,11 @@ const ALL_QUESTIONS = [
     "analysis": "反向传播阶段会将模拟阶段的奖励值传回根节点方向，更新路径上节点的统计信\n息。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 19,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-295",
@@ -5939,11 +5939,11 @@ const ALL_QUESTIONS = [
     "analysis": "启发式信息引导搜索朝更有希望的方向进行，从而减少不必要的尝试。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 85,
     "accent": "#e11d48",
     "sourceNumber": 20,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 85
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-296",
@@ -5957,11 +5957,11 @@ const ALL_QUESTIONS = [
     "analysis": "遗传算法利用概率机制进行操作，具有全局搜索的潜能。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 21,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-297",
@@ -5975,11 +5975,11 @@ const ALL_QUESTIONS = [
     "analysis": "参数设置需要均衡。交叉率过大会破坏优良基因；变异率过大会使算法退化为随机\n搜索。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 22,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-298",
@@ -5993,11 +5993,11 @@ const ALL_QUESTIONS = [
     "analysis": "这正是蚁群算法能够收敛到较短路径的核心机制。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 23,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-299",
@@ -6011,11 +6011,11 @@ const ALL_QUESTIONS = [
     "analysis": "恰恰相反，PSO 由于省去了复杂的交叉、变异操作，计算上更简单，易于实现。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 24,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-300",
@@ -6029,11 +6029,11 @@ const ALL_QUESTIONS = [
     "analysis": "进化算法模拟自然选择、遗传、变异等生物进化过程。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 25,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-301",
@@ -6047,11 +6047,11 @@ const ALL_QUESTIONS = [
     "analysis": "机器学习为专家系统提供了获取和完善知识的手段。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 26,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-302",
@@ -6065,11 +6065,11 @@ const ALL_QUESTIONS = [
     "analysis": "K 值代表目标簇的数量，是 K-means 算法的一个预设超参数。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 27,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-303",
@@ -6083,11 +6083,11 @@ const ALL_QUESTIONS = [
     "analysis": "样本不平衡会导致投票时大类样本占优，KNN 对此比较敏感。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 86,
     "accent": "#e11d48",
     "sourceNumber": 28,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 86
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-304",
@@ -6101,11 +6101,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识库由事实（静态知识）和规则（推理知识）两部分组成。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 29,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-305",
@@ -6119,11 +6119,11 @@ const ALL_QUESTIONS = [
     "analysis": "通过引入核函数，SVM 可以将线性不可分的数据映射到高维空间使其变得线性可\n分。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 30,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-306",
@@ -6137,11 +6137,11 @@ const ALL_QUESTIONS = [
     "analysis": "这是BP网络的万能逼近定理。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 31,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-307",
@@ -6155,11 +6155,11 @@ const ALL_QUESTIONS = [
     "analysis": "理想状态（纳什均衡）下，生成器生成的图像极度逼近真实，判别器无法区分，准\n确率应趋近于 50%（即随机猜测）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 32,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-308",
@@ -6173,11 +6173,11 @@ const ALL_QUESTIONS = [
     "analysis": "轴突是输出通道。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 33,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-309",
@@ -6191,11 +6191,11 @@ const ALL_QUESTIONS = [
     "analysis": "池化能保留主要特征并实现平移不变性，是CNN的关键步骤。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 34,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-310",
@@ -6209,11 +6209,11 @@ const ALL_QUESTIONS = [
     "analysis": "神经网络的分布式存储特性使其即使部分节点损坏，也能保持一定的功能。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 87,
     "accent": "#e11d48",
     "sourceNumber": 35,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 87
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-311",
@@ -6227,11 +6227,11 @@ const ALL_QUESTIONS = [
     "analysis": "NLU更侧重于对语言意义的深度理解。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 36,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-312",
@@ -6245,11 +6245,11 @@ const ALL_QUESTIONS = [
     "analysis": "权重共享使得RNN在不同时间步使用相同的转换矩阵，能够适应不同长度的输\n入。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 37,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-313",
@@ -6263,11 +6263,11 @@ const ALL_QUESTIONS = [
     "analysis": "通过门控机制，LSTM能有效缓解梯度消失问题，保留长时记忆。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 38,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-314",
@@ -6281,11 +6281,11 @@ const ALL_QUESTIONS = [
     "analysis": "过零率描述波形穿越零点的频繁程度，反映了频率高低。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 39,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-315",
@@ -6299,11 +6299,11 @@ const ALL_QUESTIONS = [
     "analysis": "机器翻译（MT）的目标是将一种自然语言（源语言）自动翻译成另一种自然语言\n（目标语言）。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 40,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-316",
@@ -6317,11 +6317,11 @@ const ALL_QUESTIONS = [
     "analysis": "AIGC 强调了 AI 的生成和创作能力。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 41,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-317",
@@ -6335,11 +6335,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识蒸馏是为了获得小型、高效的“学生模型”，从而减少推理延迟，便于在移动端\n部署。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 88,
     "accent": "#e11d48",
     "sourceNumber": 42,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 88
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-318",
@@ -6353,11 +6353,11 @@ const ALL_QUESTIONS = [
     "analysis": "注意力机制是 Transformer 各个组件的核心。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 43,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-319",
@@ -6371,11 +6371,11 @@ const ALL_QUESTIONS = [
     "analysis": "提示工程强调通过精炼和明确的提示词来引导模型。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 44,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-320",
@@ -6389,11 +6389,11 @@ const ALL_QUESTIONS = [
     "analysis": "Transformer 及其变体（如 ViT）已广泛应用于图像处理和视频生成领域。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 45,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-321",
@@ -6407,11 +6407,11 @@ const ALL_QUESTIONS = [
     "analysis": "Agent 既可以是物理机器人，也可以是运行在计算机环境中的软件程序。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 46,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-322",
@@ -6425,11 +6425,11 @@ const ALL_QUESTIONS = [
     "analysis": "还可以通过黑板模型等间接通信方式。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 47,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-323",
@@ -6443,11 +6443,11 @@ const ALL_QUESTIONS = [
     "analysis": "协作的核心优势在于资源的整合与任务的并行化。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 48,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-324",
@@ -6461,11 +6461,11 @@ const ALL_QUESTIONS = [
     "analysis": "在灵活的 MAS 中，角色是动态的，取决于谁发起了任务。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 89,
     "accent": "#e11d48",
     "sourceNumber": 49,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 89
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-325",
@@ -6479,11 +6479,11 @@ const ALL_QUESTIONS = [
     "analysis": "社会性是 Agent 能够与其他 Agent 或人类协同工作的基本特性。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 90,
     "accent": "#e11d48",
     "sourceNumber": 50,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 90
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-326",
@@ -6497,11 +6497,11 @@ const ALL_QUESTIONS = [
     "analysis": "游戏 AI 追求的是玩家的体验和适度的挑战感。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 90,
     "accent": "#e11d48",
     "sourceNumber": 51,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 90
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-327",
@@ -6515,11 +6515,11 @@ const ALL_QUESTIONS = [
     "analysis": "A* 通过启发式函数可以剪枝，避免盲目搜索所有节点。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 90,
     "accent": "#e11d48",
     "sourceNumber": 52,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 90
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-328",
@@ -6533,11 +6533,11 @@ const ALL_QUESTIONS = [
     "analysis": "这是状态机的基本定义。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 90,
     "accent": "#e11d48",
     "sourceNumber": 53,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 90
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-329",
@@ -6551,11 +6551,11 @@ const ALL_QUESTIONS = [
     "analysis": "对齐规则是为了让群体朝同一个方向前进。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 90,
     "accent": "#e11d48",
     "sourceNumber": 54,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 90
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ai-330",
@@ -6569,11 +6569,11 @@ const ALL_QUESTIONS = [
     "analysis": "脚本语言的解释执行特性使其便于在线修改逻辑。",
     "source": "人工智能",
     "subject": "人工智能",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
+    "pageNumber": 90,
     "accent": "#e11d48",
     "sourceNumber": 55,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\人工智能导论 复习资料.pdf",
-    "pageNumber": 90
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-1",
@@ -6589,11 +6589,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 1,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-2",
@@ -6609,11 +6609,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 2,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-3",
@@ -6629,11 +6629,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 3,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-4",
@@ -6649,11 +6649,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 4,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-5",
@@ -6669,11 +6669,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 5,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-6",
@@ -6689,11 +6689,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 6,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-7",
@@ -6709,11 +6709,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 7,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-8",
@@ -6729,11 +6729,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 8,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-9",
@@ -6749,11 +6749,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 9,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-10",
@@ -6769,11 +6769,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 10,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-11",
@@ -6789,11 +6789,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 11,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-12",
@@ -6809,11 +6809,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 12,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-13",
@@ -6829,11 +6829,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 13,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-14",
@@ -6849,11 +6849,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 14,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-15",
@@ -6869,11 +6869,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 15,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-16",
@@ -6889,11 +6889,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 16,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-17",
@@ -6909,11 +6909,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 17,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-18",
@@ -6929,11 +6929,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 18,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-19",
@@ -6949,11 +6949,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 19,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-20",
@@ -6969,11 +6969,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 20,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-21",
@@ -6989,11 +6989,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 21,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-22",
@@ -7009,11 +7009,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 22,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-23",
@@ -7029,11 +7029,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 23,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-24",
@@ -7049,11 +7049,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 24,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-25",
@@ -7069,11 +7069,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 25,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-26",
@@ -7089,11 +7089,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 26,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-27",
@@ -7109,11 +7109,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 27,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-28",
@@ -7129,11 +7129,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 28,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-29",
@@ -7149,11 +7149,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 29,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-30",
@@ -7169,11 +7169,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 30,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-31",
@@ -7189,11 +7189,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 31,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-32",
@@ -7209,11 +7209,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 32,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-33",
@@ -7229,11 +7229,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 33,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-34",
@@ -7249,11 +7249,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 34,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-35",
@@ -7269,11 +7269,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 35,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-36",
@@ -7289,11 +7289,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 36,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-37",
@@ -7309,11 +7309,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 37,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-38",
@@ -7329,11 +7329,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 38,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-39",
@@ -7349,11 +7349,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 39,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-40",
@@ -7369,11 +7369,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 40,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-41",
@@ -7389,11 +7389,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 41,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-42",
@@ -7409,11 +7409,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 42,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-43",
@@ -7429,11 +7429,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 43,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-44",
@@ -7449,11 +7449,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 44,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-45",
@@ -7469,11 +7469,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 45,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-46",
@@ -7489,11 +7489,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 46,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-47",
@@ -7509,11 +7509,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 47,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-48",
@@ -7529,11 +7529,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 48,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-49",
@@ -7549,11 +7549,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 49,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-50",
@@ -7569,11 +7569,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 50,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-51",
@@ -7589,11 +7589,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 51,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-52",
@@ -7609,11 +7609,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 52,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-53",
@@ -7629,11 +7629,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 53,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-54",
@@ -7649,11 +7649,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 54,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-55",
@@ -7669,11 +7669,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 55,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-56",
@@ -7689,11 +7689,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 56,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-57",
@@ -7709,11 +7709,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 57,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-58",
@@ -7729,11 +7729,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 58,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-59",
@@ -7749,11 +7749,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 59,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-60",
@@ -7769,11 +7769,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 60,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-61",
@@ -7789,11 +7789,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 61,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-62",
@@ -7809,11 +7809,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 62,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-63",
@@ -7829,11 +7829,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 63,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-64",
@@ -7849,11 +7849,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 64,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-65",
@@ -7869,11 +7869,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 C。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 65,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-66",
@@ -7889,11 +7889,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 66,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-67",
@@ -7909,11 +7909,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 D。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 67,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-68",
@@ -7929,11 +7929,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 68,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-69",
@@ -7949,11 +7949,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 B。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 69,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-70",
@@ -7969,11 +7969,11 @@ const ALL_QUESTIONS = [
     "analysis": "原复习资料标注正确答案为 A。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 70,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "db-71",
@@ -7987,11 +7987,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 1,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-72",
@@ -8005,11 +8005,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 2,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-73",
@@ -8023,11 +8023,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 3,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-74",
@@ -8041,11 +8041,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 4,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-75",
@@ -8059,11 +8059,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 5,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-76",
@@ -8077,11 +8077,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 6,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-77",
@@ -8095,11 +8095,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 7,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-78",
@@ -8113,11 +8113,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 8,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-79",
@@ -8131,11 +8131,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 9,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-80",
@@ -8149,11 +8149,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 10,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-81",
@@ -8167,11 +8167,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 11,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-82",
@@ -8185,11 +8185,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 12,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-83",
@@ -8203,11 +8203,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 13,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-84",
@@ -8221,11 +8221,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 14,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-85",
@@ -8239,11 +8239,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 15,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-86",
@@ -8257,11 +8257,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 16,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-87",
@@ -8275,11 +8275,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 17,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-88",
@@ -8293,11 +8293,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 18,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-89",
@@ -8311,11 +8311,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 19,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-90",
@@ -8329,11 +8329,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 20,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-91",
@@ -8347,11 +8347,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 21,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-92",
@@ -8365,11 +8365,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 22,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-93",
@@ -8383,11 +8383,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 23,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-94",
@@ -8401,11 +8401,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 24,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-95",
@@ -8419,11 +8419,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 25,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-96",
@@ -8437,11 +8437,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 26,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-97",
@@ -8455,11 +8455,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 27,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-98",
@@ -8473,11 +8473,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 28,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-99",
@@ -8491,11 +8491,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 29,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-100",
@@ -8509,11 +8509,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 30,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-101",
@@ -8527,11 +8527,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 31,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-102",
@@ -8545,11 +8545,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 32,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-103",
@@ -8563,11 +8563,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 33,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-104",
@@ -8581,11 +8581,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 34,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-105",
@@ -8599,11 +8599,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 35,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-106",
@@ -8617,11 +8617,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 36,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-107",
@@ -8635,11 +8635,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 37,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-108",
@@ -8653,11 +8653,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 38,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-109",
@@ -8671,11 +8671,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 39,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-110",
@@ -8689,11 +8689,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 40,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-111",
@@ -8707,11 +8707,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 41,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-112",
@@ -8725,11 +8725,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 42,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-113",
@@ -8743,11 +8743,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 43,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-114",
@@ -8761,11 +8761,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 44,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-115",
@@ -8779,11 +8779,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 45,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-116",
@@ -8797,11 +8797,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 46,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-117",
@@ -8815,11 +8815,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 47,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-118",
@@ -8833,11 +8833,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 48,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-119",
@@ -8851,11 +8851,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 49,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-120",
@@ -8869,11 +8869,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 50,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-121",
@@ -8887,11 +8887,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 51,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-122",
@@ -8905,11 +8905,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 52,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-123",
@@ -8923,11 +8923,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 53,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-124",
@@ -8941,11 +8941,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 54,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-125",
@@ -8959,11 +8959,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 55,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-126",
@@ -8977,11 +8977,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 56,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-127",
@@ -8995,11 +8995,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 57,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-128",
@@ -9013,11 +9013,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 58,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-129",
@@ -9031,11 +9031,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 59,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-130",
@@ -9049,11 +9049,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 60,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-131",
@@ -9067,11 +9067,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 61,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-132",
@@ -9085,11 +9085,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 62,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-133",
@@ -9103,11 +9103,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 63,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-134",
@@ -9121,11 +9121,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 64,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-135",
@@ -9139,11 +9139,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 65,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-136",
@@ -9157,11 +9157,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 66,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-137",
@@ -9175,11 +9175,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 67,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-138",
@@ -9193,11 +9193,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 68,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-139",
@@ -9211,11 +9211,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 69,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-140",
@@ -9229,11 +9229,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "sourceNumber": 70,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "db-141",
@@ -9245,12 +9245,12 @@ const ALL_QUESTIONS = [
     "analysis": "ER图中包括三个实体。\n比赛实体包括比赛编号、名称、时间三个属性，比赛编号为标识。\n运动员实体包括运动员编号、姓名、性别三个属性，运动员编号为标识。\n裁判员实体包括裁判员编号、姓名两个属性。裁判员编号为标识。\n实体之间的联系包括：\n裁判员和比赛实体之间存在1：N联系。\n比赛和运动员实体之间存在M：N联系，且该联系拥有一个成绩属性。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 1,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-142",
@@ -9262,12 +9262,12 @@ const ALL_QUESTIONS = [
     "analysis": "ER图中包括三个实体。\n（1）仓库实体包括仓库号、地址、电话三个属性，仓库号为标识。\n（2）零件实体包括零件号、零件名称、规格、单价四个属性，零件号为标识。\n（3）管理员实体包括工号、姓名、性别三个属性。工号为标识。\n实体之间的联系包括：\n（1）仓库和管理员实体之间存在1：N联系。\n（2）仓库和零件实体之间存在M：N联系，且该联系拥有一个库存量属性。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 2,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-143",
@@ -9279,12 +9279,12 @@ const ALL_QUESTIONS = [
     "analysis": "ER图中包括三个实体。\n（1）商店实体包括商店编号、商店名、地址三个属性，商店编号为标识。\n（2）商品实体包括商品编号、商品名、规格、单价四个属性，商品编号为标识。\n（3）职工实体包括工号、姓名、性别、业绩四个属性。工号为标识。\n实体之间的联系包括：\n（1）商店和职工实体之间存在1：N的聘用联系，且该联系有一个月薪属性。\n（2）商品和商店实体之间存在M：N联系，且该联系拥有销售月度、月销量两个属性。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 3,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-144",
@@ -9296,12 +9296,12 @@ const ALL_QUESTIONS = [
     "analysis": "ER图中包括三个实体。\n图书实体包括书号、书名、数量、位置四个属性，书号为标识。\n借书人实体包括借书证号、姓名、单位三个属性，借书证号为标识。\n出版社实体包括出版社名、地址、电话、Email三个属性。出版社名为标识。\n实体之间的联系包括：\n出版社和图书实体之间存在1：N联系。\n图书和借书人实体之间存在M：N联系，且该联系拥有一个借阅时间属性。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 4,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-145",
@@ -9313,12 +9313,12 @@ const ALL_QUESTIONS = [
     "analysis": "ER图中包括四个实体。\n（1） 学生实体包括学号、姓名、性别、年龄四个属性，学号为标识。\n（2） 课程实体包括课程号、课程名、学分三个属性，课程号为标识。\n（3） 班级实体包括班级号、班主任两个属性。班级号为标识。\n（4） 教师实体包括工号、姓名两个属性。工号为标识。\n实体之间的联系包括：\n（1） 班级和学生实体之间存在1：N联系。\n（2)   教师和课程实体之间存在1：N联系。\n（3） 学生和课程实体之间存在M：N联系，且该联系拥有一个成绩属性。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 5,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-146",
@@ -9330,12 +9330,12 @@ const ALL_QUESTIONS = [
     "analysis": "运动员（运动员编号，姓名，性别） 运动员编号为主键\n裁判（裁判员编号，姓名） 裁判员编号为主键\n比赛（比赛编号，名称，时间，裁判员编号） 比赛编号为主键，裁判员编号为外键（引用裁判表的主键）\n参加（比赛编号，运动员编号，成绩） 比赛编号和运动员编号为联合主键。比赛编号为外键（引用比赛表主键），运动员编号为外键（引用运动员表主键）",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 6,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-147",
@@ -9347,12 +9347,12 @@ const ALL_QUESTIONS = [
     "analysis": "仓库（仓库号，地址，电话）  仓库号为主键\n零件（零件号，零件名称，规格，单价）   零件号为主键\n管理员（工号，姓名，性别，仓库号） 工号为主键，仓库号为外键（引用仓库表主键）\n存放（仓库号，零件号，库存量）  仓库号和零件号为联合主键。仓库号为外键（引用仓库表主键），零件号为外键（引用零件表主键）",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 7,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-148",
@@ -9364,12 +9364,12 @@ const ALL_QUESTIONS = [
     "analysis": "商店（商店编号，商店名，地址）  商店编号为主键\n商品（商品编号，商品名，规格，单价）   商品编号为主键\n职工（工号，姓名，性别，业绩，商店编号，月薪）  工号为主键，商店编号为外键（引用商店表主键）\n销售（商店编号，商品编号，销售月度，月销量）   商店编号、商品编号、销售月度为联合主键。商店编号为外键（引用商店表主键），商品编号为外键（引用商品表主键）",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 8,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-149",
@@ -9381,12 +9381,12 @@ const ALL_QUESTIONS = [
     "analysis": "出版社（出版社名，地址，电话，Email）  出版社名为主键\n借书人（借书证号，姓名，单位）   借书证号为主键\n图书（书号，书名，数量，位置，出版社号）  书号为主键，出版社号为外键（引用出版社表的主键）\n借书（借书证号，书号，借阅时间）  借书证号、书号、借阅时间为联合主键。借书证号为外键（引用借书人表的主键），书号为外键（引用图书表的主键）",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 9,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-150",
@@ -9398,12 +9398,12 @@ const ALL_QUESTIONS = [
     "analysis": "班级（班级名，班主任）  班级名为主键\n教师（工号，姓名）   工号为主键\n学生（学号，姓名，性别，年龄，班级名） 学号为主键，班级名为外键（引用班级表的主键）\n课程（课程号，课程名，学分，工号） 课程号为主键，工号为外键（引用教师表的主键）\n选课（学号，课程号，成绩）  学号和课程号为联合主键。学号为外键（引用学生表的主键），课程号为外键（引用课程表的主键）",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 10,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-151",
@@ -9415,12 +9415,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）R最高符合2NF。由于R的主键是单一属性工号，因此必然是2NF。又由于工号->部门号，且部门号->部门名，因此工号->部门名是一个传递函数依赖，则R不符合3NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(工号，姓名，性别，部门号)，其中工号为主键，部门号为外键\nR2（部门号，部门名，部门负责人），其中部门号为主键",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 11,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-152",
@@ -9432,12 +9432,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）R最高符合1NF。由于R的主键是（学号，图书号，借阅时间）。由于（学号，图书号，借阅时间）->姓名，并且学号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2） R1（学号，姓名，性别），其中学号为主键\nR2（图书号，图书名，出版社），其中图书号为主键\nR3（学号，图书号，借阅时间），其中（学号，图书号，借阅时间）为联合主键，且存在两个外键：学号，图书号",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 12,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-153",
@@ -9449,12 +9449,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）R最高符合1NF。由于R的主键是（运动员编号，项目号）。由于（运动员编号，项目号）->姓名，并且运动员编号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(运动员编号，姓名，性别)，其中运动员编号为主键\nR2（项目号，项目名），其中项目号为主键\nR3（运动员编号，项目号，比赛成绩），其中（运动员编号，项目号）为联合主键，且存在两个外键：运动员编号，项目号",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 13,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-154",
@@ -9466,12 +9466,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）R最高符合2NF。由于R的主键是单一属性学号，因此必然是2NF。又由于学号->系号，且系号->系名，因此学号->系名是一个传递函数依赖，则R不符合3NF。（阐述理由部分可由学生自由发挥）\n（2）\nR1(学号，姓名，性别，系号)，其中学号为主键，系号为外键\nR2（系号，系名，系主任），其中系号为主键",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 14,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-155",
@@ -9483,12 +9483,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）R最高符合1NF。由于R的主键是（学号，课程号）。由于（学号，课程号）->姓名，并且学号->姓名，因此R中存在主键到非主属性的部分函数依赖，所以R不符合2NF。（阐述理由部分可由学生自由发挥）\n（2）R1（学号，姓名，性别），其中学号为主键\nR2（课程号，课程名），其中课程号为主键\nR3（学号，课程号，成绩），其中（学号，课程号）为联合主键，且存在两个外键：学号和课程号",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "design",
     "sourceNumber": 15,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-156",
@@ -9500,12 +9500,12 @@ const ALL_QUESTIONS = [
     "analysis": "create database sales",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 16,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-157",
@@ -9517,12 +9517,12 @@ const ALL_QUESTIONS = [
     "analysis": "CREATE TABLE eg\n( eid VARCHAR(30)，\ngid VARCHAR(30) ,\nquantity VARCHAR(20),\nsaledate DATETIME,\nPRIMARY KEY (eid, gid,saledate),\nFOREIGN KEY (eid) REFERENCES employee(eid),\nFOREIGN KEY (gid) REFERENCES goods(gid) )",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 17,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-158",
@@ -9534,12 +9534,12 @@ const ALL_QUESTIONS = [
     "analysis": "insert into goods values (‘BX001’,’蓝牙耳机’，‘数码配件’，299.00)",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 18,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-159",
@@ -9551,12 +9551,12 @@ const ALL_QUESTIONS = [
     "analysis": "delete from employee where eid=‘1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 19,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-160",
@@ -9568,12 +9568,12 @@ const ALL_QUESTIONS = [
     "analysis": "update employee\nset tel=’13856789012’\nwhere eid=’1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 20,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-161",
@@ -9585,12 +9585,12 @@ const ALL_QUESTIONS = [
     "analysis": "select *\nfrom employee\nwhere age between 40 and 50\norder by age asc ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 21,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-162",
@@ -9602,12 +9602,12 @@ const ALL_QUESTIONS = [
     "analysis": "select employee.eid, ename, goods.gid,gname\nfrom employee,goods,eg\nwhere employee.eid=eg.eid and goods.gid=eg.gid and saledate='2017-10-1' ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 22,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-163",
@@ -9619,12 +9619,12 @@ const ALL_QUESTIONS = [
     "analysis": "select eid, ename,tel\nfrom employee\nwhere ename like '李%' ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 23,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-164",
@@ -9636,12 +9636,12 @@ const ALL_QUESTIONS = [
     "analysis": "delimiter $$\ncreate procedure myproc\nbegin\nselect type,avg(price)\nfrom goods\ngroup by type ;\nend $$\ndelimiter ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 24,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-165",
@@ -9653,12 +9653,12 @@ const ALL_QUESTIONS = [
     "analysis": "select sum(quantity)\nfrom employee,eg\nwhere employee.eid=eg.eid and ename='李华' ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 25,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-166",
@@ -9670,12 +9670,12 @@ const ALL_QUESTIONS = [
     "analysis": "select eid, ename\nfrom employee\nwhere eid not in ( select eid\nfrom eg\nwhere saledate='2017-10-1');",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 26,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-167",
@@ -9687,12 +9687,12 @@ const ALL_QUESTIONS = [
     "analysis": "goods表与eg表做自然连接操作，然后基于条件eid=‘1001’进行选择操作，最后在gname和saledate属性做投影操作。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 27,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-168",
@@ -9704,12 +9704,12 @@ const ALL_QUESTIONS = [
     "analysis": "create database book_lib",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 28,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-169",
@@ -9721,12 +9721,12 @@ const ALL_QUESTIONS = [
     "analysis": "create table sb\n（ sid char（10），\nbid char（20），\nborrowdate datetime，\nprimary key（sid，bid），\nforeign key（sid）references student（sid），\nforeign key（bid）references book（bid））",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 29,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-170",
@@ -9738,12 +9738,12 @@ const ALL_QUESTIONS = [
     "analysis": "inset into student values(‘1001’, ‘王刚’, 20, ‘男’, ‘软件工程’)",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 30,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-171",
@@ -9755,12 +9755,12 @@ const ALL_QUESTIONS = [
     "analysis": "delete from sb where sid=‘1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 31,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-172",
@@ -9772,12 +9772,12 @@ const ALL_QUESTIONS = [
     "analysis": "update student\nset major=’人工智能’\nwhere sid=‘1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 32,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-173",
@@ -9789,12 +9789,12 @@ const ALL_QUESTIONS = [
     "analysis": "select *\nfrom student\nwhere age between 20 and 25;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 33,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-174",
@@ -9806,12 +9806,12 @@ const ALL_QUESTIONS = [
     "analysis": "select bid,bname,price\nfrom book\nwhere press='清华大学出版社'\norder by price;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 34,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-175",
@@ -9823,12 +9823,12 @@ const ALL_QUESTIONS = [
     "analysis": "select sname,age,sex,major\nfrom student\nwhere sname like '李%';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 35,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-176",
@@ -9840,12 +9840,12 @@ const ALL_QUESTIONS = [
     "analysis": "select sname,borrowdate\nfrom student,book,sb\nwhere student.sid=sb.sid and book.bid=sb.bid and bname='数据结构';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 36,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-177",
@@ -9857,12 +9857,12 @@ const ALL_QUESTIONS = [
     "analysis": "delimiter $$\ncreate procedure myprocedure\nbegin\nselect major, count(sid)\nfrom student\ngroup by major;\nend $$\ndelimiter ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 37,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-178",
@@ -9874,12 +9874,12 @@ const ALL_QUESTIONS = [
     "analysis": "select *\nfrom student\nwhere age>( select avg(age)\nfrom student);",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 38,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-179",
@@ -9891,12 +9891,12 @@ const ALL_QUESTIONS = [
     "analysis": "student、book、sb三张表做自然连接，继而基于条件age>=30进行选择操作，最后在bname列做投影操作。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 39,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-180",
@@ -9908,12 +9908,12 @@ const ALL_QUESTIONS = [
     "analysis": "create database teachingdb",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 40,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-181",
@@ -9925,12 +9925,12 @@ const ALL_QUESTIONS = [
     "analysis": "create table tc\n（ tid char（10），\ncid char（20），\nprimary key（tid，cid），\nforeign key（tid）references teacher（tid），\nforeign key（cid）references course（cid））",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 41,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-182",
@@ -9942,12 +9942,12 @@ const ALL_QUESTIONS = [
     "analysis": "insert into course values（‘C001’，’数据库’）",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 42,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-183",
@@ -9959,12 +9959,12 @@ const ALL_QUESTIONS = [
     "analysis": "delete from tc where tid=’1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 43,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-184",
@@ -9976,12 +9976,12 @@ const ALL_QUESTIONS = [
     "analysis": "update teacher\nset title=’教授’\nwhere tid=‘1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 44,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-185",
@@ -9993,12 +9993,12 @@ const ALL_QUESTIONS = [
     "analysis": "select *\nfrom teacher\nwhere age between 30 and 40\norder by age asc;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 45,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-186",
@@ -10010,12 +10010,12 @@ const ALL_QUESTIONS = [
     "analysis": "select tname,age,sex\nfrom teacher\nwhere tname like '张%';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 46,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-187",
@@ -10027,12 +10027,12 @@ const ALL_QUESTIONS = [
     "analysis": "select tid\nfrom course, tc\nwhere course.cid=tc.cid and cname='数据库';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 47,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-188",
@@ -10044,12 +10044,12 @@ const ALL_QUESTIONS = [
     "analysis": "delimiter $$\ncreate procedure myprocedure\nbegin\nselect title,count(tid)\nfrom teacher\ngroup by title;\nend $$\ndelimiter ;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 48,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-189",
@@ -10061,12 +10061,12 @@ const ALL_QUESTIONS = [
     "analysis": "select count(cid)\nfrom teacher,tc\nwhere teacher.tid=tc.tid and tname='李华';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 49,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-190",
@@ -10078,12 +10078,12 @@ const ALL_QUESTIONS = [
     "analysis": "select tid,title\nfrom teacher\nwhere sex='男' and age<( select avg(age)\nfrom teacher);",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 50,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-191",
@@ -10095,12 +10095,12 @@ const ALL_QUESTIONS = [
     "analysis": "teacher，course和tc三张表做自然连接，继而基于title=’教授’条件做选择，最后在cname列做投影。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 51,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-192",
@@ -10112,12 +10112,12 @@ const ALL_QUESTIONS = [
     "analysis": "create database booksales",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 52,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-193",
@@ -10129,12 +10129,12 @@ const ALL_QUESTIONS = [
     "analysis": "create table cb\n（ cid char（10），\nbid char（20），\nshoppingdate datetime，\nquantity int，\nprimary key（cid，bid），\nforeign key（cid）references customer（cid），\nforeign key（bid）references book（bid））",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 53,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-194",
@@ -10146,12 +10146,12 @@ const ALL_QUESTIONS = [
     "analysis": "insert into customer( cid, cname) values (‘C001’, ‘王刚’)",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 54,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-195",
@@ -10163,12 +10163,12 @@ const ALL_QUESTIONS = [
     "analysis": "delete from cb where cid=’1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 55,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-196",
@@ -10180,12 +10180,12 @@ const ALL_QUESTIONS = [
     "analysis": "update book\nset price=32\nwhere bid=‘B001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 56,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-197",
@@ -10197,12 +10197,12 @@ const ALL_QUESTIONS = [
     "analysis": "select bname,author,price\nfrom book\nwhere price between 50 and 100;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 57,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-198",
@@ -10214,12 +10214,12 @@ const ALL_QUESTIONS = [
     "analysis": "select cid,shoppingdate\nfrom cb\nwhere bid='b001'\norder by shoppingdate asc;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 58,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-199",
@@ -10231,12 +10231,12 @@ const ALL_QUESTIONS = [
     "analysis": "select cname,tel,address\nfrom customer\nwhere address like '%杨浦%';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 59,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-200",
@@ -10248,12 +10248,12 @@ const ALL_QUESTIONS = [
     "analysis": "select cname\nfrom customer,book,cb\nwhere customer.cid=cb.cid and book.bid=cb.bid\nand bname='数据库应用技术' and quantity>50;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 60,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-201",
@@ -10265,12 +10265,12 @@ const ALL_QUESTIONS = [
     "analysis": "create view myview\nas\nselect press, avg(price) as avgprice\nfrom book\ngroup by press;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 61,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-202",
@@ -10282,12 +10282,12 @@ const ALL_QUESTIONS = [
     "analysis": "select cname,tel\nfrom customer\nwhere cid not in ( select cid\nfrom cb);",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 62,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-203",
@@ -10299,12 +10299,12 @@ const ALL_QUESTIONS = [
     "analysis": "customer，book和cb三张表做自然连接，继而基于bname=’数据库应用技术’条件做选择，最后在cname列做投影。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 63,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-204",
@@ -10316,12 +10316,12 @@ const ALL_QUESTIONS = [
     "analysis": "create database teachingdb",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 64,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-205",
@@ -10333,12 +10333,12 @@ const ALL_QUESTIONS = [
     "analysis": "create table sc\n（ sid char（10），\ncid char（20），\nscore int，\nprimary key（sid，cid），\nforeign key（sid）references student（sid），\nforeign key（cid）references course（cid））",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 65,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-206",
@@ -10350,12 +10350,12 @@ const ALL_QUESTIONS = [
     "analysis": "inset into student values(‘1001’, ‘王刚’, 20, ‘男’, ‘软件工程’)",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 66,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-207",
@@ -10367,12 +10367,12 @@ const ALL_QUESTIONS = [
     "analysis": "delete from sc where cid=’1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 67,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-208",
@@ -10384,12 +10384,12 @@ const ALL_QUESTIONS = [
     "analysis": "update student\nset major=’人工智能’\nwhere sid=‘1001’",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 68,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-209",
@@ -10401,12 +10401,12 @@ const ALL_QUESTIONS = [
     "analysis": "select *\nfrom student\nwhere sex='女' and age between 20 and 30;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 69,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-210",
@@ -10418,12 +10418,12 @@ const ALL_QUESTIONS = [
     "analysis": "select sid,score\nfrom sc\nwhere cid='c001'\norder by score desc;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 70,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-211",
@@ -10435,12 +10435,12 @@ const ALL_QUESTIONS = [
     "analysis": "select sname, age, sex\nfrom student\nwhere sname like '%华%';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 71,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-212",
@@ -10452,12 +10452,12 @@ const ALL_QUESTIONS = [
     "analysis": "create view myview\nas\nselect cid, max(score) as maxscore\nfrom sc\ngroup by cid;",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 72,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-213",
@@ -10469,12 +10469,12 @@ const ALL_QUESTIONS = [
     "analysis": "select cname, score\nfrom student, course, sc\nwhere student.sid=sc.sid and course.cid=sc.cid and sname='李华';",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 73,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-214",
@@ -10486,12 +10486,12 @@ const ALL_QUESTIONS = [
     "analysis": "select cname\nfrom course\nwhere cid not in ( select cid\nfrom sc);",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 74,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "db-215",
@@ -10503,12 +10503,12 @@ const ALL_QUESTIONS = [
     "analysis": "student，course和sc三张表做自然连接，继而基于major=’机械电子’条件做选择，最后在cname列做投影。",
     "source": "数据库",
     "subject": "数据库",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
+    "pageNumber": null,
     "accent": "#14b8a6",
     "originalType": "application",
     "sourceNumber": 75,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据库原理及应用 复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "ds-1",
@@ -10524,11 +10524,11 @@ const ALL_QUESTIONS = [
     "analysis": "信息是对原始数据进行整合和分析后形成的，能够解释事物之间相互关系，且\n能够回答 “who-what-when-where” 等模式的问题。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 1,
     "accent": "#7c3aed",
     "sourceNumber": 1,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 1
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-2",
@@ -10544,11 +10544,11 @@ const ALL_QUESTIONS = [
     "analysis": "半结构化数据不需要像结构化数据那样先定义结构，其结构和数据是同时存在\n的，具有自描述性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 1,
     "accent": "#7c3aed",
     "sourceNumber": 2,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 1
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-3",
@@ -10564,11 +10564,11 @@ const ALL_QUESTIONS = [
     "analysis": "定距数据具有类别、可排序且可计算差距，但不存在绝对零点，无法进行乘除\n运算。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#7c3aed",
     "sourceNumber": 3,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-4",
@@ -10584,11 +10584,11 @@ const ALL_QUESTIONS = [
     "analysis": "2001 年高德纳咨询公司的道格 · 莱尼提出了大数据的 “3V” 模型。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#7c3aed",
     "sourceNumber": 4,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-5",
@@ -10604,11 +10604,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 数据清洗与预处理 ” 旨在确保数据质量，这一阶段最为耗时和繁琐，花费大约\n75% 的工作量。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#7c3aed",
     "sourceNumber": 5,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-6",
@@ -10624,11 +10624,11 @@ const ALL_QUESTIONS = [
     "analysis": "横截面数据是同一时间点不同单元的快照；时间序列数据是同一单元在连续时\n间点的测量；面板数据结合了二者特征，是对多个观测单元在多个时间点进行跟踪采集的\n数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 2,
     "accent": "#7c3aed",
     "sourceNumber": 6,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 2
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-7",
@@ -10644,11 +10644,11 @@ const ALL_QUESTIONS = [
     "analysis": "CSV 文件是使用逗号分隔值的纯文本文件，属于结构化数据的存储方式之一。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#7c3aed",
     "sourceNumber": 7,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-8",
@@ -10664,11 +10664,11 @@ const ALL_QUESTIONS = [
     "analysis": "1970 年 IBM 研究员 Codd 发表了关于系统数据库理论的论文，首次提出了关系模\n型的概念。 Bill Inmon 是数据仓库之父， Ralph Kimball 提出了维度建模， Doug Laney 提出\n了大数据的 3V 模型。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#7c3aed",
     "sourceNumber": 8,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-9",
@@ -10684,11 +10684,11 @@ const ALL_QUESTIONS = [
     "analysis": "隔离性指事务提交后修改永久保存，不怕故障丢失。原子性是 “ 全有或全无 ” ，一\n致性是符合架构约束，独立性是并发事务互不干扰。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 3,
     "accent": "#7c3aed",
     "sourceNumber": 9,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 3
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-10",
@@ -10704,11 +10704,11 @@ const ALL_QUESTIONS = [
     "analysis": "SELECT DISTINCT param ... 用于去重查询，保证重复的值只能出现一次。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 4,
     "accent": "#7c3aed",
     "sourceNumber": 10,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 4
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-11",
@@ -10724,11 +10724,11 @@ const ALL_QUESTIONS = [
     "analysis": "列式数据库针对读取和写入数据列进行了优化，特别适合一次性读取同一列的\n大量数据，降低磁盘 I/O 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 4,
     "accent": "#7c3aed",
     "sourceNumber": 11,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 4
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-12",
@@ -10744,11 +10744,11 @@ const ALL_QUESTIONS = [
     "analysis": "非易失性表示数据仓库环境相对稳定，数据一旦进入通常不更新或删除，操作\n主要是批量加载和查询。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 4,
     "accent": "#7c3aed",
     "sourceNumber": 12,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 4
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-13",
@@ -10764,11 +10764,11 @@ const ALL_QUESTIONS = [
     "analysis": "星型模型的维表与事实表直接相连，简单直观但有冗余；雪花模型的维度表被\n分解成多个层级，减少了冗余但模型更复杂，查询性能可能下降。星型模型通常是反规范\n化的，存在数据冗余；而雪花模型是规范化的，冗余较少。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#7c3aed",
     "sourceNumber": 13,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-14",
@@ -10784,11 +10784,11 @@ const ALL_QUESTIONS = [
     "analysis": "图数据库专门为处理高度互联数据设计，常用于社交网络、欺诈检测等场景。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#7c3aed",
     "sourceNumber": 14,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-15",
@@ -10804,11 +10804,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据仓库要求 “ 先定义模式，后写入数据 ” ，而数据湖允许数据以原始格式存储，\n数据模型可以在分析时才确定。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 5,
     "accent": "#7c3aed",
     "sourceNumber": 15,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 5
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-16",
@@ -10824,11 +10824,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据中台的核心目标是打破数据孤岛，实现数据资产的 “ 共建共享 ” ，作为连接\n“ 后台数据 ” 与 “ 前台业务 ” 的桥梁。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 6,
     "accent": "#7c3aed",
     "sourceNumber": 16,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 6
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-17",
@@ -10844,11 +10844,11 @@ const ALL_QUESTIONS = [
     "analysis": "Z-score 标准化将原始数据转换为均值为 0 、标准差为 1 的分布。与最大最小值标\n准化相比，此方法的转换结果不会被异常值干扰。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 6,
     "accent": "#7c3aed",
     "sourceNumber": 17,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 6
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-18",
@@ -10864,11 +10864,11 @@ const ALL_QUESTIONS = [
     "analysis": "流式采集是一种实时、持续地捕获并传输数据的采集模式，强调 “ 数据产生即采\n集、采集即处理 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 6,
     "accent": "#7c3aed",
     "sourceNumber": 18,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 6
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-19",
@@ -10884,11 +10884,11 @@ const ALL_QUESTIONS = [
     "analysis": "在数据建模时，可利用树状图展示决策树模型；在结果解释和部署阶段，利用\n仪表盘将复杂的模型结论转化为业务人员能理解的洞察。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 7,
     "accent": "#7c3aed",
     "sourceNumber": 19,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 7
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-20",
@@ -10904,11 +10904,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 商业软件以 Tableau 、 Power BI 为代表，采用拖拽式操作界面，交互设计能力\n强，适合企业级数据可视化分析。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 7,
     "accent": "#7c3aed",
     "sourceNumber": 20,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 7
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-21",
@@ -10924,11 +10924,11 @@ const ALL_QUESTIONS = [
     "analysis": "散点图主要用于观察数据的分布或聚类结果，不适合展示比例关系。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 7,
     "accent": "#7c3aed",
     "sourceNumber": 21,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 7
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-22",
@@ -10944,11 +10944,11 @@ const ALL_QUESTIONS = [
     "analysis": "Tableau 提供了分组功能，允许用户将某些字段合并为同一组进行分析。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#7c3aed",
     "sourceNumber": 22,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-23",
@@ -10964,11 +10964,11 @@ const ALL_QUESTIONS = [
     "analysis": "利用 Tableau 进行数据可视化中的 “ 故事 ” 部分，指出 “ 每个故事点都是一个独立的\n快照，它记录了当前的可视化状态。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#7c3aed",
     "sourceNumber": 23,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-24",
@@ -10984,11 +10984,11 @@ const ALL_QUESTIONS = [
     "analysis": "利用 Tableau 进行数据可视化中的 “ 散点图 ” 部分，点击 “ 分析 ”-“ 群集 ” ，则会使用 K\n均值方法进行聚类分析。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 8,
     "accent": "#7c3aed",
     "sourceNumber": 24,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 8
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-25",
@@ -11004,11 +11004,11 @@ const ALL_QUESTIONS = [
     "analysis": "该分析方法关心的是 “ 哪些项目按顺序先后出现 ” ，时间顺序是关键。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#7c3aed",
     "sourceNumber": 25,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-26",
@@ -11024,11 +11024,11 @@ const ALL_QUESTIONS = [
     "analysis": "推断性统计的目的是利用样本数据来对总体做出推断或预测，并对预测结果的\n不确定性进行评估。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#7c3aed",
     "sourceNumber": 26,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-27",
@@ -11044,11 +11044,11 @@ const ALL_QUESTIONS = [
     "analysis": "AlphaGo 战胜李世石的事件表明大数据成为驱动人工智能取得突破的关键性因\n素，标志着大数据与 AI 时代的到来。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#7c3aed",
     "sourceNumber": 27,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-28",
@@ -11064,11 +11064,11 @@ const ALL_QUESTIONS = [
     "analysis": "三大根本性转变分别是：从依赖随机抽样转向分析全体数据；从追求精确性转\n向接受混杂性；从关注因果关系转向重视相关关系。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 9,
     "accent": "#7c3aed",
     "sourceNumber": 28,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 9
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-29",
@@ -11084,11 +11084,11 @@ const ALL_QUESTIONS = [
     "analysis": "多样性 (Variety) ，医疗健康领域中结构化（如电子记录）与非结构化（如影\n像、基因序列）数据的融合，体现了数据形态的多元性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#7c3aed",
     "sourceNumber": 29,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-30",
@@ -11104,11 +11104,11 @@ const ALL_QUESTIONS = [
     "analysis": "世界的不确定性源于变量极多且物理世界本质不确定。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#7c3aed",
     "sourceNumber": 30,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-31",
@@ -11124,11 +11124,11 @@ const ALL_QUESTIONS = [
     "analysis": "沃尔玛的案例说明了无需探究内部机理（因果性），只需利用发现的关联关系\n（强相关性）即可进行有效预测和决策。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 10,
     "accent": "#7c3aed",
     "sourceNumber": 31,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 10
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-32",
@@ -11144,11 +11144,11 @@ const ALL_QUESTIONS = [
     "analysis": "MapReduce 的核心思想是计算机科学中的分治策略，即将大规模任务分解为子\n任务并行处理。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 11,
     "accent": "#7c3aed",
     "sourceNumber": 32,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 11
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-33",
@@ -11164,11 +11164,11 @@ const ALL_QUESTIONS = [
     "analysis": "Spark 运行速度快是因为它使用先进的 DAG 执行引擎以支持循环数据流与内存计\n算，基于内存的执行速度比 MapReduce 快上百倍。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 11,
     "accent": "#7c3aed",
     "sourceNumber": 33,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 11
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-34",
@@ -11184,11 +11184,11 @@ const ALL_QUESTIONS = [
     "analysis": "流式计算框架对无界数据流进行 “ 一次事件，一次处理 ” 的低延迟实时计算，适用\n于实时推荐等场景。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 11,
     "accent": "#7c3aed",
     "sourceNumber": 34,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 11
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-35",
@@ -11204,11 +11204,11 @@ const ALL_QUESTIONS = [
     "analysis": "R 语言秉承 “ 统计即编程 ” 的理念，且可以通过 reticulate 包实现与 Python 生态的\n互联。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#7c3aed",
     "sourceNumber": 35,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-36",
@@ -11224,11 +11224,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据层的功能是 “ 海量的数据存储及信息整合和共享 ” ，具体内容包括应用数据仓\n库和数据挖掘等技术存储和监控管理大量分散的数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#7c3aed",
     "sourceNumber": 36,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-37",
@@ -11244,11 +11244,11 @@ const ALL_QUESTIONS = [
     "analysis": "单个肿瘤患者的多期增强 CT 影像结合三维重建数据，单例患者的影像数据量普\n遍达到 60-80GB 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 12,
     "accent": "#7c3aed",
     "sourceNumber": 37,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 12
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-38",
@@ -11264,11 +11264,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据活化技术的核心思想在于将真实物理世界中的数据内在联系映射到数据存\n储与管理的数字空间中，使存储空间中相互隔离的数据变为一个有机的整体。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 13,
     "accent": "#7c3aed",
     "sourceNumber": 38,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 13
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-39",
@@ -11284,11 +11284,11 @@ const ALL_QUESTIONS = [
     "analysis": "2024 年，新加坡供水管网泄漏率降至 4.2% ，远低于全球平均水平（ 15% ）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 13,
     "accent": "#7c3aed",
     "sourceNumber": 39,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 13
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-40",
@@ -11304,11 +11304,11 @@ const ALL_QUESTIONS = [
     "analysis": "救援响应时间从以往的 15 分钟缩短至 8 分钟。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 13,
     "accent": "#7c3aed",
     "sourceNumber": 40,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 13
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-41",
@@ -11324,11 +11324,11 @@ const ALL_QUESTIONS = [
     "analysis": "国内智慧城市案例 ” 中 “ 智慧生活 ”",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#7c3aed",
     "sourceNumber": 41,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-42",
@@ -11344,11 +11344,11 @@ const ALL_QUESTIONS = [
     "analysis": "针对 “ 潮汐车流 ” ，杭州通过电子指示牌实时调整车道方向。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#7c3aed",
     "sourceNumber": 42,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-43",
@@ -11364,11 +11364,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 智慧医疗 ” ，杭州研发了 “ 医信付 —— 先诊疗，后还款 ” 模式。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#7c3aed",
     "sourceNumber": 43,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-44",
@@ -11384,11 +11384,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 智慧养老 ” ，智能床垫用于监测呼吸、翻身频率，若长时间未翻身或呼吸异常，\n触发报警。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 14,
     "accent": "#7c3aed",
     "sourceNumber": 44,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 14
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-45",
@@ -11404,11 +11404,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 智慧型的政务服务网 ” 部分，针对复杂事项，杭州推出 “ 一件事一次办 ” 集成服\n务，将多个部门的审批环节整合为 “ 一个窗口、一套材料、一次办结 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 15,
     "accent": "#7c3aed",
     "sourceNumber": 45,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 15
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-46",
@@ -11424,11 +11424,11 @@ const ALL_QUESTIONS = [
     "analysis": "感知层处于三层架构的最底层，解决的是人类世界和物理世界的数据获取问\n题，实现对 “ 物 ” 的识别。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 15,
     "accent": "#7c3aed",
     "sourceNumber": 46,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 15
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-47",
@@ -11444,11 +11444,11 @@ const ALL_QUESTIONS = [
     "analysis": "全面感知是指物联网在信息采集和信息获取的过程中，追求的不仅是信息的广\n泛和透彻，而且强调信息的精准和效用。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 15,
     "accent": "#7c3aed",
     "sourceNumber": 47,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 15
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-48",
@@ -11464,11 +11464,11 @@ const ALL_QUESTIONS = [
     "analysis": "物联网数据结构具有显著的 “ 多元性 ” 特征，从单一的结构化数据向 “ 结构化 + 半结\n构化 + 非结构化 ” 混合的方向发展，而非仅为结构化数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#7c3aed",
     "sourceNumber": 48,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-49",
@@ -11484,11 +11484,11 @@ const ALL_QUESTIONS = [
     "analysis": "ETC 系统是通过安装在车辆挡风玻璃上的车载电子标签与在收费站 ETC 车道上的\n微波天线之间的微波专用短程通信。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#7c3aed",
     "sourceNumber": 49,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-50",
@@ -11504,11 +11504,11 @@ const ALL_QUESTIONS = [
     "analysis": "封锁内嵌着温度和湿度感应器，用来监测箱内状况。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 16,
     "accent": "#7c3aed",
     "sourceNumber": 50,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 16
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-51",
@@ -11524,11 +11524,11 @@ const ALL_QUESTIONS = [
     "analysis": "访客从一进门开始，就会领到一个内建微晶片的胸针，可以预先设定偏好的温\n度、湿度、灯光等条件。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 17,
     "accent": "#7c3aed",
     "sourceNumber": 51,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 17
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-52",
@@ -11544,11 +11544,11 @@ const ALL_QUESTIONS = [
     "analysis": "2025 年 7 月，国内首条全场景智能网联公交专用道在浦东试运行，通过 5G+ 北斗\n定位与车路协同技术，实现交互。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 17,
     "accent": "#7c3aed",
     "sourceNumber": 52,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 17
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-53",
@@ -11564,11 +11564,11 @@ const ALL_QUESTIONS = [
     "analysis": "搭载多光谱相机的无人机编队通过光谱成像技术捕捉肉眼难以察觉的叶片健康\n度差异。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 17,
     "accent": "#7c3aed",
     "sourceNumber": 53,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 17
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-54",
@@ -11584,11 +11584,11 @@ const ALL_QUESTIONS = [
     "analysis": "应用层的关键技术主要有 M2M 技术、用于处理海量数据的云计算技术等。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#7c3aed",
     "sourceNumber": 54,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-55",
@@ -11604,11 +11604,11 @@ const ALL_QUESTIONS = [
     "analysis": "商务智能的概念最早由美国加特纳企业（ Gartner Group ）于 1996 年正式提\n出。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#7c3aed",
     "sourceNumber": 55,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-56",
@@ -11624,11 +11624,11 @@ const ALL_QUESTIONS = [
     "analysis": "商务智能系统通过 ETL （ Extract-Transform-Load ，数据抽取、转换、加载）将\n数据层的原始数据集成到数据仓库中。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 18,
     "accent": "#7c3aed",
     "sourceNumber": 56,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 18
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-57",
@@ -11644,11 +11644,11 @@ const ALL_QUESTIONS = [
     "analysis": "商务智能是基于大数据的管理工具，两者侧重点不同（ BI 倾向分析模式，大数\n据倾向刻画个体），且存在依存关系，但并非完全等同。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 19,
     "accent": "#7c3aed",
     "sourceNumber": 57,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 19
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-58",
@@ -11664,11 +11664,11 @@ const ALL_QUESTIONS = [
     "analysis": "OLAP 主要关注多维数据库和多维分析，使分析人员能够从多种角度对信息进行\n快速、一致、交互的存取。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 19,
     "accent": "#7c3aed",
     "sourceNumber": 58,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 19
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-59",
@@ -11684,11 +11684,11 @@ const ALL_QUESTIONS = [
     "analysis": "销售预测结果不仅为企业制定销售目标提供科学依据，更能与供应链系统深度\n协同，实现库存的优化管理。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 19,
     "accent": "#7c3aed",
     "sourceNumber": 59,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 19
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-60",
@@ -11704,11 +11704,11 @@ const ALL_QUESTIONS = [
     "analysis": "心理维度包括消费理念、品牌偏好。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#7c3aed",
     "sourceNumber": 60,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-61",
@@ -11724,11 +11724,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 系统对供应商进行多维度评估，包括产品质量、交货周期、价格水平、售后\n服务等，建立供应商信用评级体系。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#7c3aed",
     "sourceNumber": 61,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-62",
@@ -11744,11 +11744,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 系统实时采集交易数据，构建异常行为识别模型，监控大额高频转账、跨区\n域异常交易、交易习惯突变等可疑场景。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#7c3aed",
     "sourceNumber": 62,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-63",
@@ -11764,11 +11764,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 能够进一步帮助企业基于数据的透明和流程化，促进 PDCA 高效循环，提升管\n理水平。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 20,
     "accent": "#7c3aed",
     "sourceNumber": 63,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 20
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-64",
@@ -11784,11 +11784,11 @@ const ALL_QUESTIONS = [
     "analysis": "2025 年的指南提出医疗大数据具有 “ 三性 ” ：一是场景关联性；二是隐私敏感\n性；三是价值潜在性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#7c3aed",
     "sourceNumber": 64,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-65",
@@ -11804,11 +11804,11 @@ const ALL_QUESTIONS = [
     "analysis": "医学影像存档与通信系统被称为 PACS （ Picture Archiving & Communication \nSystem ）。 EMRS 是电子病历系统， LIS 是实验室信息系统， CDSS 是临床决策支持系统。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#7c3aed",
     "sourceNumber": 65,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-66",
@@ -11824,11 +11824,11 @@ const ALL_QUESTIONS = [
     "analysis": "生物信息学数据的维度极为丰富，在维度组合的多样性上远超互联网数据，常\n常出现 “ 维度组合爆炸 ” 的现象。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 21,
     "accent": "#7c3aed",
     "sourceNumber": 66,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 21
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-67",
@@ -11844,11 +11844,11 @@ const ALL_QUESTIONS = [
     "analysis": "智慧医疗通过构建跨机构信息共享平台，患者既往病史和检查报告可即时调\n取，有效避免了转诊过程中的重复检查。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 22,
     "accent": "#7c3aed",
     "sourceNumber": 67,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 22
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-68",
@@ -11864,11 +11864,11 @@ const ALL_QUESTIONS = [
     "analysis": "众安保险以用户运动量作为重大疾病保险的定价依据，将保险产品与运动场景\n相结合，用户的运动步数还可以抵扣保费。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 22,
     "accent": "#7c3aed",
     "sourceNumber": 68,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 22
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-69",
@@ -11884,11 +11884,11 @@ const ALL_QUESTIONS = [
     "analysis": "BergHealth 公司利用结合了多种组学的药物研发平台，从大量样本数据中创建\n病人 “ 图谱 ” ，进而挖掘数据，通过明确发病时细胞活动途径的改变来反向推导出合适的药物\n治疗方案。其研发周期缩短至 9~12 个月。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 22,
     "accent": "#7c3aed",
     "sourceNumber": 69,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 22
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-70",
@@ -11904,11 +11904,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 数据总量太小 ” 与医疗大数据 “ 规模大 ” 的特征矛盾。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#7c3aed",
     "sourceNumber": 70,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-71",
@@ -11924,11 +11924,11 @@ const ALL_QUESTIONS = [
     "analysis": "推荐系统基于用户过往行为 “ 预判需求 ” ，主动推送信息。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#7c3aed",
     "sourceNumber": 71,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-72",
@@ -11944,11 +11944,11 @@ const ALL_QUESTIONS = [
     "analysis": "长尾理论指出互联网平台可容纳海量 “ 非热门商品 ” ，推荐系统能打破 “ 热门垄\n断 ” ，将长尾商品精准推送，累计销售额甚至能超过热门商品。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 23,
     "accent": "#7c3aed",
     "sourceNumber": 72,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 23
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-73",
@@ -11964,11 +11964,11 @@ const ALL_QUESTIONS = [
     "analysis": "协同过滤推荐的缺点是存在 “ 冷启动问题 ”—— 新用户无交互数据、新物品无用户\n反馈时，无法生成推荐。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 24,
     "accent": "#7c3aed",
     "sourceNumber": 73,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 24
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-74",
@@ -11984,11 +11984,11 @@ const ALL_QUESTIONS = [
     "analysis": "离线计算层处理海量历史数据，周期较长，核心目标是 “ 提升推荐精准度 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 24,
     "accent": "#7c3aed",
     "sourceNumber": 74,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 24
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-75",
@@ -12004,11 +12004,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 啤酒与尿布 ” 是发现关联购物行为的经典案例，沃尔玛利用购物篮分析发现了二\n者的关联性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 24,
     "accent": "#7c3aed",
     "sourceNumber": 75,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 24
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-76",
@@ -12024,11 +12024,11 @@ const ALL_QUESTIONS = [
     "analysis": "Target 为了在婴儿出生前锁定孕妇这一高价值群体，利用大数据预测怀孕情况\n并进行精准营销。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#7c3aed",
     "sourceNumber": 76,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-77",
@@ -12044,11 +12044,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据支持的 “ 预售模式 ” 可实现 “ 零库存 ” 运营 —— 先收集订单，再生产发货，避\n免库存积压。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#7c3aed",
     "sourceNumber": 77,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-78",
@@ -12064,11 +12064,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能物流的三大特征是先进化、互连化、智能化。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#7c3aed",
     "sourceNumber": 78,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-79",
@@ -12084,11 +12084,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能物流通过大数据实现 “ 全链路可视化追踪 ” ，解决无法实时掌握货物状态的问\n题。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 25,
     "accent": "#7c3aed",
     "sourceNumber": 79,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 25
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-80",
@@ -12104,11 +12104,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能冷链通过大数据与温度传感器，实现 “ 全链路温度监控与风险预判 ” ，防止生\n鲜腐烂或药品失效。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 26,
     "accent": "#7c3aed",
     "sourceNumber": 80,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 26
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-81",
@@ -12124,11 +12124,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能选址通过人流量、消费能力、竞争格局、租金成本等维度进行分析，精准\n定位高潜力区域。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 26,
     "accent": "#7c3aed",
     "sourceNumber": 81,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 26
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-82",
@@ -12144,11 +12144,11 @@ const ALL_QUESTIONS = [
     "analysis": "奈雪的茶通过分析小红书、抖音的 “ 饮品话题 ” ，发现 “ 油柑 ” 等小众水果饮品的讨\n论量巨大，从而研发新品。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 26,
     "accent": "#7c3aed",
     "sourceNumber": 82,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 26
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-83",
@@ -12164,11 +12164,11 @@ const ALL_QUESTIONS = [
     "analysis": "Netflix 发现喜爱原版《纸牌屋》和导演大卫 · 芬奇、演员凯文 · 史派西的用户群体\n存在显著交集，基于此数据洞察决定投资。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 27,
     "accent": "#7c3aed",
     "sourceNumber": 83,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 27
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-84",
@@ -12184,11 +12184,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据能帮助平台规避 “ 高风险作品 ” ，如评估题材是否符合政策导向、主创团队\n是否存在负面舆情等。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 27,
     "accent": "#7c3aed",
     "sourceNumber": 84,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 27
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-85",
@@ -12204,11 +12204,11 @@ const ALL_QUESTIONS = [
     "analysis": "识别高潜力付费用户并推送优惠，属于会员运营中的精准触达策略，旨在提升\n付费率。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 27,
     "accent": "#7c3aed",
     "sourceNumber": 85,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 27
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-86",
@@ -12224,11 +12224,11 @@ const ALL_QUESTIONS = [
     "analysis": "O2O 的核心价值在于 “ 数据闭环 ” ，即线上引流、线下消费、用户反馈数据形成\n循环，持续优化运营。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#7c3aed",
     "sourceNumber": 86,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-87",
@@ -12244,11 +12244,11 @@ const ALL_QUESTIONS = [
     "analysis": "传统数据安全的核心聚焦数据的 “ 保密性、完整性、可用性 ” ，这是信息安全领域\n的经典安全框架。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#7c3aed",
     "sourceNumber": 87,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-88",
@@ -12264,11 +12264,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据因集中化管理，对攻击者更具吸引力，一旦突破安全屏障，攻击者可一\n次性获取海量敏感数据，收益远高于攻击传统分散数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 28,
     "accent": "#7c3aed",
     "sourceNumber": 88,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 28
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-89",
@@ -12284,11 +12284,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 高级可持续攻击 ” 具有隐蔽性、长期性特征，攻击者会利用大数据技术隐藏攻击\n轨迹，通过持续渗透逐步获取数据，传统检测手段难以识别。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#7c3aed",
     "sourceNumber": 89,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-90",
@@ -12304,11 +12304,11 @@ const ALL_QUESTIONS = [
     "analysis": "美国国家安全局与微软、谷歌、苹果等国际互联网企业达成合作，直接接入这\n些企业的核心服务器，通过技术手段挖掘数据、收集情报。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#7c3aed",
     "sourceNumber": 90,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-91",
@@ -12324,11 +12324,11 @@ const ALL_QUESTIONS = [
     "analysis": "Facebook 虽声称用户数据获取 “ 经过授权 ” ，但剑桥分析将数据用于 “ 影响政治决\n策 ” 的目的，远超用户授权范围，属于 “ 数据滥用 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#7c3aed",
     "sourceNumber": 91,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-92",
@@ -12344,11 +12344,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 撞库 ” 即利用此前其他游戏网站、论坛泄露的 “ 用户名 + 密码 ” 组合，批量尝试登\n录 12306 平台。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 29,
     "accent": "#7c3aed",
     "sourceNumber": 92,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 29
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-93",
@@ -12364,11 +12364,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据主权是指一个国家对其管辖范围内的数据拥有独立自主的占有、管理、控\n制、利用和保护的权力。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 30,
     "accent": "#7c3aed",
     "sourceNumber": 93,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 30
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-94",
@@ -12384,11 +12384,11 @@ const ALL_QUESTIONS = [
     "analysis": "云杀毒软件依托庞大的网络服务实时采集、分析全网数据，利用云计算基础设\n施与大数据分析技术，实现 “ 全网协同防御 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 30,
     "accent": "#7c3aed",
     "sourceNumber": 94,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 30
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-95",
@@ -12404,11 +12404,11 @@ const ALL_QUESTIONS = [
     "analysis": "知情同意原则要求数据采集需获得数据主体的明确授权，且需告知采集目的、\n范围与用途，禁止 “ 隐蔽采集 ” 、 “ 过度采集 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 30,
     "accent": "#7c3aed",
     "sourceNumber": 95,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 30
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-96",
@@ -12424,11 +12424,11 @@ const ALL_QUESTIONS = [
     "analysis": "数字鸿沟指先进技术的成果不能为人公正分享，造成 “ 富者越富、穷者越穷 ” ，是\n个体在数据获取与利用能力上的差异导致的社会公平问题。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#7c3aed",
     "sourceNumber": 96,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-97",
@@ -12444,11 +12444,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据垄断表现之一是利用数据优势设置行业进入壁垒或扩张壁垒，阻碍新企业\n进入市场。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#7c3aed",
     "sourceNumber": 97,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-98",
@@ -12464,11 +12464,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据杀熟利用数据优势 “ 剥削 ” 忠实用户，违背了 “ 公平交易 ” 的道德原则。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#7c3aed",
     "sourceNumber": 98,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-99",
@@ -12484,11 +12484,11 @@ const ALL_QUESTIONS = [
     "analysis": "信息茧房使用户被局限在自身偏好的信息圈层中，丧失对多元信息的接触机\n会，加剧 “ 认知固化 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 31,
     "accent": "#7c3aed",
     "sourceNumber": 99,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 31
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-100",
@@ -12504,11 +12504,11 @@ const ALL_QUESTIONS = [
     "analysis": "算法逐渐呈现 “ 极致优化 ” 倾向，将 “ 理想状态 ” 等同于 “ 标准要求 ” ，对效率的单一\n追求挤压了骑手的权益空间。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#7c3aed",
     "sourceNumber": 100,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "ds-101",
@@ -12522,11 +12522,11 @@ const ALL_QUESTIONS = [
     "analysis": "知识能够回答 “how” （如何做）这类模式的问题；而智慧才能够回答 “why” （为\n什么）以及 “what-to-do” 的问题。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#7c3aed",
     "sourceNumber": 1,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-102",
@@ -12540,11 +12540,11 @@ const ALL_QUESTIONS = [
     "analysis": "非结构化数据约占总数据量的 80% 以上。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#7c3aed",
     "sourceNumber": 2,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-103",
@@ -12558,11 +12558,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据科学建立在计算机科学、统计学与数学、领域知识这三大支柱之上。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 32,
     "accent": "#7c3aed",
     "sourceNumber": 3,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 32
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-104",
@@ -12576,11 +12576,11 @@ const ALL_QUESTIONS = [
     "analysis": "JSON 是当前最流行的 Web 数据交换格式，属于常见的半结构化数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#7c3aed",
     "sourceNumber": 4,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-105",
@@ -12594,11 +12594,11 @@ const ALL_QUESTIONS = [
     "analysis": "定序数据具有排序关系，但是不同等级数据的差距无法精细度量，不能做加减\n操作。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#7c3aed",
     "sourceNumber": 5,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-106",
@@ -12612,11 +12612,11 @@ const ALL_QUESTIONS = [
     "analysis": "除了评估模型的泛化能力（技术性能），还必须 “ 在业务层面上确认性能指标是\n否达到了第一阶段设定的成功标准 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#7c3aed",
     "sourceNumber": 6,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-107",
@@ -12630,11 +12630,11 @@ const ALL_QUESTIONS = [
     "analysis": "Edgar Codd 在 1970 年发表论文提出了关系模型，奠定了关系型数据库的理论基\n础。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#7c3aed",
     "sourceNumber": 7,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-108",
@@ -12648,11 +12648,11 @@ const ALL_QUESTIONS = [
     "analysis": "关系数据库缺点：一般是由主数据库负责数据的写入，由从数据库负责数据的\n读入。关系数据库不善于处理大数据的写入操作。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#7c3aed",
     "sourceNumber": 8,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-109",
@@ -12666,11 +12666,11 @@ const ALL_QUESTIONS = [
     "analysis": "NoSQL 数据库与关系数据库是互补关系，而非替代关系。它们各自有不可替代\n的优势。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 33,
     "accent": "#7c3aed",
     "sourceNumber": 9,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 33
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-110",
@@ -12684,11 +12684,11 @@ const ALL_QUESTIONS = [
     "analysis": "文档数据库旨在将半结构化数据存储为文档，每个 NoSQL 文档的架构是不同\n的。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#7c3aed",
     "sourceNumber": 10,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-111",
@@ -12702,11 +12702,11 @@ const ALL_QUESTIONS = [
     "analysis": "OLTP 用于日常业务运营，涉及高频的增删查改； OLAP 才用于支持管理层决\n策，涉及大规模查询和聚合。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#7c3aed",
     "sourceNumber": 11,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-112",
@@ -12720,11 +12720,11 @@ const ALL_QUESTIONS = [
     "analysis": "ODS 充当操作环境与分析环境之间的缓冲区，确实具备上述双重特性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#7c3aed",
     "sourceNumber": 12,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-113",
@@ -12738,11 +12738,11 @@ const ALL_QUESTIONS = [
     "analysis": "事实表存储业务的度量值，维度表存储上下文信息。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#7c3aed",
     "sourceNumber": 13,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-114",
@@ -12756,11 +12756,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据湖五大核心要素的描述，核心存储层采用对象存储作为底层存储。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#7c3aed",
     "sourceNumber": 14,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-115",
@@ -12774,11 +12774,11 @@ const ALL_QUESTIONS = [
     "analysis": "键值存储数据库针对性能优化，将数据存储在内存中。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 34,
     "accent": "#7c3aed",
     "sourceNumber": 15,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 34
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-116",
@@ -12792,11 +12792,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据中台主要面向业务而非面向技术，其核心目标是提升数据共享和复用能\n力，支撑前台业务。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#7c3aed",
     "sourceNumber": 16,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-117",
@@ -12810,11 +12810,11 @@ const ALL_QUESTIONS = [
     "analysis": "对于有序类别数据，最常用的方法是序数编码。独热编码通常用于无序类别数\n据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#7c3aed",
     "sourceNumber": 17,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-118",
@@ -12828,11 +12828,11 @@ const ALL_QUESTIONS = [
     "analysis": "样本不均衡指不同类别样本数量相差悬殊。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#7c3aed",
     "sourceNumber": 18,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-119",
@@ -12846,11 +12846,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据可视化并非数据科学工作流中一个独立展示环节，它在数据科学的每一个\n阶段（包括数据获取、探索、建模、结果解释等）均可发挥重要作用。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#7c3aed",
     "sourceNumber": 19,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-120",
@@ -12864,11 +12864,11 @@ const ALL_QUESTIONS = [
     "analysis": "Nathan Yau 在《数据可视化指南》中表达：把数字置于视觉空间中，大脑更容\n易发现潜藏模式。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 35,
     "accent": "#7c3aed",
     "sourceNumber": 20,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 35
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-121",
@@ -12882,11 +12882,11 @@ const ALL_QUESTIONS = [
     "analysis": "无需强制手动输入经纬度（除非数据源无法识别）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#7c3aed",
     "sourceNumber": 21,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-122",
@@ -12900,11 +12900,11 @@ const ALL_QUESTIONS = [
     "analysis": "利用 Tableau 进行数据可视化：在筛选框的下拉菜单中选择 “ 应用于工作表 ”-“ 使\n用此数据源的所有项 ” ，则可以在筛选时同步更改相关的其他图表。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#7c3aed",
     "sourceNumber": 22,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-123",
@@ -12918,11 +12918,11 @@ const ALL_QUESTIONS = [
     "analysis": "复制图表中的数据，可直接粘贴至 Excel 表格中。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#7c3aed",
     "sourceNumber": 23,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-124",
@@ -12936,11 +12936,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 突出显示表 ” ：操作步骤是将利润拖入 “ 标记 ”-“ 颜色 ” ，并编辑颜色属性选择渐变\n颜色。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#7c3aed",
     "sourceNumber": 24,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-125",
@@ -12954,11 +12954,11 @@ const ALL_QUESTIONS = [
     "analysis": "回归分析用于研究变量间的定量关系并进行预测，回归问题的输出是连续的数\n值型数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#7c3aed",
     "sourceNumber": 25,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-126",
@@ -12972,11 +12972,11 @@ const ALL_QUESTIONS = [
     "analysis": "聚类分析是在没有预设答案的前提下，实现对象的 “ 物以类聚 ” ，要求簇内相似度\n高，簇间差异明显。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 36,
     "accent": "#7c3aed",
     "sourceNumber": 26,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 36
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-127",
@@ -12990,11 +12990,11 @@ const ALL_QUESTIONS = [
     "analysis": "小数据时代的核心特征。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 27,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-128",
@@ -13008,11 +13008,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 大数据摩尔定律 ” 是指数据总量每两年翻一番，而不是每五年。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 28,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-129",
@@ -13026,11 +13026,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据价值特征包含两方面：一是原始数据价值密度低，二是大数据背后潜藏\n的价值巨大。两者并不矛盾。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 29,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-130",
@@ -13044,11 +13044,11 @@ const ALL_QUESTIONS = [
     "analysis": "机械思维是以确定性为核心，建立在经典物理理论之上，强调精确的因果关\n系。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 30,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-131",
@@ -13062,11 +13062,11 @@ const ALL_QUESTIONS = [
     "analysis": "香农信息论中信息熵越大，则不确定性越高。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 31,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-132",
@@ -13080,11 +13080,11 @@ const ALL_QUESTIONS = [
     "analysis": "Map 阶段负责分解映射（拆分任务），而 Reduce 阶段负责归约聚合（合并结\n果）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 32,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-133",
@@ -13098,11 +13098,11 @@ const ALL_QUESTIONS = [
     "analysis": "Storm 采用事件驱动的流处理模型，以低延迟响应为首要优化指标；而\nMapReduce 才是面向批处理且追求高吞吐量。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 37,
     "accent": "#7c3aed",
     "sourceNumber": 33,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 37
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-134",
@@ -13116,11 +13116,11 @@ const ALL_QUESTIONS = [
     "analysis": "文档 “ 处理框架 Pregel” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#7c3aed",
     "sourceNumber": 34,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-135",
@@ -13134,11 +13134,11 @@ const ALL_QUESTIONS = [
     "analysis": "Tableau 通过直观的拖放式操作界面，用户无需编程即可快速构建可视化图表，\n理念是 “ 人人可用的数据分析 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#7c3aed",
     "sourceNumber": 35,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-136",
@@ -13152,11 +13152,11 @@ const ALL_QUESTIONS = [
     "analysis": "智慧城市的基础除了物联网、云计算等基础设施外，还包括维基、社交网络、\nFabLab 、 Living Lab 等工具和方法的应用。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#7c3aed",
     "sourceNumber": 36,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-137",
@@ -13170,11 +13170,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据的多尺度与多粒度，地理采样粒度可以像遥感测绘数据一样精确到数米。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#7c3aed",
     "sourceNumber": 37,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-138",
@@ -13188,11 +13188,11 @@ const ALL_QUESTIONS = [
     "analysis": "分布式数据库、 Hadoop 等现有方式 “ 尚无法完全满足 ” 智慧城市应用的实时性和\n灵活性要求。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 38,
     "accent": "#7c3aed",
     "sourceNumber": 38,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 38
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-139",
@@ -13206,11 +13206,11 @@ const ALL_QUESTIONS = [
     "analysis": "智能交通系统运用于地铁线路上的列车调配，列车可根据客流量自动调节发车\n间隔时间。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#7c3aed",
     "sourceNumber": 39,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-140",
@@ -13224,11 +13224,11 @@ const ALL_QUESTIONS = [
     "analysis": "2014 年发布的是全球首个 “ 智慧国 ” 蓝图，而 “ 智慧国 2.0” 战略升级方案是在 2024\n年正式推出的。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#7c3aed",
     "sourceNumber": 40,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-141",
@@ -13242,11 +13242,11 @@ const ALL_QUESTIONS = [
     "analysis": "通过区块链技术实现货物全流程追踪，数据不可篡改，减少单据伪造风险。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#7c3aed",
     "sourceNumber": 41,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-142",
@@ -13260,11 +13260,11 @@ const ALL_QUESTIONS = [
     "analysis": "系统不仅能动态调整配时，还能 “ 根据突发情况（如交通事故、临时管制）快速\n调整信号 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#7c3aed",
     "sourceNumber": 42,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-143",
@@ -13278,11 +13278,11 @@ const ALL_QUESTIONS = [
     "analysis": "智慧医疗平台整合了 15 家市属医院和 89 家社区卫生服务中心的电子病历数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#7c3aed",
     "sourceNumber": 43,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-144",
@@ -13296,11 +13296,11 @@ const ALL_QUESTIONS = [
     "analysis": "平台向社会开放 300 余项公共数据，企业与市民可免费查询、下载，用于创新应\n用开发。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 39,
     "accent": "#7c3aed",
     "sourceNumber": 44,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 39
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-145",
@@ -13314,11 +13314,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据可视化可以很好地填补技术到用户之间的理解鸿沟，将数据以简洁且易于\n理解的方式呈现。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#7c3aed",
     "sourceNumber": 45,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-146",
@@ -13332,11 +13332,11 @@ const ALL_QUESTIONS = [
     "analysis": "物联网的核心和基础仍然是互联网，是在互联网基础之上延伸和扩展的一种网\n络。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#7c3aed",
     "sourceNumber": 46,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-147",
@@ -13350,11 +13350,11 @@ const ALL_QUESTIONS = [
     "analysis": "物联网网络层将承担比现有网络更大的数据量和面临更高的服务质量要求，所\n以现有网络尚不能满足物联网的需求，这就意味着物联网需要对现有网络进行融合和扩\n展。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#7c3aed",
     "sourceNumber": 47,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-148",
@@ -13368,11 +13368,11 @@ const ALL_QUESTIONS = [
     "analysis": "以 “ 智能分布式 ” 控制交通流网络平衡技术最大限度保证道路交叉口的通行顺畅。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#7c3aed",
     "sourceNumber": 48,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-149",
@@ -13386,11 +13386,11 @@ const ALL_QUESTIONS = [
     "analysis": "无人车完全由电子计算机操纵，对物流路线规划、信息接收传递更为敏感。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#7c3aed",
     "sourceNumber": 49,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-150",
@@ -13404,11 +13404,11 @@ const ALL_QUESTIONS = [
     "analysis": "封锁可设置在海上或非信号范围内不激活。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 40,
     "accent": "#7c3aed",
     "sourceNumber": 50,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 40
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-151",
@@ -13422,11 +13422,11 @@ const ALL_QUESTIONS = [
     "analysis": "安全系统有两套，当一套发生故障时，另一套能自动激活，立即接替工作。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#7c3aed",
     "sourceNumber": 51,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-152",
@@ -13440,11 +13440,11 @@ const ALL_QUESTIONS = [
     "analysis": "依托蚂蚁金服的人脸识别算法，在 1:3000 身份识别场景下实测识别率超 95% ，\n乘客无需停留即可快速通过闸机。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#7c3aed",
     "sourceNumber": 52,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-153",
@@ -13458,11 +13458,11 @@ const ALL_QUESTIONS = [
     "analysis": "系统不再依赖固定周期浇水，而是根据土壤湿度传感器数据、葡萄生长阶段及\n天气预报，自动生成个性化灌溉方案。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#7c3aed",
     "sourceNumber": 53,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-154",
@@ -13476,11 +13476,11 @@ const ALL_QUESTIONS = [
     "analysis": "物联网不仅仅提供了传感器的连接，也能将传感器和智能处理相结合，具有智\n能处理的能力。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#7c3aed",
     "sourceNumber": 54,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-155",
@@ -13494,11 +13494,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 并不全是新的技术，而是对一些现代技术（如数据仓库、数据分析、数据挖\n掘等）的综合运用。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#7c3aed",
     "sourceNumber": 55,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-156",
@@ -13512,11 +13512,11 @@ const ALL_QUESTIONS = [
     "analysis": "企业级商务智能系统的层次架构中，数据层位于最底层负责收集数据，决策层\n位于最顶层，用户运用系统提供的分析结果指导行动。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 41,
     "accent": "#7c3aed",
     "sourceNumber": 56,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 41
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-157",
@@ -13530,11 +13530,11 @@ const ALL_QUESTIONS = [
     "analysis": "目前企业中 80% 以上的数据属于非结构化数据，且正以每年 55%~65% 的速度快\n速增长。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 57,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-158",
@@ -13548,11 +13548,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据可视化的具体形式分为报表和可视化图表两大类。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 58,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-159",
@@ -13566,11 +13566,11 @@ const ALL_QUESTIONS = [
     "analysis": "销售业绩分析与监控维度包括时间维度、区域维度、产品维度以及销售人员维\n度。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 59,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-160",
@@ -13584,11 +13584,11 @@ const ALL_QUESTIONS = [
     "analysis": "电商平台发现购买手机的客户会购买手机壳，从而进行推荐，这属于交叉销\n售。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 60,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-161",
@@ -13602,11 +13602,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 系统通过精细化拆分与分析成本数据，可以识别成本管控的关键环节。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 61,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-162",
@@ -13620,11 +13620,11 @@ const ALL_QUESTIONS = [
     "analysis": "构建 360 度客户画像需要整合企业内部各系统的数据，同时结合外部数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 62,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-163",
@@ -13638,11 +13638,11 @@ const ALL_QUESTIONS = [
     "analysis": "BI 系统通过自然语言处理技术解析财经新闻、研报观点，量化舆情对资产价格\n的影响。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 42,
     "accent": "#7c3aed",
     "sourceNumber": 63,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 42
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-164",
@@ -13656,11 +13656,11 @@ const ALL_QUESTIONS = [
     "analysis": "医疗大数据狭义上是从因疾病而产生的数据，现在已经扩展到健康状态下的人\n体所有体征数据 …… 涵盖人的全生命周期。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#7c3aed",
     "sourceNumber": 64,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-165",
@@ -13674,11 +13674,11 @@ const ALL_QUESTIONS = [
     "analysis": "医疗大数据具有 “ 增长快 ” 的特征，存在大量在线或实时数据分析处理的需求，且\n保持高速增长态势。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#7c3aed",
     "sourceNumber": 65,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-166",
@@ -13692,11 +13692,11 @@ const ALL_QUESTIONS = [
     "analysis": "随着测序技术的突破，人类基因组测序成本从 2000 年的约 1 亿美元大幅降至如\n今的 1000 美元左右。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#7c3aed",
     "sourceNumber": 66,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-167",
@@ -13710,11 +13710,11 @@ const ALL_QUESTIONS = [
     "analysis": "智慧医疗的核心就是 “ 以患者为中心 ” ，给予患者以全面、专业、个性化的医疗体\n验。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#7c3aed",
     "sourceNumber": 67,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-168",
@@ -13728,11 +13728,11 @@ const ALL_QUESTIONS = [
     "analysis": "沃森机器人医生是为医生提出规范化临床路径及个体化治疗建议，协助医生做\n出最佳诊断。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 43,
     "accent": "#7c3aed",
     "sourceNumber": 68,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 43
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-169",
@@ -13746,11 +13746,11 @@ const ALL_QUESTIONS = [
     "analysis": "2014 年哈佛大学公共卫生学院的研究人员成功预测了巴基斯坦登革热的蔓延趋\n势。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#7c3aed",
     "sourceNumber": 69,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-170",
@@ -13764,11 +13764,11 @@ const ALL_QUESTIONS = [
     "analysis": "大量数据来源于人工记录，导致数据记录的残缺和偏差，这使得医疗大数据具\n有不完整性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#7c3aed",
     "sourceNumber": 70,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-171",
@@ -13782,11 +13782,11 @@ const ALL_QUESTIONS = [
     "analysis": "基于内容的推荐核心逻辑是 “ 推荐相似特征的物品 ” ，缺陷是容易陷入 “ 推荐同质\n化 ” ，用户长期只能收到同类内容。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#7c3aed",
     "sourceNumber": 71,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-172",
@@ -13800,11 +13800,11 @@ const ALL_QUESTIONS = [
     "analysis": "协同过滤推荐的核心逻辑是 “ 不依赖物品本身的特征 ” ，而是通过分析用户与物品\n的交互关系（如购买、评分）来实现推荐。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#7c3aed",
     "sourceNumber": 72,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-173",
@@ -13818,11 +13818,11 @@ const ALL_QUESTIONS = [
     "analysis": "实时计算层响应时间要求极高，通常采用简单高效的算法；离线计算层才适合\n采用复杂模型提升精度。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#7c3aed",
     "sourceNumber": 73,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-174",
@@ -13836,11 +13836,11 @@ const ALL_QUESTIONS = [
     "analysis": "长尾理论指出互联网平台无物理空间限制，海量长尾商品总量庞大，累计销售\n额甚至能超过热门商品。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 44,
     "accent": "#7c3aed",
     "sourceNumber": 74,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 44
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-175",
@@ -13854,11 +13854,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据共享是为了让供应商调整生产计划，实现 “ 以销定产 ” ，结果是双方的库存成\n本均降低，而非增加。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#7c3aed",
     "sourceNumber": 75,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-176",
@@ -13872,11 +13872,11 @@ const ALL_QUESTIONS = [
     "analysis": "前置仓模式是将高频购买的商品提前存储在 “ 靠近用户 ” 的仓库，而非远离城市的\n中央仓库，目的是缩短配送时效。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#7c3aed",
     "sourceNumber": 76,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-177",
@@ -13890,11 +13890,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据通过挖掘海量数据背后的规律，让 “ 黑大陆 ” 变透明，让 “ 冰山成本 ” 显形。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#7c3aed",
     "sourceNumber": 77,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-178",
@@ -13908,11 +13908,11 @@ const ALL_QUESTIONS = [
     "analysis": "该系统实时整合订单、配送员位置、实时路况、商家出餐速度等多维度数据进\n行分配。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#7c3aed",
     "sourceNumber": 78,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-179",
@@ -13926,11 +13926,11 @@ const ALL_QUESTIONS = [
     "analysis": "对于 “ 毛利率低于 30% 且销量一般 ” 的菜品才考虑调价或淘汰；对于毛利率高的菜\n品，可能会尝试改良或保留。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#7c3aed",
     "sourceNumber": 79,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-180",
@@ -13944,11 +13944,11 @@ const ALL_QUESTIONS = [
     "analysis": "星巴克利用用户画像进行 “ 场景化营销 ” ，如针对特定用户的习惯在特定时间推送\n特定产品的优惠，而非无差别推送。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 45,
     "accent": "#7c3aed",
     "sourceNumber": 80,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 45
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-181",
@@ -13962,11 +13962,11 @@ const ALL_QUESTIONS = [
     "analysis": "麦当劳的系统可实现 “ 分钟级 ” 的人力调整，结合预测和实时数据优化排班。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#7c3aed",
     "sourceNumber": 81,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-182",
@@ -13980,11 +13980,11 @@ const ALL_QUESTIONS = [
     "analysis": "Netflix 和国内平台都会依据 “ 观看设备 ” 和 “ 时间 ” 调整内容。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#7c3aed",
     "sourceNumber": 82,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-183",
@@ -13998,11 +13998,11 @@ const ALL_QUESTIONS = [
     "analysis": "该系统进行 100 余项指标评估，包括 IP 过往数据、主创口碑、用户匹配度等量化\n数据，而非主观喜爱。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#7c3aed",
     "sourceNumber": 83,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-184",
@@ -14016,11 +14016,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据已深度介入内容生产，如《纸牌屋》的选角、《长相思》的名场面规划\n等。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#7c3aed",
     "sourceNumber": 84,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-185",
@@ -14034,11 +14034,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据分析线上评价可定位门店问题（如服务响应慢），从而指导线下改进。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#7c3aed",
     "sourceNumber": 85,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-186",
@@ -14052,11 +14052,11 @@ const ALL_QUESTIONS = [
     "analysis": "基于统计的推荐缺点是完全缺乏个性化，推荐范围固定，难以挖掘用户潜在兴\n趣。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 46,
     "accent": "#7c3aed",
     "sourceNumber": 86,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 46
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-187",
@@ -14070,11 +14070,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据安全的相关概念，大数据安全并非独立于传统数据安全的全新领域，而\n是对传统数据安全的延伸与升级。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#7c3aed",
     "sourceNumber": 87,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-188",
@@ -14088,11 +14088,11 @@ const ALL_QUESTIONS = [
     "analysis": "MongoDB 作为典型的 NoSQL 数据库，因发展时间短、安全防护机制不完善，\n曾多次发生被黑客攻击导致数据库泄密的事件。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#7c3aed",
     "sourceNumber": 88,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-189",
@@ -14106,11 +14106,11 @@ const ALL_QUESTIONS = [
     "analysis": "哈佛大学研究显示，仅通过年龄、性别、邮编三个基础信息，即可在公开数据\n库中识别出 87% 的个人身份。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#7c3aed",
     "sourceNumber": 89,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-190",
@@ -14124,11 +14124,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据安全的典型案例，棱镜计划对境外非美国公民的网络活动实施无差别监\n听，且监控跨境数据流动。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#7c3aed",
     "sourceNumber": 90,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-191",
@@ -14142,11 +14142,11 @@ const ALL_QUESTIONS = [
     "analysis": "像手电筒这类功能单一的 APP 要求读取通讯录，违背了 “ 必要原则 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 47,
     "accent": "#7c3aed",
     "sourceNumber": 91,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 47
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-192",
@@ -14160,11 +14160,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据安全的典型案例，免费 WiFi 存在黑客搭建陷阱窃取信息的风险，个人应\n避免连接无密码的公共 WiFi 进行支付转账。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#7c3aed",
     "sourceNumber": 92,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-193",
@@ -14178,11 +14178,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据自由流通需以 “ 安全 ” 为前提，并非无限制自由。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#7c3aed",
     "sourceNumber": 93,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-194",
@@ -14196,11 +14196,11 @@ const ALL_QUESTIONS = [
     "analysis": "洛杉矶警察局将原本用于地震余震预测的数学模型成功应用于犯罪预测。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#7c3aed",
     "sourceNumber": 94,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-195",
@@ -14214,11 +14214,11 @@ const ALL_QUESTIONS = [
     "analysis": "大数据伦理的概念，数据使用的伦理关注 “ 数据使用是否正当 ” ，要求符合道德目\n的。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#7c3aed",
     "sourceNumber": 95,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-196",
@@ -14232,11 +14232,11 @@ const ALL_QUESTIONS = [
     "analysis": "在 “ 万物皆可数据化 ” 的环境中，人的主体地位遭遇了冲击，真实的被 “ 数据塑造\n的身份 ” 替代，陷入 “ 主体异化 ” 困境。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#7c3aed",
     "sourceNumber": 96,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-197",
@@ -14250,11 +14250,11 @@ const ALL_QUESTIONS = [
     "analysis": "算法训练数据可能包含历史社会偏见，导致算法将 “ 性别 ” 作为隐性筛选因素，形\n成歧视。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 48,
     "accent": "#7c3aed",
     "sourceNumber": 97,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 48
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-198",
@@ -14268,11 +14268,11 @@ const ALL_QUESTIONS = [
     "analysis": "数据独裁指形成 “ 数据主导决策、人类被动服从 ” 的唯数据主义倾向，导致自主性\n丧失。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#7c3aed",
     "sourceNumber": 98,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-199",
@@ -14286,11 +14286,11 @@ const ALL_QUESTIONS = [
     "analysis": "“ 探针盒子 ” 是在用户不知情的情况下自动捕捉个人信息，违背了知情同意原则。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#7c3aed",
     "sourceNumber": 99,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-200",
@@ -14304,11 +14304,11 @@ const ALL_QUESTIONS = [
     "analysis": "魏则西事件暴露出百度通过竞价排名误导用户，且未审核医疗信息真实性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#7c3aed",
     "sourceNumber": 100,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "ds-201",
@@ -14323,12 +14323,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据是信息的载体和原材料；知识是基于信息形成的系统性理解。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 1,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-202",
@@ -14343,12 +14343,12 @@ const ALL_QUESTIONS = [
     "analysis": "结构化数据最直观的呈现形式就是二维表格。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 2,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-203",
@@ -14363,12 +14363,12 @@ const ALL_QUESTIONS = [
     "analysis": "性别代表类别标签，无数学意义，是定类数据；身高体重可排序且可进行倍数\n运算，是定比数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 49,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 3,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 49
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-204",
@@ -14383,12 +14383,12 @@ const ALL_QUESTIONS = [
     "analysis": "生命周期的第一阶段是业务理解。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 4,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-205",
@@ -14403,12 +14403,12 @@ const ALL_QUESTIONS = [
     "analysis": "产生于组织内部的是内部数据，从组织外部获取（如社交媒体、政府数据）的\n是外部数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 5,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-206",
@@ -14423,12 +14423,12 @@ const ALL_QUESTIONS = [
     "analysis": "AutoML 和低代码平台的出现标志着数据科学走向了 “ 全民化 ” 时代。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 6,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-207",
@@ -14443,12 +14443,12 @@ const ALL_QUESTIONS = [
     "analysis": "使用热力图分析相关性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 7,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-208",
@@ -14463,12 +14463,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据被组织为由行和列构成的二维表，每一列描述属性，每一行是记录。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 8,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-209",
@@ -14483,12 +14483,12 @@ const ALL_QUESTIONS = [
     "analysis": "该语句用于更新数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 50,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 9,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 50
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-210",
@@ -14504,12 +14504,12 @@ const ALL_QUESTIONS = [
     "analysis": "NoSQL 是 “Not only SQL” 的缩写。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 10,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-211",
@@ -14524,12 +14524,12 @@ const ALL_QUESTIONS = [
     "analysis": "集成是数据仓库建设中最关键的一环。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 11,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-212",
@@ -14544,12 +14544,12 @@ const ALL_QUESTIONS = [
     "analysis": "ETL 表示 Extract-Transform-Load ，即抽取、转换和加载。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 51,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 12,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 51
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-213",
@@ -14564,12 +14564,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据集市可以理解为部门级的数据仓库。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 13,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-214",
@@ -14584,12 +14584,12 @@ const ALL_QUESTIONS = [
     "analysis": "星型模型和雪花模型的主要对比特征。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 14,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-215",
@@ -14604,12 +14604,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据湖可以存储结构化、半结构化和非结构化数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 51,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 15,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 51
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-216",
@@ -14624,12 +14624,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据中台被视为连接 “ 后台数据 ” 与 “ 前台业务 ” 的桥梁。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 16,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-217",
@@ -14644,12 +14644,12 @@ const ALL_QUESTIONS = [
     "analysis": "爬虫通过模拟浏览器行为发送 HTTP 请求，最终目标是将非结构化或半结构化的\n网页数据转化为结构化数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 17,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-218",
@@ -14664,12 +14664,12 @@ const ALL_QUESTIONS = [
     "analysis": "对于数值型数据，可以采用均值、中位数等进行填充；对于分类数据，可采用\n众数填充。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 18,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-219",
@@ -14684,12 +14684,12 @@ const ALL_QUESTIONS = [
     "analysis": "将数据属性映射为视觉感知层面的位置、长度、颜色、形状、面积等。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 19,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-220",
@@ -14704,12 +14704,12 @@ const ALL_QUESTIONS = [
     "analysis": "工具通常分为 BI 商业软件、开源库、云原生平台三大类。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 20,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-221",
@@ -14724,12 +14724,12 @@ const ALL_QUESTIONS = [
     "analysis": "观察数据分布可采用直方图、箱线图、散点图等；展示实体间复杂关系可采用\n热力图、桑基图等。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 21,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-222",
@@ -14744,12 +14744,12 @@ const ALL_QUESTIONS = [
     "analysis": "若需要销售额的具体数值，可以将销售额拖入 “ 标记 ”-“ 工具提示 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 52,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 22,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 52
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-223",
@@ -14764,12 +14764,12 @@ const ALL_QUESTIONS = [
     "analysis": "利用 Tableau 中的 “ 故事 ” ，可以将多个可视化图表和仪表板按逻辑顺序组织在一\n起。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 23,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-224",
@@ -14784,12 +14784,12 @@ const ALL_QUESTIONS = [
     "analysis": "在使用分组字段时，可在下拉菜单中选择 “ 包括 ‘ 其他 ’” 选项，此时除该分组之外\n的其他类别被汇总为一个名为 “ 其他 ” 的组。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 24,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-225",
@@ -14804,12 +14804,12 @@ const ALL_QUESTIONS = [
     "analysis": "关联分析利用支持度衡量数据对象出现的频率，利用置信度衡量关联规则的可\n信程度。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 25,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-226",
@@ -14824,12 +14824,12 @@ const ALL_QUESTIONS = [
     "analysis": "时间序列分析基础是惯性原则；主要关注的基本运动包括趋势、季节性、周期\n性和不规则运动。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 26,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-227",
@@ -14844,12 +14844,12 @@ const ALL_QUESTIONS = [
     "analysis": "道格 · 莱尼提出了 “3V” 模型。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 53,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 27,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 53
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-228",
@@ -14864,12 +14864,12 @@ const ALL_QUESTIONS = [
     "analysis": "“ 大数据的概念与特征 ” 部分，分别对应 Volume （数量大）、 Velocity （时效\n性）和 Veracity （真实性）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 28,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-229",
@@ -14884,12 +14884,12 @@ const ALL_QUESTIONS = [
     "analysis": "大数据思维强调从因果性转向相关性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 29,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-230",
@@ -14904,12 +14904,12 @@ const ALL_QUESTIONS = [
     "analysis": "Google 的三篇奠基性论文分别介绍了 GFS 、 MapReduce 和 BigTable 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 30,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-231",
@@ -14924,12 +14924,12 @@ const ALL_QUESTIONS = [
     "analysis": "Hadoop 2.0 引入了 YARN （ Yet Another Resource Negotiator ）作为独立的资\n源管理层。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 31,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-232",
@@ -14944,12 +14944,12 @@ const ALL_QUESTIONS = [
     "analysis": "批处理对应有界数据集，流式计算对应无界数据流。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 32,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-233",
@@ -14964,12 +14964,12 @@ const ALL_QUESTIONS = [
     "analysis": "NumPy 提供基础数据结构， Pandas 用于构建异构标签数据框架及清洗分析。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 54,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 33,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 54
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-234",
@@ -14984,12 +14984,12 @@ const ALL_QUESTIONS = [
     "analysis": "SPSS 的数据编辑器采用类似于 Excel 的二维表格结构。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 34,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-235",
@@ -15004,12 +15004,12 @@ const ALL_QUESTIONS = [
     "analysis": "Power Query 用于数据整理与转换， DAX 语言用于构建复杂业务指标。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 35,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-236",
@@ -15024,12 +15024,12 @@ const ALL_QUESTIONS = [
     "analysis": "四层分别为感知层、网络层、数据层和应用层。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 36,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-237",
@@ -15044,12 +15044,12 @@ const ALL_QUESTIONS = [
     "analysis": "“ 以人为传感器 ” 的群体感知技术。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 37,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-238",
@@ -15064,12 +15064,12 @@ const ALL_QUESTIONS = [
     "analysis": "安装在电网系统中的传感器可实时收集用户的能耗信息。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 38,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-239",
@@ -15084,12 +15084,12 @@ const ALL_QUESTIONS = [
     "analysis": "国家电子健康档案系统简称为 EHR （ Electronic Health Record ）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 39,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-240",
@@ -15104,12 +15104,12 @@ const ALL_QUESTIONS = [
     "analysis": "若某节车厢拥挤度超过 80% ，系统自动推送提示。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 55,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 40,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 55
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-241",
@@ -15124,12 +15124,12 @@ const ALL_QUESTIONS = [
     "analysis": "杭州将 “ 城市大脑 ” 作为核心引擎。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 41,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-242",
@@ -15144,12 +15144,12 @@ const ALL_QUESTIONS = [
     "analysis": "核心理念是 “ 让市民少跑腿、数据多跑路 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 42,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-243",
@@ -15164,12 +15164,12 @@ const ALL_QUESTIONS = [
     "analysis": "杭州推广 “ 共享车位 ” 模式。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 43,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-244",
@@ -15184,12 +15184,12 @@ const ALL_QUESTIONS = [
     "analysis": "智慧型的政务服务网，实现了 “ 一网申请、一网受理、一网办结 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 44,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-245",
@@ -15204,12 +15204,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据挖掘技术需要突破数据提取技术（自然语言处理）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 45,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-246",
@@ -15224,12 +15224,12 @@ const ALL_QUESTIONS = [
     "analysis": "物联网体系架构也大致被公认为有这三个层次：底层是感知层，第二层是网络\n层，最上面则是应用层。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 56,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 46,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 56
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-247",
@@ -15244,12 +15244,12 @@ const ALL_QUESTIONS = [
     "analysis": "应用层解决的是信息处理和人机界面的问题。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 47,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-248",
@@ -15264,12 +15264,12 @@ const ALL_QUESTIONS = [
     "analysis": "来自各类物联网终端设备的 “ 原生数据 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 48,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-249",
@@ -15284,12 +15284,12 @@ const ALL_QUESTIONS = [
     "analysis": "通过公共 Internet 网络平台以 “GIS+ 实时交通状态 + 实时交通事件 ” 的形式发布城\n市路网的实时交通状态。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 49,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-250",
@@ -15304,12 +15304,12 @@ const ALL_QUESTIONS = [
     "analysis": "连续型时变生理信号、离散型时变生理信号以及人体活动和动作信号。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 50,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-251",
@@ -15324,12 +15324,12 @@ const ALL_QUESTIONS = [
     "analysis": "应用线圈、出租车 GPS 信息、手机信令、 SCATS 系统、牌照识别、微波等多种技\n术手段。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 51,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-252",
@@ -15344,12 +15344,12 @@ const ALL_QUESTIONS = [
     "analysis": "货物集装箱封锁发送的数据，被转发到由 Savi Networks 公司控制中心管理的\nWeb 服务器。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 57,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 52,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 57
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-253",
@@ -15364,12 +15364,12 @@ const ALL_QUESTIONS = [
     "analysis": "通过机器学习算法构建起 “ 环境 - 生长 - 品质 ” 关联模型。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 53,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-254",
@@ -15384,12 +15384,12 @@ const ALL_QUESTIONS = [
     "analysis": "18 号线二期全线搭载基于 LTE 车地无线通信的全自动驾驶信号系统。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 54,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-255",
@@ -15404,12 +15404,12 @@ const ALL_QUESTIONS = [
     "analysis": "商业智能是利用数据仓库、数据可视化与分析技术，将指定的数据转化为信息\n和知识的解决方案。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 55,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-256",
@@ -15424,12 +15424,12 @@ const ALL_QUESTIONS = [
     "analysis": "一般 BI 系统的功能架构分为数据底层、数据分析和数据展示三个功能层级。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 56,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-257",
@@ -15444,12 +15444,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据仓库就是面向主题的、集成的、稳定的、不同时间的数据集合。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 57,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-258",
@@ -15464,12 +15464,12 @@ const ALL_QUESTIONS = [
     "analysis": "商务智能通过对营销数据的全链路分析，提升营销投入产出比。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 58,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 58,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 58
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-259",
@@ -15484,12 +15484,12 @@ const ALL_QUESTIONS = [
     "analysis": "BI 系统采用路径优化算法优化物流配送路线。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 59,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-260",
@@ -15504,12 +15504,12 @@ const ALL_QUESTIONS = [
     "analysis": "实时监控企业的偿债风险、流动性风险、信用风险等潜在风险。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 60,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-261",
@@ -15524,12 +15524,12 @@ const ALL_QUESTIONS = [
     "analysis": "BI 系统通过分析客户的行为数据，构建客户流失预警模型。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 61,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-262",
@@ -15544,12 +15544,12 @@ const ALL_QUESTIONS = [
     "analysis": "对个人信贷，重点分析收入稳定性、消费习惯及还款意愿。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 62,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-263",
@@ -15564,12 +15564,12 @@ const ALL_QUESTIONS = [
     "analysis": "2013 年， Gartner 集团对 BI 的概念进行了更新与扩展，合并成 “ 分析与商业智\n能 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 63,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-264",
@@ -15584,12 +15584,12 @@ const ALL_QUESTIONS = [
     "analysis": "非结构化数据包括 Word 、 PDF 文档、音视频、影像等多类数据。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 59,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 64,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 59
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-265",
@@ -15604,12 +15604,12 @@ const ALL_QUESTIONS = [
     "analysis": "6 大基础数据库。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 65,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-266",
@@ -15624,12 +15624,12 @@ const ALL_QUESTIONS = [
     "analysis": "国内由国家卫计委统计信息中心和电子科技大学共同组建的研究院，利用 “ 大数\n据 + 深度学习 ” 技术实现了色素性皮肤病的计算机辅助诊断。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 66,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-267",
@@ -15644,12 +15644,12 @@ const ALL_QUESTIONS = [
     "analysis": "真实世界研究日益成为医药研发的一大趋势。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 67,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-268",
@@ -15664,12 +15664,12 @@ const ALL_QUESTIONS = [
     "analysis": "大数据分析可以帮助医保机构找出风险问题，快速筛选出存在欺诈风险的索赔\n请求。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 68,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-269",
@@ -15684,12 +15684,12 @@ const ALL_QUESTIONS = [
     "analysis": "患者就诊、疾病发病过程在时间上有一个进度，体现了时序性。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 69,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-270",
@@ -15704,12 +15704,12 @@ const ALL_QUESTIONS = [
     "analysis": "智能问诊应用是通过采集与分析海量医疗数据、专业文献，构建医学知识库，\n经人工智能产品设计实现。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 60,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 70,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 60
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-271",
@@ -15724,12 +15724,12 @@ const ALL_QUESTIONS = [
     "analysis": "推荐系统的核心目标是解决 “ 信息过载 ” 与 “ 个性化需求 ” 的矛盾。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 71,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-272",
@@ -15744,12 +15744,12 @@ const ALL_QUESTIONS = [
     "analysis": "协同过滤分为 “ 基于用户的协同过滤 ” 与 “ 基于物品的协同过滤 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 72,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-273",
@@ -15764,12 +15764,12 @@ const ALL_QUESTIONS = [
     "analysis": "多数推荐系统会采用 “ 混合推荐 ”—— 将多种算法有机结合，弥补单一算法的缺\n陷。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 61,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 73,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 61
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-274",
@@ -15784,12 +15784,12 @@ const ALL_QUESTIONS = [
     "analysis": "系统通常分为 “ 离线计算 ” 与 “ 实时计算 ” 两层，分别负责长期精准度和即时响应。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 74,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-275",
@@ -15804,12 +15804,12 @@ const ALL_QUESTIONS = [
     "analysis": "这是经典的 “ 啤酒与尿布 ” 案例。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 61,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 75,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 61
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-276",
@@ -15824,12 +15824,12 @@ const ALL_QUESTIONS = [
     "analysis": "大数据通过构建 “ 全域库存数据中台 ” ，实时整合所有渠道的库存信息。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 76,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-277",
@@ -15844,12 +15844,12 @@ const ALL_QUESTIONS = [
     "analysis": "智能物流经历了 “ 自动化 - 信息化 - 网络化 ” 的演进。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 77,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-278",
@@ -15864,12 +15864,12 @@ const ALL_QUESTIONS = [
     "analysis": "系统规划路线时会考虑 “ 订单优先级 ” ，如生鲜订单优先。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 78,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-279",
@@ -15884,12 +15884,12 @@ const ALL_QUESTIONS = [
     "analysis": "西泽修提出的 “ 物流冰山说 ” 认为物流隐性成本巨大。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 79,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-280",
@@ -15904,12 +15904,12 @@ const ALL_QUESTIONS = [
     "analysis": "用户画像包括基础属性、消费行为、场景需求。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 80,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-281",
@@ -15924,12 +15924,12 @@ const ALL_QUESTIONS = [
     "analysis": "大数据从用户需求、市场热度、食材成本三个维度支持新品研发。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 81,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-282",
@@ -15944,12 +15944,12 @@ const ALL_QUESTIONS = [
     "analysis": "智能选址分析的第一个维度通常是人流量。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 62,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 82,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 62
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-283",
@@ -15964,12 +15964,12 @@ const ALL_QUESTIONS = [
     "analysis": "2013 年 Netflix 推出的《纸牌屋》是大数据赋能影视创作的里程碑案例。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 83,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-284",
@@ -15984,12 +15984,12 @@ const ALL_QUESTIONS = [
     "analysis": "平台通过用户 “ 显性行为 ” 与 “ 隐性行为 ” 构建多维度画像。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 84,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-285",
@@ -16004,12 +16004,12 @@ const ALL_QUESTIONS = [
     "analysis": "大数据能识别 “ 高潜力付费用户 ” 并促进转化。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 85,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-286",
@@ -16024,12 +16024,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据闭环包括线上引流、线下消费、用户反馈（评价）。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 86,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-287",
@@ -16044,12 +16044,12 @@ const ALL_QUESTIONS = [
     "analysis": "传统数据安全面临的三类主要风险是计算机病毒、黑客攻击、存储介质损坏与\n操作失误。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 87,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-288",
@@ -16064,12 +16064,12 @@ const ALL_QUESTIONS = [
     "analysis": "大数据成为 “ 高级可持续攻击 ” （ APT 攻击）的载体。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 88,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-289",
@@ -16084,12 +16084,12 @@ const ALL_QUESTIONS = [
     "analysis": "2018 年华住旗下酒店信息在暗网出售。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 63,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 89,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 63
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-290",
@@ -16104,12 +16104,12 @@ const ALL_QUESTIONS = [
     "analysis": "滴滴将大量包含地理坐标的高精度出行数据出境。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 90,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-291",
@@ -16124,12 +16124,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据保护原则的核心是确认 “ 数据为独立的法律保护客体 ” 。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 91,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-292",
@@ -16144,12 +16144,12 @@ const ALL_QUESTIONS = [
     "analysis": "个人应避免 “ 一码通用 ” ，设置复杂且不同的平台密码。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 92,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-293",
@@ -16164,12 +16164,12 @@ const ALL_QUESTIONS = [
     "analysis": "云杀毒利用云计算基础设施与大数据分析技术。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 93,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-294",
@@ -16184,12 +16184,12 @@ const ALL_QUESTIONS = [
     "analysis": "三个维度是数据采集、数据使用、算法决策。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 94,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-295",
@@ -16204,12 +16204,12 @@ const ALL_QUESTIONS = [
     "analysis": "“ 主体异化 ” 的困境。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 64,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 95,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 64
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-296",
@@ -16224,12 +16224,12 @@ const ALL_QUESTIONS = [
     "analysis": "数字鸿沟本质上是一个关乎公平正义的伦理问题。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 96,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-297",
@@ -16244,12 +16244,12 @@ const ALL_QUESTIONS = [
     "analysis": "失真的健康数据可能导致误诊。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 65,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 97,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 65
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-298",
@@ -16264,12 +16264,12 @@ const ALL_QUESTIONS = [
     "analysis": "美团推出 “ 安准卡 ” 制度，允许骑手使用 “ 弹性时长 ” 申请。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 65,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 98,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 65
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-299",
@@ -16284,12 +16284,12 @@ const ALL_QUESTIONS = [
     "analysis": "徐玉玉事件是隐私泄露引发严重后果的案例。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": null,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 99,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "ds-300",
@@ -16304,12 +16304,12 @@ const ALL_QUESTIONS = [
     "analysis": "探针盒子。",
     "source": "数据科学",
     "subject": "数据科学",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
+    "pageNumber": 65,
     "accent": "#7c3aed",
     "originalType": "cloze",
     "sourceNumber": 100,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\数据科学  复习资料.pdf",
-    "pageNumber": 65
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-1",
@@ -16321,16 +16321,15 @@ const ALL_QUESTIONS = [
       "合理地组织计算机工作流程的软件",
       "由若干层次的程序按一定的结构组成的有机体"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 1,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-2",
@@ -16342,16 +16341,15 @@ const ALL_QUESTIONS = [
       "交换技术",
       "多道程序设计技术"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 2,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-3",
@@ -16363,16 +16361,15 @@ const ALL_QUESTIONS = [
       "内核态",
       "就绪态"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 3,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-4",
@@ -16384,16 +16381,15 @@ const ALL_QUESTIONS = [
       "PCB 结构、程序和数据的组合",
       "一个独立的程序"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 4,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-5",
@@ -16405,16 +16401,15 @@ const ALL_QUESTIONS = [
       "进程",
       "作业"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 5,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-6",
@@ -16426,16 +16421,15 @@ const ALL_QUESTIONS = [
       "一段程序",
       "一个互斥资源"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 6,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-7",
@@ -16447,16 +16441,15 @@ const ALL_QUESTIONS = [
       "多个进程竞争资源出现了循环等待",
       "多个进程竞争共享型设备"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 7,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-8",
@@ -16468,16 +16461,15 @@ const ALL_QUESTIONS = [
       "作业调度、进程调度和资源调度",
       "作业调度、进程调度和中级调度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 8,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-9",
@@ -16489,16 +16481,15 @@ const ALL_QUESTIONS = [
       "中断方式",
       "查找方式"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 9,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-10",
@@ -16510,16 +16501,15 @@ const ALL_QUESTIONS = [
       "进程响应时间",
       "进程等待时间"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 10,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-11",
@@ -16531,16 +16521,15 @@ const ALL_QUESTIONS = [
       "短作业优先",
       "优先级"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 11,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-12",
@@ -16552,16 +16541,15 @@ const ALL_QUESTIONS = [
       "方便用户和提高内存利用率",
       "增加内存实际容量"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 12,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-13",
@@ -16573,16 +16561,15 @@ const ALL_QUESTIONS = [
       "虚拟技术",
       "物理扩充"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 13,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-14",
@@ -16594,16 +16581,15 @@ const ALL_QUESTIONS = [
       "变量的连续访问",
       "指令局部性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 14,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-15",
@@ -16615,16 +16601,15 @@ const ALL_QUESTIONS = [
       "100KB",
       "640KB"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 15,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-16",
@@ -16636,16 +16621,15 @@ const ALL_QUESTIONS = [
       "实现文件管理的一组软件",
       "文件、管理文件的软件及数据结构的总体"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 16,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-17",
@@ -16657,16 +16641,15 @@ const ALL_QUESTIONS = [
       "链接分配",
       "都不对"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 17,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-18",
@@ -16678,16 +16661,15 @@ const ALL_QUESTIONS = [
       "DMA 方式",
       "无条件存取方式"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 18,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-19",
@@ -16699,16 +16681,15 @@ const ALL_QUESTIONS = [
       "改善 CPU 与 I/O 设备速度不匹配的问题",
       "节省内存"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 19,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-20",
@@ -16720,16 +16701,15 @@ const ALL_QUESTIONS = [
       "传送",
       "启动"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 20,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-21",
@@ -16741,16 +16721,15 @@ const ALL_QUESTIONS = [
       "50ms",
       "100ms"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 21,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-22",
@@ -16762,16 +16741,15 @@ const ALL_QUESTIONS = [
       "存储器",
       "I/O 设备"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 22,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-23",
@@ -16783,16 +16761,15 @@ const ALL_QUESTIONS = [
       "虚拟机结构",
       "微内核结构"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 23,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-24",
@@ -16804,16 +16781,15 @@ const ALL_QUESTIONS = [
       "DCT",
       "CHCT"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 24,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-25",
@@ -16825,16 +16801,15 @@ const ALL_QUESTIONS = [
       "阻塞到运行",
       "阻塞到就绪"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 25,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-26",
@@ -16846,16 +16821,15 @@ const ALL_QUESTIONS = [
       "作业控制命令",
       "低级进程通信原语"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 26,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-27",
@@ -16867,16 +16841,15 @@ const ALL_QUESTIONS = [
       "破坏死锁的四个必要条件之一",
       "防止系统进入不安全状态"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 27,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-28",
@@ -16888,16 +16861,15 @@ const ALL_QUESTIONS = [
       "短作业优先",
       "先来先服务"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 28,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-29",
@@ -16909,16 +16881,15 @@ const ALL_QUESTIONS = [
       "时间片轮转",
       "随机"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 29,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-30",
@@ -16930,16 +16901,15 @@ const ALL_QUESTIONS = [
       "动态",
       "短作业"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 30,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-31",
@@ -16951,16 +16921,15 @@ const ALL_QUESTIONS = [
       "高响应比优先算法",
       "多级反馈队列调度算法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 31,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-32",
@@ -16972,16 +16941,15 @@ const ALL_QUESTIONS = [
       "分段",
       "都不是"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 32,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-33",
@@ -16993,16 +16961,15 @@ const ALL_QUESTIONS = [
       "可以不同但预先固定",
       "可以不同但根据作业长度固定"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 33,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-34",
@@ -17014,16 +16981,15 @@ const ALL_QUESTIONS = [
       "按地址由小到大排列",
       "按地址由大到小排列"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 34,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-35",
@@ -17035,16 +17001,15 @@ const ALL_QUESTIONS = [
       "物理上扩充外存空间的技术",
       "扩充输入输出缓冲区的技术"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 35,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-36",
@@ -17056,16 +17021,15 @@ const ALL_QUESTIONS = [
       "并发技术",
       "缓冲技术"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 36,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-37",
@@ -17077,16 +17041,15 @@ const ALL_QUESTIONS = [
       "目录文件",
       "特别文件"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 37,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-38",
@@ -17098,16 +17061,15 @@ const ALL_QUESTIONS = [
       "交叉访问表",
       "链接表"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 38,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-39",
@@ -17119,16 +17081,15 @@ const ALL_QUESTIONS = [
       "柱面",
       "磁道"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 39,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-40",
@@ -17140,16 +17101,15 @@ const ALL_QUESTIONS = [
       "I/O 设备和 CPU",
       "CPU 和主存"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 40,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-41",
@@ -17161,16 +17121,15 @@ const ALL_QUESTIONS = [
       "某一时间间隔内",
       "依次在不同事件间隔内"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 41,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-42",
@@ -17182,16 +17141,15 @@ const ALL_QUESTIONS = [
       "串行",
       "串发"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 42,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-43",
@@ -17203,16 +17161,15 @@ const ALL_QUESTIONS = [
       "在虚拟机结构中，主机本身拥有一个独立的操作系统",
       "在裸机上安装虚拟机便可以执行用户程序"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 43,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-44",
@@ -17224,16 +17181,15 @@ const ALL_QUESTIONS = [
       "创建态",
       "撤销态"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 44,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-45",
@@ -17245,16 +17201,15 @@ const ALL_QUESTIONS = [
       "进程调度",
       "为程序创建进程"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 45,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-46",
@@ -17266,16 +17221,15 @@ const ALL_QUESTIONS = [
       "私用数据",
       "可重写的程序代码"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 46,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-47",
@@ -17287,16 +17241,15 @@ const ALL_QUESTIONS = [
       "有共享资源存在",
       "资源分配不当"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 47,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-48",
@@ -17308,16 +17261,15 @@ const ALL_QUESTIONS = [
       "J2、J1、J3",
       "J1、J3、J2"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 48,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-49",
@@ -17329,16 +17281,15 @@ const ALL_QUESTIONS = [
       "高响应比优先",
       "短进程优先"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 49,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-50",
@@ -17350,16 +17301,15 @@ const ALL_QUESTIONS = [
       "短作业优先",
       "优先级"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 50,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-51",
@@ -17371,16 +17321,15 @@ const ALL_QUESTIONS = [
       "短进程优先调度",
       "都不对"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 51,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-52",
@@ -17392,16 +17341,15 @@ const ALL_QUESTIONS = [
       "随存储器的管理方案不同而异",
       "以用户的逻辑记录为单位"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 52,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-53",
@@ -17413,16 +17361,15 @@ const ALL_QUESTIONS = [
       "按地址由小到大排列",
       "按地址由大到小排列"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 53,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-54",
@@ -17434,16 +17381,15 @@ const ALL_QUESTIONS = [
       "以物理段进行分配",
       "以逻辑记录大小进行分配"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 54,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-55",
@@ -17455,16 +17401,15 @@ const ALL_QUESTIONS = [
       "部分对换",
       "多道程序设计"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 55,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-56",
@@ -17476,16 +17421,15 @@ const ALL_QUESTIONS = [
       "数据存放的实际地址",
       "计算机地址位数"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 56,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-57",
@@ -17497,16 +17441,15 @@ const ALL_QUESTIONS = [
       "顺序文件",
       "有序文件"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 57,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-58",
@@ -17518,16 +17461,15 @@ const ALL_QUESTIONS = [
       "节省内存空间",
       "解决不同用户之间的文件名冲突问题"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 58,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-59",
@@ -17539,16 +17481,15 @@ const ALL_QUESTIONS = [
       "外存容量",
       "操作系统"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 59,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-60",
@@ -17560,16 +17501,15 @@ const ALL_QUESTIONS = [
       "中断处理",
       "设备驱动程序"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 60,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-61",
@@ -17581,16 +17521,15 @@ const ALL_QUESTIONS = [
       "中断功能",
       "分时功能"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 61,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-62",
@@ -17602,16 +17541,15 @@ const ALL_QUESTIONS = [
       "不同时刻",
       "不同时间间隔内"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 62,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-63",
@@ -17623,16 +17561,15 @@ const ALL_QUESTIONS = [
       "后备队列越少",
       "用户数越少"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 63,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-64",
@@ -17644,16 +17581,15 @@ const ALL_QUESTIONS = [
       "各进程在某一个时间段内并行运行，CPU 与外设间并行工作",
       "各进程在某一个时刻并行运行，CPU 与外设间串行工作"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 64,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-65",
@@ -17665,16 +17601,15 @@ const ALL_QUESTIONS = [
       "取数指令",
       "寄存器清零指令"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 65,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-66",
@@ -17686,16 +17621,15 @@ const ALL_QUESTIONS = [
       "OS 程序",
       "单独的程序，即不是用户程序也不是 OS 程序"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 66,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-67",
@@ -17707,16 +17641,15 @@ const ALL_QUESTIONS = [
       "它的优先权变为最大",
       "其 PCB 移至就绪队列的队首"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 67,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-68",
@@ -17728,16 +17661,15 @@ const ALL_QUESTIONS = [
       "子程序",
       "控制模块"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 68,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-69",
@@ -17749,16 +17681,15 @@ const ALL_QUESTIONS = [
       "临界区是指进程中用于实现进程通信的那段代码",
       "临界区是指进程中访问临界资源的那段代码"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 69,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-70",
@@ -17770,16 +17701,15 @@ const ALL_QUESTIONS = [
       "进程调度",
       "程序被创建为进程"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 70,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-71",
@@ -17791,16 +17721,15 @@ const ALL_QUESTIONS = [
       "时间片轮转调度算法",
       "优先权调度算法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 71,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-72",
@@ -17812,16 +17741,15 @@ const ALL_QUESTIONS = [
       "适当增长进程在就绪队列中的等待时间",
       "尽快响应交互式用户的请求"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 72,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-73",
@@ -17833,16 +17761,15 @@ const ALL_QUESTIONS = [
       "检测死锁是预防系统卷入了死锁",
       "检测死锁只能够发现死锁，而不能消除死锁"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 73,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-74",
@@ -17854,16 +17781,15 @@ const ALL_QUESTIONS = [
       "11",
       "12"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 74,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-75",
@@ -17875,16 +17801,15 @@ const ALL_QUESTIONS = [
       "节省存储空间",
       "提高内存利用率"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 75,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-76",
@@ -17896,16 +17821,15 @@ const ALL_QUESTIONS = [
       "该目录中所有数据文件目录",
       "该目录中所有子目录文件和数据文件的目录"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 76,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-77",
@@ -17917,16 +17841,15 @@ const ALL_QUESTIONS = [
       "加快文件的检索速度",
       "加快文件的读写速度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 77,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-78",
@@ -17938,16 +17861,15 @@ const ALL_QUESTIONS = [
       "最短寻道时间优先算法",
       "优先级高者优先算法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 78,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-79",
@@ -17959,16 +17881,15 @@ const ALL_QUESTIONS = [
       "虚存技术",
       "覆盖技术"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 79,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-80",
@@ -17980,16 +17901,15 @@ const ALL_QUESTIONS = [
       "SPOOLing 系统使独占设备变成共享设备",
       "SPOOLing 系统提高处理机与通道并行工作的能力"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 80,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-81",
@@ -18001,16 +17921,15 @@ const ALL_QUESTIONS = [
       "文字编辑",
       "CPU 调度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 81,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-82",
@@ -18022,16 +17941,15 @@ const ALL_QUESTIONS = [
       "不能被挂起",
       "必须在执行完后才能被撤下"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 82,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-83",
@@ -18043,16 +17961,15 @@ const ALL_QUESTIONS = [
       "分时使用和独占使用计算机资源",
       "动态和静态特征"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 83,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-84",
@@ -18064,16 +17981,15 @@ const ALL_QUESTIONS = [
       "两个进程都进入了临界区",
       "两个进程都在等待"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 84,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-85",
@@ -18085,16 +18001,15 @@ const ALL_QUESTIONS = [
       "必须互斥",
       "可能需要同步或互斥"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 85,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-86",
@@ -18106,16 +18021,15 @@ const ALL_QUESTIONS = [
       "可以没有进程控制块",
       "只能有唯一的进程控制块"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 86,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-87",
@@ -18127,16 +18041,15 @@ const ALL_QUESTIONS = [
       "破坏死锁的四个必要条件之一",
       "防止系统进入不安全状态"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 87,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-88",
@@ -18148,16 +18061,15 @@ const ALL_QUESTIONS = [
       "进程调度",
       "设备调度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 88,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-89",
@@ -18169,16 +18081,15 @@ const ALL_QUESTIONS = [
       "(3T1+2T2+T3)/3",
       "(T1+2T2+3T3)/3"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 89,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-90",
@@ -18190,16 +18101,15 @@ const ALL_QUESTIONS = [
       "优先级",
       "短进程优先"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 90,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-91",
@@ -18211,16 +18121,15 @@ const ALL_QUESTIONS = [
       "银行家算法",
       "资源静态分配法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 91,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-92",
@@ -18232,16 +18141,15 @@ const ALL_QUESTIONS = [
       "随存储器的管理方案不同而异",
       "以用户的逻辑记录为单位"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 92,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-93",
@@ -18253,16 +18161,15 @@ const ALL_QUESTIONS = [
       "每种资源只有一个，并出现了环路",
       "每个进程节点至少有一条请求边"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 93,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-94",
@@ -18274,16 +18181,15 @@ const ALL_QUESTIONS = [
       "可以不同但预先固定",
       "可以不同但根据作业长度固定"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 94,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-95",
@@ -18295,16 +18201,15 @@ const ALL_QUESTIONS = [
       "用分段方法来分配和管理主存空间，用分页方法来管理辅存空间",
       "用分段方法来分配和管理辅存空间，用分页方法来管理主存空间"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 95,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-96",
@@ -18316,16 +18221,15 @@ const ALL_QUESTIONS = [
       "扩充外存空间的技术",
       "扩充输入输出缓冲区的技术"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 96,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-97",
@@ -18337,16 +18241,15 @@ const ALL_QUESTIONS = [
       "多重中断",
       "抖动"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 97,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-98",
@@ -18358,16 +18261,15 @@ const ALL_QUESTIONS = [
       "链式结构且磁盘块定长",
       "链式结构且磁盘块变长"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 98,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-99",
@@ -18379,16 +18281,15 @@ const ALL_QUESTIONS = [
       "2-1-4-3",
       "3-4-1-2"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 99,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-100",
@@ -18400,16 +18301,15 @@ const ALL_QUESTIONS = [
       "主设备号",
       "从设备号"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 100,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "os-101",
@@ -18424,12 +18324,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：分时操作系统。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 1,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-102",
@@ -18444,12 +18344,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：阻塞状态。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 2,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-103",
@@ -18464,12 +18364,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：就绪状态。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 3,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-104",
@@ -18484,12 +18384,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：请求与保持。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 4,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-105",
@@ -18504,12 +18404,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：(3T1+2T2+T3)/3。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 5,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-106",
@@ -18524,12 +18424,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：重定位。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 6,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-107",
@@ -18545,12 +18445,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：虚拟地址空间（虚拟存储器）。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 7,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-108",
@@ -18565,12 +18465,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：绝对路径。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 8,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-109",
@@ -18585,12 +18485,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：最短寻道时间优先。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 9,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-110",
@@ -18605,12 +18505,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：操作系统。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 10,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-111",
@@ -18625,12 +18525,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：批处理操作系统。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 11,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-112",
@@ -18645,12 +18545,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：就绪状态。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 12,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-113",
@@ -18665,12 +18565,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：加1。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 13,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-114",
@@ -18685,12 +18585,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：循环等待。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 14,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-115",
@@ -18705,12 +18605,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：合并空闲分区。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 15,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-116",
@@ -18725,12 +18625,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：根目录。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 16,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-117",
@@ -18745,12 +18645,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：文件系统。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 17,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-118",
@@ -18765,12 +18665,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：实时操作系统。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 18,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-119",
@@ -18785,12 +18685,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：就绪队列。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 19,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-120",
@@ -18805,12 +18705,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：1。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 20,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-121",
@@ -18825,12 +18725,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：最佳适应算法。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 21,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-122",
@@ -18845,12 +18745,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：抖动。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 22,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-123",
@@ -18865,12 +18765,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：目录。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 23,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-124",
@@ -18885,12 +18785,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：就绪状态。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 24,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-125",
@@ -18906,12 +18806,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：-1～3。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 25,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-126",
@@ -18926,12 +18826,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：J1、J3、J2。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 26,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-127",
@@ -18946,12 +18846,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：地址重定位。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 27,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-128",
@@ -18966,12 +18866,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：局部性。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 28,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-129",
@@ -18988,12 +18888,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：16MB（2²⁴ B）。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 29,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-130",
@@ -19008,12 +18908,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：100。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 30,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-131",
@@ -19028,12 +18928,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：虚拟设备。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 31,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-132",
@@ -19048,12 +18948,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：2。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 32,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-133",
@@ -19068,12 +18968,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：P。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 33,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-134",
@@ -19088,12 +18988,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：4。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 34,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-135",
@@ -19108,12 +19008,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：3。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 35,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-136",
@@ -19128,12 +19028,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：防止系统进入不安全状态。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 36,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-137",
@@ -19148,12 +19048,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：编译。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 37,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-138",
@@ -19168,12 +19068,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：2。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 38,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-139",
@@ -19188,12 +19088,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：文件控制块。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 39,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-140",
@@ -19208,12 +19108,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：16。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 40,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-141",
@@ -19228,12 +19128,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：490。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 41,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-142",
@@ -19248,12 +19148,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：中断。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "originalType": "cloze",
     "sourceNumber": 42,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "os-143",
@@ -19267,11 +19167,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 1,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-144",
@@ -19285,11 +19185,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 2,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-145",
@@ -19303,11 +19203,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 3,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-146",
@@ -19321,11 +19221,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 4,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-147",
@@ -19339,11 +19239,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 5,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-148",
@@ -19357,11 +19257,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 6,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-149",
@@ -19375,11 +19275,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 7,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-150",
@@ -19393,11 +19293,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 8,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-151",
@@ -19411,11 +19311,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 9,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-152",
@@ -19429,11 +19329,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 10,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-153",
@@ -19447,11 +19347,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 11,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-154",
@@ -19465,11 +19365,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 12,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-155",
@@ -19483,11 +19383,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 13,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-156",
@@ -19501,11 +19401,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 14,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-157",
@@ -19519,11 +19419,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 15,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-158",
@@ -19537,11 +19437,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 16,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-159",
@@ -19555,11 +19455,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 17,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-160",
@@ -19573,11 +19473,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 18,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-161",
@@ -19591,11 +19491,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 19,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-162",
@@ -19609,11 +19509,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 20,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-163",
@@ -19627,11 +19527,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 21,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-164",
@@ -19645,11 +19545,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 22,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-165",
@@ -19663,11 +19563,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 23,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-166",
@@ -19681,11 +19581,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 24,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-167",
@@ -19699,11 +19599,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 25,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-168",
@@ -19717,11 +19617,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 26,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-169",
@@ -19735,11 +19635,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 27,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-170",
@@ -19753,11 +19653,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 28,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-171",
@@ -19771,11 +19671,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 29,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-172",
@@ -19789,11 +19689,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 30,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-173",
@@ -19807,11 +19707,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 31,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-174",
@@ -19825,11 +19725,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 32,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-175",
@@ -19843,11 +19743,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 33,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-176",
@@ -19861,11 +19761,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 34,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-177",
@@ -19879,11 +19779,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 35,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-178",
@@ -19897,11 +19797,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 36,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-179",
@@ -19915,11 +19815,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 37,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-180",
@@ -19933,11 +19833,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 38,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-181",
@@ -19951,11 +19851,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 39,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-182",
@@ -19969,11 +19869,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 40,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-183",
@@ -19987,11 +19887,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 41,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-184",
@@ -20005,11 +19905,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 42,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-185",
@@ -20023,11 +19923,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 43,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-186",
@@ -20041,11 +19941,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 44,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-187",
@@ -20059,11 +19959,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 45,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-188",
@@ -20077,11 +19977,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 46,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-189",
@@ -20095,11 +19995,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 47,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-190",
@@ -20113,11 +20013,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 48,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-191",
@@ -20131,11 +20031,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 49,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-192",
@@ -20149,11 +20049,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 50,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-193",
@@ -20167,11 +20067,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 51,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-194",
@@ -20185,11 +20085,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 52,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-195",
@@ -20203,11 +20103,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 53,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-196",
@@ -20221,11 +20121,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 54,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-197",
@@ -20239,11 +20139,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 55,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-198",
@@ -20257,11 +20157,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 56,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-199",
@@ -20275,11 +20175,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 57,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-200",
@@ -20293,11 +20193,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 58,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-201",
@@ -20311,11 +20211,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 59,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-202",
@@ -20329,11 +20229,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 60,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-203",
@@ -20347,11 +20247,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 61,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-204",
@@ -20365,11 +20265,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 62,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-205",
@@ -20383,11 +20283,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 63,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-206",
@@ -20401,11 +20301,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 64,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-207",
@@ -20419,11 +20319,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 65,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-208",
@@ -20437,11 +20337,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 66,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-209",
@@ -20455,11 +20355,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 67,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-210",
@@ -20473,11 +20373,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 68,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-211",
@@ -20491,11 +20391,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 69,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-212",
@@ -20509,11 +20409,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 70,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-213",
@@ -20527,11 +20427,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 71,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-214",
@@ -20545,11 +20445,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 72,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-215",
@@ -20563,11 +20463,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 73,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-216",
@@ -20581,11 +20481,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 74,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-217",
@@ -20599,11 +20499,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 75,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-218",
@@ -20617,11 +20517,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 76,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-219",
@@ -20635,11 +20535,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 77,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-220",
@@ -20653,11 +20553,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 78,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-221",
@@ -20671,11 +20571,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 79,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-222",
@@ -20689,11 +20589,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 80,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-223",
@@ -20707,11 +20607,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 81,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-224",
@@ -20725,11 +20625,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 82,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-225",
@@ -20743,11 +20643,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 83,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-226",
@@ -20761,11 +20661,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 84,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-227",
@@ -20779,11 +20679,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 85,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-228",
@@ -20797,11 +20697,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 86,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-229",
@@ -20815,11 +20715,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 87,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-230",
@@ -20833,11 +20733,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 88,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-231",
@@ -20851,11 +20751,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 89,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-232",
@@ -20869,11 +20769,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 90,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-233",
@@ -20887,11 +20787,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 91,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-234",
@@ -20905,11 +20805,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 92,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-235",
@@ -20923,11 +20823,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 93,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-236",
@@ -20941,11 +20841,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 94,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-237",
@@ -20959,11 +20859,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 95,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-238",
@@ -20977,11 +20877,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 96,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-239",
@@ -20995,11 +20895,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 97,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-240",
@@ -21013,11 +20913,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 98,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-241",
@@ -21031,11 +20931,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 99,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-242",
@@ -21049,11 +20949,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 100,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-243",
@@ -21067,11 +20967,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 101,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-244",
@@ -21085,11 +20985,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 102,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-245",
@@ -21103,11 +21003,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 103,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-246",
@@ -21121,11 +21021,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 104,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-247",
@@ -21139,11 +21039,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 105,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-248",
@@ -21157,11 +21057,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 106,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-249",
@@ -21175,11 +21075,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 107,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-250",
@@ -21193,11 +21093,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 108,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-251",
@@ -21211,11 +21111,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 109,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-252",
@@ -21229,11 +21129,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 110,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-253",
@@ -21247,11 +21147,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 111,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-254",
@@ -21265,11 +21165,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 112,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-255",
@@ -21283,11 +21183,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 113,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-256",
@@ -21301,11 +21201,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 114,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-257",
@@ -21319,11 +21219,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 115,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-258",
@@ -21337,11 +21237,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 116,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-259",
@@ -21355,11 +21255,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 117,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-260",
@@ -21373,11 +21273,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 118,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-261",
@@ -21391,11 +21291,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 119,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-262",
@@ -21409,11 +21309,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 120,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-263",
@@ -21427,11 +21327,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 121,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-264",
@@ -21445,11 +21345,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 122,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-265",
@@ -21463,11 +21363,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 123,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-266",
@@ -21481,11 +21381,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 124,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-267",
@@ -21499,11 +21399,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 125,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-268",
@@ -21517,11 +21417,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 126,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-269",
@@ -21535,11 +21435,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 127,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-270",
@@ -21553,11 +21453,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 128,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-271",
@@ -21571,11 +21471,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 129,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-272",
@@ -21589,11 +21489,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 130,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-273",
@@ -21607,11 +21507,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 131,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-274",
@@ -21625,11 +21525,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 132,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-275",
@@ -21643,11 +21543,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 133,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-276",
@@ -21661,11 +21561,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 134,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-277",
@@ -21679,11 +21579,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 135,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-278",
@@ -21697,11 +21597,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 136,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-279",
@@ -21715,11 +21615,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 137,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-280",
@@ -21733,11 +21633,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 138,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-281",
@@ -21751,11 +21651,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 139,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-282",
@@ -21769,11 +21669,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 140,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-283",
@@ -21787,11 +21687,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 141,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-284",
@@ -21805,11 +21705,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 142,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-285",
@@ -21823,11 +21723,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 143,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-286",
@@ -21841,11 +21741,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 144,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-287",
@@ -21859,11 +21759,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 145,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-288",
@@ -21877,11 +21777,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 146,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-289",
@@ -21895,11 +21795,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 147,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-290",
@@ -21913,11 +21813,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 148,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-291",
@@ -21931,11 +21831,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 149,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-292",
@@ -21949,11 +21849,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 150,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-293",
@@ -21967,11 +21867,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 151,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-294",
@@ -21985,11 +21885,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 152,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-295",
@@ -22003,11 +21903,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 153,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-296",
@@ -22021,11 +21921,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 154,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-297",
@@ -22039,11 +21939,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 155,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-298",
@@ -22057,11 +21957,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 156,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-299",
@@ -22075,11 +21975,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 157,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-300",
@@ -22093,11 +21993,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 158,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-301",
@@ -22111,11 +22011,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 159,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-302",
@@ -22129,11 +22029,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 160,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-303",
@@ -22147,11 +22047,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 161,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-304",
@@ -22165,11 +22065,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 162,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-305",
@@ -22183,11 +22083,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 163,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-306",
@@ -22201,11 +22101,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 164,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-307",
@@ -22219,11 +22119,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 165,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-308",
@@ -22237,11 +22137,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 166,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-309",
@@ -22255,11 +22155,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 167,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-310",
@@ -22273,11 +22173,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 168,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-311",
@@ -22291,11 +22191,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 169,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-312",
@@ -22309,11 +22209,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 170,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-313",
@@ -22327,11 +22227,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 171,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-314",
@@ -22345,11 +22245,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 172,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-315",
@@ -22363,11 +22263,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 173,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-316",
@@ -22381,11 +22281,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 174,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-317",
@@ -22399,11 +22299,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 175,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-318",
@@ -22417,11 +22317,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 176,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-319",
@@ -22435,11 +22335,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 177,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-320",
@@ -22453,11 +22353,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 178,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-321",
@@ -22471,11 +22371,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 179,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-322",
@@ -22489,11 +22389,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 180,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-323",
@@ -22507,11 +22407,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 181,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-324",
@@ -22525,11 +22425,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 182,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-325",
@@ -22543,11 +22443,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 183,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-326",
@@ -22561,11 +22461,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 184,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-327",
@@ -22579,11 +22479,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 185,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-328",
@@ -22597,11 +22497,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 186,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-329",
@@ -22615,11 +22515,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 187,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-330",
@@ -22633,11 +22533,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 188,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-331",
@@ -22651,11 +22551,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 189,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-332",
@@ -22669,11 +22569,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 190,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-333",
@@ -22687,11 +22587,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 191,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-334",
@@ -22705,11 +22605,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 192,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-335",
@@ -22723,11 +22623,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 193,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-336",
@@ -22741,11 +22641,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 194,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-337",
@@ -22759,11 +22659,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 195,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-338",
@@ -22777,11 +22677,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 196,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-339",
@@ -22795,11 +22695,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 197,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "os-340",
@@ -22813,11 +22713,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "操作系统",
     "subject": "操作系统",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
+    "pageNumber": null,
     "accent": "#2563eb",
     "sourceNumber": 198,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\操作系统-期末复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-1",
@@ -22831,11 +22731,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 1,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-2",
@@ -22849,11 +22749,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 2,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-3",
@@ -22867,11 +22767,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 3,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-4",
@@ -22885,11 +22785,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 4,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-5",
@@ -22903,11 +22803,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 5,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-6",
@@ -22921,11 +22821,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 6,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-7",
@@ -22939,11 +22839,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 7,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-8",
@@ -22957,11 +22857,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 8,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-9",
@@ -22975,11 +22875,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 9,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-10",
@@ -22993,11 +22893,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 10,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-11",
@@ -23011,11 +22911,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 11,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-12",
@@ -23029,11 +22929,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 12,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-13",
@@ -23047,11 +22947,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 13,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-14",
@@ -23065,11 +22965,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 14,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-15",
@@ -23083,11 +22983,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 15,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-16",
@@ -23101,11 +23001,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 16,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-17",
@@ -23119,11 +23019,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 17,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-18",
@@ -23137,11 +23037,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 18,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-19",
@@ -23155,11 +23055,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 19,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-20",
@@ -23173,11 +23073,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 20,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-21",
@@ -23191,11 +23091,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 21,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-22",
@@ -23209,11 +23109,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 22,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-23",
@@ -23227,11 +23127,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 23,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-24",
@@ -23245,11 +23145,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 24,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-25",
@@ -23263,11 +23163,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 25,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-26",
@@ -23281,11 +23181,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 26,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-27",
@@ -23299,11 +23199,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 27,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-28",
@@ -23317,11 +23217,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 28,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-29",
@@ -23335,11 +23235,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 29,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-30",
@@ -23353,11 +23253,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 30,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-31",
@@ -23371,11 +23271,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 31,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-32",
@@ -23389,11 +23289,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 32,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-33",
@@ -23407,11 +23307,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 33,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-34",
@@ -23425,11 +23325,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 34,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-35",
@@ -23443,11 +23343,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 35,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-36",
@@ -23461,11 +23361,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 36,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-37",
@@ -23479,11 +23379,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 37,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-38",
@@ -23497,11 +23397,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 38,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-39",
@@ -23515,11 +23415,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 39,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-40",
@@ -23533,11 +23433,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 40,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-41",
@@ -23551,11 +23451,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 41,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-42",
@@ -23569,11 +23469,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 42,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-43",
@@ -23587,11 +23487,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 43,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-44",
@@ -23605,11 +23505,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 44,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-45",
@@ -23623,11 +23523,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：错误。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 45,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-46",
@@ -23641,11 +23541,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 46,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-47",
@@ -23659,11 +23559,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 47,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-48",
@@ -23677,11 +23577,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 48,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-49",
@@ -23695,11 +23595,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 49,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-50",
@@ -23713,11 +23613,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 50,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-51",
@@ -23731,11 +23631,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 51,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-52",
@@ -23749,11 +23649,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 52,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-53",
@@ -23767,11 +23667,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 53,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-54",
@@ -23785,11 +23685,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 54,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-55",
@@ -23803,11 +23703,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 55,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-56",
@@ -23821,11 +23721,11 @@ const ALL_QUESTIONS = [
     "analysis": "本题判断为：正确。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 56,
-    "sourceTypeLabel": "判断题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "判断题"
   },
   {
     "id": "se-57",
@@ -23837,16 +23737,15 @@ const ALL_QUESTIONS = [
       "软件不是制造出来的，而是开发出来的",
       "软件无法像硬件一样进行测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 1,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-58",
@@ -23858,16 +23757,15 @@ const ALL_QUESTIONS = [
       "软件构造",
       "软件部署"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 2,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-59",
@@ -23879,16 +23777,15 @@ const ALL_QUESTIONS = [
       "已定义级",
       "已管理级"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 3,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-60",
@@ -23900,16 +23797,15 @@ const ALL_QUESTIONS = [
       "客户合作重于合同的协商",
       "按计划行事重于对变化的响应"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 4,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-61",
@@ -23921,16 +23817,15 @@ const ALL_QUESTIONS = [
       "UML活动图",
       "UML构件图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 5,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-62",
@@ -23942,16 +23837,15 @@ const ALL_QUESTIONS = [
       "数据流可以从一个加工流向另一个加工",
       "顶层图只有代表整个软件系统的一个唯一的加工"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 6,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-63",
@@ -23963,16 +23857,15 @@ const ALL_QUESTIONS = [
       "数据流e",
       "数据流h"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 7,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-64",
@@ -23984,16 +23877,15 @@ const ALL_QUESTIONS = [
       "软件系统的硬件和网络拓扑结构",
       "实现软件系统功能的算法和数据结构"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 8,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-65",
@@ -24005,16 +23897,15 @@ const ALL_QUESTIONS = [
       "观察者模式和风格",
       "以数据为中心的风格"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 9,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-66",
@@ -24026,16 +23917,15 @@ const ALL_QUESTIONS = [
       "UML顺序图",
       "UML状态机图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 10,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-67",
@@ -24047,16 +23937,15 @@ const ALL_QUESTIONS = [
       "可以应用体系结构模式等设计经验",
       "主要关注于对于功能性需求的实现，无需关注于非功能性需求（质量需求）的实现"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 11,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-68",
@@ -24068,16 +23957,15 @@ const ALL_QUESTIONS = [
       "模块集成一般属于软件构造过程的一部分",
       "需要根据技术、人员等多方面因素选择编程语言"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 12,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-69",
@@ -24089,16 +23977,15 @@ const ALL_QUESTIONS = [
       "代码编写和调试",
       "模块集成"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 13,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-70",
@@ -24110,16 +23997,15 @@ const ALL_QUESTIONS = [
       "类A中的方法m访问类A中的属性p",
       "类A和类B中的方法共享一个全局变量g"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 14,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-71",
@@ -24131,16 +24017,15 @@ const ALL_QUESTIONS = [
       "模块与模块之间相对独立但又有所关联",
       "模块化设计体现了对于复杂问题的分解"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 15,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-72",
@@ -24152,16 +24037,15 @@ const ALL_QUESTIONS = [
       "模块代码行数",
       "模块接口数量"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 16,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-73",
@@ -24173,16 +24057,15 @@ const ALL_QUESTIONS = [
       "一个好的测试用例是指很可能找到迄今为至尚未发现的错误的测试用例",
       "一次成功的测试是指发现了迄今为至尚未发现的错误的测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 17,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-74",
@@ -24194,16 +24077,15 @@ const ALL_QUESTIONS = [
       "冒烟测试",
       "确认测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 18,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-75",
@@ -24215,16 +24097,15 @@ const ALL_QUESTIONS = [
       "黑盒测试",
       "白盒测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 19,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-76",
@@ -24236,16 +24117,15 @@ const ALL_QUESTIONS = [
       "改善性维护",
       "预防性维护"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 20,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-77",
@@ -24257,16 +24137,15 @@ const ALL_QUESTIONS = [
       "对于一个成功的软件开发项目，其唯一的可发布产品就是可运行的程序",
       "软件开发项目落后于原定计划时总是可以通过增加程序员来赶上进度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 21,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-78",
@@ -24278,16 +24157,15 @@ const ALL_QUESTIONS = [
       "软件开发生产率提高的速度远远跟不上计算机应用迅速普及深入的趋势",
       "人们不再需要计算机软件"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 22,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-79",
@@ -24299,16 +24177,15 @@ const ALL_QUESTIONS = [
       "软件构造",
       "软件部署"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 23,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-80",
@@ -24320,16 +24197,15 @@ const ALL_QUESTIONS = [
       "C++语言",
       "C#语言"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 24,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-81",
@@ -24341,16 +24217,15 @@ const ALL_QUESTIONS = [
       "增量模型",
       "螺旋模型"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 25,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-82",
@@ -24362,16 +24237,15 @@ const ALL_QUESTIONS = [
       "软件机构的软件过程能力",
       "项目经理的个人能力"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 26,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-83",
@@ -24383,16 +24257,15 @@ const ALL_QUESTIONS = [
       "欢迎变化的需求，即使该变化出现在开发的后期",
       "强调软件开发中人的作用和交流的作用"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 27,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-84",
@@ -24404,16 +24277,15 @@ const ALL_QUESTIONS = [
       "UML活动图",
       "UML构件图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 28,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-85",
@@ -24425,16 +24297,15 @@ const ALL_QUESTIONS = [
       "数据流c",
       "数据流f"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 29,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-86",
@@ -24446,16 +24317,15 @@ const ALL_QUESTIONS = [
       "与待开发软件业务领域相关的法律法规",
       "以上这些都是"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 30,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-87",
@@ -24467,16 +24337,15 @@ const ALL_QUESTIONS = [
       "考虑部件间的接口设计",
       "明确每个部件的外部可见属性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 31,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-88",
@@ -24488,21 +24357,15 @@ const ALL_QUESTIONS = [
       "以数据为中心的体系结构风格",
       "调用和返回体系结构风格"
     ],
-    "answer": "参考答案见图：顶层数据流图、1层数据流图。",
-    "unscored": true,
-    "analysis": "参考答案见图：顶层数据流图、1层数据流图。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
-    "referenceImages": [
-      "./assets/answers/software/image18.png",
-      "./assets/answers/software/image19.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 32,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-89",
@@ -24514,21 +24377,15 @@ const ALL_QUESTIONS = [
       "对象间通过消息传递的方式进行通信",
       "类与类之间相对独立但又相互协作"
     ],
-    "answer": "参考答案见图：顶层数据流图、1层数据流图。",
-    "unscored": true,
-    "analysis": "参考答案见图：顶层数据流图、1层数据流图。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
-    "referenceImages": [
-      "./assets/answers/software/image20.png",
-      "./assets/answers/software/image21.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 33,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-90",
@@ -24540,20 +24397,15 @@ const ALL_QUESTIONS = [
       "集成之前各个模块应当都通过单元测试",
       "集成过程基于软件的设计方案"
     ],
-    "answer": "参考答案见图：在线购物系统 UML 类图。",
-    "unscored": true,
-    "analysis": "参考答案见图：在线购物系统 UML 类图。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：在线购物系统 UML 类图。",
-    "referenceImages": [
-      "./assets/answers/software/image22.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 34,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-91",
@@ -24565,20 +24417,15 @@ const ALL_QUESTIONS = [
       "主要用于模块级测试",
       "目的是检查程序中不同的逻辑路径是否都按预定的要求正确地工作"
     ],
-    "answer": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
-    "unscored": true,
-    "analysis": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
-    "referenceImages": [
-      "./assets/answers/software/image23.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 35,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-92",
@@ -24590,20 +24437,15 @@ const ALL_QUESTIONS = [
       "基本路径覆盖测试",
       "数据流测试"
     ],
-    "answer": "参考答案见图：出版物领域 UML 类图。",
-    "unscored": true,
-    "analysis": "参考答案见图：出版物领域 UML 类图。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：出版物领域 UML 类图。",
-    "referenceImages": [
-      "./assets/answers/software/image24.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 36,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-93",
@@ -24615,20 +24457,15 @@ const ALL_QUESTIONS = [
       "过程内聚",
       "功能内聚"
     ],
-    "answer": "参考答案见图：银行账户系统 UML 类图。",
-    "unscored": true,
-    "analysis": "参考答案见图：银行账户系统 UML 类图。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：银行账户系统 UML 类图。",
-    "referenceImages": [
-      "./assets/answers/software/image25.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 37,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-94",
@@ -24640,21 +24477,15 @@ const ALL_QUESTIONS = [
       "压力测试（stress testing）",
       "集成测试（integration testing）"
     ],
-    "answer": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
-    "unscored": true,
-    "analysis": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
-    "referenceImages": [
-      "./assets/answers/software/image26.png",
-      "./assets/answers/software/image27.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 38,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-95",
@@ -24666,21 +24497,15 @@ const ALL_QUESTIONS = [
       "效率（efficiency）",
       "可移植性（portability）(转移方面的)"
     ],
-    "answer": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
-    "unscored": true,
-    "analysis": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
-    "referenceAnswer": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
-    "referenceImages": [
-      "./assets/answers/software/image28.png",
-      "./assets/answers/software/image29.png"
-    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 39,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-96",
@@ -24692,20 +24517,15 @@ const ALL_QUESTIONS = [
       "改善性维护",
       "预防性维护"
     ],
-    "answer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
-    "unscored": true,
-    "analysis": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
-    "questionImages": [
-      "./assets/answers/software/image30.png"
-    ],
-    "referenceAnswer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 40,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-97",
@@ -24717,16 +24537,15 @@ const ALL_QUESTIONS = [
       "软件测试无法证明软件的正确性",
       "软件只能通过编写代码这一种方式进行构造"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 41,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-98",
@@ -24738,16 +24557,15 @@ const ALL_QUESTIONS = [
       "社会经济发展对于计算机软件的需求度不高",
       "软件开发缺乏有力的方法学和工具的支持"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 42,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-99",
@@ -24759,16 +24577,15 @@ const ALL_QUESTIONS = [
       "软件的数据库设计",
       "编写代码实现给定的功能"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 43,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-100",
@@ -24780,16 +24597,15 @@ const ALL_QUESTIONS = [
       "C++语言",
       "C#语言"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 44,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-101",
@@ -24801,16 +24617,15 @@ const ALL_QUESTIONS = [
       "缺乏灵活性，难以适应需求不明确或需求经常变化的软件开发",
       "需要的开发人员数量比较多、开发团队庞大"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 45,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-102",
@@ -24822,16 +24637,15 @@ const ALL_QUESTIONS = [
       "软件机构的软件过程能力",
       "项目经理的个人能力"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 46,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-103",
@@ -24843,16 +24657,15 @@ const ALL_QUESTIONS = [
       "让客户和用户通过可运行的软件更好地了解当前的软件开发状况，从而从他们那里获得快速和有价值的反馈",
       "加快项目开发的进度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 47,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-104",
@@ -24864,16 +24677,15 @@ const ALL_QUESTIONS = [
       "UML活动图",
       "UML构件图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 48,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-105",
@@ -24885,16 +24697,15 @@ const ALL_QUESTIONS = [
       "加工3和加工5",
       "加工1、加工2和加工5"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 49,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-106",
@@ -24906,16 +24717,15 @@ const ALL_QUESTIONS = [
       "调查问卷",
       "编写测试用例"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 50,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-107",
@@ -24927,16 +24737,15 @@ const ALL_QUESTIONS = [
       "应用设计模式往往有利于软件设计的可扩展性和可维护性",
       "设计模式的描述一般包括所针对的问题、上下文、解决方案及其优缺点的描述等"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 51,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-108",
@@ -24948,16 +24757,15 @@ const ALL_QUESTIONS = [
       "以数据为中心的体系结构风格",
       "调用和返回体系结构风格"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 52,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-109",
@@ -24969,16 +24777,15 @@ const ALL_QUESTIONS = [
       "一个模块内部各个元素彼此结合、紧密相关的程度",
       "一个模块与其他模块之间的关联程度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 53,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-110",
@@ -24990,16 +24797,15 @@ const ALL_QUESTIONS = [
       "代码编写和调试",
       "模块集成"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 54,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-111",
@@ -25011,16 +24817,15 @@ const ALL_QUESTIONS = [
       "控制耦合",
       "公共耦合"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 55,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-112",
@@ -25032,16 +24837,15 @@ const ALL_QUESTIONS = [
       "单元测试",
       "白盒测试乳品"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 56,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-113",
@@ -25053,16 +24857,15 @@ const ALL_QUESTIONS = [
       "按照软件的需求规约检查程序的功能是否符合需求规约的要求",
       "等价类划分是一种黑盒测试方法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 57,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-114",
@@ -25074,16 +24877,15 @@ const ALL_QUESTIONS = [
       "集成测试",
       "单元测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 58,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-115",
@@ -25095,16 +24897,15 @@ const ALL_QUESTIONS = [
       "灵活性（flexibility）",
       "可测试性（testability）"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 59,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-116",
@@ -25116,16 +24917,15 @@ const ALL_QUESTIONS = [
       "圈复杂度",
       "缺陷密度"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 60,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-117",
@@ -25137,16 +24937,15 @@ const ALL_QUESTIONS = [
       "大规模、复杂软件系统的开发应当遵循工程化的软件开发过程",
       "通过对软件进行完整、详细的测试可以证明软件的正确性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 61,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-118",
@@ -25158,16 +24957,15 @@ const ALL_QUESTIONS = [
       "软件详细设计",
       "技术评审"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 62,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-119",
@@ -25179,16 +24977,15 @@ const ALL_QUESTIONS = [
       "瀑布模型",
       "原型模型"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 63,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-120",
@@ -25200,16 +24997,15 @@ const ALL_QUESTIONS = [
       "类和对象",
       "封装"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 64,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-121",
@@ -25221,16 +25017,15 @@ const ALL_QUESTIONS = [
       "汽车与驾驶员",
       "汽车与道路"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 65,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-122",
@@ -25242,16 +25037,15 @@ const ALL_QUESTIONS = [
       "汽车总数量",
       "刹车"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 66,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-123",
@@ -25263,16 +25057,15 @@ const ALL_QUESTIONS = [
       "对象可以拥有多个不同的操作",
       "一个类可以从多个类那里继承而来"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 67,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-124",
@@ -25284,16 +25077,15 @@ const ALL_QUESTIONS = [
       "安全性需求",
       "可靠性需求"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 68,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-125",
@@ -25305,16 +25097,15 @@ const ALL_QUESTIONS = [
       "UML构件图",
       "数据流图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 69,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-126",
@@ -25326,16 +25117,15 @@ const ALL_QUESTIONS = [
       "类图",
       "部署图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 70,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-127",
@@ -25347,16 +25137,15 @@ const ALL_QUESTIONS = [
       "明确软件的设计要求",
       "定义各部分之间的约定和规范，保证各部分能顺利集成"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 71,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-128",
@@ -25368,16 +25157,15 @@ const ALL_QUESTIONS = [
       "考虑部件间的接口设计",
       "明确每个部件的外部可见属性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 72,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-129",
@@ -25389,16 +25177,15 @@ const ALL_QUESTIONS = [
       "允许用户交互随时被中断和撤销",
       "允许用户对交互模式进行定制"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 73,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-130",
@@ -25410,16 +25197,15 @@ const ALL_QUESTIONS = [
       "模块间完全独立、不进行任何通信",
       "模块间通过受控的接口进行通信"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 74,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-131",
@@ -25431,16 +25217,15 @@ const ALL_QUESTIONS = [
       "回归测试",
       "系统测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 75,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-132",
@@ -25452,16 +25237,15 @@ const ALL_QUESTIONS = [
       "代码评审",
       "调试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 76,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-133",
@@ -25473,16 +25257,15 @@ const ALL_QUESTIONS = [
       "单元测试",
       "集成测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 77,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-134",
@@ -25494,16 +25277,15 @@ const ALL_QUESTIONS = [
       "适应性维护",
       "预防性维护"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 78,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-135",
@@ -25515,16 +25297,15 @@ const ALL_QUESTIONS = [
       "实现较为简单的功能",
       "设计和实现具有较高的通用性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 79,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-136",
@@ -25536,16 +25317,15 @@ const ALL_QUESTIONS = [
       "变更控制",
       "配置审计"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 80,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-137",
@@ -25557,16 +25337,15 @@ const ALL_QUESTIONS = [
       "一个成功的项目唯一的可发布产品就是可运行的程序",
       "不管什么类型的软件都会在其生命周期内随着时间不断演化"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 81,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-138",
@@ -25578,16 +25357,15 @@ const ALL_QUESTIONS = [
       "需求与系统的所有主要涉众（stakeholder）的期望相符",
       "需求不会有太大改变"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 82,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-139",
@@ -25599,16 +25377,15 @@ const ALL_QUESTIONS = [
       "可运行的软件是衡量软件开发项目进度的主要方法",
       "应当尽早和持续地交付有价值的软件来满足客户"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 83,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-140",
@@ -25620,16 +25397,15 @@ const ALL_QUESTIONS = [
       "对象应该尽可能将其内部属性和操作对外开放",
       "目的是使对象的使用者和生产者分离，使对象的定义和实现分开"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 84,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-141",
@@ -25641,16 +25417,15 @@ const ALL_QUESTIONS = [
       "汽车与驾驶员",
       "汽车与道路"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 85,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-142",
@@ -25662,16 +25437,15 @@ const ALL_QUESTIONS = [
       "类B、类C",
       "类C、类D"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 86,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-143",
@@ -25683,16 +25457,15 @@ const ALL_QUESTIONS = [
       "“图书”类具有“出版物”类的所有属性，并且不能定义其他新的属性",
       "“报纸”是“出版物”的子类"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 87,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-144",
@@ -25704,16 +25477,15 @@ const ALL_QUESTIONS = [
       "安全性（security）需求",
       "可靠性（reliability）需求"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 88,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-145",
@@ -25725,16 +25497,15 @@ const ALL_QUESTIONS = [
       "可以描述实体之间的继承关系",
       "支持对数据流的结构化定义"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 89,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-146",
@@ -25746,16 +25517,15 @@ const ALL_QUESTIONS = [
       "构件图",
       "部署图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 90,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-147",
@@ -25767,16 +25537,15 @@ const ALL_QUESTIONS = [
       "代码长度",
       "模块数量"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 91,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-148",
@@ -25788,16 +25557,15 @@ const ALL_QUESTIONS = [
       "每个模块越小越好",
       "模块数量越多越好"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 92,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-149",
@@ -25809,16 +25577,15 @@ const ALL_QUESTIONS = [
       "整体的体系结构风格设计",
       "模块内部算法设计"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "C",
+    "analysis": "原 Word 红色标注正确答案为 C。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 93,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-150",
@@ -25830,16 +25597,15 @@ const ALL_QUESTIONS = [
       "可修改性（modifiability）",
       "可移植性（portability）"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 94,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-151",
@@ -25851,16 +25617,15 @@ const ALL_QUESTIONS = [
       "确认测试",
       "系统测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "B",
+    "analysis": "原 Word 红色标注正确答案为 B。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 95,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-152",
@@ -25872,16 +25637,15 @@ const ALL_QUESTIONS = [
       "数据流测试",
       "等价类划分测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 96,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-153",
@@ -25893,16 +25657,15 @@ const ALL_QUESTIONS = [
       "回归测试能够帮助开发人员确保不会因代码的修改而引入新的错误",
       "集成测试只能在所有模块都完全集成在一起之后才能进行"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "D",
+    "analysis": "原 Word 红色标注正确答案为 D。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 97,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-154",
@@ -25914,16 +25677,15 @@ const ALL_QUESTIONS = [
       "模块化设计",
       "封装"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 98,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-155",
@@ -25935,16 +25697,15 @@ const ALL_QUESTIONS = [
       "可复用性（reusability） （转移方面的）",
       "可移植性（portability）（转移方面的）"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 99,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-156",
@@ -25956,16 +25717,15 @@ const ALL_QUESTIONS = [
       "识别变化",
       "控制变化"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+    "answer": "A",
+    "analysis": "原 Word 红色标注正确答案为 A。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 100,
-    "sourceTypeLabel": "单选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "单选题"
   },
   {
     "id": "se-157",
@@ -25977,16 +25737,15 @@ const ALL_QUESTIONS = [
       "软件测试",
       "项目管理"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 1,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-158",
@@ -25998,16 +25757,15 @@ const ALL_QUESTIONS = [
       "软件维护",
       "软件测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 2,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-159",
@@ -26019,16 +25777,15 @@ const ALL_QUESTIONS = [
       "恶意软件",
       "杀毒软件"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 3,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-160",
@@ -26040,16 +25797,15 @@ const ALL_QUESTIONS = [
       "软件流程的质量",
       "可维护性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 4,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-161",
@@ -26061,16 +25817,15 @@ const ALL_QUESTIONS = [
       "能证明所开发的软件是可以维护和继续发展的",
       "开发出一个没有bug的软件"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 5,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-162",
@@ -26082,16 +25837,15 @@ const ALL_QUESTIONS = [
       "验证新的代码有没有破坏模块的现有功能。",
       "确保新的代码产生了新的功能。"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AC",
+    "analysis": "原 Word 红色标注正确答案为 AC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 6,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-163",
@@ -26103,16 +25857,15 @@ const ALL_QUESTIONS = [
       "代码注入",
       "样本分析"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AC",
+    "analysis": "原 Word 红色标注正确答案为 AC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 7,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-164",
@@ -26124,16 +25877,15 @@ const ALL_QUESTIONS = [
       "演化I（CMMI）",
       "PSP"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AC",
+    "analysis": "原 Word 红色标注正确答案为 AC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 8,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-165",
@@ -26145,16 +25897,15 @@ const ALL_QUESTIONS = [
       "对通用的软件设计思想和软件工程思想的理解",
       "提升职业技能"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 9,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-166",
@@ -26166,16 +25917,15 @@ const ALL_QUESTIONS = [
       "质量如何",
       "是否按时交付"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 10,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-167",
@@ -26187,16 +25937,15 @@ const ALL_QUESTIONS = [
       "代码书写规范",
       "代码结构规范"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AB",
+    "analysis": "原 Word 红色标注正确答案为 AB。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 11,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-168",
@@ -26208,16 +25957,15 @@ const ALL_QUESTIONS = [
       "对于有显式的构造和析构函数的类，不要建立全局的实体",
       "仅在必要时，才使用“类”"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 12,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-169",
@@ -26229,16 +25977,15 @@ const ALL_QUESTIONS = [
       "团队复审",
       "结对复审"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 13,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-170",
@@ -26250,16 +25997,15 @@ const ALL_QUESTIONS = [
       "具体代码部分",
       "效能与可测试性"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 14,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-171",
@@ -26271,16 +26017,15 @@ const ALL_QUESTIONS = [
       "创造阶段",
       "解体阶段"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 15,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-172",
@@ -26292,16 +26037,15 @@ const ALL_QUESTIONS = [
       "说服 Persuasion",
       "吸引 Attraction"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AD",
+    "analysis": "原 Word 红色标注正确答案为 AD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 16,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-173",
@@ -26313,16 +26057,15 @@ const ALL_QUESTIONS = [
       "团队成员有各自的分工，互相依赖合作，共同完成任务",
       "团队成员依据个人目标进行分工，相互合作与竞争，完成集体目标"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AC",
+    "analysis": "原 Word 红色标注正确答案为 AC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 17,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-174",
@@ -26334,16 +26077,15 @@ const ALL_QUESTIONS = [
       "交响乐团模式",
       "爵士乐模式"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "AB",
+    "analysis": "原 Word 红色标注正确答案为 AB。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 18,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-175",
@@ -26355,16 +26097,15 @@ const ALL_QUESTIONS = [
       "老板驱动的流程模型",
       "渐进交付式的流程MVP和MBP"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 19,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-176",
@@ -26376,16 +26117,15 @@ const ALL_QUESTIONS = [
       "构造阶段",
       "交付阶段"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 20,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-177",
@@ -26397,16 +26137,15 @@ const ALL_QUESTIONS = [
       "用户满意了",
       "完成了计划的迭代次数"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 21,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-178",
@@ -26418,16 +26157,15 @@ const ALL_QUESTIONS = [
       "冲刺",
       "得到软件的一个增量版本，发布给用户。"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 22,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-179",
@@ -26439,16 +26177,15 @@ const ALL_QUESTIONS = [
       "多功能型",
       "自适应型"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 23,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-180",
@@ -26460,16 +26197,15 @@ const ALL_QUESTIONS = [
       "极限编程(XP)",
       "TDD"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 24,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-181",
@@ -26481,16 +26217,15 @@ const ALL_QUESTIONS = [
       "验证需求",
       "在软件产品的生命周期中管理需求"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 25,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-182",
@@ -26502,16 +26237,15 @@ const ALL_QUESTIONS = [
       "非功能性需求",
       "综合需求"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 26,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-183",
@@ -26523,16 +26257,15 @@ const ALL_QUESTIONS = [
       "系统/应用集成商",
       "软件工程师"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 27,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-184",
@@ -26544,16 +26277,15 @@ const ALL_QUESTIONS = [
       "用户调查问卷模式",
       "用户日志研究模式"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 28,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-185",
@@ -26565,16 +26297,15 @@ const ALL_QUESTIONS = [
       "T恤尺寸法",
       "掷骰子法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 29,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-186",
@@ -26586,16 +26317,15 @@ const ALL_QUESTIONS = [
       "Program Manager（微软的职位名称）",
       "Performance Manager"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 30,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-187",
@@ -26607,16 +26337,15 @@ const ALL_QUESTIONS = [
       "技术风险",
       "环境风险"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 31,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-188",
@@ -26628,16 +26357,15 @@ const ALL_QUESTIONS = [
       "预计问题（Anticipation）",
       "变问题为机遇（Opportunity）"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 32,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-189",
@@ -26649,16 +26377,15 @@ const ALL_QUESTIONS = [
       "一定的专业能力",
       "自省的能力"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 33,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-190",
@@ -26670,16 +26397,15 @@ const ALL_QUESTIONS = [
       "数据库",
       "物理层"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 34,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-191",
@@ -26691,16 +26417,15 @@ const ALL_QUESTIONS = [
       "主要成功场景",
       "扩展场景"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 35,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-192",
@@ -26712,16 +26437,15 @@ const ALL_QUESTIONS = [
       "测试功能",
       "实现具体功能"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABD",
+    "analysis": "原 Word 红色标注正确答案为 ABD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 36,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-193",
@@ -26733,16 +26457,15 @@ const ALL_QUESTIONS = [
       "用况图或用例图（UCD）",
       "数据流图"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 37,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-194",
@@ -26754,16 +26477,15 @@ const ALL_QUESTIONS = [
       "反思层次",
       "理想层次"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 38,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-195",
@@ -26775,16 +26497,15 @@ const ALL_QUESTIONS = [
       "根本原因",
       "具体缺陷"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 39,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-196",
@@ -26796,16 +26517,15 @@ const ALL_QUESTIONS = [
       "系统测试",
       "压力测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 40,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-197",
@@ -26817,16 +26537,15 @@ const ALL_QUESTIONS = [
       "兼容性测试",
       "软件安全性测试"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "BCD",
+    "analysis": "原 Word 红色标注正确答案为 BCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 41,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-198",
@@ -26838,16 +26557,15 @@ const ALL_QUESTIONS = [
       "减少系统可用资源",
       "缩短系统运行时间（做不到）"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABC",
+    "analysis": "原 Word 红色标注正确答案为 ABC。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 42,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-199",
@@ -26859,16 +26577,15 @@ const ALL_QUESTIONS = [
       "决策表、因果图和功能图方法",
       "正交实验设计方法"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 43,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-200",
@@ -26880,16 +26597,15 @@ const ALL_QUESTIONS = [
       "不修复",
       "推迟发布"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 44,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-201",
@@ -26901,16 +26617,15 @@ const ALL_QUESTIONS = [
       "要遵循传统的流程",
       "要重视客户的要求"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 45,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-202",
@@ -26922,16 +26637,15 @@ const ALL_QUESTIONS = [
       "低调发展期",
       "主流发展期"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 46,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-203",
@@ -26943,16 +26657,15 @@ const ALL_QUESTIONS = [
       "团队执行的因素",
       "产品的价值因素"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 47,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-204",
@@ -26964,16 +26677,15 @@ const ALL_QUESTIONS = [
       "对团队的贡献",
       "对产品的贡献"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 48,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-205",
@@ -26985,16 +26697,15 @@ const ALL_QUESTIONS = [
       "独裁",
       "交换决定权"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "ABCD",
+    "analysis": "原 Word 红色标注正确答案为 ABCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 49,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-206",
@@ -27006,16 +26717,15 @@ const ALL_QUESTIONS = [
       "高度自治，不再需要领导的教诲与介入",
       "角色和职责能够根据项目的要求自然转换，没有人为此担心或抱怨。"
     ],
-    "answer": "",
-    "unscored": true,
-    "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+    "answer": "BCD",
+    "analysis": "原 Word 红色标注正确答案为 BCD。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 50,
-    "sourceTypeLabel": "多选题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "多选题"
   },
   {
     "id": "se-207",
@@ -27027,12 +26737,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：程序和文档。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 1,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-208",
@@ -27044,12 +26754,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：瀑布模型。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 2,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-209",
@@ -27061,12 +26771,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：类。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 3,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-210",
@@ -27078,12 +26788,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：场景。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 4,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-211",
@@ -27095,12 +26805,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：信息隐藏。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 5,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-212",
@@ -27112,12 +26822,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：敏捷。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 6,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-213",
@@ -27129,12 +26839,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：软件、硬件、网络基础设施、人员、数据库、文档、规程。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 7,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-214",
@@ -27146,12 +26856,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：信息隐藏。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 8,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-215",
@@ -27163,12 +26873,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：抽象。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 9,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-216",
@@ -27180,12 +26890,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：回归测试。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 10,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-217",
@@ -27197,12 +26907,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：多态性。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 11,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-218",
@@ -27214,12 +26924,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：敏捷。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 12,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-219",
@@ -27231,12 +26941,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：继承。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 13,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-220",
@@ -27248,12 +26958,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：耦合。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 14,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-221",
@@ -27265,12 +26975,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：对象。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 15,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-222",
@@ -27282,12 +26992,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：部件之间的关系、部件的外部可见属性。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 16,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-223",
@@ -27299,12 +27009,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：回归测试。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 17,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-224",
@@ -27316,12 +27026,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：测试人员根据程序内部的逻辑结构及有关信息设计测试用例，覆盖不同的逻辑路径。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 18,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-225",
@@ -27333,12 +27043,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：输入域的一个子集，该子集中的每个输入数据对揭露软件中的错误都是等效的。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 19,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-226",
@@ -27350,12 +27060,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：需求分析。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 20,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-227",
@@ -27367,12 +27077,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：水陆两栖交通工具。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 21,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-228",
@@ -27384,12 +27094,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：抽象。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 22,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-229",
@@ -27401,12 +27111,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：白盒。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 23,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-230",
@@ -27418,12 +27128,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：选择一组测试用例使得被测程序的每个可执行语句都至少执行一次。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 24,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-231",
@@ -27435,12 +27145,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：正确性、易用性、效率、可靠性、完整性。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 25,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-232",
@@ -27452,12 +27162,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：和。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 26,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-233",
@@ -27469,12 +27179,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：类。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 27,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-234",
@@ -27486,12 +27196,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：程序的每个判定中的每个条件分支都至少被执行一次。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 28,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-235",
@@ -27503,12 +27213,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：确定错误的原因和准确位置并加以纠正。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 29,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-236",
@@ -27520,12 +27230,12 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：一个模块应该对扩展开放对修改封闭。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 30,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-237",
@@ -27537,156 +27247,187 @@ const ALL_QUESTIONS = [
     "analysis": "本题填空答案为：不同的模块间相互联系和依赖的程度。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "cloze",
     "sourceNumber": 31,
-    "sourceTypeLabel": "填空题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "填空题"
   },
   {
     "id": "se-238",
     "type": "comprehensive",
     "question": "一个信用卡申请系统的基本功能描述如下。\n客户向系统提交信用卡申请。申请接收功能接收信用卡申请并将其记录到信用卡数据库中。预处理功能从信用卡数据库中读取信用卡申请并对申请信息进行初步检查。对于不符合要求的申请，这个预处理功能会生成无效的信用卡申请反馈给客户。对于符合要求的申请，这个预处理功能会向信用检查功能提供一个有效申请列表。信用检查功能从一个外部信用机构获得信用记录，并以此为基础检查申请人的信用。对于那些未通过信用检查的申请，信用检查功能会向客户发送一个未通过的申请反馈。对于通过信用检查的申请，信用检查功能会生成一个审批通过的申请列表并提供给发卡功能。最后，发卡功能生成信用卡并将它们发送给客户\n分析上面这个系统的数据流并且回答以下问题。\n1）画出该系统的顶层数据流图\n2）画出该系统的1层数据流图",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：顶层数据流图、1层数据流图。",
+    "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
+    "analysis": "参考答案见图：顶层数据流图、1层数据流图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image18.png",
+      "./assets/answers/software/image19.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 1,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-239",
     "type": "comprehensive",
     "question": "一个招聘信息管理系统的描述如下。\n在每一个招聘季，每个部门的部门秘书向系统提交职位列表和职位要求。“招聘准备”功能接收职位列表和职位要求，将它们记录到招聘数据库中，同时向外部的求职网站发布招聘广告。对这些职位感兴趣的求职者向招聘系统提交申请表格。“申请接受”功能接收申请表格，从招聘系统中读取职位要求，然后产生一个申请列表并发送给一个外部的能力测试系统。能力测试系统将能力测试结果发送给“最终决定”功能。该功能产生一个推荐列表给经理，并从经理那里获得通过的申请者列表，然后生成最终招聘列表并将其记录到招聘数据库中。最后，“通知”功能从招聘数据库中读取最终的招聘列表，然后向申请者发送招聘通知，同时向部门秘书发送新员工列表。\n分析上面这个系统的数据流并且回答以下问题：\n画出该系统的顶层数据流图\n画出该系统的1层数据流图",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：顶层数据流图、1层数据流图。",
+    "referenceAnswer": "参考答案见图：顶层数据流图、1层数据流图。",
+    "analysis": "参考答案见图：顶层数据流图、1层数据流图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image20.png",
+      "./assets/answers/software/image21.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 2,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-240",
     "type": "comprehensive",
     "question": "根据以下所述的在线购物系统的需求画出相应的UML类图。\n系统中有很多产品出售，每件产品都有产品ID、名称、价格和产品描述。系统记录客户信息，包括客户ID、姓名和年龄。客户分为VIP客户或者普通客户。每一个客户可以有多个订单。每一个订单有订单ID和时间，并包含至少一个订单条目。每一个订单条目对应于一件产品，同时记录该产品的数量。每一个订单对应于一个付款信息，这个付款信息包括支付时间、支付方式和支付结果。",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：在线购物系统 UML 类图。",
+    "referenceAnswer": "参考答案见图：在线购物系统 UML 类图。",
+    "analysis": "参考答案见图：在线购物系统 UML 类图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image22.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 3,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-241",
     "type": "comprehensive",
     "question": "根据以下所述的学术会议论文发表信息系统的需求画出相应的UML类图。\n每一个研究人员都有姓名、所属机构以及电子邮箱地址。每一个会议论文集都有会议名称、会议地点以及日期，并包含一个或者多个研究人员作为论文集的编辑，同时包含一系列（1篇或1篇以上）的论文。每一篇论文都有标题、摘要、页数，并包含一个或多个作者（这些作者也都是研究人员）。论文包含三类，包括墙报、短文和长文。）",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
+    "referenceAnswer": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
+    "analysis": "参考答案见图：学术会议论文发表信息系统 UML 类图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image23.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 4,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-242",
     "type": "comprehensive",
     "question": "对于以下所述的出版物领域的需求画出相应的UML类图。\n出版物领域中所涉及的业务类包括：出版物、数字图书、纸质图书、CD、人、作者、编辑。\n他们的关系和属性如下：数字图书和纸质图书都是一种出版物；作者和编辑都是一种人；每一本纸质图书可以没有或者包含一张或多张CD作为附录；每一个出版物都有一个ISBN号、标题、页数、价格，包含一个或者多个作者并对应唯一的一个编辑；每一本数字图书有一个文件格式的属性，而每一本纸质图书都有一个印刷规格的属性；每一个人都有ID、姓名、性别和生日的属性。",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：出版物领域 UML 类图。",
+    "referenceAnswer": "参考答案见图：出版物领域 UML 类图。",
+    "analysis": "参考答案见图：出版物领域 UML 类图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image24.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 5,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-243",
     "type": "comprehensive",
     "question": "某个银行支持两类账户：支票账户和储蓄账户。每个账户（无论支票账户还是储蓄账户）都需要记录账户号和余额，同时与一个客户相关联。客户需要记录身份证号、姓名、性别和出生日期。此外，支票账户需要记录最近一笔存款的金额，而储蓄账户则需要记录累计利息。",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：银行账户系统 UML 类图。",
+    "referenceAnswer": "参考答案见图：银行账户系统 UML 类图。",
+    "analysis": "参考答案见图：银行账户系统 UML 类图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image25.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 6,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-244",
     "type": "comprehensive",
     "question": "用况分析与建模\n一个网上购物系统为用户提供了网络购物支持。使用该系统，用户在第三方支付系统的支持下进行商品的选择和购买。用户还可以查询订单状态。此外，网上商城的工作人员可以对支付成功的用户订单进行处理。\n1）根据以上描述分析该网上购物系统的用况并用一个UML用况图进行描述\n2）根据以下描述分析“订单处理”用况并用一个UML泳道图描述该用况\n进入订单处理后，系统首先列出待处理的订单。工作人员查看订单列表并决定是否继续。如果选择结束处理，那么当前订单处理过程结束。否则（即选择继续处理）工作人员选择其中一个订单，接下来系统显示该订单的详细信息。工作人员检查订单详细信息并决定该订单是否可以进行配送。如果暂时不能配送，那么工作人员返回查看订单列表。如果可以配送，那么系统发送一个配送单给第三方配送系统。第三方配送系统接收配送单之后，该工作人员返回查看订单列表。",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
+    "referenceAnswer": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
+    "analysis": "参考答案见图：网上购物系统用况图、订单处理泳道图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image26.png",
+      "./assets/answers/software/image27.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 7,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-245",
     "type": "comprehensive",
     "question": "用况分析建模。\n一个图书馆管理系统是为读者和图书馆工作人员提供服务的系统。读者可以在图书馆工作人员的帮助下，一起完成开设账户、借书和还书的过程。读者也可以通过网页独自完成预约图书的过程。\n1）根据上面的描述画出这个图书馆管理系统的UML用况图\n2） 根据下面的描述用UML泳道图来描述“借书”这个用况\n一个读者把图书和他的读者卡交给图书馆工作人员。工作人员扫描图书的条形码，然后通过图书馆管理系统检索并展示图书信息。如果这本书已经被其他读者预约，那么工作人员会告诉读者这本书现在不能出借，然后将读者卡还给读者，借书过程结束。如果这本书没有被其他读者预约，那么工作人员扫描读者卡，然后通过图书馆管理系统获取并显示读者信息。如果读者没有未缴纳的罚款，那么系统将记录本次借书信息，然后工作人员将书和读者卡还给读者，借书过程结束。如果读者有未缴纳的罚款，那么工作人员告诉读者需要支付罚款。如果读者选择支付，那么工作人员接收付款，系统更新罚款信息、记录本次借书信息，然后工作人员将书和读者卡还给读者，借书过程结束。如果读者选择本次不支付，那么工作人员将读者卡还给读者，借书过程结束。",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
+    "referenceAnswer": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
+    "analysis": "参考答案见图：图书馆管理系统用况图、借书泳道图。",
     "source": "软件工程",
+    "referenceImages": [
+      "./assets/answers/software/image28.png",
+      "./assets/answers/software/image29.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 8,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-246",
     "type": "comprehensive",
     "question": "某模块的流程图如下图所示。试分别根据判定覆盖、条件覆盖、路径覆盖这三种覆盖标准设计最少的测试用例。对于每个测试用例，列出其测试数据（即变量X和Y的值）、预期的输出结果、程序的执行路径（按照语句的标号列出路径）。\n按照判定覆盖设计最少的测试用例\n最少3个用例\n测试数据 预期结果 执行路径\nX=80, Y=80 T=1 abcg\nX=10, Y=20 T=2 abdeg\nX=55, Y=100 T=3 abdfg\n按照条件覆盖设计最少的测试用例\n最少2个用例\n测试数据 预期结果 执行路径\nX=90, Y=30 T=3 abdfg\nX=10, Y=95 T=2 abdeg\n按照路径覆盖设计最少的测试用例\n最少3个用例\n测试数据 预期结果 执行路径\nX=80, Y=80 T=1 abcg\nX=10, Y=20 T=2 abdeg\nX=55, Y=100 T=3 abdfg",
     "options": [],
-    "answer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "referenceAnswer": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
-    "analysis": "原复习资料未提供参考答案，请按课堂要求或教材内容作答。",
+    "answer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+    "referenceAnswer": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
+    "analysis": "1）按照判定覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg\n\n2）按照条件覆盖设计最少的测试用例：最少2个用例。\n测试数据 | 预期结果 | 执行路径\nX=90, Y=30 | T=3 | abdfg\nX=10, Y=95 | T=2 | abdeg\n\n3）按照路径覆盖设计最少的测试用例：最少3个用例。\n测试数据 | 预期结果 | 执行路径\nX=80, Y=80 | T=1 | abcg\nX=10, Y=20 | T=2 | abdeg\nX=55, Y=100 | T=3 | abdfg",
     "source": "软件工程",
+    "questionImages": [
+      "./assets/answers/software/image30.png"
+    ],
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "sourceNumber": 9,
-    "sourceTypeLabel": "综合题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "综合题"
   },
   {
     "id": "se-247",
@@ -27698,12 +27439,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件工程就是用科学的知识和技术原理来定义，开发，维护软件的一门学科。软件工程目标：付出较低开发成本；达到要求的功能；取得较好的性能；开发的软件易于移植；只需较低的维护费用；能按时完成开发任务，及时交付使用；开发的软件可靠性高。软件工程内容：包括开发技术和开发管理两个方面。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 1,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-248",
@@ -27715,12 +27456,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件开发中常见的软件过程模型有瀑布模型、原型模型、螺旋模型、喷泉模型、统一软件过程等。其中喷泉模型、统一软件过程适用于面向对象的软件开发。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 2,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-249",
@@ -27732,12 +27473,12 @@ const ALL_QUESTIONS = [
     "analysis": "结构化分析：简称SA，面向数据流进行数据分析的方法。采用自顶向下逐层分解的分析策略。顶层抽象地描述整个系统，底层具体地画出系统工程的每个细节。中间层则是从抽象到具体的过渡。使用数据流图，数据字典，作为描述工具，使用结构化语言，判定表，判定树描述加工逻辑。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 3,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-250",
@@ -27749,12 +27490,12 @@ const ALL_QUESTIONS = [
     "analysis": "把一个软件需求转换为软件表示时，首先设计出软件总的体系结构。称为概要设计或结构设计。基本任务：⑴设计软件系统结构⑵进行数据结构及数据库的设计⑶编写概要设计的文档⑷评审",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 4,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-251",
@@ -27766,12 +27507,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）校正性维护。在软件交付使用后，一些隐含的错误在某些特定的使用环境下会暴露出来。为了识别和纠正错误，修改软件性能上的缺陷，应进行确定和修改错误的过程，这个过程就称为校正性维护。（2）适应性维护。为了使应用软件适应计算机硬件、软件环境及数据环境的不断发生的变化而修改软件的过程称为适应性维护。（3）完善性维护。为增加软件功能、增强软件性能、提高软件运行效率而进行的维护活动称为完善性维护。（4）预防性维护。为了提高软件的可维护性和可靠性而对软件进行的修改称为预防性维护。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 5,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-252",
@@ -27783,12 +27524,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件测试要经过的步骤是：单元测试→集成测试→确认测试→系统测试。单元测试对源程序中每一个程序单元进行测试，检查各个模块是否正确实现规定的功能，从而发现模块在编码中或算法中的错误。该阶段涉及编码和详细设计文档。集成测试是为了检查与设计相关的软件体系结构的有关问题，也就是检查概要设计是否合理有效。确认测试主要是检查已实现的软件是否满足需求规格说明书中确定了的各种需求。系统测试是把已确认的软件与其他系统元素(如硬件、其他支持软件、数据、人工等)结合在一起进行测试。以确定软件是否可以支付使用。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 6,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-253",
@@ -27800,12 +27541,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件生存周期：一个软件从提出开发要求开始直到该软件报废为止的整个时期。包括：可行性分析和项目开发计划，需求分析，概要设计，详细设计，编码，测试，维护。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 7,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-254",
@@ -27817,12 +27558,12 @@ const ALL_QUESTIONS = [
     "analysis": "内聚和耦合。内聚：又称为块内联系，指模块内部各成分之间相互关联的程度，以高内聚为设计目标。耦合：也称块间联系，模块之间相互联系程度的度量，联系越紧密，耦合性越强，独立性越差，以低耦合为设计目标。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 8,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-255",
@@ -27834,12 +27575,12 @@ const ALL_QUESTIONS = [
     "analysis": "结构化分析：简称SA，面向数据流进行数据分析的方法。采用自顶向下逐层分解的分析策略。顶层抽象地描述整个系统，底层具体地画出系统工程的每个细节。中间层则是从抽象到具体的过渡。实现的步骤：⑴了解当前系统的工作流程，获得当前系统的物理模型。 ⑵抽象出当前系统的逻辑模型。 ⑶建立目标系统的逻辑模型。 ⑷作进一步补充和优化。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 9,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-256",
@@ -27851,12 +27592,12 @@ const ALL_QUESTIONS = [
     "analysis": "需求分析：开发人员准确地理解用户的要求，进行细致的调查分析，将用户非形式的需求陈述转化为完整的需求定义，再由需求定义转换到相应的需求规格说明的过程。基本任务：⑴问题识别⑵分析与综合，导出软件的逻辑模型⑶编写文档",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 10,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-257",
@@ -27868,12 +27609,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据流图（DFD）一般可分为“变换流”， “事物流”两种。“变换流”：由输入﹑输出﹑变换（或称处理）三部分组成，是一顺序结构。“事物流”：它的某个加工，分离成许多发散的数据流，形成许多加工路径，并且根据输入值选择其中一个路径来执行。（这人加工称为事务处理中心）",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 11,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-258",
@@ -27885,12 +27626,12 @@ const ALL_QUESTIONS = [
     "analysis": "单元测试主要针对模块的以下五个基本特征进行测试：(1)模块接口(2)局部数据结构(3)重要的执行路径(4)错误处理(5)边界条件",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 12,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-259",
@@ -27902,12 +27643,12 @@ const ALL_QUESTIONS = [
     "analysis": "生存周期模型：描述软件开发过程中各种活动如何执行的模型。对软件开发提供强有力的支持，为开发过程中的活动提供统一的政策保证，为参与开发的人员提供帮助和指导，是软件生存周期模型化技术的基础，也是建立软件开发环境的核心。主要有：瀑布模型，增量模型，螺旋模型，喷泉模型，基于知识的模型，变换模型。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 13,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-260",
@@ -27919,12 +27660,12 @@ const ALL_QUESTIONS = [
     "analysis": "⑴模块化：模块是软件的组成部分，是具有独立功能且可命名的一段程序，所有模块组成整体，可以满足问题的要求。⑵抽象：认识复杂现象过程所使用权的工具，只考虑事物本质的共同特性，忽略细节和其它因素。通过抽象确定组成软件的过程实体。⑶信息隐蔽：将模块实现自身功能的细节与数据”隐蔽”起来。模块间仅交换为完成系统功能所必须的信息。⑷模块独立性：每个模块只完成系统要求的独立的子功能。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 14,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-261",
@@ -27936,12 +27677,12 @@ const ALL_QUESTIONS = [
     "analysis": "主要有三个：1、采用自顶向下、逐步求精的程序设计方法2、使用三种基本控制结构构造程序。任何程序都可以由顺序、选择、重复(循环)三种基本控制结构构造，这三种基本结构的共同点是单入口、单出口。3、主程序员组的组织形式。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 15,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-262",
@@ -27953,12 +27694,12 @@ const ALL_QUESTIONS = [
     "analysis": "详细设计的描述方法有图形、表格和语言，其中图形常用结构化程序流程图、盒图和PAD(问题分析图)为描述工具，语言常用过程设计语言(PDL)来作为工具。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 16,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-263",
@@ -27970,12 +27711,12 @@ const ALL_QUESTIONS = [
     "analysis": "测试的方法是为被测试模块编写驱动模块和桩模块来实现被测试单元的可运行。通过驱动模块来模拟被测试模块的上级调用模块，以上级模块调用被测模块的格式驱动被测模块，接收被测模块的测试结构并输出。桩模块则用来代替被测试模块所调用的模块。它的作用是返回被测模块所需的信息。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 17,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-264",
@@ -27987,12 +27728,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件配置管理，简称SCM(Software Configuration Management),是指一组管理整个软件生存期各阶段中变更的活动。软件配置管理技术可以使软件变更所产生的错误达到最小并最有效地提高生产率。基线：是软件生存期中各开发阶段的一个特定点，它的作用是把开发各阶段工作的划分更加明确化，使本来连续的工作在这些点上断开，以便于检查与肯定阶段成果。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 18,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-265",
@@ -28004,12 +27745,12 @@ const ALL_QUESTIONS = [
     "analysis": "文档在软件工程中的作用如下：(1)提高软件开发过程的能见度(2)提高开发效率(3)作为开发人员阶段工作成果和结束标志(4)记录开发过程的有关信息便于使用与维护；(5)提供软件运行、维护和培训有关资料；(6)便于用户了解软件功能、性能。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 19,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-266",
@@ -28021,12 +27762,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 20,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-267",
@@ -28038,12 +27779,12 @@ const ALL_QUESTIONS = [
     "analysis": "面向对象的特征是：(1)对象唯一性。每个对象都有自身唯一的标识，在对象生存期中，其标识不变，不同的对象不能有不同的标识。(2)分类性。是指将具有一致的数据结构(属性)和行为(操作)的对象抽象成类(3)继承性。是子类自动共享父类数据结构和方法的机制，这是类之间的一种关系。(4)多态性。是指相同的操作或函数过程可以作用于多种类型的对象上并获得不同的结果。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 21,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-268",
@@ -28055,12 +27796,12 @@ const ALL_QUESTIONS = [
     "analysis": "⑴确定变换中心，逻辑输入和输出。⑵设计软件结构的顶层和第一层–变换结构。⑶设计中﹑下层模块，对第一层的模块自顶向下分解。⑷设计的优化 ：输入部分求精，每个物理输入设置专门模块，以体现系统的外部接口。其它输入模块与转换数据模块都很简单时，可将它们合并。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 22,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-269",
@@ -28072,12 +27813,12 @@ const ALL_QUESTIONS = [
     "analysis": "复查系统规模和目标；研究当前的系统；导出新系统的高层逻辑模型；重新定义问题；导出和评价可供选择的解决方案；推荐可行的行动方案；草拟开发计划；书写文档并提交审查。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 23,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-270",
@@ -28089,12 +27830,12 @@ const ALL_QUESTIONS = [
     "analysis": "黑盒测试和白盒测试的区别：前者基于功能，后者基于结构；黑盒测试常用方法有：边界值、等价类、因果图、错误推测法等。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 24,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-271",
@@ -28106,12 +27847,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件可维护性的定义：软件能够被理解、校正、适应及增强功能的容易程度；常见的软件维护活动有：改正型、适应型、完善型、预防型。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 25,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-272",
@@ -28123,12 +27864,12 @@ const ALL_QUESTIONS = [
     "analysis": "CMM全称是软件能力成熟度模型；从无序到有序的进化分成5个级别，分别为：1 初始级；2 可重复级；3 已定义级；4 已管理级；5 优化级。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 26,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-273",
@@ -28140,12 +27881,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据字典是关于数据的信息的集合，对数据流程图中的各个元素做完整的定义与说明，是数据流程图的补充工具；数据字典与数据流图的关系：数据流图和数据字典共同构成系统的逻辑模型，没有数据字典数据流图就不严格，然而没有数据流图数据字典也难于发挥作用。 数据流图和对数据流图中每个元素的精确定义放在一起，才能共同构成系统的规格说明。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 27,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-274",
@@ -28157,12 +27898,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件生命周期分为三个时期八个阶段：软件定义：问题定义、可行性研究；软件开发：需求分析、概要设计、详细设计、编码、测试；软件运行：软件维护",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 28,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-275",
@@ -28174,12 +27915,12 @@ const ALL_QUESTIONS = [
     "analysis": "①对象模型：表示了静态的结构化的系统数据性质，描绘了系统的静态结构，从客观世界实体的对象关系角度来描绘对象。②动态模型：该模型描述了系统的控制结构，它表示了瞬间的、行为化的系统控制性质，它关心的是系统的控制及操作的执行顺序，它从对象的事件和状态的角度出发，表现了对象的交互行为。③功能模型：表示变化的系统“功能”性质，它指明系统应该“做什么”，因此功能模型更直接的反映了用户对目标系统的要求。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 29,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-276",
@@ -28191,12 +27932,12 @@ const ALL_QUESTIONS = [
     "analysis": "详细设计的基本任务包括：为每个模块进行详细的算法设计；为模块内的数据结构进行设计；对数据库进行物理设计；其他设计；编写详细设计说明书；评审。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 30,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-277",
@@ -28208,12 +27949,12 @@ const ALL_QUESTIONS = [
     "analysis": "（1）黑盒测试法: 把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。它只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息的完整性。黑盒测试又称为功能测试，包含等价类划分法、边界值法、错误推测法、因果图法等。（2）白盒测试法: 是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。这种方法按照程序内部的逻辑测试程序，检测程序中的主要执行通路是否都能按预定要求正确工作。白盒测试又称为结构测试，包含逻辑覆",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 31,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-278",
@@ -28225,12 +27966,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件工程就是用科学的知识和技术原理来定义，开发，维护软件的一门学科。软件工程面临的问题：软件的费用，可靠性，可维护性，软件生产率和软件的重用。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 32,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-279",
@@ -28242,12 +27983,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件质量是软件工程的生命线，软件工程以质量保证为基础。质量管理促进了过程的改进,创造了许多行之有效的软件开发方法和工具。软件工程釆用层次化的方法,每个层次都包括过程、方法、工具三要素。方法支撑过程和工具，过程和工具又促进方法学的研究。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 33,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-280",
@@ -28259,12 +28000,12 @@ const ALL_QUESTIONS = [
     "analysis": "(1)采用自顶向下，逐步求精的程序设计方法。(2)使用三种基本控制结构构造程序，分别是顺序，选择和循环(3)采用主程序员组的组织形式。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 34,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-281",
@@ -28276,12 +28017,12 @@ const ALL_QUESTIONS = [
     "analysis": "(1)建立明确的软件质量目标；(2)利用先进的软件开发技术和工具；(3)建立明确的质量保证工作；(4)选择可维护的程序设计语言；(5)改进程序文档。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 35,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-282",
@@ -28293,12 +28034,12 @@ const ALL_QUESTIONS = [
     "analysis": "(1)提高软件开发过程的能见度；(2)提高开发效率；(3)作为开发人员阶段工作成果和结束标志；(4)记录开发过程的有关信息便于使用与维护；(5)提供软件运行、维护和培训有关资料；(6)便于用户了解软件功能、性能。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 36,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-283",
@@ -28310,12 +28051,12 @@ const ALL_QUESTIONS = [
     "analysis": "软件开发技术的进步未能满足发展的要求。在软件开发中遇到的问题找不到解决的办法，问题积累起来，形态尖锐的矛盾，导致了软件危机。产生原因：⑴ 软件规模越来越大，结构越来越复杂。⑵ 软件开发管理困难而复杂。⑶ 软件包开发费用不断增加。⑷ 软件开发技术落后。⑸ 生产方式落后，仍采用手工方式。⑹ 开发工具落后，生产率提高缓慢。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 37,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-284",
@@ -28327,12 +28068,12 @@ const ALL_QUESTIONS = [
     "analysis": "调试则是在进行了成功的测试之后才开始的工作。调试的目的是确定错误的原因和位置，并改正错误，因此调试也称为纠错(Debug)。调试的技术手段有简单的调试方法、归纳法、演绎法和回溯法等。",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 38,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   },
   {
     "id": "se-285",
@@ -28344,12 +28085,12 @@ const ALL_QUESTIONS = [
     "analysis": "数据字典是关于数据的信息的集合，对数据流程图中的各个元素做完整的定义与说明，是数据流程图的补充工具。数据流图和数据字典共同构成系统的逻辑模型，没有数据字典数据流图就不严格，然而没有数据流图数据字典也难于发挥作用。 数据流图和对数据流图中每个元素的精确定义放在一起，才能共同构成系统的规格说明",
     "source": "软件工程",
     "subject": "软件工程",
+    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
+    "pageNumber": null,
     "accent": "#f97316",
     "originalType": "qa",
     "sourceNumber": 39,
-    "sourceTypeLabel": "问答题",
-    "sourceFile": "C:\\Users\\17920\\Desktop\\t题库\\软件工程  复习资料.docx",
-    "pageNumber": null
+    "sourceTypeLabel": "问答题"
   }
 ];
 

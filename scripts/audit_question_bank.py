@@ -35,7 +35,7 @@ APP_JSON = ROOT / "app" / "data" / "question_bank.json"
 SRC_COMPAT_JS = ROOT / "src" / "data" / "questions.js"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
 ASSET_QUESTION_DIR = ROOT / "assets" / "questions"
-STANDARD_VERSION = "20260614-v17"
+STANDARD_VERSION = "20260615-v19"
 
 
 SOURCE_FILES = {
@@ -114,14 +114,17 @@ def parse_subject(builder, subject, text):
             questions.extend(builder.parse_reference_blocks(design_section, subject, "design", prefix, len(questions) + 1))
         questions.extend(builder.parse_database_application(text, prefix, len(questions) + 1))
     elif prefix == "os":
-        questions.extend(builder.parse_os_single_choice(text, prefix, 1))
+        os_single_answers = builder.colored_choice_answer_map("操作系统", "第一部分，单项选择题", "第二部分，填空题", True)
+        questions.extend(builder.parse_os_single_choice(text, prefix, 1, os_single_answers))
         questions.extend(builder.parse_fill_questions(text, subject, prefix, len(questions) + 1))
         tf_text = text.split("三、判断题", 1)[1] if "三、判断题" in text else text
         questions.extend(builder.parse_tf_parentheses(tf_text, subject, prefix, len(questions) + 1))
     elif prefix == "se":
+        software_single_answers = builder.colored_choice_answer_map("软件工程", "单选题", "多选题", True)
+        software_multiple_answers = builder.colored_choice_answer_map("软件工程", "多选题", "填空题", False)
         questions.extend(builder.parse_software_tf(text, prefix))
-        questions.extend(builder.parse_software_single_choice(text, prefix, len(questions) + 1))
-        questions.extend(builder.parse_software_multiple_choice(text, prefix, len(questions) + 1))
+        questions.extend(builder.parse_software_single_choice(text, prefix, len(questions) + 1, software_single_answers))
+        questions.extend(builder.parse_software_multiple_choice(text, prefix, len(questions) + 1, software_multiple_answers))
         questions.extend(builder.parse_fill_questions(text, subject, prefix, len(questions) + 1))
         questions.extend(builder.parse_software_subjective(text, prefix, len(questions) + 1))
     for index, question in enumerate(questions, 1):
@@ -146,13 +149,13 @@ def choose_pdf_text(builder, subject, path):
     return candidates[0], candidates
 
 
-def apply_supplemental(questions):
+def apply_supplemental(builder, questions):
     if not SUPPLEMENTAL_ANSWERS.exists():
         return
     supplemental = json.loads(SUPPLEMENTAL_ANSWERS.read_text(encoding="utf-8"))
     for question in questions:
         patch = supplemental.get(question["id"])
-        if not patch:
+        if not patch or not builder.supplemental_matches_question(question, patch):
             continue
         question.update(patch)
         if "referenceAnswer" in patch:
@@ -802,7 +805,7 @@ def main():
             }]
         SOURCE_TEXT_DIR.joinpath(f"{subject}.txt").write_text(text, encoding="utf-8")
         questions = parse_subject(builder, subject, text)
-        apply_supplemental(questions)
+        apply_supplemental(builder, questions)
         if path.suffix.lower() == ".pdf":
             assign_source_metadata(questions, path, build_pdf_page_lookup(path, questions))
         else:

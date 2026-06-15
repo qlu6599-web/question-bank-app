@@ -1,7 +1,7 @@
 {
-  "version": "20260614-v17",
+  "version": "20260615-v19",
   "sourceDirectory": "C:\\Users\\17920\\Desktop\\t题库",
-  "generatedAt": "2026-06-14T15:47:34",
+  "generatedAt": "2026-06-15T22:22:09",
   "extraction": [
     {
       "subject": "操作系统",
@@ -416,7 +416,58 @@
       "systemTotal": 330
     }
   ],
-  "malformedChoiceOptionsBefore": [],
+  "malformedChoiceOptionsBefore": [
+    {
+      "id": "ai-25",
+      "subject": "人工智能",
+      "type": "single",
+      "question": "谓词公式 等价于下列哪项逻辑组合？",
+      "options": [
+        "B.",
+        "D."
+      ]
+    },
+    {
+      "id": "ai-58",
+      "subject": "人工智能",
+      "type": "single",
+      "question": "在可信度方法中，若证据 由多个子证据 析取（OR）而成，则 取值为？",
+      "options": [
+        "B.",
+        "D."
+      ]
+    },
+    {
+      "id": "ai-69",
+      "subject": "人工智能",
+      "type": "single",
+      "question": "启发式搜索中，用于估计从当前节点 到目标节点所需代价的函数记为？",
+      "options": [
+        "B.",
+        "D."
+      ]
+    },
+    {
+      "id": "ai-125",
+      "subject": "人工智能",
+      "type": "single",
+      "question": "Sigmoid 激活函数的输出值范围通常在？",
+      "options": [
+        "B.",
+        "D."
+      ]
+    },
+    {
+      "id": "ai-138",
+      "subject": "人工智能",
+      "type": "single",
+      "question": "修正线性单元（ReLU）激活函数的数学表达式是？",
+      "options": [
+        "B.",
+        "D."
+      ]
+    }
+  ],
   "malformedChoiceOptionsAfter": [],
   "exactDuplicatesKept": [
     {
@@ -630,7 +681,1058 @@
       "reason": "similar_question_not_removed"
     }
   ],
-  "mergeNotes": [],
+  "mergeNotes": [
+    {
+      "id": "se-246",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-1",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-2",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-4",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-5",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-6",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-7",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-8",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-9",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-10",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-11",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-12",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-14",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-15",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-16",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-17",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-18",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-19",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-21",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-22",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-23",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-24",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-25",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-26",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-27",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-28",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-29",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-30",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-31",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-32",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-33",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-34",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-35",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-37",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-39",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-40",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-41",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-42",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-43",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-44",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-45",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-46",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-47",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-48",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-49",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-50",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-51",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-52",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-53",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-55",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-59",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-60",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-61",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-62",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-63",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-64",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-66",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-69",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-70",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-71",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-72",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-73",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-74",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-75",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-76",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-77",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-79",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-81",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-82",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-83",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-85",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-86",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-87",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-88",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-89",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-90",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-91",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-92",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-93",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-95",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-96",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-97",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-98",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-99",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-100",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-101",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-102",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-103",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-104",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-106",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-107",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-109",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-110",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-111",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-112",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-115",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-117",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-118",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-120",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-121",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-122",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-123",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-124",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-128",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-132",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-133",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-134",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-135",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-138",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-140",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-142",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-144",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-148",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-150",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-151",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-152",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-157",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-159",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-161",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-162",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-163",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-166",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-167",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-168",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-171",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-174",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-176",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-177",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-178",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-179",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-180",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-181",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-182",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-183",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-185",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-186",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-188",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-189",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-190",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-191",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-192",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-195",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-196",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-198",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-199",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-201",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-203",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-205",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-206",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-207",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-209",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-210",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-212",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-216",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-217",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-220",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-222",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-223",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-224",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-227",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-228",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-230",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-231",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-233",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-234",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-235",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-237",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-239",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-240",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-241",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-242",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-243",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-244",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-248",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-249",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-251",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-252",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-253",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-254",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-256",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-258",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-259",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-260",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-261",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-262",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-263",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-264",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-265",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-266",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-270",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-271",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-276",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-278",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-279",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-282",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-283",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-284",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-285",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-286",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-288",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-289",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-292",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-295",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-298",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ds-300",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ai-25",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ai-58",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ai-69",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ai-125",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    },
+    {
+      "id": "ai-138",
+      "action": "replaced_with_fresh",
+      "reason": "fresh parse is more complete"
+    }
+  ],
   "generatedImages": [
     {
       "questionId": "ai-25",

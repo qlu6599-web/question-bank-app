@@ -1,6 +1,8 @@
 ﻿import json
 import re
+import zipfile
 from pathlib import Path
+from xml.etree import ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -8,7 +10,21 @@ EXTRACTED = ROOT / "extracted"
 OUTPUT = ROOT / "src" / "data" / "questions.js"
 JSON_OUTPUT = ROOT / "app" / "data" / "question_bank.json"
 SUPPLEMENTAL_ANSWERS = ROOT / "scripts" / "supplemental_answers.json"
-APP_DATA_VERSION = "20260614-v17"
+APP_DATA_VERSION = "20260615-v19"
+
+SOURCE_DOC_DIRS = [
+    ROOT / "audit" / "source_docs",
+    Path.home() / "Desktop" / "t题库",
+    Path.home() / "Desktop" / "t题库" / "1",
+]
+
+DOCX_FALLBACK_NAMES = {
+    "操作系统": "os.docx",
+    "软件工程": "software.docx",
+}
+
+WORD_NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+RED_COLORS = {"FF0000", "RED", "C00000", "E60000"}
 
 TYPE_MAP = {
     "cloze": "fill",
@@ -67,6 +83,149 @@ def clean(text):
     text = re.sub(r"[ \t\u3000]+", " ", text)
     text = re.sub(r"\n{2,}", "\n", text)
     return text.strip(" \n\r\t：:")
+
+
+def find_source_docx(file_key):
+    fallback = DOCX_FALLBACK_NAMES.get(file_key)
+    if fallback:
+        fallback_path = ROOT / "audit" / "source_docs" / fallback
+        if fallback_path.exists():
+            return fallback_path
+    for directory in SOURCE_DOC_DIRS:
+        if not directory.exists():
+            continue
+        for path in directory.glob("*.docx"):
+            if path.name.startswith("~$"):
+                continue
+            if file_key in path.name:
+                return path
+    return None
+
+
+def docx_colored_paragraphs(file_key):
+    path = find_source_docx(file_key)
+    if not path:
+        return []
+    with zipfile.ZipFile(path) as archive:
+        document_xml = archive.read("word/document.xml")
+    root = ET.fromstring(document_xml)
+    paragraphs = []
+    for paragraph in root.iter(f"{{{WORD_NS['w']}}}p"):
+        text_parts = []
+        red_flags = []
+        for run in paragraph.findall("./w:r", WORD_NS):
+            color = run.find("./w:rPr/w:color", WORD_NS)
+            color_value = color.get(f"{{{WORD_NS['w']}}}val") if color is not None else ""
+            is_red = color_value.upper() in RED_COLORS
+            for child in list(run):
+                if child.tag == f"{{{WORD_NS['w']}}}t":
+                    value = child.text or ""
+                elif child.tag == f"{{{WORD_NS['w']}}}tab":
+                    value = " "
+                elif child.tag == f"{{{WORD_NS['w']}}}br":
+                    value = "\n"
+                else:
+                    continue
+                text_parts.append(value)
+                red_flags.extend([is_red] * len(value))
+        text = "".join(text_parts)
+        if text.strip():
+            paragraphs.append((text, red_flags))
+    return paragraphs
+
+
+def heading_key(text):
+    return re.sub(r"\s+", "", text).strip("：:。")
+
+
+def colored_section(paragraphs, start_heading, end_heading):
+    start_key = heading_key(start_heading)
+    end_key = heading_key(end_heading) if end_heading else ""
+    start = None
+    for index, (text, _) in enumerate(paragraphs):
+        if heading_key(text) == start_key:
+            start = index + 1
+            break
+    if start is None:
+        return []
+    end = len(paragraphs)
+    if end_key:
+        for index in range(start, len(paragraphs)):
+            if heading_key(paragraphs[index][0]) == end_key:
+                end = index
+                break
+    return paragraphs[start:end]
+
+
+def group_colored_numbered_items(paragraphs):
+    groups = []
+    current = None
+    current_number = None
+    for text, flags in paragraphs:
+        match = re.match(r"^\s*(\d+)\s*[、.．]", text)
+        if match:
+            if current:
+                groups.append((current_number, current))
+            current_number = int(match.group(1))
+            current = [(text, flags)]
+        elif current:
+            current.append((text, flags))
+    if current:
+        groups.append((current_number, current))
+    return groups
+
+
+def meaningful_red_chars(text, red_flags):
+    return [
+        char
+        for char, is_red in zip(text, red_flags)
+        if is_red and not char.isspace() and char not in ".．、:："
+    ]
+
+
+def red_answer_from_labelled_options(group):
+    text_parts = []
+    red_flags = []
+    for index, (text, flags) in enumerate(group):
+        if index:
+            text_parts.append("\n")
+            red_flags.append(False)
+        text_parts.append(text)
+        red_flags.extend(flags)
+    text = "".join(text_parts)
+    markers = list(re.finditer(r"(?<![A-Za-z0-9])([A-D])[.．]\s*", text))
+    answers = []
+    for index, marker in enumerate(markers):
+        start = marker.start()
+        end = markers[index + 1].start() if index + 1 < len(markers) else len(text)
+        if meaningful_red_chars(text[start:end], red_flags[start:end]):
+            answers.append(marker.group(1))
+    return "".join(dict.fromkeys(answers))
+
+
+def red_answer_from_unlabelled_options(group):
+    answers = []
+    for index, (text, flags) in enumerate(group[1:5]):
+        if meaningful_red_chars(text, flags):
+            answers.append("ABCD"[index])
+    return "".join(answers)
+
+
+def colored_choice_answer_map(file_key, start_heading, end_heading, labelled=True):
+    paragraphs = docx_colored_paragraphs(file_key)
+    if not paragraphs:
+        return {}
+    section = colored_section(paragraphs, start_heading, end_heading)
+    if not labelled:
+        groups = [(index // 5 + 1, section[index:index + 5]) for index in range(0, len(section), 5) if len(section[index:index + 5]) == 5]
+    else:
+        groups = group_colored_numbered_items(section)
+    answer_map = {}
+    for number, group in groups:
+        answer = red_answer_from_labelled_options(group) if labelled else red_answer_from_unlabelled_options(group)
+        if answer:
+            answer_map[number] = answer
+    return answer_map
 
 
 def answer_to_option(answer):
@@ -253,12 +412,13 @@ def group_numbered_items(section):
     return items
 
 
-def parse_os_single_choice(text, prefix, start_idx=1):
+def parse_os_single_choice(text, prefix, start_idx=1, answer_map=None):
+    answer_map = answer_map or {}
     if "第一部分，单项选择题" not in text or "第二部分，填空题" not in text:
         return []
     section = text.split("第一部分，单项选择题", 1)[1].split("第二部分，填空题", 1)[0]
     questions = []
-    for _, body in group_numbered_items(section):
+    for number, body in group_numbered_items(section):
         body = body.rstrip(" 。")
         markers = list(re.finditer(r"(?<![A-Za-z0-9])([A-D])[.．]\s*", body))
         if len(markers) < 4:
@@ -277,16 +437,19 @@ def parse_os_single_choice(text, prefix, start_idx=1):
             end = markers[index + 1].start() if index + 1 < min(len(markers), 4) else len(body)
             options.append(clean(body[start:end]))
         if len(options) == 4 and all(options):
-            questions.append({
+            answer = answer_map.get(int(number), "")
+            item = {
                 "id": f"{prefix}-{start_idx + len(questions)}",
                 "type": "single",
                 "question": raw_question,
                 "options": options,
-                "answer": "",
-                "unscored": True,
-                "analysis": "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+                "answer": answer,
+                "analysis": f"原 Word 红色标注正确答案为 {answer}。" if answer else "原操作系统复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
                 "source": "操作系统",
-            })
+            }
+            if not answer:
+                item["unscored"] = True
+            questions.append(item)
     return questions
 
 
@@ -468,13 +631,14 @@ def parse_software_tf(text, prefix):
     return questions
 
 
-def parse_software_single_choice(text, prefix, start_idx=1):
+def parse_software_single_choice(text, prefix, start_idx=1, answer_map=None):
+    answer_map = answer_map or {}
     if not re.search(r"\n\s*单选题\s*\n", text) or not re.search(r"\n\s*多选题\s*\n", text):
         return []
     section = re.split(r"\n\s*单选题\s*\n", text, maxsplit=1)[1]
     section = re.split(r"\n\s*多选题\s*\n", section, maxsplit=1)[0]
     questions = []
-    for _, body in group_numbered_items(section):
+    for number, body in group_numbered_items(section):
         body = body.rstrip()
         markers = list(re.finditer(r"(?<![A-Za-z0-9])([A-D])[.．]\s*", body))
         if len(markers) < 4:
@@ -486,20 +650,24 @@ def parse_software_single_choice(text, prefix, start_idx=1):
             end = markers[index + 1].start() if index + 1 < min(len(markers), 4) else len(body)
             options.append(clean(body[start:end]))
         if len(options) == 4 and all(options):
-            questions.append({
+            answer = answer_map.get(int(number), "")
+            item = {
                 "id": f"{prefix}-{start_idx + len(questions)}",
                 "type": "single",
                 "question": question,
                 "options": options,
-                "answer": "",
-                "unscored": True,
-                "analysis": "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
+                "answer": answer,
+                "analysis": f"原 Word 红色标注正确答案为 {answer}。" if answer else "原软件工程复习资料未提供该单选题答案，请结合教材或课堂答案核对。",
                 "source": "软件工程",
-            })
+            }
+            if not answer:
+                item["unscored"] = True
+            questions.append(item)
     return questions
 
 
-def parse_software_multiple_choice(text, prefix, start_idx=1):
+def parse_software_multiple_choice(text, prefix, start_idx=1, answer_map=None):
+    answer_map = answer_map or {}
     if not re.search(r"\n\s*多选题\s*\n", text) or not re.search(r"\n\s*填空题\s*\n", text):
         return []
     section = re.split(r"\n\s*多选题\s*\n", text, maxsplit=1)[1]
@@ -511,16 +679,20 @@ def parse_software_multiple_choice(text, prefix, start_idx=1):
         if len(group) < 5:
             continue
         question, *options = group
-        questions.append({
+        number = len(questions) + 1
+        answer = answer_map.get(number, "")
+        item = {
             "id": f"{prefix}-{start_idx + len(questions)}",
             "type": "multiple",
             "question": clean(question),
             "options": [clean(option) for option in options],
-            "answer": "",
-            "unscored": True,
-            "analysis": "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
+            "answer": answer,
+            "analysis": f"原 Word 红色标注正确答案为 {answer}。" if answer else "原软件工程复习资料未提供该多选题答案，请结合教材或课堂答案核对。",
             "source": "软件工程",
-        })
+        }
+        if not answer:
+            item["unscored"] = True
+        questions.append(item)
     return questions
 
 
@@ -715,6 +887,13 @@ def normalize_question_type(question_type):
     return TYPE_MAP.get(question_type, question_type)
 
 
+def supplemental_matches_question(question, patch):
+    has_images = "referenceImages" in patch or "questionImages" in patch
+    if has_images and normalize_question_type(question.get("type", "")) != "comprehensive":
+        return False
+    return True
+
+
 def build_json_question(question, subject, meta):
     normalized = dict(question)
     original_type = normalized.get("type", "")
@@ -777,22 +956,26 @@ def build():
             questions.extend(parse_database_application(text, meta["prefix"], len(questions) + 1))
         elif subject == "操作系统":
             questions = []
-            questions.extend(parse_os_single_choice(text, meta["prefix"], 1))
+            os_single_answers = colored_choice_answer_map("操作系统", "第一部分，单项选择题", "第二部分，填空题", True)
+            questions.extend(parse_os_single_choice(text, meta["prefix"], 1, os_single_answers))
             questions.extend(parse_fill_questions(text, subject, meta["prefix"], len(questions) + 1))
             questions.extend(parse_tf_parentheses(text.split("三、判断题", 1)[1] if "三、判断题" in text else text, subject, meta["prefix"], len(questions) + 1))
         elif subject == "软件工程":
             questions = []
+            software_single_answers = colored_choice_answer_map("软件工程", "单选题", "多选题", True)
+            software_multiple_answers = colored_choice_answer_map("软件工程", "多选题", "填空题", False)
             questions.extend(parse_software_tf(text, meta["prefix"]))
-            questions.extend(parse_software_single_choice(text, meta["prefix"], len(questions) + 1))
-            questions.extend(parse_software_multiple_choice(text, meta["prefix"], len(questions) + 1))
+            questions.extend(parse_software_single_choice(text, meta["prefix"], len(questions) + 1, software_single_answers))
+            questions.extend(parse_software_multiple_choice(text, meta["prefix"], len(questions) + 1, software_multiple_answers))
             questions.extend(parse_fill_questions(text, subject, meta["prefix"], len(questions) + 1))
             questions.extend(parse_software_subjective(text, meta["prefix"], len(questions) + 1))
         for index, question in enumerate(questions, 1):
             question["id"] = f"{meta['prefix']}-{index}"
-            if question["id"] in supplemental:
-                question.update(supplemental[question["id"]])
-                if "referenceAnswer" in supplemental[question["id"]]:
-                    question["analysis"] = supplemental[question["id"]]["referenceAnswer"]
+            patch = supplemental.get(question["id"])
+            if patch and supplemental_matches_question(question, patch):
+                question.update(patch)
+                if "referenceAnswer" in patch:
+                    question["analysis"] = patch["referenceAnswer"]
         bank.append({
             "subject": subject,
             "accent": meta["accent"],

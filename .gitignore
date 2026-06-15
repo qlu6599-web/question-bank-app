@@ -5,5 +5,7 @@ app-preview.png
 extracted/
 word-export*/
 assets/answers/software/raw/
+audit/source_docs/
+audit/software-images-contact-sheet.png
 __pycache__/
 debug-ai-pages/
