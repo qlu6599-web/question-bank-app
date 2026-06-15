@@ -288,6 +288,8 @@ button:disabled {
   text-align: left;
   display: grid;
   align-content: space-between;
+  border: 0;
+  gap: 12px;
 }
 
 .type-card span {
@@ -306,6 +308,35 @@ button:disabled {
   font-size: 12px;
   font-style: normal;
   line-height: 1.45;
+}
+
+.type-card__actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.type-card__actions .type-card__action:only-child {
+  grid-column: 1 / -1;
+}
+
+.type-card__action {
+  min-height: 38px;
+  border: 0;
+  border-radius: 14px;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.type-card__action--primary {
+  color: #fff;
+  background: #0f172a;
+}
+
+.type-card__action--ghost {
+  color: var(--accent, #2563eb);
+  background: color-mix(in srgb, var(--accent, #2563eb), white 88%);
 }
 
 .continue-card {

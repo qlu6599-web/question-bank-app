@@ -38,6 +38,17 @@ window.QuizEngine = (() => {
     state.indexByScope[key] = (currentIndex + 1) % length;
   }
 
+  function resetScope(state, subject, type, questions) {
+    const key = scopeKey(subject, type);
+    const ids = new Set((questions || []).map((question) => question.id));
+    ids.forEach((id) => {
+      delete state.answers[id];
+      delete state.tempSelections[id];
+    });
+    state.completedIds = (state.completedIds || []).filter((id) => !ids.has(id));
+    state.indexByScope[key] = 0;
+  }
+
   function getMode(question) {
     if (question.type === "multiple") return "choice-multiple";
     if (["single", "judge"].includes(question.type)) return "choice-single";
@@ -125,6 +136,7 @@ window.QuizEngine = (() => {
     scopeKey,
     getCurrentIndex,
     goNext,
+    resetScope,
     getMode,
     isChoice,
     isSubjective,

@@ -75,6 +75,15 @@ window.QuestionBankApp = (() => {
     saveAndRender();
   }
 
+  function restartQuiz(subject, type) {
+    const questions = window.QuestionRepository.getQuestions(repository, { subject, type });
+    window.QuizEngine.resetScope(state, subject, type, questions);
+    state.currentTab = "practice";
+    state.route = { name: "quiz", subject, type };
+    state.lastPractice = { subject, type };
+    saveAndRender();
+  }
+
   function startMixedPractice(subject, count) {
     window.MixedPractice.createSession(state, repository, subject, count);
     state.currentTab = "practice";
@@ -273,6 +282,7 @@ window.QuestionBankApp = (() => {
       saveAndRender,
       openSubject,
       startQuiz,
+      restartQuiz,
       startMixedPractice,
       openExamHome,
       startExam,

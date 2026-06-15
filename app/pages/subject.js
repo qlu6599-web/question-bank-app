@@ -22,15 +22,28 @@ window.SubjectPage = {
     window.QuestionRepository.getTypesForSubject(ctx.repository, subject.name).forEach((item) => {
       const questions = window.QuestionRepository.getQuestions(ctx.repository, { subject: subject.name, type: item.type });
       const done = questions.filter((question) => ctx.state.answers[question.id]).length;
-      const card = el("button", "type-card", "");
-      card.type = "button";
+      const currentIndex = window.QuizEngine.getCurrentIndex(ctx.state, subject.name, item.type, questions.length);
+      const hasProgress = done > 0 || currentIndex > 0;
+      const isComplete = done >= item.count && item.count > 0;
+      const card = el("article", "type-card", "");
       card.style.setProperty("--accent", subject.accent);
       card.innerHTML = `
         <span>${typeLabel(item.type)}</span>
         <strong>${item.count}</strong>
         <em>${done}/${item.count} 已完成 · ${percent(done, item.count)}%</em>
       `;
-      card.addEventListener("click", () => ctx.startQuiz(subject.name, item.type));
+      const actions = el("div", "type-card__actions");
+      if (!hasProgress) {
+        actions.append(makeTypeAction("primary", "开始刷题", () => ctx.startQuiz(subject.name, item.type)));
+      } else if (isComplete) {
+        actions.append(makeTypeAction("primary", "重新刷", () => ctx.restartQuiz(subject.name, item.type)));
+      } else {
+        actions.append(
+          makeTypeAction("ghost", "继续", () => ctx.startQuiz(subject.name, item.type)),
+          makeTypeAction("primary", "重新刷", () => ctx.restartQuiz(subject.name, item.type))
+        );
+      }
+      card.append(actions);
       grid.append(card);
     });
     root.append(grid);
@@ -54,5 +67,12 @@ window.SubjectPage = {
     });
     root.append(mixedTitle, mixedGrid);
     window.AppUI.setView(ctx.view, root);
+
+    function makeTypeAction(variant, text, onClick) {
+      const button = el("button", `type-card__action type-card__action--${variant}`, text);
+      button.type = "button";
+      button.addEventListener("click", onClick);
+      return button;
+    }
   }
 };

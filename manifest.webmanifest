@@ -2,7 +2,7 @@
   "name": "智题库 - 刷题 App",
   "short_name": "智题库",
   "description": "一个模块化、JSON 驱动、支持刷题和模拟考试的学习 App MVP。",
-  "start_url": "./index.html?v=20260615-v19",
+  "start_url": "./index.html?v=20260615-v20",
   "display": "standalone",
   "background_color": "#f6f8fb",
   "theme_color": "#0f172a",
