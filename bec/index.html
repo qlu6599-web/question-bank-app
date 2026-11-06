@@ -526,6 +526,33 @@ document.getElementById('homeDaily').value=document.getElementById('tlDaily').va
 homeRefresh();
 </script><script>
 const V11_USAGE={
+
+"he":{pos:"人称代词（主语）",why:"he 表示“他”，指男性或语境中的男性角色，放在动词前面做主语。",how:"He is …；He works …",examples:[["He is a manager.","他是一名经理。"],["He works in sales.","他从事销售工作。"]],tip:"He is；一般现在时说 He works，而不是 He work。"},
+"she":{pos:"人称代词（主语）",why:"she 表示“她”，指女性或语境中的女性角色。",how:"She is …；She works …",examples:[["She is busy.","她很忙。"],["She works in an office.","她在办公室工作。"]],tip:"She is；一般现在时说 She works。"},
+"is":{pos:"be 动词",why:"is 经常跟 he / she / it 或单数名词一起使用，表示“是/处于某种状态”。",how:"He / She / It + is …",examples:[["She is my manager.","她是我的经理。"],["The office is open.","办公室开着门。"]],tip:"I 用 am；you/we/they 用 are。"},
+"am":{pos:"be 动词",why:"am 和 I 搭配，用来表示身份、状态、位置等。",how:"I am + 名词/形容词/地点",examples:[["I am a student.","我是一名学生。"],["I am busy today.","我今天很忙。"]],tip:"通常说 I am，也能缩写成 I'm。"},
+"are":{pos:"be 动词",why:"are 常跟 you、we、they 和复数主语搭配。",how:"You / We / They + are …",examples:[["You are my customer.","你是我的客户。"],["We are ready.","我们准备好了。"]],tip:"You are / We are，不是 You is。"},
+"have":{pos:"动词",why:"have 常表示“有”，也能用于 have a meeting（开会）这样的固定搭配。",how:"I / We have …；He / She has …",examples:[["We have a meeting today.","我们今天有个会议。"],["I have an email.","我有一封邮件。"]],tip:"he/she 用 has；have a meeting 并不是拥有一个物品。"},
+"do":{pos:"动词 / 助动词",why:"do 可表示“做”，也常用来构成一般现在时问句和否定句。",how:"Do you + 动词原形 …?",examples:[["Do you work here?","你在这里工作吗？"],["I do my work every day.","我每天做自己的工作。"]],tip:"Do you work? 不是 Do you works?"},
+"send":{pos:"动词",why:"send 表示“发送”，在邮件、合同、发票场景里经常使用。",how:"send + 物品 + to + 人；send + 人 + 物品",examples:[["Please send me an email.","请给我发邮件。"],["Please send the contract to the customer.","请把合同发送给客户。"]],tip:"send 的过去式是 sent。"},
+"office":{pos:"名词",why:"office 是办公室，也可以指公司办公室或办事处。",how:"in the office / at the office",examples:[["I work in an office.","我在办公室工作。"],["The office is open.","办公室开着门。"]],tip:"an office，因为 office 以元音音素开头。"},
+"time":{pos:"名词",why:"time 表示时间，也可以表示次数。",how:"at a certain time / have time",examples:[["We need more time.","我们需要更多时间。"],["What time is the meeting?","会议几点开始？"]],tip:"What time …? 是询问具体几点。"},
+"day":{pos:"名词",why:"day 表示一天、白天或某一天。",how:"every day / today",examples:[["I work every day.","我每天工作。"],["Have a nice day.","祝你今天愉快。"]],tip:"every day 是“每天”；everyday 作形容词表示“日常的”。"},
+"week":{pos:"名词",why:"week 表示星期或一周。",how:"next week / this week / every week",examples:[["The payment is due next week.","款项下周到期。"],["We have a meeting this week.","我们本周有个会议。"]],tip:"next week 前面通常不加 in。"},
+"month":{pos:"名词",why:"month 表示月份或一个月的时间。",how:"next month / every month / this month",examples:[["The contract expires next month.","合同下个月到期。"],["We review sales every month.","我们每月复盘销售情况。"]],tip:"month 是月；Monday 是星期一，不要混淆。"},
+"in":{pos:"介词",why:"in 常表示“在……里面”，也用在城市、月份、年份等前面。",how:"in Shanghai / in November / in the office",examples:[["I work in Shanghai.","我在上海工作。"],["She is in the office.","她在办公室里。"]],tip:"具体几点通常用 at，不用 in。"},
+"the":{pos:"定冠词",why:"the 表示说话双方都知道或已经提到的特定事物。",how:"the + 名词",examples:[["Please send the invoice.","请发送那张发票。"],["The meeting starts at nine.","会议九点开始。"]],tip:"第一次泛指一个发票可能说 an invoice；特指时用 the invoice。"},
+"a":{pos:"不定冠词",why:"a 放在可数名词单数前，表示一个、某个。",how:"a + 辅音音素开头的可数名词",examples:[["I have a meeting.","我有个会议。"],["He is a manager.","他是一名经理。"]],tip:"a contract；an invoice（元音音素开头）。"},
+"an":{pos:"不定冠词",why:"an 放在元音音素开头的可数单数名词前。",how:"an + 元音音素开头的名词",examples:[["Please send an email.","请发送一封邮件。"],["We received an invoice.","我们收到了一张发票。"]],tip:"an 的选择看读音，不能只看首字母。"},
+"can":{pos:"情态动词",why:"can 表示“能够、可以”，商务邮件里常用来提出请求。",how:"Can you + 动词原形 …?",examples:[["Can you help me?","你能帮我吗？"],["Can you send the invoice?","你能发送发票吗？"]],tip:"can 后使用动词原形，如 send、help。"},
+"please":{pos:"礼貌表达",why:"please 常放在请求前后，让表达更礼貌。",how:"Please + 动词原形",examples:[["Please confirm the order.","请确认订单。"],["Please send me an email.","请给我发邮件。"]],tip:"商务场合请注意礼貌，但具体语气也依赖上下文。"},
+"need":{pos:"动词",why:"need 表示需要；后面可以跟名词，也可以用 need to + 动词。",how:"need + 名词；need to + 动词原形",examples:[["We need more time.","我们需要更多时间。"],["We need to sign the contract.","我们需要签署合同。"]],tip:"need to send，而不是 need send（通常用法）。"},
+"to":{pos:"介词 / 不定式标记",why:"to 可表示“向、到”，也能接动词原形构成不定式。",how:"send to + 人；need to + 动词",examples:[["Please send it to me.","请把它发给我。"],["I need to check the report.","我需要核对报告。"]],tip:"两个 to 用法不同：to me 是介词，to check 是不定式。"},
+"at":{pos:"介词",why:"at 常用于具体时刻或位置。",how:"at nine / at the office",examples:[["The meeting starts at nine.","会议九点开始。"],["I am at the office.","我在办公室。"]],tip:"几点用 at；周几常用 on。"},
+"for":{pos:"介词",why:"for 表示“为了、给、持续一段时间”等多种意思。",how:"work for + 公司；for two days",examples:[["I work for a company.","我在一家公司工作。"],["This is for the customer.","这是给客户的。"]],tip:"work for 表示为某公司工作；work in 强调地点或领域。"},
+"it":{pos:"人称代词",why:"it 表示“它”，可以指已提到的事物。",how:"It is …",examples:[["It is a new contract.","这是一份新合同。"],["It is ready.","它准备好了。"]],tip:"it 做主语时搭配 is。"},
+"they":{pos:"人称代词",why:"they 表示“他们/她们/它们”，也可以在不知道或不强调性别时指某个人。",how:"They are …；They work …",examples:[["They are customers.","他们是客户。"],["They work in sales.","他们从事销售工作。"]],tip:"they 用 are，不用 is。"},
+
 "i":{pos:"人称代词（主语）",why:"I 表示“我”，在句子里做主语；英语的 I 永远大写。",how:"I + am / 动词；I am …；I work …",examples:[["I am a student.","我是一名学生。"],["I work in an office.","我在办公室工作。"]],tip:"I am，不说 I is。"},
 "you":{pos:"人称代词（主语或宾语）",why:"you 可以表示“你”或“你们”，单复数写法相同；既能做主语也能做宾语。",how:"You + are / 动词；Can you + 动词原形 …?",examples:[["You are my customer.","你是我的客户。"],["Can you send the invoice?","你能发送发票吗？"]],tip:"you 后面用 are，不用 is；Can you 后接动词原形。"},
 "we":{pos:"人称代词（主语）",why:"we 表示“我们”，做句子的主语。",how:"We + are / 动词原形",examples:[["We are colleagues.","我们是同事。"],["We need more time.","我们需要更多时间。"]],tip:"We are，不说 We is。"},
@@ -546,6 +573,9 @@ const V11_USAGE={
 "sales":{pos:"名词",why:"sales 表示销售、销售额或销售部门，取决于语境。",how:"sales team / monthly sales / sales target",examples:[["He works in sales.","他从事销售工作。"],["Monthly sales increased.","月销售额增长了。"]],tip:"sale 可指一次销售或促销；sales 常表示整体销售。"},
 "help":{pos:"动词 / 名词",why:"help 表示帮助。",how:"help + 某人 + (to) do；Can you help me?",examples:[["Can you help me?","你能帮我吗？"],["Please help me check the invoice.","请帮我核对发票。"]],tip:"help someone do something 是常见搭配。"}
 };
+
+const V11_IPA={"i":"/aɪ/","you":"/juː/","we":"/wiː/","my":"/maɪ/","your":"/jɔː/","name":"/neɪm/","he":"/hiː/","she":"/ʃiː/","is":"/ɪz/","am":"/æm/","are":"/ɑː/","have":"/hæv/","do":"/duː/","send":"/send/","office":"/ˈɒfɪs/","time":"/taɪm/","day":"/deɪ/","week":"/wiːk/","month":"/mʌnθ/","email":"/ˈiːmeɪl/","work":"/wɜːk/","meeting":"/ˈmiːtɪŋ/","invoice":"/ˈɪnvɔɪs/","contract":"/ˈkɒntrækt/","customer":"/ˈkʌstəmə/","payment":"/ˈpeɪmənt/","price":"/praɪs/","order":"/ˈɔːdə/","company":"/ˈkʌmpəni/","sales":"/seɪlz/","help":"/help/","in":"/ɪn/","the":"/ðə/","a":"/ə/","an":"/ən/","can":"/kæn/","please":"/pliːz/","need":"/niːd/","to":"/tuː/","at":"/æt/","for":"/fɔː/","it":"/ɪt/","they":"/ðeɪ/"};
+
 const V11_LESSONS=[
 ["先分清“谁”：I / you / he / she / we / they","主语放在动作前。I 表示我；you 表示你；he 表示他；she 表示她；we 表示我们；they 表示他们。","I work. → 我工作。主语 I + 动词 work。","说“我工作”","I work.","I work.","记住 I 一律大写。he / she 做主语时，一般现在时动词通常要加 -s。"],
 ["am / is / are 的用法","说身份、状态或位置时，常用 be 动词。I am；he/she/it is；you/we/they are。","She is busy. → 她很忙。she 搭配 is。","说“她是一名经理”","She is a manager.","She is a manager.","不要说 She am 或 You is。"],
@@ -576,7 +606,7 @@ tlDraw=function(){
  const intro=note?'<div class="study-use"><b>这个词怎么用？</b><p>'+h(note.why)+'</p><div><b>常见结构：</b>'+h(note.how)+'</div><div class="study-explain">注意：'+h(note.tip)+'</div></div>':'<div class="study-use"><b>中文释义：</b>'+h(x.zh)+'<div class="study-explain">暂无人工审核的专属用法说明；可先听发音、练拼写，或到「我的词句」添加你遇到的例句。</div></div>';
  const examplesHTML=examples.length?'<h4>可以组成这样的句子：</h4>'+examples.map(q=>'<div class="study-example"><b>'+h(q[0])+'</b><div>'+h(q[1])+'</div><button onclick="speak('+jsarg(q[0])+')">▶ 听例句</button></div>').join(''):'<div class="study-explain">这个词暂时没有已核对的例句。之后可以按业务场景逐步补齐。</div>';
  const box=document.createElement('div');box.className='study-info';box.id='v11Card';
- box.innerHTML='<div class="study-word">'+h(x.en)+'</div><div class="study-explain">'+h(note?note.pos:'英文词汇 / 短语')+' · '+h(x.ph||'无可靠音标')+'</div><div><b>意思：</b>'+h(x.zh)+'</div>'+intro+examplesHTML+'<div class="dict-row"><button onclick="speak('+jsarg(x.en)+')">▶ 听单词</button><button onclick="document.getElementById(\'v11Card\').classList.toggle(\'hidden\')">收起讲解（开始默写）</button></div>';
+ box.innerHTML='<div class="study-word">'+h(x.en)+'</div><div class="study-explain">'+h(note?note.pos:'英文词汇 / 短语')+' · '+h(x.ph||V11_IPA[key]||'音标待补充')+'</div><div><b>意思：</b>'+h(x.zh)+'</div>'+intro+examplesHTML+'<div class="dict-row"><button onclick="speak('+jsarg(x.en)+')">▶ 听单词</button><button onclick="document.getElementById(\'v11Card\').classList.toggle(\'hidden\')">收起讲解（开始默写）</button></div>';
  let input=document.getElementById('tlInput');input.parentNode.insertBefore(box,input);
  // When hidden, let user reveal the guide again.
  let show=document.createElement('button');show.textContent='📖 展开单词讲解与例句';show.style.margin='6px 0';show.onclick=()=>box.classList.remove('hidden');input.parentNode.insertBefore(show,input);
