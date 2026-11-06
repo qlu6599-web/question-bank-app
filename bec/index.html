@@ -89,6 +89,7 @@ footer{color:#8795a9}
 .lesson-chip{display:inline-block;background:#e5f1ff;color:#245894;font-size:12px;padding:5px 9px;border-radius:99px;margin:4px}
 .study-pill{color:#476990;font-size:12px;border:1px solid #cedcf0;border-radius:7px;padding:4px 8px}
 @media(max-width:620px){.study-word{font-size:25px}.study-info,.lesson-task{padding:12px}}
+#grammarDetail{scroll-margin-top:100px}
 </style></head><body><header><h1>BEC 起步 V11 · 词汇＋语法</h1><small>从零基础开始｜真实收录数量可查｜官方词表覆盖未核验</small></header><main>
 <nav id="nav"><button data-tab="home" class="active">首页</button><button data-tab="typelearn">今日背词</button><button data-tab="yesterday">昨日复习</button><button data-tab="dictation">句子听写</button><button data-tab="words">词库</button><button data-tab="grammar">语法</button><button data-tab="mycontent">我的词句</button><button data-tab="backup">数据备份</button></nav>
 <section id="home">
@@ -583,13 +584,14 @@ tlDraw=function(){
 function renderGrammar(){
  const list=document.getElementById('grammarList');
  list.innerHTML=G.map((x,i)=>'<div class="lesson"><div><b>第'+(i+1)+'课 · '+h(x.title)+'</b><div class="meta">'+(state.grammar[i]?'✓ 已完成':'学习规则 + 打字练习')+'</div></div><button onclick="openGrammar('+i+')">进入课程</button></div>').join('');
- openGrammar(typeof gi==='number'?gi:0)
+ openGrammar(typeof gi==='number'?gi:0,false)
 }
-function openGrammar(i){
+function openGrammar(i,shouldScroll=true){
  gi=Math.max(0,Math.min(G.length-1,Number(i)||0));
  const g=G[gi],n=V11_LESSONS[gi],card=document.getElementById('grammarDetail');
  const examples=g.examples.map(e=>'<div class="study-example"><b>'+h(e.en)+'</b><div>'+h(e.zh)+'</div><button onclick="speak('+jsarg(e.en)+')">▶ 听读</button></div>').join('');
  card.innerHTML='<div class="home-overline">GRAMMAR · 第'+(gi+1)+' / 16课</div><h2>'+h(g.title)+'</h2><div class="lesson-step"><h3>① 先看规则</h3><p>'+h(n[1])+'</p><div><b>拆开理解：</b>'+h(n[2])+'</div></div><h3>② 看例句，点按钮听读</h3>'+examples+'<div class="lesson-task"><h3>③ 填入缺少的英文词或短语</h3><div class="question">'+h(g.quiz.q)+'</div><input id="v11Fill" placeholder="填入缺少的英文单词" autocomplete="off" autocapitalize="off" spellcheck="false"><button class="primary" onclick="v11CheckFill()">检查填空</button><div id="v11FillFeedback" aria-live="polite"></div></div><div class="lesson-task"><h3>④ 自己打出完整句子</h3><p>请翻译：<b>'+h(n[3])+'</b></p><input id="v11Sentence" placeholder="自己输入完整英文句子" autocomplete="off" spellcheck="false"><button class="primary" onclick="v11CheckSentence()">检查句子</button><button onclick="speak('+jsarg(n[4])+')">▶ 听标准句子</button><div id="v11SentenceFeedback" aria-live="polite"></div></div><div class="lesson-step"><h3>⑤ 容易错在哪里？</h3><p>'+h(n[6])+'</p></div><div class="dict-row"><button onclick="openGrammar(Math.max(0,'+(gi-1)+'))">← 上一课</button><button class="primary" onclick="openGrammar(Math.min(15,'+(gi+1)+'))">下一课 →</button></div>';
+ if(shouldScroll){requestAnimationFrame(()=>document.getElementById('grammarDetail').scrollIntoView({behavior:'smooth',block:'start'}))}
 }
 function v11CheckFill(){
  const n=V11_LESSONS[gi],g=G[gi],input=document.getElementById('v11Fill').value.trim(),correct=g.quiz.correct;
