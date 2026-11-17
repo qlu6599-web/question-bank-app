@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-11-17",
+  "source_pdf": "BEC 初级核心词汇表（零基础入门 · 中文注释）.pdf",
+  "source_type": "user-provided PDF",
+  "words": 150,
+  "phrases": 18,
+  "matched_words": 150,
+  "words_with_pdf_examples": 84,
+  "words_without_pdf_examples": 66,
+  "categories": [
+    "一、公司与组织",
+    "二、招聘与求职",
+    "三、产品与销售",
+    "四、财务与数字",
+    "五、会议与沟通",
+    "六、出差与旅行",
+    "七、办公日常"
+  ],
+  "official_wordlist_audit_status": "not completed in this import",
+  "note": "150条词汇均已与V12现有5223条记录关联。18条短语独立保存，不计入150条词汇。未补造原PDF没有提供的例句/搭配。"
+}
