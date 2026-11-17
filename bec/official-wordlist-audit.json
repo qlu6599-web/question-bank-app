@@ -1,0 +1,399 @@
+{
+  "title": "Cambridge BEC Preliminary Wordlist · 2006 audit",
+  "source": "22099-vocabulary-list(1).pdf, 42 pages, © UCLES 2006",
+  "raw_main_entries": 2811,
+  "unique_main_headwords": 2806,
+  "exact_matches": 2729,
+  "spelling_or_form_variants": 22,
+  "missing_main_entries_added": 55,
+  "matched_existing_total": 2751,
+  "appendix1_examples": 37,
+  "appendix1_new_entries": 16,
+  "appendix1_already_present": 21,
+  "appendix2_affixes": 20,
+  "original_v12_records": 5223,
+  "merged_records": 5293,
+  "duplicate_cleanup": 1,
+  "duplicate_note": "o’clock / o'clock normalized to one entry",
+  "untagged_pos_terms": [
+    "character",
+    "energy",
+    "rectangular"
+  ],
+  "caveat": "The 2006 list is not verified as a 2027 latest list. Cambridge states that the wordlist is not exhaustive.",
+  "new_main_entries": [
+    {
+      "term": "annual report",
+      "pos": "n",
+      "page": 5
+    },
+    {
+      "term": "annual return",
+      "pos": "n",
+      "page": 5
+    },
+    {
+      "term": "answer phone",
+      "pos": "n",
+      "page": 5
+    },
+    {
+      "term": "at first",
+      "pos": "prep phr",
+      "page": 6
+    },
+    {
+      "term": "at last",
+      "pos": "prep phr",
+      "page": 6
+    },
+    {
+      "term": "at least",
+      "pos": "prep phr",
+      "page": 6
+    },
+    {
+      "term": "at once",
+      "pos": "prep phr",
+      "page": 6
+    },
+    {
+      "term": "by car",
+      "pos": "prep phr",
+      "page": 8
+    },
+    {
+      "term": "°C",
+      "pos": "abbrev",
+      "page": 9
+    },
+    {
+      "term": "c",
+      "pos": "abbrev",
+      "page": 9
+    },
+    {
+      "term": "cancellation",
+      "pos": "n",
+      "page": 9
+    },
+    {
+      "term": "carry out (a task)",
+      "pos": "phr v",
+      "page": 9
+    },
+    {
+      "term": "computer program(me)",
+      "pos": "n",
+      "page": 11
+    },
+    {
+      "term": "connecting (flight)",
+      "pos": "adj",
+      "page": 11
+    },
+    {
+      "term": "costing(s)",
+      "pos": "n",
+      "page": 12
+    },
+    {
+      "term": "cut down (on)",
+      "pos": "phr v",
+      "page": 13
+    },
+    {
+      "term": "day off",
+      "pos": "n",
+      "page": 13
+    },
+    {
+      "term": "E",
+      "pos": "abbrev",
+      "page": 15
+    },
+    {
+      "term": "°F",
+      "pos": "abbrev",
+      "page": 16
+    },
+    {
+      "term": "hand out",
+      "pos": "phr v",
+      "page": 20
+    },
+    {
+      "term": "have got",
+      "pos": "v",
+      "page": 20
+    },
+    {
+      "term": "hi(gh)-tec(h)",
+      "pos": "adj",
+      "page": 21
+    },
+    {
+      "term": "how do you do?",
+      "pos": "int",
+      "page": 21
+    },
+    {
+      "term": "in charge (of)",
+      "pos": "prep phr",
+      "page": 21
+    },
+    {
+      "term": "information technology (IT)",
+      "pos": "n",
+      "page": 22
+    },
+    {
+      "term": "laser printer",
+      "pos": "n",
+      "page": 23
+    },
+    {
+      "term": "letter-box",
+      "pos": "n",
+      "page": 24
+    },
+    {
+      "term": "level off",
+      "pos": "phr v",
+      "page": 24
+    },
+    {
+      "term": "limited company (Ltd.)",
+      "pos": "n",
+      "page": 24
+    },
+    {
+      "term": "lounge",
+      "pos": "n",
+      "page": 24
+    },
+    {
+      "term": "m",
+      "pos": "abbrev",
+      "page": 25
+    },
+    {
+      "term": "N",
+      "pos": "abbrev",
+      "page": 27
+    },
+    {
+      "term": "one-way",
+      "pos": "adj",
+      "page": 27
+    },
+    {
+      "term": "opening hours",
+      "pos": "n",
+      "page": 28
+    },
+    {
+      "term": "p",
+      "pos": "abbrev",
+      "page": 28
+    },
+    {
+      "term": "public relations (PR)",
+      "pos": "n",
+      "page": 30
+    },
+    {
+      "term": "rental",
+      "pos": "adj & n",
+      "page": 32
+    },
+    {
+      "term": "RSVP",
+      "pos": "abbrev",
+      "page": 32
+    },
+    {
+      "term": "S",
+      "pos": "abbrev",
+      "page": 33
+    },
+    {
+      "term": "seasonal (staff, rates)",
+      "pos": "adj",
+      "page": 33
+    },
+    {
+      "term": "seatbelt",
+      "pos": "n",
+      "page": 33
+    },
+    {
+      "term": "service station",
+      "pos": "n",
+      "page": 33
+    },
+    {
+      "term": "service agreement",
+      "pos": "n",
+      "page": 33
+    },
+    {
+      "term": "service charge",
+      "pos": "n",
+      "page": 33
+    },
+    {
+      "term": "service industry",
+      "pos": "n",
+      "page": 33
+    },
+    {
+      "term": "services",
+      "pos": "n pl",
+      "page": 33
+    },
+    {
+      "term": "tin-opener",
+      "pos": "n",
+      "page": 37
+    },
+    {
+      "term": "trade fair",
+      "pos": "n",
+      "page": 38
+    },
+    {
+      "term": "traffic light(s)",
+      "pos": "n",
+      "page": 38
+    },
+    {
+      "term": "travel expenses",
+      "pos": "n",
+      "page": 38
+    },
+    {
+      "term": "traveller’s cheque(s)",
+      "pos": "n",
+      "page": 38
+    },
+    {
+      "term": "video recorder",
+      "pos": "n",
+      "page": 39
+    },
+    {
+      "term": "W",
+      "pos": "abbrev",
+      "page": 39
+    },
+    {
+      "term": "waiting room",
+      "pos": "n",
+      "page": 39
+    },
+    {
+      "term": "Well done!",
+      "pos": "exclam",
+      "page": 39
+    }
+  ],
+  "new_appendix_entries": [
+    {
+      "term": "Brazil",
+      "pos": "n",
+      "page": 41,
+      "note": "国家名称，首字母大写。"
+    },
+    {
+      "term": "Brazilian",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词（巴西的）或名词（巴西人）。"
+    },
+    {
+      "term": "Canada",
+      "pos": "n",
+      "page": 41,
+      "note": "国家名称，首字母大写。"
+    },
+    {
+      "term": "Canadian",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词。"
+    },
+    {
+      "term": "Chinese",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词；表示语言时通常说 Chinese。"
+    },
+    {
+      "term": "France",
+      "pos": "n",
+      "page": 41,
+      "note": "国家名称；英美发音中的元音不同。"
+    },
+    {
+      "term": "French",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词；the French 可泛指法国人。"
+    },
+    {
+      "term": "Ireland",
+      "pos": "n",
+      "page": 41,
+      "note": "英式常见 /aɪə/；美式常见带 /r/ 的读法。"
+    },
+    {
+      "term": "Irish",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词。"
+    },
+    {
+      "term": "India",
+      "pos": "n",
+      "page": 41,
+      "note": "国家名称，首字母大写。"
+    },
+    {
+      "term": "Indian",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词；不要把 Indian 当作某一种具体语言的名称。"
+    },
+    {
+      "term": "Italy",
+      "pos": "n",
+      "page": 41,
+      "note": "美式发音中 t 常呈闪音。"
+    },
+    {
+      "term": "Italian",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词。"
+    },
+    {
+      "term": "Spain",
+      "pos": "n",
+      "page": 41,
+      "note": "国家名称，首字母大写。"
+    },
+    {
+      "term": "Spanish",
+      "pos": "adj & n",
+      "page": 41,
+      "note": "可作形容词或名词；Spanish 也表示西班牙语。"
+    },
+    {
+      "term": "Antartica → Antarctica",
+      "pos": "n",
+      "page": 41,
+      "note": "重要校正：剑桥PDF第41页原文写作 Antartica，标准英语拼写为 Antarctica；页面保留原文备注并以标准拼写教学。"
+    }
+  ]
+}
