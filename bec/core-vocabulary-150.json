@@ -1,0 +1,2679 @@
+{
+  "title": "BEC 初级核心词汇表（150条）",
+  "source": "用户上传的《BEC 初级核心词汇表（零基础入门 · 中文注释）》PDF，标注来源为剑桥官方 BEC Preliminary 词汇表（UCLES 2006）精选。",
+  "import_note": "本文件忠实导入PDF中的150条词汇、词性、中文释义、原有搭配/例句和8个主题分类。PDF未提供搭配/例句的词条保持空白，不补造。另将PDF第6页的18条商务短语单独列出，不计入150条词汇。",
+  "word_count": 150,
+  "phrase_count": 18,
+  "exact_or_alias_matched": 150,
+  "words_with_examples_or_collocations": 84,
+  "words_without_examples_or_collocations": 66,
+  "categories": [
+    "一、公司与组织",
+    "二、招聘与求职",
+    "三、产品与销售",
+    "四、财务与数字",
+    "五、会议与沟通",
+    "六、出差与旅行",
+    "七、办公日常"
+  ],
+  "words": [
+    {
+      "term": "company",
+      "pos": "n.",
+      "meaning": "公司",
+      "example_raw": "a trading company 贸易公司",
+      "example_en": "a trading company",
+      "example_zh": "贸易公司",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "company"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "business",
+      "pos": "n.",
+      "meaning": "生意；商业",
+      "example_raw": "do business 做生意",
+      "example_en": "do business",
+      "example_zh": "做生意",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "business"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "department",
+      "pos": "n.",
+      "meaning": "部门",
+      "example_raw": "sales department 销售部",
+      "example_en": "sales department",
+      "example_zh": "销售部",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "department"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "manager",
+      "pos": "n.",
+      "meaning": "经理",
+      "example_raw": "general manager 总经理",
+      "example_en": "general manager",
+      "example_zh": "总经理",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "manager"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "director",
+      "pos": "n.",
+      "meaning": "董事；主管",
+      "example_raw": "managing director 董事总经理",
+      "example_en": "managing director",
+      "example_zh": "董事总经理",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "director"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "staff",
+      "pos": "n.",
+      "meaning": "全体员工",
+      "example_raw": "office staff 办公室职员",
+      "example_en": "office staff",
+      "example_zh": "办公室职员",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "staff"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "employee",
+      "pos": "n.",
+      "meaning": "雇员",
+      "example_raw": "a new employee 新员工",
+      "example_en": "a new employee",
+      "example_zh": "新员工",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "employee"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "employer",
+      "pos": "n.",
+      "meaning": "雇主",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "employer"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "colleague",
+      "pos": "n.",
+      "meaning": "同事",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "colleague"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "boss",
+      "pos": "n.",
+      "meaning": "老板；上司",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "boss"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "head office",
+      "pos": "n.",
+      "meaning": "总部",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "head office"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "branch",
+      "pos": "n.",
+      "meaning": "分公司；分行",
+      "example_raw": "a bank branch 银行分行",
+      "example_en": "a bank branch",
+      "example_zh": "银行分行",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "branch"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "factory",
+      "pos": "n.",
+      "meaning": "工厂",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "factory"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "office",
+      "pos": "n.",
+      "meaning": "办公室",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "office"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "organisation / organization",
+      "pos": "n.",
+      "meaning": "组织；机构",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "organisation",
+        "organization"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "firm",
+      "pos": "n.",
+      "meaning": "公司；商行",
+      "example_raw": "a law firm 律师事务所",
+      "example_en": "a law firm",
+      "example_zh": "律师事务所",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "firm"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "industry",
+      "pos": "n.",
+      "meaning": "工业；行业",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "industry"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "trade",
+      "pos": "n.",
+      "meaning": "贸易",
+      "example_raw": "foreign trade 对外贸易",
+      "example_en": "foreign trade",
+      "example_zh": "对外贸易",
+      "category": "一、公司与组织",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "trade"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "apply",
+      "pos": "v.",
+      "meaning": "申请",
+      "example_raw": "apply for a job 申请工作",
+      "example_en": "apply for a job",
+      "example_zh": "申请工作",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "apply"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "application",
+      "pos": "n.",
+      "meaning": "申请",
+      "example_raw": "application form 申请表",
+      "example_en": "application form",
+      "example_zh": "申请表",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "application"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "applicant",
+      "pos": "n.",
+      "meaning": "申请人",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "applicant"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "interview",
+      "pos": "n./v.",
+      "meaning": "面试",
+      "example_raw": "attend an interview 参加面试",
+      "example_en": "attend an interview",
+      "example_zh": "参加面试",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "interview"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "CV",
+      "pos": "n.",
+      "meaning": "简历",
+      "example_raw": "send your CV 寄简历",
+      "example_en": "send your CV",
+      "example_zh": "寄简历",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "curriculum vitae/CV"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "job",
+      "pos": "n.",
+      "meaning": "工作",
+      "example_raw": "a full-time job 全职工作",
+      "example_en": "a full-time job",
+      "example_zh": "全职工作",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "job"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "vacancy",
+      "pos": "n.",
+      "meaning": "空缺职位",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "vacancy"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "salary",
+      "pos": "n.",
+      "meaning": "薪水",
+      "example_raw": "a monthly salary 月薪",
+      "example_en": "a monthly salary",
+      "example_zh": "月薪",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "salary"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "wage",
+      "pos": "n.",
+      "meaning": "工资（按周/小时）",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 1,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "wage"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "experience",
+      "pos": "n.",
+      "meaning": "经验",
+      "example_raw": "work experience 工作经验",
+      "example_en": "work experience",
+      "example_zh": "工作经验",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "experience"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "skill",
+      "pos": "n.",
+      "meaning": "技能",
+      "example_raw": "computer skills 电脑技能",
+      "example_en": "computer skills",
+      "example_zh": "电脑技能",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "skill"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "qualification",
+      "pos": "n.",
+      "meaning": "资格；学历",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "qualification"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "train",
+      "pos": "v.",
+      "meaning": "培训",
+      "example_raw": "training course 培训课程",
+      "example_en": "training course",
+      "example_zh": "培训课程",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "train"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "employ",
+      "pos": "v.",
+      "meaning": "雇佣",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "employ"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "retire",
+      "pos": "v.",
+      "meaning": "退休",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "retire"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "resign",
+      "pos": "v.",
+      "meaning": "辞职",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "resign"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "promote",
+      "pos": "v.",
+      "meaning": "升职；促销",
+      "example_raw": "get promoted 升职",
+      "example_en": "get promoted",
+      "example_zh": "升职",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "promote"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "promotion",
+      "pos": "n.",
+      "meaning": "升职；促销活动",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "二、招聘与求职",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "promotion"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "product",
+      "pos": "n.",
+      "meaning": "产品",
+      "example_raw": "a new product 新产品",
+      "example_en": "a new product",
+      "example_zh": "新产品",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "product"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "customer",
+      "pos": "n.",
+      "meaning": "顾客；客户",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "customer"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "client",
+      "pos": "n.",
+      "meaning": "客户（尤指长期）",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "client"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "market",
+      "pos": "n.",
+      "meaning": "市场",
+      "example_raw": "the Chinese market 中国市场",
+      "example_en": "the Chinese market",
+      "example_zh": "中国市场",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "market"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "marketing",
+      "pos": "n.",
+      "meaning": "市场营销",
+      "example_raw": "marketing department 市场部",
+      "example_en": "marketing department",
+      "example_zh": "市场部",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "marketing"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "advertise",
+      "pos": "v.",
+      "meaning": "做广告",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "advertise"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "advertisement / advert",
+      "pos": "n.",
+      "meaning": "广告",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "advertisement",
+        "advert"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "price",
+      "pos": "n.",
+      "meaning": "价格",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "price"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "discount",
+      "pos": "n.",
+      "meaning": "折扣",
+      "example_raw": "a 10% discount 九折",
+      "example_en": "a 10% discount",
+      "example_zh": "九折",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "discount"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "cost",
+      "pos": "n./v.",
+      "meaning": "成本；花费",
+      "example_raw": "How much does it cost? 多少钱？",
+      "example_en": "How much does it cost?",
+      "example_zh": "多少钱？",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "cost"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "order",
+      "pos": "n./v.",
+      "meaning": "订单；订购",
+      "example_raw": "place an order 下订单",
+      "example_en": "place an order",
+      "example_zh": "下订单",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "order"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "deliver",
+      "pos": "v.",
+      "meaning": "递送；交付",
+      "example_raw": "delivery date 交货日期",
+      "example_en": "delivery date",
+      "example_zh": "交货日期",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "deliver"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "delivery",
+      "pos": "n.",
+      "meaning": "递送",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "delivery"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "sale",
+      "pos": "n.",
+      "meaning": "销售；促销",
+      "example_raw": "on sale 打折",
+      "example_en": "on sale",
+      "example_zh": "打折",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "sale"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "sell",
+      "pos": "v.",
+      "meaning": "卖",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "sell"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "buy",
+      "pos": "v.",
+      "meaning": "买",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "buy"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "shop",
+      "pos": "n.",
+      "meaning": "商店",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "shop"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "store",
+      "pos": "n.",
+      "meaning": "商店；储存",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "store"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "quality",
+      "pos": "n.",
+      "meaning": "质量",
+      "example_raw": "good quality 质量好",
+      "example_en": "good quality",
+      "example_zh": "质量好",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "quality"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "brand",
+      "pos": "n.",
+      "meaning": "品牌",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "brand"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "demand",
+      "pos": "n.",
+      "meaning": "需求",
+      "example_raw": "in great demand 很畅销",
+      "example_en": "in great demand",
+      "example_zh": "很畅销",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "demand"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "supply",
+      "pos": "n./v.",
+      "meaning": "供应；供给",
+      "example_raw": "supply and demand 供求",
+      "example_en": "supply and demand",
+      "example_zh": "供求",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "supply"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "compete",
+      "pos": "v.",
+      "meaning": "竞争",
+      "example_raw": "compete with 与……竞争",
+      "example_en": "compete with",
+      "example_zh": "与……竞争",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "compete"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "competitor",
+      "pos": "n.",
+      "meaning": "竞争对手",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "三、产品与销售",
+      "pdf_page": 2,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "competitor"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "account",
+      "pos": "n.",
+      "meaning": "账户；账目",
+      "example_raw": "bank account 银行账户",
+      "example_en": "bank account",
+      "example_zh": "银行账户",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "account"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "accountant",
+      "pos": "n.",
+      "meaning": "会计",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "accountant"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "accounting",
+      "pos": "n.",
+      "meaning": "会计工作",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "accounting"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "budget",
+      "pos": "n.",
+      "meaning": "预算",
+      "example_raw": "within budget 在预算内",
+      "example_en": "within budget",
+      "example_zh": "在预算内",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "budget"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "profit",
+      "pos": "n.",
+      "meaning": "利润",
+      "example_raw": "make a profit 盈利",
+      "example_en": "make a profit",
+      "example_zh": "盈利",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "profit"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "loss",
+      "pos": "n.",
+      "meaning": "亏损",
+      "example_raw": "make a loss 亏损",
+      "example_en": "make a loss",
+      "example_zh": "亏损",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "loss"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "invoice",
+      "pos": "n.",
+      "meaning": "发票",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "invoice"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "payment",
+      "pos": "n.",
+      "meaning": "付款",
+      "example_raw": "pay by card 刷卡付款",
+      "example_en": "pay by card",
+      "example_zh": "刷卡付款",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "payment"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "pay",
+      "pos": "v.",
+      "meaning": "支付",
+      "example_raw": "pay in cash 付现金",
+      "example_en": "pay in cash",
+      "example_zh": "付现金",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "pay"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "cash",
+      "pos": "n.",
+      "meaning": "现金",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "cash"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "cheque / check",
+      "pos": "n.",
+      "meaning": "支票",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "cheque",
+        "check"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "bank",
+      "pos": "n.",
+      "meaning": "银行",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "bank"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "borrow",
+      "pos": "v.",
+      "meaning": "借入",
+      "example_raw": "borrow money from the bank 向银行借钱",
+      "example_en": "borrow money from the bank",
+      "example_zh": "向银行借钱",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "borrow"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "lend",
+      "pos": "v.",
+      "meaning": "借出",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "lend"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "loan",
+      "pos": "n.",
+      "meaning": "贷款",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "loan"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "interest",
+      "pos": "n.",
+      "meaning": "利息；兴趣",
+      "example_raw": "interest rate 利率",
+      "example_en": "interest rate",
+      "example_zh": "利率",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "interest"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "tax",
+      "pos": "n.",
+      "meaning": "税",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "tax"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "bill",
+      "pos": "n.",
+      "meaning": "账单",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "bill"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "receipt",
+      "pos": "n.",
+      "meaning": "收据",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "receipt"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "increase",
+      "pos": "v./n.",
+      "meaning": "增加",
+      "example_raw": "prices increase 价格上涨",
+      "example_en": "prices increase",
+      "example_zh": "价格上涨",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "increase"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "decrease",
+      "pos": "v./n.",
+      "meaning": "减少",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "decrease"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "rise",
+      "pos": "v./n.",
+      "meaning": "上升",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "rise"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "fall",
+      "pos": "v./n.",
+      "meaning": "下降",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "fall"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "total",
+      "pos": "n./adj.",
+      "meaning": "总计；总的",
+      "example_raw": "in total 总共",
+      "example_en": "in total",
+      "example_zh": "总共",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "total"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "amount",
+      "pos": "n.",
+      "meaning": "数量；金额",
+      "example_raw": "a large amount of money 一大笔钱",
+      "example_en": "a large amount of money",
+      "example_zh": "一大笔钱",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "amount"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "per cent / percent",
+      "pos": "n.",
+      "meaning": "百分之……",
+      "example_raw": "50 per cent 50%",
+      "example_en": "50 per cent 50%",
+      "example_zh": "",
+      "category": "四、财务与数字",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "per cent",
+        "percent"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "meeting",
+      "pos": "n.",
+      "meaning": "会议",
+      "example_raw": "attend a meeting 参加会议",
+      "example_en": "attend a meeting",
+      "example_zh": "参加会议",
+      "category": "五、会议与沟通",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "meeting"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "agenda",
+      "pos": "n.",
+      "meaning": "议程",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "五、会议与沟通",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "agenda"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "discuss",
+      "pos": "v.",
+      "meaning": "讨论",
+      "example_raw": "discuss the plan 讨论计划",
+      "example_en": "discuss the plan",
+      "example_zh": "讨论计划",
+      "category": "五、会议与沟通",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "discuss"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "discussion",
+      "pos": "n.",
+      "meaning": "讨论",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "五、会议与沟通",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "discussion"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "decision",
+      "pos": "n.",
+      "meaning": "决定",
+      "example_raw": "make a decision 做决定",
+      "example_en": "make a decision",
+      "example_zh": "做决定",
+      "category": "五、会议与沟通",
+      "pdf_page": 3,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "decision"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "decide",
+      "pos": "v.",
+      "meaning": "决定",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "decide"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "report",
+      "pos": "n./v.",
+      "meaning": "报告；汇报",
+      "example_raw": "annual report 年报",
+      "example_en": "annual report",
+      "example_zh": "年报",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "report"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "presentation",
+      "pos": "n.",
+      "meaning": "演讲；展示",
+      "example_raw": "give a presentation 做演示",
+      "example_en": "give a presentation",
+      "example_zh": "做演示",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "presentation"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "email",
+      "pos": "n./v.",
+      "meaning": "电子邮件",
+      "example_raw": "send an email 发邮件",
+      "example_en": "send an email",
+      "example_zh": "发邮件",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "email"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "letter",
+      "pos": "n.",
+      "meaning": "信",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "letter"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "phone",
+      "pos": "n./v.",
+      "meaning": "电话",
+      "example_raw": "phone call 电话",
+      "example_en": "phone call",
+      "example_zh": "电话",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "phone"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "call",
+      "pos": "v./n.",
+      "meaning": "打电话；电话",
+      "example_raw": "call back 回电话",
+      "example_en": "call back",
+      "example_zh": "回电话",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "call"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "message",
+      "pos": "n.",
+      "meaning": "消息；留言",
+      "example_raw": "leave a message 留言",
+      "example_en": "leave a message",
+      "example_zh": "留言",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "message"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "contact",
+      "pos": "v./n.",
+      "meaning": "联系",
+      "example_raw": "contact us 联系我们",
+      "example_en": "contact us",
+      "example_zh": "联系我们",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "contact"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "appointment",
+      "pos": "n.",
+      "meaning": "约会；预约",
+      "example_raw": "make an appointment 预约",
+      "example_en": "make an appointment",
+      "example_zh": "预约",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "appointment"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "arrange",
+      "pos": "v.",
+      "meaning": "安排",
+      "example_raw": "arrange a meeting 安排会议",
+      "example_en": "arrange a meeting",
+      "example_zh": "安排会议",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "arrange"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "cancel",
+      "pos": "v.",
+      "meaning": "取消",
+      "example_raw": "cancel the meeting 取消会议",
+      "example_en": "cancel the meeting",
+      "example_zh": "取消会议",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "cancel"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "delay",
+      "pos": "v./n.",
+      "meaning": "延误；推迟",
+      "example_raw": "The flight was delayed. 航班延误了。",
+      "example_en": "The flight was delayed.",
+      "example_zh": "航班延误了。",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "delay"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "inform",
+      "pos": "v.",
+      "meaning": "通知；告知",
+      "example_raw": "inform customers 通知客户",
+      "example_en": "inform customers",
+      "example_zh": "通知客户",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "inform"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "suggest",
+      "pos": "v.",
+      "meaning": "建议",
+      "example_raw": "suggest a new idea 提建议",
+      "example_en": "suggest a new idea",
+      "example_zh": "提建议",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "suggest"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "agree",
+      "pos": "v.",
+      "meaning": "同意",
+      "example_raw": "agree with 同意",
+      "example_en": "agree with",
+      "example_zh": "同意",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "agree"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "disagree",
+      "pos": "v.",
+      "meaning": "不同意",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "五、会议与沟通",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "disagree"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "travel",
+      "pos": "v./n.",
+      "meaning": "旅行",
+      "example_raw": "travel by train 乘火车旅行",
+      "example_en": "travel by train",
+      "example_zh": "乘火车旅行",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "travel"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "trip",
+      "pos": "n.",
+      "meaning": "旅行",
+      "example_raw": "a business trip 出差",
+      "example_en": "a business trip",
+      "example_zh": "出差",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "trip"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "flight",
+      "pos": "n.",
+      "meaning": "航班",
+      "example_raw": "book a flight 订机票",
+      "example_en": "book a flight",
+      "example_zh": "订机票",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "flight"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "book",
+      "pos": "v.",
+      "meaning": "预订",
+      "example_raw": "book a hotel 订酒店",
+      "example_en": "book a hotel",
+      "example_zh": "订酒店",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "book"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "booking",
+      "pos": "n.",
+      "meaning": "预订",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "booking"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "hotel",
+      "pos": "n.",
+      "meaning": "酒店",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "hotel"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "ticket",
+      "pos": "n.",
+      "meaning": "票",
+      "example_raw": "a return ticket 往返票",
+      "example_en": "a return ticket",
+      "example_zh": "往返票",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "ticket"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "passport",
+      "pos": "n.",
+      "meaning": "护照",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "passport"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "luggage",
+      "pos": "n.",
+      "meaning": "行李",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "luggage"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "airport",
+      "pos": "n.",
+      "meaning": "机场",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "airport"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "station",
+      "pos": "n.",
+      "meaning": "车站",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "station"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "taxi",
+      "pos": "n.",
+      "meaning": "出租车",
+      "example_raw": "take a taxi 打车",
+      "example_en": "take a taxi",
+      "example_zh": "打车",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "taxi"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "arrive",
+      "pos": "v.",
+      "meaning": "到达",
+      "example_raw": "arrive in Beijing 到达北京",
+      "example_en": "arrive in Beijing",
+      "example_zh": "到达北京",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "arrive"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "departure",
+      "pos": "n.",
+      "meaning": "出发；离开",
+      "example_raw": "departure time 出发时间",
+      "example_en": "departure time",
+      "example_zh": "出发时间",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "departure"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "arrival",
+      "pos": "n.",
+      "meaning": "到达",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "arrival"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "abroad",
+      "pos": "adv.",
+      "meaning": "在国外",
+      "example_raw": "go abroad 出国",
+      "example_en": "go abroad",
+      "example_zh": "出国",
+      "category": "六、出差与旅行",
+      "pdf_page": 4,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "abroad"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "computer",
+      "pos": "n.",
+      "meaning": "电脑",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "computer"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "printer",
+      "pos": "n.",
+      "meaning": "打印机",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "printer"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "file",
+      "pos": "n.",
+      "meaning": "文件；文件夹",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "file"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "document",
+      "pos": "n.",
+      "meaning": "文件",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "document"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "copy",
+      "pos": "n./v.",
+      "meaning": "复印件；复制",
+      "example_raw": "make a copy 复印一份",
+      "example_en": "make a copy",
+      "example_zh": "复印一份",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "copy"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "print",
+      "pos": "v.",
+      "meaning": "打印",
+      "example_raw": "print the report 打印报告",
+      "example_en": "print the report",
+      "example_zh": "打印报告",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "print"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "deadline",
+      "pos": "n.",
+      "meaning": "截止日期",
+      "example_raw": "meet the deadline 赶上截止日期",
+      "example_en": "meet the deadline",
+      "example_zh": "赶上截止日期",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "deadline"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "schedule",
+      "pos": "n.",
+      "meaning": "日程表",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "schedule"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "plan",
+      "pos": "n./v.",
+      "meaning": "计划",
+      "example_raw": "make a plan 制定计划",
+      "example_en": "make a plan",
+      "example_zh": "制定计划",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "plan"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "project",
+      "pos": "n.",
+      "meaning": "项目",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "project"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "task",
+      "pos": "n.",
+      "meaning": "任务",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "task"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "work",
+      "pos": "n./v.",
+      "meaning": "工作",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "work"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "busy",
+      "pos": "adj.",
+      "meaning": "忙的",
+      "example_raw": "be busy with 忙于",
+      "example_en": "be busy with",
+      "example_zh": "忙于",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "busy"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "free",
+      "pos": "adj.",
+      "meaning": "空闲的；免费的",
+      "example_raw": "Are you free tomorrow? 明天有空吗？",
+      "example_en": "Are you free tomorrow?",
+      "example_zh": "明天有空吗？",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "free"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "available",
+      "pos": "adj.",
+      "meaning": "可用的；有空的",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "available"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "urgent",
+      "pos": "adj.",
+      "meaning": "紧急的",
+      "example_raw": "urgent matter 急事",
+      "example_en": "urgent matter",
+      "example_zh": "急事",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "urgent"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "important",
+      "pos": "adj.",
+      "meaning": "重要的",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "important"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "mistake",
+      "pos": "n.",
+      "meaning": "错误",
+      "example_raw": "make a mistake 犯错",
+      "example_en": "make a mistake",
+      "example_zh": "犯错",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "mistake"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "problem",
+      "pos": "n.",
+      "meaning": "问题",
+      "example_raw": "solve the problem 解决问题",
+      "example_en": "solve the problem",
+      "example_zh": "解决问题",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "problem"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "solve",
+      "pos": "v.",
+      "meaning": "解决",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "solve"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "check",
+      "pos": "v.",
+      "meaning": "检查",
+      "example_raw": "check the figures 核对数字",
+      "example_en": "check the figures",
+      "example_zh": "核对数字",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "check"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "send",
+      "pos": "v.",
+      "meaning": "发送",
+      "example_raw": "send a fax 发传真",
+      "example_en": "send a fax",
+      "example_zh": "发传真",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "send"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "receive",
+      "pos": "v.",
+      "meaning": "收到",
+      "example_raw": "receive an email 收到邮件",
+      "example_en": "receive an email",
+      "example_zh": "收到邮件",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "receive"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "reply",
+      "pos": "v./n.",
+      "meaning": "回复",
+      "example_raw": "reply to the letter 回信",
+      "example_en": "reply to the letter",
+      "example_zh": "回信",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "reply"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "attach",
+      "pos": "v.",
+      "meaning": "附上",
+      "example_raw": "attach a file 附加文件",
+      "example_en": "attach a file",
+      "example_zh": "附加文件",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "attach"
+      ],
+      "match_status": "matched"
+    },
+    {
+      "term": "attachment",
+      "pos": "n.",
+      "meaning": "附件",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "七、办公日常",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [
+        "attachment"
+      ],
+      "match_status": "matched"
+    }
+  ],
+  "phrases": [
+    {
+      "term": "in advance",
+      "pos": "短语",
+      "meaning": "提前",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "as soon as possible (ASAP)",
+      "pos": "短语",
+      "meaning": "尽快",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "in total",
+      "pos": "短语",
+      "meaning": "总共",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "in charge of",
+      "pos": "短语",
+      "meaning": "负责",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "take part in",
+      "pos": "短语",
+      "meaning": "参加",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 5,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "deal with",
+      "pos": "短语",
+      "meaning": "处理",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "look forward to",
+      "pos": "短语",
+      "meaning": "期待",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "in addition",
+      "pos": "短语",
+      "meaning": "另外；此外",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "according to",
+      "pos": "短语",
+      "meaning": "根据",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "on time",
+      "pos": "短语",
+      "meaning": "准时",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "in time",
+      "pos": "短语",
+      "meaning": "及时",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "at present",
+      "pos": "短语",
+      "meaning": "目前",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "at least",
+      "pos": "短语",
+      "meaning": "至少",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "at first",
+      "pos": "短语",
+      "meaning": "起初",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "in future",
+      "pos": "短语",
+      "meaning": "将来",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "by the way",
+      "pos": "短语",
+      "meaning": "顺便说一下",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "out of date",
+      "pos": "短语",
+      "meaning": "过期的",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    },
+    {
+      "term": "up to date",
+      "pos": "短语",
+      "meaning": "最新的",
+      "example_raw": "",
+      "example_en": "",
+      "example_zh": "",
+      "category": "八、常用商务短语（考试高频）",
+      "pdf_page": 6,
+      "source_file": "BEC 初级核心词汇表（零基础入门 · 中文注释）",
+      "source_type": "user_pdf",
+      "matched_seed_terms": [],
+      "match_status": "phrase_reference"
+    }
+  ]
+}
