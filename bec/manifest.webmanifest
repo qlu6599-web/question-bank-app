@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "BEC 起步 · 手机学习",
+  "short_name": "BEC 起步",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#1a477a",
+  "icons": [
+    {"src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any"}
+  ]
+}

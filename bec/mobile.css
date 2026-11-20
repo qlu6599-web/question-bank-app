@@ -1,0 +1,126 @@
+/* Keep controls inside the iPhone notch/home-indicator safe areas. */
+.topinner {
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+  padding-top: calc(14px + env(safe-area-inset-top, 0px));
+}
+
+#navbar {
+  padding-left: max(12px, env(safe-area-inset-left));
+  padding-right: max(12px, env(safe-area-inset-right));
+}
+
+main {
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+  padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px));
+}
+
+#toast {
+  z-index: 5;
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+.result > :first-child,
+#learningArea,
+#reviewArea,
+#lessonBody,
+#wordDetail {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.result > .chip {
+  flex: none;
+}
+
+@media (max-width: 550px) {
+  main {
+    padding-left: max(11px, env(safe-area-inset-left));
+    padding-right: max(11px, env(safe-area-inset-right));
+    padding-bottom: calc(45px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .topinner {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+
+  #navbar {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 3px;
+    padding-left: max(7px, env(safe-area-inset-left));
+    padding-right: max(7px, env(safe-area-inset-right));
+  }
+
+  #navbar > a {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+
+  #navbar button,
+  #navbar > a {
+    min-height: 44px;
+    min-width: 0;
+    white-space: normal;
+  }
+
+  .sectionhead {
+    flex-wrap: wrap;
+  }
+
+  .sectionhead small,
+  .helper,
+  .note {
+    font-size: 14px;
+  }
+
+  .hero {
+    gap: 12px;
+  }
+
+  .buttons button,
+  .example button,
+  .row > button,
+  .row > select {
+    min-height: 44px;
+  }
+
+  /* Mobile Safari zooms the page when editing smaller text fields. */
+  input:not([type="file"]),
+  textarea,
+  select {
+    font-size: max(1rem, 16px);
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  input.answer {
+    font-size: 1.25rem;
+  }
+
+  #customEnglish,
+  #customChinese {
+    flex-basis: 100% !important;
+    width: 100%;
+  }
+
+  #customList .result {
+    flex-wrap: wrap;
+  }
+
+  #learn .panel,
+  #review .panel,
+  #grammar .panel {
+    min-width: 0;
+  }
+
+  #learningArea,
+  #reviewArea,
+  #lessonBody,
+  #wordDetail {
+    scroll-margin-top: 12px;
+  }
+}
