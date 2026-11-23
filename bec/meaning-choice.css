@@ -1,0 +1,96 @@
+/* Compact, optional multiple-choice practice. No styles leak to other modes. */
+.meaning-quiz[hidden], .meaning-quiz [hidden] { display: none !important; }
+
+.meaning-quiz {
+  --meaning-accent: #235594;
+  --meaning-soft: #e9f4fe;
+  --meaning-text: #18364d;
+  max-width: 760px;
+  margin: 0 auto 16px;
+  padding: clamp(12px, 3vw, 24px);
+  border-radius: 20px;
+  border: 1px solid #c7e0f5;
+  color: var(--meaning-text);
+  background: linear-gradient(150deg, #eff8ff, #e7f2fd);
+}
+
+.meaning-quiz .meaning-head,
+.meaning-quiz .meaning-meter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.meaning-quiz .meaning-head { justify-content: space-between; gap: 12px; }
+.meaning-quiz .meaning-title { margin: 0; font-size: 1.2rem; line-height: 1.3; }
+.meaning-quiz .meaning-back { min-height: 44px; line-height: 1.2; white-space: nowrap; }
+.meaning-quiz .meaning-scope { margin: 0 0 8px; color: #3f5c75; font-size: .875rem; }
+.meaning-quiz .meaning-meter { min-height: 26px; margin-bottom: 5px; color: #3f5c75; font-size: .875rem; font-variant-numeric: tabular-nums; }
+.meaning-quiz .meaning-meter span { white-space: nowrap; }
+.meaning-quiz progress { flex: 1; height: 8px; min-width: 0; border-radius: 99px; border: 0; color: var(--meaning-accent); background: #cfdeee; }
+.meaning-quiz progress::-webkit-progress-bar { border-radius: inherit; background: #cfdeee; }
+.meaning-quiz progress::-webkit-progress-value { border-radius: inherit; background: var(--meaning-accent); }
+.meaning-quiz progress::-moz-progress-bar { border-radius: inherit; background: var(--meaning-accent); }
+
+.meaning-quiz .meaning-scene {
+  display: block;
+  width: auto;
+  max-width: min(100%, 300px);
+  height: auto;
+  max-height: 132px;
+  object-fit: contain;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  margin: 4px auto 8px;
+}
+
+.meaning-quiz .meaning-word {
+  margin: 4px 0 0;
+  text-align: center;
+  overflow-wrap: anywhere;
+  font-size: clamp(1.9rem, 7vw, 3rem);
+  line-height: 1.14;
+  font-weight: 800;
+  scroll-margin-top: 16px;
+}
+
+.meaning-quiz .meaning-pron { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.meaning-quiz .meaning-ipa { font-size: 1.02rem; color: #3f5c75; overflow-wrap: anywhere; }
+.meaning-quiz .meaning-speaker { display: inline-grid; place-items: center; width: 44px; min-height: 44px; padding: 0; border-radius: 11px; color: var(--meaning-accent); background: #f8fbff; border: 1px solid #cbdeef; flex: 0 0 44px; }
+.meaning-quiz .meaning-example { display: flex; gap: 10px; align-items: center; border-radius: 13px; margin: 8px 0 3px; padding: 3px 8px; background: #f4faff; }
+.meaning-quiz .meaning-example p { min-width: 0; overflow-wrap: anywhere; margin: 0; font-size: 1.03rem; line-height: 1.4; }
+.meaning-quiz .meaning-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
+
+.meaning-quiz .meaning-option {
+  border-radius: 13px;
+  border: 1px solid #c2d7eb;
+  background: #fcfeff;
+  padding: 8px 11px;
+  min-height: 66px;
+  overflow-wrap: anywhere;
+  text-align: left;
+  color: var(--meaning-text);
+  font-size: 1rem;
+  line-height: 1.4;
+  transition: border-color 120ms, background-color 120ms;
+}
+
+.meaning-quiz .meaning-option[aria-disabled="true"] { cursor: default; }
+.meaning-quiz .meaning-option.is-correct { color: #15562f; border-color: #4a9367; background: #e8f7ee; }
+.meaning-quiz .meaning-option.is-wrong { color: #8a3123; border-color: #cf715e; background: #fff0ec; }
+.meaning-quiz :is(button, h2, h3):focus-visible { outline: 2px solid #235594; outline-offset: 3px; }
+.meaning-quiz .meaning-feedback { min-height: 0; margin: 0; font-size: .92rem; line-height: 1.5; }
+.meaning-quiz .meaning-feedback:not(:empty) { margin: 10px 0 8px; }
+.meaning-quiz .meaning-feedback.is-correct { color: #15562f; }
+.meaning-quiz .meaning-feedback.is-wrong { color: #833025; }
+.meaning-quiz .meaning-next { min-height: 44px; width: 100%; }
+.meaning-quiz .meaning-summary { margin: 20px 0 3px; }
+.meaning-quiz .meaning-summary p { font-size: .96rem; line-height: 1.6; }
+
+@media (max-width: 410px) {
+  .meaning-quiz .meaning-scene { max-height: 110px; }
+  .meaning-quiz .meaning-option { min-height: 60px; padding: 7px 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .meaning-quiz .meaning-option { transition: none; }
+}

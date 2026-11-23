@@ -165,3 +165,69 @@
     #navbar > button:hover { background:#e7f2ff; }
   }
 }
+
+/* One independent blue audio control beside each visible English phrase. */
+.speak-button {
+  display:grid;
+  place-items:center;
+  width:44px;
+  min-width:44px;
+  height:44px;
+  min-height:44px;
+  padding:0;
+  border:0;
+  flex:0 0 44px;
+  border-radius:11px;
+  background:#e9f3ff;
+  color:#1267b1;
+  touch-action:manipulation;
+}
+.speak-button:hover { background:#dcedff; color:#0e5292; }
+.speak-button:active { background:#cce5ff; }
+.spoken-line { display:flex; align-items:center; gap:9px; min-width:0; }
+.word-heading { min-width:0; flex:1 1 auto; overflow-wrap:anywhere; }
+.word-heading .ipa { line-height:1.25; margin:2px 0; }
+.slow-speech { flex:0 0 auto; min-height:44px; padding:7px 9px; font-size:14px; }
+.word-spoken + .meaning { margin-top:5px; }
+.example-spoken { align-items:flex-start; margin:4px 0 0; }
+.example-spoken .spoken-copy { min-width:0; overflow-wrap:anywhere; }
+.example-spoken .spoken-copy p { margin:2px 0 0; }
+
+.vocab-entry {
+  display:flex;
+  gap:5px;
+  align-items:center;
+  min-width:0;
+  padding:4px 5px;
+  margin:6px 0;
+  border:1px solid #dfe7f1;
+  background:white;
+  border-radius:11px;
+}
+.vocab-entry > .result { flex:1 1 auto; min-width:0; width:auto; min-height:44px; padding:4px 7px; margin:0; border:0; }
+.vocab-entry > .result > .chip { max-width:42%; white-space:normal; overflow-wrap:anywhere; line-height:1.18; padding:4px 6px; }
+.vocab-entry > .result b { display:block; }
+.vocab-entry > .result small { line-height:1.35; }
+
+@media (max-width:640px) {
+  .spoken-line { gap:7px; }
+  .slow-speech { padding-inline:7px; }
+  .vocab-entry { padding:3px; gap:3px; }
+  .vocab-entry > .result { gap:5px; padding:4px; }
+}
+.word-spoken { text-align:center; }
+.word-spoken .word { font-size:clamp(29px,7vw,35px); line-height:1.14; }
+.word-audio { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:7px; margin-top:3px; }
+.word-audio .ipa { min-width:0; overflow-wrap:anywhere; line-height:1.25; }
+.word-spoken + .meaning { text-align:center; }
+.example-preview { margin:8px 0; padding:6px 8px; }
+.example-preview .spoken-line { margin:0; align-items:center; }
+.practice-mode-chooser { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; margin: 0 0 12px; }
+.practice-mode-chooser button,.practice-mode-chooser .practice-current { min-width: 0; min-height: 44px; margin: 0; padding: 7px 4px; border-radius: 13px; font-size: .88rem; line-height: 1.24; text-align: center; overflow-wrap: anywhere; }
+.practice-mode-chooser .practice-current { display: grid; place-items: center; background: #e6efff; color: #173a78; font-weight: 800; }
+#learn.practice-exercise-open > :is(.sectionhead,.learn-side,#learnSettings,#practiceModeChooser) { display: none !important; }
+#learn [data-extra-practice][hidden] { display: none !important; }
+@media (max-width: 640px) {
+ .practice-mode-chooser { gap: 6px; margin-bottom: 9px; }
+ .practice-mode-chooser button,.practice-mode-chooser .practice-current { font-size: .83rem; }
+}
