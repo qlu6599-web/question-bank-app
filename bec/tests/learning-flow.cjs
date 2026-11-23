@@ -6,7 +6,7 @@ const { chromium } = require("playwright");
   const browser = await chromium.launch({ executablePath: process.env.BEC_CHROMIUM || undefined });
   try {
     for (const width of [320, 390, 1280]) {
-      const context = await browser.newContext({ viewport: { width, height: 844 }, isMobile: width < 600, hasTouch: width < 600 });
+      const context = await browser.newContext({ viewport: { width, height: width <= 640 ? 667 : 844 }, isMobile: width < 600, hasTouch: width < 600 });
       await context.addInitScript(() => {
         window.spoken = [];
         window.SpeechSynthesisUtterance = class { constructor(text) { this.text = text; } };
@@ -36,7 +36,16 @@ const { chromium } = require("playwright");
       const go = async name => page.locator('[data-tab="' + name + '"]').click();
       const fit = async () => assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
       await fit();
+      if (width <= 640) {
+        const first = await page.evaluate(() => ({
+          homeStart: document.getElementById("homeStart").getBoundingClientRect().bottom,
+          homeWeak: document.getElementById("homeWeak").getBoundingClientRect().bottom,
+          bar: document.getElementById("navbar").getBoundingClientRect().top
+        }));
+        assert.ok(first.homeStart < first.bar && first.homeWeak < first.bar, "primary home actions stay above the fixed navigation");
+      }
       await go("learn");
+      if (width <= 640) await page.locator("#learnSettings > summary").click();
       await page.selectOption("#wordSource", "official");
       await page.click("#startWords");
       const before = await page.evaluate(() => JSON.stringify(deck()));
@@ -45,6 +54,7 @@ const { chromium } = require("playwright");
       await page.fill("#search", "company");
       assert.match(await page.locator(".result").first().innerText(), /company/);
       await page.locator(".result").first().click();
+      if (width <= 640) await page.locator("#wordDetail .word-details > summary").click();
       assert.match(await page.locator("#wordDetail").innerText(), /a trading company/);
       await page.locator('#wordDetail [data-say="a trading company"]').click();
       assert.deepEqual(await page.evaluate(() => spoken.at(-1)), ["a trading company", "en-GB", 0.82]);
@@ -89,7 +99,7 @@ const { chromium } = require("playwright");
       await page.selectOption("#wordFilter", "business");
       await page.fill("#search", "synergy");
       await page.locator(".result").first().click();
-      assert.match(await page.locator("#wordDetail").innerText(), /商务英语补充/);
+      assert.match(await page.locator("#wordDetail").textContent(), /商务英语补充/);
       await page.click("#practiceWord");
       await page.fill("#typing", "synergy");
       await page.click("#checkWord");
@@ -98,14 +108,15 @@ const { chromium } = require("playwright");
       await page.selectOption("#wordFilter", "pet-new");
       await page.fill("#search", "alarm clock");
       await page.locator(".result").first().click();
-      assert.match(await page.locator("#wordDetail").innerText(), /PET 2023/);
+      assert.match(await page.locator("#wordDetail").textContent(), /PET 2023/);
       for (const [source, term] of [["pet_intro","multiple-choice question"], ["pet_text","wordlist"], ["bec_text","annual report"], ["core_pdf","by the way"], ["bec_scenes","cold call"], ["bec_az","work order"]]) {
         await page.selectOption("#wordFilter", source);
         await page.fill("#search", term);
         await page.locator(".result").filter({hasText:term}).first().click();
-        assert.match(await page.locator("#wordDetail").innerText(), /PDF|考试介绍|PET 正文|BEC 正文|BEC 场景词汇|BEC 通关 A–Z/);
+        assert.match(await page.locator("#wordDetail").textContent(), /PDF|考试介绍|PET 正文|BEC 正文|BEC 场景词汇|BEC 通关 A–Z/);
       }
       await go("grammar");
+      if (width <= 640) await page.locator("#grammarSettings > summary").click();
       await page.locator("[data-lesson]").last().click();
       assert.equal(await page.locator("[data-lesson]").count(), 16);
       await fit();
