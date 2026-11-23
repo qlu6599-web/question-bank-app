@@ -21,7 +21,9 @@ const { chromium } = require("playwright");
       await page.goto(process.env.BEC_URL || "http://127.0.0.1:8765/bec/");
       await page.waitForFunction(() => !document.querySelector('#wordSource option[value="core"]').disabled);
       assert.equal(await page.title(), "BEC 起步｜手机学习版");
-      assert.equal(await page.evaluate(() => WORDS.length === 5293 + SUPPLEMENT.stats.added), true);
+      assert.equal(await page.evaluate(() => WORDS.length), 6053);
+      assert.equal(await page.evaluate(() => pdfStats.added), 219);
+      assert.equal(await page.evaluate(() => Object.values(pdfStats.groups).every(g => g.unresolved === 0)), true);
       assert.equal(await page.evaluate(() => WORDS.filter(w=>w.official_bec).length), 2842);
       assert.equal(await page.evaluate(() => WORDS.filter(w=>filterGroup(w,"business")).length), 46);
       assert.equal(await page.evaluate(() => WORDS.filter(w=>filterGroup(w,"pet-new")).length), await page.evaluate(() => SUPPLEMENT.stats.petAdded));
@@ -97,6 +99,12 @@ const { chromium } = require("playwright");
       await page.fill("#search", "alarm clock");
       await page.locator(".result").first().click();
       assert.match(await page.locator("#wordDetail").innerText(), /PET 2023/);
+      for (const [source, term] of [["pet_intro","multiple-choice question"], ["pet_text","wordlist"], ["bec_text","annual report"], ["core_pdf","by the way"]]) {
+        await page.selectOption("#wordFilter", source);
+        await page.fill("#search", term);
+        await page.locator(".result").filter({hasText:term}).first().click();
+        assert.match(await page.locator("#wordDetail").innerText(), /PDF|考试介绍|PET 正文|BEC 正文/);
+      }
       await go("grammar");
       await page.locator("[data-lesson]").last().click();
       assert.equal(await page.locator("[data-lesson]").count(), 16);
