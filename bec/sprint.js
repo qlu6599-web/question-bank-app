@@ -2,7 +2,7 @@
  "use strict";
  const BATCH_SIZE = 8;
  function mount({root, launchButtons, makeQuiz, selection, allWords, meaning, speak, stop,
-                 mastery, masteryButtons, bindMastery, speakerIcon, toast, onClose}) {
+                 mastery, masteryButtons, bindMastery, speakerIcon, audioSources, toast, onClose}) {
   const doc = root.ownerDocument, by = id => root.querySelector("#" + id);
   const body = by("sprintContent"), foot = by("sprintFoot"), progress = by("sprintProgress");
   const count = by("sprintCount"), close = by("sprintClose");
@@ -96,9 +96,22 @@
     session.mode === "weak" ? "未掌握词 · 选中文意思" : "今日闯关 · 选中文意思";
    body.append(node("p","sprint-kicker",kicker));
    const heading = title(card.term,true);
+   const media = named("audio", "sprintAudio", "sprint-native-audio");
+   media.preload = "none";
+   media.setAttribute("playsinline", "");
+   media.setAttribute("aria-label", "播放 " + card.term + " 的发音");
+   media.hidden = true;
    const hear = button(undefined,"sprint-speaker","sprintSpeak",()=>{
     notice.textContent="";
-    speak(card.term);
+    media.hidden = true;
+    media.controls = false;
+    const sources = audioSources?.(card.term) || [];
+    backup.hidden = !sources.length;
+    speak(card.term,false,{media,onStatus:status=>{
+     hear.dataset.playback = status;
+     if (status === "loading" || status === "playing") notice.textContent="";
+     if (status === "retry") notice.textContent="再点一次喇叭，或用下方的备用播放器。";
+    }});
    });
    hear.innerHTML = speakerIcon;
    hear.title = "听发音";
@@ -107,16 +120,44 @@
    prompt.append(heading,hear);
    const notice = named("p","sprintAudioNotice","sprint-muted sprint-audio-notice");
    notice.setAttribute("role","status");
+   const backup = button("备用播放器", "sprint-audio-backup", "sprintAudioBackup",()=>{
+    const urls = audioSources?.(card.term) || [];
+    if (!urls.length) return;
+    stop?.();
+    // Use the recorded file when available, independently of speech synthesis.
+    // Native Play is a fresh tap initiated directly by the learner.
+    const network = urls.find(src=>/^https?:/i.test(src));
+    const playable = network || urls[0];
+    if (media.src !== playable) media.src = playable;
+    media.controls = true;
+    media.hidden = false;
+    notice.textContent = "请点播放器里的三角按钮。";
+    backup.hidden = true;
+    if (network) {
+     const file = node("a","sprint-audio-link","单独打开音频");
+     file.href = network;
+     file.target = "_blank"; file.rel = "noopener noreferrer";
+     notice.append(" ", file);
+    }
+   });
+   backup.hidden = true;
+   // Expose independent native-player status for troubleshooting without moving the question.
+   media.addEventListener("playing",()=>{ if (media.controls) hear.dataset.playback="native-playing"; });
+   media.addEventListener("error",()=>{
+    if (!media.controls) return;
+    notice.textContent="音频没载入，请返回点蓝色喇叭重试。";
+    hear.dataset.playback="native-error";
+   });
    const options = named("div","sprintOptions","sprint-options");
    if (card.options.some(opt => opt.label.length > 26)) options.dataset.layout="stack";
    options.setAttribute("role","group"); options.setAttribute("aria-label","中文选项");
-   body.append(prompt,notice,options);
+   body.append(prompt,notice,backup,media,options);
    const feedback = named("p","sprintFeedback","sprint-feedback");
    feedback.setAttribute("role","status"); feedback.hidden = true;
    const masteryRow = node("div","sprint-mastery");
    masteryRow.hidden = true;
    const next = button("下一题","sprint-action","sprintNext",()=>{
-    if (session.quiz.next()) { stop?.(); render(); }
+    if (session.quiz.next()) { media.pause(); stop?.(); render(); }
    });
    next.disabled = true;
    next.setAttribute("aria-describedby","sprintFeedback");
@@ -171,6 +212,7 @@
   }
   close.addEventListener("click",closeDialog);
   root.addEventListener("close",()=>{
+   by("sprintAudio")?.pause();
    stop?.();
    doc.documentElement.classList.remove("sprint-modal-open");
    session = null; onClose?.();

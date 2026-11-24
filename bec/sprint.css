@@ -285,3 +285,11 @@ html.sprint-modal-open { overflow:hidden; }
 .sprint-mastery button { min-height:44px; padding:6px 8px; }
 .sprint-secondary { min-height:44px; }
 .practice-exercise-open #learnSprint { display:none; }
+.sprint-audio-backup {
+  align-self:center; min-height:44px; padding:5px 10px; border:0;
+  font-size:.875rem; background:transparent; color:#165a8a; text-decoration:underline;
+}
+.sprint-native-audio {
+  display:block; width:min(100%, 21rem); height:48px; align-self:center;
+}
+.sprint-audio-link { color:#165a8a; }
